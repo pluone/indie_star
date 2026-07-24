@@ -109,13 +109,6 @@ export default function HomeClient(props: HomeClientProps) {
     if (loadingRef.current || !hasMoreRef.current) return;
     loadingRef.current = true;
     setVisibleCounts((prev) => ({ ...prev, [board]: prev[board] + PAGE_SIZE }));
-    setTimeout(() => {
-      loadingRef.current = false;
-      // Keep auto-filling if the page still doesn't overflow the viewport (e.g. a tall monitor,
-      // or a short filtered list) — otherwise there's never another "scroll" event to trigger the
-      // next page, and the list gets stuck forever showing "加载中" with no scrollbar at all.
-      if (hasMoreRef.current && isNearBottom()) loadMore();
-    }, 100);
   }, [board]);
 
   // Scroll-driven loading — the normal case: a long list, user scrolls toward the bottom.
@@ -127,12 +120,19 @@ export default function HomeClient(props: HomeClientProps) {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [loadMore]);
 
-  // Also check right after mount and after every board/filter/search/sort change: the initial (or
-  // newly filtered) list may be shorter than the viewport, so no "scroll" event would ever fire to
-  // trigger the check above.
+  // Drives "keep auto-filling until the viewport overflows or the list is exhausted" entirely
+  // through React's own render cycle rather than a self-recursing timer. That matters: an earlier
+  // version had loadMore re-trigger itself via a setTimeout closure bound to whichever board was
+  // active when it was created — if the board changed while that timer was still pending (e.g.
+  // switching tabs, or a deep link like /?board=game re-pointing the board shortly after mount),
+  // the stale closure kept recursing for the OLD board and permanently held the shared "loading"
+  // flag true, blocking the new board's loads forever (stuck on "加载中" with no way to scroll).
+  // Resetting the flag here, keyed on `board` itself, means a board change always clears it in the
+  // context of the board that's actually current — nothing can go stale across a switch.
   useEffect(() => {
+    loadingRef.current = false;
     if (isNearBottom()) loadMore();
-  }, [filtered.length, loadMore]);
+  }, [board, visibleCount, filtered.length, loadMore]);
 
   let emptyMessage = "";
   if (filtered.length === 0) {
