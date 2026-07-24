@@ -27,6 +27,7 @@ node_modules/
 out/
 .next/
 next-env.d.ts
+*.tsbuildinfo
 
 # generated data (fetched fresh at build time from the `data` branch)
 public/data/

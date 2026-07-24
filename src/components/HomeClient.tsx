@@ -335,7 +335,7 @@ export default function HomeClient(props: HomeClientProps) {
                       color: fg,
                     }}
                   >
-                    {item.name.slice(0, 1)}
+                    {item.name.slice(0, 1).toUpperCase()}
                   </div>
                   <div style={{ flex: 1, minWidth: 0 }}>
                     <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
@@ -363,9 +363,8 @@ export default function HomeClient(props: HomeClientProps) {
                         fontSize: 14,
                         color: "oklch(52% 0.01 90)",
                         marginTop: 4,
-                        whiteSpace: "nowrap",
-                        overflow: "hidden",
-                        textOverflow: "ellipsis",
+                        whiteSpace: "normal",
+                        wordBreak: "break-word",
                       }}
                     >
                       {item.intro}

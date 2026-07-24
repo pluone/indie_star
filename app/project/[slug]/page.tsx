@@ -16,15 +16,6 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return { title: project ? `${project.name} · 独立星选 IndieStar` : "独立星选 IndieStar" };
 }
 
-const liveBadgeStyle: CSSProperties = {
-  padding: "4px 10px",
-  borderRadius: 5,
-  fontSize: 12,
-  fontWeight: 600,
-  background: "oklch(93% 0.06 150)",
-  color: "oklch(32% 0.1 150)",
-};
-
 const devBadgeStyle: CSSProperties = {
   padding: "4px 10px",
   borderRadius: 5,
@@ -70,7 +61,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
         <div style={{ minWidth: 0 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
             <h1 style={{ fontSize: 26, margin: 0, fontWeight: 700 }}>{project.name}</h1>
-            <span style={isLive ? liveBadgeStyle : devBadgeStyle}>{isLive ? "已上线" : "开发中"}</span>
+            {!isLive && <span style={devBadgeStyle}>开发中</span>}
           </div>
           <div style={{ marginTop: 8, fontSize: 13, color: "oklch(50% 0.01 90)" }}>
             收录于 {formatDateCN(project.date)} · {BOARD_LABEL[project.board]}
