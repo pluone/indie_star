@@ -13,7 +13,7 @@ const BOARD_KEYS: Board[] = ["main", "programmer", "game"];
 // column on very wide viewports (e.g. a 4K display fullscreen) — each row still spans full width
 // for its background/border, but its actual content is centered within this width, same as the
 // list below it.
-const CONTENT_MAX_WIDTH = 920;
+const CONTENT_MAX_WIDTH = 1080;
 type SortBy = "recent" | "likes" | "comments";
 
 interface HomeClientProps {
