@@ -1,0 +1,26 @@
+{
+  "name": "indie-star",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "node scripts/fetch-data.mjs",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "sync:content": "node scripts/sync-content.mjs",
+    "sync:stats": "node scripts/sync-giscus-stats.mjs"
+  },
+  "dependencies": {
+    "next": "16.2.11",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "26.1.1",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  }
+}

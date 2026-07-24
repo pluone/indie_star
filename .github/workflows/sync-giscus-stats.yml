@@ -1,0 +1,73 @@
+name: Sync giscus stats
+
+# Every 30 minutes: refreshes only likes/comments (+ meta.statsSyncedAt) on the existing
+# data/site-data.json checked out from the `data` branch — doesn't reparse content, so this is the
+# one job that reads the previous file (see scripts/sync-giscus-stats.mjs). Publishes back to
+# `data`, then triggers a Cloudflare Pages rebuild via its Deploy Hook.
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Checkout `data` branch worktree
+        id: data_branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git fetch origin data; then
+            git worktree add --track -b data /tmp/data-branch origin/data
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Skip (no `data` branch yet — run "Sync content" first)
+        if: steps.data_branch.outputs.exists != 'true'
+        run: echo "No data branch yet — nothing to update."
+
+      - name: Refresh counts
+        if: steps.data_branch.outputs.exists == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p data
+          cp /tmp/data-branch/data/site-data.json data/site-data.json
+          node scripts/sync-giscus-stats.mjs
+          cp data/site-data.json /tmp/data-branch/data/site-data.json
+
+      - name: Publish
+        if: steps.data_branch.outputs.exists == 'true'
+        id: publish
+        run: |
+          cd /tmp/data-branch
+          git add data/site-data.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "chore: sync giscus stats $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push origin data
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Trigger Cloudflare Pages deploy
+        if: steps.publish.outputs.changed == 'true'
+        run: curl -fsS -X POST "${{ secrets.CLOUDFLARE_DEPLOY_HOOK_URL }}"

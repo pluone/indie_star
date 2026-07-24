@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+input::placeholder {
+  color: oklch(65% 0.01 90);
+}
+
+::selection {
+  background: oklch(85% 0.06 45);
+}
+
+* {
+  box-sizing: border-box;
+}

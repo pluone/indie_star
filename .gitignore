@@ -21,3 +21,13 @@ env/
 .idea/
 
 chinese-independent-developer-master/
+
+# Node / Next.js
+node_modules/
+out/
+.next/
+next-env.d.ts
+
+# generated data (fetched fresh at build time from the `data` branch)
+public/data/
+data/site-data.json
