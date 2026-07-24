@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { CSSProperties } from "react";
 import type { Board, Project } from "@/lib/types";
 import { avatarColors, BOARD_LABEL, formatDateCN, inTimeRange, type TimeRange } from "@/lib/format";
@@ -21,6 +21,10 @@ interface HomeClientProps {
 
 function isBoard(value: string | null): value is Board {
   return value === "main" || value === "programmer" || value === "game";
+}
+
+function isNearBottom(): boolean {
+  return window.innerHeight + window.scrollY > document.documentElement.scrollHeight - 500;
 }
 
 function pillStyle(active: boolean): CSSProperties {
@@ -101,21 +105,34 @@ export default function HomeClient(props: HomeClientProps) {
   hasMoreRef.current = hasMore;
   const loadingRef = useRef(false);
 
+  const loadMore = useCallback(() => {
+    if (loadingRef.current || !hasMoreRef.current) return;
+    loadingRef.current = true;
+    setVisibleCounts((prev) => ({ ...prev, [board]: prev[board] + PAGE_SIZE }));
+    setTimeout(() => {
+      loadingRef.current = false;
+      // Keep auto-filling if the page still doesn't overflow the viewport (e.g. a tall monitor,
+      // or a short filtered list) — otherwise there's never another "scroll" event to trigger the
+      // next page, and the list gets stuck forever showing "加载中" with no scrollbar at all.
+      if (hasMoreRef.current && isNearBottom()) loadMore();
+    }, 100);
+  }, [board]);
+
+  // Scroll-driven loading — the normal case: a long list, user scrolls toward the bottom.
   useEffect(() => {
     function handleScroll() {
-      if (loadingRef.current || !hasMoreRef.current) return;
-      const nearBottom = window.innerHeight + window.scrollY > document.documentElement.scrollHeight - 500;
-      if (nearBottom) {
-        loadingRef.current = true;
-        setVisibleCounts((prev) => ({ ...prev, [board]: prev[board] + PAGE_SIZE }));
-        setTimeout(() => {
-          loadingRef.current = false;
-        }, 400);
-      }
+      if (isNearBottom()) loadMore();
     }
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [board]);
+  }, [loadMore]);
+
+  // Also check right after mount and after every board/filter/search/sort change: the initial (or
+  // newly filtered) list may be shorter than the viewport, so no "scroll" event would ever fire to
+  // trigger the check above.
+  useEffect(() => {
+    if (isNearBottom()) loadMore();
+  }, [filtered.length, loadMore]);
 
   let emptyMessage = "";
   if (filtered.length === 0) {
