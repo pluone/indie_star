@@ -6,7 +6,7 @@ const GISCUS_REPO_OWNER = "pluone";
 const GISCUS_REPO_NAME = "indie_star";
 const GISCUS_CATEGORY_ID = "DIC_kwDOThOK5s4DBzP3";
 const GRAPHQL_ENDPOINT = "https://api.github.com/graphql";
-const SLUG_TITLE_RE = /^\/project\/([0-9a-f]{12})$/;
+const SLUG_TITLE_RE = /^project\/([0-9a-f]{12})$/;
 const PAGE_SIZE = 100;
 const MAX_PAGES = 200; // safety cap, ~20k discussions
 
