@@ -338,7 +338,7 @@ export default function HomeClient(props: HomeClientProps) {
                     {item.name.slice(0, 1).toUpperCase()}
                   </div>
                   <div style={{ flex: 1, minWidth: 0 }}>
-                    <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
                       <span style={{ fontSize: 16, fontWeight: 600 }}>{item.name}</span>
                       {item.status === "developing" && (
                         <span
@@ -355,6 +355,11 @@ export default function HomeClient(props: HomeClientProps) {
                           }}
                         >
                           开发中
+                        </span>
+                      )}
+                      {item.author && (
+                        <span style={{ fontSize: 12, color: "oklch(58% 0.01 90)", whiteSpace: "nowrap" }}>
+                          by {item.author}
                         </span>
                       )}
                     </div>
