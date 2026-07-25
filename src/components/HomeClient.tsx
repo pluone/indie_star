@@ -243,11 +243,26 @@ export default function HomeClient(props: HomeClientProps) {
             margin: "0 auto",
             display: "flex",
             alignItems: "center",
+            justifyContent: "space-between",
             gap: 28,
             padding: "16px 40px",
             flexWrap: "wrap",
           }}
         >
+          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+            <span style={{ fontSize: 13, color: "oklch(52% 0.01 90)" }}>排序</span>
+            {(
+              [
+                ["recent", "时间最近"],
+                ["likes", "点赞最多"],
+                ["comments", "评论最多"],
+              ] as [SortBy, string][]
+            ).map(([key, label]) => (
+              <button key={key} onClick={() => setSortBy(key)} style={pillStyle(sortBy === key)}>
+                {label}
+              </button>
+            ))}
+          </div>
           <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
             <span style={{ fontSize: 13, color: "oklch(52% 0.01 90)" }}>收录时间</span>
             {(
@@ -259,21 +274,6 @@ export default function HomeClient(props: HomeClientProps) {
               ] as [TimeRange, string][]
             ).map(([key, label]) => (
               <button key={key} onClick={() => setTimeRange(key)} style={pillStyle(timeRange === key)}>
-                {label}
-              </button>
-            ))}
-          </div>
-          <div style={{ width: 1, height: 18, background: "oklch(90% 0.01 90)" }}></div>
-          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-            <span style={{ fontSize: 13, color: "oklch(52% 0.01 90)" }}>排序</span>
-            {(
-              [
-                ["recent", "时间最近"],
-                ["likes", "点赞最多"],
-                ["comments", "评论最多"],
-              ] as [SortBy, string][]
-            ).map(([key, label]) => (
-              <button key={key} onClick={() => setSortBy(key)} style={pillStyle(sortBy === key)}>
                 {label}
               </button>
             ))}
