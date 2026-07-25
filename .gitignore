@@ -1,0 +1,34 @@
+# 环境变量
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+chinese-independent-developer-master/
+
+# Node / Next.js
+node_modules/
+out/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+
+# generated data (fetched fresh at build time from the `data` branch)
+public/data/
+data/site-data.json
