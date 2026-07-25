@@ -147,136 +147,138 @@ export default function HomeClient(props: HomeClientProps) {
 
   return (
     <div>
-      <div style={{ borderBottom: "1px solid oklch(90% 0.01 90)" }}>
-        <div
-          style={{
-            maxWidth: CONTENT_MAX_WIDTH,
-            margin: "0 auto",
-            boxSizing: "border-box",
-            display: "flex",
-            alignItems: "center",
-            gap: 24,
-            padding: "20px 40px",
-            flexWrap: "wrap",
-          }}
-        >
-          <Link
-            href="/"
-            style={{ fontSize: 19, fontWeight: 700, whiteSpace: "nowrap", color: "inherit", textDecoration: "none" }}
+      <div style={{ position: "sticky", top: 0, zIndex: 20, background: "oklch(98% 0.006 90)" }}>
+        <div style={{ borderBottom: "1px solid oklch(90% 0.01 90)" }}>
+          <div
+            style={{
+              maxWidth: CONTENT_MAX_WIDTH,
+              margin: "0 auto",
+              boxSizing: "border-box",
+              display: "flex",
+              alignItems: "center",
+              gap: 24,
+              padding: "20px 40px",
+              flexWrap: "wrap",
+            }}
           >
-            独立星选 <span style={{ color: "oklch(58% 0.15 45)" }}>IndieStar</span>
-          </Link>
-          <div style={{ position: "relative", flex: 1, minWidth: 220, maxWidth: 460 }}>
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              style={{ position: "absolute", left: 12, top: "50%", transform: "translateY(-50%)" }}
-              fill="none"
-              stroke="oklch(60% 0.01 90)"
-              strokeWidth={2}
+            <Link
+              href="/"
+              style={{ fontSize: 19, fontWeight: 700, whiteSpace: "nowrap", color: "inherit", textDecoration: "none" }}
             >
-              <circle cx={11} cy={11} r={7}></circle>
-              <line x1={21} y1={21} x2={16.65} y2={16.65}></line>
-            </svg>
-            <input
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              placeholder="搜索项目名称或简介关键词"
-              style={{
-                width: "100%",
-                boxSizing: "border-box",
-                padding: "10px 14px 10px 36px",
-                borderRadius: 8,
-                border: "1px solid oklch(88% 0.01 90)",
-                background: "oklch(99% 0.004 90)",
-                fontSize: 14,
-                color: "oklch(20% 0.01 90)",
-                outline: "none",
-              }}
-            />
-          </div>
-          <div style={{ display: "flex", alignItems: "center", gap: 14, marginLeft: "auto" }}>
-            <Link href="/about" style={{ cursor: "pointer", fontSize: 14, color: "oklch(45% 0.01 90)" }}>
-              关于
+              独立星选 <span style={{ color: "oklch(58% 0.15 45)" }}>IndieStar</span>
             </Link>
+            <div style={{ position: "relative", flex: 1, minWidth: 220, maxWidth: 460 }}>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                style={{ position: "absolute", left: 12, top: "50%", transform: "translateY(-50%)" }}
+                fill="none"
+                stroke="oklch(60% 0.01 90)"
+                strokeWidth={2}
+              >
+                <circle cx={11} cy={11} r={7}></circle>
+                <line x1={21} y1={21} x2={16.65} y2={16.65}></line>
+              </svg>
+              <input
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                placeholder="搜索项目名称或简介关键词"
+                style={{
+                  width: "100%",
+                  boxSizing: "border-box",
+                  padding: "10px 14px 10px 36px",
+                  borderRadius: 8,
+                  border: "1px solid oklch(88% 0.01 90)",
+                  background: "oklch(99% 0.004 90)",
+                  fontSize: 14,
+                  color: "oklch(20% 0.01 90)",
+                  outline: "none",
+                }}
+              />
+            </div>
+            <div style={{ display: "flex", alignItems: "center", gap: 14, marginLeft: "auto" }}>
+              <Link href="/about" style={{ cursor: "pointer", fontSize: 14, color: "oklch(45% 0.01 90)" }}>
+                关于
+              </Link>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div>
-        <div
-          style={{ maxWidth: CONTENT_MAX_WIDTH, margin: "0 auto", display: "flex", gap: 6, padding: "18px 40px 0" }}
-        >
-          {BOARD_KEYS.map((key) => {
-            const active = board === key;
-            return (
-              <div
-                key={key}
-                onClick={() => setBoard(key)}
-                style={{
-                  padding: "8px 4px",
-                  marginRight: 8,
-                  cursor: "pointer",
-                  borderBottom: active ? "2px solid oklch(58% 0.15 45)" : "2px solid transparent",
-                }}
-              >
-                <span
+        <div>
+          <div
+            style={{ maxWidth: CONTENT_MAX_WIDTH, margin: "0 auto", display: "flex", gap: 6, padding: "18px 40px 0" }}
+          >
+            {BOARD_KEYS.map((key) => {
+              const active = board === key;
+              return (
+                <div
+                  key={key}
+                  onClick={() => setBoard(key)}
                   style={{
-                    fontSize: 15,
-                    fontWeight: active ? 700 : 500,
-                    color: active ? "oklch(20% 0.01 90)" : "oklch(52% 0.01 90)",
+                    padding: "8px 4px",
+                    marginRight: 8,
+                    cursor: "pointer",
+                    borderBottom: active ? "2px solid oklch(58% 0.15 45)" : "2px solid transparent",
                   }}
                 >
-                  {BOARD_LABEL[key]}
-                </span>
-              </div>
-            );
-          })}
-        </div>
-      </div>
-
-      <div style={{ borderBottom: "1px solid oklch(92% 0.01 90)" }}>
-        <div
-          style={{
-            maxWidth: CONTENT_MAX_WIDTH,
-            margin: "0 auto",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "space-between",
-            gap: 28,
-            padding: "16px 40px",
-            flexWrap: "wrap",
-          }}
-        >
-          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-            <span style={{ fontSize: 13, color: "oklch(52% 0.01 90)" }}>排序</span>
-            {(
-              [
-                ["recent", "时间最近"],
-                ["likes", "点赞最多"],
-                ["comments", "评论最多"],
-              ] as [SortBy, string][]
-            ).map(([key, label]) => (
-              <button key={key} onClick={() => setSortBy(key)} style={pillStyle(sortBy === key)}>
-                {label}
-              </button>
-            ))}
+                  <span
+                    style={{
+                      fontSize: 15,
+                      fontWeight: active ? 700 : 500,
+                      color: active ? "oklch(20% 0.01 90)" : "oklch(52% 0.01 90)",
+                    }}
+                  >
+                    {BOARD_LABEL[key]}
+                  </span>
+                </div>
+              );
+            })}
           </div>
-          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-            <span style={{ fontSize: 13, color: "oklch(52% 0.01 90)" }}>收录时间</span>
-            {(
-              [
-                ["month", "近一个月"],
-                ["quarter", "近三个月"],
-                ["year", "近一年"],
-                ["all", "全部"],
-              ] as [TimeRange, string][]
-            ).map(([key, label]) => (
-              <button key={key} onClick={() => setTimeRange(key)} style={pillStyle(timeRange === key)}>
-                {label}
-              </button>
-            ))}
+        </div>
+
+        <div style={{ borderBottom: "1px solid oklch(92% 0.01 90)" }}>
+          <div
+            style={{
+              maxWidth: CONTENT_MAX_WIDTH,
+              margin: "0 auto",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+              gap: 28,
+              padding: "16px 40px",
+              flexWrap: "wrap",
+            }}
+          >
+            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+              <span style={{ fontSize: 13, color: "oklch(52% 0.01 90)" }}>排序</span>
+              {(
+                [
+                  ["recent", "时间最近"],
+                  ["likes", "点赞最多"],
+                  ["comments", "评论最多"],
+                ] as [SortBy, string][]
+              ).map(([key, label]) => (
+                <button key={key} onClick={() => setSortBy(key)} style={pillStyle(sortBy === key)}>
+                  {label}
+                </button>
+              ))}
+            </div>
+            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+              <span style={{ fontSize: 13, color: "oklch(52% 0.01 90)" }}>收录时间</span>
+              {(
+                [
+                  ["month", "近一个月"],
+                  ["quarter", "近三个月"],
+                  ["year", "近一年"],
+                  ["all", "全部"],
+                ] as [TimeRange, string][]
+              ).map(([key, label]) => (
+                <button key={key} onClick={() => setTimeRange(key)} style={pillStyle(timeRange === key)}>
+                  {label}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       </div>
@@ -288,6 +290,9 @@ export default function HomeClient(props: HomeClientProps) {
             详见说明
           </Link>
           。
+        </div>
+        <div style={{ padding: "6px 0 12px", fontSize: 13, color: "oklch(48% 0.01 90)" }}>
+          共 <span style={{ fontWeight: 600, color: "oklch(28% 0.01 90)" }}>{filtered.length}</span> 个项目
         </div>
 
         {filtered.length === 0 ? (
