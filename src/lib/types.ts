@@ -10,7 +10,10 @@ export interface Project {
   slug: string;
   board: Board;
   name: string;
+  // Homepage list: plain text, markdown syntax stripped, trailing "- [更多介绍]()" extra dropped.
   intro: string;
+  // Detail page: full text exactly as authored upstream, extra content included, markdown intact.
+  introMarkdown: string;
   status: Status;
   date: string; // YYYY-MM-DD
   url: string;

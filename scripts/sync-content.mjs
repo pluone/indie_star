@@ -93,6 +93,19 @@ function parseAuthor(line) {
 }
 
 /**
+ * Strips markdown inline syntax down to plain text (link labels, code/bold/italic contents) —
+ * used for the homepage list, which should never show raw markdown syntax or invite navigation.
+ */
+function stripMarkdownToPlainText(text) {
+  return text
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/\*\*\*([^*]+)\*\*\*/g, "$1")
+    .replace(/\*\*([^*]+)\*\*/g, "$1")
+    .replace(/\*([^*]+)\*/g, "$1")
+    .replace(/`([^`]+)`/g, "$1");
+}
+
+/**
  * Parse a product line like:
  *   * :white_check_mark: [Paste It](url)：description - [extra](url)
  *   - :clock8: [Inalpha](url)：description
@@ -108,10 +121,13 @@ function parseProduct(line) {
   const rawText = m[4].trim();
   const status = STATUS_MAP[statusIcon] || statusIcon;
 
+  // introMarkdown keeps rawText untouched (including any trailing "- [更多介绍]()" extra) for the
+  // detail page. description drops that trailing extra and is then flattened to plain text for
+  // the homepage list.
   const descMatch = rawText.match(/^(.+?)\s*[-–—]\s*\[.+\]\(.+\)/);
   const description = descMatch ? descMatch[1].trim() : rawText;
 
-  return { status, name, url, description };
+  return { status, name, url, description: stripMarkdownToPlainText(description), introMarkdown: rawText };
 }
 
 function isDateHeader(line) {
@@ -173,6 +189,7 @@ function parseMarkdown(content, board) {
         url: product.url,
         status: product.status,
         intro: product.description,
+        introMarkdown: product.introMarkdown,
       });
       continue;
     }
@@ -256,6 +273,7 @@ async function main() {
         board: entry.board,
         name: entry.name,
         intro: entry.intro,
+        introMarkdown: entry.introMarkdown,
         status: entry.status,
         date: entry.date,
         url: entry.url,

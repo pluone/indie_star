@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import GiscusComments from "@/components/GiscusComments";
 import { avatarColors, BOARD_LABEL, formatDateCN } from "@/lib/format";
+import { renderInlineMarkdown } from "@/lib/inline-markdown";
 import { findProjectBySlug, getSiteData } from "@/lib/site-data";
 
 export function generateStaticParams() {
@@ -56,7 +57,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
             color: fg,
           }}
         >
-          {project.name.slice(0, 1)}
+          {project.name.slice(0, 1).toUpperCase()}
         </div>
         <div style={{ minWidth: 0 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
@@ -101,7 +102,9 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
         </div>
       </div>
 
-      <p style={{ fontSize: 16, lineHeight: 1.8, marginTop: 28, color: "oklch(25% 0.01 90)" }}>{project.intro}</p>
+      <p style={{ fontSize: 16, lineHeight: 1.8, marginTop: 28, color: "oklch(25% 0.01 90)" }}>
+        {renderInlineMarkdown(project.introMarkdown || project.intro)}
+      </p>
       <a
         href={project.url}
         target="_blank"
