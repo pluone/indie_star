@@ -1,12 +1,12 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-07-25T08:57:38.901Z",
-    "statsSyncedAt": "2026-07-25T23:27:24.344Z",
+    "contentSyncedAt": "2026-07-26T05:55:16.190Z",
+    "statsSyncedAt": "2026-07-26T05:55:16.190Z",
     "counts": {
       "main": 1620,
       "game": 109,
-      "programmer": 270,
-      "total": 1999
+      "programmer": 271,
+      "total": 2000
     }
   },
   "main": [
@@ -31841,6 +31841,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "5ec07125cd31",
+      "board": "programmer",
+      "name": "Probe",
+      "intro": "SMTP 邮箱验证诊断工具，通过 SMTP 协议验证邮箱地址真实性，支持 IP 池故障转移、一次性邮箱检测、29 个 RBL 黑名单扫描、域名健康检查（SPF/DKIM/DMARC/MX/PTR），HTTP API 和 CLI 双模式",
+      "introMarkdown": "SMTP 邮箱验证诊断工具，通过 SMTP 协议验证邮箱地址真实性，支持 IP 池故障转移、一次性邮箱检测、29 个 RBL 黑名单扫描、域名健康检查（SPF/DKIM/DMARC/MX/PTR），HTTP API 和 CLI 双模式 - [更多介绍](https://github.com/monto-fe/smtp-probe)",
+      "status": "live",
+      "date": "2026-07-25",
+      "url": "https://probe.uspeedo.online",
+      "author": "monto-fe",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/monto-fe"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "db0646f054c6",
       "board": "programmer",
