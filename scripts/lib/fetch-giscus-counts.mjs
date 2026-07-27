@@ -26,15 +26,20 @@ const QUERY = `
 `;
 
 /**
+ * @param {string} [tokenOverride] Explicit PAT to use (e.g. a Pages Function secret). Falls back to
+ *   process.env for the Node call sites (sync-content.mjs, sync-giscus-stats.mjs); guarded behind a
+ *   typeof check since `process` doesn't exist in the Workers runtime this module also runs in
+ *   (functions/api/stats.js).
  * @returns {Promise<Map<string, {likes: number, comments: number}>>}
  */
-export async function fetchGiscusCounts() {
-  const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
+export async function fetchGiscusCounts(tokenOverride) {
+  const token =
+    tokenOverride || (typeof process !== "undefined" ? process.env.GITHUB_TOKEN || process.env.GH_TOKEN : undefined);
   const counts = new Map();
 
   if (!token) {
     console.warn(
-      "[fetch-giscus-counts] No GITHUB_TOKEN/GH_TOKEN in env — skipping live counts fetch, all likes/comments will default to 0.",
+      "[fetch-giscus-counts] No token available — skipping live counts fetch, all likes/comments will default to 0.",
     );
     return counts;
   }
@@ -46,6 +51,11 @@ export async function fetchGiscusCounts() {
       headers: {
         "Content-Type": "application/json",
         Authorization: `bearer ${token}`,
+        // GitHub rejects requests with no User-Agent (403 "Request forbidden by administrative
+        // rules"). Node's fetch sends a default one, but the Workers runtime (functions/api/stats.js,
+        // via wrangler pages dev / Cloudflare) does not — so this must be set explicitly to work in
+        // both environments.
+        "User-Agent": "indie-star-giscus-stats",
       },
       body: JSON.stringify({
         query: QUERY,

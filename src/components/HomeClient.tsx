@@ -6,6 +6,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { CSSProperties } from "react";
 import type { Board, Project } from "@/lib/types";
 import { avatarColors, BOARD_LABEL, formatDateCN, inTimeRange, type TimeRange } from "@/lib/format";
+import { readGiscusStats, type GiscusStatsMap } from "@/lib/giscus-stats";
 
 const PAGE_SIZE = 8;
 const BOARD_KEYS: Board[] = ["main", "programmer", "game"];
@@ -48,11 +49,58 @@ function pillStyle(active: boolean): CSSProperties {
 export default function HomeClient(props: HomeClientProps) {
   const router = useRouter();
 
-  const boards: Record<Board, Project[]> = {
-    main: props.main,
-    game: props.game,
-    programmer: props.programmer,
-  };
+  // Near-real-time like/comment overlay on top of the static build-time numbers. Populated on
+  // mount and on tab refocus only — deliberately no persistent setInterval, which would jump items
+  // around mid-scroll under the likes/comments sort. Merge priority: localStorage (exact value from
+  // this browser's own giscus interactions) over /api/stats (edge-cached, shared) over the static
+  // props passed in from the server.
+  const [liveStats, setLiveStats] = useState<GiscusStatsMap>({});
+
+  useEffect(() => {
+    let cancelled = false;
+
+    function applyLocal(base: GiscusStatsMap): GiscusStatsMap {
+      return { ...base, ...readGiscusStats() };
+    }
+
+    async function refresh() {
+      // Apply localStorage immediately — instant and free, no need to wait on the network.
+      if (!cancelled) setLiveStats((prev) => applyLocal(prev));
+      try {
+        const res = await fetch("/api/stats", { cache: "no-store" });
+        if (!res.ok || cancelled) return;
+        const json = (await res.json()) as { data?: GiscusStatsMap };
+        setLiveStats(applyLocal(json.data ?? {}));
+      } catch {
+        // /api/stats unreachable — static + localStorage values still stand.
+      }
+    }
+
+    refresh();
+    function onVisibility() {
+      if (document.visibilityState === "visible") refresh();
+    }
+    document.addEventListener("visibilitychange", onVisibility);
+    return () => {
+      cancelled = true;
+      document.removeEventListener("visibilitychange", onVisibility);
+    };
+  }, []);
+
+  const boards: Record<Board, Project[]> = useMemo(() => {
+    const applyLiveStats = (list: Project[]): Project[] => {
+      if (Object.keys(liveStats).length === 0) return list;
+      return list.map((p) => {
+        const live = liveStats[p.slug];
+        return live ? { ...p, likes: live.likes, comments: live.comments } : p;
+      });
+    };
+    return {
+      main: applyLiveStats(props.main),
+      game: applyLiveStats(props.game),
+      programmer: applyLiveStats(props.programmer),
+    };
+  }, [props.main, props.game, props.programmer, liveStats]);
 
   // Deliberately NOT next/navigation's useSearchParams(): on a fully static export there's no
   // request-time query string, so a component that reads it must bail out to a Suspense fallback

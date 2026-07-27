@@ -1,5 +1,6 @@
 # 环境变量
 .env
+.dev.vars
 
 # Python
 __pycache__/
@@ -32,3 +33,5 @@ next-env.d.ts
 # generated data (fetched fresh at build time from the `data` branch)
 public/data/
 data/site-data.json
+
+.wrangler/
