@@ -1,6 +1,6 @@
 import type { CSSProperties } from "react";
-import Link from "next/link";
 import { notFound } from "next/navigation";
+import BackToListLink from "@/components/BackToListLink";
 import GiscusComments from "@/components/GiscusComments";
 import { avatarColors, BOARD_LABEL, formatDateCN, isImageUrl } from "@/lib/format";
 import { renderInlineMarkdown } from "@/lib/inline-markdown";
@@ -37,9 +37,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
 
   return (
     <div style={{ maxWidth: 760, margin: "0 auto", padding: "32px 24px 100px" }}>
-      <Link href="/" style={{ cursor: "pointer", fontSize: 14, color: "oklch(45% 0.01 90)", textDecoration: "none" }}>
-        ← 返回列表
-      </Link>
+      <BackToListLink />
 
       <div
         style={{

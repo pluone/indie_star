@@ -10,6 +10,25 @@ import { readGiscusStats, type GiscusStatsMap } from "@/lib/giscus-stats";
 
 const PAGE_SIZE = 8;
 const BOARD_KEYS: Board[] = ["main", "programmer", "game"];
+// Next.js App Router remounts the homepage from scratch on any navigation back to "/" — client
+// component state (loaded item count, filters, scroll position) isn't kept alive the way a
+// browser's native back-forward cache would. Stashing it here right before navigating to a project,
+// then restoring + consuming it on the next mount, is what actually makes "go back" land you where
+// you left off instead of a fresh page.
+const NAV_STATE_KEY = "indiestar:home-nav-state";
+
+interface SavedNavState {
+  board: Board;
+  search: string;
+  sortBy: SortBy;
+  timeRange: TimeRange;
+  visibleCount: number;
+  scrollY: number;
+  slug: string;
+}
+
+const HIGHLIGHT_HOLD_MS = 1200;
+const HIGHLIGHT_FADE_MS = 900;
 // Shared by the header, tabs, filter row, and list, so all four stay aligned to the same centered
 // column on very wide viewports (e.g. a 4K display fullscreen) — each row still spans full width
 // for its background/border, but its actual content is centered within this width, same as the
@@ -106,10 +125,6 @@ export default function HomeClient(props: HomeClientProps) {
   // window.location.search once after mount instead lets the default view (board=main) render
   // fully server-side, and only adjusts for a shared deep link once JS runs.
   const [board, setBoardState] = useState<Board>("main");
-  useEffect(() => {
-    const fromUrl = new URLSearchParams(window.location.search).get("board");
-    if (isBoard(fromUrl) && fromUrl !== "main") setBoardState(fromUrl);
-  }, []);
   const [timeRange, setTimeRange] = useState<TimeRange>("all");
   const [sortBy, setSortBy] = useState<SortBy>("recent");
   const [search, setSearch] = useState("");
@@ -118,6 +133,49 @@ export default function HomeClient(props: HomeClientProps) {
     game: PAGE_SIZE,
     programmer: PAGE_SIZE,
   });
+  const [pendingScrollY, setPendingScrollY] = useState<number | null>(null);
+  const [highlightSlug, setHighlightSlug] = useState<string | null>(null);
+  const [highlightVisible, setHighlightVisible] = useState(false);
+
+  useEffect(() => {
+    // Consume-once: a saved state means we're returning from a project detail page — restore it
+    // and clear it immediately, so a later plain reload of "/" doesn't keep reapplying stale state.
+    let saved: SavedNavState | null = null;
+    try {
+      const raw = sessionStorage.getItem(NAV_STATE_KEY);
+      if (raw) saved = JSON.parse(raw) as SavedNavState;
+    } catch {
+      // Corrupt/unavailable sessionStorage — fall through to the plain URL-based restore below.
+    }
+    if (saved) sessionStorage.removeItem(NAV_STATE_KEY);
+
+    if (saved && isBoard(saved.board)) {
+      setBoardState(saved.board);
+      setSearch(saved.search);
+      setSortBy(saved.sortBy);
+      setTimeRange(saved.timeRange);
+      setVisibleCounts((prev) => ({ ...prev, [saved.board]: Math.max(saved.visibleCount, PAGE_SIZE) }));
+      setPendingScrollY(saved.scrollY);
+      setHighlightSlug(saved.slug);
+      setHighlightVisible(true);
+      return;
+    }
+
+    const fromUrl = new URLSearchParams(window.location.search).get("board");
+    if (isBoard(fromUrl) && fromUrl !== "main") setBoardState(fromUrl);
+  }, []);
+
+  // Briefly flashes the row the user came back from, then fades it out and clears the target
+  // entirely — held long enough to register as "here's where you were", not so long it feels stuck.
+  useEffect(() => {
+    if (!highlightSlug) return;
+    const hideTimer = setTimeout(() => setHighlightVisible(false), HIGHLIGHT_HOLD_MS);
+    const clearTimer = setTimeout(() => setHighlightSlug(null), HIGHLIGHT_HOLD_MS + HIGHLIGHT_FADE_MS);
+    return () => {
+      clearTimeout(hideTimer);
+      clearTimeout(clearTimer);
+    };
+  }, [highlightSlug]);
 
   // Frozen at mount rather than recomputed every render — avoids items quietly shifting between
   // time-range buckets mid-session, and this is only used for the "近一个月/近三个月/近一年" filter.
@@ -127,6 +185,23 @@ export default function HomeClient(props: HomeClientProps) {
     setBoardState(next);
     setSearch("");
     window.history.replaceState(null, "", next === "main" ? "/" : `/?board=${next}`);
+  }
+
+  function saveNavState(slug: string) {
+    try {
+      const state: SavedNavState = {
+        board,
+        search,
+        sortBy,
+        timeRange,
+        visibleCount: visibleCounts[board],
+        scrollY: window.scrollY,
+        slug,
+      };
+      sessionStorage.setItem(NAV_STATE_KEY, JSON.stringify(state));
+    } catch {
+      // sessionStorage unavailable (e.g. private browsing) — next visit just won't restore.
+    }
   }
 
   const currentList = boards[board];
@@ -151,6 +226,17 @@ export default function HomeClient(props: HomeClientProps) {
   const visibleList = filtered.slice(0, visibleCount);
   const hasMore = filtered.length > visibleCount;
   const isFullyLoaded = !hasMore && filtered.length > 0;
+
+  // Waits a frame so the restored (taller) list has actually painted before jumping the scroll
+  // position — otherwise scrollTo would clamp to a document that's still its default short height.
+  useEffect(() => {
+    if (pendingScrollY === null) return;
+    const id = requestAnimationFrame(() => {
+      window.scrollTo(0, pendingScrollY);
+      setPendingScrollY(null);
+    });
+    return () => cancelAnimationFrame(id);
+  }, [pendingScrollY, visibleList.length]);
 
   const hasMoreRef = useRef(hasMore);
   hasMoreRef.current = hasMore;
@@ -377,11 +463,15 @@ export default function HomeClient(props: HomeClientProps) {
           <div>
             {visibleList.map((item) => {
               const { bg, fg } = avatarColors(item.name);
+              const isHighlightTarget = item.slug === highlightSlug;
               return (
                 <div
                   key={item.slug}
                   className="project-row"
-                  onClick={() => router.push(`/project/${item.slug}`)}
+                  onClick={() => {
+                    saveNavState(item.slug);
+                    router.push(`/project/${item.slug}`);
+                  }}
                   style={{
                     display: "flex",
                     alignItems: "center",
@@ -391,6 +481,16 @@ export default function HomeClient(props: HomeClientProps) {
                     borderRadius: 10,
                     borderBottom: "1px solid oklch(93% 0.01 90)",
                     cursor: "pointer",
+                    // Inline, and only present for the one row being flashed — this always wins
+                    // over the .project-row CSS class (including its :hover rule), which is exactly
+                    // what we want for the highlight, but must be gone entirely once it clears so
+                    // normal hover behavior resumes for that row.
+                    ...(isHighlightTarget
+                      ? {
+                          backgroundColor: highlightVisible ? "oklch(94% 0.05 45)" : "transparent",
+                          transition: "background-color 900ms ease-out",
+                        }
+                      : {}),
                   }}
                 >
                   <div
@@ -444,7 +544,10 @@ export default function HomeClient(props: HomeClientProps) {
                       <Link
                         href={isImageUrl(item.url) ? `/project/${item.slug}` : item.url}
                         {...(isImageUrl(item.url) ? {} : { target: "_blank", rel: "noreferrer" })}
-                        onClick={(e) => e.stopPropagation()}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          if (isImageUrl(item.url)) saveNavState(item.slug);
+                        }}
                         className="project-row-link"
                         style={{
                           display: "flex",
