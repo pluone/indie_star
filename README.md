@@ -6,8 +6,8 @@
 
 - **Next.js 16**(`output: "export"` 静态导出)+ React 19 + TypeScript
 - **giscus**(`@giscus/react`)—— 详情页的点赞 / 评论,后端是本仓库的 GitHub Discussions
-- **Cloudflare Pages** —— 托管静态产物 `out/`
-- **GitHub Actions** —— 定时抓取上游内容 / giscus 数据,产物落在独立的 `data` 分支
+- **Cloudflare Pages** —— 托管静态产物 `out/`,并跑 `functions/api/stats.js`(Pages Function,近实时点赞/评论数,见下)
+- **GitHub Actions** —— 定时抓取上游内容,产物落在独立的 `data` 分支
 
 ## 架构与数据流
 
@@ -39,7 +39,7 @@ GitHub Discussions ──────┘         (sync-content.mjs)             
 |---|---|---|
 | `scripts/fetch-data.mjs` | 自动在 `build` 前跑(`prebuild`) | 从 `data` 分支拉 `site-data.json` 到 `public/data/`;`data` 分支不存在时回退本地 `data/site-data.json` |
 | `scripts/sync-content.mjs` | `npm run sync:content` | 解析上游 3 个 README + 实时抓 giscus 计数,**全量重建** `data/site-data.json` |
-| `scripts/sync-giscus-stats.mjs` | `npm run sync:stats` | 只刷新点赞 / 评论数(已计划弃用,见下) |
+| `scripts/sync-giscus-stats.mjs` | `npm run sync:stats` | 只刷新点赞 / 评论数。**已弃用,不会在生产环境启用**——点赞/评论的实时性现在由 `/api/stats` 这条链路负责,见下方「近实时点赞/评论数」 |
 
 ## 本地开发
 
@@ -78,7 +78,11 @@ npm run build      # 先跑 prebuild 拉数据,再静态导出到 out/
 | Build output directory | `out` |
 | 环境变量 `NODE_VERSION` | `24`(当前最新 LTS;Next 16 需 Node ≥ 18.18) |
 
-> 构建本身**不需要任何 secret** —— `fetch-data.mjs` 只是匿名拉取 `data` 分支的 raw 文件。
+> 构建本身**不需要任何 secret** —— `fetch-data.mjs` 只是匿名拉取 `data` 分支的 raw 文件。但要让 `/api/stats` 这个 Pages Function 正常工作,需要在该项目 **Settings → Environment variables** 里加一个 secret:
+
+| Secret(Pages 项目环境变量) | 说明 |
+|---|---|
+| `GISCUS_STATS_TOKEN` | 一个只读的 GitHub PAT(建议 fine-grained,只授权本仓库 `Discussions: Read-only`)。**专用于这个 Function,不要复用 Actions 的 `GITHUB_TOKEN`** —— 那个是 CI 专用,这个是面向公网的边缘函数。缺了它 `/api/stats` 不会报错,只会一直返回空数据,首页照样能正常显示(退回静态快照)。 |
 
 ### 2. 创建 Deploy Hook
 
@@ -99,14 +103,43 @@ npm run build      # 先跑 prebuild 拉数据,再静态导出到 out/
 `data` 分支由 Actions 首次运行 `sync-content` 时自动创建。可以在 GitHub **Actions → Sync content → Run workflow** 手动触发一次,生成 `data` 分支并首次填充数据。之后:
 
 - **Sync content**(`.github/workflows/sync-content.yml`):每天 03:00 UTC 全量重建。
-- **Sync giscus stats**(`.github/workflows/sync-giscus-stats.yml`):每 30 分钟刷新计数(**计划弃用**,见下)。
+- **Sync giscus stats**(`.github/workflows/sync-giscus-stats.yml`):每 30 分钟刷新计数。**已弃用**,不建议启用——点赞/评论的实时性已经交给下面「近实时点赞/评论数」这条链路负责,这个 workflow 文件目前还留着但不应该再手动触发。
 
 两个 workflow 都会在更新 `data` 分支后触发 Deploy Hook 重新部署。
 
 ## 前置依赖:giscus
 
-点赞 / 评论依赖本仓库(`pluone/indie_star`)开启 **GitHub Discussions**,并安装 [giscus app](https://github.com/apps/giscus)。当前配置(见 `src/components/GiscusComments.tsx`):`mapping="pathname"`、category `Announcements`、`theme="preferred_color_scheme"`、`lang="zh-CN"`。
+点赞 / 评论依赖本仓库(`pluone/indie_star`)开启 **GitHub Discussions**,并安装 [giscus app](https://github.com/apps/giscus)。当前配置(见 `src/components/GiscusComments.tsx`):`mapping="pathname"`、category `Announcements`、`theme="https://indie-star.pages.dev/giscus-theme.css"`(自定义主题,与站点配色一致,见 `public/giscus-theme.css`)、`lang="zh-CN"`、`emitMetadata="1"`。
 
-## 后续计划
+## 近实时点赞 / 评论数
 
-首页点赞 / 评论数目前依赖 `data` 分支里的静态快照(最多滞后 30 分钟)。已规划一套**近实时方案**(Cloudflare Pages Function `/api/stats` + 边缘缓存 + giscus `emitMetadata`),届时 `sync-giscus-stats` 定时任务将弃用。**尚未实现。**
+首页的点赞 / 评论数不是单纯依赖每日一次的静态构建,而是三层叠加、逐层兜底,任何一层失效都不影响页面正常显示:
+
+```
+1. 静态兜底(SSR)          data/site-data.json 构建时的快照,首屏直接可见,永不 404/报错
+2. 服务端轮询 + 边缘缓存    浏览器打开页面 / 切回标签页时立即请求 /api/stats
+   (functions/api/stats.js)  → Cloudflare Cache API 缓存(10s 内直接命中;10~60s 内先返回旧值,
+                                后台异步刷新;>60s 才会同步阻塞查一次 GitHub GraphQL)
+3. localStorage(本机精确值) 详情页 giscus emitMetadata="1" 回传的实时点赞/评论数,
+   (src/components/           写入 localStorage;首页读取后按项目覆盖显示,只覆盖当前浏览器
+    GiscusComments.tsx)       交互过的项目,0 延迟、0 额外请求
+```
+
+合并优先级:`localStorage`(如果有)> `/api/stats` 结果 > 静态快照。三者中任意一层失败,都自动回退到优先级更低的那一层,页面不会因此出错或卡住。
+
+- `/api/stats` 用的是 Cache API(`caches.default`),不是 Workers KV——KV 免费额度每天只有 1,000 次写入,按这个刷新频率会很快超额。
+- 没有持续轮询(`setInterval`):只在页面加载、和标签页重新可见(`visibilitychange`)时请求一次,避免"点赞最多"排序下的项目列表在用户浏览时无声地跳动。
+- 本地测试这个 Function(`next dev` 不会跑 `functions/` 目录,必须用 wrangler):
+
+  ```bash
+  npm run build
+  npx wrangler pages dev out
+  ```
+
+  想连通真实 GitHub 数据,在项目根目录建一个 `.dev.vars`(已 gitignore,不会被提交):
+
+  ```
+  GISCUS_STATS_TOKEN=<你的 PAT>
+  ```
+
+  wrangler 会自动读取并注入为 `env.GISCUS_STATS_TOKEN`。
