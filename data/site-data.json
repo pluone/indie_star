@@ -1,15 +1,91 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-07-26T05:55:16.190Z",
-    "statsSyncedAt": "2026-07-26T05:55:16.190Z",
+    "contentSyncedAt": "2026-07-27T03:57:12.003Z",
+    "statsSyncedAt": "2026-07-27T03:57:12.003Z",
     "counts": {
-      "main": 1620,
-      "game": 109,
-      "programmer": 271,
-      "total": 2000
+      "main": 1624,
+      "game": 110,
+      "programmer": 272,
+      "total": 2006
     }
   },
   "main": [
+    {
+      "slug": "428f75fc670b",
+      "board": "main",
+      "name": "Scribix",
+      "intro": "上传音视频或粘贴 YouTube 链接，生成带说话人标记和时间戳的可编辑文字，并可导出字幕与文档",
+      "introMarkdown": "上传音视频或粘贴 YouTube 链接，生成带说话人标记和时间戳的可编辑文字，并可导出字幕与文档",
+      "status": "live",
+      "date": "2026-07-27",
+      "url": "https://scribix.io/",
+      "author": "suio03",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/suio03"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "2bb7f3b3760a",
+      "board": "main",
+      "name": "算了么",
+      "intro": "八字四柱、三张牌塔罗与吠陀占星在线解读，支持保存历史记录并查看公开的方法说明",
+      "introMarkdown": "八字四柱、三张牌塔罗与吠陀占星在线解读，支持保存历史记录并查看公开的方法说明",
+      "status": "live",
+      "date": "2026-07-26",
+      "url": "https://suanlem.asia/",
+      "author": "Maynor996",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Maynor996"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "0b9346c4699c",
+      "board": "main",
+      "name": "FileTags",
+      "intro": "文件标签分类检索与管理桌面软件，跨平台（Windows、Linux）",
+      "introMarkdown": "文件标签分类检索与管理桌面软件，跨平台（Windows、Linux） - [更多介绍](https://www.bilibili.com/video/BV1EMjH6NEtE/)",
+      "status": "live",
+      "date": "2026-07-26",
+      "url": "https://zhengmingpei.github.io/FileTags/",
+      "author": "zhengmingpei",
+      "authorLinks": [
+        {
+          "label": "Bilibili",
+          "url": "https://space.bilibili.com/32918983"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "c477bcfbd44b",
+      "board": "main",
+      "name": "CelebrateYou",
+      "intro": "AI 音乐生成器",
+      "introMarkdown": "AI 音乐生成器",
+      "status": "live",
+      "date": "2026-07-26",
+      "url": "https://celebrateyou.app/",
+      "author": "hwlvipone",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hwlvipone"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "dfcf2268b289",
       "board": "main",
@@ -84,7 +160,7 @@
         }
       ],
       "likes": 1,
-      "comments": 1
+      "comments": 5
     },
     {
       "slug": "ad0ed3289e85",
@@ -29787,6 +29863,25 @@
   ],
   "game": [
     {
+      "slug": "7cbd70e231bc",
+      "board": "game",
+      "name": "Grow a garden2",
+      "intro": "Grow a Garden 2 游戏攻略与代码查询网站",
+      "introMarkdown": "Grow a Garden 2 游戏攻略与代码查询网站",
+      "status": "live",
+      "date": "2026-07-26",
+      "url": "https://www.growagardens2codes.com/",
+      "author": "fastend",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fastend"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "8afdb84095a2",
       "board": "game",
       "name": "Palworld Breeding Calculator",
@@ -31841,6 +31936,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "813e1826ac19",
+      "board": "programmer",
+      "name": "Vibe Roaster",
+      "intro": "本地读取 Codex、Claude Code、Cursor 等 AI 编程会话，生成 16 型编程人格、证据化吐槽与可分享卡片；一条 npx 命令运行，原始提示词不离开本机",
+      "introMarkdown": "本地读取 Codex、Claude Code、Cursor 等 AI 编程会话，生成 16 型编程人格、证据化吐槽与可分享卡片；一条 `npx` 命令运行，原始提示词不离开本机",
+      "status": "live",
+      "date": "2026-07-27",
+      "url": "https://github.com/PinkR1ver/vibe-roast",
+      "author": "PinkR1ver",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/PinkR1ver"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "5ec07125cd31",
       "board": "programmer",
