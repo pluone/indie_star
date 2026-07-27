@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { CSSProperties } from "react";
 import type { Board, Project } from "@/lib/types";
-import { avatarColors, BOARD_LABEL, formatDateCN, inTimeRange, type TimeRange } from "@/lib/format";
+import { avatarColors, BOARD_LABEL, formatDateCN, inTimeRange, isImageUrl, type TimeRange } from "@/lib/format";
 import { readGiscusStats, type GiscusStatsMap } from "@/lib/giscus-stats";
 
 const PAGE_SIZE = 8;
@@ -21,8 +21,6 @@ interface HomeClientProps {
   main: Project[];
   game: Project[];
   programmer: Project[];
-  contentSyncedAt: string;
-  statsSyncedAt: string;
 }
 
 function isBoard(value: string | null): value is Board {
@@ -165,9 +163,11 @@ export default function HomeClient(props: HomeClientProps) {
   }, [board]);
 
   // Scroll-driven loading — the normal case: a long list, user scrolls toward the bottom.
+  const [showBackToTop, setShowBackToTop] = useState(false);
   useEffect(() => {
     function handleScroll() {
       if (isNearBottom()) loadMore();
+      setShowBackToTop(window.scrollY > 800);
     }
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
@@ -209,13 +209,23 @@ export default function HomeClient(props: HomeClientProps) {
               flexWrap: "wrap",
             }}
           >
-            <Link
-              href="/"
-              style={{ fontSize: 19, fontWeight: 700, whiteSpace: "nowrap", color: "inherit", textDecoration: "none" }}
-            >
-              独立星选 <span style={{ color: "oklch(58% 0.15 45)" }}>IndieStar</span>
-            </Link>
-            <div style={{ position: "relative", flex: 1, minWidth: 220, maxWidth: 460 }}>
+            <div style={{ flex: 1, minWidth: 0, display: "flex", justifyContent: "flex-start" }}>
+              <Link
+                href="/"
+                style={{
+                  fontSize: 19,
+                  fontWeight: 700,
+                  whiteSpace: "nowrap",
+                  color: "inherit",
+                  textDecoration: "none",
+                }}
+              >
+                独立星选 <span style={{ color: "oklch(58% 0.15 45)" }}>IndieStar</span>
+              </Link>
+            </div>
+            {/* Fixed-ish width slot flanked by two flex:1 siblings of equal grow — that's what
+                actually centers it in the row, since the logo and "关于" link differ in width. */}
+            <div style={{ position: "relative", flexShrink: 0, width: "100%", minWidth: 220, maxWidth: 460 }}>
               <svg
                 width="16"
                 height="16"
@@ -245,8 +255,11 @@ export default function HomeClient(props: HomeClientProps) {
                 }}
               />
             </div>
-            <div style={{ display: "flex", alignItems: "center", gap: 14, marginLeft: "auto" }}>
-              <Link href="/about" style={{ cursor: "pointer", fontSize: 14, color: "oklch(45% 0.01 90)" }}>
+            <div style={{ flex: 1, minWidth: 0, display: "flex", alignItems: "center", justifyContent: "flex-end", gap: 14 }}>
+              <Link
+                href="/about"
+                style={{ cursor: "pointer", fontSize: 14, color: "oklch(45% 0.01 90)", textDecoration: "none" }}
+              >
                 关于
               </Link>
             </div>
@@ -255,7 +268,14 @@ export default function HomeClient(props: HomeClientProps) {
 
         <div>
           <div
-            style={{ maxWidth: CONTENT_MAX_WIDTH, margin: "0 auto", display: "flex", gap: 6, padding: "18px 40px 0" }}
+            style={{
+              maxWidth: CONTENT_MAX_WIDTH,
+              margin: "0 auto",
+              display: "flex",
+              alignItems: "center",
+              gap: 6,
+              padding: "18px 40px 0",
+            }}
           >
             {BOARD_KEYS.map((key) => {
               const active = board === key;
@@ -282,6 +302,14 @@ export default function HomeClient(props: HomeClientProps) {
                 </div>
               );
             })}
+            <div style={{ marginLeft: "auto", fontSize: 13, color: "oklch(52% 0.01 90)", whiteSpace: "nowrap" }}>
+              共 <span style={{ fontWeight: 600, color: "oklch(28% 0.01 90)" }}>{filtered.length}</span> 个
+              {hasMore && (
+                <>
+                  ，已加载 <span style={{ fontWeight: 600, color: "oklch(28% 0.01 90)" }}>{visibleList.length}</span> 个
+                </>
+              )}
+            </div>
           </div>
         </div>
 
@@ -331,18 +359,7 @@ export default function HomeClient(props: HomeClientProps) {
         </div>
       </div>
 
-      <div style={{ maxWidth: CONTENT_MAX_WIDTH, margin: "0 auto", padding: "0 40px" }}>
-        <div style={{ padding: "14px 0 4px", fontSize: 12, color: "oklch(58% 0.01 90)" }}>
-          项目列表同步于 {props.contentSyncedAt}，点赞与评论同步于 {props.statsSyncedAt}，可能有短暂延迟，
-          <Link href="/about" style={{ textDecoration: "underline", color: "inherit" }}>
-            详见说明
-          </Link>
-          。
-        </div>
-        <div style={{ padding: "6px 0 12px", fontSize: 13, color: "oklch(48% 0.01 90)" }}>
-          共 <span style={{ fontWeight: 600, color: "oklch(28% 0.01 90)" }}>{filtered.length}</span> 个项目
-        </div>
-
+      <div style={{ maxWidth: CONTENT_MAX_WIDTH, margin: "0 auto", padding: "12px 40px 0" }}>
         {filtered.length === 0 ? (
           <div style={{ padding: "100px 0", textAlign: "center" }}>
             <div
@@ -363,12 +380,15 @@ export default function HomeClient(props: HomeClientProps) {
               return (
                 <div
                   key={item.slug}
+                  className="project-row"
                   onClick={() => router.push(`/project/${item.slug}`)}
                   style={{
                     display: "flex",
                     alignItems: "center",
                     gap: 16,
-                    padding: "18px 0",
+                    padding: "18px 12px",
+                    margin: "0 -12px",
+                    borderRadius: 10,
                     borderBottom: "1px solid oklch(93% 0.01 90)",
                     cursor: "pointer",
                   }}
@@ -392,7 +412,9 @@ export default function HomeClient(props: HomeClientProps) {
                   </div>
                   <div style={{ flex: 1, minWidth: 0 }}>
                     <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
-                      <span style={{ fontSize: 16, fontWeight: 600 }}>{item.name}</span>
+                      <span className="project-row-name" style={{ fontSize: 16, fontWeight: 600 }}>
+                        {item.name}
+                      </span>
                       {item.status === "developing" && (
                         <span
                           style={{
@@ -415,6 +437,31 @@ export default function HomeClient(props: HomeClientProps) {
                           by {item.author}
                         </span>
                       )}
+                      {/* Image-linked projects (mostly WeChat mini-programs whose "link" is a QR code)
+                          route to the detail page instead of the raw image — same icon, same spot,
+                          on every row, so nothing about its presence looks inconsistent; only where
+                          it goes differs, and the detail page already renders the image properly. */}
+                      <Link
+                        href={isImageUrl(item.url) ? `/project/${item.slug}` : item.url}
+                        {...(isImageUrl(item.url) ? {} : { target: "_blank", rel: "noreferrer" })}
+                        onClick={(e) => e.stopPropagation()}
+                        className="project-row-link"
+                        style={{
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          width: 22,
+                          height: 22,
+                          borderRadius: 6,
+                          textDecoration: "none",
+                        }}
+                      >
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
+                          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                          <polyline points="15 3 21 3 21 9"></polyline>
+                          <line x1={10} y1={14} x2={21} y2={3}></line>
+                        </svg>
+                      </Link>
                     </div>
                     <div
                       style={{
@@ -471,29 +518,6 @@ export default function HomeClient(props: HomeClientProps) {
                     </svg>
                     <span style={{ fontFamily: "ui-monospace,'SFMono-Regular',monospace" }}>{item.comments}</span>
                   </div>
-                  <a
-                    href={item.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    onClick={(e) => e.stopPropagation()}
-                    style={{
-                      flexShrink: 0,
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      width: 30,
-                      height: 30,
-                      borderRadius: 6,
-                      color: "oklch(45% 0.01 90)",
-                      textDecoration: "none",
-                    }}
-                  >
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
-                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                      <polyline points="15 3 21 3 21 9"></polyline>
-                      <line x1={10} y1={14} x2={21} y2={3}></line>
-                    </svg>
-                  </a>
                 </div>
               );
             })}
@@ -519,6 +543,35 @@ export default function HomeClient(props: HomeClientProps) {
           </div>
         )}
       </div>
+
+      {showBackToTop && (
+        <button
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          aria-label="回到顶部"
+          style={{
+            position: "fixed",
+            right: 24,
+            bottom: 24,
+            width: 44,
+            height: 44,
+            borderRadius: "50%",
+            border: "1px solid oklch(88% 0.01 90)",
+            background: "oklch(99% 0.004 90)",
+            color: "oklch(45% 0.01 90)",
+            boxShadow: "0 2px 10px oklch(20% 0.01 90 / 15%)",
+            cursor: "pointer",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            zIndex: 30,
+          }}
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
+            <line x1={12} y1={19} x2={12} y2={5}></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+          </svg>
+        </button>
+      )}
     </div>
   );
 }

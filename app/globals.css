@@ -10,6 +10,38 @@ input::placeholder {
   background: oklch(85% 0.06 45);
 }
 
+.project-row {
+  transition: background-color 0.15s ease;
+}
+
+.project-row:hover {
+  background-color: oklch(96% 0.01 90);
+}
+
+.project-row-name {
+  transition: color 0.15s ease;
+}
+
+.project-row:hover .project-row-name {
+  color: oklch(58% 0.15 45);
+}
+
+.project-row-link {
+  opacity: 0;
+  color: oklch(45% 0.01 90);
+  transition: opacity 0.15s ease, color 0.15s ease;
+}
+
+.project-row:hover .project-row-link,
+.project-row-link:focus-visible {
+  opacity: 1;
+}
+
+.project-row-link:hover,
+.project-row-link:focus-visible {
+  color: oklch(58% 0.15 45);
+}
+
 * {
   box-sizing: border-box;
 }

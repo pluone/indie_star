@@ -1,13 +1,13 @@
 name: Sync content
 
-# Daily: parses the 3 upstream README files straight into data/site-data.json (no intermediate
-# output.json — see scripts/sync-content.mjs) and live-fetches current giscus counts too, so this
-# is a fully fresh rebuild every run. Publishes the result to the `data` branch (never `main`),
-# then triggers a Cloudflare Pages rebuild via its Deploy Hook.
+# Daily at 05:00 UTC+8 (21:00 UTC, previous day): parses the 3 upstream README files straight into
+# data/site-data.json (no intermediate output.json — see scripts/sync-content.mjs) and live-fetches
+# current giscus counts too, so this is a fully fresh rebuild every run. Publishes the result to the
+# `data` branch (never `main`), then triggers a Cloudflare Pages rebuild via its Deploy Hook.
 
 on:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "0 21 * * *"
   workflow_dispatch: {}
 
 permissions:

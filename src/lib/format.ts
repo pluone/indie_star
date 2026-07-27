@@ -45,3 +45,11 @@ export function avatarColors(name: string): { bg: string; fg: string } {
   const [bg, fg] = AVATAR_PALETTE[hashCode(name) % AVATAR_PALETTE.length];
   return { bg, fg };
 }
+
+// Some upstream project entries (mostly WeChat mini-programs, which have no browsable URL) link
+// straight to a QR code image instead of a webpage. Whether that opens inline or force-downloads
+// depends on the image host's own response headers, which we don't control — so instead of
+// navigating there, callers should render these as an <img> directly on the page.
+export function isImageUrl(url: string): boolean {
+  return /\.(jpe?g|png)(\?.*)?(#.*)?$/i.test(url);
+}
