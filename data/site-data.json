@@ -1,15 +1,72 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-07-28T07:15:26.426Z",
-    "statsSyncedAt": "2026-07-28T07:15:26.426Z",
+    "contentSyncedAt": "2026-07-28T21:58:09.357Z",
+    "statsSyncedAt": "2026-07-28T21:58:09.357Z",
     "counts": {
-      "main": 1627,
+      "main": 1629,
       "game": 111,
-      "programmer": 271,
-      "total": 2009
+      "programmer": 276,
+      "total": 2016
     }
   },
   "main": [
+    {
+      "slug": "123a88413c68",
+      "board": "main",
+      "name": "intro3d",
+      "intro": "上传照片或自有 3D 模型，设置镜头动画和作品内容，发布可分享的 3D 展示页 — 无代码 3D 个人主页制作工具",
+      "introMarkdown": "上传照片或自有 3D 模型，设置镜头动画和作品内容，发布可分享的 3D 展示页 — 无代码 3D 个人主页制作工具",
+      "status": "live",
+      "date": "2026-07-28",
+      "url": "https://intro3d.com/zh",
+      "author": "yuhoayu-arch",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yuhoayu-arch"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "23f646a057a3",
+      "board": "main",
+      "name": "薪跳 PayDance",
+      "intro": "轻量优雅的「实时工资」小软件，根据用户的薪资和上下班时间动态计算每一秒的收入增长，让劳动时间价值变得可视化",
+      "introMarkdown": "轻量优雅的「实时工资」小软件，根据用户的薪资和上下班时间动态计算每一秒的收入增长，让劳动时间价值变得可视化 - [更多介绍](https://github.com/MrBaoboer/PayDance)",
+      "status": "live",
+      "date": "2026-07-28",
+      "url": "https://paydance.vercel.app/",
+      "author": "Mr.Baoboer",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/MrBaoboer/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "53fad3f30663",
+      "board": "main",
+      "name": "氛寸 Fēn Cùn",
+      "intro": "轻量优雅的「香水决策」小程序，根据实时天气和出席场合，告诉你今天最适合喷哪瓶香水，以及怎样用得恰到好处",
+      "introMarkdown": "轻量优雅的「香水决策」小程序，根据实时天气和出席场合，告诉你今天最适合喷哪瓶香水，以及怎样用得恰到好处 - [更多介绍](https://github.com/MrBaoboer/FenCun)",
+      "status": "live",
+      "date": "2026-07-28",
+      "url": "https://github.com/MrBaoboer/FenCun",
+      "author": "Mr.Baoboer",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/MrBaoboer/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "eba821226622",
       "board": "main",
@@ -24,6 +81,25 @@
         {
           "label": "Github",
           "url": "https://github.com/pluone"
+        }
+      ],
+      "likes": 1,
+      "comments": 1
+    },
+    {
+      "slug": "d15e96908463",
+      "board": "main",
+      "name": "OptPulse",
+      "intro": "F-1 留学生 OPT / STEM OPT 时间追踪与 EAD 审批预测工具，支持 Premium Processing 时长计算与关键日期提醒，免费无需注册",
+      "introMarkdown": "F-1 留学生 OPT / STEM OPT 时间追踪与 EAD 审批预测工具，支持 Premium Processing 时长计算与关键日期提醒，免费无需注册",
+      "status": "live",
+      "date": "2026-07-28",
+      "url": "https://optpulse.org",
+      "author": "surfacex-dev",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/surfacex-dev"
         }
       ],
       "likes": 0,
@@ -1052,25 +1128,6 @@
       "comments": 0
     },
     {
-      "slug": "e67c0fd24cb2",
-      "board": "main",
-      "name": "氛寸 Fēn Cùn",
-      "intro": "轻量优雅的「香水决策」小程序，根据实时天气和出席场合，告诉你今天最适合喷哪瓶香水，以及怎样用得恰到好处",
-      "introMarkdown": "轻量优雅的「香水决策」小程序，根据实时天气和出席场合，告诉你今天最适合喷哪瓶香水，以及怎样用得恰到好处 - [更多介绍](https://github.com/MrBaoboer/FenCun)",
-      "status": "live",
-      "date": "2026-07-19",
-      "url": "https://github.com/MrBaoboer/FenCun",
-      "author": "Mr.Baoboer",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/MrBaoboer/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
       "slug": "cc6a5fc56722",
       "board": "main",
       "name": "wflynn 工具站",
@@ -1141,25 +1198,6 @@
         {
           "label": "Github",
           "url": "https://github.com/maundytime"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1b8645d8a0f3",
-      "board": "main",
-      "name": "薪跳 PayDance",
-      "intro": "轻量优雅的「实时工资」小软件，根据用户的薪资和上下班时间动态计算每一秒的收入增长，让劳动时间价值变得可视化",
-      "introMarkdown": "轻量优雅的「实时工资」小软件，根据用户的薪资和上下班时间动态计算每一秒的收入增长，让劳动时间价值变得可视化 - [更多介绍](https://github.com/MrBaoboer/PayDance)",
-      "status": "live",
-      "date": "2026-07-18",
-      "url": "https://paydance.vercel.app/",
-      "author": "Mr.Baoboer",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/MrBaoboer/"
         }
       ],
       "likes": 0,
@@ -32021,6 +32059,101 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "663eeb7682bb",
+      "board": "programmer",
+      "name": "CrewBee",
+      "intro": "AI Agent 团队框架，面向 OpenCode 将角色、工作流、审查流程与完成标准封装为可复用团队资产，内置 Coding Team；一条 npx 命令安装",
+      "introMarkdown": "AI Agent 团队框架，面向 OpenCode 将角色、工作流、审查流程与完成标准封装为可复用团队资产，内置 Coding Team；一条 `npx` 命令安装 - [更多介绍](https://www.crewbee.art)",
+      "status": "live",
+      "date": "2026-07-29",
+      "url": "https://github.com/CrewBeeLab/CrewBee",
+      "author": "Perrin Yong",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/PerrinYong"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "332676560511",
+      "board": "programmer",
+      "name": "PilotDeck",
+      "intro": "ProjectOps × AgentOps 控制台，集中管理 AI Agent 协作、项目进展、审计轨迹与 token/成本；基于 Flask、Vue 3 与 SQLite 自托管部署",
+      "introMarkdown": "ProjectOps × AgentOps 控制台，集中管理 AI Agent 协作、项目进展、审计轨迹与 token/成本；基于 Flask、Vue 3 与 SQLite 自托管部署",
+      "status": "live",
+      "date": "2026-07-29",
+      "url": "https://github.com/PilotDeckAgentLabs/PilotDeck",
+      "author": "Perrin Yong",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/PerrinYong"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "985d3ddbe2f8",
+      "board": "programmer",
+      "name": "Waggle",
+      "intro": "AI Agent 治理运行时与控制平面，以项目为执行边界，提供权限控制、工具强制、确认流程、运行事件与审计证据；支持 CLI、HTTP 与 TypeScript SDK，需自托管部署",
+      "introMarkdown": "AI Agent 治理运行时与控制平面，以项目为执行边界，提供权限控制、工具强制、确认流程、运行事件与审计证据；支持 CLI、HTTP 与 TypeScript SDK，需自托管部署",
+      "status": "live",
+      "date": "2026-07-29",
+      "url": "https://github.com/CrewBeeLab/Waggle",
+      "author": "Perrin Yong",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/PerrinYong"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "02659a9ac92a",
+      "board": "programmer",
+      "name": "Chrome Renamer",
+      "intro": "本地替换 Google、YouTube 与 Chrome 页面中的品牌名称，支持自定义新标签页；无需账号，设置只保存在浏览器本地 — Chrome 扩展，需启用开发者模式手动加载",
+      "introMarkdown": "本地替换 Google、YouTube 与 Chrome 页面中的品牌名称，支持自定义新标签页；无需账号，设置只保存在浏览器本地 — Chrome 扩展，需启用开发者模式手动加载 - [安装与源码](https://github.com/zhangxuyuan20251443-coder/Chrome-Renamer)",
+      "status": "live",
+      "date": "2026-07-28",
+      "url": "https://zhangxuyuan20251443-coder.github.io/Chrome-Renamer/",
+      "author": "zhangxuyuan20251443-coder",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhangxuyuan20251443-coder"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "898b8191f6d6",
+      "board": "programmer",
+      "name": "str-emoji-hash",
+      "intro": "将任意字符串转为唯一的表情指纹（如 🔨🌸🦋🍇），基于 FNV-1a 32 位哈希，相同输入永远产出相同表情组合，支持 npm 安装和 CLI 直接使用 npx seh \"你的字符串\"",
+      "introMarkdown": "将任意字符串转为唯一的表情指纹（如 🔨🌸🦋🍇），基于 FNV-1a 32 位哈希，相同输入永远产出相同表情组合，支持 npm 安装和 CLI 直接使用 `npx seh \"你的字符串\"`",
+      "status": "live",
+      "date": "2026-07-28",
+      "url": "https://github.com/jaychouchannel/str-emoji-hash",
+      "author": "jaychouchannel",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jaychouchannel"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "704c686a2337",
       "board": "programmer",
