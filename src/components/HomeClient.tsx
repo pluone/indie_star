@@ -68,16 +68,32 @@ export default function HomeClient(props: HomeClientProps) {
 
   // Near-real-time like/comment overlay on top of the static build-time numbers. Populated on
   // mount and on tab refocus only — deliberately no persistent setInterval, which would jump items
-  // around mid-scroll under the likes/comments sort. Merge priority: localStorage (exact value from
-  // this browser's own giscus interactions) over /api/stats (edge-cached, shared) over the static
-  // props passed in from the server.
+  // around mid-scroll under the likes/comments sort. Base layer is /api/stats (edge-cached, shared)
+  // over the static props passed in from the server; localStorage (this browser's own giscus
+  // readings) is layered on top only where it is genuinely the newer observation — see applyLocal.
   const [liveStats, setLiveStats] = useState<GiscusStatsMap>({});
+  // When the data in our latest /api/stats payload was read from GitHub, expressed on *this*
+  // browser's clock (derived from the age the endpoint stamps at serve time, so a browser clock
+  // that disagrees with the server's doesn't skew the comparison). 0 = never got a usable payload.
+  const serverObservedAt = useRef(0);
 
   useEffect(() => {
     let cancelled = false;
 
+    // A locally captured count may only override the shared one while it is the newer of the two
+    // readings. Letting it win unconditionally is what used to freeze a project's numbers on
+    // whatever this browser last saw: open a detail page at 1 like, and the homepage would keep
+    // rendering 1 long after everyone else moved to 10. The slug-missing case still defers to
+    // localStorage — no discussion yet, or a degraded empty payload, means there's nothing newer to
+    // defer to.
     function applyLocal(base: GiscusStatsMap): GiscusStatsMap {
-      return { ...base, ...readGiscusStats() };
+      const merged: GiscusStatsMap = { ...base };
+      for (const [slug, entry] of Object.entries(readGiscusStats())) {
+        if (!(slug in base) || entry.at > serverObservedAt.current) {
+          merged[slug] = { likes: entry.likes, comments: entry.comments };
+        }
+      }
+      return merged;
     }
 
     async function refresh() {
@@ -86,6 +102,12 @@ export default function HomeClient(props: HomeClientProps) {
       try {
         const res = await fetch("/api/stats", { cache: "no-store" });
         if (!res.ok || cancelled) return;
+        const ageHeader = res.headers.get("x-data-age-ms");
+        const ageMs = ageHeader === null ? NaN : Number(ageHeader);
+        // No header (a dev server, or a proxy that dropped it) means we can't place the payload on
+        // our own timeline — leave the mark at 0 so localStorage keeps winning until its TTL runs
+        // out, rather than silently trusting numbers of unknown age.
+        serverObservedAt.current = Number.isFinite(ageMs) ? Date.now() - ageMs : 0;
         const json = (await res.json()) as { data?: GiscusStatsMap };
         setLiveStats(applyLocal(json.data ?? {}));
       } catch {
