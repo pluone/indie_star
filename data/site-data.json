@@ -1,29 +1,48 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-07-28T02:12:04.428Z",
-    "statsSyncedAt": "2026-07-28T02:12:04.428Z",
+    "contentSyncedAt": "2026-07-28T07:15:26.426Z",
+    "statsSyncedAt": "2026-07-28T07:15:26.426Z",
     "counts": {
-      "main": 1626,
-      "game": 110,
-      "programmer": 270,
-      "total": 2006
+      "main": 1627,
+      "game": 111,
+      "programmer": 271,
+      "total": 2009
     }
   },
   "main": [
     {
-      "slug": "f389d6783066",
+      "slug": "eba821226622",
       "board": "main",
-      "name": "Site Guard",
-      "intro": "不让故障,悄悄发生。对站点的可用性、证书有效期、关键路径进行持续巡检，异常时自动推送钉钉 / 飞书 / 企业微信",
-      "introMarkdown": "不让故障,悄悄发生。对站点的可用性、证书有效期、关键路径进行持续巡检，异常时自动推送钉钉 / 飞书 / 企业微信",
+      "name": "独立星选",
+      "intro": "从本仓库评论区的用户点赞和评论数据中筛选优质独立开发者项目",
+      "introMarkdown": "从本仓库评论区的用户点赞和评论数据中筛选优质独立开发者项目 - [更多介绍](https://github.com/pluone/indie_star)",
       "status": "live",
-      "date": "2026-07-27",
-      "url": "https://github.com/sunmh207/site-guard",
-      "author": "sunmh207",
+      "date": "2026-07-28",
+      "url": "https://indie-star.pages.dev/",
+      "author": "pluone",
       "authorLinks": [
         {
-          "label": "GitHub",
-          "url": "https://github.com/sunmh207"
+          "label": "Github",
+          "url": "https://github.com/pluone"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "3e7b169dda79",
+      "board": "main",
+      "name": "AISeedance25",
+      "intro": "输入文字或图片生成视频，单条最长 30 秒、4K 无水印，可上传参考图控制画面；基于 Seedance 2.5 模型",
+      "introMarkdown": "输入文字或图片生成视频，单条最长 30 秒、4K 无水印，可上传参考图控制画面；基于 Seedance 2.5 模型",
+      "status": "live",
+      "date": "2026-07-27",
+      "url": "https://aiseedance25.app/",
+      "author": "JAY",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yoga666996"
         }
       ],
       "likes": 0,
@@ -2968,8 +2987,8 @@
           "url": "https://github.com/HankGuo"
         }
       ],
-      "likes": 0,
-      "comments": 0
+      "likes": 1,
+      "comments": 1
     },
     {
       "slug": "f45d71744c35",
@@ -29910,6 +29929,25 @@
   ],
   "game": [
     {
+      "slug": "2a7dc0623c48",
+      "board": "game",
+      "name": "摸鱼解压玩具",
+      "intro": "戳泡泡、打弹珠等解压小互动的合集，摸鱼时给大脑一段放空时间；免费，无需注册",
+      "introMarkdown": "戳泡泡、打弹珠等解压小互动的合集，摸鱼时给大脑一段放空时间；免费，无需注册",
+      "status": "live",
+      "date": "2026-07-28",
+      "url": "https://satisfylab.me/zh",
+      "author": "my19940202",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/my19940202"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "7cbd70e231bc",
       "board": "game",
       "name": "Grow a garden2",
@@ -31983,6 +32021,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "704c686a2337",
+      "board": "programmer",
+      "name": "Site Guard",
+      "intro": "不让故障，悄悄发生。对站点的可用性、证书有效期、关键路径进行持续巡检，异常时自动推送钉钉 / 飞书 / 企业微信 — Docker Compose 自托管部署",
+      "introMarkdown": "不让故障，悄悄发生。对站点的可用性、证书有效期、关键路径进行持续巡检，异常时自动推送钉钉 / 飞书 / 企业微信 — Docker Compose 自托管部署",
+      "status": "live",
+      "date": "2026-07-27",
+      "url": "https://github.com/sunmh207/site-guard",
+      "author": "sunmh207",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/sunmh207"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "813e1826ac19",
       "board": "programmer",
