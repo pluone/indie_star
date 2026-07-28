@@ -42,7 +42,7 @@ export default function GiscusComments() {
       reactionsEnabled="1"
       emitMetadata="1"
       inputPosition="top"
-      theme="https://indie-star.pages.dev/giscus-theme.css"
+      theme="light"
       lang="zh-CN"
     />
   );

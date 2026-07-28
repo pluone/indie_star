@@ -109,7 +109,7 @@ npm run build      # 先跑 prebuild 拉数据,再静态导出到 out/
 
 ## 前置依赖:giscus
 
-点赞 / 评论依赖本仓库(`pluone/indie_star`)开启 **GitHub Discussions**,并安装 [giscus app](https://github.com/apps/giscus)。当前配置(见 `src/components/GiscusComments.tsx`):`mapping="pathname"`、category `Announcements`、`theme="https://indie-star.pages.dev/giscus-theme.css"`(自定义主题,与站点配色一致,见 `public/giscus-theme.css`)、`lang="zh-CN"`、`emitMetadata="1"`。
+点赞 / 评论依赖本仓库(`pluone/indie_star`)开启 **GitHub Discussions**,并安装 [giscus app](https://github.com/apps/giscus)。当前配置(见 `src/components/GiscusComments.tsx`):`mapping="pathname"`、category `Announcements`、`theme="light"`(giscus 内置浅色主题;评论区外层已由站点的白色卡片包裹)、`lang="zh-CN"`、`emitMetadata="1"`。
 
 ## 近实时点赞 / 评论数
 

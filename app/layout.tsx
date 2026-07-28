@@ -9,17 +9,8 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="zh-CN">
-      <body
-        style={{
-          minHeight: "100vh",
-          background: "oklch(98% 0.006 90)",
-          color: "oklch(20% 0.01 90)",
-          fontFamily:
-            "ui-sans-serif, system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif",
-        }}
-      >
-        {children}
-      </body>
+      {/* 底色 / 文字色 / 字体统一来自 globals.css 的 @theme token */}
+      <body className="min-h-screen antialiased">{children}</body>
     </html>
   );
 }

@@ -22,7 +22,7 @@ export default function BackToListLink() {
     <a
       href="/"
       onClick={handleClick}
-      style={{ cursor: "pointer", fontSize: 14, color: "oklch(45% 0.01 90)", textDecoration: "none" }}
+      className="inline-flex cursor-pointer items-center gap-1.5 rounded-full border border-line bg-surface px-3.5 py-1.5 text-[13px] text-ink-2 no-underline transition-colors hover:border-accent-line hover:text-accent"
     >
       ← 返回列表
     </a>

@@ -64,14 +64,14 @@ main {
   --color-segmented-control-button-selected-border: oklch(70% 0.01 90);
 
   /* Core surface + text — copied straight from the site's own palette */
-  --color-fg-default: oklch(20% 0.01 90);
+  --color-fg-default: oklch(20% 0.014 90);
   --color-fg-muted: oklch(50% 0.01 90);
   --color-fg-subtle: oklch(55% 0.01 90);
-  --color-canvas-default: oklch(98% 0.006 90);
-  --color-canvas-overlay: oklch(98% 0.006 90);
-  --color-canvas-inset: oklch(95% 0.008 90);
-  --color-canvas-subtle: oklch(95% 0.008 90);
-  --color-border-default: oklch(92% 0.01 90);
+  --color-canvas-default: oklch(99.7% 0.002 90);
+  --color-canvas-overlay: oklch(99.7% 0.002 90);
+  --color-canvas-inset: oklch(97.6% 0.008 88);
+  --color-canvas-subtle: oklch(97.6% 0.008 88);
+  --color-border-default: oklch(89% 0.014 85);
   --color-border-muted: oklch(88% 0.01 90);
   --color-neutral-muted: oklch(88% 0.01 90 / 20%);
 

@@ -1,47 +1,54 @@
-body {
-  margin: 0;
+@import "tailwindcss";
+
+/* 三层表面体系：canvas（地板）→ surface（纸面）→ 控件。层次靠 surface 拉到近纯白 +
+   加重的投影与圆角来建立（卡片流方向），canvas 本身保持原来那档偏浅的暖米色不压深。 */
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", monospace;
+
+  --color-canvas: oklch(96.6% 0.013 85);
+  --color-surface: oklch(99.7% 0.002 90);
+  /* 比 canvas 高一档，否则搜索框、未选中胶囊会和底色糊在一起 */
+  --color-sunken: oklch(97.6% 0.008 88);
+
+  --color-line: oklch(89% 0.014 85);
+  --color-line-soft: oklch(92.5% 0.012 85);
+  --color-line-strong: oklch(82% 0.018 85);
+
+  --color-ink-1: oklch(20% 0.014 90);
+  --color-ink-2: oklch(45% 0.012 90);
+  --color-ink-3: oklch(61% 0.01 90);
+
+  --color-accent: oklch(58% 0.15 45);
+  --color-accent-ink: oklch(40% 0.13 45);
+  --color-accent-soft: oklch(94.5% 0.045 45);
+  --color-accent-line: oklch(86% 0.06 45);
+
+  --color-flag-ink: oklch(42% 0.13 80);
+  --color-flag-soft: oklch(95% 0.06 80);
+  --color-flag-line: oklch(70% 0.12 80);
+
+  --radius-card: 16px;
+
+  --shadow-card: 0 1px 2px oklch(35% 0.04 60 / 0.07), 0 8px 24px -10px oklch(35% 0.04 60 / 0.2);
+  --shadow-lift: 0 2px 4px oklch(35% 0.04 60 / 0.08), 0 14px 32px -12px oklch(35% 0.04 60 / 0.28);
+  /* 吸顶头部的落影只需要一点点“压住内容”的暗示，比卡片投影更收敛 */
+  --shadow-chrome: 0 5px 14px -14px oklch(35% 0.04 60 / 0.4);
+  --shadow-float: 0 4px 14px oklch(30% 0.03 80 / 0.2);
 }
 
-input::placeholder {
-  color: oklch(65% 0.01 90);
-}
+@layer base {
+  body {
+    background-color: var(--color-canvas);
+    color: var(--color-ink-1);
+    font-family: var(--font-sans);
+  }
 
-::selection {
-  background: oklch(85% 0.06 45);
-}
+  input::placeholder {
+    color: var(--color-ink-3);
+  }
 
-.project-row {
-  transition: background-color 0.15s ease;
-}
-
-.project-row:hover {
-  background-color: oklch(96% 0.01 90);
-}
-
-.project-row-name {
-  transition: color 0.15s ease;
-}
-
-.project-row:hover .project-row-name {
-  color: oklch(58% 0.15 45);
-}
-
-.project-row-link {
-  opacity: 0;
-  color: oklch(45% 0.01 90);
-  transition: opacity 0.15s ease, color 0.15s ease;
-}
-
-.project-row:hover .project-row-link,
-.project-row-link:focus-visible {
-  opacity: 1;
-}
-
-.project-row-link:hover,
-.project-row-link:focus-visible {
-  color: oklch(58% 0.15 45);
-}
-
-* {
-  box-sizing: border-box;
+  ::selection {
+    background: var(--color-accent-soft);
+  }
 }
