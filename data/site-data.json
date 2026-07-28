@@ -1,15 +1,76 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-07-27T06:23:11.563Z",
-    "statsSyncedAt": "2026-07-27T06:23:11.563Z",
+    "contentSyncedAt": "2026-07-28T02:12:04.428Z",
+    "statsSyncedAt": "2026-07-28T02:12:04.428Z",
     "counts": {
-      "main": 1624,
+      "main": 1626,
       "game": 110,
-      "programmer": 272,
+      "programmer": 270,
       "total": 2006
     }
   },
   "main": [
+    {
+      "slug": "f389d6783066",
+      "board": "main",
+      "name": "Site Guard",
+      "intro": "不让故障,悄悄发生。对站点的可用性、证书有效期、关键路径进行持续巡检，异常时自动推送钉钉 / 飞书 / 企业微信",
+      "introMarkdown": "不让故障,悄悄发生。对站点的可用性、证书有效期、关键路径进行持续巡检，异常时自动推送钉钉 / 飞书 / 企业微信",
+      "status": "live",
+      "date": "2026-07-27",
+      "url": "https://github.com/sunmh207/site-guard",
+      "author": "sunmh207",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/sunmh207"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d90eee299cb8",
+      "board": "main",
+      "name": "OpenFiles",
+      "intro": "AI 原生桌面文件管理器，可在一个应用中打开和编辑 350+ 种文件格式，覆盖图片、文档、代码、音视频、压缩包、Markdown、Jupyter Notebook、SQLite 数据库和 DWG/DXF CAD 图纸；文件查看与编辑默认在本地完成，支持 macOS 和 Windows",
+      "introMarkdown": "AI 原生桌面文件管理器，可在一个应用中打开和编辑 350+ 种文件格式，覆盖图片、文档、代码、音视频、压缩包、Markdown、Jupyter Notebook、SQLite 数据库和 DWG/DXF CAD 图纸；文件查看与编辑默认在本地完成，支持 macOS 和 Windows - [更多介绍](https://leungwensen.com/blog/the-desktop-evolution-of-openfiles)",
+      "status": "live",
+      "date": "2026-07-27",
+      "url": "https://openfiles.pansysoft.app/",
+      "author": "leungwensen",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/leungwensen"
+        },
+        {
+          "label": "博客",
+          "url": "https://leungwensen.com"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "15b21ed68b91",
+      "board": "main",
+      "name": "OpenTypeless",
+      "intro": "语音输入、转写与 AI 润色，任意应用内快捷键唤起；支持 BYOK、本地词典与多种语音/大模型服务商 — 跨平台，MIT 开源",
+      "introMarkdown": "语音输入、转写与 AI 润色，任意应用内快捷键唤起；支持 BYOK、本地词典与多种语音/大模型服务商 — 跨平台，MIT 开源 - [更多介绍](https://github.com/tover0314-w/opentypeless)",
+      "status": "live",
+      "date": "2026-07-27",
+      "url": "https://www.opentypeless.com",
+      "author": "tover wu",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tover0314-w"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "428f75fc670b",
       "board": "main",
@@ -24,6 +85,25 @@
         {
           "label": "Github",
           "url": "https://github.com/suio03"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "23cdee1e39df",
+      "board": "main",
+      "name": "FluxDown",
+      "intro": "多协议下载管理器，一个任务队列同时收 HTTP/FTP、BT 磁力、eD2K、HLS 和 DASH，IDM 式动态分段（下载途中继续切分剩余区间，慢节点不拖住收尾），装扩展后自动接管浏览器下载，Win/macOS/Linux/Android 全平台免费开源",
+      "introMarkdown": "多协议下载管理器，一个任务队列同时收 HTTP/FTP、BT 磁力、eD2K、HLS 和 DASH，IDM 式动态分段（下载途中继续切分剩余区间，慢节点不拖住收尾），装扩展后自动接管浏览器下载，Win/macOS/Linux/Android 全平台免费开源",
+      "status": "live",
+      "date": "2026-07-27",
+      "url": "https://fluxdown.zerx.dev",
+      "author": "zerx-lab",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zerx-lab"
         }
       ],
       "likes": 0,
@@ -102,7 +182,7 @@
           "url": "https://github.com/cocodot2026"
         }
       ],
-      "likes": 1,
+      "likes": 0,
       "comments": 0
     },
     {
@@ -159,8 +239,8 @@
           "url": "https://github.com/maowei8888"
         }
       ],
-      "likes": 1,
-      "comments": 5
+      "likes": 0,
+      "comments": 0
     },
     {
       "slug": "ad0ed3289e85",
@@ -204,8 +284,8 @@
       "slug": "70dba488b021",
       "board": "main",
       "name": "8码快传",
-      "intro": "免费、无需注册登录的浏览器大文件传输工具，支持链接、二维码和取件码分享；同一 WiFi 下电脑与手机同时打开网页即可互传",
-      "introMarkdown": "免费、无需注册登录的浏览器大文件传输工具，支持链接、二维码和取件码分享；同一 WiFi 下电脑与手机同时打开网页即可互传",
+      "intro": "大文件传输工具，免费、无需注册登录，支持链接、二维码和取件码分享；同一 WiFi 下电脑与手机同时打开网页即可互传",
+      "introMarkdown": "大文件传输工具，免费、无需注册登录，支持链接、二维码和取件码分享；同一 WiFi 下电脑与手机同时打开网页即可互传",
       "status": "live",
       "date": "2026-07-23",
       "url": "https://t.8ma.co/",
@@ -334,8 +414,8 @@
       "slug": "ca6c895f8a41",
       "board": "main",
       "name": "Invoice-Downloader",
-      "intro": "发票报销神器，一键搞定发票报销。 连好邮箱之后，软件会一键开好发票，下载，转化成pdf，整理到分类文件夹。并且做好excel清单。",
-      "introMarkdown": "发票报销神器，一键搞定发票报销。 连好邮箱之后，软件会一键开好发票，下载，转化成pdf，整理到分类文件夹。并且做好excel清单。",
+      "intro": "发票自动化处理工具，连好邮箱后自动开票、下载、转成 PDF 并按分类归档，同时生成 Excel 清单",
+      "introMarkdown": "发票自动化处理工具，连好邮箱后自动开票、下载、转成 PDF 并按分类归档，同时生成 Excel 清单",
       "status": "live",
       "date": "2026-07-23",
       "url": "https://github.com/EthanYoQ/Invoice-Downloader",
@@ -353,8 +433,8 @@
       "slug": "378a6e0f2448",
       "board": "main",
       "name": "whisper-input",
-      "intro": "vibe coding和输入利器。windows语音输入法，你只负责口喷，输入法会整理成逻辑清晰的话术（类似prompt）。输出风格可选，源码公开自由可调。",
-      "introMarkdown": "vibe coding和输入利器。windows语音输入法，你只负责口喷，输入法会整理成逻辑清晰的话术（类似prompt）。输出风格可选，源码公开自由可调。",
+      "intro": "语音输入法，开口即输入，自动整理成逻辑清晰的话术（类似 prompt），输出风格可选；面向 vibe coding 场景，源码公开自由可调 — Windows",
+      "introMarkdown": "语音输入法，开口即输入，自动整理成逻辑清晰的话术（类似 prompt），输出风格可选；面向 vibe coding 场景，源码公开自由可调 — Windows",
       "status": "live",
       "date": "2026-07-23",
       "url": "https://github.com/EthanYoQ/whisper-input",
@@ -372,8 +452,8 @@
       "slug": "499002140107",
       "board": "main",
       "name": "agent-xiaohongshu-workbench",
-      "intro": "小红书工作台，一键爆款内容拆解，自动完成选题，配图，发布流程。新增多账号管理功能。账号故事线管理。",
-      "introMarkdown": "小红书工作台，一键爆款内容拆解，自动完成选题，配图，发布流程。新增多账号管理功能。账号故事线管理。",
+      "intro": "小红书工作台，一键拆解爆款内容，自动完成选题、配图与发布，支持多账号管理与账号故事线管理",
+      "introMarkdown": "小红书工作台，一键拆解爆款内容，自动完成选题、配图与发布，支持多账号管理与账号故事线管理",
       "status": "live",
       "date": "2026-07-23",
       "url": "https://github.com/EthanYoQ/agent-xiaohongshu-workbench",
@@ -391,8 +471,8 @@
       "slug": "59003e203c52",
       "board": "main",
       "name": "AI-Novel-Writer",
-      "intro": "AI 写小说和网文的写作工具，支持 NSFW 本地模型生成成人文学；支持大纲、角色、章节蓝图、审稿修稿和知识库的中文小说创作桌面工作台。内置完整系统提示词，避免中长篇小说角色/内容遗忘、主题漂移。",
-      "introMarkdown": "AI 写小说和网文的写作工具，支持 NSFW 本地模型生成成人文学；支持大纲、角色、章节蓝图、审稿修稿和知识库的中文小说创作桌面工作台。内置完整系统提示词，避免中长篇小说角色/内容遗忘、主题漂移。",
+      "intro": "AI 小说创作桌面工具，管理大纲、角色、章节蓝图、审稿修稿与知识库，内置系统提示词避免中长篇小说角色/内容遗忘与主题漂移；支持本地模型生成 NSFW 成人文学",
+      "introMarkdown": "AI 小说创作桌面工具，管理大纲、角色、章节蓝图、审稿修稿与知识库，内置系统提示词避免中长篇小说角色/内容遗忘与主题漂移；支持本地模型生成 NSFW 成人文学",
       "status": "live",
       "date": "2026-07-23",
       "url": "https://github.com/EthanYoQ/AI-Novel-Writer",
@@ -695,8 +775,8 @@
       "slug": "2698130f8cf5",
       "board": "main",
       "name": "FocusLens-屏幕截图聚焦编辑器",
-      "intro": "将你的图片局部放置放大镜进行放大显示，聚焦以引起注意",
-      "introMarkdown": "将你的图片局部放置放大镜进行放大显示，聚焦以引起注意",
+      "intro": "给图片局部添加放大镜效果，放大展示、聚焦引起注意",
+      "introMarkdown": "给图片局部添加放大镜效果，放大展示、聚焦引起注意",
       "status": "live",
       "date": "2026-07-21",
       "url": "https://getfocuslens.com/",
@@ -1503,8 +1583,8 @@
       "slug": "ce14fcf9bf13",
       "board": "main",
       "name": "ghost-proxifier-pro",
-      "intro": "专为 Windows 打造的免费进程级透明代理引擎，拖拽进程快捷方式即可完成注入，支持进程树自动递归注入",
-      "introMarkdown": "专为 Windows 打造的免费进程级透明代理引擎，拖拽进程快捷方式即可完成注入，支持进程树自动递归注入 - [查看仓库](https://github.com/liliBestCoder/ghost-proxifier-pro)",
+      "intro": "进程级透明代理引擎，专为 Windows 打造、免费使用，拖拽进程快捷方式即可完成注入，支持进程树自动递归注入",
+      "introMarkdown": "进程级透明代理引擎，专为 Windows 打造、免费使用，拖拽进程快捷方式即可完成注入，支持进程树自动递归注入 - [查看仓库](https://github.com/liliBestCoder/ghost-proxifier-pro)",
       "status": "live",
       "date": "2026-07-16",
       "url": "https://ghostproxifier.com",
@@ -1654,25 +1734,6 @@
         {
           "label": "Github",
           "url": "https://github.com/jaychouchannel"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "e329b39aa05c",
-      "board": "main",
-      "name": "SolDrop Tracker",
-      "intro": "Solana 空投追踪工具，链上钱包分析，自动检测协议交互记录并判断空投资格，无需注册。",
-      "introMarkdown": "Solana 空投追踪工具，链上钱包分析，自动检测协议交互记录并判断空投资格，无需注册。",
-      "status": "live",
-      "date": "2026-07-16",
-      "url": "https://soldrop-tracker.vercel.app",
-      "author": "fiaboo",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/dinhvuong090997-cyber"
         }
       ],
       "likes": 0,
@@ -2168,8 +2229,8 @@
       "slug": "3e54674e14a4",
       "board": "main",
       "name": "iOS 截图装饰",
-      "intro": "免费在线 iOS 截图美化生成器，在浏览器中把应用截图变成规范的 App Store 上架素材",
-      "introMarkdown": "免费在线 iOS 截图美化生成器，在浏览器中把应用截图变成规范的 App Store 上架素材",
+      "intro": "截图美化生成器，免费在线，浏览器中把 iOS 应用截图变成规范的 App Store 上架素材",
+      "introMarkdown": "截图美化生成器，免费在线，浏览器中把 iOS 应用截图变成规范的 App Store 上架素材",
       "status": "live",
       "date": "2026-07-15",
       "url": "https://app-shots.aibit.im/",
@@ -2187,8 +2248,8 @@
       "slug": "1c828a7ea0af",
       "board": "main",
       "name": "Sillage",
-      "intro": "把足迹、火车、飞机、酒店放在一起记录的旅行 App，可按时间轴与照片一起回放探索过程，支持导入航旅纵横、12306 等数据",
-      "introMarkdown": "把足迹、火车、飞机、酒店放在一起记录的旅行 App，可按时间轴与照片一起回放探索过程，支持导入航旅纵横、12306 等数据",
+      "intro": "旅行 App，把足迹、火车、飞机、酒店放在一起记录，可按时间轴与照片一起回放探索过程，支持导入航旅纵横、12306 等数据",
+      "introMarkdown": "旅行 App，把足迹、火车、飞机、酒店放在一起记录，可按时间轴与照片一起回放探索过程，支持导入航旅纵横、12306 等数据",
       "status": "live",
       "date": "2026-07-15",
       "url": "https://github.com/ZingLix/Sillage/blob/main/README.zh-CN.md",
@@ -2440,8 +2501,8 @@
       "slug": "391e05279efe",
       "board": "main",
       "name": "PaperPhonePlus",
-      "intro": "支持端到端加密、前向保密和音视频通话的即时通讯 App，可使用官方网页端或自托管",
-      "introMarkdown": "支持端到端加密、前向保密和音视频通话的即时通讯 App，可使用官方网页端或自托管 - [查看仓库](https://github.com/619dev/Paperphone-plus)",
+      "intro": "即时通讯 App，支持端到端加密、前向保密和音视频通话，可使用官方网页端或自托管",
+      "introMarkdown": "即时通讯 App，支持端到端加密、前向保密和音视频通话，可使用官方网页端或自托管 - [查看仓库](https://github.com/619dev/Paperphone-plus)",
       "status": "live",
       "date": "2026-07-15",
       "url": "https://paperphone.app",
@@ -3266,20 +3327,6 @@
           "url": "https://github.com/xianyu110"
         }
       ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "4f23182c0628",
-      "board": "main",
-      "name": "seedance 2.0 mini",
-      "intro": "浏览器直出 AI 视频，文字/图片/音频多模态输入，30 秒内生成 HD 短片，无需安装",
-      "introMarkdown": "浏览器直出 AI 视频，文字/图片/音频多模态输入，30 秒内生成 HD 短片，无需安装",
-      "status": "live",
-      "date": "2026-07-07",
-      "url": "https://seedancemini.online",
-      "author": "Miles Devlin",
-      "authorLinks": [],
       "likes": 0,
       "comments": 0
     },
@@ -31997,8 +32044,8 @@
       "slug": "5e43be27841e",
       "board": "programmer",
       "name": "工智审图",
-      "intro": "工业建设项目多专业 AI 辅助审图 Web 应用，支持建筑、结构、电气图纸上传解析、规则检查、证据切片、人工复核和 HTML/PDF/DOCX 报告导出",
-      "introMarkdown": "工业建设项目多专业 AI 辅助审图 Web 应用，支持建筑、结构、电气图纸上传解析、规则检查、证据切片、人工复核和 HTML/PDF/DOCX 报告导出",
+      "intro": "AI 辅助审图 Web 应用，面向工业建设项目多专业图纸，支持建筑、结构、电气图纸上传解析、规则检查、证据切片、人工复核和 HTML/PDF/DOCX 报告导出",
+      "introMarkdown": "AI 辅助审图 Web 应用，面向工业建设项目多专业图纸，支持建筑、结构、电气图纸上传解析、规则检查、证据切片、人工复核和 HTML/PDF/DOCX 报告导出",
       "status": "developing",
       "date": "2026-07-24",
       "url": "https://github.com/Jackeyhate9/gongzhi-review",
@@ -32347,8 +32394,8 @@
       "slug": "b5e507562b25",
       "board": "programmer",
       "name": "CogitoAgent",
-      "intro": "支持多端交互、内置安全沙箱与工具生态的 AI Agent 框架，提供开箱即用的智能自动化工作流",
-      "introMarkdown": "支持多端交互、内置安全沙箱与工具生态的 AI Agent 框架，提供开箱即用的智能自动化工作流",
+      "intro": "AI Agent 框架，支持多端交互、内置安全沙箱与工具生态，提供开箱即用的智能自动化工作流",
+      "introMarkdown": "AI Agent 框架，支持多端交互、内置安全沙箱与工具生态，提供开箱即用的智能自动化工作流",
       "status": "live",
       "date": "2026-07-17",
       "url": "https://github.com/SnowLeopard-io/CogitoAgent",
@@ -32582,44 +32629,6 @@
         {
           "label": "Github",
           "url": "https://github.com/orgs/AIXP-Labs/repositories"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "5143a43525ad",
-      "board": "programmer",
-      "name": "Devlane",
-      "intro": "开源 Jira/Linear/Monday/ClickUp/Plane 替代方案，现代化项目管理平台，管理任务、冲刺、文档和事项分类",
-      "introMarkdown": "开源 Jira/Linear/Monday/ClickUp/Plane 替代方案，现代化项目管理平台，管理任务、冲刺、文档和事项分类",
-      "status": "live",
-      "date": "2026-07-16",
-      "url": "https://github.com/devlaner/devlane",
-      "author": "martian56",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/martian56"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "eee3dceb3418",
-      "board": "programmer",
-      "name": "Raven",
-      "intro": "结合 C++ 性能与控制力、Rust 安全性与现代特性、Python 可读性、Java 结构化设计以及 Go 简洁性的系统与应用编程语言",
-      "introMarkdown": "结合 C++ 性能与控制力、Rust 安全性与现代特性、Python 可读性、Java 结构化设计以及 Go 简洁性的系统与应用编程语言",
-      "status": "live",
-      "date": "2026-07-16",
-      "url": "https://github.com/martian56/raven",
-      "author": "martian56",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/martian56"
         }
       ],
       "likes": 0,
@@ -33381,8 +33390,8 @@
       "slug": "b888177a6885",
       "board": "programmer",
       "name": "hyperlane",
-      "intro": "基于 Tokio 的轻量、高性能、跨平台 Rust HTTP 服务器库，内置中间件、WebSocket、SSE 与原始 TCP 支持",
-      "introMarkdown": "基于 Tokio 的轻量、高性能、跨平台 Rust HTTP 服务器库，内置中间件、WebSocket、SSE 与原始 TCP 支持 - [查看仓库](https://github.com/hyperlane-dev/hyperlane) - [crates.io](https://crates.io/crates/hyperlane)",
+      "intro": "Rust HTTP 服务器库，基于 Tokio，轻量、高性能、跨平台，内置中间件、WebSocket、SSE 与原始 TCP 支持",
+      "introMarkdown": "Rust HTTP 服务器库，基于 Tokio，轻量、高性能、跨平台，内置中间件、WebSocket、SSE 与原始 TCP 支持 - [查看仓库](https://github.com/hyperlane-dev/hyperlane) - [crates.io](https://crates.io/crates/hyperlane)",
       "status": "live",
       "date": "2026-07-14",
       "url": "https://github.com/hyperlane-dev/hyperlane",
@@ -33404,8 +33413,8 @@
       "slug": "b1f6831325fa",
       "board": "programmer",
       "name": "euv",
-      "intro": "基于 Rust + WebAssembly 的声明式跨平台 UI 框架，提供虚拟 DOM、精确依赖追踪的 Signal 系统、html! 类 JSX 宏、class! CSS-in-Rust、全局事件委托及可选 2D 游戏引擎 euv-engine",
-      "introMarkdown": "基于 Rust + WebAssembly 的声明式跨平台 UI 框架，提供虚拟 DOM、精确依赖追踪的 Signal 系统、`html!` 类 JSX 宏、`class!` CSS-in-Rust、全局事件委托及可选 2D 游戏引擎 `euv-engine` - [查看仓库](https://github.com/euv-dev/euv) - [crates.io](https://crates.io/crates/euv) - [Demo](https://ltpp.vip/euv)",
+      "intro": "UI 框架，基于 Rust + WebAssembly，声明式、跨平台，提供虚拟 DOM、精确依赖追踪的 Signal 系统、html! 类 JSX 宏、class! CSS-in-Rust、全局事件委托及可选 2D 游戏引擎 euv-engine",
+      "introMarkdown": "UI 框架，基于 Rust + WebAssembly，声明式、跨平台，提供虚拟 DOM、精确依赖追踪的 Signal 系统、`html!` 类 JSX 宏、`class!` CSS-in-Rust、全局事件委托及可选 2D 游戏引擎 `euv-engine` - [查看仓库](https://github.com/euv-dev/euv) - [crates.io](https://crates.io/crates/euv) - [Demo](https://ltpp.vip/euv)",
       "status": "live",
       "date": "2026-07-14",
       "url": "https://github.com/euv-dev/euv",
@@ -33465,8 +33474,8 @@
       "slug": "ca6779dfb5c5",
       "board": "programmer",
       "name": "markstream-vue",
-      "intro": "面向 AI 聊天的 Vue 3 / Nuxt 流式 Markdown 渲染器，可稳定渲染持续到达且未完成的 Markdown，支持 Mermaid、KaTeX、Shiki 和 Monaco",
-      "introMarkdown": "面向 AI 聊天的 Vue 3 / Nuxt 流式 Markdown 渲染器，可稳定渲染持续到达且未完成的 Markdown，支持 Mermaid、KaTeX、Shiki 和 Monaco",
+      "intro": "Markdown 渲染器，面向 AI 聊天场景，基于 Vue 3 / Nuxt 流式渲染，可稳定渲染持续到达且未完成的 Markdown，支持 Mermaid、KaTeX、Shiki 和 Monaco",
+      "introMarkdown": "Markdown 渲染器，面向 AI 聊天场景，基于 Vue 3 / Nuxt 流式渲染，可稳定渲染持续到达且未完成的 Markdown，支持 Mermaid、KaTeX、Shiki 和 Monaco",
       "status": "live",
       "date": "2026-07-13",
       "url": "https://github.com/Simon-He95/markstream-vue",
@@ -33541,8 +33550,8 @@
       "slug": "e5217dc824be",
       "board": "programmer",
       "name": "wechat-mac-rpa",
-      "intro": "基于多模态视觉感知与 LLM Agent 的 macOS 微信自动化框架，不碰协议不封号，用 AI 看屏幕自动回复微信消息，支持记忆系统、数字分身、智能家居控制和 3D 打印管理",
-      "introMarkdown": "基于多模态视觉感知与 LLM Agent 的 macOS 微信自动化框架，不碰协议不封号，用 AI 看屏幕自动回复微信消息，支持记忆系统、数字分身、智能家居控制和 3D 打印管理",
+      "intro": "微信自动化框架（macOS），基于多模态视觉感知与 LLM Agent，不碰协议不封号，用 AI 看屏幕自动回复微信消息，支持记忆系统、数字分身、智能家居控制和 3D 打印管理",
+      "introMarkdown": "微信自动化框架（macOS），基于多模态视觉感知与 LLM Agent，不碰协议不封号，用 AI 看屏幕自动回复微信消息，支持记忆系统、数字分身、智能家居控制和 3D 打印管理",
       "status": "live",
       "date": "2026-07-09",
       "url": "https://github.com/wq19901103wq/wechat-mac-rpa",
@@ -33617,8 +33626,8 @@
       "slug": "29c91a2e9a2d",
       "board": "programmer",
       "name": "Appaloft",
-      "intro": "面向 AI Agent 和独立开发者的本地优先、AI 原生单文件 PaaS，用一个配置文件管理应用部署，支持 CLI / GitHub Actions 部署到自有服务器",
-      "introMarkdown": "面向 AI Agent 和独立开发者的本地优先、AI 原生单文件 PaaS，用一个配置文件管理应用部署，支持 CLI / GitHub Actions 部署到自有服务器 - [更多介绍](https://github.com/appaloft/appaloft)",
+      "intro": "单文件 PaaS，面向 AI Agent 和独立开发者，本地优先、AI 原生，用一个配置文件管理应用部署，支持 CLI / GitHub Actions 部署到自有服务器",
+      "introMarkdown": "单文件 PaaS，面向 AI Agent 和独立开发者，本地优先、AI 原生，用一个配置文件管理应用部署，支持 CLI / GitHub Actions 部署到自有服务器 - [更多介绍](https://github.com/appaloft/appaloft)",
       "status": "live",
       "date": "2026-07-04",
       "url": "https://appaloft.com",
