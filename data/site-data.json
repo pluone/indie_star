@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-07-29T06:30:53.122Z",
-    "statsSyncedAt": "2026-07-29T06:30:53.122Z",
-    "upstreamSha": "a9658bae599b93af5429bd8dc9506755c23c56f8",
+    "contentSyncedAt": "2026-07-29T07:11:20.768Z",
+    "statsSyncedAt": "2026-07-29T07:11:20.768Z",
+    "upstreamSha": "d642cee1e40d5573ada07f4d6b3cf0e0a10049a6",
     "counts": {
-      "main": 1616,
+      "main": 1617,
       "game": 110,
       "programmer": 277,
-      "total": 2003
+      "total": 2004
     }
   },
   "main": [
+    {
+      "slug": "44518c2d8c7b",
+      "board": "main",
+      "name": "网页视频港 WebVideoHarbor",
+      "intro": "免费开源的 macOS 网页媒体保存工具，通过 Chrome 扩展识别 MP4、WebM 与非加密 HLS/M3U8，并由本地助手完成下载",
+      "introMarkdown": "免费开源的 macOS 网页媒体保存工具，通过 Chrome 扩展识别 MP4、WebM 与非加密 HLS/M3U8，并由本地助手完成下载 - [源码](https://github.com/PHPfrank/web-video-harbor)",
+      "status": "live",
+      "date": "2026-07-29",
+      "url": "https://phpfrank.github.io/web-video-harbor/",
+      "author": "TopFrank",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/PHPfrank"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "ae6290c6fa63",
       "board": "main",
