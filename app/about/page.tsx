@@ -43,7 +43,7 @@ export default function AboutPage() {
             >
               chinese-independent-developer
             </a>
-            ，在此感谢原维护者与所有贡献者长期的整理与维护。项目列表每天凌晨 5 点(UTC+8)自动同步一次，可能有短暂延迟。
+            ，在此感谢原维护者与所有贡献者长期的整理与维护。项目列表每隔 10 分钟自动同步一次，可能有短暂延迟。
           </p>
           <div className="mt-2.5 inline-flex items-center gap-2 rounded-md border border-accent-line bg-accent-soft px-3 py-1.5 text-[13px] text-accent-ink">
             项目列表最近同步于 {formatSyncTime(meta.contentSyncedAt)}

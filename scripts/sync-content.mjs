@@ -203,13 +203,38 @@ function parseMarkdown(content, board) {
   return entries;
 }
 
-function slugFor(entry, extra = "") {
-  // `board` is included: upstream sometimes intentionally cross-lists the same project (same
-  // date/author/name) in two boards (e.g. both README.md and the programmer edition) — those are
-  // meant to be two independent site entries, matching the design's "boards are strictly
-  // independent" rule, so they must not collide.
-  const key = `${entry.date}\x1f${entry.author}\x1f${entry.name}\x1f${entry.board}${extra}`;
-  return createHash("sha1").update(key).digest("hex").slice(0, 12);
+/**
+ * Normalizes one slug component, so purely cosmetic upstream edits — a case change, a doubled
+ * space, the same characters in a different Unicode composition — don't mint a new slug.
+ */
+function normalizeSlugPart(value) {
+  return (value ?? "")
+    .normalize("NFC")
+    .trim()
+    .replace(/\s+/g, " ")
+    .toLowerCase();
+}
+
+/**
+ * A project's identity: author + name + board.
+ *
+ * `date` is deliberately NOT part of it. It used to be, but upstream re-dates existing entries —
+ * when a PR is merged, its projects are commonly moved under the merge date, so a project listed
+ * on 7-18 can resurface under 7-28 (e.g. upstream PR #1209). With the date in the key that renamed
+ * the slug, which meant: the /project/{slug} page moved (old links 404), and giscus — keyed off the
+ * pathname — lost the discussion, zeroing the project's likes and comments. The other three parts
+ * only change when upstream genuinely changes the project, where a new identity is the right answer.
+ *
+ * `board` IS included: upstream sometimes intentionally cross-lists the same project in two boards
+ * (e.g. both README.md and the programmer edition), and those are meant to be two independent site
+ * entries, matching the design's "boards are strictly independent" rule.
+ */
+function slugKey(entry) {
+  return `${normalizeSlugPart(entry.author)}\x1f${normalizeSlugPart(entry.name)}\x1f${entry.board}`;
+}
+
+function slugFor(entry) {
+  return createHash("sha1").update(slugKey(entry)).digest("hex").slice(0, 12);
 }
 
 /**
@@ -279,39 +304,45 @@ async function main() {
     const content = await fetchUpstreamFile(file, upstreamSha);
     const parsed = parseMarkdown(content, board);
 
-    const seenInBoard = new Map(); // slug -> url, to detect true upstream duplicates within a board
+    // A project can be listed more than once within one board — upstream re-lists it under a newer
+    // date instead of moving the old line, and since the date is no longer part of the slug those
+    // repeats now share one identity. The site is a mirror, so the newest listing wins and the
+    // older ones are dropped: one row, at the position upstream currently gives it.
+    const keptInBoard = new Map(); // slug -> { key, entry, index }
 
-    for (const entry of parsed) {
-      if (entry.status === "closed") continue; // never imported
+    parsed.forEach((entry, index) => {
+      if (entry.status === "closed") return; // never imported
 
-      let slug = slugFor(entry);
+      const key = slugKey(entry);
+      const slug = slugFor(entry);
+      const kept = keptInBoard.get(slug);
 
-      if (seenInBoard.has(slug)) {
-        if (seenInBoard.get(slug) === entry.url) {
-          // Same date/author/name/board AND same URL — a genuine upstream duplicate submission
-          // (seen in practice, e.g. the same product line accidentally added twice on one day).
-          // Keep only the first occurrence; skip this repeat.
-          console.warn(
-            `[sync-content] Skipping duplicate entry in ${file}: "${entry.name}" by ${entry.author} on ${entry.date} (same slug, same URL as an earlier line).`,
-          );
-          continue;
-        }
-        // Same key but a different URL — a true (extremely unlikely) hash collision between two
-        // distinct projects rather than a duplicate. Disambiguate deterministically rather than
-        // silently dropping or overwriting one of them.
-        let suffix = 2;
-        let disambiguated = slugFor(entry, `\x1f${suffix}`);
-        while (seenInBoard.has(disambiguated)) {
-          suffix += 1;
-          disambiguated = slugFor(entry, `\x1f${suffix}`);
-        }
-        console.warn(
-          `[sync-content] Slug collision (different projects) in ${file}: "${entry.name}" by ${entry.author} on ${entry.date} — disambiguated to ${disambiguated}.`,
-        );
-        slug = disambiguated;
+      if (!kept) {
+        keptInBoard.set(slug, { key, entry, index });
+        return;
       }
-      seenInBoard.set(slug, entry.url);
 
+      if (kept.key !== key) {
+        // Two different projects hashing to the same 12 hex digits: ~7e-9 at this catalogue size,
+        // so in practice this fires because the identity logic above is wrong, not because SHA-1
+        // collided. Fail the sync rather than let two projects silently share a page and a
+        // discussion thread — a one-build-stale site is the cheaper failure.
+        throw new Error(
+          `[sync-content] Slug collision in ${file}: ${slug} is claimed by both ${JSON.stringify(kept.key)} and ${JSON.stringify(key)}.`,
+        );
+      }
+
+      // Same project twice. Keep whichever upstream dates later; on a tie keep the earlier line.
+      const winner = (entry.date ?? "") > (kept.entry.date ?? "") ? { key, entry, index } : kept;
+      console.warn(
+        `[sync-content] Merging repeat listing in ${file}: "${entry.name}" by ${entry.author} appears on both ${kept.entry.date} and ${entry.date} — keeping ${winner.entry.date}.`,
+      );
+      keptInBoard.set(slug, winner);
+    });
+
+    const ordered = [...keptInBoard.entries()].sort((a, b) => a[1].index - b[1].index);
+
+    for (const [slug, { entry }] of ordered) {
       const live = counts.get(slug);
 
       result[board].push({
@@ -330,7 +361,9 @@ async function main() {
       });
     }
 
-    console.log(`[sync-content] ${file} -> ${result[board].length} projects (after filtering closed).`);
+    console.log(
+      `[sync-content] ${file} -> ${result[board].length} projects (after filtering closed and merging repeats).`,
+    );
   }
 
   const now = new Date().toISOString();
