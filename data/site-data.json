@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-07-29T07:11:20.768Z",
-    "statsSyncedAt": "2026-07-29T07:11:20.768Z",
-    "upstreamSha": "d642cee1e40d5573ada07f4d6b3cf0e0a10049a6",
+    "contentSyncedAt": "2026-07-29T12:56:14.944Z",
+    "statsSyncedAt": "2026-07-29T12:56:14.944Z",
+    "upstreamSha": "a1960bb68f3db20d8111bfee4ad7ac44d4434eef",
     "counts": {
-      "main": 1617,
-      "game": 110,
+      "main": 1619,
+      "game": 111,
       "programmer": 277,
-      "total": 2004
+      "total": 2007
     }
   },
   "main": [
@@ -762,6 +762,44 @@
       "status": "live",
       "date": "2026-07-21",
       "url": "https://seedream5-pro.im",
+      "author": "weidacn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d27517d8a737",
+      "board": "main",
+      "name": "FLUX 3 AI Image Generator",
+      "intro": "多模型 AI 图片生成与编辑工作台，支持文字生图、参考图编辑、宽高比与多语言文字控制，并清晰标注模型可用状态",
+      "introMarkdown": "多模型 AI 图片生成与编辑工作台，支持文字生图、参考图编辑、宽高比与多语言文字控制，并清晰标注模型可用状态",
+      "status": "live",
+      "date": "2026-07-21",
+      "url": "https://www-flux3.com",
+      "author": "weidacn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "465c7bca6188",
+      "board": "main",
+      "name": "FLUX 3 Video Generator",
+      "intro": "AI 视频生成工作台，支持文字或图片生成视频、参考图及镜头、动作和声音提示，并清晰标注模型可用状态",
+      "introMarkdown": "AI 视频生成工作台，支持文字或图片生成视频、参考图及镜头、动作和声音提示，并清晰标注模型可用状态",
+      "status": "live",
+      "date": "2026-07-21",
+      "url": "https://flux3-video.online",
       "author": "weidacn",
       "authorLinks": [
         {
@@ -29744,6 +29782,25 @@
     }
   ],
   "game": [
+    {
+      "slug": "17ea926bc3bc",
+      "board": "game",
+      "name": "小游戏大集合",
+      "intro": "基于 Vibe Coding 的小游戏大合集，含推理游戏、Alpha-Beta 棋类游戏等四大主题，3 分钟一局，随手把玩",
+      "introMarkdown": "基于 Vibe Coding 的小游戏大合集，含推理游戏、Alpha-Beta 棋类游戏等四大主题，3 分钟一局，随手把玩",
+      "status": "live",
+      "date": "2026-07-29",
+      "url": "https://happy-games.pages.dev/",
+      "author": "zhoujungis",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhoujungis"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "37df8ecacaff",
       "board": "game",
