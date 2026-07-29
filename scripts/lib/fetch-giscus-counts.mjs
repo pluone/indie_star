@@ -1,4 +1,4 @@
-// Shared by scripts/sync-content.mjs (daily) and scripts/sync-giscus-stats.mjs (30-min).
+// Shared by scripts/sync-content.mjs and the functions/api/stats.js Pages Function.
 // Queries GitHub Discussions on the giscus-backed repo and returns live like/comment counts
 // keyed by the slug embedded in each discussion's pathname-mapped title (/project/{slug}).
 
@@ -27,9 +27,8 @@ const QUERY = `
 
 /**
  * @param {string} [tokenOverride] Explicit PAT to use (e.g. a Pages Function secret). Falls back to
- *   process.env for the Node call sites (sync-content.mjs, sync-giscus-stats.mjs); guarded behind a
- *   typeof check since `process` doesn't exist in the Workers runtime this module also runs in
- *   (functions/api/stats.js).
+ *   process.env for the Node call site (sync-content.mjs); guarded behind a typeof check since
+ *   `process` doesn't exist in the Workers runtime this module also runs in (functions/api/stats.js).
  * @returns {Promise<Map<string, {likes: number, comments: number}>>}
  */
 export async function fetchGiscusCounts(tokenOverride) {

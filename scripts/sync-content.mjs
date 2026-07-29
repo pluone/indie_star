@@ -13,11 +13,11 @@ import { fetchGiscusCounts } from "./lib/fetch-giscus-counts.mjs";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const OUTPUT_PATH = path.resolve(ROOT, "data", "site-data.json");
+const UPSTREAM_PATH = path.resolve(ROOT, "data", "upstream.json");
 
 const UPSTREAM_OWNER = "1c7";
 const UPSTREAM_REPO = "chinese-independent-developer";
 const UPSTREAM_BRANCH = "master";
-const RAW_BASE = `https://raw.githubusercontent.com/${UPSTREAM_OWNER}/${UPSTREAM_REPO}/${UPSTREAM_BRANCH}`;
 
 // board key -> upstream file path (mirrors the 3 upstream README files 1:1)
 const FILES = [
@@ -212,8 +212,51 @@ function slugFor(entry, extra = "") {
   return createHash("sha1").update(key).digest("hex").slice(0, 12);
 }
 
-async function fetchUpstreamFile(file) {
-  const url = `${RAW_BASE}/${file}`;
+/**
+ * Resolve the upstream branch's current commit SHA, so every file below can be fetched pinned to
+ * it. Fetching by branch name instead would race the raw.githubusercontent CDN: it can serve
+ * content older than the SHA we then record as synced, and that update would never be picked up
+ * again — the watcher Worker only compares SHAs, so it would see the two as equal from then on.
+ */
+async function resolveUpstreamSha() {
+  const url = `https://api.github.com/repos/${UPSTREAM_OWNER}/${UPSTREAM_REPO}/commits/${UPSTREAM_BRANCH}`;
+  const headers = { Accept: "application/vnd.github.sha" };
+  if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+
+  const res = await fetch(url, { headers });
+  if (!res.ok) {
+    throw new Error(`Failed to resolve upstream SHA from ${url}: ${res.status} ${res.statusText}`);
+  }
+
+  const sha = (await res.text()).trim();
+  if (!/^[0-9a-f]{40}$/.test(sha)) {
+    throw new Error(`Unexpected SHA response from ${url}: ${sha.slice(0, 80)}`);
+  }
+  return sha;
+}
+
+/**
+ * Fingerprint of everything the site actually renders, so the workflow can tell an upstream commit
+ * that changed a project from one that only touched, say, the upstream CI config — the latter is
+ * ~19% of upstream commits, and at ~10 commits/day a needless Pages rebuild each time is real.
+ *
+ * Deliberately excludes `likes`/`comments`: those drift constantly, and their freshness is already
+ * handled at runtime by the /api/stats Pages Function, so they never justify a rebuild on their own.
+ * Everything else a project renders is covered, which is what matters — a missed change would be a
+ * silently stale site, whereas a spurious hash change only costs one extra build.
+ */
+function contentHash(result) {
+  const stable = Object.fromEntries(
+    Object.entries(result).map(([board, projects]) => [
+      board,
+      projects.map(({ likes, comments, ...rendered }) => rendered),
+    ]),
+  );
+  return createHash("sha256").update(JSON.stringify(stable)).digest("hex");
+}
+
+async function fetchUpstreamFile(file, sha) {
+  const url = `https://raw.githubusercontent.com/${UPSTREAM_OWNER}/${UPSTREAM_REPO}/${sha}/${file}`;
   const res = await fetch(url);
   if (!res.ok) {
     throw new Error(`Failed to fetch ${url}: ${res.status} ${res.statusText}`);
@@ -222,6 +265,9 @@ async function fetchUpstreamFile(file) {
 }
 
 async function main() {
+  const upstreamSha = await resolveUpstreamSha();
+  console.log(`[sync-content] Upstream ${UPSTREAM_BRANCH} is at ${upstreamSha}.`);
+
   console.log(`[sync-content] Fetching live giscus counts...`);
   const counts = await fetchGiscusCounts();
   console.log(`[sync-content] Got counts for ${counts.size} discussions.`);
@@ -230,7 +276,7 @@ async function main() {
 
   for (const { file, board } of FILES) {
     console.log(`[sync-content] Fetching ${file}...`);
-    const content = await fetchUpstreamFile(file);
+    const content = await fetchUpstreamFile(file, upstreamSha);
     const parsed = parseMarkdown(content, board);
 
     const seenInBoard = new Map(); // slug -> url, to detect true upstream duplicates within a board
@@ -292,6 +338,7 @@ async function main() {
     meta: {
       contentSyncedAt: now,
       statsSyncedAt: now, // this run also live-fetched counts, so it's a genuine stats refresh too
+      upstreamSha, // the exact commit these projects were parsed from
       counts: {
         main: result.main.length,
         game: result.game.length,
@@ -305,6 +352,18 @@ async function main() {
   await mkdir(path.dirname(OUTPUT_PATH), { recursive: true });
   await writeFile(OUTPUT_PATH, JSON.stringify(output, null, 2), "utf-8");
   console.log(`[sync-content] Wrote ${OUTPUT_PATH} (total ${output.meta.counts.total} projects).`);
+
+  // Small companion file, published alongside site-data.json on the `data` branch. The watcher
+  // Worker polls this one every 5 minutes, so it deliberately stays tiny — reading the full
+  // site-data.json just to get two fields would be wasteful. `sha` drives the Worker's
+  // dispatch decision; `contentHash` drives the workflow's deploy decision.
+  const hash = contentHash(result);
+  await writeFile(
+    UPSTREAM_PATH,
+    `${JSON.stringify({ sha: upstreamSha, contentHash: hash, syncedAt: now }, null, 2)}\n`,
+    "utf-8",
+  );
+  console.log(`[sync-content] Wrote ${UPSTREAM_PATH} (sha ${upstreamSha}, contentHash ${hash.slice(0, 12)}).`);
 }
 
 main().catch((err) => {

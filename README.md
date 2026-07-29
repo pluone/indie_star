@@ -7,16 +7,20 @@
 - **Next.js 16**(`output: "export"` 静态导出)+ React 19 + TypeScript
 - **giscus**(`@giscus/react`)—— 详情页的点赞 / 评论,后端是本仓库的 GitHub Discussions
 - **Cloudflare Pages** —— 托管静态产物 `out/`,并跑 `functions/api/stats.js`(Pages Function,近实时点赞/评论数,见下)
-- **GitHub Actions** —— 定时抓取上游内容,产物落在独立的 `data` 分支
+- **Cloudflare Worker**(`worker/`)—— 每 5 分钟轮询上游 HEAD,有新提交就派发同步 workflow(见「近实时内容同步」)
+- **GitHub Actions** —— 抓取上游内容,产物落在独立的 `data` 分支
 
 ## 架构与数据流
 
 站点是纯静态的,但展示的数据(项目列表、点赞数、评论数)需要定期更新。为了**不把生成的数据污染 `main` 分支**,数据被单独放在一个 `data` 分支上:
 
 ```
+Cloudflare Worker (worker/)   每 5 分钟比对上游 HEAD 与 data/upstream.json
+        │ 有新提交 → workflow_dispatch
+        ▼
 上游 README (1c7/...)  ──┐
-                         ├─► GitHub Actions 定时任务 ──► data 分支: data/site-data.json
-GitHub Discussions ──────┘         (sync-content.mjs)              │
+                         ├─► GitHub Actions ─────────► data 分支: site-data.json
+GitHub Discussions ──────┘     (sync-content.mjs)                 + upstream.json
 (giscus 点赞/评论)                                                  │ 触发 Deploy Hook
                                                                    ▼
                               Cloudflare Pages 从 main 构建 ◄───────┘
@@ -29,17 +33,19 @@ GitHub Discussions ──────┘         (sync-content.mjs)             
 关键点:
 
 - **`main` 分支**:只有源码,不含生成的数据。**Cloudflare Pages 的生产分支就是它。**
-- **`data` 分支**:只有 `data/site-data.json`,由 Actions 自动维护,**不要手动改、也不要设为生产分支**。
+- **`data` 分支**:只有 `data/site-data.json` 和 `data/upstream.json`,由 Actions 自动维护,**不要手动改、也不要设为生产分支**。
 - **构建时注入数据**:`npm run build` 的 `prebuild` 步骤(`scripts/fetch-data.mjs`)会从 `data` 分支的 raw 地址拉取最新 `site-data.json` 写进 `public/data/`,`next build` 再把它打进静态产物。所以每次构建拿到的都是当前最新数据,而 `main` 完全不用动。
-- **数据更新如何触发部署**:Actions 更新 `data` 分支后,会 `curl` 一个 Cloudflare **Deploy Hook**,让 Pages 用 `main` 重新构建一次(构建时自动拉到新数据)。
+- **数据更新如何触发部署**:Actions 更新 `data` 分支后,会 `curl` 一个 Cloudflare **Deploy Hook**,让 Pages 用 `main` 重新构建一次(构建时自动拉到新数据)。注意"提交"和"部署"是**两个独立判断**——见下方「什么时候才会真的重新部署」。
 
 ### 相关脚本
 
 | 脚本 | 命令 | 作用 |
 |---|---|---|
 | `scripts/fetch-data.mjs` | 自动在 `build` 前跑(`prebuild`) | 从 `data` 分支拉 `site-data.json` 到 `public/data/`;`data` 分支不存在时回退本地 `data/site-data.json` |
-| `scripts/sync-content.mjs` | `npm run sync:content` | 解析上游 3 个 README + 实时抓 giscus 计数,**全量重建** `data/site-data.json` |
-| `scripts/sync-giscus-stats.mjs` | `npm run sync:stats` | 只刷新点赞 / 评论数。**已弃用,不会在生产环境启用**——点赞/评论的实时性现在由 `/api/stats` 这条链路负责,见下方「近实时点赞/评论数」 |
+| `scripts/sync-content.mjs` | `npm run sync:content` | 解析上游 3 个 README + 实时抓 giscus 计数,**全量重建** `data/site-data.json`,并写出 `data/upstream.json` |
+| `worker/src/index.js` | `cd worker && npm run deploy` | 上游监听 Worker,详见「近实时内容同步」 |
+
+> `sync-content.mjs` 会先解析出上游 `master` 的当前 commit SHA,再把 3 个 raw 请求**钉死在这个 SHA 上**。按分支名拉会跟 raw.githubusercontent 的 CDN 缓存赛跑:可能拿到比记录下来的 SHA 更旧的内容,而 Worker 只比对 SHA,那次更新就会被永久跳过。
 
 ## 本地开发
 
@@ -100,12 +106,63 @@ npm run build      # 先跑 prebuild 拉数据,再静态导出到 out/
 
 ### 4. 首次数据初始化
 
-`data` 分支由 Actions 首次运行 `sync-content` 时自动创建。可以在 GitHub **Actions → Sync content → Run workflow** 手动触发一次,生成 `data` 分支并首次填充数据。之后:
+`data` 分支由 Actions 首次运行 `sync-content` 时自动创建。可以在 GitHub **Actions → Sync content → Run workflow** 手动触发一次,生成 `data` 分支并首次填充数据。
 
-- **Sync content**(`.github/workflows/sync-content.yml`):每天 03:00 UTC 全量重建。
-- **Sync giscus stats**(`.github/workflows/sync-giscus-stats.yml`):每 30 分钟刷新计数。**已弃用**,不建议启用——点赞/评论的实时性已经交给下面「近实时点赞/评论数」这条链路负责,这个 workflow 文件目前还留着但不应该再手动触发。
+之后 **Sync content**(`.github/workflows/sync-content.yml`)有两个触发源:主要靠下面的 Worker 派发(上游一有提交,5 分钟内),外加每天 21:00 UTC 的兜底定时。它在更新 `data` 分支后会触发 Deploy Hook 重新部署。
 
-两个 workflow 都会在更新 `data` 分支后触发 Deploy Hook 重新部署。
+### 5. 部署上游监听 Worker
+
+见下面「近实时内容同步」一节。
+
+## 近实时内容同步
+
+上游仓库不是我们的,拿不到它的 push webhook,所以"监听"只能是轮询——问题只是**由谁轮询**。这里由一个独立的 Cloudflare Worker(`worker/`)每 5 分钟做一次:
+
+```
+1. GET github.com/1c7/…/commits/master.atom       取上游 HEAD 的 SHA(免认证、无限流)
+2. GET api.github.com/…/contents/data/upstream.json?ref=data   取上次同步的 SHA
+3. 两者不同 → POST …/actions/workflows/sync-content.yml/dispatches
+```
+
+从上游提交到站点更新,典型 **5~8 分钟**(轮询 ≤5 分钟 + workflow 1~2 分钟 + Pages 构建)。
+
+### 什么时候才会真的重新部署
+
+上游提交很频繁(2026-07 实测 **约 10 次/天**),而其中 **约 19% 根本没碰我们解析的那 3 个 README**(改的是上游自己的 CI、图片等)。如果每次提交都重建 2015 个页面,一个月约 330 次构建,而 Cloudflare Pages 免费版是 500 次/月——余量太薄。所以 publish 步骤把两件事拆开了:
+
+| 判断 | 条件 | 为什么 |
+|---|---|---|
+| **提交到 `data` 分支** | 任何字节有变化 | `upstream.json` 的 `sha` **必须**推进,哪怕内容没变。否则 Worker 会认为这个 commit 还没同步,每 5 分钟无限重派发。 |
+| **触发 Deploy Hook** | `contentHash` 变了 | `site-data.json` 每次运行都会变(`meta` 里的时间戳是重新生成的),所以"有提交"根本不能证明页面会渲染得不一样。 |
+
+`contentHash` 由 `sync-content.mjs` 算出、写在 `upstream.json` 里,是对**站点实际渲染的所有字段**做 SHA-256(name / intro / introMarkdown / status / date / url / author / authorLinks / slug),**排除 `likes`/`comments`** —— 那两个字段一直在变,而它们的实时性已经由 `/api/stats` 在运行时负责,不值得为它们重建整站。
+
+这个哈希的出错方向是安全的:内容变了但哈希没变需要 SHA-256 碰撞(不会发生),**不存在漏部署**;反过来最多多部署一次,只是浪费一次构建。旧的 `contentHash` 缺失时(比如 `data` 分支是在这个机制之前建的)一律按"有变化"处理。
+
+**为什么是独立 Worker,而不是 Pages Function 或 Actions 定时任务:**
+
+- Pages Functions **不支持 Cron Triggers**,只能被 HTTP 请求触发。
+- GitHub 会在**公开仓库连续 60 天没有活动**后自动停用 scheduled workflow —— 而"不再需要改代码、让它自己跑"恰好是这个项目的目标状态。触发源放在 GitHub 之外就不受这条规则约束。
+
+这个 Worker 没有 `fetch` handler、`workers_dev = false`,所以没有任何公网地址,只会被 cron 唤醒。
+
+**部署步骤:**
+
+```bash
+cd worker
+npm install
+npx wrangler login          # 与 Pages 项目同一个 Cloudflare 账号
+npm run secret              # 粘贴下面的 PAT
+npm run deploy
+```
+
+| Secret(Worker) | 说明 |
+|---|---|
+| `GITHUB_PAT` | fine-grained PAT,仓库范围**只选 `pluone/indie_star`**,权限只需两项:`Contents: Read`(读 `data/upstream.json`)+ `Actions: Read and write`(派发 workflow)。**不需要任何上游仓库的权限** —— 上游 SHA 走公开 Atom feed。 |
+
+> ⚠️ **PAT 会过期**(fine-grained 上限 1 年)。过期后这条链路会**静默失效**:站点不会报错,只是数据停在某天不动了,唯一的兜底是每天那次定时同步(而它自己也可能被 60 天规则停掉)。建议在日历上记一下到期日。
+
+调试:`cd worker && npm run dev`(`wrangler dev --test-scheduled`,可手动触发一次 cron),线上日志用 `npm run tail`。
 
 ## 前置依赖:giscus
 

@@ -37,6 +37,7 @@
   ],
   "exclude": [
     "node_modules",
-    "chinese-independent-developer-master"
+    "chinese-independent-developer-master",
+    "worker"
   ]
 }

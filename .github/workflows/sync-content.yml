@@ -1,17 +1,34 @@
 name: Sync content
 
-# Daily at 05:00 UTC+8 (21:00 UTC, previous day): parses the 3 upstream README files straight into
-# data/site-data.json (no intermediate output.json — see scripts/sync-content.mjs) and live-fetches
-# current giscus counts too, so this is a fully fresh rebuild every run. Publishes the result to the
-# `data` branch (never `main`), then triggers a Cloudflare Pages rebuild via its Deploy Hook.
+# Parses the 3 upstream README files straight into data/site-data.json (no intermediate output.json
+# — see scripts/sync-content.mjs) and live-fetches current giscus counts too, so this is a fully
+# fresh rebuild every run. Publishes the result to the `data` branch (never `main`), then triggers a
+# Cloudflare Pages rebuild via its Deploy Hook.
+#
+# Normally triggered within ~5 minutes of an upstream commit by the watcher Worker in worker/, which
+# dispatches this workflow. The daily schedule below is only a fallback for the case where that
+# Worker is broken or its PAT has expired — note that GitHub disables scheduled workflows in public
+# repos after 60 days of repository inactivity, so the fallback itself is not something to rely on.
 
 on:
   schedule:
-    - cron: "0 21 * * *"
-  workflow_dispatch: {}
+    - cron: "0 21 * * *" # daily at 05:00 UTC+8, as a fallback
+  workflow_dispatch:
+    inputs:
+      sha:
+        description: "Upstream commit that triggered this run (labelling only — the run resolves the upstream head itself)"
+        required: false
+        type: string
 
 permissions:
   contents: write
+
+# Two dispatches can land close together (e.g. a second upstream commit while a run is in flight).
+# Queue them instead of racing over the `data` branch; never cancel, since a cancelled run would
+# leave upstream.json pointing at a commit whose content was never published.
+concurrency:
+  group: sync-content
+  cancel-in-progress: false
 
 jobs:
   sync-content:
@@ -47,21 +64,47 @@ jobs:
             (cd /tmp/data-branch && git rm -rq . || true)
           fi
 
-      - name: Publish data/site-data.json
+      - name: Publish data/site-data.json + data/upstream.json
         id: publish
         run: |
+          set -e
+          # Two independent decisions here:
+          #   commit — always, whenever anything differs. upstream.json's `sha` MUST advance even for
+          #            an upstream commit that changed nothing we parse, or the watcher Worker keeps
+          #            re-dispatching that same commit every 5 minutes forever.
+          #   deploy — only when `contentHash` moved. site-data.json differs on *every* run (its meta
+          #            timestamps are regenerated), so committing is not evidence that the site would
+          #            render differently. ~19% of upstream commits don't touch the 3 READMEs at all.
+          OLD_HASH=$(jq -r '.contentHash // empty' /tmp/data-branch/data/upstream.json 2>/dev/null || true)
+          NEW_HASH=$(jq -r '.contentHash' data/upstream.json)
+
           mkdir -p /tmp/data-branch/data
           cp data/site-data.json /tmp/data-branch/data/site-data.json
+          cp data/upstream.json /tmp/data-branch/data/upstream.json
           cd /tmp/data-branch
-          git add data/site-data.json
+          # -f: these paths are gitignored on `main` (they're build output there). Committing them
+          # is the entire point of the `data` branch, and `git add` errors out on an ignored path.
+          git add -f data/site-data.json data/upstream.json
+
           if git diff --cached --quiet; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Nothing changed at all — no commit, no deploy."
+            echo "deploy=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          git commit -m "chore: sync content $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push origin data
+
+          # Empty OLD_HASH means the `data` branch predates contentHash (or is brand new) — deploy,
+          # since we have no evidence the published site matches what we just parsed.
+          if [ -n "$OLD_HASH" ] && [ "$OLD_HASH" = "$NEW_HASH" ]; then
+            echo "Content unchanged (${NEW_HASH:0:12}) — published, but skipping the Pages rebuild."
+            echo "deploy=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "chore: sync content $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-            git push origin data
-            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Content changed: ${OLD_HASH:-none} -> ${NEW_HASH:0:12} — triggering a Pages rebuild."
+            echo "deploy=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Trigger Cloudflare Pages deploy
-        if: steps.publish.outputs.changed == 'true'
+        if: steps.publish.outputs.deploy == 'true'
         run: curl -fsS -X POST "${{ secrets.CLOUDFLARE_DEPLOY_HOOK_URL }}"

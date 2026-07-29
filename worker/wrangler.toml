@@ -1,0 +1,22 @@
+name = "indie-star-upstream-watch"
+main = "src/index.js"
+compatibility_date = "2026-07-28"
+
+# This Worker has no `fetch` handler and serves no traffic — it only runs on the cron below.
+# Keeping workers.dev off means it has no public URL at all.
+workers_dev = false
+
+[triggers]
+crons = ["*/5 * * * *"]
+
+[vars]
+SITE_REPO = "pluone/indie_star"
+SITE_BRANCH = "main"        # branch the workflow file is dispatched from
+DATA_BRANCH = "data"        # branch holding data/site-data.json + data/upstream.json
+WORKFLOW_FILE = "sync-content.yml"
+UPSTREAM_REPO = "1c7/chinese-independent-developer"
+UPSTREAM_BRANCH = "master"
+
+# Secret (not here — set with `npm run secret`, see README):
+#   GITHUB_PAT  fine-grained PAT on pluone/indie_star only, with
+#               Contents: Read (read data/upstream.json) + Actions: Read and write (dispatch)

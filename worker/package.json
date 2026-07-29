@@ -1,0 +1,16 @@
+{
+  "name": "indie-star-upstream-watch",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Cron Worker that watches the upstream repo and dispatches the Sync content workflow.",
+  "scripts": {
+    "dev": "wrangler dev --test-scheduled",
+    "deploy": "wrangler deploy",
+    "secret": "wrangler secret put GITHUB_PAT",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^4.114.0"
+  }
+}
