@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import BackToListLink from "@/components/BackToListLink";
 import GiscusComments from "@/components/GiscusComments";
+import LinkHint from "@/components/LinkHint";
 import { avatarColors, BOARD_LABEL, formatDateCN, isImageUrl } from "@/lib/format";
 import { renderInlineMarkdown } from "@/lib/inline-markdown";
 import { findProjectBySlug, getSiteData } from "@/lib/site-data";
@@ -87,16 +88,18 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
               <div className="mt-1.5 text-xs text-ink-3">扫码访问</div>
             </div>
           ) : (
-            <a
-              href={project.url}
-              target="_blank"
-              rel="noreferrer"
-              // 刻意不用实心强调色：那样的按钮太像“离站出口”，权重压过页面本身的内容。
-              // 改成淡底 + 描边的次级按钮，仍是本页最显眼的操作，但不再抢戏。
-              className="inline-flex shrink-0 items-center gap-1.5 rounded-lg border border-accent-line bg-accent-soft px-5 py-2.5 text-sm font-semibold text-accent-ink no-underline transition-colors hover:border-accent hover:text-accent"
-            >
-              访问项目 →
-            </a>
+            <LinkHint url={project.url} align="right">
+              <a
+                href={project.url}
+                target="_blank"
+                rel="noreferrer"
+                // 刻意不用实心强调色：那样的按钮太像“离站出口”，权重压过页面本身的内容。
+                // 改成淡底 + 描边的次级按钮，仍是本页最显眼的操作，但不再抢戏。
+                className="inline-flex shrink-0 items-center gap-1.5 rounded-lg border border-accent-line bg-accent-soft px-5 py-2.5 text-sm font-semibold text-accent-ink no-underline transition-colors hover:border-accent hover:text-accent"
+              >
+                访问项目 →
+              </a>
+            </LinkHint>
           )}
         </div>
 
