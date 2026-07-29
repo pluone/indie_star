@@ -1,12 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-07-28T21:58:09.357Z",
-    "statsSyncedAt": "2026-07-28T21:58:09.357Z",
+    "contentSyncedAt": "2026-07-29T02:11:15.458Z",
+    "statsSyncedAt": "2026-07-29T02:11:15.458Z",
+    "upstreamSha": "a9658bae599b93af5429bd8dc9506755c23c56f8",
     "counts": {
       "main": 1629,
       "game": 111,
-      "programmer": 276,
-      "total": 2016
+      "programmer": 277,
+      "total": 2017
     }
   },
   "main": [
@@ -32059,6 +32060,29 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "0ae6ed396784",
+      "board": "programmer",
+      "name": "PythonIDE",
+      "intro": "面向 iPhone 和 iPad 的原生 Python 3.14.6 开发工作台，可本地运行科学计算与 Notebook，并用 AI Agent 修改、运行和验证项目；还能用 Python 构建 MiniApp 原生界面、Widget 与自动化，内置 SSH、Git 和 iOS 系统能力",
+      "introMarkdown": "面向 iPhone 和 iPad 的原生 Python 3.14.6 开发工作台，可本地运行科学计算与 Notebook，并用 AI Agent 修改、运行和验证项目；还能用 Python 构建 MiniApp 原生界面、Widget 与自动化，内置 SSH、Git 和 iOS 系统能力 - [更多介绍](https://github.com/Python-IDE/PythonIDE-iOS)",
+      "status": "live",
+      "date": "2026-07-29",
+      "url": "https://apps.apple.com/app/id6753987304",
+      "author": "张文禄",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Python-IDE"
+        },
+        {
+          "label": "官网",
+          "url": "https://pythonide.xin/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "663eeb7682bb",
       "board": "programmer",
