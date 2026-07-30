@@ -1,16 +1,49 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-07-30T02:31:09.823Z",
-    "statsSyncedAt": "2026-07-30T02:31:09.823Z",
-    "upstreamSha": "d959c000ac0124046f915414a91f139051978f54",
+    "contentSyncedAt": "2026-07-30T07:11:15.648Z",
+    "statsSyncedAt": "2026-07-30T07:11:15.648Z",
+    "upstreamSha": "bb94df4d6aef829d9c899bc5486a078bdee3bfb0",
     "counts": {
-      "main": 1622,
+      "main": 1624,
       "game": 111,
       "programmer": 277,
-      "total": 2010
+      "total": 2012
     }
   },
   "main": [
+    {
+      "slug": "2448520ee92d",
+      "board": "main",
+      "name": "Birth",
+      "intro": "管理 Mac 启动项，显示每个自启项的开发者签名身份、标红伪装系统项，支持一键启停与安全删除 — 免费开源 macOS App",
+      "introMarkdown": "管理 Mac 启动项，显示每个自启项的开发者签名身份、标红伪装系统项，支持一键启停与安全删除 — 免费开源 macOS App",
+      "status": "live",
+      "date": "2026-07-30",
+      "url": "https://github.com/iAmCorey/birth",
+      "author": "iAmCorey",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/iAmCorey"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "613a40127d55",
+      "board": "main",
+      "name": "Create PDF from Sheet",
+      "intro": "在线将 Excel 转为 PDF，可在浏览器中预览分页、合并多个工作簿，文件不上传数据库、无需注册、无水印",
+      "introMarkdown": "在线将 Excel 转为 PDF，可在浏览器中预览分页、合并多个工作簿，文件不上传数据库、无需注册、无水印",
+      "status": "live",
+      "date": "2026-07-30",
+      "url": "https://createpdffromsheet.com/",
+      "author": "jankarong",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "6e4b4b83c1b9",
       "board": "main",
@@ -27,7 +60,7 @@
           "url": "https://github.com/Hipepper"
         }
       ],
-      "likes": 0,
+      "likes": 1,
       "comments": 0
     },
     {
@@ -145,8 +178,8 @@
           "url": "https://github.com/MrBaoboer/"
         }
       ],
-      "likes": 0,
-      "comments": 0
+      "likes": 1,
+      "comments": 1
     },
     {
       "slug": "f8af5e29b8af",
