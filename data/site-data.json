@@ -1,16 +1,87 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-07-30T12:51:12.840Z",
-    "statsSyncedAt": "2026-07-30T12:51:12.840Z",
-    "upstreamSha": "88db19e99f11330fd8bedccc9710c3ad8e9093aa",
+    "contentSyncedAt": "2026-07-30T12:57:17.041Z",
+    "statsSyncedAt": "2026-07-30T12:57:17.041Z",
+    "upstreamSha": "e5cc4fd604f70e549285f4de8eec59d95630b49b",
     "counts": {
-      "main": 1626,
+      "main": 1630,
       "game": 111,
       "programmer": 277,
-      "total": 2014
+      "total": 2018
     }
   },
   "main": [
+    {
+      "slug": "50c855f9e811",
+      "board": "main",
+      "name": "童伴绘本",
+      "intro": "AI 定制亲子绘本平台，从家庭故事生成适龄脚本、统一角色插画、配音、互动阅读、PDF 和视频；可在线阅读已完成作品，专属生成采用邀请制",
+      "introMarkdown": "AI 定制亲子绘本平台，从家庭故事生成适龄脚本、统一角色插画、配音、互动阅读、PDF 和视频；可在线阅读已完成作品，专属生成采用邀请制 - [更多介绍](https://github.com/AAAAaron/tongban-picture-book)",
+      "status": "live",
+      "date": "2026-07-30",
+      "url": "https://xingye.site",
+      "author": "Aaron",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/AAAAaron"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "40bdc51574fa",
+      "board": "main",
+      "name": "Agent4API",
+      "intro": "导入 Swagger 2.0 或 OpenAPI 3.x 文档，一键理解接口业务能力并生成 Tools、Skills 和 Agents；通过 MCP、OpenAI/Anthropic 兼容 API、内置 Chat 与嵌入式 Chat 对外提供服务，支持 Docker Compose 自托管部署",
+      "introMarkdown": "导入 Swagger 2.0 或 OpenAPI 3.x 文档，一键理解接口业务能力并生成 Tools、Skills 和 Agents；通过 MCP、OpenAI/Anthropic 兼容 API、内置 Chat 与嵌入式 Chat 对外提供服务，支持 Docker Compose 自托管部署 - [源码](https://github.com/apoet/Agent4API)",
+      "status": "live",
+      "date": "2026-07-30",
+      "url": "https://agent4api.ecrfs.com/admin",
+      "author": "apoet",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/apoet"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d7dd178d23d9",
+      "board": "main",
+      "name": "GoBoardcast",
+      "intro": "AI 白板讲解视频工具，把任意主题生成可编辑白板，并录制摄像头、麦克风、光标讲解后导出 MP4",
+      "introMarkdown": "AI 白板讲解视频工具，把任意主题生成可编辑白板，并录制摄像头、麦克风、光标讲解后导出 MP4",
+      "status": "live",
+      "date": "2026-07-30",
+      "url": "https://goboardcast.com",
+      "author": "K",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "e0c17eae8ac4",
+      "board": "main",
+      "name": "SummaGraph",
+      "intro": "AI 信息图生成工具，粘贴任意形式的文本即可一键生成高质量信息图，内置 20 种视觉风格 × 20 种布局模板，支持系列模式一次生成多页风格连续的信息图，覆盖中英日韩等 9 种语言",
+      "introMarkdown": "AI 信息图生成工具，粘贴任意形式的文本即可一键生成高质量信息图，内置 20 种视觉风格 × 20 种布局模板，支持系列模式一次生成多页风格连续的信息图，覆盖中英日韩等 9 种语言",
+      "status": "live",
+      "date": "2026-07-30",
+      "url": "https://www.summagraph.com/",
+      "author": "howardz27",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/howardz27"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "92a07d8d217b",
       "board": "main",
