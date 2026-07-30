@@ -1,16 +1,58 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-07-30T00:51:14.974Z",
-    "statsSyncedAt": "2026-07-30T00:51:14.974Z",
-    "upstreamSha": "84bc638b94a13b7e3efa350e28854ff461206e63",
+    "contentSyncedAt": "2026-07-30T02:31:09.823Z",
+    "statsSyncedAt": "2026-07-30T02:31:09.823Z",
+    "upstreamSha": "d959c000ac0124046f915414a91f139051978f54",
     "counts": {
-      "main": 1620,
+      "main": 1622,
       "game": 111,
-      "programmer": 278,
-      "total": 2009
+      "programmer": 277,
+      "total": 2010
     }
   },
   "main": [
+    {
+      "slug": "6e4b4b83c1b9",
+      "board": "main",
+      "name": "EgressGuard",
+      "intro": "持续监控 Mac 出口 IP 和国家/地区，一旦不符合可信规则就自动关闭 ChatGPT、Claude 等应用，避免账号被封",
+      "introMarkdown": "持续监控 Mac 出口 IP 和国家/地区，一旦不符合可信规则就自动关闭 ChatGPT、Claude 等应用，避免账号被封 - [下载](https://github.com/Hipepper/EgressGuard/releases/tag/v1.0.0)",
+      "status": "live",
+      "date": "2026-07-30",
+      "url": "https://github.com/Hipepper/EgressGuard",
+      "author": "Hipepper",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Hipepper"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "e284cee8df14",
+      "board": "main",
+      "name": "PythonIDE",
+      "intro": "面向 iPhone 和 iPad 的原生 Python 3.14.6 开发工作台，可本地运行科学计算与 Notebook，并用 AI Agent 修改、运行和验证项目；还能用 Python 构建 MiniApp 原生界面、Widget 与自动化，内置 SSH、Git 和 iOS 系统能力",
+      "introMarkdown": "面向 iPhone 和 iPad 的原生 Python 3.14.6 开发工作台，可本地运行科学计算与 Notebook，并用 AI Agent 修改、运行和验证项目；还能用 Python 构建 MiniApp 原生界面、Widget 与自动化，内置 SSH、Git 和 iOS 系统能力 - [更多介绍](https://github.com/Python-IDE/PythonIDE-iOS)",
+      "status": "live",
+      "date": "2026-07-30",
+      "url": "https://apps.apple.com/app/id6753987304",
+      "author": "张文禄",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Python-IDE"
+        },
+        {
+          "label": "官网",
+          "url": "https://pythonide.xin/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "d21a6fcb4280",
       "board": "main",
@@ -31908,29 +31950,6 @@
         {
           "label": "GitHub",
           "url": "https://github.com/stomeonst"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "373734b41847",
-      "board": "programmer",
-      "name": "PythonIDE",
-      "intro": "面向 iPhone 和 iPad 的原生 Python 3.14.6 开发工作台，可本地运行科学计算与 Notebook，并用 AI Agent 修改、运行和验证项目；还能用 Python 构建 MiniApp 原生界面、Widget 与自动化，内置 SSH、Git 和 iOS 系统能力",
-      "introMarkdown": "面向 iPhone 和 iPad 的原生 Python 3.14.6 开发工作台，可本地运行科学计算与 Notebook，并用 AI Agent 修改、运行和验证项目；还能用 Python 构建 MiniApp 原生界面、Widget 与自动化，内置 SSH、Git 和 iOS 系统能力 - [更多介绍](https://github.com/Python-IDE/PythonIDE-iOS)",
-      "status": "live",
-      "date": "2026-07-29",
-      "url": "https://apps.apple.com/app/id6753987304",
-      "author": "张文禄",
-      "authorLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/Python-IDE"
-        },
-        {
-          "label": "官网",
-          "url": "https://pythonide.xin/"
         }
       ],
       "likes": 0,
