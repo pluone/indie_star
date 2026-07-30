@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-07-30T07:11:15.648Z",
-    "statsSyncedAt": "2026-07-30T07:11:15.648Z",
-    "upstreamSha": "bb94df4d6aef829d9c899bc5486a078bdee3bfb0",
+    "contentSyncedAt": "2026-07-30T12:51:12.840Z",
+    "statsSyncedAt": "2026-07-30T12:51:12.840Z",
+    "upstreamSha": "88db19e99f11330fd8bedccc9710c3ad8e9093aa",
     "counts": {
-      "main": 1624,
+      "main": 1626,
       "game": 111,
       "programmer": 277,
-      "total": 2012
+      "total": 2014
     }
   },
   "main": [
+    {
+      "slug": "92a07d8d217b",
+      "board": "main",
+      "name": "HALO 音乐广场",
+      "intro": "多平台音乐搜索与播放，支持收藏和自建歌单，适配桌面和移动端 — 免费",
+      "introMarkdown": "多平台音乐搜索与播放，支持收藏和自建歌单，适配桌面和移动端 — 免费",
+      "status": "live",
+      "date": "2026-07-30",
+      "url": "https://halo-music.pages.dev/",
+      "author": "zhoujungis",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhoujungis"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "a1efee5b21d4",
+      "board": "main",
+      "name": "紫微玄鉴",
+      "intro": "在线紫微斗数排盘工具，支持紫微排盘、合盘、大限流年运势分析，无需注册即开即用 — 免费",
+      "introMarkdown": "在线紫微斗数排盘工具，支持紫微排盘、合盘、大限流年运势分析，无需注册即开即用 — 免费",
+      "status": "live",
+      "date": "2026-07-30",
+      "url": "https://ziweixuanjian.com",
+      "author": "Alice",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zengqingqing-cyber"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "2448520ee92d",
       "board": "main",
