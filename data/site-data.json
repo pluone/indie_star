@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-07-30T12:57:17.041Z",
-    "statsSyncedAt": "2026-07-30T12:57:17.041Z",
-    "upstreamSha": "e5cc4fd604f70e549285f4de8eec59d95630b49b",
+    "contentSyncedAt": "2026-07-30T18:41:40.600Z",
+    "statsSyncedAt": "2026-07-30T18:41:40.600Z",
+    "upstreamSha": "1451f0cf44898f3f8b3e77d1ef7aef0e59b75859",
     "counts": {
-      "main": 1630,
+      "main": 1631,
       "game": 111,
       "programmer": 277,
-      "total": 2018
+      "total": 2019
     }
   },
   "main": [
+    {
+      "slug": "e9f7e5cda550",
+      "board": "main",
+      "name": "CrossGen",
+      "intro": "本地优先的跨平台 AI 图片工作台，一处完成生图、编辑、整理与复用；安装后还可通过 JSON CLI 和 MCP 让 Codex、Claude Code、Cursor 等 Agent 调用同一套工作流",
+      "introMarkdown": "本地优先的跨平台 AI 图片工作台，一处完成生图、编辑、整理与复用；安装后还可通过 JSON CLI 和 MCP 让 Codex、Claude Code、Cursor 等 Agent 调用同一套工作流 - [源码](https://github.com/Bliveren/CrossGen)",
+      "status": "live",
+      "date": "2026-07-30",
+      "url": "https://www.corgnitor.com/products/crossgen",
+      "author": "Alive",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Bliveren"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "50c855f9e811",
       "board": "main",
