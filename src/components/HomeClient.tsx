@@ -2,11 +2,12 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import LinkHint from "@/components/LinkHint";
+import { Fragment, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Board, Project } from "@/lib/types";
-import { avatarColors, BOARD_LABEL, formatDateCN, inTimeRange, isImageUrl, type TimeRange } from "@/lib/format";
+import { BOARD_LABEL, inTimeRange, type TimeRange } from "@/lib/format";
 import { readGiscusStats, type GiscusStatsMap } from "@/lib/giscus-stats";
+import ProjectCard from "@/components/ProjectCard";
+import ProjectRow from "@/components/ProjectRow";
 
 const PAGE_SIZE = 8;
 const BOARD_KEYS: Board[] = ["main", "programmer", "game"];
@@ -33,7 +34,7 @@ const HIGHLIGHT_FADE_MS = 900;
 // column on very wide viewports (e.g. a 4K display fullscreen) — each row still spans full width
 // for its background/border, but its actual content is centered within this width, same as the
 // list below it.
-const CONTENT = "mx-auto w-full max-w-[1080px] px-10";
+const CONTENT = "mx-auto w-full max-w-[1080px] px-3 md:px-10";
 type SortBy = "recent" | "likes" | "comments";
 
 interface HomeClientProps {
@@ -152,6 +153,19 @@ export default function HomeClient(props: HomeClientProps) {
   const [pendingScrollY, setPendingScrollY] = useState<number | null>(null);
   const [highlightSlug, setHighlightSlug] = useState<string | null>(null);
   const [highlightVisible, setHighlightVisible] = useState(false);
+  // 移动端抽屉:版面/排序/收录时间全部收进来,默认隐藏;桌面端这些仍在吸顶第二带里常驻。
+  // 为什么要它:移动端的阅读空间比"一眼看清在哪个版面"更值钱,把它们藏进抽屉,主区就只剩卡片。
+  const [drawerOpen, setDrawerOpen] = useState(false);
+
+  // 抽屉打开时锁住背景滚动,避免抽屉里短列表与背后列表同时滚(DOM 滚动会被穿透)。
+  useEffect(() => {
+    if (!drawerOpen) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = prev;
+    };
+  }, [drawerOpen]);
 
   useEffect(() => {
     // Consume-once: a saved state means we're returning from a project detail page — restore it
@@ -219,6 +233,30 @@ export default function HomeClient(props: HomeClientProps) {
       // sessionStorage unavailable (e.g. private browsing) — next visit just won't restore.
     }
   }
+
+  // 卡片/行的点击入口:存导航态后跳详情。两套展示层共用这一个,逻辑不 fork。
+  const handleOpen = useCallback(
+    (slug: string) => {
+      saveNavState(slug);
+      router.push(`/project/${slug}`);
+    },
+    // saveNavState 闭包了 board/search/sortBy/timeRange/visibleCounts,列依赖使其随这些更新;
+    // router 稳定。eslint 的 exhaustive-deps 对一个定义在同作用域的普通 function 仍会提示缺失,
+    // 这里 saveNavState 未被 useCallback 包裹故不列入,有意省略。
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [board, search, sortBy, timeRange, visibleCounts, router]
+  );
+
+  // 抽屉里切版面:切完成立刻收抽屉,回主区看新列表(版面是抽屉里最"选完就走"的动作)。
+  const pickBoard = useCallback(
+    (key: Board) => {
+      setBoard(key);
+      setDrawerOpen(false);
+    },
+    // setBoard 闭包同上。
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    []
+  );
 
   const currentList = boards[board];
 
@@ -297,21 +335,21 @@ export default function HomeClient(props: HomeClientProps) {
 
   return (
     <div>
-      {/* 吸顶区分成两条带：上层 surface（品牌 + 搜索）、下层 canvas（版面 + 筛选）。
-          两条带之间刻意不画线 —— 底色差本身就是分界，再加一条通栏线会让头部看起来像两个头部；
-          整个头部对外只保留最下沿的一条线 + 一点落影。两层都做半透明 + 背景模糊，滚动时卡片
-          能隐约透过去，头部才真的“浮”在内容之上。 */}
-      <div className="sticky top-0 z-20">
+      {/* 顶栏:brand 行 + 右上角的移动端筛选入口。桌面端整块吸顶;移动端 brand 行随内容滚走
+          (不吸顶),把版面/排序/时间全藏进抽屉,主区只留阅读空间。两条带之间的留白刻意不画线 —
+          底色差本身是分界,再加一条通栏线会让头部看起来像两个头部。两层都做半透明 + 背景模糊,
+          桌面端滚动时卡片能隐约透过去,头部才真的"浮"在内容之上。 */}
+      <header className="md:sticky md:top-0 md:z-20">
         <div className="bg-surface/90 backdrop-blur-xl backdrop-saturate-150">
-          <div className={`${CONTENT} flex flex-wrap items-center gap-6 py-[18px]`}>
+          <div className={`${CONTENT} flex items-center gap-4 py-[14px] md:gap-6 md:py-[18px]`}>
             <div className="flex min-w-0 flex-1 justify-start">
-              <Link href="/" className="text-[19px] font-bold tracking-tight whitespace-nowrap text-ink-1 no-underline">
+              <Link href="/" className="text-[18px] font-bold tracking-tight whitespace-nowrap text-ink-1 no-underline md:text-[19px]">
                 独立星选 <span className="text-accent">IndieStar</span>
               </Link>
             </div>
-            {/* Fixed-ish width slot flanked by two flex:1 siblings of equal grow — that's what
-                actually centers it in the row, since the logo and "关于" link differ in width. */}
-            <div className="relative w-full min-w-[220px] max-w-[460px] shrink-0">
+            {/* 桌面端搜索框:居中槽,两侧各一个 flex:1 兄弟等分把真正兜住它居中(logo 与"关于"
+                宽度不等,靠两侧等分 grow 对齐)。移动端整个隐藏,换成右上角的筛选按钮。 */}
+            <div className="relative hidden w-full min-w-[220px] max-w-[460px] shrink-0 md:block">
               <svg
                 width="16"
                 height="16"
@@ -332,6 +370,17 @@ export default function HomeClient(props: HomeClientProps) {
               />
             </div>
             <div className="flex min-w-0 flex-1 items-center justify-end gap-3.5">
+              {/* 移动端筛选入口:漏斗图标。抽屉式 chrome 的唯一可见入口,点开抽屉选版面/排序/时间。 */}
+              <button
+                type="button"
+                onClick={() => setDrawerOpen(true)}
+                aria-label="筛选版面、排序与收录时间"
+                className="flex h-9 w-9 items-center justify-center rounded-lg border border-line bg-sunken text-ink-2 transition-colors active:scale-95 hover:text-ink-1 md:hidden"
+              >
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M3 4h18M6 12h12M10 20h4"></path>
+                </svg>
+              </button>
               <Link href="/about" className="cursor-pointer text-sm text-ink-2 no-underline transition-colors hover:text-accent">
                 关于
               </Link>
@@ -339,7 +388,8 @@ export default function HomeClient(props: HomeClientProps) {
           </div>
         </div>
 
-        <div className="border-b border-line bg-canvas/90 shadow-chrome backdrop-blur-xl backdrop-saturate-150">
+        {/* 桌面端第二带:版面 tabs + 排序 + 收录时间。移动端整带不渲染(这些全进了抽屉)。 */}
+        <div className="hidden border-b border-line bg-canvas/90 shadow-chrome backdrop-blur-xl backdrop-saturate-150 md:block">
           <div className={`${CONTENT} flex items-center gap-1.5 pt-3`}>
             {BOARD_KEYS.map((key) => {
               const active = board === key;
@@ -399,7 +449,102 @@ export default function HomeClient(props: HomeClientProps) {
             </div>
           </div>
         </div>
-      </div>
+      </header>
+
+      {/* 移动端抽屉:版面/排序/收录时间全收进来。fixed 遮罩 + 右侧滑出面板,桌面端不渲染。 */}
+      {drawerOpen && (
+        <div className="fixed inset-0 z-40 md:hidden">
+          {/* 遮罩:点一下就关抽屉(等同"放弃当前选择"——但选择是点即生效的,所以这里只是收起)。 */}
+          <button
+            type="button"
+            aria-label="关闭筛选"
+            onClick={() => setDrawerOpen(false)}
+            className="absolute inset-0 cursor-default bg-black/30 backdrop-blur-[2px]"
+          />
+          {/* 面板:从顶部滑下。点遮罩关闭,点面板内本身不关(让用户安心调排序/时间)。 */}
+          <div className="no-scrollbar absolute inset-x-0 top-0 max-h-[85vh] overflow-y-auto rounded-b-card border-b border-line bg-surface px-5 pb-[calc(env(safe-area-inset-bottom)+1rem)] pt-[calc(env(safe-area-inset-top)+1rem)] shadow-lift">
+            <div className="mb-4 flex items-center justify-between">
+              <span className="text-base font-bold text-ink-1">筛选</span>
+              <button
+                type="button"
+                onClick={() => setDrawerOpen(false)}
+                aria-label="关闭"
+                className="flex h-8 w-8 items-center justify-center rounded-lg text-ink-3 transition-colors active:scale-95 hover:text-ink-1"
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round">
+                  <line x1={18} y1={6} x2={6} y2={18}></line>
+                  <line x1={6} y1={6} x2={18} y2={18}></line>
+                </svg>
+              </button>
+            </div>
+
+            {/* 版面:大号 tab,点即换并自动收抽屉(版面是"选完就走"的动作)。 */}
+            <div className="grid grid-cols-3 gap-2">
+              {BOARD_KEYS.map((key) => {
+                const active = board === key;
+                return (
+                  <button
+                    key={key}
+                    type="button"
+                    onClick={() => pickBoard(key)}
+                    className={`rounded-lg border px-2 py-2.5 text-[13px] transition-colors ${
+                      active
+                        ? "border-accent bg-accent-soft font-semibold text-accent-ink"
+                        : "border-line bg-sunken text-ink-2"
+                    }`}
+                  >
+                    {BOARD_LABEL[key]}
+                  </button>
+                );
+              })}
+            </div>
+
+            <div className="mt-3 text-[12px] text-ink-3">
+              共 <span className="font-semibold text-ink-1">{filtered.length}</span> 个
+              {hasMore && (
+                <>
+                  ，已加载 <span className="font-semibold text-ink-1">{visibleList.length}</span> 个
+                </>
+              )}
+            </div>
+
+            <div className="mt-5">
+              <span className="text-xs tracking-wide text-ink-3">排序</span>
+              <div className="mt-2 flex flex-wrap gap-2">
+                {(
+                  [
+                    ["recent", "时间最近"],
+                    ["likes", "点赞最多"],
+                    ["comments", "评论最多"],
+                  ] as [SortBy, string][]
+                ).map(([key, label]) => (
+                  <button key={key} onClick={() => setSortBy(key)} className={pillClass(sortBy === key)}>
+                    {label}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <div className="mt-4">
+              <span className="text-xs tracking-wide text-ink-3">收录时间</span>
+              <div className="mt-2 flex flex-wrap gap-2">
+                {(
+                  [
+                    ["month", "近一个月"],
+                    ["quarter", "近三个月"],
+                    ["year", "近一年"],
+                    ["all", "全部"],
+                  ] as [TimeRange, string][]
+                ).map(([key, label]) => (
+                  <button key={key} onClick={() => setTimeRange(key)} className={pillClass(timeRange === key)}>
+                    {label}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className={`${CONTENT} pb-16 pt-6`}>
         {filtered.length === 0 ? (
@@ -409,99 +554,27 @@ export default function HomeClient(props: HomeClientProps) {
           </div>
         ) : (
           <div>
-            {/* 每个项目单独成卡：卡片之间留 canvas 底色的空隙，hover 时轻微抬升。 */}
+            {/* 列表同时渲染移动端卡片与桌面端行,共用同一段 props(逻辑不 fork)。卡片与行各自由
+                md:hidden / hidden md:flex 控制显隐,断点处分叉展示层,flex 表达不了的差异(简介单独
+                成块、meta 改两行底栏)落到各自的组件里。 */}
             <div className="flex flex-col gap-2.5">
               {visibleList.map((item) => {
-                const { bg, fg } = avatarColors(item.name);
                 const isHighlightTarget = item.slug === highlightSlug;
                 return (
-                  <div
-                    key={item.slug}
-                    onClick={() => {
-                      saveNavState(item.slug);
-                      router.push(`/project/${item.slug}`);
-                    }}
-                    className="group flex cursor-pointer items-center gap-4 rounded-card border border-line bg-surface px-6 py-5 shadow-card transition-[box-shadow,transform,border-color] hover:-translate-y-px hover:border-accent-line hover:shadow-lift"
-                    style={
-                      // Inline, and only present for the one row being flashed — this always wins
-                      // over the utility classes (including their hover variant), which is exactly
-                      // what we want for the highlight, but must be gone entirely once it clears so
-                      // normal hover behavior resumes for that row.
-                      isHighlightTarget
-                        ? {
-                            // 只是“你刚才在这儿”的提示，不是选中态 —— 比 accent-soft 再淡一档，
-                            // 在白色卡片上刚好能看出是一层暖色，不至于像被高亮选中。
-                            backgroundColor: highlightVisible ? "oklch(97.4% 0.018 45)" : "transparent",
-                            transition: "background-color 900ms ease-out",
-                          }
-                        : undefined
-                    }
-                  >
-                    <div
-                      className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full text-base font-bold"
-                      style={{ background: bg, color: fg }}
-                    >
-                      {item.name.slice(0, 1).toUpperCase()}
-                    </div>
-                    <div className="min-w-0 flex-1">
-                      <div className="flex flex-wrap items-center gap-2">
-                        <span className="text-[16.5px] font-semibold text-ink-1 transition-colors group-hover:text-accent">
-                          {item.name}
-                        </span>
-                        {item.status === "developing" && (
-                          <span className="inline-block whitespace-nowrap rounded border border-dashed border-flag-line bg-flag-soft px-2 py-0.5 text-[11px] font-semibold text-flag-ink">
-                            开发中
-                          </span>
-                        )}
-                        {item.author && <span className="whitespace-nowrap text-xs text-ink-3">by {item.author}</span>}
-                        {/* Image-linked projects (mostly WeChat mini-programs whose "link" is a QR code)
-                            route to the detail page instead of the raw image — same icon, same spot,
-                            on every row, so nothing about its presence looks inconsistent; only where
-                            it goes differs, and the detail page already renders the image properly. */}
-                        <LinkHint
-                          url={isImageUrl(item.url) ? `/project/${item.slug}` : item.url}
-                          internalLabel={isImageUrl(item.url) ? "本站页面 · 查看访问二维码" : undefined}
-                          placement="inline-end"
-                        >
-                          <Link
-                            href={isImageUrl(item.url) ? `/project/${item.slug}` : item.url}
-                            {...(isImageUrl(item.url) ? {} : { target: "_blank", rel: "noreferrer" })}
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              if (isImageUrl(item.url)) saveNavState(item.slug);
-                            }}
-                            // 悬停态刻意做满：淡底 + 描边 + 强调色描线 —— 这个图标是整行里唯一
-                            // 会把人带出站的入口，它被点中的那一刻必须和"点行进详情页"区分得开。
-                            className="flex h-7 w-7 items-center justify-center rounded-lg border border-transparent text-ink-2 no-underline opacity-0 transition hover:border-accent-line hover:bg-accent-soft hover:text-accent focus-visible:opacity-100 group-hover:opacity-100"
-                          >
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
-                              {/* 方框本身撑满 3–21 的画布，斜箭头指向方框自己的右上角、收在轮廓
-                                  之内 —— 之前那版箭头戳出方框外，在 28px 的小方块里显得歪。 */}
-                              <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"></path>
-                              <polyline points="15 3 21 3 21 9"></polyline>
-                              <line x1={11} y1={13} x2={21} y2={3}></line>
-                            </svg>
-                          </Link>
-                        </LinkHint>
-                      </div>
-                      <div className="mt-1 break-words text-sm text-ink-2">{item.intro}</div>
-                    </div>
-                    <div className="min-w-[96px] shrink-0 whitespace-nowrap text-[13px] text-ink-3">
-                      {formatDateCN(item.date)}
-                    </div>
-                    <div className="flex min-w-[52px] shrink-0 items-center gap-1.5 text-sm text-ink-2">
-                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
-                        <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3H14z"></path>
-                      </svg>
-                      <span className="font-mono">{item.likes}</span>
-                    </div>
-                    <div className="flex min-w-[44px] shrink-0 items-center gap-1.5 text-sm text-ink-2">
-                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
-                        <path d="M21 11.5a8.38 8.38 0 0 1-9 8.4A8.5 8.5 0 1 1 21 11.5z"></path>
-                      </svg>
-                      <span className="font-mono">{item.comments}</span>
-                    </div>
-                  </div>
+                  <Fragment key={item.slug}>
+                    <ProjectCard
+                      item={item}
+                      highlighted={isHighlightTarget}
+                      highlightVisible={highlightVisible}
+                      onOpen={handleOpen}
+                    />
+                    <ProjectRow
+                      item={item}
+                      highlighted={isHighlightTarget}
+                      highlightVisible={highlightVisible}
+                      onOpen={handleOpen}
+                    />
+                  </Fragment>
                 );
               })}
             </div>
@@ -519,9 +592,11 @@ export default function HomeClient(props: HomeClientProps) {
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           aria-label="回到顶部"
-          className="fixed bottom-6 right-6 z-30 flex h-11 w-11 cursor-pointer items-center justify-center rounded-full border border-line bg-surface text-ink-2 shadow-float transition-colors hover:border-accent-line hover:text-accent"
+          // 移动端单独放大:44px 在窄屏视觉偏小且贴边,移动端给到 48px、内移到 right-4(16px),
+          // 图标 22px;桌面端仍维持 h-11/w-11(44px) 的原样。
+          className="fixed bottom-[calc(1.5rem+env(safe-area-inset-bottom))] right-4 z-30 flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border border-line bg-surface text-ink-2 shadow-float transition-colors hover:border-accent-line hover:text-accent active:scale-95 md:right-6 md:h-11 md:w-11"
         >
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="size-[22px] md:size-[18px]">
             <line x1={12} y1={19} x2={12} y2={5}></line>
             <polyline points="5 12 12 5 19 12"></polyline>
           </svg>

@@ -29,22 +29,22 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
   const isLive = project.status === "live";
 
   return (
-    <div className="mx-auto max-w-[760px] px-6 pb-24 pt-8">
+    <div className="mx-auto px-4 pb-24 pt-8 md:max-w-[760px] md:px-6">
       <BackToListLink />
 
       {/* 项目本体是一张纸面卡片，讨论区留在 canvas 上 —— 主体内容与附属讨论分成两层。 */}
-      <div className="mt-5 rounded-card border border-line bg-surface p-9 shadow-card">
+      <div className="mt-5 rounded-card border border-line bg-surface p-5 shadow-card md:p-9">
         <div className="flex flex-wrap items-start justify-between gap-5">
-          <div className="flex min-w-0 items-start gap-5">
+          <div className="flex min-w-0 items-start gap-4 md:gap-5">
             <div
-              className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full text-[22px] font-bold"
+              className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full text-[20px] font-bold md:h-16 md:w-16 md:text-[22px]"
               style={{ background: bg, color: fg }}
             >
               {project.name.slice(0, 1).toUpperCase()}
             </div>
             <div className="min-w-0">
               <div className="flex flex-wrap items-center gap-2.5">
-                <h1 className="m-0 text-[26px] font-bold text-ink-1">{project.name}</h1>
+                <h1 className="m-0 text-[22px] font-bold text-ink-1 md:text-[26px]">{project.name}</h1>
                 {!isLive && <span className={devBadgeClass}>开发中</span>}
               </div>
               <div className="mt-2 text-[13px] text-ink-3">
@@ -78,12 +78,13 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
             // Mostly WeChat mini-programs with no browsable URL — the "link" is a QR code image.
             // Whether opening it directly shows the image or force-downloads depends on the image
             // host's response headers, which we don't control, so it's rendered inline instead.
-            <div className="shrink-0 text-center">
+            // 移动端放大到 200px 居中,方便长按识别;桌面端回到原来的 140px 右上角小图。
+            <div className="w-full shrink-0 text-center md:w-auto md:text-left">
               {/* eslint-disable-next-line @next/next/no-img-element -- arbitrary external host, not eligible for next/image optimization */}
               <img
                 src={project.url}
                 alt={`${project.name} 访问二维码`}
-                className="h-[140px] w-[140px] rounded-lg border border-line bg-surface object-contain"
+                className="mx-auto h-[200px] w-[200px] rounded-lg border border-line bg-surface object-contain md:h-[140px] md:w-[140px]"
               />
               <div className="mt-1.5 text-xs text-ink-3">扫码访问</div>
             </div>
@@ -95,7 +96,8 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
                 rel="noreferrer"
                 // 刻意不用实心强调色：那样的按钮太像“离站出口”，权重压过页面本身的内容。
                 // 改成淡底 + 描边的次级按钮，仍是本页最显眼的操作，但不再抢戏。
-                className="inline-flex shrink-0 items-center gap-1.5 rounded-lg border border-accent-line bg-accent-soft px-5 py-2.5 text-sm font-semibold text-accent-ink no-underline transition-colors hover:border-accent hover:text-accent"
+                // 移动端撑满整宽,桌面端维持原来自适应的小按钮。
+                className="inline-flex w-full shrink-0 items-center justify-center gap-1.5 rounded-lg border border-accent-line bg-accent-soft px-5 py-2.5 text-sm font-semibold text-accent-ink no-underline transition-colors hover:border-accent hover:text-accent md:w-auto"
               >
                 访问项目 →
               </a>
@@ -110,8 +112,8 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
 
       <div className="mt-10">
         <h2 className="mb-3 text-[15px] font-semibold text-ink-1">点赞与讨论</h2>
-        <div className="max-w-[560px] text-[13px] leading-[1.7] text-ink-2">需要登录后才能点赞与评论。</div>
-        <div className="mt-2.5 max-w-[560px] rounded-md border border-accent-line bg-accent-soft px-3 py-1.5 text-[13px] leading-[1.6] text-accent-ink">
+        <div className="text-[13px] leading-[1.7] text-ink-2 md:max-w-[560px]">需要登录后才能点赞与评论。</div>
+        <div className="mt-2.5 rounded-md border border-accent-line bg-accent-soft px-3 py-1.5 text-[13px] leading-[1.6] text-accent-ink md:max-w-[560px]">
           👍 首页"点赞最多"排序只统计 👍 这一种反应，其余反应不计入排名。
         </div>
         <div className="mt-6 rounded-card border border-line bg-surface px-5 py-4 shadow-card">

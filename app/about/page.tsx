@@ -11,7 +11,7 @@ const linkClass = "text-accent no-underline hover:underline";
 export default function AboutPage() {
   const { meta } = getSiteData();
   return (
-    <div className="mx-auto max-w-[680px] px-6 pb-28 pt-10">
+    <div className="mx-auto px-4 pb-28 pt-10 md:max-w-[680px] md:px-6">
       <Link
         href="/"
         className="inline-flex cursor-pointer items-center gap-1.5 rounded-full border border-line bg-surface px-3.5 py-1.5 text-[13px] text-ink-2 no-underline transition-colors hover:border-accent-line hover:text-accent"
@@ -19,10 +19,10 @@ export default function AboutPage() {
         ← 返回首页
       </Link>
 
-      <div className="mt-5 rounded-card border border-line bg-surface p-9 shadow-card">
+      <div className="mt-5 rounded-card border border-line bg-surface p-5 shadow-card md:p-9">
         <h1 className="m-0 text-2xl font-bold text-ink-1">关于 IndieStar</h1>
 
-        <section className="mt-7">
+        <section className="mt-5 md:mt-7">
           <h2 className={sectionTitleClass}>网站目的</h2>
           <p className={sectionBodyClass}>
             IndieStar 是一份持续更新的独立开发者项目精选。原始清单体量庞大，很难从头翻到尾找到感兴趣的内容，
@@ -31,7 +31,7 @@ export default function AboutPage() {
           </p>
         </section>
 
-        <section className="mt-7">
+        <section className="mt-5 md:mt-7">
           <h2 className={sectionTitleClass}>数据来源</h2>
           <p className={sectionBodyClass}>
             本站项目数据同步自开源仓库{" "}
@@ -50,7 +50,7 @@ export default function AboutPage() {
           </div>
         </section>
 
-        <section className="mt-7">
+        <section className="mt-5 md:mt-7">
           <h2 className={sectionTitleClass}>点赞与评论的更新机制</h2>
           <p className={sectionBodyClass}>
             点赞和评论功能基于 giscus（一款将评论区挂载在 GitHub Discussions
@@ -59,7 +59,7 @@ export default function AboutPage() {
           </p>
         </section>
 
-        <section className="mt-7">
+        <section className="mt-5 md:mt-7">
           <h2 className={sectionTitleClass}>开源</h2>
           <p className={sectionBodyClass}>
             本站(IndieStar)本身也是开源项目，代码见{" "}

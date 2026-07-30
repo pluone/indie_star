@@ -44,11 +44,25 @@
     font-family: var(--font-sans);
   }
 
+  /* 移动端手感基线:消除 iOS 默认灰色按压闪烁(自己用 active: 态接管反馈),
+     并关掉整页橡皮筋,避免列表下拉时触发页面级 overscroll。 */
+  html {
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior-y: none;
+  }
+
   input::placeholder {
     color: var(--color-ink-3);
   }
 
   ::selection {
     background: var(--color-accent-soft);
+  }
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
   }
 }
