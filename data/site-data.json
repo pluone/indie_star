@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-07-31T01:56:14.170Z",
-    "statsSyncedAt": "2026-07-31T01:56:14.170Z",
-    "upstreamSha": "2f9ec9a53621402ab165291c248b591e39a8d9fd",
+    "contentSyncedAt": "2026-07-31T12:50:49.189Z",
+    "statsSyncedAt": "2026-07-31T12:50:49.189Z",
+    "upstreamSha": "c6ecbddad637527a699701582b3e76c35eccaab8",
     "counts": {
-      "main": 1631,
+      "main": 1633,
       "game": 111,
       "programmer": 277,
-      "total": 2019
+      "total": 2021
     }
   },
   "main": [
+    {
+      "slug": "4672a0b831b7",
+      "board": "main",
+      "name": "Krea2 Edit",
+      "intro": "在浏览器中进行 AI 图片编辑，保留人物面部特征",
+      "introMarkdown": "在浏览器中进行 AI 图片编辑，保留人物面部特征",
+      "status": "live",
+      "date": "2026-07-31",
+      "url": "https://krea2edit.app/",
+      "author": "CoderLim",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/CoderLim"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "7d4d3b9847f3",
+      "board": "main",
+      "name": "LaunchClear",
+      "intro": "面向小团队的发布验收与数据质检服务站，提供 AI 工作流验收、中英日输出与本地化质检、Excel 与库存数据可靠性冲刺，公开固定范围、价格和交付物",
+      "introMarkdown": "面向小团队的发布验收与数据质检服务站，提供 AI 工作流验收、中英日输出与本地化质检、Excel 与库存数据可靠性冲刺，公开固定范围、价格和交付物",
+      "status": "live",
+      "date": "2026-07-31",
+      "url": "https://chris-saas-services.stomeonst123.chatgpt.site/zh",
+      "author": "Gang Qu",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/stomeonst"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "e9f7e5cda550",
       "board": "main",
@@ -98,7 +136,7 @@
           "url": "https://github.com/howardz27"
         }
       ],
-      "likes": 0,
+      "likes": 1,
       "comments": 0
     },
     {
@@ -117,8 +155,8 @@
           "url": "https://github.com/zhoujungis"
         }
       ],
-      "likes": 0,
-      "comments": 0
+      "likes": 1,
+      "comments": 1
     },
     {
       "slug": "a1efee5b21d4",
@@ -155,7 +193,7 @@
           "url": "https://github.com/iAmCorey"
         }
       ],
-      "likes": 0,
+      "likes": 1,
       "comments": 0
     },
     {
@@ -169,7 +207,7 @@
       "url": "https://createpdffromsheet.com/",
       "author": "jankarong",
       "authorLinks": [],
-      "likes": 0,
+      "likes": 1,
       "comments": 0
     },
     {
@@ -675,8 +713,8 @@
           "url": "https://yuhai.me"
         }
       ],
-      "likes": 0,
-      "comments": 0
+      "likes": 1,
+      "comments": 1
     },
     {
       "slug": "8724c85fbad9",
