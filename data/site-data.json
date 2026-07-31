@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-07-31T12:50:49.189Z",
-    "statsSyncedAt": "2026-07-31T12:50:49.189Z",
-    "upstreamSha": "c6ecbddad637527a699701582b3e76c35eccaab8",
+    "contentSyncedAt": "2026-07-31T18:45:50.855Z",
+    "statsSyncedAt": "2026-07-31T18:45:50.855Z",
+    "upstreamSha": "a97c27006cd901670284e83897c8e69ed54fbad5",
     "counts": {
-      "main": 1633,
-      "game": 111,
+      "main": 1635,
+      "game": 112,
       "programmer": 277,
-      "total": 2021
+      "total": 2024
     }
   },
   "main": [
+    {
+      "slug": "17a78087834e",
+      "board": "main",
+      "name": "Monitrun",
+      "intro": "通过分布式节点监控网站 SSL 状态，实时推送 iOS 提醒 — iOS App",
+      "introMarkdown": "通过分布式节点监控网站 SSL 状态，实时推送 iOS 提醒 — iOS App",
+      "status": "live",
+      "date": "2026-08-01",
+      "url": "https://monit.run/",
+      "author": "Monit Team",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/virskor"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "9552920ed359",
+      "board": "main",
+      "name": "墨声 InkVoice",
+      "intro": "小说转有声书，自动识别角色并为每个角色匹配不同音色，逐段合成整本有声书，还能克隆你自己的声音，支持免费试用",
+      "introMarkdown": "小说转有声书，自动识别角色并为每个角色匹配不同音色，逐段合成整本有声书，还能克隆你自己的声音，支持免费试用",
+      "status": "live",
+      "date": "2026-08-01",
+      "url": "https://inkvoice.xyz",
+      "author": "adam-doco",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/adam-doco"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "4672a0b831b7",
       "board": "main",
@@ -30042,6 +30080,25 @@
     }
   ],
   "game": [
+    {
+      "slug": "e80961a2ba4a",
+      "board": "game",
+      "name": "Minecraft Pixel Art Generator",
+      "intro": "将图片转换为我的世界风格像素画，支持导出 PNG、材料清单、.schematic 和 .litematica",
+      "introMarkdown": "将图片转换为我的世界风格像素画，支持导出 PNG、材料清单、.schematic 和 .litematica",
+      "status": "live",
+      "date": "2026-08-01",
+      "url": "https://minecraftpixel.app/",
+      "author": "Rain",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wang1309"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "17ea926bc3bc",
       "board": "game",
