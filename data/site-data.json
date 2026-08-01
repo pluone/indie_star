@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-01T12:35:49.731Z",
-    "statsSyncedAt": "2026-08-01T12:35:49.731Z",
-    "upstreamSha": "e018cd1e686a9d458a81a75c9980b6e9a40279c5",
+    "contentSyncedAt": "2026-08-01T15:35:55.410Z",
+    "statsSyncedAt": "2026-08-01T15:35:55.410Z",
+    "upstreamSha": "4cd75f72e2e11a53669f39261c49cb3c89c404fa",
     "counts": {
       "main": 1636,
       "game": 112,
-      "programmer": 278,
-      "total": 2026
+      "programmer": 279,
+      "total": 2027
     }
   },
   "main": [
@@ -32220,6 +32220,29 @@
       "status": "live",
       "date": "2026-08-01",
       "url": "https://github.com/XSong1205/TQSync",
+      "author": "XSong1205",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/XSong1205"
+        },
+        {
+          "label": "Bilibili",
+          "url": "https://space.bilibili.com/68624054"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d0e59dfd247c",
+      "board": "programmer",
+      "name": "Nocturn",
+      "intro": "第三方网易云音乐客户端，基于 miuix 组件库（开发中）",
+      "introMarkdown": "第三方网易云音乐客户端，基于 miuix 组件库（开发中）",
+      "status": "developing",
+      "date": "2026-08-01",
+      "url": "https://github.com/XSong1205/Nocturn",
       "author": "XSong1205",
       "authorLinks": [
         {
