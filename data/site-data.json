@@ -1,16 +1,92 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-01T15:35:55.410Z",
-    "statsSyncedAt": "2026-08-01T15:35:55.410Z",
-    "upstreamSha": "4cd75f72e2e11a53669f39261c49cb3c89c404fa",
+    "contentSyncedAt": "2026-08-01T18:35:51.805Z",
+    "statsSyncedAt": "2026-08-01T18:35:51.805Z",
+    "upstreamSha": "239aa4b0bd63011849b3595778da375200e054b4",
     "counts": {
-      "main": 1636,
+      "main": 1640,
       "game": 112,
       "programmer": 279,
-      "total": 2027
+      "total": 2031
     }
   },
   "main": [
+    {
+      "slug": "6f0812b6095d",
+      "board": "main",
+      "name": "NanoGPT",
+      "intro": "通过自然语言提示词修改图片，支持替换背景、修改服装和物体、调整颜色和风格，另有图片增强、老照片修复和背景移除 — 浏览器插件及网页版",
+      "introMarkdown": "通过自然语言提示词修改图片，支持替换背景、修改服装和物体、调整颜色和风格，另有图片增强、老照片修复和背景移除 — 浏览器插件及网页版",
+      "status": "live",
+      "date": "2026-08-01",
+      "url": "https://nanogpt.net/",
+      "author": "JerroldLee",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JerroldLee"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "f698cb731c12",
+      "board": "main",
+      "name": "kavel",
+      "intro": "AI 图片和视频生成工具，支持多种趣味场景的生图和生视频 — 免费",
+      "introMarkdown": "AI 图片和视频生成工具，支持多种趣味场景的生图和生视频 — 免费",
+      "status": "live",
+      "date": "2026-08-01",
+      "url": "https://kavel.ai",
+      "author": "hanshs474",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hanshs474"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "735fc0764642",
+      "board": "main",
+      "name": "反应测试",
+      "intro": "专注于反应速度、记忆力与专注力的在线测试，提供反应时间、瞄准训练、序列记忆、数字记忆、多目标追踪和斯特鲁普等测试 — 免费",
+      "introMarkdown": "专注于反应速度、记忆力与专注力的在线测试，提供反应时间、瞄准训练、序列记忆、数字记忆、多目标追踪和斯特鲁普等测试 — 免费",
+      "status": "live",
+      "date": "2026-08-01",
+      "url": "https://picktests.com/zh/",
+      "author": "萝卜",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/HuSao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "fea7fd99f424",
+      "board": "main",
+      "name": "BaZi Calculator",
+      "intro": "免费在线八字排盘工具，输入出生日期、时间和城市即可查看四柱、日主、五行、十神与大运；无需注册，出生时间未知时提供三柱命盘，不猜测时柱",
+      "introMarkdown": "免费在线八字排盘工具，输入出生日期、时间和城市即可查看四柱、日主、五行、十神与大运；无需注册，出生时间未知时提供三柱命盘，不猜测时柱",
+      "status": "live",
+      "date": "2026-08-01",
+      "url": "https://bazicalculators.com/",
+      "author": "Yana Li",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/woshiliyana"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "70e00e1e68a1",
       "board": "main",
