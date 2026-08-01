@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-01T07:05:51.247Z",
-    "statsSyncedAt": "2026-08-01T07:05:51.247Z",
-    "upstreamSha": "8541681b26318061be05d9f60c71854c54ddb20e",
+    "contentSyncedAt": "2026-08-01T12:35:49.731Z",
+    "statsSyncedAt": "2026-08-01T12:35:49.731Z",
+    "upstreamSha": "e018cd1e686a9d458a81a75c9980b6e9a40279c5",
     "counts": {
       "main": 1636,
       "game": 112,
-      "programmer": 277,
-      "total": 2025
+      "programmer": 278,
+      "total": 2026
     }
   },
   "main": [
@@ -32211,6 +32211,29 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "81c27a35ab16",
+      "board": "programmer",
+      "name": "TQSync",
+      "intro": "Telegram 与 QQ 群组双向消息同步机器人",
+      "introMarkdown": "Telegram 与 QQ 群组双向消息同步机器人",
+      "status": "live",
+      "date": "2026-08-01",
+      "url": "https://github.com/XSong1205/TQSync",
+      "author": "XSong1205",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/XSong1205"
+        },
+        {
+          "label": "Bilibili",
+          "url": "https://space.bilibili.com/68624054"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "08a750f407da",
       "board": "programmer",
