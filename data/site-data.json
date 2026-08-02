@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-01T21:48:44.948Z",
-    "statsSyncedAt": "2026-08-01T21:48:44.948Z",
-    "upstreamSha": "239aa4b0bd63011849b3595778da375200e054b4",
+    "contentSyncedAt": "2026-08-02T07:05:56.417Z",
+    "statsSyncedAt": "2026-08-02T07:05:56.417Z",
+    "upstreamSha": "bc88b515b5856dd23e11a1ca24a8aa9def01931f",
     "counts": {
       "main": 1640,
-      "game": 112,
-      "programmer": 279,
-      "total": 2031
+      "game": 113,
+      "programmer": 280,
+      "total": 2033
     }
   },
   "main": [
@@ -30176,6 +30176,25 @@
   ],
   "game": [
     {
+      "slug": "11ee0d2215fa",
+      "board": "game",
+      "name": "Palworldtoolbox",
+      "intro": "Palworld 游戏攻略网站",
+      "introMarkdown": "Palworld 游戏攻略网站",
+      "status": "live",
+      "date": "2026-08-02",
+      "url": "https://www.palworldtoolbox.com/",
+      "author": "fastend",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fastend"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "e80961a2ba4a",
       "board": "game",
       "name": "Minecraft Pixel Art Generator",
@@ -32287,6 +32306,29 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "c59ba57829eb",
+      "board": "programmer",
+      "name": "Berth",
+      "intro": "macOS 轻量终端工作台，在同一窗口中管理多根目录、文件、Git 变更和多个终端",
+      "introMarkdown": "macOS 轻量终端工作台，在同一窗口中管理多根目录、文件、Git 变更和多个终端",
+      "status": "live",
+      "date": "2026-08-02",
+      "url": "https://github.com/WtecHtec/berth",
+      "author": "WtecHtec",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/WtecHtec"
+        },
+        {
+          "label": "博客",
+          "url": "https://iam.xujingyichang.top/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "81c27a35ab16",
       "board": "programmer",
