@@ -333,6 +333,9 @@ export default function HomeClient(props: HomeClientProps) {
     emptyMessage = q ? `没有找到匹配"${q}"的项目，换个关键词试试。` : "当前版面与时间范围下暂无符合条件的项目。";
   }
 
+  // 站点介绍里的收录总数 —— 跟数据一起走准实时同步,不写死。
+  const totalCount = props.main.length + props.game.length + props.programmer.length;
+
   return (
     <div>
       {/* 顶栏:brand 行 + 右上角的移动端筛选入口。桌面端整块吸顶;移动端 brand 行随内容滚走
@@ -546,7 +549,19 @@ export default function HomeClient(props: HomeClientProps) {
         </div>
       )}
 
-      <div className={`${CONTENT} pb-16 pt-6`}>
+      {/* 站点介绍 —— 页面上唯一一段描述本站是什么的正文。此前首页从导航直接进卡片流,没有任何
+          描述性文字,Google 只能抓第一个项目的简介当摘要;措辞与 metadata 的 description 保持一致,
+          两者互相印证时它采用我们自己那句的概率才高。刻意压成小字号单段,不打断"打开即是卡片流"
+          的观感;整块删掉不影响任何功能(列表的 pt 记得从 pt-4 改回 pt-6)。 */}
+      <section className={`${CONTENT} pt-5 md:pt-6`}>
+        <h1 className="text-[15px] font-semibold text-ink-1 md:text-base">中国独立开发者项目精选</h1>
+        <p className="mt-1.5 text-[12.5px] leading-[1.7] text-ink-3 md:max-w-[760px] md:text-[13px]">
+          收录 {totalCount} 个中国独立开发者项目，涵盖 AI 工具、效率工具、浏览器插件、App 与独立游戏，
+          跟随上游仓库准实时同步更新。
+        </p>
+      </section>
+
+      <div className={`${CONTENT} pb-16 pt-4`}>
         {filtered.length === 0 ? (
           <div className="rounded-card border border-line bg-surface py-[100px] text-center shadow-card">
             <div className="mx-auto h-14 w-14 rounded-full border-2 border-dashed border-line-strong"></div>

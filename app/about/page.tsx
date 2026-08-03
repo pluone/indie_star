@@ -1,7 +1,11 @@
 import Link from "next/link";
 import { formatSyncTime, getSiteData } from "@/lib/site-data";
 
-export const metadata = { title: "关于 · 独立星选 IndieStar" };
+export const metadata = {
+  title: "关于",
+  description: "独立星选 IndieStar 的网站目的、数据来源、同步机制与收录规则说明。",
+  alternates: { canonical: "/about" },
+};
 
 const sectionTitleClass =
   "mb-2 flex items-center gap-2 text-base font-semibold text-ink-1 before:block before:h-[15px] before:w-[3px] before:rounded-full before:bg-accent before:content-['']";

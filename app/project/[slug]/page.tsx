@@ -1,4 +1,6 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { SITE_NAME } from "@/lib/site";
 import BackToListLink from "@/components/BackToListLink";
 import GiscusComments from "@/components/GiscusComments";
 import LinkHint from "@/components/LinkHint";
@@ -11,10 +13,18 @@ export function generateStaticParams() {
   return [...data.main, ...data.game, ...data.programmer].map((p) => ({ slug: p.slug }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+// 详情页不是 SEO 目标,但仍要给出自己的 description:2000+ 个页面共用同一句会拉低 Google 对
+// 本站 description 的整体信任度,连带影响首页摘要采不采用我们写的那句。
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const project = findProjectBySlug(slug);
-  return { title: project ? `${project.name} · 独立星选 IndieStar` : "独立星选 IndieStar" };
+  // absolute 绕开 layout 的 title 模板,否则会被拼成"独立星选 IndieStar · 独立星选 IndieStar"。
+  if (!project) return { title: { absolute: SITE_NAME } };
+  return {
+    title: project.name,
+    description: project.intro.slice(0, 110) || `${project.name} —— 收录于${SITE_NAME}的独立开发者项目。`,
+    alternates: { canonical: `/project/${slug}` },
+  };
 }
 
 const devBadgeClass =
