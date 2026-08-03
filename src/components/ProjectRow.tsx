@@ -13,6 +13,7 @@ interface ProjectRowProps {
   highlighted?: boolean;
   /** 高亮行当前是否处于显色阶段(否即淡出/已清除)。 */
   highlightVisible?: boolean;
+  /** 点击后、跳转前的副作用(存返回定位);跳转本身由标题上的 <Link> 完成。 */
   onOpen: (slug: string) => void;
 }
 
@@ -26,8 +27,10 @@ export default function ProjectRow({
 
   return (
     <div
-      onClick={() => onOpen(item.slug)}
-      className="group hidden cursor-pointer items-center gap-4 rounded-card border border-line bg-surface px-6 py-5 shadow-card transition-[box-shadow,transform,border-color] hover:-translate-y-px hover:border-accent-line hover:shadow-lift md:flex"
+      // relative: 给标题 <Link> 的 after 伪元素当定位参照,让它铺满整行(stretched link)。
+      // 整行可点的手感不变,但可点区域现在是一个真的 <a href>。刻意不把整行包成 <a> ——
+      // 行内已经有一个指向项目官网的 <Link>,<a> 套 <a> 是非法 HTML,浏览器会把它拆开。
+      className="group relative hidden cursor-pointer items-center gap-4 rounded-card border border-line bg-surface px-6 py-5 shadow-card transition-[box-shadow,transform,border-color] hover:-translate-y-px hover:border-accent-line hover:shadow-lift md:flex"
       style={
         // 内联,且只出现在被闪一下的那一行 —— 它始终压过工具类(含其 hover 变体),
         // 这正是高亮想要的;高亮一清除样式就要彻底消失,该行恢复正常 hover。
@@ -49,9 +52,13 @@ export default function ProjectRow({
       </div>
       <div className="min-w-0 flex-1">
         <div className="flex flex-wrap items-center gap-2">
-          <span className="text-[16.5px] font-semibold text-ink-1 transition-colors group-hover:text-accent">
+          <Link
+            href={`/project/${item.slug}`}
+            onClick={() => onOpen(item.slug)}
+            className="text-[16.5px] font-semibold text-ink-1 no-underline transition-colors after:absolute after:inset-0 after:content-[''] group-hover:text-accent"
+          >
             {item.name}
-          </span>
+          </Link>
           {item.status === "developing" && (
             <span className="inline-block whitespace-nowrap rounded border border-dashed border-flag-line bg-flag-soft px-2 py-0.5 text-[11px] font-semibold text-flag-ink">
               开发中
@@ -74,9 +81,11 @@ export default function ProjectRow({
                 e.stopPropagation();
                 if (isImageUrl(item.url)) onOpen(item.slug);
               }}
+              // relative z-10: 浮到标题那条铺满整行的 after 遮罩之上,否则这个外链会被
+              // 遮罩吃掉点击,整行(含它)都变成进详情页。
               // 悬停态刻意做满:淡底 + 描边 + 强调色描线 —— 这个图标是整行里唯一
               // 会把人带出站的入口,它被点中的那一刻必须和"点行进详情页"区分得开。
-              className="flex h-7 w-7 items-center justify-center rounded-lg border border-transparent text-ink-2 no-underline opacity-0 transition hover:border-accent-line hover:bg-accent-soft hover:text-accent focus-visible:opacity-100 group-hover:opacity-100"
+              className="relative z-10 flex h-7 w-7 items-center justify-center rounded-lg border border-transparent text-ink-2 no-underline opacity-0 transition hover:border-accent-line hover:bg-accent-soft hover:text-accent focus-visible:opacity-100 group-hover:opacity-100"
             >
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
                 {/* 方框本身撑满 3–21 的画布,斜箭头指向方框自己的右上角、收在轮廓

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import type { Project } from "@/lib/types";
 import { avatarColors, formatDateCN } from "@/lib/format";
 
@@ -11,6 +12,7 @@ interface ProjectCardProps {
   item: Project;
   highlighted?: boolean;
   highlightVisible?: boolean;
+  /** 点击后、跳转前的副作用(存返回定位);跳转本身由标题上的 <Link> 完成。 */
   onOpen: (slug: string) => void;
 }
 
@@ -19,10 +21,12 @@ export default function ProjectCard({ item, highlighted = false, highlightVisibl
 
   return (
     <div
-      onClick={() => onOpen(item.slug)}
+      // relative: 给标题 <Link> 的 after 伪元素当定位参照,让它铺满整张卡(stretched link)。
+      // 整卡可点的手感不变,但可点区域现在是一个真的 <a href> —— 爬虫走得进详情页,中键/
+      // Ctrl 点击能开新标签页,悬停能看到目标地址,读屏也会播报成链接。
       // active: 按压态是移动端"顺滑"单条收益最大的项 —— 桌面端所有反馈都挂在 hover:,
       // 触屏点击本没有任何视觉响应;这里以轻微背景下沉 + 微缩替代。md:hidden 让桌面端只走行。
-      className="flex cursor-pointer flex-col gap-2 rounded-card border border-line bg-surface px-4 py-3.5 shadow-card transition-[background-color,transform,border-color] active:scale-[0.99] active:border-accent-line active:bg-accent-soft/40 md:hidden"
+      className="relative flex cursor-pointer flex-col gap-2 rounded-card border border-line bg-surface px-4 py-3.5 shadow-card transition-[background-color,transform,border-color] active:scale-[0.99] active:border-accent-line active:bg-accent-soft/40 md:hidden"
       style={
         highlighted
           ? {
@@ -39,7 +43,15 @@ export default function ProjectCard({ item, highlighted = false, highlightVisibl
         >
           {item.name.slice(0, 1).toUpperCase()}
         </div>
-        <span className="min-w-0 truncate text-[15px] font-semibold text-ink-1">{item.name}</span>
+        {/* truncate 的 overflow:hidden 留在内层 span —— 挂在 <a> 上会给伪元素的裁切埋隐患,
+            铺满整卡的 after 必须完整地伸出标题自己的盒子。 */}
+        <Link
+          href={`/project/${item.slug}`}
+          onClick={() => onOpen(item.slug)}
+          className="min-w-0 text-[15px] font-semibold text-ink-1 no-underline after:absolute after:inset-0 after:content-['']"
+        >
+          <span className="block truncate">{item.name}</span>
+        </Link>
         {item.status === "developing" && (
           <span className="inline-flex shrink-0 whitespace-nowrap rounded border border-dashed border-flag-line bg-flag-soft px-1.5 py-0.5 text-[10px] font-semibold text-flag-ink">
             开发中

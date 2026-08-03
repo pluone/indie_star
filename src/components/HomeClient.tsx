@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { Fragment, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Board, Project } from "@/lib/types";
 import { BOARD_LABEL, inTimeRange, type TimeRange } from "@/lib/format";
@@ -59,8 +58,6 @@ function pillClass(active: boolean): string {
 }
 
 export default function HomeClient(props: HomeClientProps) {
-  const router = useRouter();
-
   // Near-real-time like/comment overlay on top of the static build-time numbers. Populated on
   // mount and on tab refocus only — deliberately no persistent setInterval, which would jump items
   // around mid-scroll under the likes/comments sort. Base layer is /api/stats (edge-cached, shared)
@@ -234,17 +231,19 @@ export default function HomeClient(props: HomeClientProps) {
     }
   }
 
-  // 卡片/行的点击入口:存导航态后跳详情。两套展示层共用这一个,逻辑不 fork。
+  // 卡片/行点击时的副作用:只存导航态。跳转本身交给卡片里的 <Link> —— 列表项以前是
+  // <div onClick> + router.push,页面里一个指向详情页的 <a href> 都没有,爬虫沿着首页
+  // 走不进任何一个详情页(它不会去点 onClick),中键/Ctrl 点击也开不了新标签页。
+  // 两套展示层共用这一个,逻辑不 fork。
   const handleOpen = useCallback(
     (slug: string) => {
       saveNavState(slug);
-      router.push(`/project/${slug}`);
     },
-    // saveNavState 闭包了 board/search/sortBy/timeRange/visibleCounts,列依赖使其随这些更新;
-    // router 稳定。eslint 的 exhaustive-deps 对一个定义在同作用域的普通 function 仍会提示缺失,
+    // saveNavState 闭包了 board/search/sortBy/timeRange/visibleCounts,列依赖使其随这些更新。
+    // eslint 的 exhaustive-deps 对一个定义在同作用域的普通 function 仍会提示缺失,
     // 这里 saveNavState 未被 useCallback 包裹故不列入,有意省略。
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [board, search, sortBy, timeRange, visibleCounts, router]
+    [board, search, sortBy, timeRange, visibleCounts]
   );
 
   // 抽屉里切版面:切完成立刻收抽屉,回主区看新列表(版面是抽屉里最"选完就走"的动作)。
