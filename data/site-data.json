@@ -1,22 +1,41 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-03T13:20:54.430Z",
-    "statsSyncedAt": "2026-08-03T13:20:54.430Z",
-    "upstreamSha": "163e9b5feed73f298f70b0c3aeb67f4cb443924c",
+    "contentSyncedAt": "2026-08-03T16:46:04.240Z",
+    "statsSyncedAt": "2026-08-03T16:46:04.240Z",
+    "upstreamSha": "71a76fb42906d9e183d27857c834e39851d3585a",
     "counts": {
-      "main": 1643,
+      "main": 1644,
       "game": 113,
       "programmer": 282,
-      "total": 2038
+      "total": 2039
     }
   },
   "main": [
     {
+      "slug": "f84a03367423",
+      "board": "main",
+      "name": "CPS Test",
+      "intro": "鼠标点击速度测试网站，集成专注力训练、空格键连点训练和反应速度测试等多种玩法，打开网页即可选择项目在线测试",
+      "introMarkdown": "鼠标点击速度测试网站，集成专注力训练、空格键连点训练和反应速度测试等多种玩法，打开网页即可选择项目在线测试",
+      "status": "live",
+      "date": "2026-08-04",
+      "url": "https://cpstest.me/zh/",
+      "author": "好心情营业",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/masterliangpeng"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "b0e4022cd1cb",
       "board": "main",
       "name": "Routewise-AI",
-      "intro": "基于 GPT-5.6 大模型的旅行规划工具，免费",
-      "introMarkdown": "基于 GPT-5.6 大模型的旅行规划工具，免费",
+      "intro": "旅行规划工具（免费），基于 GPT-5.6 大模型",
+      "introMarkdown": "旅行规划工具（免费），基于 GPT-5.6 大模型",
       "status": "live",
       "date": "2026-08-03",
       "url": "https://routewise-ai.pages.dev/",
@@ -34,8 +53,8 @@
       "slug": "afa0c64c55aa",
       "board": "main",
       "name": "Zettaranc 知识库",
-      "intro": "踏踏实实，给你你也拿不住",
-      "introMarkdown": "踏踏实实，给你你也拿不住 - [更多介绍](https://github.com/lululu811/zettaranc-skill/blob/main/README.md)",
+      "intro": "整理万千（Z哥）直播、课程与社群内容构建的 A 股交易知识图谱，收录战法策略、买卖信号、资金仓位等交易概念",
+      "introMarkdown": "整理万千（Z哥）直播、课程与社群内容构建的 A 股交易知识图谱，收录战法策略、买卖信号、资金仓位等交易概念 - [更多介绍](https://github.com/lululu811/zettaranc-skill/blob/main/README.md)",
       "status": "live",
       "date": "2026-08-03",
       "url": "https://zknowledge.site/",
@@ -72,8 +91,8 @@
       "slug": "6f0812b6095d",
       "board": "main",
       "name": "NanoGPT",
-      "intro": "通过自然语言提示词修改图片，支持替换背景、修改服装和物体、调整颜色和风格，另有图片增强、老照片修复和背景移除 — 浏览器插件及网页版",
-      "introMarkdown": "通过自然语言提示词修改图片，支持替换背景、修改服装和物体、调整颜色和风格，另有图片增强、老照片修复和背景移除 — 浏览器插件及网页版",
+      "intro": "用自然语言修改图片，支持替换背景、修改服装和物体、调整颜色和风格，另有图片增强、老照片修复和背景移除",
+      "introMarkdown": "用自然语言修改图片，支持替换背景、修改服装和物体、调整颜色和风格，另有图片增强、老照片修复和背景移除",
       "status": "live",
       "date": "2026-08-01",
       "url": "https://nanogpt.net/",
@@ -167,8 +186,8 @@
       "slug": "17a78087834e",
       "board": "main",
       "name": "Monitrun",
-      "intro": "通过分布式节点监控网站 SSL 状态，实时推送 iOS 提醒 — iOS App",
-      "introMarkdown": "通过分布式节点监控网站 SSL 状态，实时推送 iOS 提醒 — iOS App",
+      "intro": "监控网站 SSL 证书状态，通过分布式节点实时推送 iOS 提醒 — iOS App",
+      "introMarkdown": "监控网站 SSL 证书状态，通过分布式节点实时推送 iOS 提醒 — iOS App",
       "status": "live",
       "date": "2026-08-01",
       "url": "https://monit.run/",
