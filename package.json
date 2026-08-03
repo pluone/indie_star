@@ -8,7 +8,7 @@
     "prebuild": "node scripts/fetch-data.mjs",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint .",
     "sync:content": "node scripts/sync-content.mjs"
   },
   "dependencies": {
@@ -22,6 +22,8 @@
     "@types/node": "26.1.1",
     "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.2.11",
     "tailwindcss": "^4.3.3",
     "typescript": "5.9.3"
   }
