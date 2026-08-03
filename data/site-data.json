@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-03T07:25:50.026Z",
-    "statsSyncedAt": "2026-08-03T07:25:50.026Z",
-    "upstreamSha": "d4aa8d18ac31fff7882d48ddcc5a8f7ab60e5bfb",
+    "contentSyncedAt": "2026-08-03T13:20:54.430Z",
+    "statsSyncedAt": "2026-08-03T13:20:54.430Z",
+    "upstreamSha": "163e9b5feed73f298f70b0c3aeb67f4cb443924c",
     "counts": {
-      "main": 1640,
+      "main": 1643,
       "game": 113,
       "programmer": 282,
-      "total": 2035
+      "total": 2038
     }
   },
   "main": [
+    {
+      "slug": "b0e4022cd1cb",
+      "board": "main",
+      "name": "Routewise-AI",
+      "intro": "基于 GPT-5.6 大模型的旅行规划工具，免费",
+      "introMarkdown": "基于 GPT-5.6 大模型的旅行规划工具，免费",
+      "status": "live",
+      "date": "2026-08-03",
+      "url": "https://routewise-ai.pages.dev/",
+      "author": "zhoujungis",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhoujungis"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "afa0c64c55aa",
+      "board": "main",
+      "name": "Zettaranc 知识库",
+      "intro": "踏踏实实，给你你也拿不住",
+      "introMarkdown": "踏踏实实，给你你也拿不住 - [更多介绍](https://github.com/lululu811/zettaranc-skill/blob/main/README.md)",
+      "status": "live",
+      "date": "2026-08-03",
+      "url": "https://zknowledge.site/",
+      "author": "lululu811",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lululu811/zettaranc-skill"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "cb0e64626a36",
+      "board": "main",
+      "name": "Snake PC Info",
+      "intro": "开源的 Windows 硬件检测工具，支持电池健康度检测和系统日志分析，中英文切换，自带环境",
+      "introMarkdown": "开源的 Windows 硬件检测工具，支持电池健康度检测和系统日志分析，中英文切换，自带环境",
+      "status": "live",
+      "date": "2026-08-03",
+      "url": "https://github.com/WindowSSnake/Snake-PC-Info",
+      "author": "WindowSSnake",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/WindowSSnake"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "6f0812b6095d",
       "board": "main",
