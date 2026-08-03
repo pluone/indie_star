@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-02T21:49:18.012Z",
-    "statsSyncedAt": "2026-08-02T21:49:18.012Z",
-    "upstreamSha": "bc88b515b5856dd23e11a1ca24a8aa9def01931f",
+    "contentSyncedAt": "2026-08-03T07:25:50.026Z",
+    "statsSyncedAt": "2026-08-03T07:25:50.026Z",
+    "upstreamSha": "d4aa8d18ac31fff7882d48ddcc5a8f7ab60e5bfb",
     "counts": {
       "main": 1640,
       "game": 113,
-      "programmer": 280,
-      "total": 2033
+      "programmer": 282,
+      "total": 2035
     }
   },
   "main": [
@@ -32306,6 +32306,39 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "9482d2e8d07b",
+      "board": "programmer",
+      "name": "百灵中枢 BailingHub",
+      "intro": "给已有商城、CRM、ERP 等业务系统接入能够查询数据和办理业务的 AI 助手，通过能力白名单、人工审批、幂等和审计控制退款、库存、订单等真实操作；开源并支持 Docker 私有化部署",
+      "introMarkdown": "给已有商城、CRM、ERP 等业务系统接入能够查询数据和办理业务的 AI 助手，通过能力白名单、人工审批、幂等和审计控制退款、库存、订单等真实操作；开源并支持 Docker 私有化部署 - [源码](https://github.com/bailinghub/bailinghub)",
+      "status": "live",
+      "date": "2026-08-03",
+      "url": "https://www.bailinghub.com/",
+      "author": "敢敢是只喵i",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/niejingchuan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4511e3e6047f",
+      "board": "programmer",
+      "name": "InkTranslator.com",
+      "intro": "免费翻译 API，50 字符内免费使用，支持 39 种语言，无需注册账号",
+      "introMarkdown": "免费翻译 API，50 字符内免费使用，支持 39 种语言，无需注册账号 - [更多介绍](https://inktranslator.com/lang/zh)",
+      "status": "live",
+      "date": "2026-08-03",
+      "url": "https://inktranslator.com/",
+      "author": "ysykzheng",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "c59ba57829eb",
       "board": "programmer",
