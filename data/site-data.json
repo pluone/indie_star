@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-03T22:02:23.732Z",
-    "statsSyncedAt": "2026-08-03T22:02:23.732Z",
-    "upstreamSha": "d5db84dc704629716faf50c55704e9b10fe0a401",
+    "contentSyncedAt": "2026-08-04T12:55:52.069Z",
+    "statsSyncedAt": "2026-08-04T12:55:52.069Z",
+    "upstreamSha": "21fbe5be1399765a3b2bcd39d83e8cefda7755d1",
     "counts": {
-      "main": 1644,
+      "main": 1646,
       "game": 113,
-      "programmer": 282,
-      "total": 2039
+      "programmer": 283,
+      "total": 2042
     }
   },
   "main": [
+    {
+      "slug": "5a20a85d7ed8",
+      "board": "main",
+      "name": "AiXian",
+      "intro": "在线工具箱，把桌面级工具装进浏览器，PDF 合并、图片去背景、AI 证件照、JSON 格式化、OCR 识别等 50+ 工具，全部本地处理，文件不出设备",
+      "introMarkdown": "在线工具箱，把桌面级工具装进浏览器，PDF 合并、图片去背景、AI 证件照、JSON 格式化、OCR 识别等 50+ 工具，全部本地处理，文件不出设备",
+      "status": "live",
+      "date": "2026-08-04",
+      "url": "https://aixian.online",
+      "author": "gf1023456",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/gf1023456"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "da1413996d8f",
+      "board": "main",
+      "name": "Gesture Synth",
+      "intro": "通过电脑摄像头捕捉手势，将双手的动作转化为音乐，仅凭双手和摄像头就能演奏",
+      "introMarkdown": "通过电脑摄像头捕捉手势，将双手的动作转化为音乐，仅凭双手和摄像头就能演奏",
+      "status": "live",
+      "date": "2026-08-04",
+      "url": "https://gesturesynth.art/",
+      "author": "Eric",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/EricChenBuilds"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "f84a03367423",
       "board": "main",
@@ -32382,6 +32420,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "0c458a8ce7cb",
+      "board": "programmer",
+      "name": "AgentPager",
+      "intro": "把闲置 Android 手机变成 AI Agent 专属状态终端，通过局域网实时同步 Codex Desktop/CLI 的运行状态，抬眼可见 Agent 在做什么、是否完成、何时需要批准 — 开源，支持 macOS 与 Windows",
+      "introMarkdown": "把闲置 Android 手机变成 AI Agent 专属状态终端，通过局域网实时同步 Codex Desktop/CLI 的运行状态，抬眼可见 Agent 在做什么、是否完成、何时需要批准 — 开源，支持 macOS 与 Windows",
+      "status": "live",
+      "date": "2026-08-04",
+      "url": "https://github.com/afetmin/AgentPager",
+      "author": "afetmin",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/afetmin"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "9482d2e8d07b",
       "board": "programmer",
