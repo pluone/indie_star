@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-04T22:06:42.941Z",
-    "statsSyncedAt": "2026-08-04T22:06:42.941Z",
-    "upstreamSha": "21fbe5be1399765a3b2bcd39d83e8cefda7755d1",
+    "contentSyncedAt": "2026-08-05T07:06:15.142Z",
+    "statsSyncedAt": "2026-08-05T07:06:15.142Z",
+    "upstreamSha": "16191799d0a0b2af006bc0de81114d8da5008b0b",
     "counts": {
-      "main": 1646,
+      "main": 1647,
       "game": 113,
       "programmer": 283,
-      "total": 2042
+      "total": 2043
     }
   },
   "main": [
+    {
+      "slug": "47f9adb7eee3",
+      "board": "main",
+      "name": "VidLux AI",
+      "intro": "AI 视频生成与编辑平台，支持文生视频、图生视频、参考生视频和视频编辑",
+      "introMarkdown": "AI 视频生成与编辑平台，支持文生视频、图生视频、参考生视频和视频编辑",
+      "status": "live",
+      "date": "2026-08-05",
+      "url": "https://vidlux.ai/",
+      "author": "蚊子",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/coderWenzi"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "5a20a85d7ed8",
       "board": "main",
