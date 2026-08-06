@@ -1,16 +1,161 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-05T22:07:44.766Z",
-    "statsSyncedAt": "2026-08-05T22:07:44.766Z",
-    "upstreamSha": "16191799d0a0b2af006bc0de81114d8da5008b0b",
+    "contentSyncedAt": "2026-08-06T09:36:09.448Z",
+    "statsSyncedAt": "2026-08-06T09:36:09.448Z",
+    "upstreamSha": "e968da3439b19c9a803a8d9fe628fbdfa29f9157",
     "counts": {
-      "main": 1647,
+      "main": 1654,
       "game": 113,
-      "programmer": 283,
-      "total": 2043
+      "programmer": 284,
+      "total": 2051
     }
   },
   "main": [
+    {
+      "slug": "e821706117df",
+      "board": "main",
+      "name": "摸鱼日历",
+      "intro": "面向打工人的每日摸鱼日历，展示距离周五、休息日和下一个假期的天数，以及本周、本月和本年进度；另有周五下班倒计时、摸鱼宾果和午饭扭蛋机",
+      "introMarkdown": "面向打工人的每日摸鱼日历，展示距离周五、休息日和下一个假期的天数，以及本周、本月和本年进度；另有周五下班倒计时、摸鱼宾果和午饭扭蛋机",
+      "status": "live",
+      "date": "2026-08-06",
+      "url": "https://calendar.ismyh.cn/",
+      "author": "AKAama",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/AKAama"
+        },
+        {
+          "label": "个人主页",
+          "url": "https://ismyh.cn/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "07b7c026b74d",
+      "board": "main",
+      "name": "Evenly",
+      "intro": "面向情侣、室友和多人旅行的共享记账 App，支持成员确认、自动分账和结算建议，减少共同消费中的手算与反复沟通",
+      "introMarkdown": "面向情侣、室友和多人旅行的共享记账 App，支持成员确认、自动分账和结算建议，减少共同消费中的手算与反复沟通 - [App Store](https://apps.apple.com/cn/app/evenly/id6784235151)",
+      "status": "live",
+      "date": "2026-08-06",
+      "url": "https://app.ismyh.cn/",
+      "author": "AKAama",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/AKAama"
+        },
+        {
+          "label": "个人主页",
+          "url": "https://ismyh.cn/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "49a5acff8024",
+      "board": "main",
+      "name": "分手冷静室",
+      "intro": "关系冲突中的 AI 情绪梳理工具，在发送冲动消息前分析情绪强度，通过三个反思问题帮助用户理清真实意图，再决定是否发送",
+      "introMarkdown": "关系冲突中的 AI 情绪梳理工具，在发送冲动消息前分析情绪强度，通过三个反思问题帮助用户理清真实意图，再决定是否发送",
+      "status": "live",
+      "date": "2026-08-06",
+      "url": "https://calm.ismyh.cn/",
+      "author": "AKAama",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/AKAama"
+        },
+        {
+          "label": "个人主页",
+          "url": "https://ismyh.cn/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "835fba71bb08",
+      "board": "main",
+      "name": "PixelListing",
+      "intro": "面向电商卖家的 AI 商品图片生成工具，帮助卖家在没有摄影棚、设计师和 Photoshop 流程的情况下，快速制作更适合上架和营销的商品图片",
+      "introMarkdown": "面向电商卖家的 AI 商品图片生成工具，帮助卖家在没有摄影棚、设计师和 Photoshop 流程的情况下，快速制作更适合上架和营销的商品图片",
+      "status": "live",
+      "date": "2026-08-06",
+      "url": "https://pixellisting.com/",
+      "author": "Miracle",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhoulianbo"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "dad4b83c1451",
+      "board": "main",
+      "name": "Shotyard",
+      "intro": "AI 图片与视频生成/编辑平台，一站式使用主流 AI 模型，可一次输出多个图片或视频，对生成结果的二次操作友好",
+      "introMarkdown": "AI 图片与视频生成/编辑平台，一站式使用主流 AI 模型，可一次输出多个图片或视频，对生成结果的二次操作友好",
+      "status": "live",
+      "date": "2026-08-06",
+      "url": "https://shotyard.ai/",
+      "author": "MuYi",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/MuYiBo"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "1d93b9b8c966",
+      "board": "main",
+      "name": "Meet妙记",
+      "intro": "可随身携带的 AI 语音助手，记会议、记灵感、记待办，记录你的每一天；专注工作/生活/学习/闲谈/灵感等场景的语音记录，支持实时语音转写、说话人区分、AI 智能摘要一键生成，历史会议可按主题回看，iOS、Android、Mac、Windows 四端覆盖，单次录音最长 4 小时，内置 19 种行业纪要模板",
+      "introMarkdown": "可随身携带的 AI 语音助手，记会议、记灵感、记待办，记录你的每一天；专注工作/生活/学习/闲谈/灵感等场景的语音记录，支持实时语音转写、说话人区分、AI 智能摘要一键生成，历史会议可按主题回看，iOS、Android、Mac、Windows 四端覆盖，单次录音最长 4 小时，内置 19 种行业纪要模板",
+      "status": "live",
+      "date": "2026-08-06",
+      "url": "https://www.mionote.com.cn/",
+      "author": "妙小记",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/MeetMiaoji"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "0ebe53cdfd6e",
+      "board": "main",
+      "name": "PigFetch",
+      "intro": "Windows 视频链接下载工具，粘贴分享链接后可选择可用画质下载到电脑，适合素材留存与本地整理；新用户注册可使用 100 次，会员可无限下载",
+      "introMarkdown": "Windows 视频链接下载工具，粘贴分享链接后可选择可用画质下载到电脑，适合素材留存与本地整理；新用户注册可使用 100 次，会员可无限下载",
+      "status": "live",
+      "date": "2026-08-05",
+      "url": "https://pigfetch.com",
+      "author": "PigFetch Team",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/my-name-7"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "47f9adb7eee3",
       "board": "main",
@@ -32439,6 +32584,29 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "78bce9dfbcf5",
+      "board": "programmer",
+      "name": "状态栏歌词",
+      "intro": "自动读取 Apple Music 当前歌曲并显示同步歌词，支持歌词偏移调整、缓存和切换歌词源，数据全部在本机处理 — 开源的 macOS 菜单栏工具",
+      "introMarkdown": "自动读取 Apple Music 当前歌曲并显示同步歌词，支持歌词偏移调整、缓存和切换歌词源，数据全部在本机处理 — 开源的 macOS 菜单栏工具 - [GitHub](https://github.com/AKAama/lyrics-display)",
+      "status": "live",
+      "date": "2026-08-06",
+      "url": "https://lyrics.ismyh.cn/",
+      "author": "AKAama",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/AKAama"
+        },
+        {
+          "label": "个人主页",
+          "url": "https://ismyh.cn/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "0c458a8ce7cb",
       "board": "programmer",
