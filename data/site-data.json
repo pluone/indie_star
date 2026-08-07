@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-07T01:00:16.014Z",
-    "statsSyncedAt": "2026-08-07T01:00:16.014Z",
-    "upstreamSha": "e968da3439b19c9a803a8d9fe628fbdfa29f9157",
+    "contentSyncedAt": "2026-08-07T03:46:15.286Z",
+    "statsSyncedAt": "2026-08-07T03:46:15.286Z",
+    "upstreamSha": "b212d30e7e1fda1bac62ac394f15d027a1bd5cab",
     "counts": {
-      "main": 1654,
+      "main": 1655,
       "game": 113,
-      "programmer": 284,
-      "total": 2051
+      "programmer": 285,
+      "total": 2053
     }
   },
   "main": [
+    {
+      "slug": "5447de77e0fd",
+      "board": "main",
+      "name": "不空：钓鱼天气与鱼情记录",
+      "intro": "面向野钓用户的钓鱼天气与分鱼种鱼情工具，网页免登录查询十种目标鱼的当前评分、未来 24 小时趋势和较好时段；iPhone App 另提供未来 7 日鱼情、私有钓点和鱼获记录",
+      "introMarkdown": "面向野钓用户的钓鱼天气与分鱼种鱼情工具，网页免登录查询十种目标鱼的当前评分、未来 24 小时趋势和较好时段；iPhone App 另提供未来 7 日鱼情、私有钓点和鱼获记录 - [App Store](https://apps.apple.com/cn/app/id6791599314)",
+      "status": "live",
+      "date": "2026-08-07",
+      "url": "https://bhtq.cn",
+      "author": "不空团队",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Hanshihao111"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "e821706117df",
       "board": "main",
@@ -32602,6 +32621,25 @@
         {
           "label": "个人主页",
           "url": "https://ismyh.cn/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "83c284e70d96",
+      "board": "programmer",
+      "name": "BitFun",
+      "intro": "开源跨平台桌面 AI Agent，使用 Rust Runtime 在真实仓库中规划、修改、测试和提交代码，也能为任务生成带状态的 Mini App；支持自托管多端互联及 MCP、Skills、Hooks 扩展",
+      "introMarkdown": "开源跨平台桌面 AI Agent，使用 Rust Runtime 在真实仓库中规划、修改、测试和提交代码，也能为任务生成带状态的 Mini App；支持自托管多端互联及 MCP、Skills、Hooks 扩展",
+      "status": "live",
+      "date": "2026-08-06",
+      "url": "https://github.com/GCWing/BitFun",
+      "author": "Bob Lee",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/bobleer"
         }
       ],
       "likes": 0,
