@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-07T16:16:04.678Z",
-    "statsSyncedAt": "2026-08-07T16:16:04.678Z",
-    "upstreamSha": "02621d8a15b115fda63112ed23c92ed003be568e",
+    "contentSyncedAt": "2026-08-07T16:30:54.666Z",
+    "statsSyncedAt": "2026-08-07T16:30:54.666Z",
+    "upstreamSha": "0a65c54ab0deb28c05dd88ec49bec10e6ea98374",
     "counts": {
       "main": 1659,
-      "game": 113,
+      "game": 114,
       "programmer": 285,
-      "total": 2057
+      "total": 2058
     }
   },
   "main": [
@@ -30548,6 +30548,25 @@
     }
   ],
   "game": [
+    {
+      "slug": "9585c88a4dbd",
+      "board": "game",
+      "name": "Daily Word Hunt",
+      "intro": "每日更新的 Word Search 划词解谜小游戏，无需注册，提供主题系列与打印包，支持 Google 登录同步进度",
+      "introMarkdown": "每日更新的 Word Search 划词解谜小游戏，无需注册，提供主题系列与打印包，支持 Google 登录同步进度 - [源码](https://github.com/s87343472/daily-word-hunt)",
+      "status": "live",
+      "date": "2026-08-08",
+      "url": "https://words.sagasu.art/",
+      "author": "s87343472",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/s87343472"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "11ee0d2215fa",
       "board": "game",
