@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-07T03:51:07.080Z",
-    "statsSyncedAt": "2026-08-07T03:51:07.080Z",
-    "upstreamSha": "61f7c510e259b9768cfd37bb274d088b00e89329",
+    "contentSyncedAt": "2026-08-07T06:25:33.071Z",
+    "statsSyncedAt": "2026-08-07T06:25:33.071Z",
+    "upstreamSha": "29cd946375d007dad63e78506816ea33df650039",
     "counts": {
-      "main": 1656,
+      "main": 1657,
       "game": 113,
       "programmer": 285,
-      "total": 2054
+      "total": 2055
     }
   },
   "main": [
+    {
+      "slug": "0882e626d7e1",
+      "board": "main",
+      "name": "AI 比价",
+      "intro": "全网 AI 信息聚合比价站——国产官方套餐（GLM / Kimi / 通义 / 豆包等）的真实 Token 额度与限速、各家 API 单价、免费 Token 活动、低价 API 中转与海外账号行情一张表横向比，按「每元可用量」选出最划算方案",
+      "introMarkdown": "全网 AI 信息聚合比价站——国产官方套餐（GLM / Kimi / 通义 / 豆包等）的真实 Token 额度与限速、各家 API 单价、免费 Token 活动、低价 API 中转与海外账号行情一张表横向比，按「每元可用量」选出最划算方案",
+      "status": "live",
+      "date": "2026-08-07",
+      "url": "https://www.china-ai-arbitrage.xyz",
+      "author": "the-beating-light-of-the-nail",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/the-beating-light-of-the-nail"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "5447de77e0fd",
       "board": "main",
