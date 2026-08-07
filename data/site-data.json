@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-07T06:25:33.071Z",
-    "statsSyncedAt": "2026-08-07T06:25:33.071Z",
-    "upstreamSha": "29cd946375d007dad63e78506816ea33df650039",
+    "contentSyncedAt": "2026-08-07T16:16:04.678Z",
+    "statsSyncedAt": "2026-08-07T16:16:04.678Z",
+    "upstreamSha": "02621d8a15b115fda63112ed23c92ed003be568e",
     "counts": {
-      "main": 1657,
+      "main": 1659,
       "game": 113,
       "programmer": 285,
-      "total": 2055
+      "total": 2057
     }
   },
   "main": [
+    {
+      "slug": "e2929a4a7712",
+      "board": "main",
+      "name": "vPlayer HiFi App",
+      "intro": "HiFi 无损音乐播放器，支持 MP3、AIFF、WAV、FLAC、DSD（DFF/DSF）等音频格式，支持 SACD-R ISO 解析与 Track 提取、Samba 接入、内存加载播放、SRC/FIR 多种重采样算法，支持 AirPlay、蓝牙、外置 DAC 输出",
+      "introMarkdown": "HiFi 无损音乐播放器，支持 MP3、AIFF、WAV、FLAC、DSD（DFF/DSF）等音频格式，支持 SACD-R ISO 解析与 Track 提取、Samba 接入、内存加载播放、SRC/FIR 多种重采样算法，支持 AirPlay、蓝牙、外置 DAC 输出 - [源码](https://github.com/shanleiguang/vPlayer)",
+      "status": "live",
+      "date": "2026-08-08",
+      "url": "https://apps.apple.com/cn/app/vplayer-hifi/id6783141736",
+      "author": "ShanLeiGuang",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/shanleiguang"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "80cd9feb48c8",
+      "board": "main",
+      "name": "PublicHoliday",
+      "intro": "查询 150+ 国家法定节假日与调休，11种语言支持按年切换并一键导出日历订阅（.ics）",
+      "introMarkdown": "查询 150+ 国家法定节假日与调休，11种语言支持按年切换并一键导出日历订阅（.ics）",
+      "status": "live",
+      "date": "2026-08-07",
+      "url": "https://public-holidays.shop",
+      "author": "xiaoxiao",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/863683348"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "0882e626d7e1",
       "board": "main",
