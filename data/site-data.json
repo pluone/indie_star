@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-07T03:46:15.286Z",
-    "statsSyncedAt": "2026-08-07T03:46:15.286Z",
-    "upstreamSha": "b212d30e7e1fda1bac62ac394f15d027a1bd5cab",
+    "contentSyncedAt": "2026-08-07T03:51:07.080Z",
+    "statsSyncedAt": "2026-08-07T03:51:07.080Z",
+    "upstreamSha": "61f7c510e259b9768cfd37bb274d088b00e89329",
     "counts": {
-      "main": 1655,
+      "main": 1656,
       "game": 113,
       "programmer": 285,
-      "total": 2053
+      "total": 2054
     }
   },
   "main": [
@@ -151,6 +151,25 @@
         {
           "label": "Github",
           "url": "https://github.com/MeetMiaoji"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "bd94c9b5d051",
+      "board": "main",
+      "name": "FlowPick",
+      "intro": "自动检测并下载网页中的视频、音频和图片等媒体资源 — 免费开源浏览器扩展",
+      "introMarkdown": "自动检测并下载网页中的视频、音频和图片等媒体资源 — 免费开源浏览器扩展",
+      "status": "live",
+      "date": "2026-08-06",
+      "url": "https://flowpick.net",
+      "author": "FlowPick",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ezwebtools/flowpick"
         }
       ],
       "likes": 0,
