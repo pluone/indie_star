@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-07T21:33:06.424Z",
-    "statsSyncedAt": "2026-08-07T21:33:06.424Z",
-    "upstreamSha": "94a9474d52fbe926b4419bd0eda95d2fa5687c79",
+    "contentSyncedAt": "2026-08-08T03:10:36.269Z",
+    "statsSyncedAt": "2026-08-08T03:10:36.269Z",
+    "upstreamSha": "34312713f3a605f88917ce464a799a7385f42b56",
     "counts": {
-      "main": 1659,
+      "main": 1662,
       "game": 114,
       "programmer": 285,
-      "total": 2058
+      "total": 2061
     }
   },
   "main": [
+    {
+      "slug": "e0cadc973665",
+      "board": "main",
+      "name": "ClassroomTimers",
+      "intro": "面向教师和课堂场景的免费在线计时工具，主打大屏投影、全屏显示、无需注册",
+      "introMarkdown": "面向教师和课堂场景的免费在线计时工具，主打大屏投影、全屏显示、无需注册",
+      "status": "live",
+      "date": "2026-08-08",
+      "url": "https://classroomtimers.app/",
+      "author": "Miracle",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhoulianbo"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "ad831c20ec62",
+      "board": "main",
+      "name": "CCNavX AI 中转站精选导航",
+      "intro": "AI 中转站导航，收录可接入的开发者向 AI API 中转服务，方便切换对比",
+      "introMarkdown": "AI 中转站导航，收录可接入的开发者向 AI API 中转服务，方便切换对比 - [更多介绍](https://github.com/silankfakentend/ai-api-providers)",
+      "status": "live",
+      "date": "2026-08-08",
+      "url": "https://ccnavx.com/zh",
+      "author": "vivililio",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/silankfakentend"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "1db639f8a388",
+      "board": "main",
+      "name": "LiveFaceSwap AI",
+      "intro": "在线实时 AI 换脸工具，可在浏览器中体验换脸、换装和风格重绘；Windows 11 桌面版可通过虚拟摄像头接入直播、会议和视频通话软件",
+      "introMarkdown": "在线实时 AI 换脸工具，可在浏览器中体验换脸、换装和风格重绘；Windows 11 桌面版可通过虚拟摄像头接入直播、会议和视频通话软件",
+      "status": "live",
+      "date": "2026-08-08",
+      "url": "https://livefaceswap.ai/zh",
+      "author": "cabbagehao",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cabbagehao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "e2929a4a7712",
       "board": "main",
