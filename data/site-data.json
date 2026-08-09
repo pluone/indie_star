@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-09T14:40:44.501Z",
-    "statsSyncedAt": "2026-08-09T14:40:44.501Z",
-    "upstreamSha": "34f025f6a89ea3da081b119ad6e4db201a446140",
+    "contentSyncedAt": "2026-08-09T14:45:44.887Z",
+    "statsSyncedAt": "2026-08-09T14:45:44.887Z",
+    "upstreamSha": "3278835230559178d221bb135766c3261cfb3065",
     "counts": {
-      "main": 1662,
+      "main": 1663,
       "game": 114,
-      "programmer": 285,
-      "total": 2061
+      "programmer": 288,
+      "total": 2065
     }
   },
   "main": [
+    {
+      "slug": "f4c4980cdfd9",
+      "board": "main",
+      "name": "FeedbackHi",
+      "intro": "可嵌入任意网站的用户反馈工具，两行代码即可收集功能建议、Bug 报告和投票，并提供公开反馈看板、状态管理与官方回复",
+      "introMarkdown": "可嵌入任意网站的用户反馈工具，两行代码即可收集功能建议、Bug 报告和投票，并提供公开反馈看板、状态管理与官方回复",
+      "status": "live",
+      "date": "2026-08-09",
+      "url": "https://feedbackhi.com",
+      "author": "jankarong",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jankarong"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "e0cadc973665",
       "board": "main",
@@ -32755,6 +32774,63 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "1f4ee5b0efe9",
+      "board": "programmer",
+      "name": "c3(code creative center)",
+      "intro": "AI 开发工作台，集中管理并驱动多个 AI 智能体协作工作，涵盖意图开发工作流、SDD 规范驱动开发、多智能体话题讨论、交付管理、权限审批、定时任务、事件驱动自动化任务，支持 Claude Code、Codex、Cursor",
+      "introMarkdown": "AI 开发工作台，集中管理并驱动多个 AI 智能体协作工作，涵盖意图开发工作流、SDD 规范驱动开发、多智能体话题讨论、交付管理、权限审批、定时任务、事件驱动自动化任务，支持 Claude Code、Codex、Cursor",
+      "status": "live",
+      "date": "2026-08-09",
+      "url": "https://github.com/sequencestream/c3",
+      "author": "tiltwind",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tiltwind"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d42eb78eeb7f",
+      "board": "programmer",
+      "name": "LeePanel",
+      "intro": "开源桌面端 Linux 服务器管理面板，所有操作通过本地 SSH 完成，服务器端零安装零残留，从根本上消除传统网页面板的安全风险",
+      "introMarkdown": "开源桌面端 Linux 服务器管理面板，所有操作通过本地 SSH 完成，服务器端零安装零残留，从根本上消除传统网页面板的安全风险 - [源码](https://github.com/gna1280072/LeePanel)",
+      "status": "live",
+      "date": "2026-08-09",
+      "url": "http://www.leepanel.com",
+      "author": "gna1280072",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/gna1280072"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "55b496e5666c",
+      "board": "programmer",
+      "name": "Token Bargain",
+      "intro": "经济实惠的大模型 API 服务，登录后可免费试用一天的 Token 额度",
+      "introMarkdown": "经济实惠的大模型 API 服务，登录后可免费试用一天的 Token 额度",
+      "status": "live",
+      "date": "2026-08-09",
+      "url": "https://tokenbargain.dev",
+      "author": "yvonuk",
+      "authorLinks": [
+        {
+          "label": "推特",
+          "url": "https://x.com/mcwangcn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "78bce9dfbcf5",
       "board": "programmer",
