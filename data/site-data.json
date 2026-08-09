@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-08T21:23:49.337Z",
-    "statsSyncedAt": "2026-08-08T21:23:49.337Z",
-    "upstreamSha": "34312713f3a605f88917ce464a799a7385f42b56",
+    "contentSyncedAt": "2026-08-09T14:40:44.501Z",
+    "statsSyncedAt": "2026-08-09T14:40:44.501Z",
+    "upstreamSha": "34f025f6a89ea3da081b119ad6e4db201a446140",
     "counts": {
       "main": 1662,
       "game": 114,
@@ -3709,8 +3709,8 @@
       "slug": "efab08261a67",
       "board": "main",
       "name": "Agent Island",
-      "intro": "Claude Code 与 Codex 的开源状态伴侣，在 macOS 和 Windows 上显示实时会话状态，并在需要你接手时提醒；本地监控，无需账号",
-      "introMarkdown": "Claude Code 与 Codex 的开源状态伴侣，在 macOS 和 Windows 上显示实时会话状态，并在需要你接手时提醒；本地监控，无需账号 - [查看仓库](https://github.com/tristan666666/agent-island)",
+      "intro": "免费、MIT 开源的原生 AI 编程伴侣，统一支持 Claude、Codex、Gemini、Grok 与 Cursor，提供本地会话状态、轮到你提醒和服务商用量视图；无需 Agent Island 账号，无产品遥测",
+      "introMarkdown": "免费、MIT 开源的原生 AI 编程伴侣，统一支持 Claude、Codex、Gemini、Grok 与 Cursor，提供本地会话状态、轮到你提醒和服务商用量视图；无需 Agent Island 账号，无产品遥测 - [查看仓库](https://github.com/tristan666666/agent-island)",
       "status": "live",
       "date": "2026-07-14",
       "url": "https://agent-island.dev/",
