@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-09T16:20:39.415Z",
-    "statsSyncedAt": "2026-08-09T16:20:39.415Z",
-    "upstreamSha": "05e4599be09a0f0017e061c1eb7b28b1f54fede8",
+    "contentSyncedAt": "2026-08-09T16:25:45.641Z",
+    "statsSyncedAt": "2026-08-09T16:25:45.641Z",
+    "upstreamSha": "3ca6ece3b825203038afda98a1fc82d2978b8602",
     "counts": {
       "main": 1665,
       "game": 114,
-      "programmer": 287,
-      "total": 2066
+      "programmer": 288,
+      "total": 2067
     }
   },
   "main": [
@@ -32812,6 +32812,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "1b4574b0bc30",
+      "board": "programmer",
+      "name": "知了",
+      "intro": "支持自托管的多人音乐服务，类似私有版 Spotify，可在自己的服务器上管理、播放和分享音乐",
+      "introMarkdown": "支持自托管的多人音乐服务，类似私有版 Spotify，可在自己的服务器上管理、播放和分享音乐",
+      "status": "live",
+      "date": "2026-08-09",
+      "url": "https://github.com/mebtte/cicada",
+      "author": "mebtte",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/mebtte"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "1f4ee5b0efe9",
       "board": "programmer",
