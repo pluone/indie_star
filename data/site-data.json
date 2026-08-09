@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-09T14:45:44.887Z",
-    "statsSyncedAt": "2026-08-09T14:45:44.887Z",
-    "upstreamSha": "3278835230559178d221bb135766c3261cfb3065",
+    "contentSyncedAt": "2026-08-09T16:20:39.415Z",
+    "statsSyncedAt": "2026-08-09T16:20:39.415Z",
+    "upstreamSha": "05e4599be09a0f0017e061c1eb7b28b1f54fede8",
     "counts": {
-      "main": 1663,
+      "main": 1665,
       "game": 114,
-      "programmer": 288,
-      "total": 2065
+      "programmer": 287,
+      "total": 2066
     }
   },
   "main": [
+    {
+      "slug": "a7bfb4e22ed0",
+      "board": "main",
+      "name": "SeqLog",
+      "intro": "macOS 原生大纲笔记，每条笔记就是磁盘上的一个 Markdown 文件，没有数据库也没有专有格式，ripgrep 和 git 读到的和你看到的是同一份字节；内置 Git 可展开逐行 diff、按单个文件回滚，也能直接打开已有的 Logseq 仓库。界面为英文",
+      "introMarkdown": "macOS 原生大纲笔记，每条笔记就是磁盘上的一个 Markdown 文件，没有数据库也没有专有格式，ripgrep 和 git 读到的和你看到的是同一份字节；内置 Git 可展开逐行 diff、按单个文件回滚，也能直接打开已有的 Logseq 仓库。界面为英文",
+      "status": "live",
+      "date": "2026-08-09",
+      "url": "https://seqlog.com",
+      "author": "nekocode",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/nekocode"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "f4c4980cdfd9",
       "board": "main",
@@ -25,6 +44,25 @@
         {
           "label": "Github",
           "url": "https://github.com/jankarong"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "9d60f99f6bf3",
+      "board": "main",
+      "name": "LeePanel",
+      "intro": "开源桌面端 Linux 服务器管理面板，所有操作通过本地 SSH 完成，服务器端零安装零残留，从根本上消除传统网页面板的安全风险",
+      "introMarkdown": "开源桌面端 Linux 服务器管理面板，所有操作通过本地 SSH 完成，服务器端零安装零残留，从根本上消除传统网页面板的安全风险 - [源码](https://github.com/gna1280072/LeePanel)",
+      "status": "live",
+      "date": "2026-08-09",
+      "url": "http://www.leepanel.com",
+      "author": "gna1280072",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/gna1280072"
         }
       ],
       "likes": 0,
@@ -32788,25 +32826,6 @@
         {
           "label": "Github",
           "url": "https://github.com/tiltwind"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d42eb78eeb7f",
-      "board": "programmer",
-      "name": "LeePanel",
-      "intro": "开源桌面端 Linux 服务器管理面板，所有操作通过本地 SSH 完成，服务器端零安装零残留，从根本上消除传统网页面板的安全风险",
-      "introMarkdown": "开源桌面端 Linux 服务器管理面板，所有操作通过本地 SSH 完成，服务器端零安装零残留，从根本上消除传统网页面板的安全风险 - [源码](https://github.com/gna1280072/LeePanel)",
-      "status": "live",
-      "date": "2026-08-09",
-      "url": "http://www.leepanel.com",
-      "author": "gna1280072",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/gna1280072"
         }
       ],
       "likes": 0,
