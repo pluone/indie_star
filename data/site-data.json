@@ -1,16 +1,30 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-10T02:15:46.262Z",
-    "statsSyncedAt": "2026-08-10T02:15:46.262Z",
-    "upstreamSha": "eb083a66b0c78c944b0598c915c01b437009ffdb",
+    "contentSyncedAt": "2026-08-10T02:20:40.746Z",
+    "statsSyncedAt": "2026-08-10T02:20:40.746Z",
+    "upstreamSha": "a8b4613d1b83923c46ec15b9e666d883f9b5425c",
     "counts": {
-      "main": 1664,
+      "main": 1665,
       "game": 114,
       "programmer": 289,
-      "total": 2067
+      "total": 2068
     }
   },
   "main": [
+    {
+      "slug": "c2ca06bee8fe",
+      "board": "main",
+      "name": "豆包超级助手",
+      "intro": "对话文件夹、长对话导航、标记注释、提示词模板与多步队列、100+ 模板与划词快捷进入、本机读写文件 — 豆包对话增强 Chrome 插件",
+      "introMarkdown": "对话文件夹、长对话导航、标记注释、提示词模板与多步队列、100+ 模板与划词快捷进入、本机读写文件 — 豆包对话增强 Chrome 插件 - [更多介绍](https://chromewebstore.google.com/detail/%E8%B1%86%E5%8C%85%E8%B6%85%E7%BA%A7%E5%8A%A9%E6%89%8B/ehjaeofaphienmmldokgaagbdmcjpaag/)",
+      "status": "live",
+      "date": "2026-08-10",
+      "url": "https://chromewebstore.google.com/detail/%E8%B1%86%E5%8C%85%E8%B6%85%E7%BA%A7%E5%8A%A9%E6%89%8B/ehjaeofaphienmmldokgaagbdmcjpaag",
+      "author": "想法开工",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "a7bfb4e22ed0",
       "board": "main",
