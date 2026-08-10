@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-10T10:30:45.309Z",
-    "statsSyncedAt": "2026-08-10T10:30:45.309Z",
-    "upstreamSha": "f607aa41214211d5a88742bca58b10624ff9f955",
+    "contentSyncedAt": "2026-08-10T10:35:30.362Z",
+    "statsSyncedAt": "2026-08-10T10:35:30.362Z",
+    "upstreamSha": "b1c17111c43b78084f14dedd00d1ed6b77df1ceb",
     "counts": {
-      "main": 1666,
+      "main": 1667,
       "game": 114,
       "programmer": 289,
-      "total": 2069
+      "total": 2070
     }
   },
   "main": [
+    {
+      "slug": "5a82fff25f8b",
+      "board": "main",
+      "name": "隐私中转站 Android",
+      "intro": "本地离线的 Android 隐私分享中转工具，关闭购物和内容 App 的剪贴板读取权限后，仍可通过通知栏或系统分享保存、识别并打开链接与口令 — 无网络权限、无广告、无统计 SDK",
+      "introMarkdown": "本地离线的 Android 隐私分享中转工具，关闭购物和内容 App 的剪贴板读取权限后，仍可通过通知栏或系统分享保存、识别并打开链接与口令 — 无网络权限、无广告、无统计 SDK",
+      "status": "live",
+      "date": "2026-08-10",
+      "url": "https://github.com/hzy7003-bit/PrivacyHub-Android-Preview",
+      "author": "花间魂梦",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hzy7003-bit"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "c2ca06bee8fe",
       "board": "main",
