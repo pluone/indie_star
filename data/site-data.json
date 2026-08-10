@@ -1,12 +1,12 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-09T21:25:13.252Z",
-    "statsSyncedAt": "2026-08-09T21:25:13.252Z",
-    "upstreamSha": "3ca6ece3b825203038afda98a1fc82d2978b8602",
+    "contentSyncedAt": "2026-08-10T02:15:46.262Z",
+    "statsSyncedAt": "2026-08-10T02:15:46.262Z",
+    "upstreamSha": "eb083a66b0c78c944b0598c915c01b437009ffdb",
     "counts": {
-      "main": 1665,
+      "main": 1664,
       "game": 114,
-      "programmer": 288,
+      "programmer": 289,
       "total": 2067
     }
   },
@@ -177,25 +177,6 @@
         {
           "label": "Github",
           "url": "https://github.com/the-beating-light-of-the-nail"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "5447de77e0fd",
-      "board": "main",
-      "name": "不空：钓鱼天气与鱼情记录",
-      "intro": "面向野钓用户的钓鱼天气与分鱼种鱼情工具，网页免登录查询十种目标鱼的当前评分、未来 24 小时趋势和较好时段；iPhone App 另提供未来 7 日鱼情、私有钓点和鱼获记录",
-      "introMarkdown": "面向野钓用户的钓鱼天气与分鱼种鱼情工具，网页免登录查询十种目标鱼的当前评分、未来 24 小时趋势和较好时段；iPhone App 另提供未来 7 日鱼情、私有钓点和鱼获记录 - [App Store](https://apps.apple.com/cn/app/id6791599314)",
-      "status": "live",
-      "date": "2026-08-07",
-      "url": "https://bhtq.cn",
-      "author": "不空团队",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Hanshihao111"
         }
       ],
       "likes": 0,
@@ -32812,6 +32793,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "edc8f214bf4e",
+      "board": "programmer",
+      "name": "Nexus Shell",
+      "intro": "原生 macOS SSH 客户端，在一个应用中管理终端、双栏 SFTP、Docker 与服务器监控；还可通过 MCP 让 Claude Code、Codex 在可见终端中执行已授权操作，密码和私钥不会交给 Agent",
+      "introMarkdown": "原生 macOS SSH 客户端，在一个应用中管理终端、双栏 SFTP、Docker 与服务器监控；还可通过 MCP 让 Claude Code、Codex 在可见终端中执行已授权操作，密码和私钥不会交给 Agent",
+      "status": "live",
+      "date": "2026-08-10",
+      "url": "https://nexusshell.app/?utm_source=github&utm_medium=referral&utm_campaign=chinese_independent_developer",
+      "author": "Sameral",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/viewer12"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "1b4574b0bc30",
       "board": "programmer",
