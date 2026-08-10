@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-10T02:20:40.746Z",
-    "statsSyncedAt": "2026-08-10T02:20:40.746Z",
-    "upstreamSha": "a8b4613d1b83923c46ec15b9e666d883f9b5425c",
+    "contentSyncedAt": "2026-08-10T10:30:45.309Z",
+    "statsSyncedAt": "2026-08-10T10:30:45.309Z",
+    "upstreamSha": "f607aa41214211d5a88742bca58b10624ff9f955",
     "counts": {
-      "main": 1665,
+      "main": 1666,
       "game": 114,
       "programmer": 289,
-      "total": 2068
+      "total": 2069
     }
   },
   "main": [
@@ -22,6 +22,25 @@
       "url": "https://chromewebstore.google.com/detail/%E8%B1%86%E5%8C%85%E8%B6%85%E7%BA%A7%E5%8A%A9%E6%89%8B/ehjaeofaphienmmldokgaagbdmcjpaag",
       "author": "想法开工",
       "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "1aea6744f3e5",
+      "board": "main",
+      "name": "摸鱼助手",
+      "intro": "把你想看的视频或小说嵌入工作软件摸鱼的小程序，可快速调整浏览器和桌面窗口的位置、尺寸、置顶与透明度，并自动识别浏览器画中画窗口停靠到屏幕指定位置",
+      "introMarkdown": "把你想看的视频或小说嵌入工作软件摸鱼的小程序，可快速调整浏览器和桌面窗口的位置、尺寸、置顶与透明度，并自动识别浏览器画中画窗口停靠到屏幕指定位置",
+      "status": "live",
+      "date": "2026-08-10",
+      "url": "https://github.com/ylv01/WindowDockTool-Windows-Window-Docking-Picture-in-Picture-Helper",
+      "author": "ylv01",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ylv01"
+        }
+      ],
       "likes": 0,
       "comments": 0
     },
@@ -3761,8 +3780,8 @@
       "slug": "efab08261a67",
       "board": "main",
       "name": "Agent Island",
-      "intro": "免费、MIT 开源的原生 AI 编程伴侣，统一支持 Claude、Codex、Gemini、Grok 与 Cursor，提供本地会话状态、轮到你提醒和服务商用量视图；无需 Agent Island 账号，无产品遥测",
-      "introMarkdown": "免费、MIT 开源的原生 AI 编程伴侣，统一支持 Claude、Codex、Gemini、Grok 与 Cursor，提供本地会话状态、轮到你提醒和服务商用量视图；无需 Agent Island 账号，无产品遥测 - [查看仓库](https://github.com/tristan666666/agent-island)",
+      "intro": "免费、MIT 开源的原生 AI 编程伴侣，统一支持 Claude Code、Codex、Antigravity、Grok 与 Cursor，提供本地会话状态、轮到你提醒和服务商用量视图；无需 Agent Island 账号，无产品遥测",
+      "introMarkdown": "免费、MIT 开源的原生 AI 编程伴侣，统一支持 Claude Code、Codex、Antigravity、Grok 与 Cursor，提供本地会话状态、轮到你提醒和服务商用量视图；无需 Agent Island 账号，无产品遥测 - [查看仓库](https://github.com/tristan666666/agent-island)",
       "status": "live",
       "date": "2026-07-14",
       "url": "https://agent-island.dev/",
