@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-10T21:35:24.321Z",
-    "statsSyncedAt": "2026-08-10T21:35:24.321Z",
-    "upstreamSha": "b1c17111c43b78084f14dedd00d1ed6b77df1ceb",
+    "contentSyncedAt": "2026-08-11T03:45:35.316Z",
+    "statsSyncedAt": "2026-08-11T03:45:35.316Z",
+    "upstreamSha": "e272ce69500e3437376e6f8f35649511fb49b342",
     "counts": {
       "main": 1667,
       "game": 114,
@@ -349,7 +349,7 @@
       "introMarkdown": "可随身携带的 AI 语音助手，记会议、记灵感、记待办，记录你的每一天；专注工作/生活/学习/闲谈/灵感等场景的语音记录，支持实时语音转写、说话人区分、AI 智能摘要一键生成，历史会议可按主题回看，iOS、Android、Mac、Windows 四端覆盖，单次录音最长 4 小时，内置 19 种行业纪要模板",
       "status": "live",
       "date": "2026-08-06",
-      "url": "https://www.mionote.com.cn/",
+      "url": "https://www.mionote.com.cn/?utm_source=cnindie&utm_medium=github&utm_campaign=2026q3",
       "author": "妙小记",
       "authorLinks": [
         {
