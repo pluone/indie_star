@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-11T03:45:35.316Z",
-    "statsSyncedAt": "2026-08-11T03:45:35.316Z",
-    "upstreamSha": "e272ce69500e3437376e6f8f35649511fb49b342",
+    "contentSyncedAt": "2026-08-11T09:45:31.598Z",
+    "statsSyncedAt": "2026-08-11T09:45:31.598Z",
+    "upstreamSha": "ab7082ebc63642e93fda0ea76661296c9492b3d3",
     "counts": {
       "main": 1667,
       "game": 114,
-      "programmer": 289,
-      "total": 2070
+      "programmer": 290,
+      "total": 2071
     }
   },
   "main": [
@@ -32845,6 +32845,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "0cc3b84062a7",
+      "board": "programmer",
+      "name": "Codex Asset Forge",
+      "intro": "本地优先的 2D 游戏素材批量生成工作台，复用本机 Codex CLI，让游戏项目直接用自然语言或 Markdown 交接素材需求并自动拆成可追踪的批量生图任务；支持按批次生成、逐项审核，并导出含文件路径和语义描述的 JSON，供 Godot、Unity 与后续开发 AI 直接接手 — 开源 macOS App",
+      "introMarkdown": "本地优先的 2D 游戏素材批量生成工作台，复用本机 Codex CLI，让游戏项目直接用自然语言或 Markdown 交接素材需求并自动拆成可追踪的批量生图任务；支持按批次生成、逐项审核，并导出含文件路径和语义描述的 JSON，供 Godot、Unity 与后续开发 AI 直接接手 — 开源 macOS App",
+      "status": "live",
+      "date": "2026-08-11",
+      "url": "https://github.com/Brycetlm/codex-asset-forge",
+      "author": "Brycetlm",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Brycetlm"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "edc8f214bf4e",
       "board": "programmer",
