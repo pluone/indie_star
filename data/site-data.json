@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-11T09:45:31.598Z",
-    "statsSyncedAt": "2026-08-11T09:45:31.598Z",
-    "upstreamSha": "ab7082ebc63642e93fda0ea76661296c9492b3d3",
+    "contentSyncedAt": "2026-08-11T09:50:37.556Z",
+    "statsSyncedAt": "2026-08-11T09:50:37.556Z",
+    "upstreamSha": "0b286ba1f06c09ccd2eab1fee8644f3357e932ef",
     "counts": {
-      "main": 1667,
+      "main": 1669,
       "game": 114,
-      "programmer": 290,
-      "total": 2071
+      "programmer": 292,
+      "total": 2075
     }
   },
   "main": [
+    {
+      "slug": "d1c32bc0b83c",
+      "board": "main",
+      "name": "Fate Mirror",
+      "intro": "AI 塔罗占卜与自我探索工具，通过抽牌、AI 个性化解读、引导式问题和私人日记，探索爱情、事业、人际关系与重要选择，相比一次性出结果的传统塔罗网站更注重持续反思与记录",
+      "introMarkdown": "AI 塔罗占卜与自我探索工具，通过抽牌、AI 个性化解读、引导式问题和私人日记，探索爱情、事业、人际关系与重要选择，相比一次性出结果的传统塔罗网站更注重持续反思与记录",
+      "status": "live",
+      "date": "2026-08-11",
+      "url": "https://fate-mirror.com",
+      "author": "dayphosphor",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/dayphosphor"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "45c112243a45",
+      "board": "main",
+      "name": "EveryCityMap",
+      "intro": "在线风格化城市地图设计工具，覆盖全球 500+ 座城市，可切换多种主题，自定义图层、道路、水域、标签与配色，并导出多种尺寸的高清地图",
+      "introMarkdown": "在线风格化城市地图设计工具，覆盖全球 500+ 座城市，可切换多种主题，自定义图层、道路、水域、标签与配色，并导出多种尺寸的高清地图",
+      "status": "live",
+      "date": "2026-08-11",
+      "url": "https://everycitymap.com",
+      "author": "Albert",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/AlbertAZ1992"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "5a82fff25f8b",
       "board": "main",
@@ -32845,6 +32883,44 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "1d97f00ef4e5",
+      "board": "programmer",
+      "name": "Infinitum",
+      "intro": "基于 RSS 的自托管资讯聚合工作台，对日益膨胀的个人信息流进行必要但保守的预处理，提高信息获取效率",
+      "introMarkdown": "基于 RSS 的自托管资讯聚合工作台，对日益膨胀的个人信息流进行必要但保守的预处理，提高信息获取效率",
+      "status": "live",
+      "date": "2026-08-11",
+      "url": "https://infinitum.shawnxie.top/",
+      "author": "shawnxie94",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/shawnxie94/infinitum"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "958749676e05",
+      "board": "programmer",
+      "name": "Riffpad",
+      "intro": "把 Claude Code、Codex 等 AI 编程 agent 加密同步到手机，躺床上也能看进度、一键批准操作、远程补一句新指令；代码和 API key 只留在你电脑上，端到端加密",
+      "introMarkdown": "把 Claude Code、Codex 等 AI 编程 agent 加密同步到手机，躺床上也能看进度、一键批准操作、远程补一句新指令；代码和 API key 只留在你电脑上，端到端加密 - [GitHub](https://github.com/riffpad/riffpad)",
+      "status": "live",
+      "date": "2026-08-11",
+      "url": "https://riffpad.ai",
+      "author": "Liu Zhening",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hypervapor"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "0cc3b84062a7",
       "board": "programmer",
