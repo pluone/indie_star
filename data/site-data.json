@@ -1,7 +1,7 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-12T12:41:20.722Z",
-    "statsSyncedAt": "2026-08-12T12:41:20.722Z",
+    "contentSyncedAt": "2026-08-12T21:38:30.665Z",
+    "statsSyncedAt": "2026-08-12T21:38:30.665Z",
     "upstreamSha": "e9b086116215dbb38ecaaed54488a008b837df6d",
     "counts": {
       "main": 1670,
@@ -2604,8 +2604,8 @@
           "url": "https://github.com/alphadamn"
         }
       ],
-      "likes": 0,
-      "comments": 0
+      "likes": 1,
+      "comments": 1
     },
     {
       "slug": "688381a4f61a",
