@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-11T21:39:55.653Z",
-    "statsSyncedAt": "2026-08-11T21:39:55.653Z",
-    "upstreamSha": "0b286ba1f06c09ccd2eab1fee8644f3357e932ef",
+    "contentSyncedAt": "2026-08-12T12:41:20.722Z",
+    "statsSyncedAt": "2026-08-12T12:41:20.722Z",
+    "upstreamSha": "e9b086116215dbb38ecaaed54488a008b837df6d",
     "counts": {
-      "main": 1669,
+      "main": 1670,
       "game": 114,
-      "programmer": 292,
-      "total": 2075
+      "programmer": 293,
+      "total": 2077
     }
   },
   "main": [
+    {
+      "slug": "ec7ac9f8dfec",
+      "board": "main",
+      "name": "Global Solo",
+      "intro": "面向非美国居民创业者的美国 LLC 服务对比站，横向比较 43+ 家注册、银行、税务与合规服务商，提供 24 个「国家 × 维度」组合攻略、风险自查、合规日历和成本计算器；界面为英文",
+      "introMarkdown": "面向非美国居民创业者的美国 LLC 服务对比站，横向比较 43+ 家注册、银行、税务与合规服务商，提供 24 个「国家 × 维度」组合攻略、风险自查、合规日历和成本计算器；界面为英文",
+      "status": "live",
+      "date": "2026-08-12",
+      "url": "https://www.globalsolo.global/?utm_source=cnindie&utm_medium=github",
+      "author": "Jett Fu",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jianjettfu-oss"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "d1c32bc0b83c",
       "board": "main",
@@ -32883,6 +32902,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "08837c129b3d",
+      "board": "programmer",
+      "name": "TANSHIP Template",
+      "intro": "TanStack Start SaaS 模板，集成身份验证、支付、数据库、邮件和 AI 工作流，基于 Cloudflare Workers 构建，支持中英双语和 34 套主题",
+      "introMarkdown": "TanStack Start SaaS 模板，集成身份验证、支付、数据库、邮件和 AI 工作流，基于 Cloudflare Workers 构建，支持中英双语和 34 套主题",
+      "status": "live",
+      "date": "2026-08-12",
+      "url": "https://tanship.app?utm_source=github&utm_medium=directory&utm_campaign=backlink",
+      "author": "pang3fan-creator",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/pang3fan-creator"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "1d97f00ef4e5",
       "board": "programmer",
