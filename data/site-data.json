@@ -1,16 +1,92 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-13T08:46:21.173Z",
-    "statsSyncedAt": "2026-08-13T08:46:21.173Z",
-    "upstreamSha": "8cff1ec9dcac93c18e08381282d676138f4a69f5",
+    "contentSyncedAt": "2026-08-13T08:51:27.425Z",
+    "statsSyncedAt": "2026-08-13T08:51:27.425Z",
+    "upstreamSha": "1e1b9bb6e41072170a2ca0b9788a293043c7cdd6",
     "counts": {
-      "main": 1672,
+      "main": 1676,
       "game": 114,
       "programmer": 293,
-      "total": 2079
+      "total": 2083
     }
   },
   "main": [
+    {
+      "slug": "3d85a067d8ba",
+      "board": "main",
+      "name": "Pixonara",
+      "intro": "AI 图片、视频与提示词工作台，集中浏览 GPT Image、Nano Banana、Midjourney、Seedance 等模型的免费提示词，并结合文字或参考图片制作商品视觉、营销素材和短视频",
+      "introMarkdown": "AI 图片、视频与提示词工作台，集中浏览 GPT Image、Nano Banana、Midjourney、Seedance 等模型的免费提示词，并结合文字或参考图片制作商品视觉、营销素材和短视频",
+      "status": "live",
+      "date": "2026-08-13",
+      "url": "https://pixonara.com",
+      "author": "JeremyGDM",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JeremyGDM"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "eb1517ca5006",
+      "board": "main",
+      "name": "Gamepad Tester Pro",
+      "intro": "手柄检测与故障排查工具，连接 USB 或蓝牙控制器即可测试按键、摇杆漂移、扳机、死区、轮询率、输入响应和震动",
+      "introMarkdown": "手柄检测与故障排查工具，连接 USB 或蓝牙控制器即可测试按键、摇杆漂移、扳机、死区、轮询率、输入响应和震动",
+      "status": "live",
+      "date": "2026-08-13",
+      "url": "https://gamepadtesterpro.org/",
+      "author": "YuuFish",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/YuuFish"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "5e72278ee9ca",
+      "board": "main",
+      "name": "Scroll Wheel Test",
+      "intro": "鼠标滚轮测试工具，可检测上下滚动、滚动方向、响应情况和滚轮输入表现",
+      "introMarkdown": "鼠标滚轮测试工具，可检测上下滚动、滚动方向、响应情况和滚轮输入表现",
+      "status": "live",
+      "date": "2026-08-13",
+      "url": "https://scrollwheeltest.org/",
+      "author": "YuuFish",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/YuuFish"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "f27b3d4162f8",
+      "board": "main",
+      "name": "Online Protractor",
+      "intro": "角度测量工具，可通过屏幕量角器、图片上传和相机辅助测量角度，适合几何学习、物体角度检查和图片角度分析",
+      "introMarkdown": "角度测量工具，可通过屏幕量角器、图片上传和相机辅助测量角度，适合几何学习、物体角度检查和图片角度分析",
+      "status": "live",
+      "date": "2026-08-13",
+      "url": "https://protractoronline.org/",
+      "author": "YuuFish",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/YuuFish"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "af14e037cead",
       "board": "main",
