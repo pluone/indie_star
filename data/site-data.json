@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-14T03:56:23.988Z",
-    "statsSyncedAt": "2026-08-14T03:56:23.988Z",
-    "upstreamSha": "3a5430de00bf199afa8f044e3c9b829aaa9afdfd",
+    "contentSyncedAt": "2026-08-14T11:26:22.400Z",
+    "statsSyncedAt": "2026-08-14T11:26:22.400Z",
+    "upstreamSha": "fffaeb6cc4d3e02576d4732b50062a62cc3a9869",
     "counts": {
-      "main": 1678,
+      "main": 1680,
       "game": 114,
       "programmer": 294,
-      "total": 2086
+      "total": 2088
     }
   },
   "main": [
+    {
+      "slug": "a3c91dc985f8",
+      "board": "main",
+      "name": "Background Remover Video",
+      "intro": "AI 视频背景移除工具，无需绿幕即可自动分离主体，导出透明 WebM 或纯色背景 MP4，并保留原始音频",
+      "introMarkdown": "AI 视频背景移除工具，无需绿幕即可自动分离主体，导出透明 WebM 或纯色背景 MP4，并保留原始音频",
+      "status": "live",
+      "date": "2026-08-14",
+      "url": "https://backgroundremover.video/",
+      "author": "ggb",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jiangyifeng96"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "80139e4b5d20",
+      "board": "main",
+      "name": "Morse Code Translator",
+      "intro": "文本与摩尔斯电码双向转换工具，支持实时高亮、速度调节、手机振动和一键导出音频",
+      "introMarkdown": "文本与摩尔斯电码双向转换工具，支持实时高亮、速度调节、手机振动和一键导出音频",
+      "status": "live",
+      "date": "2026-08-14",
+      "url": "https://morsecodeinterpreters.com",
+      "author": "Eason-87",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Eason-87"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "05a5b1e488d0",
       "board": "main",
