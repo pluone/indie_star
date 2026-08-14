@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-13T21:38:22.757Z",
-    "statsSyncedAt": "2026-08-13T21:38:22.757Z",
-    "upstreamSha": "eba40eddf69c297263724c98643ff185a35080d3",
+    "contentSyncedAt": "2026-08-14T03:21:16.437Z",
+    "statsSyncedAt": "2026-08-14T03:21:16.437Z",
+    "upstreamSha": "be7acf8128863d226930cda65b9010a618b9534b",
     "counts": {
       "main": 1677,
       "game": 114,
-      "programmer": 293,
-      "total": 2084
+      "programmer": 294,
+      "total": 2085
     }
   },
   "main": [
@@ -33035,6 +33035,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "bcd212283b27",
+      "board": "programmer",
+      "name": "SkillPort AI",
+      "intro": "多租户 AI 模型资源管理平台，集中管理模型服务商、模型目录和访问凭证，并通过租户、角色权限、套餐订阅与审计能力提供统一治理",
+      "introMarkdown": "多租户 AI 模型资源管理平台，集中管理模型服务商、模型目录和访问凭证，并通过租户、角色权限、套餐订阅与审计能力提供统一治理",
+      "status": "live",
+      "date": "2026-08-14",
+      "url": "https://github.com/jaden-2026/ai-base-saas",
+      "author": "jaden-2026",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jaden-2026"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "08837c129b3d",
       "board": "programmer",
