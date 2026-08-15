@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-15T03:41:21.317Z",
-    "statsSyncedAt": "2026-08-15T03:41:21.317Z",
-    "upstreamSha": "f495cab61f380442400069d67f6c9e26556eedf0",
+    "contentSyncedAt": "2026-08-15T13:46:15.088Z",
+    "statsSyncedAt": "2026-08-15T13:46:15.088Z",
+    "upstreamSha": "657b447554130fd9615c277d301d9b037b23d102",
     "counts": {
-      "main": 1681,
+      "main": 1683,
       "game": 114,
       "programmer": 304,
-      "total": 2099
+      "total": 2101
     }
   },
   "main": [
+    {
+      "slug": "aa69cdc6fd5b",
+      "board": "main",
+      "name": "AiMovieFinder",
+      "intro": "通过剧情、场景、台词、截图、片段帧、演员或导演线索识别电影，并给出匹配结果",
+      "introMarkdown": "通过剧情、场景、台词、截图、片段帧、演员或导演线索识别电影，并给出匹配结果",
+      "status": "live",
+      "date": "2026-08-15",
+      "url": "https://www.aimoviefinder.net",
+      "author": "kugua233",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kugua233"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "fb7e73ed254a",
+      "board": "main",
+      "name": "SeatingChartGenerator",
+      "intro": "免费在线座位表生成器，支持拖拽安排婚礼、派对、教室和活动宾客，完成后可导出 PNG 或 PDF",
+      "introMarkdown": "免费在线座位表生成器，支持拖拽安排婚礼、派对、教室和活动宾客，完成后可导出 PNG 或 PDF",
+      "status": "live",
+      "date": "2026-08-15",
+      "url": "https://www.seatingchartgenerator.app",
+      "author": "kugua233",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kugua233"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "3883ba1d9c62",
       "board": "main",
