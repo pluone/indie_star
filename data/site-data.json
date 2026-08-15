@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-15T13:51:25.145Z",
-    "statsSyncedAt": "2026-08-15T13:51:25.145Z",
-    "upstreamSha": "33cb9a6922e5fa8193601ab214c0e4ddd7922405",
+    "contentSyncedAt": "2026-08-15T19:51:19.588Z",
+    "statsSyncedAt": "2026-08-15T19:51:19.588Z",
+    "upstreamSha": "37b79437c6d72bfad48dbd4e434032454e097a7a",
     "counts": {
-      "main": 1683,
+      "main": 1685,
       "game": 115,
-      "programmer": 304,
-      "total": 2102
+      "programmer": 305,
+      "total": 2105
     }
   },
   "main": [
+    {
+      "slug": "fea609e4cf93",
+      "board": "main",
+      "name": "MetaClean",
+      "intro": "跨平台本地文件元数据清理工具，支持图片、PDF、Office 和文本文件批量处理，文件不上传云端",
+      "introMarkdown": "跨平台本地文件元数据清理工具，支持图片、PDF、Office 和文本文件批量处理，文件不上传云端 - [项目与下载](https://github.com/Moresyl/metaclean/releases/latest)",
+      "status": "live",
+      "date": "2026-08-16",
+      "url": "https://github.com/Moresyl/metaclean",
+      "author": "Moresyl",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Moresyl"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "aa69cdc6fd5b",
       "board": "main",
@@ -63,6 +82,25 @@
         {
           "label": "Github",
           "url": "https://github.com/linuxscreen"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "f409ef58b933",
+      "board": "main",
+      "name": "DSH Meme Hub",
+      "intro": "DeepSeek Harness 社区插件导航站，收录 87 个插件、13 个分类，每日更新 star 排行榜，整活插件单独放进 Meme Zone，中英双语，开放投稿",
+      "introMarkdown": "DeepSeek Harness 社区插件导航站，收录 87 个插件、13 个分类，每日更新 star 排行榜，整活插件单独放进 Meme Zone，中英双语，开放投稿 - [GitHub 项目](https://github.com/the-beating-light-of-the-nail/dsh-meme-hub)",
+      "status": "live",
+      "date": "2026-08-15",
+      "url": "https://dsh-meme-hub.cdqyfdbymn.me/",
+      "author": "the-beating-light-of-the-nail",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/the-beating-light-of-the-nail"
         }
       ],
       "likes": 0,
@@ -33168,6 +33206,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "a4c28c647f2a",
+      "board": "programmer",
+      "name": "DSH Studio",
+      "intro": "本地优先的跨平台 DeepSeek Harness 桌面管理器，用图形界面完成安装、启动停止、健康检查、日志查看与进程清理，提供 Windows、macOS 和 Linux 安装包",
+      "introMarkdown": "本地优先的跨平台 DeepSeek Harness 桌面管理器，用图形界面完成安装、启动停止、健康检查、日志查看与进程清理，提供 Windows、macOS 和 Linux 安装包",
+      "status": "live",
+      "date": "2026-08-16",
+      "url": "https://github.com/Moresyl/dsh-studio",
+      "author": "Moresyl",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Moresyl"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "fd7f7076629c",
       "board": "programmer",
