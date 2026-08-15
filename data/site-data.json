@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-15T03:01:30.653Z",
-    "statsSyncedAt": "2026-08-15T03:01:30.653Z",
-    "upstreamSha": "1a5ae7fb4cdbe59f202b61e4bf6b8e21695e9ab8",
+    "contentSyncedAt": "2026-08-15T03:41:21.317Z",
+    "statsSyncedAt": "2026-08-15T03:41:21.317Z",
+    "upstreamSha": "f495cab61f380442400069d67f6c9e26556eedf0",
     "counts": {
-      "main": 1680,
+      "main": 1681,
       "game": 114,
       "programmer": 304,
-      "total": 2098
+      "total": 2099
     }
   },
   "main": [
+    {
+      "slug": "3883ba1d9c62",
+      "board": "main",
+      "name": "Duo Translator",
+      "intro": "AI翻译和写作助手（浏览器插件），支持网页双语翻译、划词翻译、写作增强、YouTube双语字幕等功能",
+      "introMarkdown": "AI翻译和写作助手（浏览器插件），支持网页双语翻译、划词翻译、写作增强、YouTube双语字幕等功能 - [项目与下载](https://github.com/linuxscreen/duo-translator)",
+      "status": "live",
+      "date": "2026-08-15",
+      "url": "https://duotranslator.com/",
+      "author": "linuxscreen",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/linuxscreen"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "a3c91dc985f8",
       "board": "main",
