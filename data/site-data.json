@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-15T21:14:56.786Z",
-    "statsSyncedAt": "2026-08-15T21:14:56.786Z",
-    "upstreamSha": "37b79437c6d72bfad48dbd4e434032454e097a7a",
+    "contentSyncedAt": "2026-08-16T17:26:21.545Z",
+    "statsSyncedAt": "2026-08-16T17:26:21.545Z",
+    "upstreamSha": "1c132da37ce7e7ab20ac83b62d86d6e0cf216deb",
     "counts": {
-      "main": 1685,
+      "main": 1688,
       "game": 115,
       "programmer": 305,
-      "total": 2105
+      "total": 2108
     }
   },
   "main": [
+    {
+      "slug": "89c435277d4c",
+      "board": "main",
+      "name": "CareerAce",
+      "intro": "AI 模拟视频面试与求职辅导工具，根据简历与实时回答进行对话提问，并在面试后提供评估报告 — 支持 Web、iOS、Android",
+      "introMarkdown": "AI 模拟视频面试与求职辅导工具，根据简历与实时回答进行对话提问，并在面试后提供评估报告 — 支持 Web、iOS、Android",
+      "status": "live",
+      "date": "2026-08-17",
+      "url": "https://careerace.app",
+      "author": "iam-tin",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/iam-tin"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "1294df8564ef",
+      "board": "main",
+      "name": "Imaginify",
+      "intro": "AI 图像生成与编辑工具，支持文字生图、参考图重绘、局部修改、背景处理和画质增强，提供多种图像模型与最高 4K 输出",
+      "introMarkdown": "AI 图像生成与编辑工具，支持文字生图、参考图重绘、局部修改、背景处理和画质增强，提供多种图像模型与最高 4K 输出",
+      "status": "live",
+      "date": "2026-08-17",
+      "url": "https://imaginify.app/",
+      "author": "Imaginify",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Imaginify-ai"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "0978b0d1483e",
+      "board": "main",
+      "name": "HomeDesign",
+      "intro": "AI 空间与家装设计工具，上传房间实拍、建筑外观或户型图，即可预览室内外装修改造效果，并生成 2D 布局、3D 效果图与 360° 全景",
+      "introMarkdown": "AI 空间与家装设计工具，上传房间实拍、建筑外观或户型图，即可预览室内外装修改造效果，并生成 2D 布局、3D 效果图与 360° 全景",
+      "status": "live",
+      "date": "2026-08-17",
+      "url": "https://homedesigns.app/",
+      "author": "Imaginify",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Imaginify-ai"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "fea609e4cf93",
       "board": "main",
