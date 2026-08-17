@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-16T21:14:27.662Z",
-    "statsSyncedAt": "2026-08-16T21:14:27.662Z",
-    "upstreamSha": "1c132da37ce7e7ab20ac83b62d86d6e0cf216deb",
+    "contentSyncedAt": "2026-08-17T03:31:17.179Z",
+    "statsSyncedAt": "2026-08-17T03:31:17.179Z",
+    "upstreamSha": "833193230354909c0e3d65eede83526c8cc0fd14",
     "counts": {
-      "main": 1688,
+      "main": 1689,
       "game": 115,
       "programmer": 305,
-      "total": 2108
+      "total": 2109
     }
   },
   "main": [
+    {
+      "slug": "d654f3470be8",
+      "board": "main",
+      "name": "democue",
+      "intro": "DemoCue 是一款录屏悬浮提纲引导工具，可AI生成讲解提纲，生成悬浮提纲帮你稳定完成教程、Demo 和 技术等偏知识类的分享。",
+      "introMarkdown": "DemoCue 是一款录屏悬浮提纲引导工具，可AI生成讲解提纲，生成悬浮提纲帮你稳定完成教程、Demo 和 技术等偏知识类的分享。",
+      "status": "live",
+      "date": "2026-08-17",
+      "url": "https://democue.aizeten.me",
+      "author": "my19940202",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/my19940202"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "89c435277d4c",
       "board": "main",
