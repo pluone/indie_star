@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-17T03:31:17.179Z",
-    "statsSyncedAt": "2026-08-17T03:31:17.179Z",
-    "upstreamSha": "833193230354909c0e3d65eede83526c8cc0fd14",
+    "contentSyncedAt": "2026-08-17T11:51:21.022Z",
+    "statsSyncedAt": "2026-08-17T11:51:21.022Z",
+    "upstreamSha": "50e98dd1d5a500b0a675ab5643e9cf65251620bc",
     "counts": {
-      "main": 1689,
+      "main": 1692,
       "game": 115,
       "programmer": 305,
-      "total": 2109
+      "total": 2112
     }
   },
   "main": [
+    {
+      "slug": "5444d4575e0e",
+      "board": "main",
+      "name": "沉淀记 Loamery",
+      "intro": "一键保存或提炼 ChatGPT、Claude、Gemini、DeepSeek、豆包、Kimi 中有价值的回答，通过搜索、收藏和项目整理，把零散的 AI 对话沉淀成可长期查找的个人知识库，数据本地优先保存 — 浏览器插件",
+      "introMarkdown": "一键保存或提炼 ChatGPT、Claude、Gemini、DeepSeek、豆包、Kimi 中有价值的回答，通过搜索、收藏和项目整理，把零散的 AI 对话沉淀成可长期查找的个人知识库，数据本地优先保存 — 浏览器插件",
+      "status": "live",
+      "date": "2026-08-17",
+      "url": "https://loamery.com/",
+      "author": "ChihooZeng",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ChihooZeng"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "88e474bee1fb",
+      "board": "main",
+      "name": "命理手札",
+      "intro": "AI 免费算命，问名、问时、问色、问运，知你想知，想你所想",
+      "introMarkdown": "AI 免费算命，问名、问时、问色、问运，知你想知，想你所想",
+      "status": "live",
+      "date": "2026-08-17",
+      "url": "https://destiny-ai.pages.dev/",
+      "author": "zhoujungis",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhoujungis"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "2130992ef6fe",
+      "board": "main",
+      "name": "AIMO",
+      "intro": "AI First 卡片笔记，随手记下想法，语义搜索、关联和复习由系统完成，Docker 一键自托管，支持 Web / macOS / Windows / Android",
+      "introMarkdown": "AI First 卡片笔记，随手记下想法，语义搜索、关联和复习由系统完成，Docker 一键自托管，支持 Web / macOS / Windows / Android - [源码](https://github.com/ximing/aimo)",
+      "status": "live",
+      "date": "2026-08-17",
+      "url": "https://aimo.plus/?utm_source=cnindie&utm_medium=github",
+      "author": "ximing",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ximing"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "d654f3470be8",
       "board": "main",
