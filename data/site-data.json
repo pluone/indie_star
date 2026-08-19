@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-18T21:17:24.552Z",
-    "statsSyncedAt": "2026-08-18T21:17:24.552Z",
-    "upstreamSha": "50e98dd1d5a500b0a675ab5643e9cf65251620bc",
+    "contentSyncedAt": "2026-08-19T06:51:28.500Z",
+    "statsSyncedAt": "2026-08-19T06:51:28.500Z",
+    "upstreamSha": "0c426893daea6c273a26814731ccd4f88b385cd1",
     "counts": {
-      "main": 1692,
+      "main": 1693,
       "game": 115,
       "programmer": 305,
-      "total": 2112
+      "total": 2113
     }
   },
   "main": [
+    {
+      "slug": "ccef97ad42ca",
+      "board": "main",
+      "name": "TempCanvas",
+      "intro": "免费、无需注册的临时在线白板，打开即可快速画图、手写记录和导出 PNG，内容仅保存在浏览器本地",
+      "introMarkdown": "免费、无需注册的临时在线白板，打开即可快速画图、手写记录和导出 PNG，内容仅保存在浏览器本地",
+      "status": "live",
+      "date": "2026-08-19",
+      "url": "https://tempcanvas.com/",
+      "author": "超能刚哥",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/margox"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "5444d4575e0e",
       "board": "main",
