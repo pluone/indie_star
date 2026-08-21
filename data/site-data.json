@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-21T12:51:16.776Z",
-    "statsSyncedAt": "2026-08-21T12:51:16.776Z",
-    "upstreamSha": "656ebc5f1725825eadd5f9cdbeaeec77e79f97e9",
+    "contentSyncedAt": "2026-08-21T15:51:22.076Z",
+    "statsSyncedAt": "2026-08-21T15:51:22.076Z",
+    "upstreamSha": "a84d1950559f25386f5ffdeb86a9ea682069b5f8",
     "counts": {
-      "main": 1695,
+      "main": 1696,
       "game": 116,
-      "programmer": 307,
-      "total": 2118
+      "programmer": 308,
+      "total": 2120
     }
   },
   "main": [
+    {
+      "slug": "fe8acf21b24e",
+      "board": "main",
+      "name": "DSH Quality",
+      "intro": "DeepSeek Harness 插件的质量评分与安全检查平台——独立打分（维护/文档/npm/生态健康）、实时安全警告、A-D 等级，帮你找出值得装的插件，避开踩坑货",
+      "introMarkdown": "DeepSeek Harness 插件的质量评分与安全检查平台——独立打分（维护/文档/npm/生态健康）、实时安全警告、A-D 等级，帮你找出值得装的插件，避开踩坑货",
+      "status": "live",
+      "date": "2026-08-21",
+      "url": "https://dshquality.com",
+      "author": "863683348",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/863683348"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "aae8222d6194",
       "board": "main",
@@ -33419,6 +33438,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "85a217133a6d",
+      "board": "programmer",
+      "name": "FlowWeaver",
+      "intro": "基于 Agno 智能体框架的可视化编排工具，画布拖拽搭建流程，支持自然语言创建和编辑工作流，可导出为独立 Python 单文件",
+      "introMarkdown": "基于 Agno 智能体框架的可视化编排工具，画布拖拽搭建流程，支持自然语言创建和编辑工作流，可导出为独立 Python 单文件",
+      "status": "live",
+      "date": "2026-08-21",
+      "url": "https://github.com/ckfanzhe/FlowWeaver",
+      "author": "ckfanzhe",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ckfanzhe"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "5fdfb2120bba",
       "board": "programmer",
