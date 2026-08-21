@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-20T21:21:17.130Z",
-    "statsSyncedAt": "2026-08-20T21:21:17.130Z",
-    "upstreamSha": "abd8217c755a3a90d8d68b0e45b8052ca1eed8c1",
+    "contentSyncedAt": "2026-08-21T04:31:24.366Z",
+    "statsSyncedAt": "2026-08-21T04:31:24.366Z",
+    "upstreamSha": "dfbed81e3a0c8375e4163193069226f58bcc5ae1",
     "counts": {
       "main": 1694,
       "game": 116,
-      "programmer": 306,
-      "total": 2116
+      "programmer": 307,
+      "total": 2117
     }
   },
   "main": [
@@ -33400,6 +33400,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "5fdfb2120bba",
+      "board": "programmer",
+      "name": "Stella_project",
+      "intro": "QQ 群聊机器人，完全本地运行、不外传任何聊天内容，依托本地部署的小参数大语言模型（SLM）和记忆系统实现长期/短期记忆与拟人化聊天",
+      "introMarkdown": "QQ 群聊机器人，完全本地运行、不外传任何聊天内容，依托本地部署的小参数大语言模型（SLM）和记忆系统实现长期/短期记忆与拟人化聊天",
+      "status": "live",
+      "date": "2026-08-21",
+      "url": "https://github.com/Eternal-Wanderer-Vegetable/Stella_project",
+      "author": "Eternal-Wanderer-Vegetable",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Eternal-Wanderer-Vegetable"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "8f1f7ba4373d",
       "board": "programmer",
