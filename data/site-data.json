@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-21T09:36:20.064Z",
-    "statsSyncedAt": "2026-08-21T09:36:20.064Z",
-    "upstreamSha": "89f4453fd6ef4756f7d4a5733c5ea0e06baa1da0",
+    "contentSyncedAt": "2026-08-21T09:41:12.240Z",
+    "statsSyncedAt": "2026-08-21T09:41:12.240Z",
+    "upstreamSha": "ed1e4cc31e0f8aa174ee1891de145ef89a9c8e64",
     "counts": {
       "main": 1695,
       "game": 116,
@@ -12,7 +12,7 @@
   },
   "main": [
     {
-      "slug": "310c4c9326ed",
+      "slug": "512bb8cc6af0",
       "board": "main",
       "name": "DouYin",
       "intro": "抖音 AI 获客助手，VLM 视觉大模型自动分析视频画面，按关键词条件自动点赞收藏，支持散步模式和评论区意向客户筛选，Android 无障碍服务免 Root 运行",
@@ -20,7 +20,7 @@
       "status": "live",
       "date": "2026-08-21",
       "url": "https://gitee.com/jeffcat/douyin",
-      "author": "DouYin",
+      "author": "Sword",
       "authorLinks": [
         {
           "label": "Github",
