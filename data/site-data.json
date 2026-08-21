@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-21T04:31:24.366Z",
-    "statsSyncedAt": "2026-08-21T04:31:24.366Z",
-    "upstreamSha": "dfbed81e3a0c8375e4163193069226f58bcc5ae1",
+    "contentSyncedAt": "2026-08-21T09:36:20.064Z",
+    "statsSyncedAt": "2026-08-21T09:36:20.064Z",
+    "upstreamSha": "89f4453fd6ef4756f7d4a5733c5ea0e06baa1da0",
     "counts": {
-      "main": 1694,
+      "main": 1695,
       "game": 116,
       "programmer": 307,
-      "total": 2117
+      "total": 2118
     }
   },
   "main": [
+    {
+      "slug": "310c4c9326ed",
+      "board": "main",
+      "name": "DouYin",
+      "intro": "抖音 AI 获客助手，VLM 视觉大模型自动分析视频画面，按关键词条件自动点赞收藏，支持散步模式和评论区意向客户筛选，Android 无障碍服务免 Root 运行",
+      "introMarkdown": "抖音 AI 获客助手，VLM 视觉大模型自动分析视频画面，按关键词条件自动点赞收藏，支持散步模式和评论区意向客户筛选，Android 无障碍服务免 Root 运行",
+      "status": "live",
+      "date": "2026-08-21",
+      "url": "https://gitee.com/jeffcat/douyin",
+      "author": "DouYin",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/330132662/douyin"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "594d25b554e3",
       "board": "main",
