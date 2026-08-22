@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-22T11:06:10.896Z",
-    "statsSyncedAt": "2026-08-22T11:06:10.896Z",
-    "upstreamSha": "027a85e3678de46a0ddeae7b1dda9fd92283edc6",
+    "contentSyncedAt": "2026-08-22T12:51:19.091Z",
+    "statsSyncedAt": "2026-08-22T12:51:19.091Z",
+    "upstreamSha": "d0cd0bc6f44dc92ac8eb36580ee1e9574ffa4b43",
     "counts": {
-      "main": 1703,
+      "main": 1704,
       "game": 117,
       "programmer": 309,
-      "total": 2129
+      "total": 2130
     }
   },
   "main": [
+    {
+      "slug": "9b223d889aaf",
+      "board": "main",
+      "name": "MaxUsage",
+      "intro": "帮助同时订阅多个 AI 编程套餐的用户充分利用每个套餐的额度；根据剩余额度和重置时间推荐当前该用哪个，并在 macOS 菜单栏集中展示所有套餐的用量与重置日期",
+      "introMarkdown": "帮助同时订阅多个 AI 编程套餐的用户充分利用每个套餐的额度；根据剩余额度和重置时间推荐当前该用哪个，并在 macOS 菜单栏集中展示所有套餐的用量与重置日期",
+      "status": "live",
+      "date": "2026-08-22",
+      "url": "https://github.com/1c7/max-usage/blob/main/README-zh-CN.md",
+      "author": "郑诚",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/1c7"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "8675855369c3",
       "board": "main",
