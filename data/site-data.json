@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-21T21:17:36.247Z",
-    "statsSyncedAt": "2026-08-21T21:17:36.247Z",
-    "upstreamSha": "2861d2d0ff63ee551354eaad037c050e2535b599",
+    "contentSyncedAt": "2026-08-22T11:01:15.883Z",
+    "statsSyncedAt": "2026-08-22T11:01:15.883Z",
+    "upstreamSha": "73b2ce76eb9b8fd5d850c7ca9db64d6dc0043054",
     "counts": {
-      "main": 1700,
+      "main": 1702,
       "game": 117,
-      "programmer": 308,
-      "total": 2125
+      "programmer": 309,
+      "total": 2128
     }
   },
   "main": [
+    {
+      "slug": "3557e6dbf99c",
+      "board": "main",
+      "name": "Hermes Startup",
+      "intro": "用 Hermes Agent 赚取第一笔真实美元收入的免费实操路径——回答 10 个私人问题，免费获得 3 个与你匹配的商业想法（不承诺收入），可选一次性 US$10 由 Hermes Startup 帮你构建并运行；开源、无订阅、无需注册",
+      "introMarkdown": "用 Hermes Agent 赚取第一笔真实美元收入的免费实操路径——回答 10 个私人问题，免费获得 3 个与你匹配的商业想法（不承诺收入），可选一次性 US$10 由 Hermes Startup 帮你构建并运行；开源、无订阅、无需注册",
+      "status": "live",
+      "date": "2026-08-22",
+      "url": "https://hermesstartup.com",
+      "author": "33hodl",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/33hodl"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "cddb5e4cee17",
+      "board": "main",
+      "name": "AIXiamo",
+      "intro": "ChatGPT Plus / Pro 国内充值与订阅代付服务，面向没有海外银行卡的用户，支持支付宝、USDT、订单查询与 7×24 小时客服入口；独立第三方，非 OpenAI 官方",
+      "introMarkdown": "ChatGPT Plus / Pro 国内充值与订阅代付服务，面向没有海外银行卡的用户，支持支付宝、USDT、订单查询与 7×24 小时客服入口；独立第三方，非 OpenAI 官方 - [公开教程与服务说明](https://github.com/momochoog/gpt-daichong)",
+      "status": "live",
+      "date": "2026-08-22",
+      "url": "https://www.aixiamo.com/?utm_source=cnindie&utm_medium=github",
+      "author": "momochoog",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/momochoog"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "fe8acf21b24e",
       "board": "main",
@@ -33533,6 +33571,20 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "46bd505396f3",
+      "board": "programmer",
+      "name": "OrcaRouter",
+      "intro": "OpenAI 兼容 AI 网关，一个 Key 接入 Claude/GPT/Gemini/DeepSeek 等模型，自适应路由 + 自动故障转移 + 推理零加价，同一端点内建 AI Agent 零信任安全（默认拒绝），无需改应用代码",
+      "introMarkdown": "OpenAI 兼容 AI 网关，一个 Key 接入 Claude/GPT/Gemini/DeepSeek 等模型，自适应路由 + 自动故障转移 + 推理零加价，同一端点内建 AI Agent 零信任安全（默认拒绝），无需改应用代码",
+      "status": "live",
+      "date": "2026-08-22",
+      "url": "https://www.orcarouter.ai",
+      "author": "OrcaRouter",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "85a217133a6d",
       "board": "programmer",
