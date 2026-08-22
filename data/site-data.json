@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-22T11:01:15.883Z",
-    "statsSyncedAt": "2026-08-22T11:01:15.883Z",
-    "upstreamSha": "73b2ce76eb9b8fd5d850c7ca9db64d6dc0043054",
+    "contentSyncedAt": "2026-08-22T11:06:10.896Z",
+    "statsSyncedAt": "2026-08-22T11:06:10.896Z",
+    "upstreamSha": "027a85e3678de46a0ddeae7b1dda9fd92283edc6",
     "counts": {
-      "main": 1702,
+      "main": 1703,
       "game": 117,
       "programmer": 309,
-      "total": 2128
+      "total": 2129
     }
   },
   "main": [
+    {
+      "slug": "8675855369c3",
+      "board": "main",
+      "name": "贴纸喵MewSticker",
+      "intro": "AI 贴纸生成器，输入文字或上传参考图即可生成单张贴纸、角色三视图及统一风格贴纸合集，支持智能抠图、按主体自动切分、添加白边与涂鸦文字，自由排版并批量导出透明 PNG",
+      "introMarkdown": "AI 贴纸生成器，输入文字或上传参考图即可生成单张贴纸、角色三视图及统一风格贴纸合集，支持智能抠图、按主体自动切分、添加白边与涂鸦文字，自由排版并批量导出透明 PNG",
+      "status": "live",
+      "date": "2026-08-22",
+      "url": "http://sticker.guantou.site",
+      "author": "Leochens",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/leochens"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "3557e6dbf99c",
       "board": "main",
