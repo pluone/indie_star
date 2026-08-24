@@ -1,16 +1,92 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-24T05:05:40.186Z",
-    "statsSyncedAt": "2026-08-24T05:05:40.186Z",
-    "upstreamSha": "88b48bd3d08839e7da3bf24c36115f5ac6117df8",
+    "contentSyncedAt": "2026-08-24T14:45:37.633Z",
+    "statsSyncedAt": "2026-08-24T14:45:37.633Z",
+    "upstreamSha": "1817d1aa4fea559d50c93283cf93715c641f5eae",
     "counts": {
-      "main": 1707,
+      "main": 1711,
       "game": 117,
       "programmer": 309,
-      "total": 2133
+      "total": 2137
     }
   },
   "main": [
+    {
+      "slug": "ad3ee2c8d0d4",
+      "board": "main",
+      "name": "CreateForge AI",
+      "intro": "AI 图像与视频生成工作台，接入 17 个模型，支持 Seedance 2.5、Veo 3.1 等模型的文生图、图生图、文生视频和图生视频，提供积分报价、任务中心与私有媒体库",
+      "introMarkdown": "AI 图像与视频生成工作台，接入 17 个模型，支持 Seedance 2.5、Veo 3.1 等模型的文生图、图生图、文生视频和图生视频，提供积分报价、任务中心与私有媒体库",
+      "status": "live",
+      "date": "2026-08-24",
+      "url": "https://createforgeai.com/",
+      "author": "张波",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Mr-ZhangBo"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "ab6de2460361",
+      "board": "main",
+      "name": "AI 小说作家",
+      "intro": "AI 小说创作桌面应用，把角色、世界观、大纲、写作、审校与修订串成可控流程，写长篇不崩，包含续写仿写其他小说的功能；另有 DeepSeek Harness 插件版本，可用本地模型创作成人向（NSFW）小说",
+      "introMarkdown": "AI 小说创作桌面应用，把角色、世界观、大纲、写作、审校与修订串成可控流程，写长篇不崩，包含续写仿写其他小说的功能；另有 DeepSeek Harness 插件版本，可用本地模型创作成人向（NSFW）小说",
+      "status": "live",
+      "date": "2026-08-24",
+      "url": "https://github.com/EthanYoQ/AI-Novel-Writer",
+      "author": "EthanYoQ",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/EthanYoQ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "5593c51ec1f8",
+      "board": "main",
+      "name": "Invoice Downloader",
+      "intro": "电子发票整理与报销准备桌面应用，从 QQ 或 163 邮箱批量下载发票，也可直接把发票二维码下载成发票，OCR 识别、分类归档并生成报销 Excel 汇总；另有 DeepSeek Harness 插件版本",
+      "introMarkdown": "电子发票整理与报销准备桌面应用，从 QQ 或 163 邮箱批量下载发票，也可直接把发票二维码下载成发票，OCR 识别、分类归档并生成报销 Excel 汇总；另有 DeepSeek Harness 插件版本",
+      "status": "live",
+      "date": "2026-08-24",
+      "url": "https://github.com/EthanYoQ/Invoice-Downloader",
+      "author": "EthanYoQ",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/EthanYoQ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "77b1e72186c9",
+      "board": "main",
+      "name": "轻语输入 / Whisper Input",
+      "intro": "中文 AI 语音输入工具，按全局快捷键即可将口述整理为去口头语、正式汇报或邮件格式，支持自动转成英文与自定模型",
+      "introMarkdown": "中文 AI 语音输入工具，按全局快捷键即可将口述整理为去口头语、正式汇报或邮件格式，支持自动转成英文与自定模型",
+      "status": "live",
+      "date": "2026-08-24",
+      "url": "https://github.com/EthanYoQ/whisper-input",
+      "author": "EthanYoQ",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/EthanYoQ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "33c408e35ca6",
       "board": "main",
