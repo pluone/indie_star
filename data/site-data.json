@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-23T21:15:40.144Z",
-    "statsSyncedAt": "2026-08-23T21:15:40.144Z",
-    "upstreamSha": "8416161a4a961f85bb0a85f43f2811bf69df60bf",
+    "contentSyncedAt": "2026-08-24T05:05:40.186Z",
+    "statsSyncedAt": "2026-08-24T05:05:40.186Z",
+    "upstreamSha": "88b48bd3d08839e7da3bf24c36115f5ac6117df8",
     "counts": {
-      "main": 1706,
+      "main": 1707,
       "game": 117,
       "programmer": 309,
-      "total": 2132
+      "total": 2133
     }
   },
   "main": [
+    {
+      "slug": "33c408e35ca6",
+      "board": "main",
+      "name": "Froging AI",
+      "intro": "AI 视频与图片生成平台，在同一工作台调用 Kling 3.0、Veo 3.1、MiniMax H3 等模型将文字或图片转为高清内容，支持免费开始与无水印导出",
+      "introMarkdown": "AI 视频与图片生成平台，在同一工作台调用 Kling 3.0、Veo 3.1、MiniMax H3 等模型将文字或图片转为高清内容，支持免费开始与无水印导出",
+      "status": "live",
+      "date": "2026-08-24",
+      "url": "https://froging.ai",
+      "author": "Darren",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/darren562"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "1d6c721e456b",
       "board": "main",
@@ -2183,8 +2202,8 @@
       "slug": "9d9bdd849e62",
       "board": "main",
       "name": "Invoice-Downloader",
-      "intro": "发票自动化处理工具，连好邮箱后自动开票、下载、转成 PDF 并按分类归档，同时生成 Excel 清单",
-      "introMarkdown": "发票自动化处理工具，连好邮箱后自动开票、下载、转成 PDF 并按分类归档，同时生成 Excel 清单",
+      "intro": "电子发票整理与报销准备工具，从 QQ/163 邮箱批量收集 PDF/OFD/XML 发票，OCR 识别、分类归档并生成 Excel 汇总；提供 Windows/macOS 桌面版与 DeepSeek Harness 插件",
+      "introMarkdown": "电子发票整理与报销准备工具，从 QQ/163 邮箱批量收集 PDF/OFD/XML 发票，OCR 识别、分类归档并生成 Excel 汇总；提供 Windows/macOS 桌面版与 DeepSeek Harness 插件",
       "status": "live",
       "date": "2026-07-23",
       "url": "https://github.com/EthanYoQ/Invoice-Downloader",
@@ -2202,8 +2221,8 @@
       "slug": "79200deea944",
       "board": "main",
       "name": "whisper-input",
-      "intro": "语音输入法，开口即输入，自动整理成逻辑清晰的话术（类似 prompt），输出风格可选；面向 vibe coding 场景，源码公开自由可调 — Windows",
-      "introMarkdown": "语音输入法，开口即输入，自动整理成逻辑清晰的话术（类似 prompt），输出风格可选；面向 vibe coding 场景，源码公开自由可调 — Windows",
+      "intro": "中文 AI 语音输入工具，按快捷键说话，在 Windows 任意应用把口述整理成去口头语、可分段和结构化的文字并插入当前光标；支持用户词典、中文转英文和自选云端 ASR/LLM",
+      "introMarkdown": "中文 AI 语音输入工具，按快捷键说话，在 Windows 任意应用把口述整理成去口头语、可分段和结构化的文字并插入当前光标；支持用户词典、中文转英文和自选云端 ASR/LLM",
       "status": "live",
       "date": "2026-07-23",
       "url": "https://github.com/EthanYoQ/whisper-input",
@@ -2221,8 +2240,8 @@
       "slug": "4ec12f2c9d11",
       "board": "main",
       "name": "agent-xiaohongshu-workbench",
-      "intro": "小红书工作台，一键拆解爆款内容，自动完成选题、配图与发布，支持多账号管理与账号故事线管理",
-      "introMarkdown": "小红书工作台，一键拆解爆款内容，自动完成选题、配图与发布，支持多账号管理与账号故事线管理",
+      "intro": "小红书图文内容工作台，把账号定位、热点研究、选题、原创文稿、品牌配图、完整预览和人工确认组织成一条可控流程；由本地 Codex Agent 驱动，提供 Windows 与 Apple Silicon macOS 安装包",
+      "introMarkdown": "小红书图文内容工作台，把账号定位、热点研究、选题、原创文稿、品牌配图、完整预览和人工确认组织成一条可控流程；由本地 Codex Agent 驱动，提供 Windows 与 Apple Silicon macOS 安装包",
       "status": "live",
       "date": "2026-07-23",
       "url": "https://github.com/EthanYoQ/agent-xiaohongshu-workbench",
@@ -2240,8 +2259,8 @@
       "slug": "62f6ab086e1f",
       "board": "main",
       "name": "AI-Novel-Writer",
-      "intro": "AI 小说创作桌面工具，管理大纲、角色、章节蓝图、审稿修稿与知识库，内置系统提示词避免中长篇小说角色/内容遗忘与主题漂移；支持本地模型生成 NSFW 成人文学",
-      "introMarkdown": "AI 小说创作桌面工具，管理大纲、角色、章节蓝图、审稿修稿与知识库，内置系统提示词避免中长篇小说角色/内容遗忘与主题漂移；支持本地模型生成 NSFW 成人文学",
+      "intro": "AI 小说创作桌面软件，把灵感、角色、世界观、大纲、章节蓝图、写作、审稿和修稿组织成完整流程；提供 Windows/macOS 安装包，支持 Ollama 与 DeepSeek Harness 插件",
+      "introMarkdown": "AI 小说创作桌面软件，把灵感、角色、世界观、大纲、章节蓝图、写作、审稿和修稿组织成完整流程；提供 Windows/macOS 安装包，支持 Ollama 与 DeepSeek Harness 插件",
       "status": "live",
       "date": "2026-07-23",
       "url": "https://github.com/EthanYoQ/AI-Novel-Writer",
