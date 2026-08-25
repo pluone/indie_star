@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-25T03:21:05.106Z",
-    "statsSyncedAt": "2026-08-25T03:21:05.106Z",
-    "upstreamSha": "7bf9e4526ff2c04f3c8b0ddcc634e5f2452f93b0",
+    "contentSyncedAt": "2026-08-25T17:00:32.306Z",
+    "statsSyncedAt": "2026-08-25T17:00:32.306Z",
+    "upstreamSha": "495f3fd087c744444a9255bd3f21deb625a0d4c5",
     "counts": {
-      "main": 1712,
+      "main": 1713,
       "game": 117,
       "programmer": 309,
-      "total": 2138
+      "total": 2139
     }
   },
   "main": [
+    {
+      "slug": "8a985e09413d",
+      "board": "main",
+      "name": "AI 室内设计",
+      "intro": "上传房间照片生成多种风格的装修设计，装修前即可预览效果",
+      "introMarkdown": "上传房间照片生成多种风格的装修设计，装修前即可预览效果",
+      "status": "live",
+      "date": "2026-08-26",
+      "url": "https://ai-room.design/",
+      "author": "Jay",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/chenminjie24"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "93d4a4060138",
       "board": "main",
