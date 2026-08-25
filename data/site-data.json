@@ -1,16 +1,39 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-24T21:22:36.406Z",
-    "statsSyncedAt": "2026-08-24T21:22:36.406Z",
-    "upstreamSha": "1817d1aa4fea559d50c93283cf93715c641f5eae",
+    "contentSyncedAt": "2026-08-25T03:21:05.106Z",
+    "statsSyncedAt": "2026-08-25T03:21:05.106Z",
+    "upstreamSha": "7bf9e4526ff2c04f3c8b0ddcc634e5f2452f93b0",
     "counts": {
-      "main": 1711,
+      "main": 1712,
       "game": 117,
       "programmer": 309,
-      "total": 2137
+      "total": 2138
     }
   },
   "main": [
+    {
+      "slug": "93d4a4060138",
+      "board": "main",
+      "name": "Halo 音乐",
+      "intro": "在线音乐播放与下载工具，推出 Electron 桌面客户端（Windows）与安卓 APP，统一多平台音乐搜索、播放、歌词和歌单导入，支持离线缓存",
+      "introMarkdown": "在线音乐播放与下载工具，推出 Electron 桌面客户端（Windows）与安卓 APP，统一多平台音乐搜索、播放、歌词和歌单导入，支持离线缓存",
+      "status": "live",
+      "date": "2026-08-25",
+      "url": "https://github.com/zhoujungis/halo_music",
+      "author": "zhoujun",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhoujungis"
+        },
+        {
+          "label": "博客",
+          "url": "https://zhoujungis.github.io/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "ad3ee2c8d0d4",
       "board": "main",
