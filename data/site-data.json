@@ -1,16 +1,111 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-26T03:25:31.350Z",
-    "statsSyncedAt": "2026-08-26T03:25:31.350Z",
-    "upstreamSha": "eac59ee6c17b82cf497b1a64c77e12c38f6a3502",
+    "contentSyncedAt": "2026-08-26T08:35:34.698Z",
+    "statsSyncedAt": "2026-08-26T08:35:34.698Z",
+    "upstreamSha": "8567f367655b2ee512a332ab544cebeadbb75fbf",
     "counts": {
-      "main": 1714,
+      "main": 1719,
       "game": 117,
       "programmer": 309,
-      "total": 2140
+      "total": 2145
     }
   },
   "main": [
+    {
+      "slug": "5aaca09b3ae6",
+      "board": "main",
+      "name": "Wake",
+      "intro": "Coding Agent 本地会话管理器，按 Agent 和项目浏览全部会话，全文搜索命中后直接跳到对应消息，也可回到原项目目录继续会话；支持 Claude Code、Codex、Copilot CLI、Cursor、OpenCode、Kiro、Gemini CLI 等 — 免费开源桌面应用，支持 macOS、Windows、Linux",
+      "introMarkdown": "Coding Agent 本地会话管理器，按 Agent 和项目浏览全部会话，全文搜索命中后直接跳到对应消息，也可回到原项目目录继续会话；支持 Claude Code、Codex、Copilot CLI、Cursor、OpenCode、Kiro、Gemini CLI 等 — 免费开源桌面应用，支持 macOS、Windows、Linux",
+      "status": "live",
+      "date": "2026-08-26",
+      "url": "https://github.com/iamcorey/wake",
+      "author": "Corey",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/iamcorey"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "1357f2d4b64f",
+      "board": "main",
+      "name": "EasyDown",
+      "intro": "粘贴 TikTok、YouTube、Twitter/X、抖音、小红书、哔哩哔哩等公开视频链接即可下载，可选可用格式保存 — 免费在线工具，无需登录或安装软件",
+      "introMarkdown": "粘贴 TikTok、YouTube、Twitter/X、抖音、小红书、哔哩哔哩等公开视频链接即可下载，可选可用格式保存 — 免费在线工具，无需登录或安装软件",
+      "status": "live",
+      "date": "2026-08-26",
+      "url": "https://easydown.org/",
+      "author": "张波",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Mr-ZhangBo"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "48d2613c0f19",
+      "board": "main",
+      "name": "EngABC",
+      "intro": "YouTube 双语字幕精听，支持逐句定位、单句循环和变速播放 — Chrome 插件",
+      "introMarkdown": "YouTube 双语字幕精听，支持逐句定位、单句循环和变速播放 — Chrome 插件",
+      "status": "live",
+      "date": "2026-08-26",
+      "url": "https://chromewebstore.google.com/detail/nccmmlcobgkhlihlgjmlcdpgiinfhedl",
+      "author": "刀刀",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sfss5362"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "0acef6353213",
+      "board": "main",
+      "name": "Read PDF Aloud",
+      "intro": "在线 PDF 朗读器，也支持 TXT、MD、EPUB、MOBI、AZW3、DOCX 等主流文档格式，支持 120+ 种语言，有 600+ 种音色可以选择",
+      "introMarkdown": "在线 PDF 朗读器，也支持 TXT、MD、EPUB、MOBI、AZW3、DOCX 等主流文档格式，支持 120+ 种语言，有 600+ 种音色可以选择",
+      "status": "live",
+      "date": "2026-08-26",
+      "url": "https://readpdfaloud.com",
+      "author": "Dkphhh",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/dkphhh"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "3fe6fd0bf4c1",
+      "board": "main",
+      "name": "Video to Text",
+      "intro": "在线视频转文字，支持 CSV、TXT、SRT、VTT 四种导出格式，可以附带时间戳和说话人标签，支持 99 种语言，除上传文件外也支持 YouTube、TikTok、Instagram 等社交媒体平台视频链接",
+      "introMarkdown": "在线视频转文字，支持 CSV、TXT、SRT、VTT 四种导出格式，可以附带时间戳和说话人标签，支持 99 种语言，除上传文件外也支持 YouTube、TikTok、Instagram 等社交媒体平台视频链接",
+      "status": "live",
+      "date": "2026-08-26",
+      "url": "https://video2text.net",
+      "author": "Dkphhh",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/dkphhh"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "b3b0e328b5b5",
       "board": "main",
