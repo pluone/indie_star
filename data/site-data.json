@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-26T08:35:34.698Z",
-    "statsSyncedAt": "2026-08-26T08:35:34.698Z",
-    "upstreamSha": "8567f367655b2ee512a332ab544cebeadbb75fbf",
+    "contentSyncedAt": "2026-08-26T08:45:36.180Z",
+    "statsSyncedAt": "2026-08-26T08:45:36.180Z",
+    "upstreamSha": "2c561ad601ff1eb5924cc2cf5e248b91e403f79a",
     "counts": {
-      "main": 1719,
+      "main": 1720,
       "game": 117,
       "programmer": 309,
-      "total": 2145
+      "total": 2146
     }
   },
   "main": [
+    {
+      "slug": "09b29946040c",
+      "board": "main",
+      "name": "灵器AI",
+      "intro": "多 Agent 协作的 AI 长篇小说创作工具，像一间 AI 编辑部：总编 Agent 统筹世界观、人物、大纲、导演、写手、审校 6 位专属 Agent 分工出稿，角色设定与伏笔写入文件式知识库防止幻觉，几十万字连载人物、剧情前后一致，网页打开即用，另有桌面客户端",
+      "introMarkdown": "多 Agent 协作的 AI 长篇小说创作工具，像一间 AI 编辑部：总编 Agent 统筹世界观、人物、大纲、导演、写手、审校 6 位专属 Agent 分工出稿，角色设定与伏笔写入文件式知识库防止幻觉，几十万字连载人物、剧情前后一致，网页打开即用，另有桌面客户端",
+      "status": "live",
+      "date": "2026-08-26",
+      "url": "https://lingqiai.art",
+      "author": "Justin Gao",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/encyc"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "5aaca09b3ae6",
       "board": "main",
