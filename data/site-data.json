@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-25T21:21:10.577Z",
-    "statsSyncedAt": "2026-08-25T21:21:10.577Z",
-    "upstreamSha": "495f3fd087c744444a9255bd3f21deb625a0d4c5",
+    "contentSyncedAt": "2026-08-26T03:25:31.350Z",
+    "statsSyncedAt": "2026-08-26T03:25:31.350Z",
+    "upstreamSha": "eac59ee6c17b82cf497b1a64c77e12c38f6a3502",
     "counts": {
-      "main": 1713,
+      "main": 1714,
       "game": 117,
       "programmer": 309,
-      "total": 2139
+      "total": 2140
     }
   },
   "main": [
+    {
+      "slug": "b3b0e328b5b5",
+      "board": "main",
+      "name": "Formatho",
+      "intro": "134 个免费开发者工具合集（JSON/YAML/CSV 格式化、JWT 解码、SQL 格式化、哈希生成等），全部浏览器本地处理，无上传无注册，开源（MIT）",
+      "introMarkdown": "134 个免费开发者工具合集（JSON/YAML/CSV 格式化、JWT 解码、SQL 格式化、哈希生成等），全部浏览器本地处理，无上传无注册，开源（MIT）",
+      "status": "live",
+      "date": "2026-08-26",
+      "url": "https://formatho.com",
+      "author": "Nitin Gurbani",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Ritavidhata"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "8a985e09413d",
       "board": "main",
@@ -2681,8 +2700,8 @@
       "slug": "f30d8f116d53",
       "board": "main",
       "name": "Lumi & Friends iOS App Finder",
-      "intro": "按用途、隐私和付费方式查找 29 款已上架 iPhone/iPad App，覆盖学习、效率、照片、旅行与健康，逐款直达 App Store；支持 Apple 官方 50 个本地化区域",
-      "introMarkdown": "按用途、隐私和付费方式查找 29 款已上架 iPhone/iPad App，覆盖学习、效率、照片、旅行与健康，逐款直达 App Store；支持 Apple 官方 50 个本地化区域",
+      "intro": "按用途、隐私和付费方式查找已上架的 iPhone/iPad App，覆盖学习、效率、照片、旅行与健康，逐款直达 App Store；支持 Apple 官方 50 个本地化区域",
+      "introMarkdown": "按用途、隐私和付费方式查找已上架的 iPhone/iPad App，覆盖学习、效率、照片、旅行与健康，逐款直达 App Store；支持 Apple 官方 50 个本地化区域",
       "status": "live",
       "date": "2026-07-21",
       "url": "https://alice51849.github.io/ios-app-guide/zh-Hans/tools/private-pay-once-iphone-app-finder.html",
