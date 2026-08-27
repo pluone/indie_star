@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-27T07:25:33.961Z",
-    "statsSyncedAt": "2026-08-27T07:25:33.961Z",
-    "upstreamSha": "5681603a2fdfb5d07867ebd5c7a492e4d1ba6f38",
+    "contentSyncedAt": "2026-08-27T07:30:37.562Z",
+    "statsSyncedAt": "2026-08-27T07:30:37.562Z",
+    "upstreamSha": "201a0140518f32b63f24a64a8c8fdb23f390ebee",
     "counts": {
       "main": 1722,
       "game": 117,
@@ -34,8 +34,8 @@
       "slug": "ff264a2b7ab4",
       "board": "main",
       "name": "Vault Keeper",
-      "intro": "定时检测断链、孤儿笔记、空笔记并生成健康报告，只读不改库 — Obsidian vault 自动运维插件",
-      "introMarkdown": "定时检测断链、孤儿笔记、空笔记并生成健康报告，只读不改库 — Obsidian vault 自动运维插件",
+      "intro": "Obsidian vault 自动运维插件：定时检测断链、孤儿笔记、空笔记并生成健康报告，只读不改库",
+      "introMarkdown": "Obsidian vault 自动运维插件：定时检测断链、孤儿笔记、空笔记并生成健康报告，只读不改库",
       "status": "live",
       "date": "2026-08-27",
       "url": "https://github.com/mingdasen/vault-keeper",
