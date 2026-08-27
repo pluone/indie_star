@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-27T00:23:00.746Z",
-    "statsSyncedAt": "2026-08-27T00:23:00.746Z",
-    "upstreamSha": "2c561ad601ff1eb5924cc2cf5e248b91e403f79a",
+    "contentSyncedAt": "2026-08-27T07:25:33.961Z",
+    "statsSyncedAt": "2026-08-27T07:25:33.961Z",
+    "upstreamSha": "5681603a2fdfb5d07867ebd5c7a492e4d1ba6f38",
     "counts": {
-      "main": 1720,
+      "main": 1722,
       "game": 117,
       "programmer": 309,
-      "total": 2146
+      "total": 2148
     }
   },
   "main": [
+    {
+      "slug": "de86b71bcc9a",
+      "board": "main",
+      "name": "Agentero",
+      "intro": "Agent 友好的文献管理与阅读器，Agent 时代的 Zotero",
+      "introMarkdown": "Agent 友好的文献管理与阅读器，Agent 时代的 Zotero",
+      "status": "live",
+      "date": "2026-08-27",
+      "url": "https://agentero.app/",
+      "author": "PhilFan",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Phil-Fan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "ff264a2b7ab4",
+      "board": "main",
+      "name": "Vault Keeper",
+      "intro": "定时检测断链、孤儿笔记、空笔记并生成健康报告，只读不改库 — Obsidian vault 自动运维插件",
+      "introMarkdown": "定时检测断链、孤儿笔记、空笔记并生成健康报告，只读不改库 — Obsidian vault 自动运维插件",
+      "status": "live",
+      "date": "2026-08-27",
+      "url": "https://github.com/mingdasen/vault-keeper",
+      "author": "明大森",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/mingdasen"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "09b29946040c",
       "board": "main",
