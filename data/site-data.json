@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-27T07:40:33.609Z",
-    "statsSyncedAt": "2026-08-27T07:40:33.609Z",
-    "upstreamSha": "98aa5cd42c65b22dc293d2b5c9251c753debe43d",
+    "contentSyncedAt": "2026-08-27T07:45:33.279Z",
+    "statsSyncedAt": "2026-08-27T07:45:33.279Z",
+    "upstreamSha": "2cf7ec4cd22e8815594cb48dcfb6093ccef0fa69",
     "counts": {
       "main": 1722,
       "game": 117,
-      "programmer": 309,
-      "total": 2148
+      "programmer": 310,
+      "total": 2149
     }
   },
   "main": [
@@ -33955,6 +33955,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "ef5c8a37d4fc",
+      "board": "programmer",
+      "name": "WorkGround2",
+      "intro": "本地优先的 AI 工程工作台，一个 Go 二进制同时提供 CLI/TUI 与桌面端，支持 DeepSeek、Anthropic、OpenAI 兼容接口等多模型接入，内置 MCP 工具管理与改动回滚 — MIT 开源，提供 Windows、macOS、Linux 版本",
+      "introMarkdown": "本地优先的 AI 工程工作台，一个 Go 二进制同时提供 CLI/TUI 与桌面端，支持 DeepSeek、Anthropic、OpenAI 兼容接口等多模型接入，内置 MCP 工具管理与改动回滚 — MIT 开源，提供 Windows、macOS、Linux 版本",
+      "status": "live",
+      "date": "2026-08-27",
+      "url": "https://github.com/KiddPhenix/WorkGround2",
+      "author": "KiddPhenix",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/KiddPhenix"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "46bd505396f3",
       "board": "programmer",
