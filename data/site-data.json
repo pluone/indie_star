@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-28T10:05:30.153Z",
-    "statsSyncedAt": "2026-08-28T10:05:30.153Z",
-    "upstreamSha": "f55738697b27504d313eb87c2603d6a1632609c0",
+    "contentSyncedAt": "2026-08-28T10:36:01.059Z",
+    "statsSyncedAt": "2026-08-28T10:36:01.059Z",
+    "upstreamSha": "7259e0ca84f4d45a2ce7c06f47a27270c5c1f32c",
     "counts": {
       "main": 1725,
       "game": 118,
-      "programmer": 310,
-      "total": 2153
+      "programmer": 311,
+      "total": 2154
     }
   },
   "main": [
@@ -34031,6 +34031,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "dc78770e4c6b",
+      "board": "programmer",
+      "name": "DSH Meme Hub",
+      "intro": "DeepSeek Harness 社区插件导航站的 Nuxt 3 全栈源码，收录 87 个插件、13 个分类、每日 star 排行榜与 Meme Zone 整活分区，中英双语，SSG 静态生成，开放投稿",
+      "introMarkdown": "DeepSeek Harness 社区插件导航站的 Nuxt 3 全栈源码，收录 87 个插件、13 个分类、每日 star 排行榜与 Meme Zone 整活分区，中英双语，SSG 静态生成，开放投稿 — [线上站点](https://dsh-meme-hub.cdqyfdbymn.me/)",
+      "status": "live",
+      "date": "2026-08-28",
+      "url": "https://github.com/the-beating-light-of-the-nail/dsh-meme-hub-site",
+      "author": "the-beating-light-of-the-nail",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/the-beating-light-of-the-nail"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "ef5c8a37d4fc",
       "board": "programmer",
