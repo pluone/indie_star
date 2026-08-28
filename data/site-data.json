@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-28T09:30:28.102Z",
-    "statsSyncedAt": "2026-08-28T09:30:28.102Z",
-    "upstreamSha": "148354986732e8d851d071782b93ce85c1aee25b",
+    "contentSyncedAt": "2026-08-28T10:05:30.153Z",
+    "statsSyncedAt": "2026-08-28T10:05:30.153Z",
+    "upstreamSha": "f55738697b27504d313eb87c2603d6a1632609c0",
     "counts": {
-      "main": 1723,
+      "main": 1725,
       "game": 118,
       "programmer": 310,
-      "total": 2151
+      "total": 2153
     }
   },
   "main": [
+    {
+      "slug": "804d663d86dd",
+      "board": "main",
+      "name": "BaziCalculator.ai",
+      "intro": "免费在线八字排盘与解读工具，输入出生日期、时间和城市即可生成四柱、日主、五行与十年大运；按出生地真太阳时校正，时辰不详也可生成三柱命盘，无需注册",
+      "introMarkdown": "免费在线八字排盘与解读工具，输入出生日期、时间和城市即可生成四柱、日主、五行与十年大运；按出生地真太阳时校正，时辰不详也可生成三柱命盘，无需注册",
+      "status": "live",
+      "date": "2026-08-28",
+      "url": "https://www.bazicalculator.ai/",
+      "author": "mikewaynecn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/mikewaynecn-cell"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "8a6b4a69225e",
+      "board": "main",
+      "name": "Nail Shapes",
+      "intro": "美甲甲型选择指南，对比杏仁形、椭圆形、棺材形等 8 种甲型的长度、维护难度与视觉效果；回答 3 个问题即可获得适合手型与日常习惯的推荐，无需注册",
+      "introMarkdown": "美甲甲型选择指南，对比杏仁形、椭圆形、棺材形等 8 种甲型的长度、维护难度与视觉效果；回答 3 个问题即可获得适合手型与日常习惯的推荐，无需注册",
+      "status": "live",
+      "date": "2026-08-28",
+      "url": "https://www.nailshapes.art/",
+      "author": "mikewaynecn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/mikewaynecn-cell"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "8f30ce58dc97",
       "board": "main",
