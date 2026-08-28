@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-28T05:03:00.127Z",
-    "statsSyncedAt": "2026-08-28T05:03:00.127Z",
-    "upstreamSha": "2cf7ec4cd22e8815594cb48dcfb6093ccef0fa69",
+    "contentSyncedAt": "2026-08-28T07:10:29.066Z",
+    "statsSyncedAt": "2026-08-28T07:10:29.066Z",
+    "upstreamSha": "032be17c65f09c5206450d788b657681efb64c0a",
     "counts": {
       "main": 1722,
-      "game": 117,
+      "game": 118,
       "programmer": 310,
-      "total": 2149
+      "total": 2150
     }
   },
   "main": [
@@ -31744,6 +31744,25 @@
     }
   ],
   "game": [
+    {
+      "slug": "9f678301ea6e",
+      "board": "game",
+      "name": "梁圣变阻器",
+      "intro": "AI 豪杰互动玩具站，用滑动变阻器六档境界研判各路 AI 大佬的成神数值，可送神火、砸神位、参与网友投票，也能上传人像创建自己的豪杰 — 已开源，可一键部署",
+      "introMarkdown": "AI 豪杰互动玩具站，用滑动变阻器六档境界研判各路 AI 大佬的成神数值，可送神火、砸神位、参与网友投票，也能上传人像创建自己的豪杰 — 已开源，可一键部署",
+      "status": "live",
+      "date": "2026-08-28",
+      "url": "https://liang-slider.havenai.online/",
+      "author": "ethanethan",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lianyixin"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "cd9951fa3366",
       "board": "game",
