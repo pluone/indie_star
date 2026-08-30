@@ -1,16 +1,49 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-29T22:57:15.465Z",
-    "statsSyncedAt": "2026-08-29T22:57:15.465Z",
-    "upstreamSha": "7259e0ca84f4d45a2ce7c06f47a27270c5c1f32c",
+    "contentSyncedAt": "2026-08-30T03:31:13.137Z",
+    "statsSyncedAt": "2026-08-30T03:31:13.137Z",
+    "upstreamSha": "a997a820265e3a32db9782f4952e847669a394af",
     "counts": {
-      "main": 1725,
+      "main": 1727,
       "game": 118,
-      "programmer": 311,
-      "total": 2154
+      "programmer": 312,
+      "total": 2157
     }
   },
   "main": [
+    {
+      "slug": "4b2c46fbc9bf",
+      "board": "main",
+      "name": "EasyMap Desktop",
+      "intro": "面向测绘、规划、应急与数据治理的桌面 GIS 平台工具集，地图制图、数据目录、58 个地理处理工具、模型构建器与在线地图下载器一站齐备，解压即用、数据不出内网",
+      "introMarkdown": "面向测绘、规划、应急与数据治理的桌面 GIS 平台工具集，地图制图、数据目录、58 个地理处理工具、模型构建器与在线地图下载器一站齐备，解压即用、数据不出内网",
+      "status": "live",
+      "date": "2026-08-30",
+      "url": "http://www.easymap.online/",
+      "author": "easymap-gis",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/easymap-gis"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "837797603c49",
+      "board": "main",
+      "name": "bibla",
+      "intro": "私密 AI 多方调解，加上全员授权后才公开的脱敏纠纷故事，未登录可读全文",
+      "introMarkdown": "私密 AI 多方调解，加上全员授权后才公开的脱敏纠纷故事，未登录可读全文",
+      "status": "live",
+      "date": "2026-08-28",
+      "url": "https://bibla.top",
+      "author": "Lisa W",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "804d663d86dd",
       "board": "main",
@@ -34031,6 +34064,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "bd74b93a07cd",
+      "board": "programmer",
+      "name": "PaperPhoneLite",
+      "intro": "轻量级端到端加密即时通讯，React 19/TypeScript Web 客户端 + Rust/Axum 服务端，服务端和客户端均通过 Tor 完全隐藏 IP 地址",
+      "introMarkdown": "轻量级端到端加密即时通讯，React 19/TypeScript Web 客户端 + Rust/Axum 服务端，服务端和客户端均通过 Tor 完全隐藏 IP 地址",
+      "status": "live",
+      "date": "2026-08-30",
+      "url": "https://github.com/619dev/PaperPhoneLite",
+      "author": "619dev",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/619dev"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "dc78770e4c6b",
       "board": "programmer",
