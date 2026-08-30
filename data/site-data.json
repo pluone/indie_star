@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-30T03:31:13.137Z",
-    "statsSyncedAt": "2026-08-30T03:31:13.137Z",
-    "upstreamSha": "a997a820265e3a32db9782f4952e847669a394af",
+    "contentSyncedAt": "2026-08-30T07:46:11.834Z",
+    "statsSyncedAt": "2026-08-30T07:46:11.834Z",
+    "upstreamSha": "fc9fa09d078a2a6c25e89ed1488a164ff669c9ec",
     "counts": {
-      "main": 1727,
+      "main": 1728,
       "game": 118,
       "programmer": 312,
-      "total": 2157
+      "total": 2158
     }
   },
   "main": [
+    {
+      "slug": "7144b67b1947",
+      "board": "main",
+      "name": "Ikat",
+      "intro": "多模型 AI 视频生成工作台，在同一界面使用 Wan 3.0、Kling 3.0、Seedance 2.5、MiniMax H3，支持文生视频和图生视频",
+      "introMarkdown": "多模型 AI 视频生成工作台，在同一界面使用 Wan 3.0、Kling 3.0、Seedance 2.5、MiniMax H3，支持文生视频和图生视频",
+      "status": "live",
+      "date": "2026-08-30",
+      "url": "https://ikat.app",
+      "author": "Hongshiqiang",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Hongshiqiang"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "4b2c46fbc9bf",
       "board": "main",
