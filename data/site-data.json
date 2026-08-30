@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-30T07:46:11.834Z",
-    "statsSyncedAt": "2026-08-30T07:46:11.834Z",
-    "upstreamSha": "fc9fa09d078a2a6c25e89ed1488a164ff669c9ec",
+    "contentSyncedAt": "2026-08-30T09:26:10.717Z",
+    "statsSyncedAt": "2026-08-30T09:26:10.717Z",
+    "upstreamSha": "50e1f2adec8320678e4b49d8454c0c8dec6a33ec",
     "counts": {
-      "main": 1728,
+      "main": 1729,
       "game": 118,
       "programmer": 312,
-      "total": 2158
+      "total": 2159
     }
   },
   "main": [
@@ -44,6 +44,25 @@
         {
           "label": "Github",
           "url": "https://github.com/easymap-gis"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b0808ca062d3",
+      "board": "main",
+      "name": "FishCare AI",
+      "intro": "观赏鱼饲养指南与免费工具站，买鱼前先查混养兼容性（4000+ 鱼种组合对照页）、鱼缸最小尺寸、水质参数和投喂量，覆盖斗鱼、孔雀鱼、七彩神仙等常见品种，免费无需注册",
+      "introMarkdown": "观赏鱼饲养指南与免费工具站，买鱼前先查混养兼容性（4000+ 鱼种组合对照页）、鱼缸最小尺寸、水质参数和投喂量，覆盖斗鱼、孔雀鱼、七彩神仙等常见品种，免费无需注册",
+      "status": "live",
+      "date": "2026-08-30",
+      "url": "https://www.fishcareai.com/",
+      "author": "Viki Wu",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wxixuan118-ship-it"
         }
       ],
       "likes": 0,
