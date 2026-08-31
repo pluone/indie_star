@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-31T04:56:10.619Z",
-    "statsSyncedAt": "2026-08-31T04:56:10.619Z",
-    "upstreamSha": "42722b7a02b40e8cd0e4568e87be8e343cd1bb62",
+    "contentSyncedAt": "2026-08-31T05:06:09.355Z",
+    "statsSyncedAt": "2026-08-31T05:06:09.355Z",
+    "upstreamSha": "0bf792523cb32983a114658980f0fe3e69f39ebe",
     "counts": {
       "main": 1732,
       "game": 118,
@@ -11,6 +11,25 @@
     }
   },
   "main": [
+    {
+      "slug": "9a9e5c5eb84a",
+      "board": "main",
+      "name": "HelloGen",
+      "intro": "AI 图片和视频生成工作台，图片免费不限量、无水印、可商用，视频按次计费；助手根据需求自动选模型（Seedream、Nano Banana、GPT Image 2、Veo、Kling、Seedance），生成前先报价，失败不扣费",
+      "introMarkdown": "AI 图片和视频生成工作台，图片免费不限量、无水印、可商用，视频按次计费；助手根据需求自动选模型（Seedream、Nano Banana、GPT Image 2、Veo、Kling、Seedance），生成前先报价，失败不扣费",
+      "status": "live",
+      "date": "2026-08-31",
+      "url": "https://hellogen.ai/",
+      "author": "chenchiwei",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/chenchiwei"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "2251d43dd6e9",
       "board": "main",
@@ -101,25 +120,6 @@
         {
           "label": "Github",
           "url": "https://github.com/wxixuan118-ship-it"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9a9e5c5eb84a",
-      "board": "main",
-      "name": "HelloGen",
-      "intro": "AI 图片和视频生成工作台，图片免费不限量、无水印、可商用，视频按次计费；助手根据需求自动选模型（Seedream、Nano Banana、GPT Image 2、Veo、Kling、Seedance），生成前先报价，失败不扣费",
-      "introMarkdown": "AI 图片和视频生成工作台，图片免费不限量、无水印、可商用，视频按次计费；助手根据需求自动选模型（Seedream、Nano Banana、GPT Image 2、Veo、Kling、Seedance），生成前先报价，失败不扣费",
-      "status": "live",
-      "date": "2026-08-30",
-      "url": "https://hellogen.ai/",
-      "author": "chenchiwei",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/chenchiwei"
         }
       ],
       "likes": 0,
