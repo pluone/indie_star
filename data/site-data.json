@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-30T23:02:58.921Z",
-    "statsSyncedAt": "2026-08-30T23:02:58.921Z",
-    "upstreamSha": "50e1f2adec8320678e4b49d8454c0c8dec6a33ec",
+    "contentSyncedAt": "2026-08-31T04:16:13.056Z",
+    "statsSyncedAt": "2026-08-31T04:16:13.056Z",
+    "upstreamSha": "2582f25233a434cd07258fe02c71ab81c20d3510",
     "counts": {
-      "main": 1729,
+      "main": 1732,
       "game": 118,
       "programmer": 312,
-      "total": 2159
+      "total": 2162
     }
   },
   "main": [
+    {
+      "slug": "2251d43dd6e9",
+      "board": "main",
+      "name": "AniMot",
+      "intro": "一键让照片跳舞，让宠物跳舞",
+      "introMarkdown": "一键让照片跳舞，让宠物跳舞",
+      "status": "live",
+      "date": "2026-08-31",
+      "url": "https://animot.app/",
+      "author": "hwlvipone",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hwlvipone"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "5db134849da8",
+      "board": "main",
+      "name": "CardShopDir",
+      "intro": "Card Shop Directory — Find Trading Card Shops Near You",
+      "introMarkdown": "Card Shop Directory — Find Trading Card Shops Near You",
+      "status": "live",
+      "date": "2026-08-31",
+      "url": "https://cardshopdir.com/",
+      "author": "leo",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/TangSirOnGit"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "7144b67b1947",
       "board": "main",
@@ -63,6 +101,25 @@
         {
           "label": "Github",
           "url": "https://github.com/wxixuan118-ship-it"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "9a9e5c5eb84a",
+      "board": "main",
+      "name": "HelloGen",
+      "intro": "AI 图片和视频生成工作台，图片免费不限量、无水印、可商用，视频按次计费；助手根据需求自动选模型（Seedream、Nano Banana、GPT Image 2、Veo、Kling、Seedance），生成前先报价，失败不扣费",
+      "introMarkdown": "AI 图片和视频生成工作台，图片免费不限量、无水印、可商用，视频按次计费；助手根据需求自动选模型（Seedream、Nano Banana、GPT Image 2、Veo、Kling、Seedance），生成前先报价，失败不扣费",
+      "status": "live",
+      "date": "2026-08-30",
+      "url": "https://hellogen.ai/",
+      "author": "chenchiwei",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/chenchiwei"
         }
       ],
       "likes": 0,
