@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-08-31T04:16:13.056Z",
-    "statsSyncedAt": "2026-08-31T04:16:13.056Z",
-    "upstreamSha": "2582f25233a434cd07258fe02c71ab81c20d3510",
+    "contentSyncedAt": "2026-08-31T04:56:10.619Z",
+    "statsSyncedAt": "2026-08-31T04:56:10.619Z",
+    "upstreamSha": "42722b7a02b40e8cd0e4568e87be8e343cd1bb62",
     "counts": {
       "main": 1732,
       "game": 118,
@@ -34,8 +34,8 @@
       "slug": "5db134849da8",
       "board": "main",
       "name": "CardShopDir",
-      "intro": "Card Shop Directory — Find Trading Card Shops Near You",
-      "introMarkdown": "Card Shop Directory — Find Trading Card Shops Near You",
+      "intro": "美国实体卡牌店目录，收录 7700+ 家店铺、覆盖 51 个州，支持按州、城市和游戏筛选，帮玩家找到宝可梦、万智牌、游戏王等卡牌的线下店，每家店附地址、营业时间、支持游戏和评分",
+      "introMarkdown": "美国实体卡牌店目录，收录 7700+ 家店铺、覆盖 51 个州，支持按州、城市和游戏筛选，帮玩家找到宝可梦、万智牌、游戏王等卡牌的线下店，每家店附地址、营业时间、支持游戏和评分",
       "status": "live",
       "date": "2026-08-31",
       "url": "https://cardshopdir.com/",
