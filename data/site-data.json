@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-01T00:18:06.964Z",
-    "statsSyncedAt": "2026-09-01T00:18:06.964Z",
-    "upstreamSha": "0bf792523cb32983a114658980f0fe3e69f39ebe",
+    "contentSyncedAt": "2026-09-01T07:31:09.789Z",
+    "statsSyncedAt": "2026-09-01T07:31:09.789Z",
+    "upstreamSha": "90e6815a188e72837fdcfc98105f5a0e6d9d8d28",
     "counts": {
-      "main": 1732,
+      "main": 1733,
       "game": 118,
-      "programmer": 312,
-      "total": 2162
+      "programmer": 313,
+      "total": 2164
     }
   },
   "main": [
+    {
+      "slug": "3a74a1cd9bde",
+      "board": "main",
+      "name": "Vibe Coding 首切片",
+      "intro": "把小程序、网站、APP 或 AI/API 的模糊需求先拆成一条可运行、可验收的核心流程；公开合成演示与隐私门控受理表可直接查看，需求范围图 ¥99 起",
+      "introMarkdown": "把小程序、网站、APP 或 AI/API 的模糊需求先拆成一条可运行、可验收的核心流程；公开合成演示与隐私门控受理表可直接查看，需求范围图 ¥99 起",
+      "status": "live",
+      "date": "2026-09-01",
+      "url": "https://dify-feishu-qa-first10.heyhui.chatgpt.site/domestic-dev-first-slice",
+      "author": "heyu17625-glitch",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/heyu17625-glitch"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "9a9e5c5eb84a",
       "board": "main",
@@ -34159,6 +34178,20 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "e641b4a2bbb7",
+      "board": "programmer",
+      "name": "LuckyAPI",
+      "intro": "多模型 AI API 服务，一个 Key 集成文本、图像和视频模型；支持的模型、请求格式兼容性、定价和用量以站内模型目录与文档为准。",
+      "introMarkdown": "多模型 AI API 服务，一个 Key 集成文本、图像和视频模型；支持的模型、请求格式兼容性、定价和用量以站内模型目录与文档为准。",
+      "status": "live",
+      "date": "2026-09-01",
+      "url": "https://luckyapi.online/zh-cn",
+      "author": "LuckyAPI Team",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "bd74b93a07cd",
       "board": "programmer",
