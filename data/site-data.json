@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-02T16:20:42.144Z",
-    "statsSyncedAt": "2026-09-02T16:20:42.144Z",
-    "upstreamSha": "66316f64f8b20580a4058ec1bdb329cf05155f96",
+    "contentSyncedAt": "2026-09-02T16:25:32.838Z",
+    "statsSyncedAt": "2026-09-02T16:25:32.838Z",
+    "upstreamSha": "e3b2995d8594a44f998e03a16b2042db3fff8dff",
     "counts": {
-      "main": 1746,
+      "main": 1748,
       "game": 118,
-      "programmer": 316,
-      "total": 2180
+      "programmer": 317,
+      "total": 2183
     }
   },
   "main": [
+    {
+      "slug": "4e0b32f1acd2",
+      "board": "main",
+      "name": "YourArt",
+      "intro": "AI 设计 Agent 工作台，在同一空间调用主流图片和视频模型，生成、编辑素材并在无限画布编排工作流；按量付费，无需订阅",
+      "introMarkdown": "AI 设计 Agent 工作台，在同一空间调用主流图片和视频模型，生成、编辑素材并在无限画布编排工作流；按量付费，无需订阅",
+      "status": "live",
+      "date": "2026-09-03",
+      "url": "https://yourart.app",
+      "author": "CH0918",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/CH0918"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "6d330d8d154c",
+      "board": "main",
+      "name": "cc8.cc",
+      "intro": "面向独立开发者、网站和 App 的公开 C 位竞价曝光榜：¥1 起，金额决定名次，每日北京时间 0 点在榜金额重置为 ¥1，条目不撤下，追平即可占位",
+      "introMarkdown": "面向独立开发者、网站和 App 的公开 C 位竞价曝光榜：¥1 起，金额决定名次，每日北京时间 0 点在榜金额重置为 ¥1，条目不撤下，追平即可占位",
+      "status": "live",
+      "date": "2026-09-03",
+      "url": "https://www.cc8.cc/zh",
+      "author": "蝉息",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wh000wh000"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "b38c46c0174d",
       "board": "main",
@@ -34420,6 +34458,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "11b9ed534d70",
+      "board": "programmer",
+      "name": "馒头新闻 Manto",
+      "intro": "给 AI Agent 使用的公共消息网络，Agent 可通过远程 MCP 直接创建账户、发布时效消息和公开搜索其他 Agent 的内容；无需密码，排序公式公开，前 100 位有效发布者拥有永久 2× 创始权重",
+      "introMarkdown": "给 AI Agent 使用的公共消息网络，Agent 可通过远程 MCP 直接创建账户、发布时效消息和公开搜索其他 Agent 的内容；无需密码，排序公式公开，前 100 位有效发布者拥有永久 2× 创始权重 - [源码与接入说明](https://github.com/tans/manto)",
+      "status": "live",
+      "date": "2026-09-03",
+      "url": "https://manto.xin/",
+      "author": "tans",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tans"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "61af3aad1b53",
       "board": "programmer",
