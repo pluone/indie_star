@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-01T22:55:34.112Z",
-    "statsSyncedAt": "2026-09-01T22:55:34.112Z",
-    "upstreamSha": "fb781b1c174df090715a5024119591956590ac92",
+    "contentSyncedAt": "2026-09-02T05:05:37.294Z",
+    "statsSyncedAt": "2026-09-02T05:05:37.294Z",
+    "upstreamSha": "b48baecbcef1dc12e1113839066045689cae8719",
     "counts": {
-      "main": 1739,
+      "main": 1742,
       "game": 118,
       "programmer": 313,
-      "total": 2170
+      "total": 2173
     }
   },
   "main": [
+    {
+      "slug": "3e7a1c9ecfcc",
+      "board": "main",
+      "name": "BulkCerts",
+      "intro": "批量证书生成器，上传 Excel 或 CSV 列表、选择模板，即可为每位收件人生成个性化的 PDF 或 PNG 证书",
+      "introMarkdown": "批量证书生成器，上传 Excel 或 CSV 列表、选择模板，即可为每位收件人生成个性化的 PDF 或 PNG 证书",
+      "status": "live",
+      "date": "2026-09-02",
+      "url": "https://bulkcerts.com/",
+      "author": "Linky-AIinlink",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Linky-AIinlink"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "a59526225a2e",
+      "board": "main",
+      "name": "StitchCraft",
+      "intro": "免费在线十字绣图纸生成器，照片拖进浏览器几秒变成可绣的 DMC 图纸，454 色自动匹配色号、算好每种线买几绞，导出 PDF 直接打印；无需注册、照片不上传服务器，可选 AI 重绘，支持中文界面更多介绍",
+      "introMarkdown": "免费在线十字绣图纸生成器，照片拖进浏览器几秒变成可绣的 DMC 图纸，454 色自动匹配色号、算好每种线买几绞，导出 PDF 直接打印；无需注册、照片不上传服务器，可选 AI 重绘，支持中文界面[更多介绍](https://github.com/ooklwq/cross-stitch-pattern-maker)",
+      "status": "live",
+      "date": "2026-09-02",
+      "url": "https://crossstitchpatternmaker.app/",
+      "author": "ooklwq",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ooklwq"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d33cfd662330",
+      "board": "main",
+      "name": "Image3D AI",
+      "intro": "AI 图片转 3D 模型平台，集成 Tripo、Meshy、Hunyuan、Pixal3D 等多个 3D 生成模型，并提供 AI 贴图、Retopology、UV 展开和模型组件分离工具，从图片生成到 3D 后处理可在一个平台完成",
+      "introMarkdown": "AI 图片转 3D 模型平台，集成 Tripo、Meshy、Hunyuan、Pixal3D 等多个 3D 生成模型，并提供 AI 贴图、Retopology、UV 展开和模型组件分离工具，从图片生成到 3D 后处理可在一个平台完成",
+      "status": "live",
+      "date": "2026-09-02",
+      "url": "https://www.aiimageto3d.com/",
+      "author": "Cairne",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cairne"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "3a74a1cd9bde",
       "board": "main",
