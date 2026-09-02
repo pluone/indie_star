@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-02T05:10:37.621Z",
-    "statsSyncedAt": "2026-09-02T05:10:37.621Z",
-    "upstreamSha": "e6193c7566e06d859e27c5068aa6124778a0dc7c",
+    "contentSyncedAt": "2026-09-02T08:20:47.063Z",
+    "statsSyncedAt": "2026-09-02T08:20:47.063Z",
+    "upstreamSha": "58854e32a0ce54eb3301be812a33ded6ba01b6cd",
     "counts": {
-      "main": 1742,
+      "main": 1743,
       "game": 118,
-      "programmer": 313,
-      "total": 2173
+      "programmer": 314,
+      "total": 2175
     }
   },
   "main": [
+    {
+      "slug": "61f46633bbf3",
+      "board": "main",
+      "name": "Lunalisa",
+      "intro": "面向产品团队的 AI 视觉工作台，用提示词和获许可的参考图生成、迭代产品视觉素材",
+      "introMarkdown": "面向产品团队的 AI 视觉工作台，用提示词和获许可的参考图生成、迭代产品视觉素材",
+      "status": "live",
+      "date": "2026-09-02",
+      "url": "https://luna-lisa.art",
+      "author": "JeremyGDM",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JeremyGDM"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "3e7a1c9ecfcc",
       "board": "main",
@@ -34349,6 +34368,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "75c3a2659d1b",
+      "board": "programmer",
+      "name": "Sub2API",
+      "intro": "AI API 中转网关，按个人开发者到大规模商业应用的规模提供多档套餐，支持余额和订阅付费",
+      "introMarkdown": "AI API 中转网关，按个人开发者到大规模商业应用的规模提供多档套餐，支持余额和订阅付费",
+      "status": "live",
+      "date": "2026-09-02",
+      "url": "https://sub2api.ai-baby-dance.com/",
+      "author": "武晓亮",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wu1064442747"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "e641b4a2bbb7",
       "board": "programmer",
