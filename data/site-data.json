@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-02T08:20:47.063Z",
-    "statsSyncedAt": "2026-09-02T08:20:47.063Z",
-    "upstreamSha": "58854e32a0ce54eb3301be812a33ded6ba01b6cd",
+    "contentSyncedAt": "2026-09-02T16:20:42.144Z",
+    "statsSyncedAt": "2026-09-02T16:20:42.144Z",
+    "upstreamSha": "66316f64f8b20580a4058ec1bdb329cf05155f96",
     "counts": {
-      "main": 1743,
+      "main": 1746,
       "game": 118,
-      "programmer": 314,
-      "total": 2175
+      "programmer": 316,
+      "total": 2180
     }
   },
   "main": [
+    {
+      "slug": "b38c46c0174d",
+      "board": "main",
+      "name": "unblurry",
+      "intro": "AI 照片去模糊工具，处理失焦、抖动与低分辨率造成的画质损失，另有锐化、降噪和老照片修复；免注册免费试 2 次，按次购买 credit，不订阅",
+      "introMarkdown": "AI 照片去模糊工具，处理失焦、抖动与低分辨率造成的画质损失，另有锐化、降噪和老照片修复；免注册免费试 2 次，按次购买 credit，不订阅",
+      "status": "live",
+      "date": "2026-09-02",
+      "url": "https://unblurry.tools",
+      "author": "edenSu",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/edenSu-git"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "61f46633bbf3",
       "board": "main",
@@ -84,6 +103,39 @@
           "url": "https://github.com/cairne"
         }
       ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "0ee4d54830f9",
+      "board": "main",
+      "name": "PdfCompare",
+      "intro": "免费免登录的在线 PDF 对比与文本转换工具，基于浏览器 WebAssembly 纯本地运行，毫秒级词级红绿高亮差异与图纸图层叠图对比，文档数据 100% 零上传云端，零泄露风险",
+      "introMarkdown": "免费免登录的在线 PDF 对比与文本转换工具，基于浏览器 WebAssembly 纯本地运行，毫秒级词级红绿高亮差异与图纸图层叠图对比，文档数据 100% 零上传云端，零泄露风险 - [开源仓库](https://github.com/haihiaen/pdf-compare)",
+      "status": "live",
+      "date": "2026-09-02",
+      "url": "https://pdfcompare.app/",
+      "author": "haihiaen",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/haihiaen"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "e4fa4faad0bf",
+      "board": "main",
+      "name": "XiuStore",
+      "intro": "AI 订阅和数字服务商城，商品页公开价格、交付方式、有效期、质保和售后，付款后可在订单中找到对应交付入口",
+      "introMarkdown": "AI 订阅和数字服务商城，商品页公开价格、交付方式、有效期、质保和售后，付款后可在订单中找到对应交付入口",
+      "status": "live",
+      "date": "2026-09-02",
+      "url": "https://store.xiu.ai/en/",
+      "author": "Dashu",
+      "authorLinks": [],
       "likes": 0,
       "comments": 0
     },
@@ -34369,6 +34421,25 @@
   ],
   "programmer": [
     {
+      "slug": "61af3aad1b53",
+      "board": "programmer",
+      "name": "BeatDesign",
+      "intro": "开源、本地优先的 AI 媒体创作工作台，把 Canvas、短视频时间线、素材库和 MCP Agent 操作放进同一个本地项目",
+      "introMarkdown": "开源、本地优先的 AI 媒体创作工作台，把 Canvas、短视频时间线、素材库和 MCP Agent 操作放进同一个本地项目",
+      "status": "live",
+      "date": "2026-09-02",
+      "url": "https://github.com/BeatAPI/BeatDesign",
+      "author": "KKKK",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/erickkkyt"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "75c3a2659d1b",
       "board": "programmer",
       "name": "Sub2API",
@@ -34384,6 +34455,20 @@
           "url": "https://github.com/wu1064442747"
         }
       ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "9735291b441f",
+      "board": "programmer",
+      "name": "XiuRouter",
+      "intro": "多协议模型 API 服务，分别提供 OpenAI Responses/Chat Completions、Anthropic Messages 和 Gemini GenerateContent；支持受限 API Key、Agent/开发工具接入与逐请求用量/费用记录",
+      "introMarkdown": "多协议模型 API 服务，分别提供 OpenAI Responses/Chat Completions、Anthropic Messages 和 Gemini GenerateContent；支持受限 API Key、Agent/开发工具接入与逐请求用量/费用记录",
+      "status": "live",
+      "date": "2026-09-02",
+      "url": "https://router.xiu.ai/",
+      "author": "Dashu",
+      "authorLinks": [],
       "likes": 0,
       "comments": 0
     },
