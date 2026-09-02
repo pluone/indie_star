@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-02T05:05:37.294Z",
-    "statsSyncedAt": "2026-09-02T05:05:37.294Z",
-    "upstreamSha": "b48baecbcef1dc12e1113839066045689cae8719",
+    "contentSyncedAt": "2026-09-02T05:10:37.621Z",
+    "statsSyncedAt": "2026-09-02T05:10:37.621Z",
+    "upstreamSha": "e6193c7566e06d859e27c5068aa6124778a0dc7c",
     "counts": {
       "main": 1742,
       "game": 118,
@@ -34,8 +34,8 @@
       "slug": "a59526225a2e",
       "board": "main",
       "name": "StitchCraft",
-      "intro": "免费在线十字绣图纸生成器，照片拖进浏览器几秒变成可绣的 DMC 图纸，454 色自动匹配色号、算好每种线买几绞，导出 PDF 直接打印；无需注册、照片不上传服务器，可选 AI 重绘，支持中文界面更多介绍",
-      "introMarkdown": "免费在线十字绣图纸生成器，照片拖进浏览器几秒变成可绣的 DMC 图纸，454 色自动匹配色号、算好每种线买几绞，导出 PDF 直接打印；无需注册、照片不上传服务器，可选 AI 重绘，支持中文界面[更多介绍](https://github.com/ooklwq/cross-stitch-pattern-maker)",
+      "intro": "十字绣图纸生成器（免费），照片拖进浏览器几秒变成可绣的 DMC 图纸，454 色自动匹配色号、算好每种线买几绞，导出 PDF 直接打印；无需注册、照片不上传服务器，可选 AI 重绘，支持中文界面",
+      "introMarkdown": "十字绣图纸生成器（免费），照片拖进浏览器几秒变成可绣的 DMC 图纸，454 色自动匹配色号、算好每种线买几绞，导出 PDF 直接打印；无需注册、照片不上传服务器，可选 AI 重绘，支持中文界面 - [更多介绍](https://github.com/ooklwq/cross-stitch-pattern-maker)",
       "status": "live",
       "date": "2026-09-02",
       "url": "https://crossstitchpatternmaker.app/",
