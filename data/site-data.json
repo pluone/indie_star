@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-02T22:56:10.951Z",
-    "statsSyncedAt": "2026-09-02T22:56:10.951Z",
-    "upstreamSha": "e3b2995d8594a44f998e03a16b2042db3fff8dff",
+    "contentSyncedAt": "2026-09-03T09:16:16.312Z",
+    "statsSyncedAt": "2026-09-03T09:16:16.312Z",
+    "upstreamSha": "323e9c2833f2e32f7378e5ce699e22157ec9c9dd",
     "counts": {
-      "main": 1748,
+      "main": 1750,
       "game": 118,
       "programmer": 317,
-      "total": 2183
+      "total": 2185
     }
   },
   "main": [
+    {
+      "slug": "7de05799899d",
+      "board": "main",
+      "name": "Video Text Remover",
+      "intro": "AI-powered tool to erase text, captions, and subtitles from any video",
+      "introMarkdown": "AI-powered tool to erase text, captions, and subtitles from any video",
+      "status": "live",
+      "date": "2026-09-03",
+      "url": "https://videotextremover.org/",
+      "author": "CoderLim",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/CoderLim"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "614b9a4f0838",
+      "board": "main",
+      "name": "PicEditor",
+      "intro": "AI 图片编辑和生成工具，用自然语言换背景、移除物体、修改图片文字或生成新图，首次使用无需注册",
+      "introMarkdown": "AI 图片编辑和生成工具，用自然语言换背景、移除物体、修改图片文字或生成新图，首次使用无需注册",
+      "status": "live",
+      "date": "2026-09-03",
+      "url": "https://piceditor.org/",
+      "author": "dong13",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/dong13yu"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "4e0b32f1acd2",
       "board": "main",
