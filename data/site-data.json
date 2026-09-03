@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-03T15:05:34.690Z",
-    "statsSyncedAt": "2026-09-03T15:05:34.690Z",
-    "upstreamSha": "07181a41ecd89e8d4b75278bb13fc223d310e4c7",
+    "contentSyncedAt": "2026-09-03T21:05:33.173Z",
+    "statsSyncedAt": "2026-09-03T21:05:33.173Z",
+    "upstreamSha": "2761cee2f0f32573cd31606a19e432861cdc63b5",
     "counts": {
-      "main": 1751,
+      "main": 1752,
       "game": 118,
       "programmer": 317,
-      "total": 2186
+      "total": 2187
     }
   },
   "main": [
+    {
+      "slug": "7ab719813660",
+      "board": "main",
+      "name": "HTMLShare",
+      "intro": "将静态 HTML 发布为可分享的预览链接，方便快速分享和评审原型页面，无需 Git、生产部署和注册账号",
+      "introMarkdown": "将静态 HTML 发布为可分享的预览链接，方便快速分享和评审原型页面，无需 Git、生产部署和注册账号",
+      "status": "live",
+      "date": "2026-09-04",
+      "url": "https://www.htmlshare.page/",
+      "author": "zeroXu1",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zeroXu1"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "7d579d681528",
       "board": "main",
