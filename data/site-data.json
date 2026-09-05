@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-04T22:42:45.583Z",
-    "statsSyncedAt": "2026-09-04T22:42:45.583Z",
-    "upstreamSha": "2761cee2f0f32573cd31606a19e432861cdc63b5",
+    "contentSyncedAt": "2026-09-05T05:01:04.346Z",
+    "statsSyncedAt": "2026-09-05T05:01:04.346Z",
+    "upstreamSha": "cdd22364c7e922493d233e5e835990a16f36cfc2",
     "counts": {
-      "main": 1752,
+      "main": 1755,
       "game": 118,
       "programmer": 317,
-      "total": 2187
+      "total": 2190
     }
   },
   "main": [
+    {
+      "slug": "91c23045487f",
+      "board": "main",
+      "name": "DTCwise",
+      "intro": "DTC/跨境电商独立站卖家的运营工具目录与评测站，数据驱动收录 104 个工具（Sellvia、Mangools、Spocket 等），含对比评分与佣金返利链接，免费无需注册",
+      "introMarkdown": "DTC/跨境电商独立站卖家的运营工具目录与评测站，数据驱动收录 104 个工具（Sellvia、Mangools、Spocket 等），含对比评分与佣金返利链接，免费无需注册",
+      "status": "live",
+      "date": "2026-09-05",
+      "url": "https://dtcwise.com/?utm_source=cnindie&utm_medium=github",
+      "author": "863683348",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/863683348"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "85f30ae6b720",
+      "board": "main",
+      "name": "CrossTool",
+      "intro": "跨境卖家本地隐私工具箱，52 个工具 100% 在浏览器内运行（视频压缩、图片转 PDF、成本计算等），零上传零服务器，面向 Amazon/TikTok Shop/Shopify 卖家，免费无需注册",
+      "introMarkdown": "跨境卖家本地隐私工具箱，52 个工具 100% 在浏览器内运行（视频压缩、图片转 PDF、成本计算等），零上传零服务器，面向 Amazon/TikTok Shop/Shopify 卖家，免费无需注册",
+      "status": "live",
+      "date": "2026-09-05",
+      "url": "https://crosstool.online/?utm_source=cnindie&utm_medium=github",
+      "author": "863683348",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/863683348"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "67bf0f0b19d5",
+      "board": "main",
+      "name": "Gemini Omni",
+      "intro": "免费生成和编辑视频，保持角色一致性，音频同步",
+      "introMarkdown": "免费生成和编辑视频，保持角色一致性，音频同步",
+      "status": "live",
+      "date": "2026-09-05",
+      "url": "https://geminiomni.video/",
+      "author": "coderWenzi",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/coderWenzi"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "7ab719813660",
       "board": "main",
