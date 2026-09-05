@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-05T15:05:48.102Z",
-    "statsSyncedAt": "2026-09-05T15:05:48.102Z",
-    "upstreamSha": "ca5023581ca8c7e4303728eb900943e4508e1eef",
+    "contentSyncedAt": "2026-09-05T21:05:48.285Z",
+    "statsSyncedAt": "2026-09-05T21:05:48.285Z",
+    "upstreamSha": "d9d9b9f6c067837384462c854f918c69b0bea820",
     "counts": {
-      "main": 1756,
+      "main": 1757,
       "game": 118,
       "programmer": 317,
-      "total": 2191
+      "total": 2192
     }
   },
   "main": [
+    {
+      "slug": "91bb1c4dbf1a",
+      "board": "main",
+      "name": "Seadanse",
+      "intro": "多模型 AI 视频生成平台，支持通过 Composer 工作台生成带声多镜头视频，并提供一句话自动拆解广告分镜与故事板的 AI Video Agent 功能",
+      "introMarkdown": "多模型 AI 视频生成平台，支持通过 Composer 工作台生成带声多镜头视频，并提供一句话自动拆解广告分镜与故事板的 AI Video Agent 功能 - [更多介绍](https://seadanse.com/ai-video-agent)",
+      "status": "live",
+      "date": "2026-09-06",
+      "url": "https://seadanse.com",
+      "author": "codeugar",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/codeugar"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "86660f90f559",
       "board": "main",
