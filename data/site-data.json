@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-05T05:01:04.346Z",
-    "statsSyncedAt": "2026-09-05T05:01:04.346Z",
-    "upstreamSha": "cdd22364c7e922493d233e5e835990a16f36cfc2",
+    "contentSyncedAt": "2026-09-05T15:05:48.102Z",
+    "statsSyncedAt": "2026-09-05T15:05:48.102Z",
+    "upstreamSha": "ca5023581ca8c7e4303728eb900943e4508e1eef",
     "counts": {
-      "main": 1755,
+      "main": 1756,
       "game": 118,
       "programmer": 317,
-      "total": 2190
+      "total": 2191
     }
   },
   "main": [
+    {
+      "slug": "86660f90f559",
+      "board": "main",
+      "name": "SubnetDesk",
+      "intro": "跨平台远程桌面应用，在局域网或 VPN 内通过 mDNS 自动发现设备并用 IP 或主机名直连，无需公网设备 ID、信令或中继；支持 Windows、macOS、Linux 和 Android，AGPL-3.0 开源",
+      "introMarkdown": "跨平台远程桌面应用，在局域网或 VPN 内通过 mDNS 自动发现设备并用 IP 或主机名直连，无需公网设备 ID、信令或中继；支持 Windows、macOS、Linux 和 Android，AGPL-3.0 开源",
+      "status": "live",
+      "date": "2026-09-05",
+      "url": "https://github.com/zibo-chen/SubnetDesk",
+      "author": "zibo-chen",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zibo-chen"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "91c23045487f",
       "board": "main",
