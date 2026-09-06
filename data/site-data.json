@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-06T05:10:46.579Z",
-    "statsSyncedAt": "2026-09-06T05:10:46.579Z",
-    "upstreamSha": "14a6ccec75348d834141399039c73b1ff97a103a",
+    "contentSyncedAt": "2026-09-06T05:25:42.740Z",
+    "statsSyncedAt": "2026-09-06T05:25:42.740Z",
+    "upstreamSha": "490b1746737779a271b8dea370fb8979cb17ae61",
     "counts": {
       "main": 1757,
       "game": 118,
@@ -18398,8 +18398,8 @@
       "slug": "9565f59c23cb",
       "board": "main",
       "name": "SiteData",
-      "intro": "网站流量与 AdSense 反查工具(免费)，无需登录即可使用",
-      "introMarkdown": "网站流量与 AdSense 反查工具(免费)，无需登录即可使用 - [Chrome 浏览器插件](https://chromewebstore.google.com/detail/emeakbgdecgmdjgegnejpppcnkcnoaen)",
+      "intro": "网站流量查询与 SEO/Google Ads 情报工具，支持任意网站流量估算、Reverse AdSense 反查（发现同发布者的站点网络）、Google Ads 广告主与关键词分析、域名信息与 DR 查询，并提供 Chrome/Edge 浏览器插件",
+      "introMarkdown": "网站流量查询与 SEO/Google Ads 情报工具，支持任意网站流量估算、Reverse AdSense 反查（发现同发布者的站点网络）、Google Ads 广告主与关键词分析、域名信息与 DR 查询，并提供 Chrome/Edge 浏览器插件 - [浏览器插件](https://chromewebstore.google.com/detail/emeakbgdecgmdjgegnejpppcnkcnoaen)",
       "status": "live",
       "date": "2025-09-12",
       "url": "https://sitedata.dev",
