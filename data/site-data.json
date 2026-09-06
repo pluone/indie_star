@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-05T22:34:21.944Z",
-    "statsSyncedAt": "2026-09-05T22:34:21.944Z",
-    "upstreamSha": "d9d9b9f6c067837384462c854f918c69b0bea820",
+    "contentSyncedAt": "2026-09-06T05:10:46.579Z",
+    "statsSyncedAt": "2026-09-06T05:10:46.579Z",
+    "upstreamSha": "14a6ccec75348d834141399039c73b1ff97a103a",
     "counts": {
       "main": 1757,
       "game": 118,
-      "programmer": 317,
-      "total": 2192
+      "programmer": 318,
+      "total": 2193
     }
   },
   "main": [
@@ -34629,6 +34629,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "2ef16e08c0c7",
+      "board": "programmer",
+      "name": "RunWhale",
+      "intro": "基于 DeepSeek Harness 的开源手机 AI 编程工具，描述需求后生成或修改 Web / Expo 项目，并在同一部手机上预览；支持导入 Git 仓库",
+      "introMarkdown": "基于 DeepSeek Harness 的开源手机 AI 编程工具，描述需求后生成或修改 Web / Expo 项目，并在同一部手机上预览；支持导入 Git 仓库 - [iOS 下载](https://apps.apple.com/app/id6807644595)",
+      "status": "live",
+      "date": "2026-09-06",
+      "url": "https://github.com/zhiqingchen/RunWhale",
+      "author": "Tony Chen",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhiqingchen"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "11b9ed534d70",
       "board": "programmer",
