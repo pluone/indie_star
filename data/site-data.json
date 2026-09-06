@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-06T09:40:45.400Z",
-    "statsSyncedAt": "2026-09-06T09:40:45.400Z",
-    "upstreamSha": "6ed0525124446167cd701af7a84b06e2adab72b9",
+    "contentSyncedAt": "2026-09-06T09:45:47.766Z",
+    "statsSyncedAt": "2026-09-06T09:45:47.766Z",
+    "upstreamSha": "293b5268c69f1c520ca63e3ff8a821a190d404ba",
     "counts": {
-      "main": 1757,
+      "main": 1761,
       "game": 118,
       "programmer": 318,
-      "total": 2193
+      "total": 2197
     }
   },
   "main": [
@@ -10831,6 +10831,82 @@
       "status": "live",
       "date": "2026-04-11",
       "url": "https://www.happyhorse20.com/",
+      "author": "lisa",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/shisan12323"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "99e55f562cfe",
+      "board": "main",
+      "name": "Flow AI Video",
+      "intro": "在线 AI 视频生成工具，支持文字、图片和参考图生成视频，可选择画面比例、分辨率与视频时长",
+      "introMarkdown": "在线 AI 视频生成工具，支持文字、图片和参考图生成视频，可选择画面比例、分辨率与视频时长",
+      "status": "live",
+      "date": "2026-04-11",
+      "url": "https://flowaivideo.org",
+      "author": "lisa",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/shisan12323"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "02fc2e99a0a4",
+      "board": "main",
+      "name": "Upscayl",
+      "intro": "在线 AI 图片放大与增强工具，支持图片去模糊、老照片修复和背景移除，无需安装桌面软件",
+      "introMarkdown": "在线 AI 图片放大与增强工具，支持图片去模糊、老照片修复和背景移除，无需安装桌面软件",
+      "status": "live",
+      "date": "2026-04-11",
+      "url": "https://upscayl.app",
+      "author": "lisa",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/shisan12323"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "8d0499093beb",
+      "board": "main",
+      "name": "Video Watermark Remover",
+      "intro": "在线视频水印清理工具，支持上传 MP4、AVI、MOV 等格式，并提供视频文字、标识和物体移除工具",
+      "introMarkdown": "在线视频水印清理工具，支持上传 MP4、AVI、MOV 等格式，并提供视频文字、标识和物体移除工具",
+      "status": "live",
+      "date": "2026-04-11",
+      "url": "https://videowatermarkremover.org/",
+      "author": "lisa",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/shisan12323"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "09ac6529e480",
+      "board": "main",
+      "name": "Seed Imagine",
+      "intro": "AI 图片与视频创作工作台，支持文生图、图像编辑、文生视频和图生视频，可在同一网页选择模型和调整输出参数",
+      "introMarkdown": "AI 图片与视频创作工作台，支持文生图、图像编辑、文生视频和图生视频，可在同一网页选择模型和调整输出参数",
+      "status": "live",
+      "date": "2026-04-11",
+      "url": "https://seedimagine.com/",
       "author": "lisa",
       "authorLinks": [
         {
