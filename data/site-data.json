@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-06T05:25:42.740Z",
-    "statsSyncedAt": "2026-09-06T05:25:42.740Z",
-    "upstreamSha": "490b1746737779a271b8dea370fb8979cb17ae61",
+    "contentSyncedAt": "2026-09-06T09:40:45.400Z",
+    "statsSyncedAt": "2026-09-06T09:40:45.400Z",
+    "upstreamSha": "6ed0525124446167cd701af7a84b06e2adab72b9",
     "counts": {
       "main": 1757,
       "game": 118,
@@ -1054,8 +1054,8 @@
       "slug": "3557e6dbf99c",
       "board": "main",
       "name": "Hermes Startup",
-      "intro": "用 Hermes Agent 赚取第一笔真实美元收入的免费实操路径——回答 10 个私人问题，免费获得 3 个与你匹配的商业想法（不承诺收入），可选一次性 US$10 由 Hermes Startup 帮你构建并运行；开源、无订阅、无需注册",
-      "introMarkdown": "用 Hermes Agent 赚取第一笔真实美元收入的免费实操路径——回答 10 个私人问题，免费获得 3 个与你匹配的商业想法（不承诺收入），可选一次性 US$10 由 Hermes Startup 帮你构建并运行；开源、无订阅、无需注册",
+      "intro": "用 Hermes Agent 赚取第一笔真实美元收入的免费实操路径——回答 10 个私人问题，免费获得全部 10 个与你匹配的商业想法（不承诺收入），可选一次性 US$10 由 Hermes Startup 帮你构建并运行；开源、无订阅、无需注册",
+      "introMarkdown": "用 Hermes Agent 赚取第一笔真实美元收入的免费实操路径——回答 10 个私人问题，免费获得全部 10 个与你匹配的商业想法（不承诺收入），可选一次性 US$10 由 Hermes Startup 帮你构建并运行；开源、无订阅、无需注册",
       "status": "live",
       "date": "2026-08-22",
       "url": "https://hermesstartup.com",
