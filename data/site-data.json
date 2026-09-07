@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-07T15:15:49.269Z",
-    "statsSyncedAt": "2026-09-07T15:15:49.269Z",
-    "upstreamSha": "3f0ffc39b3e6cd2454a3ac963107715072b57a05",
+    "contentSyncedAt": "2026-09-07T16:10:57.738Z",
+    "statsSyncedAt": "2026-09-07T16:10:57.738Z",
+    "upstreamSha": "11c8497e0c944bdee8891376a30085e5df5e2ca8",
     "counts": {
       "main": 1766,
       "game": 121,
@@ -15,8 +15,8 @@
       "slug": "9549f7b51e86",
       "board": "main",
       "name": "ScribeFlash",
-      "intro": "ScribeFlash 是一款面向产品、市场与用户研究团队的 AI 研究工作台，帮助你把客户访谈快速转化为有证据支撑的洞察与专业研究报告。你可以上传访谈、查看和编辑转录内容、按研究问题整理答案、对比不同参与者、沉淀关键证据，并跨多场访谈发现主题、趋势和共识。每条 Finding 都可追溯到原始引用，让团队更快分析、更放心验证，也更容易输出可分享、可执行的研究结论",
-      "introMarkdown": "ScribeFlash 是一款面向产品、市场与用户研究团队的 AI 研究工作台，帮助你把客户访谈快速转化为有证据支撑的洞察与专业研究报告。你可以上传访谈、查看和编辑转录内容、按研究问题整理答案、对比不同参与者、沉淀关键证据，并跨多场访谈发现主题、趋势和共识。每条 Finding 都可追溯到原始引用，让团队更快分析、更放心验证，也更容易输出可分享、可执行的研究结论",
+      "intro": "面向产品、市场与用户研究团队的 AI 研究工作台，帮助你把客户访谈快速转化为有证据支撑的洞察与专业研究报告。你可以上传访谈、查看和编辑转录内容、按研究问题整理答案、对比不同参与者、沉淀关键证据，并跨多场访谈发现主题、趋势和共识。每条 Finding 都可追溯到原始引用，让团队更快分析、更放心验证，也更容易输出可分享、可执行的研究结论",
+      "introMarkdown": "面向产品、市场与用户研究团队的 AI 研究工作台，帮助你把客户访谈快速转化为有证据支撑的洞察与专业研究报告。你可以上传访谈、查看和编辑转录内容、按研究问题整理答案、对比不同参与者、沉淀关键证据，并跨多场访谈发现主题、趋势和共识。每条 Finding 都可追溯到原始引用，让团队更快分析、更放心验证，也更容易输出可分享、可执行的研究结论",
       "status": "live",
       "date": "2026-09-07",
       "url": "https://scribeflash.com/?utm_source=github",
@@ -243,8 +243,8 @@
       "slug": "7de05799899d",
       "board": "main",
       "name": "Video Text Remover",
-      "intro": "AI-powered tool to erase text, captions, and subtitles from any video",
-      "introMarkdown": "AI-powered tool to erase text, captions, and subtitles from any video",
+      "intro": "AI 视频文字擦除工具，去除视频中的文字、字幕和说明文字",
+      "introMarkdown": "AI 视频文字擦除工具，去除视频中的文字、字幕和说明文字",
       "status": "live",
       "date": "2026-09-03",
       "url": "https://videotextremover.org/",
