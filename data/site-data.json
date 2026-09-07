@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-07T15:10:51.412Z",
-    "statsSyncedAt": "2026-09-07T15:10:51.412Z",
-    "upstreamSha": "a1221edc2eee4450b2e7388ecee4d0963d21b323",
+    "contentSyncedAt": "2026-09-07T15:15:49.269Z",
+    "statsSyncedAt": "2026-09-07T15:15:49.269Z",
+    "upstreamSha": "3f0ffc39b3e6cd2454a3ac963107715072b57a05",
     "counts": {
       "main": 1766,
       "game": 121,
@@ -32609,7 +32609,7 @@
       "comments": 0
     },
     {
-      "slug": "3f568827ee98",
+      "slug": "2fbd3a93bcbd",
       "board": "game",
       "name": "Blood of Dawnwalker Tools",
       "intro": "The Blood of Dawnwalker 粉丝工具站，含 Vampire/Human 构建计算器、7 结局追踪器和 47 奖杯清单，浏览器直接使用，无需注册账号",
@@ -32617,11 +32617,11 @@
       "status": "live",
       "date": "2026-09-07",
       "url": "https://bloodofdawnwalker.win",
-      "author": "[提交者名]",
+      "author": "hbwang76",
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/YOUR_GITHUB"
+          "url": "https://github.com/hbwang76"
         }
       ],
       "likes": 0,
