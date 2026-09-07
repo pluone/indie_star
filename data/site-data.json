@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-07T03:05:48.147Z",
-    "statsSyncedAt": "2026-09-07T03:05:48.147Z",
-    "upstreamSha": "3d4197d0089e435cb346714f89a62908ce62f11a",
+    "contentSyncedAt": "2026-09-07T09:11:24.141Z",
+    "statsSyncedAt": "2026-09-07T09:11:24.141Z",
+    "upstreamSha": "0533e0ae29ca78adc08840c2863fc029020932d6",
     "counts": {
-      "main": 1763,
-      "game": 119,
+      "main": 1764,
+      "game": 120,
       "programmer": 318,
-      "total": 2200
+      "total": 2202
     }
   },
   "main": [
+    {
+      "slug": "777c9fdfc999",
+      "board": "main",
+      "name": "CubistAI",
+      "intro": "AI 图片生成工具，输入文字秒出高清图，集成 Nano Banana 2、Seedream、FLUX.2 等模型，每天有免费额度，另附 AI 头像、卡通化、涂色页、抠图、水印去除等专项工具",
+      "introMarkdown": "AI 图片生成工具，输入文字秒出高清图，集成 Nano Banana 2、Seedream、FLUX.2 等模型，每天有免费额度，另附 AI 头像、卡通化、涂色页、抠图、水印去除等专项工具",
+      "status": "live",
+      "date": "2026-09-07",
+      "url": "https://cubistai.org/",
+      "author": "小范",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/schwenkmurmel17-dotcom"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "87b2a5200c2e",
       "board": "main",
@@ -32527,6 +32546,25 @@
         {
           "label": "Github",
           "url": "https://github.com/linrn5566"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "c25634f1216d",
+      "board": "game",
+      "name": "PixelArtGame",
+      "intro": "一款结合了像素艺术与轻松玩法的网页游戏。无需下载安装，打开即可游玩。游戏以复古像素画风为核心，配合轻快的背景音乐，营造出沉浸式的游戏体验。无论是怀旧玩家还是休闲爱好者，都能快速找到属于自己的乐趣",
+      "introMarkdown": "一款结合了像素艺术与轻松玩法的网页游戏。无需下载安装，打开即可游玩。游戏以复古像素画风为核心，配合轻快的背景音乐，营造出沉浸式的游戏体验。无论是怀旧玩家还是休闲爱好者，都能快速找到属于自己的乐趣",
+      "status": "live",
+      "date": "2026-09-07",
+      "url": "https://pixelartgame.online/",
+      "author": "firegomove",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/firegomove"
         }
       ],
       "likes": 0,
