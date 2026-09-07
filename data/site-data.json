@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-07T11:10:51.245Z",
-    "statsSyncedAt": "2026-09-07T11:10:51.245Z",
-    "upstreamSha": "15f3e082047595dd627a0c9286ff4f9bc6dda2e0",
+    "contentSyncedAt": "2026-09-07T15:10:51.412Z",
+    "statsSyncedAt": "2026-09-07T15:10:51.412Z",
+    "upstreamSha": "a1221edc2eee4450b2e7388ecee4d0963d21b323",
     "counts": {
-      "main": 1764,
-      "game": 120,
+      "main": 1766,
+      "game": 121,
       "programmer": 318,
-      "total": 2202
+      "total": 2205
     }
   },
   "main": [
+    {
+      "slug": "9549f7b51e86",
+      "board": "main",
+      "name": "ScribeFlash",
+      "intro": "ScribeFlash 是一款面向产品、市场与用户研究团队的 AI 研究工作台，帮助你把客户访谈快速转化为有证据支撑的洞察与专业研究报告。你可以上传访谈、查看和编辑转录内容、按研究问题整理答案、对比不同参与者、沉淀关键证据，并跨多场访谈发现主题、趋势和共识。每条 Finding 都可追溯到原始引用，让团队更快分析、更放心验证，也更容易输出可分享、可执行的研究结论",
+      "introMarkdown": "ScribeFlash 是一款面向产品、市场与用户研究团队的 AI 研究工作台，帮助你把客户访谈快速转化为有证据支撑的洞察与专业研究报告。你可以上传访谈、查看和编辑转录内容、按研究问题整理答案、对比不同参与者、沉淀关键证据，并跨多场访谈发现主题、趋势和共识。每条 Finding 都可追溯到原始引用，让团队更快分析、更放心验证，也更容易输出可分享、可执行的研究结论",
+      "status": "live",
+      "date": "2026-09-07",
+      "url": "https://scribeflash.com/?utm_source=github",
+      "author": "aiScribeFlash",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/overseax"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "88952d8fa10a",
+      "board": "main",
+      "name": "SeichiGo 圣地巡礼",
+      "intro": "动漫圣地巡礼行程规划工具，选作品和天数，AI Agent 生成含交通衔接的逐日路线；全球巡礼地图 5 万+ 点位、1,500+ 作品，简中/繁中/日/英四语",
+      "introMarkdown": "动漫圣地巡礼行程规划工具，选作品和天数，AI Agent 生成含交通衔接的逐日路线；全球巡礼地图 5 万+ 点位、1,500+ 作品，简中/繁中/日/英四语",
+      "status": "live",
+      "date": "2026-09-07",
+      "url": "https://seichigo.com",
+      "author": "emptylower",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/emptylower"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "777c9fdfc999",
       "board": "main",
@@ -32565,6 +32603,25 @@
         {
           "label": "Github",
           "url": "https://github.com/firegomove"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "3f568827ee98",
+      "board": "game",
+      "name": "Blood of Dawnwalker Tools",
+      "intro": "The Blood of Dawnwalker 粉丝工具站，含 Vampire/Human 构建计算器、7 结局追踪器和 47 奖杯清单，浏览器直接使用，无需注册账号",
+      "introMarkdown": "The Blood of Dawnwalker 粉丝工具站，含 Vampire/Human 构建计算器、7 结局追踪器和 47 奖杯清单，浏览器直接使用，无需注册账号",
+      "status": "live",
+      "date": "2026-09-07",
+      "url": "https://bloodofdawnwalker.win",
+      "author": "[提交者名]",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/YOUR_GITHUB"
         }
       ],
       "likes": 0,
