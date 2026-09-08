@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-08T05:40:47.776Z",
-    "statsSyncedAt": "2026-09-08T05:40:47.776Z",
-    "upstreamSha": "7ecbea48db5483199a7575a8e63e9caef7086801",
+    "contentSyncedAt": "2026-09-08T09:11:21.903Z",
+    "statsSyncedAt": "2026-09-08T09:11:21.903Z",
+    "upstreamSha": "77c64acc2de2076654761365d37815fccef49daf",
     "counts": {
-      "main": 1766,
-      "game": 121,
+      "main": 1769,
+      "game": 122,
       "programmer": 319,
-      "total": 2206
+      "total": 2210
     }
   },
   "main": [
+    {
+      "slug": "b6863f43a4a2",
+      "board": "main",
+      "name": "LoveComic",
+      "intro": "AI 漫画生成网站，支持自动与人工控制双重模式，自定义对话气泡、字体等；还有 flow 画布模式，可自由编排节点生成漫画",
+      "introMarkdown": "AI 漫画生成网站，支持自动与人工控制双重模式，自定义对话气泡、字体等；还有 flow 画布模式，可自由编排节点生成漫画",
+      "status": "live",
+      "date": "2026-09-08",
+      "url": "https://lovecomic.app/",
+      "author": "rain",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wang1309"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "24078902476f",
+      "board": "main",
+      "name": "NotePP",
+      "intro": "macOS 平台的 Notepad++ 替代方案，在 Mac 上也能流畅使用 Notepad++ 的编辑体验",
+      "introMarkdown": "macOS 平台的 Notepad++ 替代方案，在 Mac 上也能流畅使用 Notepad++ 的编辑体验",
+      "status": "live",
+      "date": "2026-09-08",
+      "url": "https://luminousstars.org/",
+      "author": "南宫文凯",
+      "authorLinks": [
+        {
+          "label": "博客",
+          "url": "https://blog.csdn.net/qq_34730277"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4aa4316df257",
+      "board": "main",
+      "name": "Real Job Work From Home",
+      "intro": "远程岗位检索网站，无需注册即可免费浏览，支持关键词、岗位类别、雇佣类型及已披露薪资筛选，并提供雇主申请入口",
+      "introMarkdown": "远程岗位检索网站，无需注册即可免费浏览，支持关键词、岗位类别、雇佣类型及已披露薪资筛选，并提供雇主申请入口",
+      "status": "live",
+      "date": "2026-09-08",
+      "url": "https://realjobworkfromhome.com/",
+      "author": "fengmao",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fengmao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "9549f7b51e86",
       "board": "main",
@@ -32570,6 +32627,25 @@
     }
   ],
   "game": [
+    {
+      "slug": "80381a8bb97d",
+      "board": "game",
+      "name": "BTD6 Paragon Calculator",
+      "intro": "面向《Bloons TD 6》玩家的非官方 Paragon 计算工具，可计算 Paragon Degree、Power、Cash Slider、Sacrifices 和 Paragon Power Totems，并提供 Degree 表格及相关计算说明",
+      "introMarkdown": "面向《Bloons TD 6》玩家的非官方 Paragon 计算工具，可计算 Paragon Degree、Power、Cash Slider、Sacrifices 和 Paragon Power Totems，并提供 Degree 表格及相关计算说明",
+      "status": "live",
+      "date": "2026-09-08",
+      "url": "https://btd6paragoncalculator.org/",
+      "author": "pandaupup",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/pandaupup"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "c2599daee513",
       "board": "game",
