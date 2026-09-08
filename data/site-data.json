@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-08T15:11:01.354Z",
-    "statsSyncedAt": "2026-09-08T15:11:01.354Z",
-    "upstreamSha": "b368bff6db3b317bbcd8d7d224250b241e870855",
+    "contentSyncedAt": "2026-09-08T17:35:51.759Z",
+    "statsSyncedAt": "2026-09-08T17:35:51.759Z",
+    "upstreamSha": "731f6f42ce2485a30d3ca3ff7c4377f428c81323",
     "counts": {
-      "main": 1773,
+      "main": 1774,
       "game": 122,
       "programmer": 319,
-      "total": 2214
+      "total": 2215
     }
   },
   "main": [
+    {
+      "slug": "5d69bf192d89",
+      "board": "main",
+      "name": "ReadGZH",
+      "intro": "微信公众号文章 AI 阅读工具，粘贴链接生成便于 AI 读取的页面，另提供 API 与 MCP 接入",
+      "introMarkdown": "微信公众号文章 AI 阅读工具，粘贴链接生成便于 AI 读取的页面，另提供 API 与 MCP 接入",
+      "status": "live",
+      "date": "2026-09-09",
+      "url": "https://readgzh.site/",
+      "author": "sweesama",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sweesama"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "13d35bc3b356",
       "board": "main",
