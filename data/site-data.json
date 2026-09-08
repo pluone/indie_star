@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-08T05:25:47.666Z",
-    "statsSyncedAt": "2026-09-08T05:25:47.666Z",
-    "upstreamSha": "0e19c3270135ccb95664019578b6625f506f8000",
+    "contentSyncedAt": "2026-09-08T05:40:47.776Z",
+    "statsSyncedAt": "2026-09-08T05:40:47.776Z",
+    "upstreamSha": "7ecbea48db5483199a7575a8e63e9caef7086801",
     "counts": {
       "main": 1766,
       "game": 121,
@@ -34858,7 +34858,7 @@
   ],
   "programmer": [
     {
-      "slug": "858cef7da1db",
+      "slug": "88e09fab9f8b",
       "board": "programmer",
       "name": "TeamoRouter",
       "intro": "多模型 AI API 中转网关，GPT-6 Astra / Claude / Gemini 用一个 Key 调用，Codex 和 Claude Code 改 base_url 即用，支持支付宝/微信充值、按量计费",
@@ -34866,8 +34866,13 @@
       "status": "live",
       "date": "2026-09-08",
       "url": "https://teamorouter.cn",
-      "author": "TeamoRouter",
-      "authorLinks": [],
+      "author": "yangzhou-chaofan",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yangzhou-chaofan"
+        }
+      ],
       "likes": 0,
       "comments": 0
     },
