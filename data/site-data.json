@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-08T09:11:21.903Z",
-    "statsSyncedAt": "2026-09-08T09:11:21.903Z",
-    "upstreamSha": "77c64acc2de2076654761365d37815fccef49daf",
+    "contentSyncedAt": "2026-09-08T15:11:01.354Z",
+    "statsSyncedAt": "2026-09-08T15:11:01.354Z",
+    "upstreamSha": "b368bff6db3b317bbcd8d7d224250b241e870855",
     "counts": {
-      "main": 1769,
+      "main": 1773,
       "game": 122,
       "programmer": 319,
-      "total": 2210
+      "total": 2214
     }
   },
   "main": [
+    {
+      "slug": "13d35bc3b356",
+      "board": "main",
+      "name": "热摸爽",
+      "intro": "面向普通用户的全网热搜热榜聚合网站，一站查看微博、知乎、抖音、GitHub Trending 等 200+ 公开来源，支持科技、AI、财经等分类、跨平台事件合并和按日期回看历史热点 — 无需注册，打开即用",
+      "introMarkdown": "面向普通用户的全网热搜热榜聚合网站，一站查看微博、知乎、抖音、GitHub Trending 等 200+ 公开来源，支持科技、AI、财经等分类、跨平台事件合并和按日期回看历史热点 — 无需注册，打开即用",
+      "status": "live",
+      "date": "2026-09-08",
+      "url": "https://remoshuang.com/",
+      "author": "zjzno1",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zjzno1"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "bcaa6589f6c7",
+      "board": "main",
+      "name": "Erase Background Pro",
+      "intro": "无需注册、免费即用的 AI 一键抠图工具，秒级输出边缘干净的透明 PNG，支持电商人像/发丝细节与 4K 高清，提供批量处理、免费试用与开发者 API",
+      "introMarkdown": "无需注册、免费即用的 AI 一键抠图工具，秒级输出边缘干净的透明 PNG，支持电商人像/发丝细节与 4K 高清，提供批量处理、免费试用与开发者 API",
+      "status": "live",
+      "date": "2026-09-08",
+      "url": "https://erasebgpro.com",
+      "author": "肖戈",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jvxiao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "5333759afe70",
+      "board": "main",
+      "name": "薯小二",
+      "intro": "小红书合规运营工具箱，违禁词一键检测+替换建议、AI 爆款标题生成、笔记收录限流自查，纯网页端免安装，新人每天免费发车",
+      "introMarkdown": "小红书合规运营工具箱，违禁词一键检测+替换建议、AI 爆款标题生成、笔记收录限流自查，纯网页端免安装，新人每天免费发车",
+      "status": "live",
+      "date": "2026-09-08",
+      "url": "https://xhs.jvxiao.cn/",
+      "author": "肖戈",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jvxiao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "b6863f43a4a2",
       "board": "main",
@@ -1691,6 +1748,25 @@
         {
           "label": "Github",
           "url": "https://github.com/shihuili1218/rssh"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "f796d693de11",
+      "board": "main",
+      "name": "Metrune",
+      "intro": "原生 macOS 专注与开发活动工具，把任务计时、Codex 状态、GitHub 活动和周报收进 Mac 顶部界面，核心记录保存在本地",
+      "introMarkdown": "原生 macOS 专注与开发活动工具，把任务计时、Codex 状态、GitHub 活动和周报收进 Mac 顶部界面，核心记录保存在本地 - [项目与下载](https://github.com/TREAFREE/Metrune)",
+      "status": "live",
+      "date": "2026-08-13",
+      "url": "https://treafree.github.io/Metrune/",
+      "author": "TREAFREE",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/TREAFREE"
         }
       ],
       "likes": 0,
