@@ -1,16 +1,92 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-09T04:26:25.234Z",
-    "statsSyncedAt": "2026-09-09T04:26:25.234Z",
-    "upstreamSha": "ca265667c78878a360f26468525a8b0ff17be1ad",
+    "contentSyncedAt": "2026-09-09T08:21:05.228Z",
+    "statsSyncedAt": "2026-09-09T08:21:05.228Z",
+    "upstreamSha": "de678fb8ec5fb455c39173558bce35247afc9b90",
     "counts": {
-      "main": 1631,
-      "game": 124,
+      "main": 1635,
+      "game": 125,
       "programmer": 319,
-      "total": 2074
+      "total": 2079
     }
   },
   "main": [
+    {
+      "slug": "b53ef7b42204",
+      "board": "main",
+      "name": "Interval Timers",
+      "intro": "免费的间歇计时器，可设置工作时间、休息时间、准备倒计时和循环轮数，并提供声音提示，适合 HIIT、Tabata、健身训练以及其他需要工作/休息循环计时的场景",
+      "introMarkdown": "免费的间歇计时器，可设置工作时间、休息时间、准备倒计时和循环轮数，并提供声音提示，适合 HIIT、Tabata、健身训练以及其他需要工作/休息循环计时的场景",
+      "status": "live",
+      "date": "2026-09-09",
+      "url": "https://intervaltimers.org/",
+      "author": "pandaupup",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/pandaupup"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "ac05f580df5a",
+      "board": "main",
+      "name": "Dead Pixel Test",
+      "intro": "免费的屏幕坏点测试工具，通过全屏纯色测试帮助检查显示器、笔记本电脑和其他屏幕的坏点、亮点、暗点及显示异常",
+      "introMarkdown": "免费的屏幕坏点测试工具，通过全屏纯色测试帮助检查显示器、笔记本电脑和其他屏幕的坏点、亮点、暗点及显示异常",
+      "status": "live",
+      "date": "2026-09-09",
+      "url": "https://deadpixeltestpro.org/",
+      "author": "pandaupup",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/pandaupup"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "6787a94880e3",
+      "board": "main",
+      "name": "Ropond Proxy Cloud",
+      "intro": "全球高纯净动态住宅代理网络，专为出海企业、跨境电商独立站与 AI 深度搜索提供防封穿透基础设施，提供 1GB 免费开发者测试配额",
+      "introMarkdown": "全球高纯净动态住宅代理网络，专为出海企业、跨境电商独立站与 AI 深度搜索提供防封穿透基础设施，提供 1GB 免费开发者测试配额 - [反爬与社媒过盾基准看板](https://antonli-pm.github.io/anti-bot-bypass-benchmark/)",
+      "status": "live",
+      "date": "2026-09-09",
+      "url": "https://ropond.com/",
+      "author": "Anton Li",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/AntonLi-PM"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "80eecac47b35",
+      "board": "main",
+      "name": "Hevzo",
+      "intro": "一站式的 AI 视频和图片生成平台，集中了主流的视频和图片模型",
+      "introMarkdown": "一站式的 AI 视频和图片生成平台，集中了主流的视频和图片模型",
+      "status": "live",
+      "date": "2026-09-09",
+      "url": "https://hevzo.com",
+      "author": "Ryan Yu",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Ryan10Yu"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "0f9c9924f100",
       "board": "main",
@@ -29848,6 +29924,25 @@
     }
   ],
   "game": [
+    {
+      "slug": "25f509c9d87a",
+      "board": "game",
+      "name": "Gamepad Tester",
+      "intro": "免费的游戏手柄测试与诊断工具，可实时检测手柄按键、摇杆、扳机键和震动，并提供摇杆漂移、Circularity、Polling Rate、Latency、Button Mapping，以及 Xbox、PS5、Joy-Con、Switch Pro 等专项测试",
+      "introMarkdown": "免费的游戏手柄测试与诊断工具，可实时检测手柄按键、摇杆、扳机键和震动，并提供摇杆漂移、Circularity、Polling Rate、Latency、Button Mapping，以及 Xbox、PS5、Joy-Con、Switch Pro 等专项测试",
+      "status": "live",
+      "date": "2026-09-09",
+      "url": "https://gamepadtesteronline.org/",
+      "author": "pandaupup",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/pandaupup"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "2b891c3f0b1e",
       "board": "game",
