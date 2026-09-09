@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-09T11:15:56.481Z",
-    "statsSyncedAt": "2026-09-09T11:15:56.481Z",
-    "upstreamSha": "cdf0b4e20804556a2c8db5b24a3fd4a52640a540",
+    "contentSyncedAt": "2026-09-09T15:15:53.951Z",
+    "statsSyncedAt": "2026-09-09T15:15:53.951Z",
+    "upstreamSha": "c8668e493f66ff9bde6bc85ddbccf130bfeabd49",
     "counts": {
-      "main": 1637,
+      "main": 1638,
       "game": 125,
       "programmer": 319,
-      "total": 2081
+      "total": 2082
     }
   },
   "main": [
+    {
+      "slug": "0f700bc7618c",
+      "board": "main",
+      "name": "Gpt Image 2.5 图片生成器",
+      "intro": "基于 Gpt Image 2.5 模型的图片工作台，生成与编辑同界面操作，支持一次生成多张图片快速比对挑选 — 免费试用",
+      "introMarkdown": "基于 Gpt Image 2.5 模型的图片工作台，生成与编辑同界面操作，支持一次生成多张图片快速比对挑选 — 免费试用",
+      "status": "live",
+      "date": "2026-09-09",
+      "url": "https://gptimage25.biz/",
+      "author": "MuYiBo",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/MuYiBo"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "a191fa0798f8",
       "board": "main",
