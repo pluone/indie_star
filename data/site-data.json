@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-09T00:10:47.510Z",
-    "statsSyncedAt": "2026-09-09T00:10:47.510Z",
-    "upstreamSha": "e9237872aa32b10a34e4e09d83e55183ed3c9380",
+    "contentSyncedAt": "2026-09-09T03:11:02.559Z",
+    "statsSyncedAt": "2026-09-09T03:11:02.559Z",
+    "upstreamSha": "c364f5951c7c40743e541203344f6a2fed186741",
     "counts": {
-      "main": 1774,
-      "game": 123,
+      "main": 1775,
+      "game": 124,
       "programmer": 319,
-      "total": 2216
+      "total": 2218
     }
   },
   "main": [
+    {
+      "slug": "0f9c9924f100",
+      "board": "main",
+      "name": "Pixel Art Base",
+      "intro": "免费的在线图片转像素画工具，支持裁剪与尺寸调整、调色板和抖动设置、颜色查看及清晰 PNG 导出；图片在浏览器本地处理，并提供 Minecraft 像素画生成器，可生成方块网格、精确材料清单、编号建造指南和 Java 蓝图",
+      "introMarkdown": "免费的在线图片转像素画工具，支持裁剪与尺寸调整、调色板和抖动设置、颜色查看及清晰 PNG 导出；图片在浏览器本地处理，并提供 Minecraft 像素画生成器，可生成方块网格、精确材料清单、编号建造指南和 Java 蓝图",
+      "status": "live",
+      "date": "2026-09-09",
+      "url": "https://www.pixelartbase.com",
+      "author": "Felicia",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/littlePig-zzf"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "5d69bf192d89",
       "board": "main",
@@ -32722,6 +32741,25 @@
     }
   ],
   "game": [
+    {
+      "slug": "2b891c3f0b1e",
+      "board": "game",
+      "name": "Block Skin Lab",
+      "intro": "免费的在线图片转 Minecraft 皮肤工具，可将照片或作品转换为 64×64/128×128 皮肤，支持 Classic/Slim 手臂、2D/3D 预览、脸部预设和 8×8 像素编辑；图片全程在浏览器本地处理，无需注册",
+      "introMarkdown": "免费的在线图片转 Minecraft 皮肤工具，可将照片或作品转换为 64×64/128×128 皮肤，支持 Classic/Slim 手臂、2D/3D 预览、脸部预设和 8×8 像素编辑；图片全程在浏览器本地处理，无需注册",
+      "status": "live",
+      "date": "2026-09-09",
+      "url": "https://www.blockskinlab.com/",
+      "author": "Felicia",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/littlePig-zzf"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "8f61096487a3",
       "board": "game",
