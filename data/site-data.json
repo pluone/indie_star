@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-08T23:06:29.749Z",
-    "statsSyncedAt": "2026-09-08T23:06:29.749Z",
-    "upstreamSha": "731f6f42ce2485a30d3ca3ff7c4377f428c81323",
+    "contentSyncedAt": "2026-09-09T00:10:47.510Z",
+    "statsSyncedAt": "2026-09-09T00:10:47.510Z",
+    "upstreamSha": "e9237872aa32b10a34e4e09d83e55183ed3c9380",
     "counts": {
       "main": 1774,
-      "game": 122,
+      "game": 123,
       "programmer": 319,
-      "total": 2215
+      "total": 2216
     }
   },
   "main": [
@@ -570,7 +570,7 @@
       "introMarkdown": "AI 订阅和数字服务商城，商品页公开价格、交付方式、有效期、质保和售后，付款后可在订单中找到对应交付入口",
       "status": "live",
       "date": "2026-09-02",
-      "url": "https://store.xiu.ai/en/",
+      "url": "https://store.xiu.ai/zh/",
       "author": "Dashu",
       "authorLinks": [],
       "likes": 0,
@@ -32722,6 +32722,25 @@
     }
   ],
   "game": [
+    {
+      "slug": "8f61096487a3",
+      "board": "game",
+      "name": "海克斯小秘书",
+      "intro": "《英雄联盟》海克斯大乱斗（ARAM Mayhem）攻略站，选人前查 173 位英雄的实时胜率排行、六神装、技能加点和银/金/棱彩强化符文推荐，三源数据每晚自动聚合，中英日韩等 12 种语言，打开即用无需注册",
+      "introMarkdown": "《英雄联盟》海克斯大乱斗（ARAM Mayhem）攻略站，选人前查 173 位英雄的实时胜率排行、六神装、技能加点和银/金/棱彩强化符文推荐，三源数据每晚自动聚合，中英日韩等 12 种语言，打开即用无需注册",
+      "status": "live",
+      "date": "2026-09-09",
+      "url": "https://aramkit.cdqyfdbymn.me/",
+      "author": "the-beating-light-of-the-nail",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/the-beating-light-of-the-nail"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "80381a8bb97d",
       "board": "game",
