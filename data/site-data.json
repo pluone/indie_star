@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-09T04:21:41.399Z",
-    "statsSyncedAt": "2026-09-09T04:21:41.399Z",
-    "upstreamSha": "706ff105008d5686a0520dd69aa7cec99e4552b2",
+    "contentSyncedAt": "2026-09-09T04:26:25.234Z",
+    "statsSyncedAt": "2026-09-09T04:26:25.234Z",
+    "upstreamSha": "ca265667c78878a360f26468525a8b0ff17be1ad",
     "counts": {
-      "main": 1627,
+      "main": 1631,
       "game": 124,
       "programmer": 319,
-      "total": 2070
+      "total": 2074
     }
   },
   "main": [
@@ -29765,6 +29765,82 @@
         {
           "label": "Github",
           "url": "https://github.com/lizhichao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "0f8cd3802bf6",
+      "board": "main",
+      "name": "AI 独立制造所",
+      "intro": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "introMarkdown": "本列表的可搜索、可筛选、每日自动同步的可视化版本 - [更多介绍](https://github.com/kolbyzhu5/indie-maker-directory)",
+      "status": "live",
+      "date": "2024-01-05",
+      "url": "https://indiemaker.cn/",
+      "author": "peacefullmind",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/peacefullmind"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "0e3023b81e95",
+      "board": "main",
+      "name": "中国独立开发者项目列表（网页版）",
+      "intro": "基于本列表数据制作的网页版，开源",
+      "introMarkdown": "基于本列表数据制作的网页版，开源 - [更多介绍](https://github.com/kisslove/chinese-independent-developer-site)",
+      "status": "live",
+      "date": "2024-01-05",
+      "url": "https://developer.hubing.online/home",
+      "author": "peacefullmind",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/peacefullmind"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "ffbb02c39049",
+      "board": "main",
+      "name": "独立星球",
+      "intro": "中国独立开发者作品集，按项目浏览与发现",
+      "introMarkdown": "中国独立开发者作品集，按项目浏览与发现 - [更多介绍](https://github.com/zhulin025/chinese-independent-developer)",
+      "status": "live",
+      "date": "2024-01-05",
+      "url": "https://du.liuwa.xyz/",
+      "author": "peacefullmind",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/peacefullmind"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "050bf7836259",
+      "board": "main",
+      "name": "独立观察",
+      "intro": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "introMarkdown": "把本列表整理成可搜索、可追踪更新的浏览器看板 - [更多介绍](https://github.com/lei1024/chinese-independent-developer-report)",
+      "status": "live",
+      "date": "2024-01-05",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "author": "peacefullmind",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/peacefullmind"
         }
       ],
       "likes": 0,
