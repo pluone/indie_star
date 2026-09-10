@@ -1,16 +1,130 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-10T11:35:51.733Z",
-    "statsSyncedAt": "2026-09-10T11:35:51.733Z",
-    "upstreamSha": "562c69e9da5f36ed7a3fd0592112ad145292b53c",
+    "contentSyncedAt": "2026-09-10T11:40:55.866Z",
+    "statsSyncedAt": "2026-09-10T11:40:55.866Z",
+    "upstreamSha": "f2a1a3d7486d6fa811125bee6a86a66f0b3b0786",
     "counts": {
-      "main": 1640,
-      "game": 125,
+      "main": 1646,
+      "game": 127,
       "programmer": 319,
-      "total": 2084
+      "total": 2092
     }
   },
   "main": [
+    {
+      "slug": "0ab50e9b7f0e",
+      "board": "main",
+      "name": "PicLocation",
+      "intro": "AI 照片地理定位工具（免费），上传照片即返回 GPS 坐标、城市和国家，不依赖 EXIF 纯视觉识别，截图和被抹掉元数据的照片也能定位，无需注册",
+      "introMarkdown": "AI 照片地理定位工具（免费），上传照片即返回 GPS 坐标、城市和国家，不依赖 EXIF 纯视觉识别，截图和被抹掉元数据的照片也能定位，无需注册",
+      "status": "live",
+      "date": "2026-09-10",
+      "url": "https://piclocation.com/?utm_source=zh_github",
+      "author": "RickyLee",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/LeedwA"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "a53a19aba63e",
+      "board": "main",
+      "name": "Find Key & BPM",
+      "intro": "浏览器本地估算 MP3/WAV 的调性、Camelot 和 BPM，音频不上传、无需注册",
+      "introMarkdown": "浏览器本地估算 MP3/WAV 的调性、Camelot 和 BPM，音频不上传、无需注册",
+      "status": "live",
+      "date": "2026-09-10",
+      "url": "https://findkeybpm.com/",
+      "author": "Muke",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/muke1838-cloud"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "61b2f5cab78e",
+      "board": "main",
+      "name": "AIradar · AI 订阅价格雷达",
+      "intro": "AI 订阅比价工具，按产品、交付方式、期限和币种筛选公开报价，支持地区价格参考、目标价与到期提醒",
+      "introMarkdown": "AI 订阅比价工具，按产品、交付方式、期限和币种筛选公开报价，支持地区价格参考、目标价与到期提醒 - [使用说明](https://airadar.vip/help/compare-prices)",
+      "status": "live",
+      "date": "2026-09-10",
+      "url": "https://airadar.vip/",
+      "author": "superwang",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lincwang123-bot"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "90a8e6548e49",
+      "board": "main",
+      "name": "素刀",
+      "intro": "创作者的生产力工具，素材界的瑞士军刀；用一句话，找回你散落在硬盘里的每一帧灵感",
+      "introMarkdown": "创作者的生产力工具，素材界的瑞士军刀；用一句话，找回你散落在硬盘里的每一帧灵感",
+      "status": "live",
+      "date": "2026-09-10",
+      "url": "https://clipknife.cn/",
+      "author": "浅浅海鸥",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/qianqianhaiou"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "140b1b00bdfd",
+      "board": "main",
+      "name": "AI 智能快照",
+      "intro": "AI 智能快照：截屏、录屏、录音、OCR 识字和标注，一个 App 完成",
+      "introMarkdown": "AI 智能快照：截屏、录屏、录音、OCR 识字和标注，一个 App 完成",
+      "status": "live",
+      "date": "2026-09-10",
+      "url": "https://apps.apple.com/cn/app/ai-smart-snapshot/id6796251282?mt=12",
+      "author": "张赛东",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/adong666666"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "c9d9fe2726aa",
+      "board": "main",
+      "name": "OPC 情报站",
+      "intro": "一人公司（OPC）资讯聚合站，收录 80 条政策动向、创业案例与生态工具情报，支持 9 大分类筛选、全文搜索与热度排行，纯静态打开即用，无需注册",
+      "introMarkdown": "一人公司（OPC）资讯聚合站，收录 80 条政策动向、创业案例与生态工具情报，支持 9 大分类筛选、全文搜索与热度排行，纯静态打开即用，无需注册 - [GitHub 仓库](https://github.com/WXzhongwang/opc-radar)",
+      "status": "live",
+      "date": "2026-09-10",
+      "url": "https://wxzhongwang.github.io/opc-radar/",
+      "author": "WXzhongwang",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/WXzhongwang"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "3a033f643469",
       "board": "main",
@@ -30019,6 +30133,44 @@
     }
   ],
   "game": [
+    {
+      "slug": "1f329da4b38a",
+      "board": "game",
+      "name": "Narinig Mo Ba? Fan Guide",
+      "intro": "Narinig Mo Ba? 在线游玩与独立玩家攻略站（免费），提供安全下载、玩法、流程、剧情解析和移动端状态",
+      "introMarkdown": "Narinig Mo Ba? 在线游玩与独立玩家攻略站（免费），提供安全下载、玩法、流程、剧情解析和移动端状态",
+      "status": "live",
+      "date": "2026-09-10",
+      "url": "https://narinigmoba.app/",
+      "author": "Felicia",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/littlePig-zzf"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "701dbeae89e9",
+      "board": "game",
+      "name": "Concentration Games",
+      "intro": "专注力 / 脑力小游戏合集（免费），免注册、免下载，主打 concentration games，含 Schulte 表、Dual N-Back、反应速度测试等工具页",
+      "introMarkdown": "专注力 / 脑力小游戏合集（免费），免注册、免下载，主打 concentration games，含 Schulte 表、Dual N-Back、反应速度测试等工具页",
+      "status": "live",
+      "date": "2026-09-10",
+      "url": "https://concentrationgames.online/",
+      "author": "Kai",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kairye"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "25f509c9d87a",
       "board": "game",
