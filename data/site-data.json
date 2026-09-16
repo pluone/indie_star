@@ -1,16 +1,377 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-10T12:55:55.981Z",
-    "statsSyncedAt": "2026-09-10T12:55:55.981Z",
-    "upstreamSha": "7183d47bbd1bf2dfe98a7904a55d09d5060603e1",
+    "contentSyncedAt": "2026-09-16T00:57:45.398Z",
+    "statsSyncedAt": "2026-09-16T00:57:45.398Z",
+    "upstreamSha": "8d903093f11f316e01fb7817271e1034e4919489",
     "counts": {
-      "main": 1648,
-      "game": 127,
-      "programmer": 319,
-      "total": 2094
+      "main": 1667,
+      "game": 128,
+      "programmer": 323,
+      "total": 2118
     }
   },
   "main": [
+    {
+      "slug": "a3cd3a33a3c1",
+      "board": "main",
+      "name": "云播切片",
+      "intro": "全自动直播录制、归档与切片平台，开播自动录。市面上唯一一款支持录制弹幕、录制礼物特效和直播间界面完整画面的云平台，云端实时监控与分段保存，方便直播复盘、高清 1080p 直播切片与素材剪辑",
+      "introMarkdown": "全自动直播录制、归档与切片平台，开播自动录。市面上唯一一款支持录制弹幕、录制礼物特效和直播间界面完整画面的云平台，云端实时监控与分段保存，方便直播复盘、高清 1080p 直播切片与素材剪辑",
+      "status": "live",
+      "date": "2026-09-15",
+      "url": "https://live.zyue.wiki/",
+      "author": "lizhongyue248",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lizhongyue248"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "e3db2b8cc88f",
+      "board": "main",
+      "name": "PICWALL",
+      "intro": "AI 图片与视频提示词库，按作品、媒体类型与风格标签浏览灵感",
+      "introMarkdown": "AI 图片与视频提示词库，按作品、媒体类型与风格标签浏览灵感",
+      "status": "live",
+      "date": "2026-09-15",
+      "url": "https://picwall.dpdns.org",
+      "author": "xulovemin",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xulovemin"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "cbeae50b6e11",
+      "board": "main",
+      "name": "hippoxOS",
+      "intro": "一款真正意义上的 LLM 操作系统，内置 6 个子系统，统一由自然语言控制：通用对话计算机控制系统、完整的视频编辑系统（自研 NLE 引擎）、金融数据分析系统、地理信息系统、代码编辑系统、3D 沙盒系统",
+      "introMarkdown": "一款真正意义上的 LLM 操作系统，内置 6 个子系统，统一由自然语言控制：通用对话计算机控制系统、完整的视频编辑系统（自研 NLE 引擎）、金融数据分析系统、地理信息系统、代码编辑系统、3D 沙盒系统 - [GitHub 仓库](https://github.com/HippoxHQ/hippoxOS)",
+      "status": "live",
+      "date": "2026-09-15",
+      "url": "https://hippoxos.vercel.app/",
+      "author": "0xhappyboy",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/0xhappyboy"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "8b898a44039d",
+      "board": "main",
+      "name": "小麦 Mika",
+      "intro": "AI 营销工作台，提交目标和材料，生成竞品研究、内容文稿或执行方案，支持查看进度、修订和导出",
+      "introMarkdown": "AI 营销工作台，提交目标和材料，生成竞品研究、内容文稿或执行方案，支持查看进度、修订和导出",
+      "status": "live",
+      "date": "2026-09-14",
+      "url": "https://mktskill.com/",
+      "author": "fffffrost",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fffffrost"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4b519bb1bbea",
+      "board": "main",
+      "name": "Excel 表格工具",
+      "intro": "浏览器端 Excel/PDF 数据处理工具，上传多个来源后配置字段匹配、预览组合结果并导出新的工作簿",
+      "introMarkdown": "浏览器端 Excel/PDF 数据处理工具，上传多个来源后配置字段匹配、预览组合结果并导出新的工作簿 - [GitHub 仓库](https://github.com/WuZhaohui1993/excel-composer-public)",
+      "status": "live",
+      "date": "2026-09-14",
+      "url": "http://43.156.229.191:3001/",
+      "author": "wuzhaohui",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/WuZhaohui1993"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "8cea95977950",
+      "board": "main",
+      "name": "TideLink",
+      "intro": "已有 OpenAI SDK 代码无需改动，一个 API key 即可调用 GLM/Qwen/DeepSeek/Hunyuan/Doubao 多家国产大模型；网关自动故障转移，免信用卡免费起步",
+      "introMarkdown": "已有 OpenAI SDK 代码无需改动，一个 API key 即可调用 GLM/Qwen/DeepSeek/Hunyuan/Doubao 多家国产大模型；网关自动故障转移，免信用卡免费起步 - [更多介绍](https://github.com/tidelink88/tidelink-opensource)",
+      "status": "live",
+      "date": "2026-09-14",
+      "url": "https://tidelink.xyz",
+      "author": "tidelink88",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tidelink88"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "318ec9afd4db",
+      "board": "main",
+      "name": "Image to ASCII",
+      "intro": "图片转 ASCII 字符画工具，免费无需注册，图片在浏览器本地处理；可调整字符样式、细节和颜色，复制文本或 Markdown，导出 TXT、PNG、SVG 等格式，用于 README、聊天字符画和复古封面",
+      "introMarkdown": "图片转 ASCII 字符画工具，免费无需注册，图片在浏览器本地处理；可调整字符样式、细节和颜色，复制文本或 Markdown，导出 TXT、PNG、SVG 等格式，用于 README、聊天字符画和复古封面",
+      "status": "live",
+      "date": "2026-09-13",
+      "url": "https://imagetoascii.art/",
+      "author": "Lucas-CX",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Lucas-CX"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "70e5f201a814",
+      "board": "main",
+      "name": "剪蛋 Jiandan",
+      "intro": "Windows 截图导入辅助工具，将剪贴板图片通过 Ctrl+V 送进剪映专业版，减少另存图片和查找文件；首次需邮箱验证码登录，图片本地处理不上传",
+      "introMarkdown": "Windows 截图导入辅助工具，将剪贴板图片通过 Ctrl+V 送进剪映专业版，减少另存图片和查找文件；首次需邮箱验证码登录，图片本地处理不上传 - [更多介绍](https://github.com/SKYCHENV/Jiandan)",
+      "status": "live",
+      "date": "2026-09-13",
+      "url": "https://www.jiandan.qd.je/",
+      "author": "SKYCHENV",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/SKYCHENV"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "7877d5ba604f",
+      "board": "main",
+      "name": "pet memorial portrait",
+      "intro": "宠物纪念海报生成器",
+      "introMarkdown": "宠物纪念海报生成器",
+      "status": "live",
+      "date": "2026-09-13",
+      "url": "https://aipetmemorialportrait.com/",
+      "author": "hwlvipone",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hwlvipone"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "e8d2688be420",
+      "board": "main",
+      "name": "1980s AI Photo",
+      "intro": "上传一张个人照片，保留面部特征，一键生成逼真的 1980 年代复古肖像；首张可免费生成",
+      "introMarkdown": "上传一张个人照片，保留面部特征，一键生成逼真的 1980 年代复古肖像；首张可免费生成",
+      "status": "live",
+      "date": "2026-09-12",
+      "url": "https://1980saiphoto.com",
+      "author": "littlePig-zzf",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/littlePig-zzf"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "713e859f1005",
+      "board": "main",
+      "name": "IELTS Writing Practice",
+      "intro": "雅思写作练习平台，提供 Task 1 / Task 2 题库、模拟写作、AI 评分与逐句批改反馈",
+      "introMarkdown": "雅思写作练习平台，提供 Task 1 / Task 2 题库、模拟写作、AI 评分与逐句批改反馈",
+      "status": "live",
+      "date": "2026-09-12",
+      "url": "https://ieltswritingpractice.app/",
+      "author": "Ian",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/iaminyu"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "53a2457c5a99",
+      "board": "main",
+      "name": "NanoAvatar",
+      "intro": "Android 数字人应用，用自己的录音在手机上驱动逼真、流畅的数字人，响应快，老款手机也可运行，录音体验可离线使用，无需 API key",
+      "introMarkdown": "Android 数字人应用，用自己的录音在手机上驱动逼真、流畅的数字人，响应快，老款手机也可运行，录音体验可离线使用，无需 API key - [更多介绍](https://github.com/wpydcr/NanoAvatar)",
+      "status": "live",
+      "date": "2026-09-12",
+      "url": "https://github.com/wpydcr/NanoAvatar/releases/latest",
+      "author": "wpydcr",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wpydcr"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "c705ac122066",
+      "board": "main",
+      "name": "神算阁 / Shen Suan Ge",
+      "intro": "AI 命理网页应用,塔罗/六爻/梅花/四柱/紫微 15+ 占卜方法,中英多语,纯 HTML 免构建开箱即用,支持 USDC 收款",
+      "introMarkdown": "AI 命理网页应用,塔罗/六爻/梅花/四柱/紫微 15+ 占卜方法,中英多语,纯 HTML 免构建开箱即用,支持 USDC 收款 - [更多介绍](https://github.com/breezesamuel/shenge-app)",
+      "status": "live",
+      "date": "2026-09-12",
+      "url": "https://breezesamuel.github.io/ssg-sites/zh/",
+      "author": "breezesamuel",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/breezesamuel"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "8b3fa5cdd21b",
+      "board": "main",
+      "name": "UI Design Agent Kit 作品展厅",
+      "intro": "AI 设计工作流产出的界面作品展厅，收录 11 个带验收记录的案例，「地铁疾行」3D 跑酷与「积木小工坊」3D 拼搭可以直接上手玩",
+      "introMarkdown": "AI 设计工作流产出的界面作品展厅，收录 11 个带验收记录的案例，「地铁疾行」3D 跑酷与「积木小工坊」3D 拼搭可以直接上手玩 - [更多介绍](https://github.com/muzimu217/ui-design-agent-kit)",
+      "status": "live",
+      "date": "2026-09-12",
+      "url": "https://agent.kcos.club/",
+      "author": "muzimu217",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/muzimu217"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "1a4a95463c80",
+      "board": "main",
+      "name": "TokenTracker / 纸账",
+      "intro": "Mac 菜单栏 Agent 状态工具与本地用量账本，查看 Claude Code、Codex 等工具的活动，接收受支持 Hook 的完成或待处理提醒，按工具、模型、项目筛选 Token 记录并导出 CSV",
+      "introMarkdown": "Mac 菜单栏 Agent 状态工具与本地用量账本，查看 Claude Code、Codex 等工具的活动，接收受支持 Hook 的完成或待处理提醒，按工具、模型、项目筛选 Token 记录并导出 CSV",
+      "status": "live",
+      "date": "2026-09-12",
+      "url": "https://www.yoquai.com/",
+      "author": "yoqu",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yoqu"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "89320bdecfec",
+      "board": "main",
+      "name": "Trim 订阅扫雷器",
+      "intro": "订阅账单分析工具，导入支付宝/微信账单自动识别自动续费、算出年度订阅支出与可省金额；账单不上传，识别全在浏览器本地完成，免费无需注册",
+      "introMarkdown": "订阅账单分析工具，导入支付宝/微信账单自动识别自动续费、算出年度订阅支出与可省金额；账单不上传，识别全在浏览器本地完成，免费无需注册",
+      "status": "live",
+      "date": "2026-09-12",
+      "url": "https://leilosss.github.io/",
+      "author": "leilosss",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/leilosss"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "7f02f660c0d3",
+      "board": "main",
+      "name": "工程数据驾驶舱",
+      "intro": "工程项目数据驾驶舱，把 SQL、HTTP、JSON 和 WebSocket 数据拖拽编排为可发布、可回滚的大屏，支持实时刷新和只读分享",
+      "introMarkdown": "工程项目数据驾驶舱，把 SQL、HTTP、JSON 和 WebSocket 数据拖拽编排为可发布、可回滚的大屏，支持实时刷新和只读分享 - [个人作品集](http://43.156.229.191:8080/portfolio/)",
+      "status": "live",
+      "date": "2026-09-12",
+      "url": "http://43.156.229.191:8080/",
+      "author": "wuzhaohui",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/WuZhaohui1993"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "760f108810c2",
+      "board": "main",
+      "name": "VoiceCloner",
+      "intro": "使用自己的声音，将文字转成语音；每天免费额度，不注册也可使用",
+      "introMarkdown": "使用自己的声音，将文字转成语音；每天免费额度，不注册也可使用",
+      "status": "live",
+      "date": "2026-09-11",
+      "url": "https://voicecloner.org/",
+      "author": "LongAotian",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/chenchuxin"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "2d72ef7b7b6b",
+      "board": "main",
+      "name": "C2Anime",
+      "intro": "AI 动画创作助手（AI Anime Agent），把故事和小说片段变成有对白、有声音的动画短片，无需动画制作经验",
+      "introMarkdown": "AI 动画创作助手（AI Anime Agent），把故事和小说片段变成有对白、有声音的动画短片，无需动画制作经验",
+      "status": "live",
+      "date": "2026-09-11",
+      "url": "https://c2anime.com/",
+      "author": "C2Anime Team",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/codaaiteam"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "dc7efad4b1f6",
       "board": "main",
@@ -148,11 +509,11 @@
       "slug": "c9d9fe2726aa",
       "board": "main",
       "name": "OPC 情报站",
-      "intro": "一人公司（OPC）资讯聚合站，收录 80 条政策动向、创业案例与生态工具情报，支持 9 大分类筛选、全文搜索与热度排行，纯静态打开即用，无需注册",
-      "introMarkdown": "一人公司（OPC）资讯聚合站，收录 80 条政策动向、创业案例与生态工具情报，支持 9 大分类筛选、全文搜索与热度排行，纯静态打开即用，无需注册 - [GitHub 仓库](https://github.com/WXzhongwang/opc-radar)",
+      "intro": "一人公司（OPC）资讯聚合站，收录 82 条政策动向、创业案例与生态工具情报，支持 9 大分类筛选、全文搜索与热度排行，纯静态打开即用，无需注册",
+      "introMarkdown": "一人公司（OPC）资讯聚合站，收录 82 条政策动向、创业案例与生态工具情报，支持 9 大分类筛选、全文搜索与热度排行，纯静态打开即用，无需注册 - [GitHub 仓库](https://github.com/WXzhongwang/opc-radar)",
       "status": "live",
       "date": "2026-09-10",
-      "url": "https://wxzhongwang.github.io/opc-radar/",
+      "url": "https://opc-radar.pages.dev/",
       "author": "WXzhongwang",
       "authorLinks": [
         {
@@ -30172,6 +30533,25 @@
   ],
   "game": [
     {
+      "slug": "aecfc540e0fa",
+      "board": "game",
+      "name": "wqnlll 游戏中心",
+      "intro": "免费在线小游戏合集（6 款原创游戏），免注册免下载、浏览器打开即玩，含用打砖块记 222 个英语单词的背单词游戏和红警风格 RTS",
+      "introMarkdown": "免费在线小游戏合集（6 款原创游戏），免注册免下载、浏览器打开即玩，含用打砖块记 222 个英语单词的背单词游戏和红警风格 RTS",
+      "status": "live",
+      "date": "2026-09-14",
+      "url": "https://wqnlll.github.io",
+      "author": "wqnlll",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wqnlll"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "1f329da4b38a",
       "board": "game",
       "name": "Narinig Mo Ba? Fan Guide",
@@ -32572,6 +32952,82 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "490904e40618",
+      "board": "programmer",
+      "name": "RepoAtlas",
+      "intro": "本地优先的 AI 编程项目工作台，把散落的代码仓库、Claude Code / Codex / OpenCode / Cursor 等 8 个 Coding Agent 会话和常用开发任务集中管理；支持跨 Agent 搜索并恢复历史会话、运行构建/测试任务，数据保存在本机 — MIT 开源，提供 Windows 安装包",
+      "introMarkdown": "本地优先的 AI 编程项目工作台，把散落的代码仓库、Claude Code / Codex / OpenCode / Cursor 等 8 个 Coding Agent 会话和常用开发任务集中管理；支持跨 Agent 搜索并恢复历史会话、运行构建/测试任务，数据保存在本机 — MIT 开源，提供 Windows 安装包",
+      "status": "live",
+      "date": "2026-09-14",
+      "url": "https://github.com/Wujerry/RepoAtlas",
+      "author": "Wujerry",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Wujerry"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "bf3c87d57869",
+      "board": "programmer",
+      "name": "vibepanel",
+      "intro": "自托管的 AI 编程会话面板，在浏览器和手机上同时管理多个 Claude Code / Codex 会话，面板重启或断网时 agent 照样运行",
+      "introMarkdown": "自托管的 AI 编程会话面板，在浏览器和手机上同时管理多个 Claude Code / Codex 会话，面板重启或断网时 agent 照样运行",
+      "status": "live",
+      "date": "2026-09-14",
+      "url": "https://github.com/jiangmuran/vibepanel",
+      "author": "jiangmuran",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jiangmuran"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "dda4ff890378",
+      "board": "programmer",
+      "name": "MOVO",
+      "intro": "基于 DeepSeek Harness 构建的自托管企业级 Agent 平台，提供 Web 工作空间、企业知识库、深度研究、内容与文件生成、Skills、MCP、权限治理和 Docker 一键部署",
+      "introMarkdown": "基于 DeepSeek Harness 构建的自托管企业级 Agent 平台，提供 Web 工作空间、企业知识库、深度研究、内容与文件生成、Skills、MCP、权限治理和 Docker 一键部署 - [官网](https://www.himovo.com)",
+      "status": "live",
+      "date": "2026-09-14",
+      "url": "https://github.com/himovo/movo",
+      "author": "juncheng-zheng",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/juncheng-zheng"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "dfa83dba4a99",
+      "board": "programmer",
+      "name": "DeliverKit",
+      "intro": "给 AI Agent 用的交付 MCP，把产品打包成各生态安装包的知识、可评审计划和真实产物串成一条链路——Linux deb/rpm/AppImage 已跑通真实构建和干净容器安装运行验证，Windows/macOS/鸿蒙按契约调度到对应 CI runner 产出；npx -y deliverkit-mcp 一条命令接入 Claude Code、Cursor 等客户端，MIT 开源 TypeScript",
+      "introMarkdown": "给 AI Agent 用的交付 MCP，把产品打包成各生态安装包的知识、可评审计划和真实产物串成一条链路——Linux deb/rpm/AppImage 已跑通真实构建和干净容器安装运行验证，Windows/macOS/鸿蒙按契约调度到对应 CI runner 产出；npx -y deliverkit-mcp 一条命令接入 Claude Code、Cursor 等客户端，MIT 开源 TypeScript - [站点与上手](https://muzimu217.github.io/DeliverKit/)",
+      "status": "live",
+      "date": "2026-09-12",
+      "url": "https://github.com/muzimu217/DeliverKit",
+      "author": "muzimu217",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/muzimu217"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "88e09fab9f8b",
       "board": "programmer",
