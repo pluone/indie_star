@@ -22,8 +22,8 @@ const UPSTREAM_BRANCH = "master";
 // board key -> upstream file path (mirrors the 3 upstream README files 1:1)
 const FILES = [
   { file: "README.md", board: "main" },
-  { file: "pages/README-Game.md", board: "game" },
-  { file: "pages/README-Programmer-Edition.md", board: "programmer" },
+  { file: ".github/pages/README-Game.md", board: "game" },
+  { file: ".github/pages/README-Programmer-Edition.md", board: "programmer" },
 ];
 
 const STATUS_MAP = {
