@@ -175,8 +175,6 @@ npm run deploy
 |---|---|
 | `GITHUB_PAT` | fine-grained PAT,仓库范围**只选 `pluone/indie_star`**,权限只需两项:`Contents: Read`(读 `data/upstream.json`)+ `Actions: Read and write`(派发 workflow)。**不需要任何上游仓库的权限** —— 上游 SHA 走公开 Atom feed。 |
 
-> ⚠️ **PAT 会过期**(fine-grained 上限 1 年)。过期后这条链路会**静默失效**:站点不会报错,只是数据停在某天不动了,唯一的兜底是每天那次定时同步(而它自己也可能被 60 天规则停掉)。建议在日历上记一下到期日。
-
 调试:`cd worker && npm run dev`(`wrangler dev --test-scheduled`,可手动触发一次 cron),线上日志用 `npm run tail`。
 
 ## 前置依赖:giscus
