@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-17T02:16:20.579Z",
-    "statsSyncedAt": "2026-09-17T02:16:20.579Z",
-    "upstreamSha": "b89fab28afacd9ba68e327ddd3074bf4524e6c37",
+    "contentSyncedAt": "2026-09-17T02:21:32.495Z",
+    "statsSyncedAt": "2026-09-17T02:21:32.495Z",
+    "upstreamSha": "035be371e58aa5817672b22f25ea0d4ac022092b",
     "counts": {
       "main": 1667,
-      "game": 129,
+      "game": 130,
       "programmer": 323,
-      "total": 2119
+      "total": 2120
     }
   },
   "main": [
@@ -30532,6 +30532,25 @@
     }
   ],
   "game": [
+    {
+      "slug": "fedfc6f33d70",
+      "board": "game",
+      "name": "停一刻",
+      "intro": "给交易者的三分钟休息站，管不住手的时候按流程走：30 秒安顿 → 60-90 秒小游戏 → 60 秒收尾；十个 30-90 秒小游戏分三类（情绪降温 / 注意力切换 / 规则与冲动，含舒尔特方格、Stroop、Go/No-Go），亏损后想立刻做下一笔时有专门的高风险暂停流程，不显示行情不给建议，记录只存本机，无需注册",
+      "introMarkdown": "给交易者的三分钟休息站，管不住手的时候按流程走：30 秒安顿 → 60-90 秒小游戏 → 60 秒收尾；十个 30-90 秒小游戏分三类（情绪降温 / 注意力切换 / 规则与冲动，含舒尔特方格、Stroop、Go/No-Go），亏损后想立刻做下一笔时有专门的高风险暂停流程，不显示行情不给建议，记录只存本机，无需注册",
+      "status": "live",
+      "date": "2026-09-17",
+      "url": "https://calm.tradershelf.com/",
+      "author": "the-beating-light-of-the-nail",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/the-beating-light-of-the-nail"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "0f1ea000dd24",
       "board": "game",
