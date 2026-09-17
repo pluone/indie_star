@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-17T09:46:41.560Z",
-    "statsSyncedAt": "2026-09-17T09:46:41.560Z",
-    "upstreamSha": "b431cab94baf307fcec6ea8a177d6e971d37f1e3",
+    "contentSyncedAt": "2026-09-17T14:31:38.964Z",
+    "statsSyncedAt": "2026-09-17T14:31:38.964Z",
+    "upstreamSha": "bb230eea6c5b3ee4be6ebbf4438199d8264bf86c",
     "counts": {
       "main": 1670,
       "game": 130,
-      "programmer": 323,
-      "total": 2123
+      "programmer": 324,
+      "total": 2124
     }
   },
   "main": [
@@ -33047,6 +33047,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "bec7bff2f9bb",
+      "board": "programmer",
+      "name": "agent-isles",
+      "intro": "把 AI 编程 Agent 放进可探索的 3D 小岛，让用户在与居民协作、完成真实项目的过程中，玩着玩着就学会使用 Agent；本地运行，开源，支持自带模型密钥",
+      "introMarkdown": "把 AI 编程 Agent 放进可探索的 3D 小岛，让用户在与居民协作、完成真实项目的过程中，玩着玩着就学会使用 Agent；本地运行，开源，支持自带模型密钥 - [项目介绍](https://qiuner.github.io/agent-isles/)",
+      "status": "developing",
+      "date": "2026-09-17",
+      "url": "https://github.com/Qiuner/agent-isles",
+      "author": "Qiu",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Qiuner"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "490904e40618",
       "board": "programmer",
