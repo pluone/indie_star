@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-17T02:21:32.495Z",
-    "statsSyncedAt": "2026-09-17T02:21:32.495Z",
-    "upstreamSha": "035be371e58aa5817672b22f25ea0d4ac022092b",
+    "contentSyncedAt": "2026-09-17T09:46:41.560Z",
+    "statsSyncedAt": "2026-09-17T09:46:41.560Z",
+    "upstreamSha": "b431cab94baf307fcec6ea8a177d6e971d37f1e3",
     "counts": {
-      "main": 1667,
+      "main": 1670,
       "game": 130,
       "programmer": 323,
-      "total": 2120
+      "total": 2123
     }
   },
   "main": [
+    {
+      "slug": "292985353cb2",
+      "board": "main",
+      "name": "人人都是OPC",
+      "intro": "一人公司（OPC）中文知识库，聚合创业案例、变现教程、工具推荐、政策解读与开源项目",
+      "introMarkdown": "一人公司（OPC）中文知识库，聚合创业案例、变现教程、工具推荐、政策解读与开源项目",
+      "status": "live",
+      "date": "2026-09-17",
+      "url": "https://opcwiki.net/",
+      "author": "chyf",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/chyf"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "beab2a70a99c",
+      "board": "main",
+      "name": "PlayIQ",
+      "intro": "用 AI 帮橄榄球教练自动分析比赛录像，识别阵型与跑位，战术板与录像同步播放，自动生成球探报告",
+      "introMarkdown": "用 AI 帮橄榄球教练自动分析比赛录像，识别阵型与跑位，战术板与录像同步播放，自动生成球探报告",
+      "status": "live",
+      "date": "2026-09-17",
+      "url": "https://theplayiq.com",
+      "author": "Wesley",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/westlinkin"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "6ef48867594d",
+      "board": "main",
+      "name": "iloveepub",
+      "intro": "浏览器 EPUB 工具（免费），支持压缩、合并、拆分与转换，文件全部在设备本地处理，绝不上传",
+      "introMarkdown": "浏览器 EPUB 工具（免费），支持压缩、合并、拆分与转换，文件全部在设备本地处理，绝不上传",
+      "status": "live",
+      "date": "2026-09-17",
+      "url": "https://iloveepub.com",
+      "author": "Selenium39",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Selenium39"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "a3cd3a33a3c1",
       "board": "main",
