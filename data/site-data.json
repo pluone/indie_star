@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-17T14:31:38.964Z",
-    "statsSyncedAt": "2026-09-17T14:31:38.964Z",
-    "upstreamSha": "bb230eea6c5b3ee4be6ebbf4438199d8264bf86c",
+    "contentSyncedAt": "2026-09-17T14:41:33.561Z",
+    "statsSyncedAt": "2026-09-17T14:41:33.561Z",
+    "upstreamSha": "4486380d5cc7fae604818d3bc0030cf23cccbfc1",
     "counts": {
       "main": 1670,
       "game": 130,
-      "programmer": 324,
-      "total": 2124
+      "programmer": 325,
+      "total": 2125
     }
   },
   "main": [
@@ -33047,6 +33047,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "6ed30e6587ec",
+      "board": "programmer",
+      "name": "Birdview",
+      "intro": "AI 编程 Agent 的架构可视化 Skill，在改代码前生成项目架构图，标出计划触碰的模块、文件及对应源码证据；结果输出为无需部署的独立交互式 HTML，支持 Codex、Claude Code 与 DeepSeek Harness",
+      "introMarkdown": "AI 编程 Agent 的架构可视化 Skill，在改代码前生成项目架构图，标出计划触碰的模块、文件及对应源码证据；结果输出为无需部署的独立交互式 HTML，支持 Codex、Claude Code 与 DeepSeek Harness - [源码与安装说明](https://github.com/Qiuner/birdview)",
+      "status": "live",
+      "date": "2026-09-17",
+      "url": "https://qiuner.github.io/birdview/",
+      "author": "Qiuner",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Qiuner"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "bec7bff2f9bb",
       "board": "programmer",
