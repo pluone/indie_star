@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-16T23:28:17.429Z",
-    "statsSyncedAt": "2026-09-16T23:28:17.429Z",
-    "upstreamSha": "8d903093f11f316e01fb7817271e1034e4919489",
+    "contentSyncedAt": "2026-09-17T02:16:20.579Z",
+    "statsSyncedAt": "2026-09-17T02:16:20.579Z",
+    "upstreamSha": "b89fab28afacd9ba68e327ddd3074bf4524e6c37",
     "counts": {
       "main": 1667,
-      "game": 128,
+      "game": 129,
       "programmer": 323,
-      "total": 2118
+      "total": 2119
     }
   },
   "main": [
@@ -30532,6 +30532,25 @@
     }
   ],
   "game": [
+    {
+      "slug": "0f1ea000dd24",
+      "board": "game",
+      "name": "万象中枢 WXHub",
+      "intro": "《王者荣耀》王者万象棋一体化工具站，查卡、抄阵容、摆站位一个站搞定：85 英雄/78 装备/254 天赋/99 效果牌图鉴、64 套阵容一图流、拖拽站位编辑器（可导出 PNG）、禁阵营应对推演、Buff 词典与快速认卡，拼音首字母搜索，无需注册，数据来自官方卡牌库",
+      "introMarkdown": "《王者荣耀》王者万象棋一体化工具站，查卡、抄阵容、摆站位一个站搞定：85 英雄/78 装备/254 天赋/99 效果牌图鉴、64 套阵容一图流、拖拽站位编辑器（可导出 PNG）、禁阵营应对推演、Buff 词典与快速认卡，拼音首字母搜索，无需注册，数据来自官方卡牌库",
+      "status": "live",
+      "date": "2026-09-17",
+      "url": "https://wxq.whatsyour.fun/",
+      "author": "the-beating-light-of-the-nail",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/the-beating-light-of-the-nail"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "aecfc540e0fa",
       "board": "game",
