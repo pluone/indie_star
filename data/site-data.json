@@ -1,16 +1,92 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-18T02:51:23.660Z",
-    "statsSyncedAt": "2026-09-18T02:51:23.660Z",
-    "upstreamSha": "fa388c268ce01f995c685bcdf252b1f57c8cc62b",
+    "contentSyncedAt": "2026-09-18T17:26:39.875Z",
+    "statsSyncedAt": "2026-09-18T17:26:39.875Z",
+    "upstreamSha": "0ec81d23c68d50a47f026c2bedb4e880ecfbcdf2",
     "counts": {
-      "main": 1671,
+      "main": 1675,
       "game": 132,
-      "programmer": 325,
-      "total": 2128
+      "programmer": 327,
+      "total": 2134
     }
   },
   "main": [
+    {
+      "slug": "845519eba158",
+      "board": "main",
+      "name": "Unit Converter for Science",
+      "intro": "面向科研、工程与教育的免费多语言单位换算工具，提供公式、换算因子和逐步推导，覆盖 11 类单位",
+      "introMarkdown": "面向科研、工程与教育的免费多语言单位换算工具，提供公式、换算因子和逐步推导，覆盖 11 类单位",
+      "status": "live",
+      "date": "2026-09-19",
+      "url": "https://www.unitconv.top",
+      "author": "Merrick",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/shi891018"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "abd4f1ef2a2c",
+      "board": "main",
+      "name": "Color Season AI",
+      "intro": "AI 个人色彩季型分析工具，上传一张自拍即得 12 季型判定与专属色板，附带发型、发色、妆容试戴和脸型识别，免费无需注册",
+      "introMarkdown": "AI 个人色彩季型分析工具，上传一张自拍即得 12 季型判定与专属色板，附带发型、发色、妆容试戴和脸型识别，免费无需注册 - [方法说明](https://colorseasonai.com/dashboard) - [Chrome 插件](https://colorseasonai.com/color-season-chrome-extension)",
+      "status": "live",
+      "date": "2026-09-19",
+      "url": "https://colorseasonai.com",
+      "author": "Aiyi",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/XQ0820"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "46456e45c243",
+      "board": "main",
+      "name": "Random Animal Generator",
+      "intro": "随机动物混搭生成器，把真实动物的 11 个身体部位随机拼成虚构生物，可锁定喜欢的部位只换其余、按可爱/恐怖/神话等主题预设生成，自动起名并给出 AI 绘画提示词，每天免费 AI 出图，无需注册",
+      "introMarkdown": "随机动物混搭生成器，把真实动物的 11 个身体部位随机拼成虚构生物，可锁定喜欢的部位只换其余、按可爱/恐怖/神话等主题预设生成，自动起名并给出 AI 绘画提示词，每天免费 AI 出图，无需注册",
+      "status": "live",
+      "date": "2026-09-19",
+      "url": "https://randomanimalgen.com/",
+      "author": "Aiyi",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/XQ0820"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "9ed3b215f2e6",
+      "board": "main",
+      "name": "Jev AI",
+      "intro": "TypeSafe System One 模型的在线体验，对任意文本提是非题、选择题和评分题，直接返回校准过的概率与置信度，同一模型也可用 API key 调用",
+      "introMarkdown": "TypeSafe System One 模型的在线体验，对任意文本提是非题、选择题和评分题，直接返回校准过的概率与置信度，同一模型也可用 API key 调用",
+      "status": "live",
+      "date": "2026-09-19",
+      "url": "https://jev-ai.pro",
+      "author": "Jev AI",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "5e2410e6b21b",
       "board": "main",
@@ -8927,8 +9003,8 @@
       "slug": "5d45b4892898",
       "board": "main",
       "name": "cv.cm",
-      "intro": "免费在线剪贴板，无需注册，粘贴文本/图片/文件秒生成超短链接分享，内置 AI 视频与图像生成（Seedance 2.0）",
-      "introMarkdown": "免费在线剪贴板，无需注册，粘贴文本/图片/文件秒生成超短链接分享，内置 AI 视频与图像生成（Seedance 2.0）",
+      "intro": "浏览器本地 PDF、图片和二维码工具，文件不上传；另有阅后即焚云剪切板",
+      "introMarkdown": "浏览器本地 PDF、图片和二维码工具，文件不上传；另有阅后即焚云剪切板 - [GitHub 仓库](https://github.com/mantoufan/cvcm)",
       "status": "live",
       "date": "2026-06-05",
       "url": "https://cv.cm",
@@ -33104,6 +33180,44 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "d5182995b2f7",
+      "board": "programmer",
+      "name": "Agents Anywhere",
+      "intro": "跨设备 AI Agent 工作台，在桌面、原生移动端和 Web 访问 Codex、Claude Code 与 DeepSeek Harness，管理多台设备上的会话、文件和终端，MIT 开源，支持自部署",
+      "introMarkdown": "跨设备 AI Agent 工作台，在桌面、原生移动端和 Web 访问 Codex、Claude Code 与 DeepSeek Harness，管理多台设备上的会话、文件和终端，MIT 开源，支持自部署 - [源码与介绍](https://github.com/anywhere-labs/Agents-Anywhere)",
+      "status": "live",
+      "date": "2026-09-19",
+      "url": "https://www.agents-anywhere.com",
+      "author": "t4we fan",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/t4wefan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "3cc6dbff853c",
+      "board": "programmer",
+      "name": "OrcaReplay",
+      "intro": "给 AI 编程 Agent 装的「飞行记录仪」，夹在 Agent 和模型厂商之间把提示词、工具调用和原始字节原样录成本地 trace，之后完全离线重放这次运行来复现失败现场，不花一分 token",
+      "introMarkdown": "给 AI 编程 Agent 装的「飞行记录仪」，夹在 Agent 和模型厂商之间把提示词、工具调用和原始字节原样录成本地 trace，之后完全离线重放这次运行来复现失败现场，不花一分 token - [安装与使用](https://github.com/Continuum-AI-Corp/OrcaReplay#readme)",
+      "status": "live",
+      "date": "2026-09-18",
+      "url": "https://github.com/Continuum-AI-Corp/OrcaReplay",
+      "author": "OrcaReplay 维护者",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Continuum-AI-Corp"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "6ed30e6587ec",
       "board": "programmer",
