@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-18T22:57:34.957Z",
-    "statsSyncedAt": "2026-09-18T22:57:34.957Z",
-    "upstreamSha": "9363a6bfaac0ada9bbc53d31b7bea2077b9c7047",
+    "contentSyncedAt": "2026-09-19T03:26:27.876Z",
+    "statsSyncedAt": "2026-09-19T03:26:27.876Z",
+    "upstreamSha": "54c06739237e8b0194ea577efe41dc4967cb5ff5",
     "counts": {
-      "main": 1675,
+      "main": 1676,
       "game": 132,
       "programmer": 327,
-      "total": 2134
+      "total": 2135
     }
   },
   "main": [
+    {
+      "slug": "43e4d21268d3",
+      "board": "main",
+      "name": "Musuw",
+      "intro": "AI 知识库，把文档、网页和笔记整理成带引用的问答、Wiki 与知识图谱，方便回到原文核对",
+      "introMarkdown": "AI 知识库，把文档、网页和笔记整理成带引用的问答、Wiki 与知识图谱，方便回到原文核对 - [实际演示](https://musuw.com/zh/guides/citation-checks)",
+      "status": "live",
+      "date": "2026-09-19",
+      "url": "https://musuw.com/zh",
+      "author": "Jonie",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/estromeglovettgen-coder"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "845519eba158",
       "board": "main",
