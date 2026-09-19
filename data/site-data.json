@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-19T03:26:27.876Z",
-    "statsSyncedAt": "2026-09-19T03:26:27.876Z",
-    "upstreamSha": "54c06739237e8b0194ea577efe41dc4967cb5ff5",
+    "contentSyncedAt": "2026-09-19T03:51:22.600Z",
+    "statsSyncedAt": "2026-09-19T03:51:22.600Z",
+    "upstreamSha": "a52c27d2f092581dc34095bc2dd69a204f142c25",
     "counts": {
-      "main": 1676,
+      "main": 1677,
       "game": 132,
       "programmer": 327,
-      "total": 2135
+      "total": 2136
     }
   },
   "main": [
+    {
+      "slug": "a0f38c1cab49",
+      "board": "main",
+      "name": "ImageToImageAI",
+      "intro": "AI 图生图工具，上传图片并用一句话描述修改需求，即可生成产品图、室内设计、人像、贴纸等新图片；支持 GPT Image 2、Nano Banana 2、Nano Banana Pro 模型，中英双语，可免费试用",
+      "introMarkdown": "AI 图生图工具，上传图片并用一句话描述修改需求，即可生成产品图、室内设计、人像、贴纸等新图片；支持 GPT Image 2、Nano Banana 2、Nano Banana Pro 模型，中英双语，可免费试用",
+      "status": "live",
+      "date": "2026-09-19",
+      "url": "https://image-to-image-ai.app",
+      "author": "littlePig-zzf",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/littlePig-zzf"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "43e4d21268d3",
       "board": "main",
