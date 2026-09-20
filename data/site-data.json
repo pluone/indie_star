@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-20T05:21:36.871Z",
-    "statsSyncedAt": "2026-09-20T05:21:36.871Z",
-    "upstreamSha": "a6e476efdeaf87b63f4b72dd5c8c52057120a7eb",
+    "contentSyncedAt": "2026-09-20T06:31:48.892Z",
+    "statsSyncedAt": "2026-09-20T06:31:48.892Z",
+    "upstreamSha": "22d105adbbb90a02d5774b4cf6e6672666da91d4",
     "counts": {
-      "main": 1680,
+      "main": 1679,
       "game": 133,
       "programmer": 331,
-      "total": 2144
+      "total": 2143
     }
   },
   "main": [
@@ -25,25 +25,6 @@
         {
           "label": "Github",
           "url": "https://github.com/monsoonw"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1c414a18aabd",
-      "board": "main",
-      "name": "GithubStarMate",
-      "intro": "GitHub 项目展示与开发者互助平台，绑定自己的仓库后可浏览其他开发者的项目，通过 Star、Watch、Fork 参与互助换取曝光，也提供付费推广服务",
-      "introMarkdown": "GitHub 项目展示与开发者互助平台，绑定自己的仓库后可浏览其他开发者的项目，通过 Star、Watch、Fork 参与互助换取曝光，也提供付费推广服务",
-      "status": "live",
-      "date": "2026-09-20",
-      "url": "https://www.githubstarmate.com/zh-Hans",
-      "author": "adevelle",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/adevelle"
         }
       ],
       "likes": 0,
