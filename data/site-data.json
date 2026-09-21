@@ -1,16 +1,58 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-20T22:52:40.527Z",
-    "statsSyncedAt": "2026-09-20T22:52:40.527Z",
-    "upstreamSha": "22d105adbbb90a02d5774b4cf6e6672666da91d4",
+    "contentSyncedAt": "2026-09-21T02:16:18.155Z",
+    "statsSyncedAt": "2026-09-21T02:16:18.155Z",
+    "upstreamSha": "5ced85b0699b95248c777ccaf0374e3adfd43786",
     "counts": {
-      "main": 1679,
+      "main": 1681,
       "game": 133,
       "programmer": 331,
-      "total": 2143
+      "total": 2145
     }
   },
   "main": [
+    {
+      "slug": "9822fe359ae2",
+      "board": "main",
+      "name": "MelodyTrace",
+      "intro": "MP3 转 MIDI 工具（免费）：把声音，写成可编辑的音符",
+      "introMarkdown": "MP3 转 MIDI 工具（免费）：把声音，写成可编辑的音符 - [更多介绍](https://melodytrace.com/zh#features)",
+      "status": "live",
+      "date": "2026-09-21",
+      "url": "https://melodytrace.com/",
+      "author": "FlickerMi",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/FlickerMi"
+        },
+        {
+          "label": "博客",
+          "url": "https://notemi.cn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "6eb8df00dd6f",
+      "board": "main",
+      "name": "拼豆猫师傅-拼豆图纸工坊",
+      "intro": "把照片变成拼豆图纸的微信小程序，自动降色并标出每个格子该用哪个色号，转图在手机本地完成、原图不出设备",
+      "introMarkdown": "把照片变成拼豆图纸的微信小程序，自动降色并标出每个格子该用哪个色号，转图在手机本地完成、原图不出设备",
+      "status": "live",
+      "date": "2026-09-21",
+      "url": "https://github.com/user-attachments/assets/bbd960f3-3431-4123-a715-12fb1f29957a",
+      "author": "stormbuf",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/stormbuf"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "01c1324e95f5",
       "board": "main",
