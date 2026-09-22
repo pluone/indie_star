@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-22T00:51:32.698Z",
-    "statsSyncedAt": "2026-09-22T00:51:32.698Z",
-    "upstreamSha": "abbe22a95c29ef3cf30074d04562682480a3a53d",
+    "contentSyncedAt": "2026-09-22T01:21:23.681Z",
+    "statsSyncedAt": "2026-09-22T01:21:23.681Z",
+    "upstreamSha": "d5702a0a0d7dbdbee5f3a0d640a74e2418b86c9f",
     "counts": {
-      "main": 1682,
+      "main": 1683,
       "game": 134,
       "programmer": 331,
-      "total": 2147
+      "total": 2148
     }
   },
   "main": [
+    {
+      "slug": "5239c9f51e16",
+      "board": "main",
+      "name": "简历通 ResumeForge",
+      "intro": "本地运行的 AI 求职工作台，简历生成、岗位采集、投递追踪、面试复盘全流程，数据只存本机不上传，Windows 一键启动，开源免费",
+      "introMarkdown": "本地运行的 AI 求职工作台，简历生成、岗位采集、投递追踪、面试复盘全流程，数据只存本机不上传，Windows 一键启动，开源免费 - [查看仓库](https://github.com/magicapple123/ResumeForge)",
+      "status": "live",
+      "date": "2026-09-22",
+      "url": "https://magicapple123.github.io/ResumeForge-official/",
+      "author": "magicapple123",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/magicapple123"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "673863df50b6",
       "board": "main",
