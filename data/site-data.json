@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-22T06:46:39.808Z",
-    "statsSyncedAt": "2026-09-22T06:46:39.808Z",
-    "upstreamSha": "bf05967a7b440c3150fb3a80142ff9cd425757c0",
+    "contentSyncedAt": "2026-09-22T08:47:10.462Z",
+    "statsSyncedAt": "2026-09-22T08:47:10.462Z",
+    "upstreamSha": "f650e745362529bfad343d1b5fafcea8ede8ef07",
     "counts": {
       "main": 1683,
       "game": 134,
@@ -1197,8 +1197,8 @@
       "slug": "13d35bc3b356",
       "board": "main",
       "name": "热摸爽",
-      "intro": "全网热搜热榜聚合网站，一站查看微博、知乎、抖音、GitHub Trending 等 200+ 公开来源，支持科技、AI、财经等分类、跨平台事件合并和按日期回看历史热点 — 无需注册，打开即用",
-      "introMarkdown": "全网热搜热榜聚合网站，一站查看微博、知乎、抖音、GitHub Trending 等 200+ 公开来源，支持科技、AI、财经等分类、跨平台事件合并和按日期回看历史热点 — 无需注册，打开即用",
+      "intro": "中文全网热点聚合网站，把微博、知乎、今日头条、GitHub Trending、科技和财经等公开榜单整理到一处，提供跨平台热点、正在升温、历史热搜和 RSS",
+      "introMarkdown": "中文全网热点聚合网站，把微博、知乎、今日头条、GitHub Trending、科技和财经等公开榜单整理到一处，提供跨平台热点、正在升温、历史热搜和 RSS - [更多介绍](https://github.com/zjzno1/remoshuang)",
       "status": "live",
       "date": "2026-09-08",
       "url": "https://remoshuang.com/",
