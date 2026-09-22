@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-22T08:47:10.462Z",
-    "statsSyncedAt": "2026-09-22T08:47:10.462Z",
-    "upstreamSha": "f650e745362529bfad343d1b5fafcea8ede8ef07",
+    "contentSyncedAt": "2026-09-22T08:51:44.651Z",
+    "statsSyncedAt": "2026-09-22T08:51:44.651Z",
+    "upstreamSha": "71104a1f8a074e9f3351d01dfbb7551dbf737934",
     "counts": {
-      "main": 1683,
+      "main": 1684,
       "game": 134,
       "programmer": 331,
-      "total": 2148
+      "total": 2149
     }
   },
   "main": [
+    {
+      "slug": "b689b7ec8b09",
+      "board": "main",
+      "name": "精选副业",
+      "intro": "中文副业案例库，把公开的真实项目经历整理成可筛选的案例解读，可按平台、项目和技能查找，并查看成绩口径、适配条件、风险与原文入口",
+      "introMarkdown": "中文副业案例库，把公开的真实项目经历整理成可筛选的案例解读，可按平台、项目和技能查找，并查看成绩口径、适配条件、风险与原文入口",
+      "status": "live",
+      "date": "2026-09-22",
+      "url": "https://jingxuan-fuye.pages.dev/",
+      "author": "xiaoyaohou19910610-bit",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xiaoyaohou19910610-bit"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "964f2f54c7d1",
       "board": "main",
