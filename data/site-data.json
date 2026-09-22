@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-21T23:45:59.405Z",
-    "statsSyncedAt": "2026-09-21T23:45:59.405Z",
-    "upstreamSha": "5ced85b0699b95248c777ccaf0374e3adfd43786",
+    "contentSyncedAt": "2026-09-22T00:46:23.762Z",
+    "statsSyncedAt": "2026-09-22T00:46:23.762Z",
+    "upstreamSha": "b239319764c9d7e05dad37152b9952f6b407367a",
     "counts": {
-      "main": 1681,
+      "main": 1683,
       "game": 133,
       "programmer": 331,
-      "total": 2145
+      "total": 2147
     }
   },
   "main": [
+    {
+      "slug": "2c9ef64b47da",
+      "board": "main",
+      "name": "MLUE",
+      "intro": "面向多平台创作者的个人主页与工作台，把链接、作品和联系方式整理成一个可分享页面",
+      "introMarkdown": "面向多平台创作者的个人主页与工作台，把链接、作品和联系方式整理成一个可分享页面 - [更多介绍](https://mlue.cn/link-in-bio)",
+      "status": "live",
+      "date": "2026-09-21",
+      "url": "https://mlue.cn/",
+      "author": "NPH",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/BNHP-creater"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "9ae286ff8db3",
+      "board": "main",
+      "name": "SummarizeVideoToText",
+      "intro": "视频转文字工具，粘贴 YouTube、TikTok、Instagram、X 的链接就能拿到带时间戳的章节摘要和完整字幕稿，每句都能点回原视频对应的那一秒，免注册试用",
+      "introMarkdown": "视频转文字工具，粘贴 YouTube、TikTok、Instagram、X 的链接就能拿到带时间戳的章节摘要和完整字幕稿，每句都能点回原视频对应的那一秒，免注册试用 - [Chrome 扩展](https://summarizevideototext.com/zh/chrome-extension) - [Obsidian 插件](https://summarizevideototext.com/zh/obsidian-plugin)",
+      "status": "live",
+      "date": "2026-09-21",
+      "url": "https://summarizevideototext.com/zh",
+      "author": "犀利豆",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/diaozxin007"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "9822fe359ae2",
       "board": "main",
