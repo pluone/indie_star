@@ -1,16 +1,92 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-22T00:46:23.762Z",
-    "statsSyncedAt": "2026-09-22T00:46:23.762Z",
-    "upstreamSha": "b239319764c9d7e05dad37152b9952f6b407367a",
+    "contentSyncedAt": "2026-09-22T00:51:32.698Z",
+    "statsSyncedAt": "2026-09-22T00:51:32.698Z",
+    "upstreamSha": "abbe22a95c29ef3cf30074d04562682480a3a53d",
     "counts": {
-      "main": 1683,
-      "game": 133,
+      "main": 1682,
+      "game": 134,
       "programmer": 331,
       "total": 2147
     }
   },
   "main": [
+    {
+      "slug": "673863df50b6",
+      "board": "main",
+      "name": "Tancky AI",
+      "intro": "AI 图片合成与照片融合工具（免费），把多张图片拼合、混合成一张，浏览器打开即用",
+      "introMarkdown": "AI 图片合成与照片融合工具（免费），把多张图片拼合、混合成一张，浏览器打开即用",
+      "status": "live",
+      "date": "2026-09-22",
+      "url": "https://tancky.io/",
+      "author": "tancky777",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tancky777"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "db89d873124a",
+      "board": "main",
+      "name": "What Can Jev Do",
+      "intro": "Jev 模型的用法与项目收集站，汇总大家用 Jev 做出的实际案例、思路和代码示例",
+      "introMarkdown": "Jev 模型的用法与项目收集站，汇总大家用 Jev 做出的实际案例、思路和代码示例",
+      "status": "live",
+      "date": "2026-09-22",
+      "url": "https://whatcanjevdo.com/",
+      "author": "Jammy",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/chenminjie24"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "07746decae0b",
+      "board": "main",
+      "name": "听成文 AI",
+      "intro": "本地运行的音视频转写与摘要工具，粘贴 B 站 / 抖音链接或拖入本地文件，生成带时间轴的文稿、SRT / VTT 字幕和 AI 摘要，支持批量处理与说话人区分，文件和结果都不上传云端 — Windows 桌面软件",
+      "introMarkdown": "本地运行的音视频转写与摘要工具，粘贴 B 站 / 抖音链接或拖入本地文件，生成带时间轴的文稿、SRT / VTT 字幕和 AI 摘要，支持批量处理与说话人区分，文件和结果都不上传云端 — Windows 桌面软件",
+      "status": "live",
+      "date": "2026-09-22",
+      "url": "https://tingchengwen.com",
+      "author": "jian950718",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jian950718"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "909cc0b49176",
+      "board": "main",
+      "name": "GKMix",
+      "intro": "海外 VPS、AI 工具订阅与海外支付的实测指南站，每篇都跑真实数据并公开账单，不适合谁会直接写明",
+      "introMarkdown": "海外 VPS、AI 工具订阅与海外支付的实测指南站，每篇都跑真实数据并公开账单，不适合谁会直接写明",
+      "status": "live",
+      "date": "2026-09-22",
+      "url": "https://gkmix.com",
+      "author": "GK",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Charlielyo"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "2c9ef64b47da",
       "board": "main",
@@ -30664,175 +30740,76 @@
       "comments": 0
     },
     {
-      "slug": "a58bfb2a11b0",
-      "board": "main",
-      "name": "iconce",
-      "intro": "SVG 图标生成器",
-      "introMarkdown": "SVG 图标生成器",
-      "status": "live",
-      "date": "2024-01-18",
-      "url": "https://iconce.com",
-      "author": "yesmore",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/yesmore"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9db7d5f67cd3",
-      "board": "main",
-      "name": "DE好图壁纸",
-      "intro": "分享一些图片，壁纸的小程序",
-      "introMarkdown": "分享一些图片，壁纸的小程序",
-      "status": "live",
-      "date": "2024-01-18",
-      "url": "https://raw.githubusercontent.com/ddd702/learnfe/main/bovi8x8htx.png",
-      "author": "ddd702",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ddd702"
-        },
-        {
-          "label": "博客",
-          "url": "https://qtcat.cn"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "69e9ce8e5d51",
-      "board": "main",
-      "name": "Paint Board",
-      "intro": "功能强大的创意画板，支持多端",
-      "introMarkdown": "功能强大的创意画板，支持多端",
-      "status": "live",
-      "date": "2024-01-12",
-      "url": "https://songlh.top/paint-board/",
-      "author": "Leo",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/LHRUN/paint-board"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6ac89a532389",
-      "board": "main",
-      "name": "EarlyBird",
-      "intro": "快速搭建落地页验证产品 idea 的低代码建站工具",
-      "introMarkdown": "快速搭建落地页验证产品 idea 的低代码建站工具",
-      "status": "live",
-      "date": "2024-01-12",
-      "url": "https://earlybird.im",
-      "author": "罗伊",
-      "authorLinks": [
-        {
-          "label": "Twitter",
-          "url": "https://twitter.com/LuoSays"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "08ff091e63df",
-      "board": "main",
-      "name": "在线甘特图工具",
-      "intro": "可以在线使用, 也可以私有化部署",
-      "introMarkdown": "可以在线使用, 也可以私有化部署 - [更多介绍](https://zz-plan.com/share/87f1340286f1343ba5)",
-      "status": "live",
-      "date": "2024-01-09",
-      "url": "https://zz-plan.com",
-      "author": "lizhichao",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/lizhichao"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0f8cd3802bf6",
+      "slug": "ba73ad7f82c2",
       "board": "main",
       "name": "AI 独立制造所",
       "intro": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
       "introMarkdown": "本列表的可搜索、可筛选、每日自动同步的可视化版本 - [更多介绍](https://github.com/kolbyzhu5/indie-maker-directory)",
       "status": "live",
-      "date": "2024-01-05",
+      "date": "2024-01-22",
       "url": "https://indiemaker.cn/",
-      "author": "peacefullmind",
+      "author": "Lykin",
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/peacefullmind"
+          "url": "https://github.com/tiny-craft/tiny-rdm"
         }
       ],
       "likes": 0,
       "comments": 0
     },
     {
-      "slug": "0e3023b81e95",
+      "slug": "89e83421d58a",
       "board": "main",
       "name": "中国独立开发者项目列表（网页版）",
       "intro": "基于本列表数据制作的网页版，开源",
       "introMarkdown": "基于本列表数据制作的网页版，开源 - [更多介绍](https://github.com/kisslove/chinese-independent-developer-site)",
       "status": "live",
-      "date": "2024-01-05",
+      "date": "2024-01-22",
       "url": "https://developer.hubing.online/home",
-      "author": "peacefullmind",
+      "author": "Lykin",
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/peacefullmind"
+          "url": "https://github.com/tiny-craft/tiny-rdm"
         }
       ],
       "likes": 0,
       "comments": 0
     },
     {
-      "slug": "ffbb02c39049",
+      "slug": "ec9ed8698971",
       "board": "main",
       "name": "独立星球",
       "intro": "中国独立开发者作品集，按项目浏览与发现",
       "introMarkdown": "中国独立开发者作品集，按项目浏览与发现 - [更多介绍](https://github.com/zhulin025/chinese-independent-developer)",
       "status": "live",
-      "date": "2024-01-05",
+      "date": "2024-01-22",
       "url": "https://du.liuwa.xyz/",
-      "author": "peacefullmind",
+      "author": "Lykin",
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/peacefullmind"
+          "url": "https://github.com/tiny-craft/tiny-rdm"
         }
       ],
       "likes": 0,
       "comments": 0
     },
     {
-      "slug": "050bf7836259",
+      "slug": "7372c1510aa7",
       "board": "main",
       "name": "独立观察",
       "intro": "把本列表整理成可搜索、可追踪更新的浏览器看板",
       "introMarkdown": "把本列表整理成可搜索、可追踪更新的浏览器看板 - [更多介绍](https://github.com/lei1024/chinese-independent-developer-report)",
       "status": "live",
-      "date": "2024-01-05",
+      "date": "2024-01-22",
       "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "author": "peacefullmind",
+      "author": "Lykin",
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/peacefullmind"
+          "url": "https://github.com/tiny-craft/tiny-rdm"
         }
       ],
       "likes": 0,
@@ -30840,6 +30817,25 @@
     }
   ],
   "game": [
+    {
+      "slug": "d0393899b41f",
+      "board": "game",
+      "name": "Steal an Egg Wiki",
+      "intro": "Steal an Egg 非官方资料与攻略站，整理蛋、宠物、变异、速度、地形和通关进度，方便玩家随时查询",
+      "introMarkdown": "Steal an Egg 非官方资料与攻略站，整理蛋、宠物、变异、速度、地形和通关进度，方便玩家随时查询",
+      "status": "live",
+      "date": "2026-09-22",
+      "url": "https://stealanegg.gamehubs.wiki/",
+      "author": "sam ice",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sam-ice-star/steal-an-egg"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "6320d07ada8d",
       "board": "game",
