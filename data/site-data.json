@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-22T01:21:23.681Z",
-    "statsSyncedAt": "2026-09-22T01:21:23.681Z",
-    "upstreamSha": "d5702a0a0d7dbdbee5f3a0d640a74e2418b86c9f",
+    "contentSyncedAt": "2026-09-22T06:41:31.138Z",
+    "statsSyncedAt": "2026-09-22T06:41:31.138Z",
+    "upstreamSha": "943bf4ef1fa84bbc1ef72dae0f2b012bb56c76a4",
     "counts": {
       "main": 1683,
       "game": 134,
@@ -11,6 +11,63 @@
     }
   },
   "main": [
+    {
+      "slug": "964f2f54c7d1",
+      "board": "main",
+      "name": "Jev Guide",
+      "intro": "发现 Jev 的真实应用。从官方发布到真实演示，在一个地方探索 TypeSafe Jev。按行业寻找用例，查看 X 原帖截图，并直接在站内播放原视频",
+      "introMarkdown": "发现 Jev 的真实应用。从官方发布到真实演示，在一个地方探索 TypeSafe Jev。按行业寻找用例，查看 X 原帖截图，并直接在站内播放原视频",
+      "status": "live",
+      "date": "2026-09-22",
+      "url": "https://jev.guide/",
+      "author": "Jun",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/2456868764"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "6ea5078979ee",
+      "board": "main",
+      "name": "NiubiGeo",
+      "intro": "NiubiGEO 帮助 AI、SaaS、DevTools 和开源项目检测并提升在 ChatGPT、Perplexity、Google AI 等 AI 搜索与问答场景中的品牌可见度",
+      "introMarkdown": "NiubiGEO 帮助 AI、SaaS、DevTools 和开源项目检测并提升在 ChatGPT、Perplexity、Google AI 等 AI 搜索与问答场景中的品牌可见度 - [更多介绍](https://niubigeo.ai/)",
+      "status": "live",
+      "date": "2026-09-22",
+      "url": "https://niubigeo.ai/",
+      "author": "Albert",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Albert-Weasker/niubigeo"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d8302d3e230e",
+      "board": "main",
+      "name": "ReelMuse",
+      "intro": "无需编写提示词，选好舞蹈模板、上传照片即可生成舞蹈视频",
+      "introMarkdown": "无需编写提示词，选好舞蹈模板、上传照片即可生成舞蹈视频",
+      "status": "live",
+      "date": "2026-09-22",
+      "url": "https://reelmuse.app/ai-dance-generator/",
+      "author": "jimmy0256",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jimmy0256"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "5239c9f51e16",
       "board": "main",
@@ -30698,137 +30755,76 @@
       "comments": 0
     },
     {
-      "slug": "d50452ae0029",
-      "board": "main",
-      "name": "PPResume",
-      "intro": "基于 LaTeX 的简历制作 Web App，提供极高质量的简历排版和 PDF 输出",
-      "introMarkdown": "基于 LaTeX 的简历制作 Web App，提供极高质量的简历排版和 PDF 输出",
-      "status": "live",
-      "date": "2024-01-31",
-      "url": "https://ppresume.com?utm_source=chinese-independent-developer",
-      "author": "Xiao Hanyu",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/xiaohanyu"
-        },
-        {
-          "label": "Twitter",
-          "url": "https://twitter.com/xiaohanyu1988"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "c7220bffdb58",
-      "board": "main",
-      "name": "FreeMind",
-      "intro": "以大自然的声音为灵感，轻松创建专注或放松的音乐氛围。无需账户，无需麻烦——只有纯粹的宁静。无论是在繁忙的办公室，还是在家中的安静角落，FreeMind 将简约与宁静相结合，为您提供一个没有干扰的空间",
-      "introMarkdown": "以大自然的声音为灵感，轻松创建专注或放松的音乐氛围。无需账户，无需麻烦——只有纯粹的宁静。无论是在繁忙的办公室，还是在家中的安静角落，FreeMind 将简约与宁静相结合，为您提供一个没有干扰的空间",
-      "status": "live",
-      "date": "2024-01-25",
-      "url": "https://freemind.fit",
-      "author": "FreeMind-LJ",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/FreeMind-LJ"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6d70336b781e",
-      "board": "main",
-      "name": "Tiny RDM",
-      "intro": "美观易用、极致轻量的 Redis 桌面客户端",
-      "introMarkdown": "美观易用、极致轻量的 Redis 桌面客户端",
-      "status": "live",
-      "date": "2024-01-22",
-      "url": "https://redis.tinycraft.cc/zh/",
-      "author": "Lykin",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/tiny-craft/tiny-rdm"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "ba73ad7f82c2",
+      "slug": "4ef18f2c82b1",
       "board": "main",
       "name": "AI 独立制造所",
       "intro": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
       "introMarkdown": "本列表的可搜索、可筛选、每日自动同步的可视化版本 - [更多介绍](https://github.com/kolbyzhu5/indie-maker-directory)",
       "status": "live",
-      "date": "2024-01-22",
+      "date": "2024-02-18",
       "url": "https://indiemaker.cn/",
-      "author": "Lykin",
+      "author": "ThinkStu",
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/tiny-craft/tiny-rdm"
+          "url": "https://github.com/Bistutu"
         }
       ],
       "likes": 0,
       "comments": 0
     },
     {
-      "slug": "89e83421d58a",
+      "slug": "649485334446",
       "board": "main",
       "name": "中国独立开发者项目列表（网页版）",
       "intro": "基于本列表数据制作的网页版，开源",
       "introMarkdown": "基于本列表数据制作的网页版，开源 - [更多介绍](https://github.com/kisslove/chinese-independent-developer-site)",
       "status": "live",
-      "date": "2024-01-22",
+      "date": "2024-02-18",
       "url": "https://developer.hubing.online/home",
-      "author": "Lykin",
+      "author": "ThinkStu",
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/tiny-craft/tiny-rdm"
+          "url": "https://github.com/Bistutu"
         }
       ],
       "likes": 0,
       "comments": 0
     },
     {
-      "slug": "ec9ed8698971",
+      "slug": "8f6652f47d1d",
       "board": "main",
       "name": "独立星球",
       "intro": "中国独立开发者作品集，按项目浏览与发现",
       "introMarkdown": "中国独立开发者作品集，按项目浏览与发现 - [更多介绍](https://github.com/zhulin025/chinese-independent-developer)",
       "status": "live",
-      "date": "2024-01-22",
+      "date": "2024-02-18",
       "url": "https://du.liuwa.xyz/",
-      "author": "Lykin",
+      "author": "ThinkStu",
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/tiny-craft/tiny-rdm"
+          "url": "https://github.com/Bistutu"
         }
       ],
       "likes": 0,
       "comments": 0
     },
     {
-      "slug": "7372c1510aa7",
+      "slug": "ef6193f6f6cc",
       "board": "main",
       "name": "独立观察",
       "intro": "把本列表整理成可搜索、可追踪更新的浏览器看板",
       "introMarkdown": "把本列表整理成可搜索、可追踪更新的浏览器看板 - [更多介绍](https://github.com/lei1024/chinese-independent-developer-report)",
       "status": "live",
-      "date": "2024-01-22",
+      "date": "2024-02-18",
       "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "author": "Lykin",
+      "author": "ThinkStu",
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/tiny-craft/tiny-rdm"
+          "url": "https://github.com/Bistutu"
         }
       ],
       "likes": 0,
