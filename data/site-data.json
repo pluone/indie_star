@@ -1,16 +1,81 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-22T08:51:44.651Z",
-    "statsSyncedAt": "2026-09-22T08:51:44.651Z",
-    "upstreamSha": "71104a1f8a074e9f3351d01dfbb7551dbf737934",
+    "contentSyncedAt": "2026-09-22T17:01:51.346Z",
+    "statsSyncedAt": "2026-09-22T17:01:51.346Z",
+    "upstreamSha": "db5f3a8cbf3de0b89e92287fe2925af9bc05d8f9",
     "counts": {
-      "main": 1684,
+      "main": 1669,
       "game": 134,
       "programmer": 331,
-      "total": 2149
+      "total": 2134
     }
   },
   "main": [
+    {
+      "slug": "84722d617de4",
+      "board": "main",
+      "name": "What To Build",
+      "intro": "独立开发机会发现站，从新上线网站的订单增长、流量趋势和真实搜索需求中，筛选已被市场验证的 SaaS 与 AI 工具方向",
+      "introMarkdown": "独立开发机会发现站，从新上线网站的订单增长、流量趋势和真实搜索需求中，筛选已被市场验证的 SaaS 与 AI 工具方向",
+      "status": "live",
+      "date": "2026-09-23",
+      "url": "https://whattobuild.today/",
+      "author": "一箭",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/whattobuildtoday"
+        },
+        {
+          "label": "博客",
+          "url": "https://x.com/zhngcho130830"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "bb370d4122ac",
+      "board": "main",
+      "name": "Video to URL",
+      "intro": "视频转链接工具（免费），上传视频文件后生成可分享链接，无需注册、无水印，源文件不重新编码",
+      "introMarkdown": "视频转链接工具（免费），上传视频文件后生成可分享链接，无需注册、无水印，源文件不重新编码",
+      "status": "live",
+      "date": "2026-09-23",
+      "url": "https://videotourl.net/",
+      "author": "StrokMitream",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/StrokMitream"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4bea319ab0d3",
+      "board": "main",
+      "name": "Jev.StockAI.Trade",
+      "intro": "基于 Jev 模型的 AI 选股工具，专注中国 A 股，免费无广告",
+      "introMarkdown": "基于 Jev 模型的 AI 选股工具，专注中国 A 股，免费无广告",
+      "status": "live",
+      "date": "2026-09-23",
+      "url": "https://jev.stockai.trade/",
+      "author": "yvonuk",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yvonuk"
+        },
+        {
+          "label": "推特",
+          "url": "https://x.com/mcwangcn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "b689b7ec8b09",
       "board": "main",
@@ -30454,396 +30519,76 @@
       "comments": 0
     },
     {
-      "slug": "9b71935c3a50",
-      "board": "main",
-      "name": "Toolkit",
-      "intro": "极简、插件化的工具集！utools 对标开源版",
-      "introMarkdown": "极简、插件化的工具集！utools 对标开源版",
-      "status": "live",
-      "date": "2024-03-01",
-      "url": "http://toolkit.trumandu.top/",
-      "author": "TrumanDu",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/TrumanDu"
-        },
-        {
-          "label": "博客",
-          "url": "http://blog.trumandu.top/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "929a48d90e94",
-      "board": "main",
-      "name": "yft在线设计",
-      "intro": "基于 canvas 的开源版【稿定设计】。  导入稿定 PDF 模板完美还原，导入PSD，支持导出为图片/PDF/SVG",
-      "introMarkdown": "基于 canvas 的开源版【稿定设计】。  导入稿定 PDF 模板完美还原，导入PSD，支持导出为图片/PDF/SVG - [更多介绍](https://github.com/dromara/yft-design)",
-      "status": "live",
-      "date": "2024-03-01",
-      "url": "https://yft.design",
-      "author": "morestrive",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/dromara/yft-design"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f1834eb013e5",
-      "board": "main",
-      "name": "aspoem",
-      "intro": "现代化诗词学习网站",
-      "introMarkdown": "现代化诗词学习网站",
-      "status": "live",
-      "date": "2024-03-01",
-      "url": "https://aspoem.com",
-      "author": "meetqy",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/meetqy"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6076a9e312ed",
-      "board": "main",
-      "name": "奇趣网站",
-      "intro": "奇趣网站是您的在线探索伙伴，提供您没见过的网站，为网站收藏家增添色彩，加入我们，开启您的奇趣探索之旅",
-      "introMarkdown": "奇趣网站是您的在线探索伙伴，提供您没见过的网站，为网站收藏家增添色彩，加入我们，开启您的奇趣探索之旅 - [更多介绍](https://nav.dreamthere.cn/about)",
-      "status": "live",
-      "date": "2024-03-01",
-      "url": "https://qiqu.dreamthere.cn",
-      "author": "菩提尘埃",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0bb1ccd315bd",
-      "board": "main",
-      "name": "创意导航",
-      "intro": "使用我们的创意导航服务，探索未知的网路世界。我们提供最新，最独特的网站链接，帮助你发现互联网的新领域",
-      "introMarkdown": "使用我们的创意导航服务，探索未知的网路世界。我们提供最新，最独特的网站链接，帮助你发现互联网的新领域",
-      "status": "live",
-      "date": "2024-03-01",
-      "url": "https://idea.dreamthere.cn",
-      "author": "菩提尘埃",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "603be6cadb79",
-      "board": "main",
-      "name": "AI语音记账",
-      "intro": "(微信小程序) AI语音识别记账",
-      "introMarkdown": "(微信小程序) AI语音识别记账",
-      "status": "live",
-      "date": "2024-03-01",
-      "url": "https://github.com/AtlanticF/chinese-independent-developer/assets/14820026/83165766-9dca-47fb-a475-49892f1f719c",
-      "author": "AtlanticF",
-      "authorLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/AtlanticF"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "50eee7d0878f",
-      "board": "main",
-      "name": "xldream",
-      "intro": "免费 AIGC 图片素材网",
-      "introMarkdown": "免费 AIGC 图片素材网",
-      "status": "live",
-      "date": "2024-02-29",
-      "url": "https://www.xldream.com",
-      "author": "zhenming",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "97dd67e7c6f0",
-      "board": "main",
-      "name": "webhub123",
-      "intro": "跨站收藏夹，网站收录管理和分享",
-      "introMarkdown": "跨站收藏夹，网站收录管理和分享",
-      "status": "live",
-      "date": "2024-02-29",
-      "url": "https://www.webhub123.com/#/home/more",
-      "author": "shartoo",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/shartoo"
-        },
-        {
-          "label": "博客",
-          "url": "https://www.zhihu.com/people/xia-zhi-66-34"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f90553a83f9f",
-      "board": "main",
-      "name": "PhotoFun",
-      "intro": "📷高效的在线图片编辑压缩处理工具。",
-      "introMarkdown": "📷高效的在线图片编辑压缩处理工具。",
-      "status": "live",
-      "date": "2024-02-29",
-      "url": "https://www.photofun.cn/",
-      "author": "Zoyou",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "62f36e83c707",
-      "board": "main",
-      "name": "SEC.CAFE安全咖啡",
-      "intro": "安全漏洞情报聚合去重、订阅平台",
-      "introMarkdown": "安全漏洞情报聚合去重、订阅平台",
-      "status": "live",
-      "date": "2024-02-28",
-      "url": "https://sec.cafe",
-      "author": "Fooying",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/fooying"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "c805b7351b2f",
-      "board": "main",
-      "name": "AI工具箱",
-      "intro": "人工智能领域工具导航网站",
-      "introMarkdown": "人工智能领域工具导航网站",
-      "status": "live",
-      "date": "2024-02-28",
-      "url": "https://www.ailookme.com",
-      "author": "AILOOKME",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "2d11f80fb344",
-      "board": "main",
-      "name": "潮汐表表",
-      "intro": "看潮汐,查天气就在潮汐表表,出行必备小程序",
-      "introMarkdown": "看潮汐,查天气就在潮汐表表,出行必备小程序 - [更多介绍](https://blog.75271.com/55685.html)",
-      "status": "live",
-      "date": "2024-02-28",
-      "url": "http://images.75271.com/wp-content/uploads/2024/01/2024012208223581.jpg",
-      "author": "潮汐表表",
-      "authorLinks": [
-        {
-          "label": "博客",
-          "url": "http://blog.75271.com"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d27327297695",
-      "board": "main",
-      "name": "ChatAir",
-      "intro": "OpenAI 和 Gemini 的原生 Android 客户端（开源）",
-      "introMarkdown": "OpenAI 和 Gemini 的原生 Android 客户端（开源）",
-      "status": "live",
-      "date": "2024-02-28",
-      "url": "https://github.com/flyun/chatAir",
-      "author": "flyun",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/flyun"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "8f5cfb372a13",
-      "board": "main",
-      "name": "我不会说出去",
-      "intro": "匿名心理咨询/宣泄（和 AI 对话）",
-      "introMarkdown": "匿名心理咨询/宣泄（和 AI 对话）",
-      "status": "live",
-      "date": "2024-02-28",
-      "url": "http://chat.colbt.cc/",
-      "author": "Jebberwocky",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/jebberwocky"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d618a8d5791c",
-      "board": "main",
-      "name": "简约简历",
-      "intro": "简历创建工具（简约风格），支持在线预览、评论和生成高清PDF",
-      "introMarkdown": "简历创建工具（简约风格），支持在线预览、评论和生成高清PDF",
-      "status": "live",
-      "date": "2024-02-25",
-      "url": "https://jianli.online",
-      "author": "刚师傅",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/margox"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "faf0f97f1d27",
-      "board": "main",
-      "name": "RepicApp",
-      "intro": "图片压缩工具，支持多种格式的图片，支持压缩前后细节对比",
-      "introMarkdown": "图片压缩工具，支持多种格式的图片，支持压缩前后细节对比",
-      "status": "live",
-      "date": "2024-02-25",
-      "url": "https://repic.cc",
-      "author": "刚师傅",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/margox"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b220e83aec2d",
-      "board": "main",
-      "name": "Photo Mint",
-      "intro": "图片批量压缩工具 (基于 Tauri, 开源)",
-      "introMarkdown": "图片批量压缩工具 (基于 Tauri, 开源)",
-      "status": "live",
-      "date": "2024-02-23",
-      "url": "https://github.com/tans/photo-mint.git",
-      "author": "Tans",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6b44502f109b",
-      "board": "main",
-      "name": "流畅阅读-浏览器翻译插件",
-      "intro": "有人工智能翻译引擎的浏览器插件，支持 OpenAI、Gemini、通义千问、文心一言、智谱清言等模型，可以为网站提供更加友好的翻译，让所有人都能拥有母语般的阅读体验。",
-      "introMarkdown": "有人工智能翻译引擎的浏览器插件，支持 OpenAI、Gemini、通义千问、文心一言、智谱清言等模型，可以为网站提供更加友好的翻译，让所有人都能拥有母语般的阅读体验。",
-      "status": "live",
-      "date": "2024-02-18",
-      "url": "https://github.com/Bistutu/FluentRead",
-      "author": "ThinkStu",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Bistutu"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "4ef18f2c82b1",
+      "slug": "47038683d522",
       "board": "main",
       "name": "AI 独立制造所",
       "intro": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
       "introMarkdown": "本列表的可搜索、可筛选、每日自动同步的可视化版本 - [更多介绍](https://github.com/kolbyzhu5/indie-maker-directory)",
       "status": "live",
-      "date": "2024-02-18",
+      "date": "2024-03-02",
       "url": "https://indiemaker.cn/",
-      "author": "ThinkStu",
+      "author": "H1DDENADM1N",
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/Bistutu"
+          "url": "https://github.com/H1DDENADM1N"
         }
       ],
       "likes": 0,
       "comments": 0
     },
     {
-      "slug": "649485334446",
+      "slug": "cb3eae706a1a",
       "board": "main",
       "name": "中国独立开发者项目列表（网页版）",
       "intro": "基于本列表数据制作的网页版，开源",
       "introMarkdown": "基于本列表数据制作的网页版，开源 - [更多介绍](https://github.com/kisslove/chinese-independent-developer-site)",
       "status": "live",
-      "date": "2024-02-18",
+      "date": "2024-03-02",
       "url": "https://developer.hubing.online/home",
-      "author": "ThinkStu",
+      "author": "H1DDENADM1N",
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/Bistutu"
+          "url": "https://github.com/H1DDENADM1N"
         }
       ],
       "likes": 0,
       "comments": 0
     },
     {
-      "slug": "8f6652f47d1d",
+      "slug": "d94aa2e37a81",
       "board": "main",
       "name": "独立星球",
       "intro": "中国独立开发者作品集，按项目浏览与发现",
       "introMarkdown": "中国独立开发者作品集，按项目浏览与发现 - [更多介绍](https://github.com/zhulin025/chinese-independent-developer)",
       "status": "live",
-      "date": "2024-02-18",
+      "date": "2024-03-02",
       "url": "https://du.liuwa.xyz/",
-      "author": "ThinkStu",
+      "author": "H1DDENADM1N",
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/Bistutu"
+          "url": "https://github.com/H1DDENADM1N"
         }
       ],
       "likes": 0,
       "comments": 0
     },
     {
-      "slug": "ef6193f6f6cc",
+      "slug": "5c47061e6b95",
       "board": "main",
       "name": "独立观察",
       "intro": "把本列表整理成可搜索、可追踪更新的浏览器看板",
       "introMarkdown": "把本列表整理成可搜索、可追踪更新的浏览器看板 - [更多介绍](https://github.com/lei1024/chinese-independent-developer-report)",
       "status": "live",
-      "date": "2024-02-18",
+      "date": "2024-03-02",
       "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "author": "ThinkStu",
+      "author": "H1DDENADM1N",
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/Bistutu"
+          "url": "https://github.com/H1DDENADM1N"
         }
       ],
       "likes": 0,
