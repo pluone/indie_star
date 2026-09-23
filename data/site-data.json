@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-22T23:24:57.856Z",
-    "statsSyncedAt": "2026-09-22T23:24:57.856Z",
-    "upstreamSha": "db5f3a8cbf3de0b89e92287fe2925af9bc05d8f9",
+    "contentSyncedAt": "2026-09-23T15:11:27.035Z",
+    "statsSyncedAt": "2026-09-23T15:11:27.035Z",
+    "upstreamSha": "9329bbad26388fa4db1874c860faa08b684bebdc",
     "counts": {
-      "main": 1669,
+      "main": 1672,
       "game": 134,
       "programmer": 331,
-      "total": 2134
+      "total": 2137
     }
   },
   "main": [
+    {
+      "slug": "9198370c7510",
+      "board": "main",
+      "name": "Instagram Transcript",
+      "intro": "Instagram 视频转文字工具，粘贴 Reel / 视频链接即可免注册提取带时间戳的逐字稿，支持 SRT/VTT 字幕导出、多语种翻译与 AI 爆款钩子提炼，内存即时转录不存源视频",
+      "introMarkdown": "Instagram 视频转文字工具，粘贴 Reel / 视频链接即可免注册提取带时间戳的逐字稿，支持 SRT/VTT 字幕导出、多语种翻译与 AI 爆款钩子提炼，内存即时转录不存源视频",
+      "status": "live",
+      "date": "2026-09-23",
+      "url": "https://ins-transcript.com",
+      "author": "Maaaaph",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Maaaaph"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "7af5e6003379",
+      "board": "main",
+      "name": "ShortsMonkey",
+      "intro": "YouTube 爆款选题工具，每天发现低订阅频道中播放量远超订阅量的 Shorts 和长视频，按播放量/订阅数比值筛选，帮助创作者寻找内容灵感",
+      "introMarkdown": "YouTube 爆款选题工具，每天发现低订阅频道中播放量远超订阅量的 Shorts 和长视频，按播放量/订阅数比值筛选，帮助创作者寻找内容灵感",
+      "status": "live",
+      "date": "2026-09-23",
+      "url": "https://www.shortsmonkey.com/",
+      "author": "Linhao Cui",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cuilinhao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "f7cbdefadb2c",
+      "board": "main",
+      "name": "本地工作控制台 lwc",
+      "intro": "无需联网、无需注册，双击单文件即用的本地待办与计划管理台，数据全留在自己电脑",
+      "introMarkdown": "无需联网、无需注册，双击单文件即用的本地待办与计划管理台，数据全留在自己电脑",
+      "status": "live",
+      "date": "2026-09-23",
+      "url": "https://github.com/aks-666888/local-work-console",
+      "author": "夜猫子小强",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/aks-666888"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "84722d617de4",
       "board": "main",
