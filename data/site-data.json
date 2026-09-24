@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-23T23:23:30.660Z",
-    "statsSyncedAt": "2026-09-23T23:23:30.660Z",
-    "upstreamSha": "6a9ee6d8b1c3d83eb336a0114464b2970252530a",
+    "contentSyncedAt": "2026-09-24T05:06:18.733Z",
+    "statsSyncedAt": "2026-09-24T05:06:18.733Z",
+    "upstreamSha": "589c4f5cb1ee3687e418f14611554fd26ffe6091",
     "counts": {
-      "main": 1672,
+      "main": 1674,
       "game": 134,
-      "programmer": 331,
-      "total": 2137
+      "programmer": 332,
+      "total": 2140
     }
   },
   "main": [
+    {
+      "slug": "df82f1b70b82",
+      "board": "main",
+      "name": "Mimi",
+      "intro": "实时字幕翻译工具，把电脑播放的外语视频、直播声音转成悬浮字幕；免费开源，支持 Apple 芯片 macOS 13+ 和 Windows x64，需要自备云服务 API 凭证",
+      "introMarkdown": "实时字幕翻译工具，把电脑播放的外语视频、直播声音转成悬浮字幕；免费开源，支持 Apple 芯片 macOS 13+ 和 Windows x64，需要自备云服务 API 凭证 - [源码与下载](https://github.com/yuxino/mimi)",
+      "status": "live",
+      "date": "2026-09-24",
+      "url": "https://mimi.yuxino.cn/",
+      "author": "Yuxino",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yuxino"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d14324ffec82",
+      "board": "main",
+      "name": "OpenShorts 开片",
+      "intro": "给一个话题就写脚本、找画面、配音、烧字幕、出成片和发布文案，默认零成本跑通第一条",
+      "introMarkdown": "给一个话题就写脚本、找画面、配音、烧字幕、出成片和发布文案，默认零成本跑通第一条",
+      "status": "live",
+      "date": "2026-09-24",
+      "url": "https://os.aiolaola.com/",
+      "author": "jnMetaCode",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jnMetaCode"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "9198370c7510",
       "board": "main",
@@ -33187,6 +33225,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "7a1310a299d7",
+      "board": "programmer",
+      "name": "ShellWard",
+      "intro": "一行命令体检 AI 项目的合规红线（数据出境、硬编码密钥、个人信息暴露），映射到网安法/PIPL/等保2.0 并给出评分，零依赖开源",
+      "introMarkdown": "一行命令体检 AI 项目的合规红线（数据出境、硬编码密钥、个人信息暴露），映射到网安法/PIPL/等保2.0 并给出评分，零依赖开源",
+      "status": "live",
+      "date": "2026-09-24",
+      "url": "https://jnmetacode.github.io/shellward/",
+      "author": "jnMetaCode",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jnMetaCode"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "abd802773e46",
       "board": "programmer",
