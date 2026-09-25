@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-24T23:42:44.587Z",
-    "statsSyncedAt": "2026-09-24T23:42:44.587Z",
-    "upstreamSha": "de6522daec7774698d1d8d20770ec64d37f871d4",
+    "contentSyncedAt": "2026-09-25T03:46:22.278Z",
+    "statsSyncedAt": "2026-09-25T03:46:22.278Z",
+    "upstreamSha": "8bc61049f563b6538100651952ea8ea623ab8b1d",
     "counts": {
-      "main": 1674,
+      "main": 1675,
       "game": 134,
-      "programmer": 333,
-      "total": 2141
+      "programmer": 339,
+      "total": 2148
     }
   },
   "main": [
+    {
+      "slug": "d909fdb9ebf0",
+      "board": "main",
+      "name": "WearToday",
+      "intro": "AI 个人造型师，结合当地天气、当天场合和你衣橱里实际有的衣物给出穿搭建议，并记住你的颜色、版型与搭配偏好；网页版免安装，可免费开始使用",
+      "introMarkdown": "AI 个人造型师，结合当地天气、当天场合和你衣橱里实际有的衣物给出穿搭建议，并记住你的颜色、版型与搭配偏好；网页版免安装，可免费开始使用",
+      "status": "live",
+      "date": "2026-09-25",
+      "url": "https://weartoday.io/",
+      "author": "hwlvipone",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hwlvipone"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "df82f1b70b82",
       "board": "main",
@@ -33226,6 +33245,63 @@
   ],
   "programmer": [
     {
+      "slug": "bb2e69a2ec91",
+      "board": "programmer",
+      "name": "YXC Code",
+      "intro": "iOS 应用源码商城，按分类查看功能、截图和 App Store 链接，比较源码包及商业许可后选择可定制的项目起点；源码付费，支持中英文",
+      "introMarkdown": "iOS 应用源码商城，按分类查看功能、截图和 App Store 链接，比较源码包及商业许可后选择可定制的项目起点；源码付费，支持中英文",
+      "status": "live",
+      "date": "2026-09-25",
+      "url": "https://app.yxcit.com/zh",
+      "author": "Hao Du",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yxcit"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "22f31cb5040f",
+      "board": "programmer",
+      "name": "SyncClipboard CfServer",
+      "intro": "SyncClipboard 官方服务端的 Cloudflare Workers 复刻实现，官方客户端零改动即可连接，免服务器、按量计费，自带 Web 历史管理界面与回收站",
+      "introMarkdown": "SyncClipboard 官方服务端的 Cloudflare Workers 复刻实现，官方客户端零改动即可连接，免服务器、按量计费，自带 Web 历史管理界面与回收站",
+      "status": "live",
+      "date": "2026-09-25",
+      "url": "https://github.com/Leexunhuan743/SyncClipboardCfServer",
+      "author": "Leexunhuan743",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Leexunhuan743"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "f57c7b6d2ec7",
+      "board": "programmer",
+      "name": "Orbi",
+      "intro": "自托管的 AI 编程 agent，给 GitHub Issue 打上 ai-ready 标签，它在独立 worktree 里写代码、开 PR，再另开一个评审会话对照 Issue 验收项审查，评审通过才合并并打 tag 发版；以 AGPL-3.0 开源，自托管免费，也有托管版 Orbi Cloud",
+      "introMarkdown": "自托管的 AI 编程 agent，给 GitHub Issue 打上 `ai-ready` 标签，它在独立 worktree 里写代码、开 PR，再另开一个评审会话对照 Issue 验收项审查，评审通过才合并并打 tag 发版；以 AGPL-3.0 开源，自托管免费，也有托管版 Orbi Cloud - [GitHub 仓库](https://github.com/orbi-build/orbi)",
+      "status": "live",
+      "date": "2026-09-24",
+      "url": "https://orbi.build/zh/?ref=1c7-2609",
+      "author": "xqliu",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xqliu"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "e0b3d49e294e",
       "board": "programmer",
       "name": "JEVAPI.IO",
@@ -33253,6 +33329,63 @@
       "status": "live",
       "date": "2026-09-24",
       "url": "https://jnmetacode.github.io/shellward/",
+      "author": "jnMetaCode",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jnMetaCode"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "086ffdd7ab23",
+      "board": "programmer",
+      "name": "tracelet",
+      "intro": "AI Agent 的本地调试器，实时看执行树里的每次 LLM 调用与工具调用，还能把两次运行逐步对齐找出差异",
+      "introMarkdown": "AI Agent 的本地调试器，实时看执行树里的每次 LLM 调用与工具调用，还能把两次运行逐步对齐找出差异",
+      "status": "live",
+      "date": "2026-09-24",
+      "url": "https://github.com/jnMetaCode/tracelet",
+      "author": "jnMetaCode",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jnMetaCode"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "5d999245838b",
+      "board": "programmer",
+      "name": "engram",
+      "intro": "索引笔记、PDF、网页，然后用一句话召回，结果精确到 文件:行 和日期，全程不出本机",
+      "introMarkdown": "索引笔记、PDF、网页，然后用一句话召回，结果精确到 文件:行 和日期，全程不出本机",
+      "status": "live",
+      "date": "2026-09-24",
+      "url": "https://github.com/jnMetaCode/engram",
+      "author": "jnMetaCode",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jnMetaCode"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "84a5ebe188e7",
+      "board": "programmer",
+      "name": "skillet",
+      "intro": "Claude 技能的包管理器，搜索、安装、锁版本、分享 SKILL.md，注册表就是仓库里的一个 JSON 文件",
+      "introMarkdown": "Claude 技能的包管理器，搜索、安装、锁版本、分享 SKILL.md，注册表就是仓库里的一个 JSON 文件",
+      "status": "live",
+      "date": "2026-09-24",
+      "url": "https://github.com/jnMetaCode/skillet",
       "author": "jnMetaCode",
       "authorLinks": [
         {
