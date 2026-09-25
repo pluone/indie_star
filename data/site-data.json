@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-25T03:51:20.653Z",
-    "statsSyncedAt": "2026-09-25T03:51:20.653Z",
-    "upstreamSha": "ef8a66b4b603159d936a19e2934f5ab6df24f574",
+    "contentSyncedAt": "2026-09-25T19:21:29.501Z",
+    "statsSyncedAt": "2026-09-25T19:21:29.501Z",
+    "upstreamSha": "fc33dc9a9f5b2e1928ca7f8c4e549e65a4364802",
     "counts": {
-      "main": 1675,
+      "main": 1676,
       "game": 134,
       "programmer": 339,
-      "total": 2148
+      "total": 2149
     }
   },
   "main": [
+    {
+      "slug": "6f19ddd77d0b",
+      "board": "main",
+      "name": "AI 共振",
+      "intro": "每日 AI 雷达，把 GitHub、arXiv、Hacker News、社区讨论和 AI 厂商动态排成五个榜单，评分公式公开可查，多平台同时出现的内容自动归组，打开即读无需注册",
+      "introMarkdown": "每日 AI 雷达，把 GitHub、arXiv、Hacker News、社区讨论和 AI 厂商动态排成五个榜单，评分公式公开可查，多平台同时出现的内容自动归组，打开即读无需注册 - [更多介绍](https://github.com/WZZNNE/AI-Resonance)",
+      "status": "live",
+      "date": "2026-09-26",
+      "url": "https://wzznne.github.io/AI-Resonance/",
+      "author": "WZZNNE",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/WZZNNE"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "d909fdb9ebf0",
       "board": "main",
