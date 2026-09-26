@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-25T23:44:44.221Z",
-    "statsSyncedAt": "2026-09-25T23:44:44.221Z",
-    "upstreamSha": "fc33dc9a9f5b2e1928ca7f8c4e549e65a4364802",
+    "contentSyncedAt": "2026-09-26T11:25:50.917Z",
+    "statsSyncedAt": "2026-09-26T11:25:50.917Z",
+    "upstreamSha": "c20435ab46b5c954e0a4fe4c099aa8128aff0826",
     "counts": {
-      "main": 1676,
+      "main": 1677,
       "game": 134,
       "programmer": 339,
-      "total": 2149
+      "total": 2150
     }
   },
   "main": [
+    {
+      "slug": "2ef79d5c6bb3",
+      "board": "main",
+      "name": "Professional-Headshot.ai",
+      "intro": "AI 职业头像生成器，上传一张自拍，由 AI 自动挑好服装、背景与打光，并筛掉眼镜变形、眼睛和牙齿失真等瑕疵，每个场景只给你 1 张推荐加 2 张备选；无需注册即可免费预览 1 张（带水印），去水印下载与反复修改为一次性付费",
+      "introMarkdown": "AI 职业头像生成器，上传一张自拍，由 AI 自动挑好服装、背景与打光，并筛掉眼镜变形、眼睛和牙齿失真等瑕疵，每个场景只给你 1 张推荐加 2 张备选；无需注册即可免费预览 1 张（带水印），去水印下载与反复修改为一次性付费",
+      "status": "live",
+      "date": "2026-09-26",
+      "url": "https://professional-headshot.ai/",
+      "author": "klinkmannistref-blip",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/klinkmannistref-blip"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "6f19ddd77d0b",
       "board": "main",
