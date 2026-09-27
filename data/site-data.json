@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-27T07:41:16.679Z",
-    "statsSyncedAt": "2026-09-27T07:41:16.679Z",
-    "upstreamSha": "ffc7fb842d8e461245a9ec7697b8638b1e66868b",
+    "contentSyncedAt": "2026-09-27T15:56:05.977Z",
+    "statsSyncedAt": "2026-09-27T15:56:05.977Z",
+    "upstreamSha": "51e7640b29bf41a28099d9cc67506a3f9a1200b8",
     "counts": {
-      "main": 1679,
+      "main": 1671,
       "game": 134,
-      "programmer": 340,
-      "total": 2153
+      "programmer": 341,
+      "total": 2146
     }
   },
   "main": [
+    {
+      "slug": "5056bb5dd54e",
+      "board": "main",
+      "name": "春林冷知",
+      "intro": "冷静地知道一点没用的东西。每日更新冷知识、冷笑话和废话文学，让你在繁忙的生活中静下心，刷一些带一丝幽默、又有些莫名其妙的知识",
+      "introMarkdown": "冷静地知道一点没用的东西。每日更新冷知识、冷笑话和废话文学，让你在繁忙的生活中静下心，刷一些带一丝幽默、又有些莫名其妙的知识",
+      "status": "live",
+      "date": "2026-09-27",
+      "url": "https://cold.sylveris.top",
+      "author": "Z-Banana",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Z-Banana"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "9a8c85c8a667",
       "board": "main",
@@ -30541,244 +30560,76 @@
       "comments": 0
     },
     {
-      "slug": "8e9897beedb5",
-      "board": "main",
-      "name": "小狗听听",
-      "intro": "将在线视频转为本地播客的 iOS 应用",
-      "introMarkdown": "将在线视频转为本地播客的 iOS 应用",
-      "status": "live",
-      "date": "2024-03-05",
-      "url": "https://podcast.j20.cc/",
-      "author": "j20cc",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9e0bb1ff9c54",
-      "board": "main",
-      "name": "Welibrary",
-      "intro": "将图书网站与城市图书馆联动起来",
-      "introMarkdown": "将图书网站与城市图书馆联动起来 - [更多介绍](https://welibrary.pages.dev/intro)",
-      "status": "live",
-      "date": "2024-03-05",
-      "url": "https://chromewebstore.google.com/detail/ffcdmbkbdhoplncikkpdcgknacckookm",
-      "author": "honwhy",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0d70d1a33a7e",
-      "board": "main",
-      "name": "犬岛 交友APP",
-      "intro": "通过深度问答建立社交画像的高质量交友 APP，纯银作品。安卓",
-      "introMarkdown": "通过深度问答建立社交画像的高质量交友 APP，纯银作品。[安卓](https://www.quandao.chat)",
-      "status": "live",
-      "date": "2024-03-05",
-      "url": "https://apps.apple.com/cn/app/犬岛-上岛重新认识我/id6450510581",
-      "author": "iyuhang",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/iyuhang"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6bac461050a1",
-      "board": "main",
-      "name": "音流",
-      "intro": "NAS 音乐播放器，支持多种音乐服务，可在安卓/iOS/macOS/Windows 平台运行",
-      "introMarkdown": "NAS 音乐播放器，支持多种音乐服务，可在安卓/iOS/macOS/Windows 平台运行 - [AppStore](https://apps.apple.com/cn/app/%E9%9F%B3%E6%B5%81-%E8%BF%9E%E6%8E%A5%E4%BD%A0%E7%9A%84%E9%9F%B3%E4%B9%90/id6449966496), [下载地址](https://aqzscn.cn/archives/stream-music-versions)",
-      "status": "live",
-      "date": "2024-03-04",
-      "url": "https://github.com/gitbobobo/StreamMusic",
-      "author": "gitbobobo",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/gitbobobo"
-        },
-        {
-          "label": "博客",
-          "url": "https://aqzscn.cn/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d974bb64971a",
-      "board": "main",
-      "name": "CodeCV简历",
-      "intro": "超高颜值的简历制作工具，界面简洁不花哨，支持 Markdown 和 所见即所得 两种编辑模式，专注内容，布局排版自动生成",
-      "introMarkdown": "超高颜值的简历制作工具，界面简洁不花哨，支持 Markdown 和 所见即所得 两种编辑模式，专注内容，布局排版自动生成",
-      "status": "live",
-      "date": "2024-03-03",
-      "url": "https://codecv.top",
-      "author": "程序员热水",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/acmenlei"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0b44d07eca24",
-      "board": "main",
-      "name": "C-Shopping",
-      "intro": "精美的 Web 电商系统，支持响应式交互，界面优雅，功能丰富，小巧迅速，包含电商平台 MVP 完整功能，具备良好的审美风格与编码设计",
-      "introMarkdown": "精美的 Web 电商系统，支持响应式交互，界面优雅，功能丰富，小巧迅速，包含电商平台 MVP 完整功能，具备良好的审美风格与编码设计 - [更多介绍](https://github.com/huanghanzhilian/c-shopping)",
-      "status": "live",
-      "date": "2024-03-03",
-      "url": "http://shop.huanghanlian.com/",
-      "author": "huanghanzhilian",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/huanghanzhilian"
-        },
-        {
-          "label": "博客",
-          "url": "https://blog.huanghanlian.com/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f5433d52f16e",
-      "board": "main",
-      "name": "迅排设计 - PosterDesign",
-      "intro": "海报图片设计器，漂亮易用且功能强大。适用于多种场景：海报设计、电商分享图、文章长图、视频/公众号封面生成等，结合AI等工具，让你轻松实现创意、迅速排版",
-      "introMarkdown": "海报图片设计器，漂亮易用且功能强大。适用于多种场景：海报设计、电商分享图、文章长图、视频/公众号封面生成等，结合AI等工具，让你轻松实现创意、迅速排版 - [更多介绍](https://xp.palxp.cn/#/)",
-      "status": "live",
-      "date": "2024-03-03",
-      "url": "https://design.palxp.cn/home",
-      "author": "ShawnPhang",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/palxiao/poster-design"
-        },
-        {
-          "label": "博客",
-          "url": "https://m.palxp.cn/#/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0e026272c184",
-      "board": "main",
-      "name": "小旅星 App",
-      "intro": "旅行指南与行程规划 App，提供众多开箱即用的旅行路线、目的地旅行资讯（完善中），也可以制定自己的行程。可以添加地点、航班、列车到旅行计划中，并且自动为用户预估日程时间安排。如果与朋友一起出行，还可以邀请朋友加入旅行、共同编辑, Android 版下载地址",
-      "introMarkdown": "旅行指南与行程规划 App，提供众多开箱即用的旅行路线、目的地旅行资讯（完善中），也可以制定自己的行程。可以添加地点、航班、列车到旅行计划中，并且自动为用户预估日程时间安排。如果与朋友一起出行，还可以邀请朋友加入旅行、共同编辑, [Android 版下载地址](https://static.triplenty.com/xiaolvxing.apk)",
-      "status": "live",
-      "date": "2024-03-03",
-      "url": "https://apps.apple.com/cn/app/id6468434010",
-      "author": "LucasChenZQ",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "3e2a2010fa70",
-      "board": "main",
-      "name": "CapsWriter-Offline-GUI",
-      "intro": "Windows 端 离线语音输入、中译英、字幕转录；在线多译多、云剪贴板。",
-      "introMarkdown": "Windows 端 离线语音输入、中译英、字幕转录；在线多译多、云剪贴板。 - [更多介绍](https://github.com/H1DDENADM1N/CapsWriter-Offline?tab=readme-ov-file#-%E7%9B%AE%E5%BD%95)",
-      "status": "live",
-      "date": "2024-03-02",
-      "url": "https://github.com/H1DDENADM1N/CapsWriter-Offline",
-      "author": "H1DDENADM1N",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/H1DDENADM1N"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "47038683d522",
+      "slug": "daf1c0a1c1f6",
       "board": "main",
       "name": "AI 独立制造所",
       "intro": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
       "introMarkdown": "本列表的可搜索、可筛选、每日自动同步的可视化版本 - [更多介绍](https://github.com/kolbyzhu5/indie-maker-directory)",
       "status": "live",
-      "date": "2024-03-02",
+      "date": "2024-03-06",
       "url": "https://indiemaker.cn/",
-      "author": "H1DDENADM1N",
+      "author": "甘小蔗",
       "authorLinks": [
         {
-          "label": "Github",
-          "url": "https://github.com/H1DDENADM1N"
+          "label": "博客",
+          "url": "https://gxzv.com/"
         }
       ],
       "likes": 0,
       "comments": 0
     },
     {
-      "slug": "cb3eae706a1a",
+      "slug": "b99bc0fa05cc",
       "board": "main",
       "name": "中国独立开发者项目列表（网页版）",
       "intro": "基于本列表数据制作的网页版，开源",
       "introMarkdown": "基于本列表数据制作的网页版，开源 - [更多介绍](https://github.com/kisslove/chinese-independent-developer-site)",
       "status": "live",
-      "date": "2024-03-02",
+      "date": "2024-03-06",
       "url": "https://developer.hubing.online/home",
-      "author": "H1DDENADM1N",
+      "author": "甘小蔗",
       "authorLinks": [
         {
-          "label": "Github",
-          "url": "https://github.com/H1DDENADM1N"
+          "label": "博客",
+          "url": "https://gxzv.com/"
         }
       ],
       "likes": 0,
       "comments": 0
     },
     {
-      "slug": "d94aa2e37a81",
+      "slug": "a217cb7a0c49",
       "board": "main",
       "name": "独立星球",
       "intro": "中国独立开发者作品集，按项目浏览与发现",
       "introMarkdown": "中国独立开发者作品集，按项目浏览与发现 - [更多介绍](https://github.com/zhulin025/chinese-independent-developer)",
       "status": "live",
-      "date": "2024-03-02",
+      "date": "2024-03-06",
       "url": "https://du.liuwa.xyz/",
-      "author": "H1DDENADM1N",
+      "author": "甘小蔗",
       "authorLinks": [
         {
-          "label": "Github",
-          "url": "https://github.com/H1DDENADM1N"
+          "label": "博客",
+          "url": "https://gxzv.com/"
         }
       ],
       "likes": 0,
       "comments": 0
     },
     {
-      "slug": "5c47061e6b95",
+      "slug": "b25b34139b5e",
       "board": "main",
       "name": "独立观察",
       "intro": "把本列表整理成可搜索、可追踪更新的浏览器看板",
       "introMarkdown": "把本列表整理成可搜索、可追踪更新的浏览器看板 - [更多介绍](https://github.com/lei1024/chinese-independent-developer-report)",
       "status": "live",
-      "date": "2024-03-02",
+      "date": "2024-03-06",
       "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "author": "H1DDENADM1N",
+      "author": "甘小蔗",
       "authorLinks": [
         {
-          "label": "Github",
-          "url": "https://github.com/H1DDENADM1N"
+          "label": "博客",
+          "url": "https://gxzv.com/"
         }
       ],
       "likes": 0,
@@ -33320,6 +33171,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "dc601a5e58ad",
+      "board": "programmer",
+      "name": "精酿 BrewReel",
+      "intro": "竖版宣传片生成 Agent Skill，写一份产品简报，DeepSeek 等低成本模型只写分镜 JSON，现成 Remotion 组件在本地渲染 1080×1920 成片，内置广告法和 6 个行业的合规校验、代码合成配乐，可装进 Claude Code / Codex，Apache-2.0 开源，目前是预览版",
+      "introMarkdown": "竖版宣传片生成 Agent Skill，写一份产品简报，DeepSeek 等低成本模型只写分镜 JSON，现成 Remotion 组件在本地渲染 1080×1920 成片，内置广告法和 6 个行业的合规校验、代码合成配乐，可装进 Claude Code / Codex，Apache-2.0 开源，目前是预览版 - [更多介绍](https://brewreel.com)",
+      "status": "live",
+      "date": "2026-09-27",
+      "url": "https://github.com/Finderchangchang/brewreel",
+      "author": "Finderchangchang",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Finderchangchang"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "5fdfb2120bba",
       "board": "programmer",
