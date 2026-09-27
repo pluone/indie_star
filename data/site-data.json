@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-26T23:19:34.609Z",
-    "statsSyncedAt": "2026-09-26T23:19:34.609Z",
-    "upstreamSha": "c20435ab46b5c954e0a4fe4c099aa8128aff0826",
+    "contentSyncedAt": "2026-09-27T02:20:49.150Z",
+    "statsSyncedAt": "2026-09-27T02:20:49.150Z",
+    "upstreamSha": "2e67f82b1120620c705b2d3552d1d281bb4ca1b3",
     "counts": {
-      "main": 1677,
+      "main": 1679,
       "game": 134,
       "programmer": 339,
-      "total": 2150
+      "total": 2152
     }
   },
   "main": [
+    {
+      "slug": "9a8c85c8a667",
+      "board": "main",
+      "name": "Countdown Timer",
+      "intro": "极简全屏倒计时工具，支持按天、小时、分钟设置倒计时，也提供节日与活动倒计时，包括 万圣节、双十一 和 新年 倒计时",
+      "introMarkdown": "极简全屏倒计时工具，支持按天、小时、分钟设置倒计时，也提供节日与活动倒计时，包括 [万圣节](https://countdown.im/halloween)、[双十一](https://countdown.im/singles-day) 和 [新年](https://countdown.im/new-year) 倒计时",
+      "status": "live",
+      "date": "2026-09-26",
+      "url": "https://countdown.im/",
+      "author": "openmind",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/openmindim"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4603b51c585f",
+      "board": "main",
+      "name": "Online Ruler",
+      "intro": "极简全屏在线尺子工具，除了屏幕尺和直尺外，还支持 量角器、中心象限尺 和 靶心尺",
+      "introMarkdown": "极简全屏在线尺子工具，除了屏幕尺和直尺外，还支持 [量角器](https://ruler.im/protractor)、[中心象限尺](https://ruler.im/quadrant) 和 [靶心尺](https://ruler.im/concentric-circle)",
+      "status": "live",
+      "date": "2026-09-26",
+      "url": "https://ruler.im/",
+      "author": "openmind",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/openmindim"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "2ef79d5c6bb3",
       "board": "main",
