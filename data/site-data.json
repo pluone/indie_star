@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-27T02:20:49.150Z",
-    "statsSyncedAt": "2026-09-27T02:20:49.150Z",
-    "upstreamSha": "2e67f82b1120620c705b2d3552d1d281bb4ca1b3",
+    "contentSyncedAt": "2026-09-27T07:41:16.679Z",
+    "statsSyncedAt": "2026-09-27T07:41:16.679Z",
+    "upstreamSha": "ffc7fb842d8e461245a9ec7697b8638b1e66868b",
     "counts": {
       "main": 1679,
       "game": 134,
-      "programmer": 339,
-      "total": 2152
+      "programmer": 340,
+      "total": 2153
     }
   },
   "main": [
@@ -33321,6 +33321,44 @@
   ],
   "programmer": [
     {
+      "slug": "5fdfb2120bba",
+      "board": "programmer",
+      "name": "Stella_project",
+      "intro": "可一键部署的 QQ 群拟人化 AI Chat Agent，通过使用极小上下文窗口，原生支持本地小参数语言模型/在线大参数语言模型并节约花费，兼容 Astrbot 插件生态",
+      "introMarkdown": "可一键部署的 QQ 群拟人化 AI Chat Agent，通过使用极小上下文窗口，原生支持本地小参数语言模型/在线大参数语言模型并节约花费，兼容 Astrbot 插件生态",
+      "status": "live",
+      "date": "2026-09-27",
+      "url": "https://github.com/Eternal-Wanderer-Vegetable/Stella_project",
+      "author": "Eternal-Wanderer-Vegetable",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Eternal-Wanderer-Vegetable"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "1fed7e58e994",
+      "board": "programmer",
+      "name": "CourseRaptor",
+      "intro": "一句话查课表、成绩、考试和教务通知的本地校园 AI 助手，终端/网页/QQ 机器人三个入口，登录凭证 AES-256-GCM 加密存本机、零遥测，内置免账号离线演示（虚构数据）先看效果再配置；目前适配南京工业大学，学校适配层开放共建",
+      "introMarkdown": "一句话查课表、成绩、考试和教务通知的本地校园 AI 助手，终端/网页/QQ 机器人三个入口，登录凭证 AES-256-GCM 加密存本机、零遥测，内置免账号离线演示（虚构数据）先看效果再配置；目前适配南京工业大学，学校适配层开放共建 - [在线落地页](https://health-525.github.io/courseraptor)",
+      "status": "live",
+      "date": "2026-09-27",
+      "url": "https://github.com/Health-525/courseraptor",
+      "author": "JiangShu",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Health-525"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "bb2e69a2ec91",
       "board": "programmer",
       "name": "YXC Code",
@@ -33908,25 +33946,6 @@
         {
           "label": "Github",
           "url": "https://github.com/ckfanzhe"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "5fdfb2120bba",
-      "board": "programmer",
-      "name": "Stella_project",
-      "intro": "QQ 群聊机器人，完全本地运行、不外传任何聊天内容，依托本地部署的小参数大语言模型（SLM）和记忆系统实现长期/短期记忆与拟人化聊天",
-      "introMarkdown": "QQ 群聊机器人，完全本地运行、不外传任何聊天内容，依托本地部署的小参数大语言模型（SLM）和记忆系统实现长期/短期记忆与拟人化聊天",
-      "status": "live",
-      "date": "2026-08-21",
-      "url": "https://github.com/Eternal-Wanderer-Vegetable/Stella_project",
-      "author": "Eternal-Wanderer-Vegetable",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Eternal-Wanderer-Vegetable"
         }
       ],
       "likes": 0,
