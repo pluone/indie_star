@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-27T23:32:20.337Z",
-    "statsSyncedAt": "2026-09-27T23:32:20.337Z",
-    "upstreamSha": "51e7640b29bf41a28099d9cc67506a3f9a1200b8",
+    "contentSyncedAt": "2026-09-28T14:26:07.884Z",
+    "statsSyncedAt": "2026-09-28T14:26:07.884Z",
+    "upstreamSha": "a581ffaf67abaf6c6ab0c4ca8a85487f28178dbb",
     "counts": {
       "main": 1671,
       "game": 134,
-      "programmer": 341,
-      "total": 2146
+      "programmer": 342,
+      "total": 2147
     }
   },
   "main": [
@@ -33171,6 +33171,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "5fe3b352eff3",
+      "board": "programmer",
+      "name": "AgentHop",
+      "intro": "让两个 AI Agent 直接对话的开源工具，一个配对码连上两台没有公网地址的电脑，端到端加密、中继只转发密文，作为 MCP 接进 Claude Code、Codex、Cursor、Gemini CLI 等",
+      "introMarkdown": "让两个 AI Agent 直接对话的开源工具，一个配对码连上两台没有公网地址的电脑，端到端加密、中继只转发密文，作为 MCP 接进 Claude Code、Codex、Cursor、Gemini CLI 等",
+      "status": "live",
+      "date": "2026-09-28",
+      "url": "https://github.com/sdyuyouth/agenthop",
+      "author": "Yuesen",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sdyuyouth"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "dc601a5e58ad",
       "board": "programmer",
