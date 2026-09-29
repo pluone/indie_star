@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-29T00:46:40.078Z",
-    "statsSyncedAt": "2026-09-29T00:46:40.078Z",
-    "upstreamSha": "a581ffaf67abaf6c6ab0c4ca8a85487f28178dbb",
+    "contentSyncedAt": "2026-09-29T01:10:47.401Z",
+    "statsSyncedAt": "2026-09-29T01:10:47.401Z",
+    "upstreamSha": "fb49b755227f60a51277abc52ff4b83df5058b50",
     "counts": {
       "main": 1671,
       "game": 134,
-      "programmer": 342,
-      "total": 2147
+      "programmer": 343,
+      "total": 2148
     }
   },
   "main": [
@@ -33171,6 +33171,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "634e7543b97e",
+      "board": "programmer",
+      "name": "回声 echo agent",
+      "intro": "Mac 上的语音 AI Agent，任何应用里按 Fn+Space 说一句话，交给本机的 Claude Code 或 Codex 在后台执行，语音在本机识别",
+      "introMarkdown": "Mac 上的语音 AI Agent，任何应用里按 Fn+Space 说一句话，交给本机的 Claude Code 或 Codex 在后台执行，语音在本机识别",
+      "status": "live",
+      "date": "2026-09-29",
+      "url": "https://echoagent.dev/zh/",
+      "author": "Evan",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/EdwinjJ1"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "5fe3b352eff3",
       "board": "programmer",
