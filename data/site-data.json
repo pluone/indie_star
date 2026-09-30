@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-30T01:55:45.195Z",
-    "statsSyncedAt": "2026-09-30T01:55:45.195Z",
-    "upstreamSha": "584822ddbe8355c63c02ee4b72cc6a1d3846057a",
+    "contentSyncedAt": "2026-09-30T02:00:59.562Z",
+    "statsSyncedAt": "2026-09-30T02:00:59.562Z",
+    "upstreamSha": "3b460a82c8114212fa83325ead7a6e51b2f65128",
     "counts": {
-      "main": 1573,
+      "main": 1577,
       "game": 134,
       "programmer": 343,
-      "total": 2050
+      "total": 2054
     }
   },
   "main": [
@@ -25,6 +25,82 @@
         {
           "label": "Github",
           "url": "https://github.com/blowxian"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b59587cf0f69",
+      "board": "main",
+      "name": "Jev AI",
+      "intro": "把文本和 JSON 转成带概率的是非、选择与评分判定，用于工单分类、内容审核、意图路由、线索打分等场景；站内 Playground 可直接试跑，也提供 API 与 CSV/TXT/JSONL 批量处理，注册送 5 个额度",
+      "introMarkdown": "把文本和 JSON 转成带概率的是非、选择与评分判定，用于工单分类、内容审核、意图路由、线索打分等场景；站内 Playground 可直接试跑，也提供 API 与 CSV/TXT/JSONL 批量处理，注册送 5 个额度",
+      "status": "live",
+      "date": "2026-09-30",
+      "url": "https://ai-jev.pro/",
+      "author": "jj2772486-svg",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jj2772486-svg"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "49f7004237d1",
+      "board": "main",
+      "name": "Online Tone Generator",
+      "intro": "音调与频率生成工具（免费），在浏览器中生成指定频率的音频信号，支持正弦波、方波、三角波、锯齿波、频率调节、左右声道控制和 WAV 导出，并提供 Frequency Sweep、Multiple Tone、Speaker Test、Subwoofer Test 等音频测试工具，音频处理在浏览器本地完成，无需上传文件或安装软件",
+      "introMarkdown": "音调与频率生成工具（免费），在浏览器中生成指定频率的音频信号，支持正弦波、方波、三角波、锯齿波、频率调节、左右声道控制和 WAV 导出，并提供 Frequency Sweep、Multiple Tone、Speaker Test、Subwoofer Test 等音频测试工具，音频处理在浏览器本地完成，无需上传文件或安装软件",
+      "status": "live",
+      "date": "2026-09-30",
+      "url": "https://online-tone-generator.org/",
+      "author": "pandaupup",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/pandaupup"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "8cd36d180511",
+      "board": "main",
+      "name": "FPS Tester",
+      "intro": "浏览器 FPS、帧时间与显示测试工具集（免费），可测试实时 FPS、Frame Time、1% Low、FPS Stability、FPS Drop 和刷新率，并提供 FPS Comparison、Screen Tearing、Motion Blur、Monitor Test、Mouse Polling Rate、Reaction Time 等相关测试工具，用于检查浏览器动画性能、显示效果和游戏输入表现",
+      "introMarkdown": "浏览器 FPS、帧时间与显示测试工具集（免费），可测试实时 FPS、Frame Time、1% Low、FPS Stability、FPS Drop 和刷新率，并提供 FPS Comparison、Screen Tearing、Motion Blur、Monitor Test、Mouse Polling Rate、Reaction Time 等相关测试工具，用于检查浏览器动画性能、显示效果和游戏输入表现",
+      "status": "live",
+      "date": "2026-09-30",
+      "url": "https://fpstester.org/",
+      "author": "pandaupup",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/pandaupup"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "5f2476bed258",
+      "board": "main",
+      "name": "MidiTake",
+      "intro": "Convert MP3, WAV or video to MIDI in your browser",
+      "introMarkdown": "Convert MP3, WAV or video to MIDI in your browser",
+      "status": "live",
+      "date": "2026-09-30",
+      "url": "https://miditake.com/?utm_source=github&utm_medium=referral&utm_campaign=backlink",
+      "author": "muke1838-cloud",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/muke1838-cloud"
         }
       ],
       "likes": 0,
