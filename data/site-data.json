@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-30T02:00:59.562Z",
-    "statsSyncedAt": "2026-09-30T02:00:59.562Z",
-    "upstreamSha": "3b460a82c8114212fa83325ead7a6e51b2f65128",
+    "contentSyncedAt": "2026-09-30T10:06:10.989Z",
+    "statsSyncedAt": "2026-09-30T10:06:10.989Z",
+    "upstreamSha": "43463e72b37ac8b8b176f6f041377828b4392802",
     "counts": {
-      "main": 1577,
+      "main": 1578,
       "game": 134,
       "programmer": 343,
-      "total": 2054
+      "total": 2055
     }
   },
   "main": [
+    {
+      "slug": "4e6b15bc4198",
+      "board": "main",
+      "name": "移民数据",
+      "intro": "美国绿卡排期每月 8-10 号官方公告全量 15 类别逐格对比（逐格标注较上月前进/倒退），加拿大 EE 447 轮抽签记录，美国审理时间与 23 国政策库，另附 6 国积分自测器；免费、无广告、不做中介",
+      "introMarkdown": "美国绿卡排期每月 8-10 号官方公告全量 15 类别逐格对比（逐格标注较上月前进/倒退），加拿大 EE 447 轮抽签记录，美国审理时间与 23 国政策库，另附 6 国积分自测器；免费、无广告、不做中介 - [开源 JSON 数据](https://github.com/xjokerabab/visa-bulletin-cn)",
+      "status": "live",
+      "date": "2026-09-30",
+      "url": "https://yiminshuju.com/?utm_source=github&utm_medium=referral",
+      "author": "xjokerabab",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xjokerabab"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "10472964ddb4",
       "board": "main",
@@ -5061,11 +5080,11 @@
       "slug": "e49a4717cf3d",
       "board": "main",
       "name": "cocodot LLM 降智检测",
-      "intro": "LLM API「降智/偷换模型」检测（免费）：填入任意 OpenAI 兼容端点的 base_url 和临时 API Key，跑 6 项探针（模型声明、动态题、能力完整性等）生成分项报告；Key 仅用于当次检测、不落库不留存，检测方法开源",
-      "introMarkdown": "LLM API「降智/偷换模型」检测（免费）：填入任意 OpenAI 兼容端点的 base_url 和临时 API Key，跑 6 项探针（模型声明、动态题、能力完整性等）生成分项报告；Key 仅用于当次检测、不落库不留存，检测方法[开源](https://github.com/cocodot2026/cocodot-llmprobe)",
+      "intro": "LLM API「降智/偷换模型」检测（免费）：填入任意 OpenAI 兼容端点的 base_url 和临时 API Key，跑 6 项探针（模型声明、动态题、能力完整性等）生成分项报告；Key 仅用于当次检测、不落库不留存，检测方法开源；同一团队还做 OpenAI 兼容的 API 中转 cocodot（支付宝充值）",
+      "introMarkdown": "LLM API「降智/偷换模型」检测（免费）：填入任意 OpenAI 兼容端点的 base_url 和临时 API Key，跑 6 项探针（模型声明、动态题、能力完整性等）生成分项报告；Key 仅用于当次检测、不落库不留存，检测方法[开源](https://github.com/cocodot2026/cocodot-llmprobe)；同一团队还做 OpenAI 兼容的 API 中转 [cocodot](https://cocodot.co/?utm_source=github&utm_medium=readme&utm_campaign=1c7)（支付宝充值）",
       "status": "live",
       "date": "2026-07-24",
-      "url": "https://probe.cocodot.co",
+      "url": "https://probe.cocodot.co/?utm_source=github&utm_medium=readme&utm_campaign=1c7",
       "author": "cocodot2026",
       "authorLinks": [
         {
