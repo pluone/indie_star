@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-09-30T00:01:12.586Z",
-    "statsSyncedAt": "2026-09-30T00:01:12.586Z",
-    "upstreamSha": "9149f225130c67246aa74e3a97a8264bdeee50a1",
+    "contentSyncedAt": "2026-09-30T01:55:45.195Z",
+    "statsSyncedAt": "2026-09-30T01:55:45.195Z",
+    "upstreamSha": "584822ddbe8355c63c02ee4b72cc6a1d3846057a",
     "counts": {
-      "main": 1569,
+      "main": 1573,
       "game": 134,
       "programmer": 343,
-      "total": 2046
+      "total": 2050
     }
   },
   "main": [
+    {
+      "slug": "10472964ddb4",
+      "board": "main",
+      "name": "VideoCreate",
+      "intro": "视频反推提示词（Video to Prompt）工具，上传 60 秒内的 MP4/MOV 参考视频，按时间码切分镜头，逐镜头拆出主体、运镜、动作、光线、风格、声音六项，生成适配 Seedance、Kling 3.0、Wan 2.6、Grok Imagine 的提示词；Google 登录后每天免费分析 5 个视频",
+      "introMarkdown": "视频反推提示词（Video to Prompt）工具，上传 60 秒内的 MP4/MOV 参考视频，按时间码切分镜头，逐镜头拆出主体、运镜、动作、光线、风格、声音六项，生成适配 Seedance、Kling 3.0、Wan 2.6、Grok Imagine 的提示词；Google 登录后每天免费分析 5 个视频 - [实测提示词与成片](https://videocreate.org/prompts)",
+      "status": "live",
+      "date": "2026-09-30",
+      "url": "https://videocreate.org/",
+      "author": "blowxian",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/blowxian"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "5368d192f228",
+      "board": "main",
+      "name": "知识公社",
+      "intro": "完全离线的免费学习平台，竞赛真题、公考题库、毛选全文、世界技能大赛一站学，断网可用，浏览器打开即学",
+      "introMarkdown": "完全离线的免费学习平台，竞赛真题、公考题库、毛选全文、世界技能大赛一站学，断网可用，浏览器打开即学",
+      "status": "live",
+      "date": "2026-09-29",
+      "url": "https://taimabenji.github.io/knowledge-commons/",
+      "author": "TaiMaBenJi",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/TaiMaBenJi"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "59686a7eec3c",
       "board": "main",
@@ -5462,6 +5500,44 @@
       "status": "live",
       "date": "2026-07-21",
       "url": "https://flux3-video.online",
+      "author": "weidacn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "efe14b15559c",
+      "board": "main",
+      "name": "Hotel Lobby",
+      "intro": "一句话生成酒店大堂短片场景的 AI 视频工具，输出以短视频画幅为主，省去剪辑时间",
+      "introMarkdown": "一句话生成酒店大堂短片场景的 AI 视频工具，输出以短视频画幅为主，省去剪辑时间",
+      "status": "live",
+      "date": "2026-07-21",
+      "url": "https://hotellobby.video",
+      "author": "weidacn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "c47ba947e1ca",
+      "board": "main",
+      "name": "Space Bunny",
+      "intro": "用一句话生成短片场景的 AI 视频工具，在多次生成之间保持同一场景的一致性",
+      "introMarkdown": "用一句话生成短片场景的 AI 视频工具，在多次生成之间保持同一场景的一致性",
+      "status": "live",
+      "date": "2026-07-21",
+      "url": "https://spacebunny.pro",
       "author": "weidacn",
       "authorLinks": [
         {
