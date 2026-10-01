@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-01T02:10:49.913Z",
-    "statsSyncedAt": "2026-10-01T02:10:49.913Z",
-    "upstreamSha": "82e8d49d399849371a1c1879e6ca404bc266d093",
+    "contentSyncedAt": "2026-10-01T08:25:53.194Z",
+    "statsSyncedAt": "2026-10-01T08:25:53.194Z",
+    "upstreamSha": "6cccf1739af0ece21c8b4e9052e8620ae1c30934",
     "counts": {
-      "main": 1583,
+      "main": 1586,
       "game": 134,
       "programmer": 345,
-      "total": 2062
+      "total": 2065
     }
   },
   "main": [
+    {
+      "slug": "1e723c1940e3",
+      "board": "main",
+      "name": "MVFlow",
+      "intro": "AI 音乐视频制作工具，上传歌曲即可生成可编辑分镜，逐镜头调整提示词和场景版本，再与原始音频合成音乐视频；也支持照片配人声生成唱歌口型视频",
+      "introMarkdown": "AI 音乐视频制作工具，上传歌曲即可生成可编辑分镜，逐镜头调整提示词和场景版本，再与原始音频合成音乐视频；也支持照片配人声生成唱歌口型视频",
+      "status": "live",
+      "date": "2026-10-01",
+      "url": "https://mvflow.ai/",
+      "author": "Sebastian Wu",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/smkwls"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "dd3f4a33a20b",
+      "board": "main",
+      "name": "FileOnTap",
+      "intro": "HEIC 转 PNG 工具（免费），文件全程在浏览器本地转换、不上传服务器，无需注册、无水印；也支持 HEIC 转 JPG、图片压缩、图片转 PDF",
+      "introMarkdown": "HEIC 转 PNG 工具（免费），文件全程在浏览器本地转换、不上传服务器，无需注册、无水印；也支持 HEIC 转 JPG、图片压缩、图片转 PDF",
+      "status": "live",
+      "date": "2026-10-01",
+      "url": "https://fileontap.com/heic-to-png/",
+      "author": "Shao Zheng",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zjch022"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "220da1fbc0eb",
       "board": "main",
@@ -101,6 +139,25 @@
         {
           "label": "Github",
           "url": "https://github.com/lukuime"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "0687fe292e91",
+      "board": "main",
+      "name": "灵感蜂巢 PromptHive",
+      "intro": "中文 AI 提示词库，500+ 结构化模板带变量槽位，按小红书、抖音、B 站、知乎、公众号等平台和创作环节分类，填好变量一键复制，免费可用",
+      "introMarkdown": "中文 AI 提示词库，500+ 结构化模板带变量槽位，按小红书、抖音、B 站、知乎、公众号等平台和创作环节分类，填好变量一键复制，免费可用",
+      "status": "live",
+      "date": "2026-10-01",
+      "url": "https://www.prompt-hive.net/?utm_source=github&utm_medium=referral",
+      "author": "jw0507",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jw0507/awesome-chinese-ai-prompts"
         }
       ],
       "likes": 0,
