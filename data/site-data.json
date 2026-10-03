@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-03T00:05:53.075Z",
-    "statsSyncedAt": "2026-10-03T00:05:53.075Z",
-    "upstreamSha": "2bd6a6580ee668add18e4ab51ae2d6bd7f8a75f2",
+    "contentSyncedAt": "2026-10-03T07:21:06.137Z",
+    "statsSyncedAt": "2026-10-03T07:21:06.137Z",
+    "upstreamSha": "5463e9d96766fe7f8905092b605513c866e5e75d",
     "counts": {
-      "main": 1593,
+      "main": 1594,
       "game": 134,
-      "programmer": 345,
-      "total": 2072
+      "programmer": 346,
+      "total": 2074
     }
   },
   "main": [
+    {
+      "slug": "2022854a9f28",
+      "board": "main",
+      "name": "Kiss Generator",
+      "intro": "AI 接吻图片生成工具，上传两张照片合成一张亲吻合照，支持真人照片和动漫角色，登录即送 10 次免费生成",
+      "introMarkdown": "AI 接吻图片生成工具，上传两张照片合成一张亲吻合照，支持真人照片和动漫角色，登录即送 10 次免费生成",
+      "status": "live",
+      "date": "2026-10-03",
+      "url": "https://kissgenerator.app",
+      "author": "Answer",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/suiyia"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "e45f0e9a3eac",
       "board": "main",
@@ -31754,6 +31773,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "3a048f60641c",
+      "board": "programmer",
+      "name": "中转塔台 Relay Tower",
+      "intro": "上游半夜涨价、主调账号出故障时不用盯后台，自动提醒、自动切换，手机 Telegram 一键切线；MIT 开源，Docker 一键部署",
+      "introMarkdown": "上游半夜涨价、主调账号出故障时不用盯后台，自动提醒、自动切换，手机 Telegram 一键切线；MIT 开源，Docker 一键部署",
+      "status": "live",
+      "date": "2026-10-03",
+      "url": "https://github.com/oisano11/relay-tower",
+      "author": "oisano11",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/oisano11"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "eabb83061aa6",
       "board": "programmer",
