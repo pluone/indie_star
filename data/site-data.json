@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-03T07:21:06.137Z",
-    "statsSyncedAt": "2026-10-03T07:21:06.137Z",
-    "upstreamSha": "5463e9d96766fe7f8905092b605513c866e5e75d",
+    "contentSyncedAt": "2026-10-03T13:56:09.877Z",
+    "statsSyncedAt": "2026-10-03T13:56:09.877Z",
+    "upstreamSha": "bf6422d74d1553b39abeec5cf414486b14888ac7",
     "counts": {
-      "main": 1594,
+      "main": 1595,
       "game": 134,
       "programmer": 346,
-      "total": 2074
+      "total": 2075
     }
   },
   "main": [
+    {
+      "slug": "232f5e605529",
+      "board": "main",
+      "name": "videotopdf.app",
+      "intro": "将任意视频转换为带时间戳的高清 PDF、结构化笔记与逐字稿",
+      "introMarkdown": "将任意视频转换为带时间戳的高清 PDF、结构化笔记与逐字稿",
+      "status": "live",
+      "date": "2026-10-03",
+      "url": "https://videotopdf.app",
+      "author": "robin",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/robin25568"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "2022854a9f28",
       "board": "main",
