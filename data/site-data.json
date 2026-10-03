@@ -1,16 +1,58 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-03T13:56:09.877Z",
-    "statsSyncedAt": "2026-10-03T13:56:09.877Z",
-    "upstreamSha": "bf6422d74d1553b39abeec5cf414486b14888ac7",
+    "contentSyncedAt": "2026-10-03T14:01:25.769Z",
+    "statsSyncedAt": "2026-10-03T14:01:25.769Z",
+    "upstreamSha": "f2f9c2bfd8cd2c0726da4d0c8d41a6c383a78409",
     "counts": {
-      "main": 1595,
+      "main": 1597,
       "game": 134,
       "programmer": 346,
-      "total": 2075
+      "total": 2077
     }
   },
   "main": [
+    {
+      "slug": "b95a61f22bd5",
+      "board": "main",
+      "name": "小遥Claw/XiaoyaoClaw",
+      "intro": "AI 私人助理，让每个人的数字生活，都有一座自己说了算的小遥；AI 替你干活、替你记住，把所有小遥产品连成一张网",
+      "introMarkdown": "AI 私人助理，让每个人的数字生活，都有一座自己说了算的小遥；AI 替你干活、替你记住，把所有小遥产品连成一张网 - [更多介绍](https://www.yuque.com/dtsola/wt1gi2)",
+      "status": "live",
+      "date": "2026-10-03",
+      "url": "https://www.xiaoyaosai.com/",
+      "author": "dtsola",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/dtsola"
+        },
+        {
+          "label": "博客",
+          "url": "https://www.dtsola.com"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "069a5af7edc0",
+      "board": "main",
+      "name": "轻译 · LightTranslate",
+      "intro": "Windows 划词翻译与英语查词工具，按 Ctrl+Alt+Q 在鼠标旁查看中文译文；MIT 开源，提供安装包，使用自己的 DeepSeek API Key，API 按量计费",
+      "introMarkdown": "Windows 划词翻译与英语查词工具，按 Ctrl+Alt+Q 在鼠标旁查看中文译文；MIT 开源，提供安装包，使用自己的 DeepSeek API Key，API 按量计费 - [更多介绍与演示](https://github.com/shanghaiyangming/lighttranslate/blob/main/docs/DEMO.md)",
+      "status": "live",
+      "date": "2026-10-03",
+      "url": "https://github.com/shanghaiyangming/lighttranslate",
+      "author": "Young",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/shanghaiyangming"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "232f5e605529",
       "board": "main",
