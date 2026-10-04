@@ -1,16 +1,92 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-04T02:01:12.312Z",
-    "statsSyncedAt": "2026-10-04T02:01:12.312Z",
-    "upstreamSha": "eba8ee05f1433d8358de7642a8a12bff74021626",
+    "contentSyncedAt": "2026-10-04T12:41:13.487Z",
+    "statsSyncedAt": "2026-10-04T12:41:13.487Z",
+    "upstreamSha": "3318f2b45bcfb03cde785102073dda4d49481fd9",
     "counts": {
-      "main": 1599,
+      "main": 1604,
       "game": 134,
-      "programmer": 347,
-      "total": 2080
+      "programmer": 348,
+      "total": 2086
     }
   },
   "main": [
+    {
+      "slug": "f76177fa2941",
+      "board": "main",
+      "name": "Decisions API",
+      "intro": "决策模型对比与调用平台，在同一个在线 Playground 里比较 Jev、Laya、Kev、Solar、Span 等多种模型，用「状态 + 问题」的结构一次提出最多 8 个类型化问题，返回带概率的选择、评分与是非判断；Playground 不限量免费，接入后端用统一 REST API 与积分计费",
+      "introMarkdown": "决策模型对比与调用平台，在同一个在线 Playground 里比较 Jev、Laya、Kev、Solar、Span 等多种模型，用「状态 + 问题」的结构一次提出最多 8 个类型化问题，返回带概率的选择、评分与是非判断；Playground 不限量免费，接入后端用统一 REST API 与积分计费",
+      "status": "live",
+      "date": "2026-10-04",
+      "url": "https://decisionapi.net/",
+      "author": "James Parker",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/paidx2006"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "8db92cc91d96",
+      "board": "main",
+      "name": "生命之祭 · 地缘风险沙盘",
+      "intro": "战争伤亡数据网站，每个数字都标出信源和统计口径，并写明这是「经核实的最低确证数」；已核实事实与推演情景分成两栏，推演一律加标签",
+      "introMarkdown": "战争伤亡数据网站，每个数字都标出信源和统计口径，并写明这是「经核实的最低确证数」；已核实事实与推演情景分成两栏，推演一律加标签",
+      "status": "live",
+      "date": "2026-10-04",
+      "url": "https://0603wangxiao.github.io/geosandbox/",
+      "author": "王潇",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/0603wangxiao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "f98aa2289e2c",
+      "board": "main",
+      "name": "《三变·六反》知识图谱",
+      "intro": "网页版知识图谱，把一套自创分析框架画成可缩放的节点图，三章、六反、卦象与偈文依序展开，点开每个节点能看到释义和出处；整个图谱是单个 HTML 文件，无任何外部依赖",
+      "introMarkdown": "网页版知识图谱，把一套自创分析框架画成可缩放的节点图，三章、六反、卦象与偈文依序展开，点开每个节点能看到释义和出处；整个图谱是单个 HTML 文件，无任何外部依赖",
+      "status": "live",
+      "date": "2026-10-04",
+      "url": "https://0603wangxiao.github.io/36wx/kg/",
+      "author": "王潇",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/0603wangxiao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "28b0bc304e0f",
+      "board": "main",
+      "name": "三变·六反 · 投资策略图谱",
+      "intro": "投资研究知识图谱，把同一套分析框架用在投资上的展开，讲的是概念关系与操作次序，不含任何具体标的或买卖建议",
+      "introMarkdown": "投资研究知识图谱，把同一套分析框架用在投资上的展开，讲的是概念关系与操作次序，不含任何具体标的或买卖建议",
+      "status": "live",
+      "date": "2026-10-04",
+      "url": "https://0603wangxiao.github.io/36wx/invest/",
+      "author": "王潇",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/0603wangxiao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "0909047d4df9",
       "board": "main",
@@ -44,6 +120,25 @@
         {
           "label": "Github",
           "url": "https://github.com/GODGOD126"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "bf9b8fb24461",
+      "board": "main",
+      "name": "求原图",
+      "intro": "抖音、小红书、快手、B站、YouTube 等 30 多个平台的无水印视频和原图提取，实况图能打包成 iPhone 实况或安卓动态照片，视频可截一段转 GIF 或实况；免费不用登录，MIT 开源",
+      "introMarkdown": "抖音、小红书、快手、B站、YouTube 等 30 多个平台的无水印视频和原图提取，实况图能打包成 iPhone 实况或安卓动态照片，视频可截一段转 GIF 或实况；免费不用登录，MIT 开源 - [GitHub](https://github.com/hiyufan/shizhen)",
+      "status": "live",
+      "date": "2026-10-04",
+      "url": "https://ynvan.com",
+      "author": "hiyufan",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hiyufan"
         }
       ],
       "likes": 0,
@@ -31872,6 +31967,29 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "8b60c88a08dc",
+      "board": "programmer",
+      "name": "Flint Skills Manager",
+      "intro": "本地优先的 AI Skills 资产管理器，把分散在 Claude Code 等工具里的 skill 收进可版本化的本地资产库，统一去重、打标签、按预设部署到各个 agent，换工具资产也带得走；npx flint-skills-hub 即用，支持 macOS / Windows / Linux，MIT 开源",
+      "introMarkdown": "本地优先的 AI Skills 资产管理器，把分散在 Claude Code 等工具里的 skill 收进可版本化的本地资产库，统一去重、打标签、按预设部署到各个 agent，换工具资产也带得走；`npx flint-skills-hub` 即用，支持 macOS / Windows / Linux，MIT 开源",
+      "status": "live",
+      "date": "2026-10-04",
+      "url": "https://flint.lichuanyang.top",
+      "author": "SandGrid",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lcy362"
+        },
+        {
+          "label": "博客",
+          "url": "https://lichuanyang.top/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "3a048f60641c",
       "board": "programmer",
