@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-05T15:31:17.617Z",
-    "statsSyncedAt": "2026-10-05T15:31:17.617Z",
-    "upstreamSha": "6f1d6cb28f0110318ea52fdb6388ecf6ab43723b",
+    "contentSyncedAt": "2026-10-05T15:51:22.187Z",
+    "statsSyncedAt": "2026-10-05T15:51:22.187Z",
+    "upstreamSha": "03dd6f213dc46af9e22da33ab2045f56e2c0b3c2",
     "counts": {
       "main": 1617,
       "game": 134,
@@ -1890,7 +1890,7 @@
       "comments": 0
     },
     {
-      "slug": "9ed3b215f2e6",
+      "slug": "bc968686b094",
       "board": "main",
       "name": "Jev AI",
       "intro": "TypeSafe System One 模型的在线体验，对任意文本提是非题、选择题和评分题，直接返回校准过的概率与置信度，同一模型也可用 API key 调用",
@@ -1898,7 +1898,7 @@
       "status": "live",
       "date": "2026-09-19",
       "url": "https://jev-ai.pro",
-      "author": "Jev AI",
+      "author": "weidacn",
       "authorLinks": [
         {
           "label": "Github",
