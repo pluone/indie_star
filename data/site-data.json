@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-05T05:21:19.375Z",
-    "statsSyncedAt": "2026-10-05T05:21:19.375Z",
-    "upstreamSha": "fcb93dca9a4a5c2f088595024baab7605d04f15f",
+    "contentSyncedAt": "2026-10-05T05:26:03.079Z",
+    "statsSyncedAt": "2026-10-05T05:26:03.079Z",
+    "upstreamSha": "f7221964f33568ce0b0973a3c9773214be076c96",
     "counts": {
-      "main": 1608,
+      "main": 1609,
       "game": 134,
       "programmer": 350,
-      "total": 2092
+      "total": 2093
     }
   },
   "main": [
+    {
+      "slug": "1e7c7ee09b70",
+      "board": "main",
+      "name": "问迹 wenjiAI",
+      "intro": "AI 原生创投情报站，按问题找赛道，给出赛道分析、赛道榜单和商业速览，并追踪热点事件与论文，帮创业者和投资人找准方向",
+      "introMarkdown": "AI 原生创投情报站，按问题找赛道，给出赛道分析、赛道榜单和商业速览，并追踪热点事件与论文，帮创业者和投资人找准方向",
+      "status": "live",
+      "date": "2026-10-05",
+      "url": "https://wenjiai.cn",
+      "author": "Ethan Lian",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lianyixin"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "6bbfb78f6780",
       "board": "main",
