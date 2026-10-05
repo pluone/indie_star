@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-05T05:26:03.079Z",
-    "statsSyncedAt": "2026-10-05T05:26:03.079Z",
-    "upstreamSha": "f7221964f33568ce0b0973a3c9773214be076c96",
+    "contentSyncedAt": "2026-10-05T09:36:06.832Z",
+    "statsSyncedAt": "2026-10-05T09:36:06.832Z",
+    "upstreamSha": "3dca2ab44206ffa964289b97cec71ac5b7eb6ea5",
     "counts": {
-      "main": 1609,
+      "main": 1612,
       "game": 134,
       "programmer": 350,
-      "total": 2093
+      "total": 2096
     }
   },
   "main": [
@@ -96,6 +96,63 @@
       "status": "live",
       "date": "2026-10-05",
       "url": "https://raindance-ai.pro/",
+      "author": "weidacn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "7d1387be3852",
+      "board": "main",
+      "name": "AI Hair Color Changer",
+      "intro": "上传自拍选一个发色即可预览换色效果，只改头发，脸、发型和背景保持原样；内置 20 种发色与 5 种染法，可自定义颜色，基于 Ideogram 4.5 Edit，新账号首次免费，之后按积分计费",
+      "introMarkdown": "上传自拍选一个发色即可预览换色效果，只改头发，脸、发型和背景保持原样；内置 20 种发色与 5 种染法，可自定义颜色，基于 Ideogram 4.5 Edit，新账号首次免费，之后按积分计费",
+      "status": "live",
+      "date": "2026-10-05",
+      "url": "https://aihaircolorchanger.im",
+      "author": "weidacn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "793a980f661c",
+      "board": "main",
+      "name": "AI Video Extender",
+      "intro": "上传一段视频并描述后续情节，在片段结尾续上 5 到 15 秒并合成一个 MP4；可选 MiniMax H3 Max、H3 Max Turbo 或 Veo 3.1 Fast 三种模型，Veo 保持同一镜头、H3 换新机位，按积分计费，新账号送 6 积分",
+      "introMarkdown": "上传一段视频并描述后续情节，在片段结尾续上 5 到 15 秒并合成一个 MP4；可选 MiniMax H3 Max、H3 Max Turbo 或 Veo 3.1 Fast 三种模型，Veo 保持同一镜头、H3 换新机位，按积分计费，新账号送 6 积分",
+      "status": "live",
+      "date": "2026-10-05",
+      "url": "https://ai-videoextender.pro/",
+      "author": "weidacn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "7f8b3fdac53f",
+      "board": "main",
+      "name": "South Park Test",
+      "intro": "回答 35 道简短陈述题，测出你最像《南方公园》里的哪个角色；非官方粉丝测试，无需注册",
+      "introMarkdown": "回答 35 道简短陈述题，测出你最像《南方公园》里的哪个角色；非官方粉丝测试，无需注册",
+      "status": "live",
+      "date": "2026-10-05",
+      "url": "https://southparktest.pro/",
       "author": "weidacn",
       "authorLinks": [
         {
