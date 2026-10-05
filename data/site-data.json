@@ -1,16 +1,92 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-05T04:41:04.627Z",
-    "statsSyncedAt": "2026-10-05T04:41:04.627Z",
-    "upstreamSha": "beb718146d96613b0504176eef1c4145874decca",
+    "contentSyncedAt": "2026-10-05T04:45:58.200Z",
+    "statsSyncedAt": "2026-10-05T04:45:58.200Z",
+    "upstreamSha": "d05d7f1318f4cbca5d526d7a2833d4f3ba6124f3",
     "counts": {
-      "main": 1604,
+      "main": 1608,
       "game": 134,
       "programmer": 349,
-      "total": 2087
+      "total": 2091
     }
   },
   "main": [
+    {
+      "slug": "6bbfb78f6780",
+      "board": "main",
+      "name": "InkDoo",
+      "intro": "贴一篇文章或链接，AI 自动挑出该配图的段落，用同一个手绘小角色画出整套配图，支持上传自己的 IP 形象；注册送免费额度，按张一次性付费",
+      "introMarkdown": "贴一篇文章或链接，AI 自动挑出该配图的段落，用同一个手绘小角色画出整套配图，支持上传自己的 IP 形象；注册送免费额度，按张一次性付费 - [更多介绍](https://github.com/xianyu110/inkdoo-ai-illustration)",
+      "status": "live",
+      "date": "2026-10-05",
+      "url": "https://inkdoo.app/zh",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "fd0abc50d3f4",
+      "board": "main",
+      "name": "摊账",
+      "intro": "面向市集摊主的免费单场经营结余试算网页，扣除售出货品成本、损耗和活动费用后计算结余；无需注册，金额按人民币展示，提供中英文界面",
+      "introMarkdown": "面向市集摊主的免费单场经营结余试算网页，扣除售出货品成本、损耗和活动费用后计算结余；无需注册，金额按人民币展示，提供中英文界面",
+      "status": "live",
+      "date": "2026-10-05",
+      "url": "https://tanzhang-market-kit.hypebeast2k17.chatgpt.site/",
+      "author": "Harry Jia",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/thefakearchitectstudio-oss"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "328135cfb70d",
+      "board": "main",
+      "name": "Gas Station Dance",
+      "intro": "上传一到三张照片生成加油站日落前的潮流短视频，跳舞、自拍、下车三段镜头逐个换上你和朋友的脸，场景与运镜固定不变，输出 10 秒 9:16 无声 MP4；按积分计费",
+      "introMarkdown": "上传一到三张照片生成加油站日落前的潮流短视频，跳舞、自拍、下车三段镜头逐个换上你和朋友的脸，场景与运镜固定不变，输出 10 秒 9:16 无声 MP4；按积分计费",
+      "status": "live",
+      "date": "2026-10-05",
+      "url": "https://gasstationdance.pro",
+      "author": "weidacn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d5a58e2609cc",
+      "board": "main",
+      "name": "Raindance AI",
+      "intro": "上传两人各一张照片生成日落码头与海滩的多机位潮流短视频，整段镜头的两位表演者换成你们，保留原始运镜与配音，输出 28 秒 MP4；按积分计费",
+      "introMarkdown": "上传两人各一张照片生成日落码头与海滩的多机位潮流短视频，整段镜头的两位表演者换成你们，保留原始运镜与配音，输出 28 秒 MP4；按积分计费",
+      "status": "live",
+      "date": "2026-10-05",
+      "url": "https://raindance-ai.pro/",
+      "author": "weidacn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "f76177fa2941",
       "board": "main",
