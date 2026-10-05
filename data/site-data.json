@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-05T09:36:06.832Z",
-    "statsSyncedAt": "2026-10-05T09:36:06.832Z",
-    "upstreamSha": "3dca2ab44206ffa964289b97cec71ac5b7eb6ea5",
+    "contentSyncedAt": "2026-10-05T15:31:17.617Z",
+    "statsSyncedAt": "2026-10-05T15:31:17.617Z",
+    "upstreamSha": "6f1d6cb28f0110318ea52fdb6388ecf6ab43723b",
     "counts": {
-      "main": 1612,
+      "main": 1617,
       "game": 134,
-      "programmer": 350,
-      "total": 2096
+      "programmer": 351,
+      "total": 2102
     }
   },
   "main": [
@@ -39,6 +39,25 @@
       "status": "live",
       "date": "2026-10-05",
       "url": "https://inkdoo.app/zh",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "214b12a30e22",
+      "board": "main",
+      "name": "HallowPaws",
+      "intro": "上传一张猫狗照片，选 16 款万圣节造型之一，约 30 秒生成保留品种、毛色和五官的高清变装照；免费带水印预览无需注册，注册后可保存高清图，高清包 $1.99 起一次性付费无订阅",
+      "introMarkdown": "上传一张猫狗照片，选 16 款万圣节造型之一，约 30 秒生成保留品种、毛色和五官的高清变装照；免费带水印预览无需注册，注册后可保存高清图，高清包 $1.99 起一次性付费无订阅 - [更多介绍](https://github.com/xianyu110/hallowpaws-ai-pet-halloween)",
+      "status": "live",
+      "date": "2026-10-05",
+      "url": "https://hallowpaws.com",
       "author": "xianyu110",
       "authorLinks": [
         {
@@ -153,6 +172,82 @@
       "status": "live",
       "date": "2026-10-05",
       "url": "https://southparktest.pro/",
+      "author": "weidacn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d9fcc4c5ba8b",
+      "board": "main",
+      "name": "Attractiveness Test",
+      "intro": "上传一张照片，用 478 个面部特征点算出 0 到 100 的对称性与比例评分并逐项解释；浏览器内运行，照片不出设备",
+      "introMarkdown": "上传一张照片，用 478 个面部特征点算出 0 到 100 的对称性与比例评分并逐项解释；浏览器内运行，照片不出设备",
+      "status": "live",
+      "date": "2026-10-05",
+      "url": "https://attractivenesstest.pro",
+      "author": "weidacn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b98a2bfd1214",
+      "board": "main",
+      "name": "Flow AI Video",
+      "intro": "输入文字或上传单张图片生成几秒带同步音效的动态视频，画面保持原图风格；可选 Gemini Omni 1.1 Flash 等模型，有免费额度",
+      "introMarkdown": "输入文字或上传单张图片生成几秒带同步音效的动态视频，画面保持原图风格；可选 Gemini Omni 1.1 Flash 等模型，有免费额度",
+      "status": "live",
+      "date": "2026-10-05",
+      "url": "https://flowaivideo.im",
+      "author": "weidacn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "332b2e84e55e",
+      "board": "main",
+      "name": "Unblur Video",
+      "intro": "上传一段模糊视频，修复手抖、过度放大和弱光拍摄造成的画面，输出带原音频的清晰 MP4；首帧还原免费预览，无需安装软件",
+      "introMarkdown": "上传一段模糊视频，修复手抖、过度放大和弱光拍摄造成的画面，输出带原音频的清晰 MP4；首帧还原免费预览，无需安装软件",
+      "status": "live",
+      "date": "2026-10-05",
+      "url": "https://unblurvideo.pro",
+      "author": "weidacn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "ed8f686bdc9b",
+      "board": "main",
+      "name": "AI Zombie",
+      "intro": "上传本人或宠物的两张照片，生成一段 AI 僵尸潮流短视频，人物转身变成僵尸后切到最快乐的回忆镜头；固定场景与运镜，按积分计费",
+      "introMarkdown": "上传本人或宠物的两张照片，生成一段 AI 僵尸潮流短视频，人物转身变成僵尸后切到最快乐的回忆镜头；固定场景与运镜，按积分计费",
+      "status": "live",
+      "date": "2026-10-05",
+      "url": "https://aizombie.pro/",
       "author": "weidacn",
       "authorLinks": [
         {
@@ -32119,6 +32214,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "0d4fc9d83826",
+      "board": "programmer",
+      "name": "LayerMap",
+      "intro": "给编程 Agent 用的代码调用关系地图，一次调用把某个函数的调用方一路追到 HTTP 接口，回答「改这里会影响哪些接口」；用各语言自己的编译器解析 TypeScript/JavaScript、Go、Python、Java，完全本地运行不上传代码；提供 MCP 服务与插件，已收录在官方 MCP Registry，Apache-2.0 开源",
+      "introMarkdown": "给编程 Agent 用的代码调用关系地图，一次调用把某个函数的调用方一路追到 HTTP 接口，回答「改这里会影响哪些接口」；用各语言自己的编译器解析 TypeScript/JavaScript、Go、Python、Java，完全本地运行不上传代码；提供 MCP 服务与插件，已收录在官方 MCP Registry，Apache-2.0 开源 - [中文说明](https://github.com/coffeecoproject/layermap/blob/main/README.zh-CN.md)",
+      "status": "live",
+      "date": "2026-10-05",
+      "url": "https://github.com/coffeecoproject/layermap",
+      "author": "coffeecoproject",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/coffeecoproject"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "325383005af7",
       "board": "programmer",
