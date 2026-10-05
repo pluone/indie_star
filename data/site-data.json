@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-05T04:45:58.200Z",
-    "statsSyncedAt": "2026-10-05T04:45:58.200Z",
-    "upstreamSha": "d05d7f1318f4cbca5d526d7a2833d4f3ba6124f3",
+    "contentSyncedAt": "2026-10-05T05:21:19.375Z",
+    "statsSyncedAt": "2026-10-05T05:21:19.375Z",
+    "upstreamSha": "fcb93dca9a4a5c2f088595024baab7605d04f15f",
     "counts": {
       "main": 1608,
       "game": 134,
-      "programmer": 349,
-      "total": 2091
+      "programmer": 350,
+      "total": 2092
     }
   },
   "main": [
@@ -32043,6 +32043,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "325383005af7",
+      "board": "programmer",
+      "name": "AI Code Usage Tray",
+      "intro": "Windows 托盘用量监视器，一处看 Claude Code、Codex、Grok CLI、Antigravity、OpenCode 的 token 用量和金额，Claude、Codex、Grok 的官方额度在贴边悬浮条上常驻显示，另有跨工具的按天、项目、模型用量报表；只读本机会话记录，不上传用量数据，MIT 开源，提供 Windows 安装包",
+      "introMarkdown": "Windows 托盘用量监视器，一处看 Claude Code、Codex、Grok CLI、Antigravity、OpenCode 的 token 用量和金额，Claude、Codex、Grok 的官方额度在贴边悬浮条上常驻显示，另有跨工具的按天、项目、模型用量报表；只读本机会话记录，不上传用量数据，MIT 开源，提供 Windows 安装包 - [中文说明](https://github.com/saime428/ai-code-usage-tray/blob/main/README.zh-CN.md)",
+      "status": "live",
+      "date": "2026-10-05",
+      "url": "https://github.com/saime428/ai-code-usage-tray",
+      "author": "saime428",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/saime428"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "eb7e1adb73b0",
       "board": "programmer",
