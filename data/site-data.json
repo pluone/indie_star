@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-06T06:51:08.161Z",
-    "statsSyncedAt": "2026-10-06T06:51:08.161Z",
-    "upstreamSha": "3f8975c2e325543d0de961661904ce41a8571b59",
+    "contentSyncedAt": "2026-10-06T07:01:35.849Z",
+    "statsSyncedAt": "2026-10-06T07:01:35.849Z",
+    "upstreamSha": "43de6d1b2744a4d0d36b68443d3178c54e5fcd2d",
     "counts": {
-      "main": 1617,
+      "main": 1618,
       "game": 134,
-      "programmer": 352,
+      "programmer": 351,
       "total": 2103
     }
   },
   "main": [
+    {
+      "slug": "47fd0bb8e70c",
+      "board": "main",
+      "name": "ioe",
+      "intro": "面向零售门店的网页进销存，统一管理商品、库存、收银和会员；托管版提供 14 天试用，之后付费，MIT 开源版可自行部署",
+      "introMarkdown": "面向零售门店的网页进销存，统一管理商品、库存、收银和会员；托管版提供 14 天试用，之后付费，MIT 开源版可自行部署 - [源码与部署说明](https://github.com/zhtyyx/ioe)",
+      "status": "live",
+      "date": "2026-10-06",
+      "url": "https://ioea.xianist.com/",
+      "author": "zhtyyx",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhtyyx"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "1e7c7ee09b70",
       "board": "main",
@@ -36349,25 +36368,6 @@
         {
           "label": "Github",
           "url": "https://github.com/sunxfancy/SSUI"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "e2097a41a26f",
-      "board": "programmer",
-      "name": "ioe 库存管理系统",
-      "intro": "基于 Django 开发的综合性库存管理系统，专为零售商店、小型仓库和商品销售场所设计。系统提供了完整的商品管理、库存跟踪、销售记录、会员管理和数据分析功能，帮助企业高效管理库存和销售流程",
-      "introMarkdown": "基于 Django 开发的综合性库存管理系统，专为零售商店、小型仓库和商品销售场所设计。系统提供了完整的商品管理、库存跟踪、销售记录、会员管理和数据分析功能，帮助企业高效管理库存和销售流程",
-      "status": "live",
-      "date": "2025-04-22",
-      "url": "https://github.com/zhtyyx/ioe",
-      "author": "zhtyyx",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/zhtyyx"
         }
       ],
       "likes": 0,
