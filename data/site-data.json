@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-06T01:37:50.717Z",
-    "statsSyncedAt": "2026-10-06T01:37:50.717Z",
-    "upstreamSha": "03dd6f213dc46af9e22da33ab2045f56e2c0b3c2",
+    "contentSyncedAt": "2026-10-06T06:51:08.161Z",
+    "statsSyncedAt": "2026-10-06T06:51:08.161Z",
+    "upstreamSha": "3f8975c2e325543d0de961661904ce41a8571b59",
     "counts": {
       "main": 1617,
       "game": 134,
-      "programmer": 351,
-      "total": 2102
+      "programmer": 352,
+      "total": 2103
     }
   },
   "main": [
@@ -46,7 +46,7 @@
           "url": "https://github.com/xianyu110"
         }
       ],
-      "likes": 0,
+      "likes": 1,
       "comments": 0
     },
     {
@@ -32214,6 +32214,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "0d83a5786cdb",
+      "board": "programmer",
+      "name": "mu",
+      "intro": "编程 Agent，带一个判定内核：30 多个决策点上的例行判断交给小而快的判定模型 Jev，比如长工具输出里哪些片段进上下文、被规则拦下的命令是不是用户要的、网页和 MCP 结果里有没有冲着模型来的指令，大模型只管干活，每次判断都记进本地账本；基于 pi 与 AionUi，命令行 npm i -g mu-agent 即用，桌面端支持 macOS / Windows / Linux，MIT 开源（桌面端 Apache-2.0）",
+      "introMarkdown": "编程 Agent，带一个判定内核：30 多个决策点上的例行判断交给小而快的判定模型 Jev，比如长工具输出里哪些片段进上下文、被规则拦下的命令是不是用户要的、网页和 MCP 结果里有没有冲着模型来的指令，大模型只管干活，每次判断都记进本地账本；基于 pi 与 AionUi，命令行 `npm i -g mu-agent` 即用，桌面端支持 macOS / Windows / Linux，MIT 开源（桌面端 Apache-2.0） - [中文说明](https://github.com/qybaihe/mu/blob/main/docs/readme/README.zh-CN.md)",
+      "status": "live",
+      "date": "2026-10-06",
+      "url": "https://github.com/qybaihe/mu",
+      "author": "qybaihe",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/qybaihe"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "0d4fc9d83826",
       "board": "programmer",
