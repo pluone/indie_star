@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-06T10:56:16.571Z",
-    "statsSyncedAt": "2026-10-06T10:56:16.571Z",
-    "upstreamSha": "23ce7a64c5bd1730b7147355b40ccc0c1b776711",
+    "contentSyncedAt": "2026-10-06T14:22:04.481Z",
+    "statsSyncedAt": "2026-10-06T14:22:04.481Z",
+    "upstreamSha": "d56cad9f22601b8ee807c0a29f1baece5cd1bd31",
     "counts": {
-      "main": 1621,
-      "game": 134,
+      "main": 1622,
+      "game": 135,
       "programmer": 351,
-      "total": 2106
+      "total": 2108
     }
   },
   "main": [
+    {
+      "slug": "3944ce5c3bd3",
+      "board": "main",
+      "name": "桜幻想 Sakura Fantasy",
+      "intro": "浏览器里的 3D 日本河谷，坐小船从晨雾浅滩一路漂到千本鸟居，季节、时辰和天气都能切换，配水声和筝，无需下载和注册",
+      "introMarkdown": "浏览器里的 3D 日本河谷，坐小船从晨雾浅滩一路漂到千本鸟居，季节、时辰和天气都能切换，配水声和筝，无需下载和注册 - [GitHub 仓库](https://github.com/billpwchan/sakura-fantasy)",
+      "status": "live",
+      "date": "2026-10-06",
+      "url": "https://sakura.billpwchan.art",
+      "author": "Bill Chan",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/billpwchan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "1ef5e9286880",
       "board": "main",
@@ -1585,8 +1604,8 @@
       "slug": "b689b7ec8b09",
       "board": "main",
       "name": "精选副业",
-      "intro": "中文副业案例库，把公开的真实项目经历整理成可筛选的案例解读，可按平台、项目和技能查找，并查看成绩口径、适配条件、风险与原文入口",
-      "introMarkdown": "中文副业案例库，把公开的真实项目经历整理成可筛选的案例解读，可按平台、项目和技能查找，并查看成绩口径、适配条件、风险与原文入口",
+      "intro": "免费中文副业案例库，可按平台、项目和技能筛选，查看成绩口径、适配条件与原帖入口；附无需登录的副业方向测评",
+      "introMarkdown": "免费中文副业案例库，可按平台、项目和技能筛选，查看成绩口径、适配条件与原帖入口；附无需登录的副业方向测评 - [方向测评](https://jingxuan-fuye.pages.dev/tools/sidehustle-check/)",
       "status": "live",
       "date": "2026-09-22",
       "url": "https://jingxuan-fuye.pages.dev/",
@@ -29756,6 +29775,25 @@
     }
   ],
   "game": [
+    {
+      "slug": "2a3a2806141f",
+      "board": "game",
+      "name": "霓虹天頂 Neon Zenith",
+      "intro": "浏览器里的 3D 赛博九龙，从庙街夜市开车出发，可以一路飞上 1418 米高的塔顶，9373 栋楼都能降落；地面的九巴和的士靠左行驶、遇红灯会停，另有 4 个计时赛和 31 块隐藏碎片，无需下载和注册",
+      "introMarkdown": "浏览器里的 3D 赛博九龙，从庙街夜市开车出发，可以一路飞上 1418 米高的塔顶，9373 栋楼都能降落；地面的九巴和的士靠左行驶、遇红灯会停，另有 4 个计时赛和 31 块隐藏碎片，无需下载和注册 - [GitHub 仓库](https://github.com/billpwchan/neon-zenith)",
+      "status": "live",
+      "date": "2026-10-06",
+      "url": "https://zenith.billpwchan.art",
+      "author": "Bill Chan",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/billpwchan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "d0393899b41f",
       "board": "game",
