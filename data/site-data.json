@@ -1,16 +1,92 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-07T02:36:03.527Z",
-    "statsSyncedAt": "2026-10-07T02:36:03.527Z",
-    "upstreamSha": "cd7fe9836dc63c5ec5bf69a64c8dfc88f86f38e1",
+    "contentSyncedAt": "2026-10-07T06:11:22.347Z",
+    "statsSyncedAt": "2026-10-07T06:11:22.347Z",
+    "upstreamSha": "1b0109c28681e4378f78d7dbd98dec00e895dd50",
     "counts": {
-      "main": 1623,
-      "game": 135,
+      "main": 1627,
+      "game": 136,
       "programmer": 352,
-      "total": 2110
+      "total": 2115
     }
   },
   "main": [
+    {
+      "slug": "419d40b1782f",
+      "board": "main",
+      "name": "MacClean",
+      "intro": "Mac 磁盘清理工具，查看微信图片视频的占用、查找重复文件，清理前逐项预览和选择；扫描与查看结果免费，完整功能可试用 7 天，试用后清理需要许可证，支持 macOS 14+",
+      "introMarkdown": "Mac 磁盘清理工具，查看微信图片视频的占用、查找重复文件，清理前逐项预览和选择；扫描与查看结果免费，完整功能可试用 7 天，试用后清理需要许可证，支持 macOS 14+",
+      "status": "live",
+      "date": "2026-10-07",
+      "url": "https://thulem.com/",
+      "author": "jinglings",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jinglings"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "e047c08bfff9",
+      "board": "main",
+      "name": "移ろい Utsuroi",
+      "intro": "浏览器里的 3D 京都町屋和庭院，滚动页面就是时钟，从天亮前的院门走到夜里的锦鲤池，一共 14 个停留点；光照用 Cycles 离线烘焙、按时辰混合，可切换四季，声音全部实时合成，无需下载和注册",
+      "introMarkdown": "浏览器里的 3D 京都町屋和庭院，滚动页面就是时钟，从天亮前的院门走到夜里的锦鲤池，一共 14 个停留点；光照用 Cycles 离线烘焙、按时辰混合，可切换四季，声音全部实时合成，无需下载和注册 - [GitHub 仓库](https://github.com/billpwchan/utsuroi)",
+      "status": "live",
+      "date": "2026-10-07",
+      "url": "https://utsuroi.billpwchan.art",
+      "author": "Bill Chan",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/billpwchan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "70cc4643cbba",
+      "board": "main",
+      "name": "Halcyon",
+      "intro": "浏览器里的 3D 热带环礁，可以在沙滩散步、潜进珊瑚礁、开船出泻湖、飞过 330 米高的山峰；海浪是实时 FFT，岛上有 4.3 万株扫描植物，一天 36 分钟，天气自己变，入夜海面会发光，无需下载和注册",
+      "introMarkdown": "浏览器里的 3D 热带环礁，可以在沙滩散步、潜进珊瑚礁、开船出泻湖、飞过 330 米高的山峰；海浪是实时 FFT，岛上有 4.3 万株扫描植物，一天 36 分钟，天气自己变，入夜海面会发光，无需下载和注册 - [GitHub 仓库](https://github.com/billpwchan/halcyon)",
+      "status": "live",
+      "date": "2026-10-07",
+      "url": "https://halcyon.billpwchan.art",
+      "author": "Bill Chan",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/billpwchan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4cd4e8e1a41d",
+      "board": "main",
+      "name": "Posegeni",
+      "intro": "3D 姿势参考与制作工具，870+ 姿势库、可摆姿势的人体模型、多角度视图、PNG 和 ControlNet 导出，无需注册，浏览器内即可操作",
+      "introMarkdown": "3D 姿势参考与制作工具，870+ 姿势库、可摆姿势的人体模型、多角度视图、PNG 和 ControlNet 导出，无需注册，浏览器内即可操作",
+      "status": "live",
+      "date": "2026-10-07",
+      "url": "https://posegeni.com/",
+      "author": "Linky",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Linky-AIinlink"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "222020125e3f",
       "board": "main",
@@ -29794,6 +29870,25 @@
     }
   ],
   "game": [
+    {
+      "slug": "ddaa44340171",
+      "board": "game",
+      "name": "17-0 Football",
+      "intro": "英文浏览器橄榄球选秀小游戏，组建 9 槽阵容模拟 17 周赛季、冲击 17-0 全胜，每日挑战共用 seed 冲排行榜，无需注册",
+      "introMarkdown": "英文浏览器橄榄球选秀小游戏，组建 9 槽阵容模拟 17 周赛季、冲击 17-0 全胜，每日挑战共用 seed 冲排行榜，无需注册 - [GitHub 仓库](https://github.com/fisher-byte/17-0)",
+      "status": "live",
+      "date": "2026-10-07",
+      "url": "https://17-0football.com/",
+      "author": "fisher-byte",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fisher-byte"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "2a3a2806141f",
       "board": "game",
