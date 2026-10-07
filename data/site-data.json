@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-07T00:18:18.352Z",
-    "statsSyncedAt": "2026-10-07T00:18:18.352Z",
-    "upstreamSha": "d56cad9f22601b8ee807c0a29f1baece5cd1bd31",
+    "contentSyncedAt": "2026-10-07T02:36:03.527Z",
+    "statsSyncedAt": "2026-10-07T02:36:03.527Z",
+    "upstreamSha": "cd7fe9836dc63c5ec5bf69a64c8dfc88f86f38e1",
     "counts": {
-      "main": 1622,
+      "main": 1623,
       "game": 135,
-      "programmer": 351,
-      "total": 2108
+      "programmer": 352,
+      "total": 2110
     }
   },
   "main": [
+    {
+      "slug": "222020125e3f",
+      "board": "main",
+      "name": "Lokii",
+      "intro": "专为 Mac 打造的亚毫秒级原生文件即时搜索工具，像 Everything 一样键入即出；底层采用 Rust 内存倒排索引，50 万+ 文件检索延迟 <10ms，内存常驻 <100MB，FSEvents 实时无感监听变动，100% 离线隐私无遥测",
+      "introMarkdown": "专为 Mac 打造的亚毫秒级原生文件即时搜索工具，像 Everything 一样键入即出；底层采用 Rust 内存倒排索引，50 万+ 文件检索延迟 <10ms，内存常驻 <100MB，FSEvents 实时无感监听变动，100% 离线隐私无遥测 - [客户端下载](https://github.com/huangy7/lokii/releases) · [源码仓库](https://github.com/huangy7/lokii)",
+      "status": "live",
+      "date": "2026-10-07",
+      "url": "https://lokii.huangy.top/",
+      "author": "huangy7",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/huangy7"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "3944ce5c3bd3",
       "board": "main",
@@ -32329,6 +32348,25 @@
   ],
   "programmer": [
     {
+      "slug": "8bc8241b9c86",
+      "board": "programmer",
+      "name": "Agent Usage",
+      "intro": "免费开源的桌面应用，在本地查看 Claude Code、Codex 等 AI 编程工具的 Token 用量、估算费用和会话记录",
+      "introMarkdown": "免费开源的桌面应用，在本地查看 Claude Code、Codex 等 AI 编程工具的 Token 用量、估算费用和会话记录 - [更多介绍](https://github.com/hongshuo-wang/agent-usage-desktop/blob/main/README.zh-CN.md)",
+      "status": "live",
+      "date": "2026-10-07",
+      "url": "https://github.com/hongshuo-wang/agent-usage-desktop/releases",
+      "author": "Hongshuo Wang",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hongshuo-wang"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "0d83a5786cdb",
       "board": "programmer",
       "name": "mu",
@@ -32488,8 +32526,8 @@
       "slug": "92efac15d2e5",
       "board": "programmer",
       "name": "onomeo",
-      "intro": "兼容 OpenAI 的 AI 接口聚合站，一把密钥调用 DeepSeek、GLM、Gemini、Qwen 等 35 个免费模型，免费模型不扣额度（未付费账号每 5 小时 20 次），网页里也能直接对话和画图；Claude、GPT 等大模型需付费；目前是公测阶段，不保证所有功能都能正常使用，正在大量收集反馈，欢迎提",
-      "introMarkdown": "兼容 OpenAI 的 AI 接口聚合站，一把密钥调用 DeepSeek、GLM、Gemini、Qwen 等 35 个免费模型，免费模型不扣额度（未付费账号每 5 小时 20 次），网页里也能直接对话和画图；Claude、GPT 等大模型需付费；目前是公测阶段，不保证所有功能都能正常使用，正在大量收集反馈，欢迎提",
+      "intro": "兼容 OpenAI 的 AI 接口聚合站，一把密钥调用 DeepSeek、GLM、Gemini、Qwen 等约 30 个免费模型，免费模型按次数计（每个账号每 5 小时 30 次），网页里也能直接对话和画图；Claude、GPT 等大模型按量付费（美元余额，5 美元起充）；目前是公测阶段，不保证所有功能都能正常使用，正在大量收集反馈，欢迎提",
+      "introMarkdown": "兼容 OpenAI 的 AI 接口聚合站，一把密钥调用 DeepSeek、GLM、Gemini、Qwen 等约 30 个免费模型，免费模型按次数计（每个账号每 5 小时 30 次），网页里也能直接对话和画图；Claude、GPT 等大模型按量付费（美元余额，5 美元起充）；目前是公测阶段，不保证所有功能都能正常使用，正在大量收集反馈，欢迎提",
       "status": "live",
       "date": "2026-09-30",
       "url": "https://onomeo.com/zh",
