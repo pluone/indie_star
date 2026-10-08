@@ -1,16 +1,130 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-08T02:01:12.757Z",
-    "statsSyncedAt": "2026-10-08T02:01:12.757Z",
-    "upstreamSha": "fae3a541ae09de4c64b09fc1121a1077b6a3a34f",
+    "contentSyncedAt": "2026-10-08T12:26:24.938Z",
+    "statsSyncedAt": "2026-10-08T12:26:24.938Z",
+    "upstreamSha": "2cfe014c1d722e163bd706c40ede6009734b5bb9",
     "counts": {
-      "main": 1632,
+      "main": 1638,
       "game": 136,
-      "programmer": 352,
-      "total": 2120
+      "programmer": 353,
+      "total": 2127
     }
   },
   "main": [
+    {
+      "slug": "3d1924b91336",
+      "board": "main",
+      "name": "Loretypes",
+      "intro": "自我探索测验合集（英文），气场颜色、Archetype、道德阵营、色彩季型、灵动物、前世六套测验，每套 21 到 24 题、约 3 到 4 分钟出完整结果，无需注册免费使用；Archetype 结果页可生成一段 AI 反思，前世测验页面明确标注为虚构，仅供娱乐与自我反思",
+      "introMarkdown": "自我探索测验合集（英文），气场颜色、Archetype、道德阵营、色彩季型、灵动物、前世六套测验，每套 21 到 24 题、约 3 到 4 分钟出完整结果，无需注册免费使用；Archetype 结果页可生成一段 AI 反思，前世测验页面明确标注为虚构，仅供娱乐与自我反思",
+      "status": "live",
+      "date": "2026-10-08",
+      "url": "https://loretypes.com/",
+      "author": "zizhu-ai",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zizhu-ai"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "29b187ac4744",
+      "board": "main",
+      "name": "EaseGen",
+      "intro": "AI 图片与视频创作平台，把 Seedance 2.5、Kling 3、Veo 3.1、Wan 3.0、GPT Image 2.5、Seedream 5.0、Nano Banana 2 等数十个图像与视频模型收在同一工作区切换，支持参考图、首尾帧与参考视频音频，另内置广告图、海报、商品图等成品模板；提供免费额度、订阅与积分包",
+      "introMarkdown": "AI 图片与视频创作平台，把 Seedance 2.5、Kling 3、Veo 3.1、Wan 3.0、GPT Image 2.5、Seedream 5.0、Nano Banana 2 等数十个图像与视频模型收在同一工作区切换，支持参考图、首尾帧与参考视频音频，另内置广告图、海报、商品图等成品模板；提供免费额度、订阅与积分包",
+      "status": "live",
+      "date": "2026-10-08",
+      "url": "https://easegen.ai/",
+      "author": "udan520",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/udan520"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "344bf0b227a9",
+      "board": "main",
+      "name": "Caplo",
+      "intro": "Mac 录屏工具，录制时记录点击与指针轨迹，按操作节奏自动生成推近与跟随镜头，可手动增删每个镜头片段；支持 40 种光标样式、点击高亮、多轨时间线剪辑、macOS 离线语音识别字幕、敏感区域打码与章节卡片，导出 MP4 / HEVC / ProRes / GIF，素材与工程只保存在本机；要求 macOS 15 及以上，源码在 GitHub 开源",
+      "introMarkdown": "Mac 录屏工具，录制时记录点击与指针轨迹，按操作节奏自动生成推近与跟随镜头，可手动增删每个镜头片段；支持 40 种光标样式、点击高亮、多轨时间线剪辑、macOS 离线语音识别字幕、敏感区域打码与章节卡片，导出 MP4 / HEVC / ProRes / GIF，素材与工程只保存在本机；要求 macOS 15 及以上，源码在 GitHub 开源",
+      "status": "live",
+      "date": "2026-10-08",
+      "url": "https://caplo.app/",
+      "author": "icloudza",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/icloudza"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "7c39f55b1acf",
+      "board": "main",
+      "name": "漫阅 ManYue",
+      "intro": "iPhone / iPad 漫画阅读器，可导入 Venera 漫画源（JS 源文件或源链接）在线浏览、搜索与追更，也能从「文件」导入 CBZ、CBR、CB7、ZIP、RAR、7z、PDF 等本地漫画离线阅读；支持 WebDAV 与 SMB 访问个人网盘 NAS，并能连接 Suwayomi / Tachidesk、Komga、Kavita、LANraragi、OPDS 书库；¥3 付费下载",
+      "introMarkdown": "iPhone / iPad 漫画阅读器，可导入 Venera 漫画源（JS 源文件或源链接）在线浏览、搜索与追更，也能从「文件」导入 CBZ、CBR、CB7、ZIP、RAR、7z、PDF 等本地漫画离线阅读；支持 WebDAV 与 SMB 访问个人网盘 NAS，并能连接 Suwayomi / Tachidesk、Komga、Kavita、LANraragi、OPDS 书库；¥3 付费下载",
+      "status": "live",
+      "date": "2026-10-08",
+      "url": "https://apps.apple.com/mo/app/id6753895889",
+      "author": "SoBison",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/SoBison"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "61273606986b",
+      "board": "main",
+      "name": "New Site Radar",
+      "intro": "每日更新的新站雷达，跟踪 168 万个新注册域名、已收录 16,973 个刚上线并确认有实际内容和定价页的网站，按 AI、软件、App、视频、设计、Agent 等领域筛选，也可按注册起止日期区间或关键词搜索；浏览与搜索免费无需注册",
+      "introMarkdown": "每日更新的新站雷达，跟踪 168 万个新注册域名、已收录 16,973 个刚上线并确认有实际内容和定价页的网站，按 AI、软件、App、视频、设计、Agent 等领域筛选，也可按注册起止日期区间或关键词搜索；浏览与搜索免费无需注册",
+      "status": "live",
+      "date": "2026-10-08",
+      "url": "https://newsiteradar.aibit.im/zh/",
+      "author": "zxcHolmes",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zxcHolmes"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "55a7655f6cb5",
+      "board": "main",
+      "name": "Mistral Large 4",
+      "intro": "Mistral Large 4 模型的在线 playground 与接入指南，1M 上下文，支持文本与图片输入，可调推理档位、温度、最大输出 token 与 JSON 输出格式；playground 免费，超出免费额度按积分计费（积分为模型美元成本 × 12,000），非 Mistral 官方站点",
+      "introMarkdown": "Mistral Large 4 模型的在线 playground 与接入指南，1M 上下文，支持文本与图片输入，可调推理档位、温度、最大输出 token 与 JSON 输出格式；playground 免费，超出免费额度按积分计费（积分为模型美元成本 × 12,000），非 Mistral 官方站点",
+      "status": "live",
+      "date": "2026-10-08",
+      "url": "https://mistrallarge4.com/",
+      "author": "paidx2006",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/paidx2006"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "e8029602dcf9",
       "board": "main",
@@ -32541,6 +32655,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "9e6f6acff80a",
+      "board": "programmer",
+      "name": "拾级 Shiji",
+      "intro": "装进 Claude、豆包等 AI 助手的大学生全周期顾问技能包，100+ 篇中文文档覆盖求职、职场、人际、论文、考研、学习、研究生、生活、留学九条线，另有 8 个可直接填写的简历模板；把仓库拷进 skills 目录即用，代码 MIT、内容 CC BY-NC-ND 开源",
+      "introMarkdown": "装进 Claude、豆包等 AI 助手的大学生全周期顾问技能包，100+ 篇中文文档覆盖求职、职场、人际、论文、考研、学习、研究生、生活、留学九条线，另有 8 个可直接填写的简历模板；把仓库拷进 skills 目录即用，代码 MIT、内容 CC BY-NC-ND 开源",
+      "status": "live",
+      "date": "2026-10-08",
+      "url": "https://github.com/ZhongQuinnKing/shiji",
+      "author": "ZhongQuinnKing",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ZhongQuinnKing"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "8bc8241b9c86",
       "board": "programmer",
