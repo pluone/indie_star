@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-08T14:36:54.841Z",
-    "statsSyncedAt": "2026-10-08T14:36:54.841Z",
-    "upstreamSha": "bfa5b2ddecb1845bde43ffcc663f3ca18ca65986",
+    "contentSyncedAt": "2026-10-08T14:41:13.181Z",
+    "statsSyncedAt": "2026-10-08T14:41:13.181Z",
+    "upstreamSha": "15f5e332cc9724ad827874d35873b8cdf11eaf50",
     "counts": {
-      "main": 1639,
+      "main": 1640,
       "game": 136,
       "programmer": 355,
-      "total": 2130
+      "total": 2131
     }
   },
   "main": [
@@ -215,6 +215,25 @@
         {
           "label": "Github",
           "url": "https://github.com/weidacn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "75ce22b9fe0f",
+      "board": "main",
+      "name": "barcodegen.net",
+      "intro": "在线条码生成工具，支持 Code 128、EAN-13、UPC-A、二维码、Data Matrix、PDF417 等 35 种条码，可导出 SVG/PNG/JPG，支持批量导入 CSV 打包 ZIP 下载，另有条码标签打印与扫码识别；免费、无需注册、无水印、可商用，界面含中文在内共 11 种语言",
+      "introMarkdown": "在线条码生成工具，支持 Code 128、EAN-13、UPC-A、二维码、Data Matrix、PDF417 等 35 种条码，可导出 SVG/PNG/JPG，支持批量导入 CSV 打包 ZIP 下载，另有条码标签打印与扫码识别；免费、无需注册、无水印、可商用，界面含中文在内共 11 种语言",
+      "status": "live",
+      "date": "2026-10-08",
+      "url": "https://www.barcodegen.net",
+      "author": "surfacex-dev",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/surfacex-dev"
         }
       ],
       "likes": 0,
