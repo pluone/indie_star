@@ -1,16 +1,39 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-09T00:55:17.933Z",
-    "statsSyncedAt": "2026-10-09T00:55:17.933Z",
-    "upstreamSha": "15f5e332cc9724ad827874d35873b8cdf11eaf50",
+    "contentSyncedAt": "2026-10-09T07:11:10.431Z",
+    "statsSyncedAt": "2026-10-09T07:11:10.431Z",
+    "upstreamSha": "d8a77f1761042472c0bb0de6b23ab098c651131e",
     "counts": {
-      "main": 1640,
+      "main": 1641,
       "game": 136,
-      "programmer": 355,
-      "total": 2131
+      "programmer": 356,
+      "total": 2133
     }
   },
   "main": [
+    {
+      "slug": "c1d582452865",
+      "board": "main",
+      "name": "Genjutsu AI",
+      "intro": "AI 视频重风格化工具，保留原片段的主体、运动和镜头轨迹，只重写它周围的世界——换场景、换风格、换产品或换道具，上传视频加一句提示词即可",
+      "introMarkdown": "AI 视频重风格化工具，保留原片段的主体、运动和镜头轨迹，只重写它周围的世界——换场景、换风格、换产品或换道具，上传视频加一句提示词即可 - [更多介绍](https://genjutsuai.net/#feature)",
+      "status": "live",
+      "date": "2026-10-09",
+      "url": "https://genjutsuai.net/",
+      "author": "CoderLim",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/CoderLim"
+        },
+        {
+          "label": "博客",
+          "url": "https://limbuilder.github.io/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "6ec3fb6a037e",
       "board": "main",
@@ -32697,8 +32720,8 @@
       "slug": "9e6f6acff80a",
       "board": "programmer",
       "name": "拾级 Shiji",
-      "intro": "装进 Claude、豆包等 AI 助手的成长顾问技能包，从高三填志愿到入职三年，151 篇中文文档覆盖高考、大学、考研、考公、求职、职场、论文、研究生、留学、学习、人际与生活、特殊通道十二条线，另有 8 个可直接填写的简历模板；把仓库拷进 skills 目录即用，代码 MIT、内容 CC BY-NC-ND 开源",
-      "introMarkdown": "装进 Claude、豆包等 AI 助手的成长顾问技能包，从高三填志愿到入职三年，151 篇中文文档覆盖高考、大学、考研、考公、求职、职场、论文、研究生、留学、学习、人际与生活、特殊通道十二条线，另有 8 个可直接填写的简历模板；把仓库拷进 skills 目录即用，代码 MIT、内容 CC BY-NC-ND 开源",
+      "intro": "装进 Claude、豆包等 AI 助手的成长顾问技能包，从高三填志愿到入职三年，152 篇中文文档覆盖高考、大学、考研、考公、求职、职场、论文、研究生、留学、学习、人际与生活、特殊通道十二条线，另有 8 个可直接填写的简历模板；把仓库拷进 skills 目录即用，代码 MIT、内容 CC BY-NC-ND 开源",
+      "introMarkdown": "装进 Claude、豆包等 AI 助手的成长顾问技能包，从高三填志愿到入职三年，152 篇中文文档覆盖高考、大学、考研、考公、求职、职场、论文、研究生、留学、学习、人际与生活、特殊通道十二条线，另有 8 个可直接填写的简历模板；把仓库拷进 skills 目录即用，代码 MIT、内容 CC BY-NC-ND 开源",
       "status": "live",
       "date": "2026-10-08",
       "url": "https://github.com/ZhongQuinnKing/shiji",
@@ -32740,6 +32763,25 @@
       "status": "live",
       "date": "2026-10-08",
       "url": "https://github.com/ZhongQuinnKing/yesong",
+      "author": "ZhongQuinnKing",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ZhongQuinnKing"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "329ab188c6d5",
+      "board": "programmer",
+      "name": "玉尺 Yuchi",
+      "intro": "给中文写作量呼吸的一把尺，文章、诗同等对待：文章看句长节奏、套话与虚词密度、结构推进，诗做逐字平仄标注、近体诗格律检查、818 个词牌给谱对谱，另附十四篇写作教材；命令行（零依赖）、网页、AI 技能包三入口即用，代码 MIT、内容 CC BY-NC-ND 开源",
+      "introMarkdown": "给中文写作量呼吸的一把尺，文章、诗同等对待：文章看句长节奏、套话与虚词密度、结构推进，诗做逐字平仄标注、近体诗格律检查、818 个词牌给谱对谱，另附十四篇写作教材；命令行（零依赖）、网页、AI 技能包三入口即用，代码 MIT、内容 CC BY-NC-ND 开源",
+      "status": "live",
+      "date": "2026-10-08",
+      "url": "https://github.com/ZhongQuinnKing/yuchi",
       "author": "ZhongQuinnKing",
       "authorLinks": [
         {
