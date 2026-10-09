@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-09T07:11:10.431Z",
-    "statsSyncedAt": "2026-10-09T07:11:10.431Z",
-    "upstreamSha": "d8a77f1761042472c0bb0de6b23ab098c651131e",
+    "contentSyncedAt": "2026-10-09T14:16:37.710Z",
+    "statsSyncedAt": "2026-10-09T14:16:37.710Z",
+    "upstreamSha": "0214b6fee02fac23212e63c9f11b4994f078bacb",
     "counts": {
       "main": 1641,
       "game": 136,
-      "programmer": 356,
-      "total": 2133
+      "programmer": 358,
+      "total": 2135
     }
   },
   "main": [
@@ -32716,6 +32716,44 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "658dd0b30421",
+      "board": "programmer",
+      "name": "Jet Browser",
+      "intro": "给 AI Agent 嵌入的轻量浏览器运行时，一个 Docker 容器运行一个 WPE WebKit 会话，通过有序 JSONL 执行原生鼠标键盘输入、DOM 检查与截图；不绑定模型、账号或托管控制面，Apache-2.0 开源，提供 Codex / Claude Code Skill 与 GitHub Action 验收",
+      "introMarkdown": "给 AI Agent 嵌入的轻量浏览器运行时，一个 Docker 容器运行一个 WPE WebKit 会话，通过有序 JSONL 执行原生鼠标键盘输入、DOM 检查与截图；不绑定模型、账号或托管控制面，Apache-2.0 开源，提供 Codex / Claude Code Skill 与 GitHub Action 验收 - [基准方法与原始数据](https://github.com/masakaai/jet-browser/blob/main/docs/benchmarks.md)",
+      "status": "live",
+      "date": "2026-10-09",
+      "url": "https://github.com/masakaai/jet-browser",
+      "author": "MASAKA AI",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/masakaai"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "7ca47df6507f",
+      "board": "programmer",
+      "name": "LinkAGI",
+      "intro": "面向开发者的 AI API 聚合服务，提供 OpenAI、Anthropic 与 Gemini 风格的接口；控制台可创建独立 API Key、查看模型价格和调用日志，支持人民币按量计费",
+      "introMarkdown": "面向开发者的 AI API 聚合服务，提供 OpenAI、Anthropic 与 Gemini 风格的接口；控制台可创建独立 API Key、查看模型价格和调用日志，支持人民币按量计费 - [使用文档](https://docs.linktoagi.com/)",
+      "status": "live",
+      "date": "2026-10-09",
+      "url": "https://api.linktoagi.com/",
+      "author": "LinkAGI",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/16871233"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "9e6f6acff80a",
       "board": "programmer",
