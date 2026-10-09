@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-09T14:16:37.710Z",
-    "statsSyncedAt": "2026-10-09T14:16:37.710Z",
-    "upstreamSha": "0214b6fee02fac23212e63c9f11b4994f078bacb",
+    "contentSyncedAt": "2026-10-09T14:56:01.198Z",
+    "statsSyncedAt": "2026-10-09T14:56:01.198Z",
+    "upstreamSha": "0f3cf5732e6e1f6123863d5a69b0f9f7ddc6623d",
     "counts": {
-      "main": 1641,
+      "main": 1643,
       "game": 136,
       "programmer": 358,
-      "total": 2135
+      "total": 2137
     }
   },
   "main": [
@@ -29,6 +29,52 @@
         {
           "label": "博客",
           "url": "https://limbuilder.github.io/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "ae74adbfa6fc",
+      "board": "main",
+      "name": "WorthCay",
+      "intro": "Coast FIRE 计算器（免费），输入年龄、退休年龄、退休后年支出、当前投资资产与每月投入，算出 Coast FIRE 数字与完整 FIRE 数字；可保存目标并按 Actual vs Goal 跟踪进度，对比「继续投入」与「停止投入让收益复利」两条路径的增长曲线",
+      "introMarkdown": "Coast FIRE 计算器（免费），输入年龄、退休年龄、退休后年支出、当前投资资产与每月投入，算出 Coast FIRE 数字与完整 FIRE 数字；可保存目标并按 Actual vs Goal 跟踪进度，对比「继续投入」与「停止投入让收益复利」两条路径的增长曲线",
+      "status": "live",
+      "date": "2026-10-09",
+      "url": "https://worthcay.com",
+      "author": "Cayden",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/caydock"
+        },
+        {
+          "label": "博客",
+          "url": "https://caydock.com"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "fba9d64445cc",
+      "board": "main",
+      "name": "CoverCay",
+      "intro": "音乐专辑封面搜索下载（免费），基于 iTunes 数据检索专辑封面、歌曲封面与音乐视频封面，支持多国家地区与多种尺寸一键下载或复制",
+      "introMarkdown": "音乐专辑封面搜索下载（免费），基于 iTunes 数据检索专辑封面、歌曲封面与音乐视频封面，支持多国家地区与多种尺寸一键下载或复制",
+      "status": "live",
+      "date": "2026-10-09",
+      "url": "https://cover.caydock.com",
+      "author": "Cayden",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/caydock"
+        },
+        {
+          "label": "博客",
+          "url": "https://caydock.com"
         }
       ],
       "likes": 0,
