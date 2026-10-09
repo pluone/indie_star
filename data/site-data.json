@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-09T14:56:01.198Z",
-    "statsSyncedAt": "2026-10-09T14:56:01.198Z",
-    "upstreamSha": "0f3cf5732e6e1f6123863d5a69b0f9f7ddc6623d",
+    "contentSyncedAt": "2026-10-09T20:51:09.379Z",
+    "statsSyncedAt": "2026-10-09T20:51:09.379Z",
+    "upstreamSha": "85d72e6356b6946560768a34715b467e85fb1e1e",
     "counts": {
-      "main": 1643,
+      "main": 1644,
       "game": 136,
-      "programmer": 358,
-      "total": 2137
+      "programmer": 359,
+      "total": 2139
     }
   },
   "main": [
+    {
+      "slug": "bcf731753a57",
+      "board": "main",
+      "name": "九曜印占",
+      "intro": "印度占星（吠陀占星）排盘与 AI 解读网站，按天文历计算本命盘、大运与年盘，围绕一个问题可连续追问；出生时间记不准时可用几件人生大事做生辰校准，线索充分时收窄到分钟级；对话只存浏览器本地，简繁中文，排盘免费、AI 解读按点数计费",
+      "introMarkdown": "印度占星（吠陀占星）排盘与 AI 解读网站，按天文历计算本命盘、大运与年盘，围绕一个问题可连续追问；出生时间记不准时可用几件人生大事做生辰校准，线索充分时收窄到分钟级；对话只存浏览器本地，简繁中文，排盘免费、AI 解读按点数计费",
+      "status": "live",
+      "date": "2026-10-10",
+      "url": "https://jiuyaoyinzhan.com",
+      "author": "Vadaski",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Vadaski"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "c1d582452865",
       "board": "main",
@@ -32762,6 +32781,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "54b7b1756dd3",
+      "board": "programmer",
+      "name": "outline-skill",
+      "intro": "专为 AI 编程智能体（Claude Code、Antigravity、Cursor 等）打造的 Outline 知识库 Agent Skill 与协同工具。遵循 agentskills.io 标准，赋予各类智能体原生读写、检索与智能格式化 Outline 文档的能力；内置排版护栏（自动去除冗余标题、生成标准 Callout 提示块），支持 MCP 与零依赖 Node.js 客户端双引擎架构，完全开源免费",
+      "introMarkdown": "专为 AI 编程智能体（Claude Code、Antigravity、Cursor 等）打造的 Outline 知识库 Agent Skill 与协同工具。遵循 agentskills.io 标准，赋予各类智能体原生读写、检索与智能格式化 Outline 文档的能力；内置排版护栏（自动去除冗余标题、生成标准 Callout 提示块），支持 MCP 与零依赖 Node.js 客户端双引擎架构，完全开源免费 - [源码仓库](https://github.com/huangy7/outline-skill)",
+      "status": "live",
+      "date": "2026-10-10",
+      "url": "https://github.com/huangy7/outline-skill",
+      "author": "huangy7",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/huangy7"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "658dd0b30421",
       "board": "programmer",
