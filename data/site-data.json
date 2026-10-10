@@ -1,16 +1,111 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-10T04:26:03.123Z",
-    "statsSyncedAt": "2026-10-10T04:26:03.123Z",
-    "upstreamSha": "959119d7d81c972a56111b06665c18d474d2e226",
+    "contentSyncedAt": "2026-10-10T11:31:53.049Z",
+    "statsSyncedAt": "2026-10-10T11:31:53.049Z",
+    "upstreamSha": "db6b23adaefaec1f46da4b42abcfd168a892d1f2",
     "counts": {
-      "main": 1646,
+      "main": 1651,
       "game": 136,
-      "programmer": 360,
-      "total": 2142
+      "programmer": 361,
+      "total": 2148
     }
   },
   "main": [
+    {
+      "slug": "d42b610806e4",
+      "board": "main",
+      "name": "门外谈 Menwai Tan",
+      "intro": "AI 思想家辩论场，把 26 位以上思想家蒸馏成 SKILL.md 人格，可单人对谈也可开圆桌让多位思想家轮流交锋；随口／较真／上头三档控制回答火候，气氛上来自动升级，遇到不懂的梗先联网检索再回答；支持自带 API Key，也留了站内免费通道",
+      "introMarkdown": "AI 思想家辩论场，把 26 位以上思想家蒸馏成 SKILL.md 人格，可单人对谈也可开圆桌让多位思想家轮流交锋；随口／较真／上头三档控制回答火候，气氛上来自动升级，遇到不懂的梗先联网检索再回答；支持自带 API Key，也留了站内免费通道 - [源码](https://github.com/fsh114514/menwaitan)",
+      "status": "live",
+      "date": "2026-10-10",
+      "url": "https://outgate.chat",
+      "author": "fsh114514",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fsh114514"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "3fcd7ec5f0d0",
+      "board": "main",
+      "name": "Vidu Q4",
+      "intro": "AI 短片生成器，选已审核的非人类场景预设与固定场景运动即可生成 3–16 秒静音短片，540p 至 4K，无需提示词或上传素材",
+      "introMarkdown": "AI 短片生成器，选已审核的非人类场景预设与固定场景运动即可生成 3–16 秒静音短片，540p 至 4K，无需提示词或上传素材",
+      "status": "live",
+      "date": "2026-10-10",
+      "url": "https://viduq4.org",
+      "author": "weidacn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4f5c1e1d9694",
+      "board": "main",
+      "name": "SynthID Detector",
+      "intro": "SynthID 水印检测工具，上传图片即可读取 Content Credentials 签名状态与 AI 元数据，判断 Google 或 OpenAI 是否写入 SynthID 水印；基础检测免费且无需注册，可选的 AI 视觉分析按张消耗额度",
+      "introMarkdown": "SynthID 水印检测工具，上传图片即可读取 Content Credentials 签名状态与 AI 元数据，判断 Google 或 OpenAI 是否写入 SynthID 水印；基础检测免费且无需注册，可选的 AI 视觉分析按张消耗额度",
+      "status": "live",
+      "date": "2026-10-10",
+      "url": "https://synthiddetector.pro",
+      "author": "weidacn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "2711d3d40eea",
+      "board": "main",
+      "name": "LeanFPS",
+      "intro": "Windows 游戏优化与帧率测量工具，自动识别运行中的游戏并按游戏与类型配置系统设置，记录平均 FPS、1% low 与会话历史；每项设置可单独撤销，临时会话改动退出后还原，不修改游戏文件与内存、不注入游戏内覆盖层、不关闭 Defender 与防火墙；Rust + egui 开发，免费版含游戏识别、帧率测量和 5 项优化，Pro 早鸟价 $19 一次性（之后 $29）",
+      "introMarkdown": "Windows 游戏优化与帧率测量工具，自动识别运行中的游戏并按游戏与类型配置系统设置，记录平均 FPS、1% low 与会话历史；每项设置可单独撤销，临时会话改动退出后还原，不修改游戏文件与内存、不注入游戏内覆盖层、不关闭 Defender 与防火墙；Rust + egui 开发，免费版含游戏识别、帧率测量和 5 项优化，Pro 早鸟价 $19 一次性（之后 $29） - [源码](https://github.com/Jamailar/leanfps)",
+      "status": "live",
+      "date": "2026-10-10",
+      "url": "https://leanfps.com/",
+      "author": "Jamailar",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Jamailar"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "9fd4fc7bc32a",
+      "board": "main",
+      "name": "阿军图解产业",
+      "intro": "中文产业图解知识库，55 期免费全文涵盖 AI 与算力、半导体与电子、新能源与储能、电力与设备、先进材料、医药与生命科学、高端装备 7 个领域，另设 7 个专题串读；完整高清图解需登录兑换",
+      "introMarkdown": "中文产业图解知识库，55 期免费全文涵盖 AI 与算力、半导体与电子、新能源与储能、电力与设备、先进材料、医药与生命科学、高端装备 7 个领域，另设 7 个专题串读；完整高清图解需登录兑换",
+      "status": "live",
+      "date": "2026-10-10",
+      "url": "https://ajun-industry.packscena.com/",
+      "author": "JonathanOwenTJ",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JonathanOwenTJ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "b936d5f7c07e",
       "board": "main",
@@ -32852,6 +32947,25 @@
         {
           "label": "Github",
           "url": "https://github.com/huangy7"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "ce502e21ecb1",
+      "board": "programmer",
+      "name": "buffTerm",
+      "intro": "AI Agent 加持的 SSH/SFTP 桌面管理工具，自然语言运维服务器；可对外暴露 MCP 服务供其他 AI 工具调用（macOS/Windows，MIT）",
+      "introMarkdown": "AI Agent 加持的 SSH/SFTP 桌面管理工具，自然语言运维服务器；可对外暴露 MCP 服务供其他 AI 工具调用（macOS/Windows，MIT）- [官网](https://shaguocgl.github.io/buff-term-site/)",
+      "status": "live",
+      "date": "2026-10-10",
+      "url": "https://github.com/shaguocgl/buff-term",
+      "author": "shaguocgl",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/shaguocgl"
         }
       ],
       "likes": 0,
