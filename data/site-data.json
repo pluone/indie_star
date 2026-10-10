@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-10T15:22:14.904Z",
-    "statsSyncedAt": "2026-10-10T15:22:14.904Z",
-    "upstreamSha": "e4912d3e890ad37e205517c360a61e8c082f6b9e",
+    "contentSyncedAt": "2026-10-10T15:26:09.091Z",
+    "statsSyncedAt": "2026-10-10T15:26:09.091Z",
+    "upstreamSha": "429df96e5852826ead5381382ce293190260260a",
     "counts": {
-      "main": 1653,
-      "game": 136,
-      "programmer": 361,
-      "total": 2150
+      "main": 1655,
+      "game": 137,
+      "programmer": 362,
+      "total": 2154
     }
   },
   "main": [
@@ -134,6 +134,44 @@
       "status": "live",
       "date": "2026-10-10",
       "url": "https://ajun-industry.packscena.com/",
+      "author": "JonathanOwenTJ",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JonathanOwenTJ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "355822004abe",
+      "board": "main",
+      "name": "ResumePlot AI",
+      "intro": "中英双语 AI 简历编辑器，导入 PDF、DOCX 或文本后逐条整理真实经历，按目标岗位调整内容并导出可检索 PDF；基础编辑免费，AI 改写需登录，含免费额度",
+      "introMarkdown": "中英双语 AI 简历编辑器，导入 PDF、DOCX 或文本后逐条整理真实经历，按目标岗位调整内容并导出可检索 PDF；基础编辑免费，AI 改写需登录，含免费额度",
+      "status": "live",
+      "date": "2026-10-10",
+      "url": "https://resumeplot.com/",
+      "author": "JonathanOwenTJ",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JonathanOwenTJ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "30ca9fd03385",
+      "board": "main",
+      "name": "SubAtlas 订阅图谱",
+      "intro": "AI 订阅比价资料库，收录 63 个产品，按规格、地区、订阅周期与交付方式比较公开报价，保留来源、更新时间与历史价格走势，支持设置价格与到期提醒；站点只做资料收录，不销售订阅",
+      "introMarkdown": "AI 订阅比价资料库，收录 63 个产品，按规格、地区、订阅周期与交付方式比较公开报价，保留来源、更新时间与历史价格走势，支持设置价格与到期提醒；站点只做资料收录，不销售订阅",
+      "status": "live",
+      "date": "2026-10-10",
+      "url": "https://subatlas.packscena.com/",
       "author": "JonathanOwenTJ",
       "authorLinks": [
         {
@@ -30381,6 +30419,25 @@
   ],
   "game": [
     {
+      "slug": "e703cfb361f1",
+      "board": "game",
+      "name": "失控 AI 增量",
+      "intro": "以\"失控 AI 吞掉整个宇宙\"为主题的增量游戏，从 UTC 2028-01-01 起步投入研发、加速扩张直至耗尽可观测宇宙的资源，再撕开因果闭环裂缝把时间线回卷到起点，带着时间晶体进入下一周目，周目越来越快",
+      "introMarkdown": "以\"失控 AI 吞掉整个宇宙\"为主题的增量游戏，从 UTC 2028-01-01 起步投入研发、加速扩张直至耗尽可观测宇宙的资源，再撕开因果闭环裂缝把时间线回卷到起点，带着时间晶体进入下一周目，周目越来越快 - [源码](https://github.com/MarchBeta2087/uncontrolled-ai-incremental)",
+      "status": "live",
+      "date": "2026-10-10",
+      "url": "https://github.com/MarchBeta2087/uncontrolled-ai-incremental",
+      "author": "MarchBeta2087",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/MarchBeta2087"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "ddaa44340171",
       "board": "game",
       "name": "17-0 Football",
@@ -32952,6 +33009,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "9c3b1e88353c",
+      "board": "programmer",
+      "name": "梦溪畅谈",
+      "intro": "可自部署的 LLM 聊天 Web 应用，支持多模型与多 API Key 公私双轨管理调度、六维限流、插件系统、对话加密与盲索引搜索、审计日志与可定制界面",
+      "introMarkdown": "可自部署的 LLM 聊天 Web 应用，支持多模型与多 API Key 公私双轨管理调度、六维限流、插件系统、对话加密与盲索引搜索、审计日志与可定制界面 - [源码](https://github.com/MarchBeta2087/mengxi-llm-chat)",
+      "status": "live",
+      "date": "2026-10-10",
+      "url": "https://github.com/MarchBeta2087/mengxi-llm-chat",
+      "author": "MarchBeta2087",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/MarchBeta2087"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "54450340aedb",
       "board": "programmer",
