@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-10T00:25:44.594Z",
-    "statsSyncedAt": "2026-10-10T00:25:44.594Z",
-    "upstreamSha": "aebda8287b2ad4df0bc67dd78897aeca4d0c518b",
+    "contentSyncedAt": "2026-10-10T02:21:10.388Z",
+    "statsSyncedAt": "2026-10-10T02:21:10.388Z",
+    "upstreamSha": "eb636c61582340af45bddeaf68774cec41f6f052",
     "counts": {
       "main": 1644,
       "game": 136,
-      "programmer": 359,
-      "total": 2139
+      "programmer": 360,
+      "total": 2140
     }
   },
   "main": [
@@ -32781,6 +32781,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "54450340aedb",
+      "board": "programmer",
+      "name": "PromptHarbor",
+      "intro": "一句话描述任务，根据模型能力与社区反馈推荐最适合的模型。复杂项目可拆分任务并生成跨模型协作提示词，覆盖 Claude Opus 5.5、GPT-6.1 Sol 等",
+      "introMarkdown": "一句话描述任务，根据模型能力与社区反馈推荐最适合的模型。复杂项目可拆分任务并生成跨模型协作提示词，覆盖 Claude Opus 5.5、GPT-6.1 Sol 等",
+      "status": "live",
+      "date": "2026-10-10",
+      "url": "https://github.com/ylv01/prompt-harbor",
+      "author": "ylv01",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ylv01"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "54b7b1756dd3",
       "board": "programmer",
