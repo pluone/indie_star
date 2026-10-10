@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-10T02:21:10.388Z",
-    "statsSyncedAt": "2026-10-10T02:21:10.388Z",
-    "upstreamSha": "eb636c61582340af45bddeaf68774cec41f6f052",
+    "contentSyncedAt": "2026-10-10T02:25:59.222Z",
+    "statsSyncedAt": "2026-10-10T02:25:59.222Z",
+    "upstreamSha": "7165a0e056495983f191335a799d123b5e42dbf9",
     "counts": {
-      "main": 1644,
+      "main": 1645,
       "game": 136,
       "programmer": 360,
-      "total": 2140
+      "total": 2141
     }
   },
   "main": [
+    {
+      "slug": "b936d5f7c07e",
+      "board": "main",
+      "name": "Rumpelstiltskin AI Video",
+      "intro": "AI 换脸跳舞视频生成器，上传一张肖像替换踮脚舞者、或上传两张分别替换舞者与少女，原参考视频的场景、镜头和舞蹈动作保持不变；内置参考舞蹈，无需编写提示词，支持 480P / 720P，输出约 12.7 秒的 MP4 并带原参考音频 — 生成需登录购买积分，$9.90 起一次性付费，无需订阅",
+      "introMarkdown": "AI 换脸跳舞视频生成器，上传一张肖像替换踮脚舞者、或上传两张分别替换舞者与少女，原参考视频的场景、镜头和舞蹈动作保持不变；内置参考舞蹈，无需编写提示词，支持 480P / 720P，输出约 12.7 秒的 MP4 并带原参考音频 — 生成需登录购买积分，$9.90 起一次性付费，无需订阅",
+      "status": "live",
+      "date": "2026-10-10",
+      "url": "https://airumpelstiltskin.org",
+      "author": "littlePig-zzf",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/littlePig-zzf"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "bcf731753a57",
       "board": "main",
