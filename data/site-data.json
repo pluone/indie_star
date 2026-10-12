@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-12T05:16:16.016Z",
-    "statsSyncedAt": "2026-10-12T05:16:16.016Z",
-    "upstreamSha": "7bb9a801ac59de3151f706f7e05121568c3d685d",
+    "contentSyncedAt": "2026-10-12T09:26:15.495Z",
+    "statsSyncedAt": "2026-10-12T09:26:15.495Z",
+    "upstreamSha": "36591874cc01286c407b725749c335d1654d62b7",
     "counts": {
-      "main": 1662,
+      "main": 1663,
       "game": 137,
       "programmer": 365,
-      "total": 2164
+      "total": 2165
     }
   },
   "main": [
@@ -20,6 +20,25 @@
       "status": "live",
       "date": "2026-10-12",
       "url": "https://favicondl.com/zh/",
+      "author": "sweesama",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sweesama"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "41e359bfb433",
+      "board": "main",
+      "name": "听说了吗？",
+      "intro": "AI 资讯解读站，每天两篇，从原始论文、官方博客和发布说明出发，用中英日三语解读最新 AI 新闻与论文，附原文链接，免费无需注册",
+      "introMarkdown": "AI 资讯解读站，每天两篇，从原始论文、官方博客和发布说明出发，用中英日三语解读最新 AI 新闻与论文，附原文链接，免费无需注册",
+      "status": "live",
+      "date": "2026-10-12",
+      "url": "https://anymesgs.com/",
       "author": "sweesama",
       "authorLinks": [
         {
@@ -3889,7 +3908,7 @@
       "introMarkdown": "将静态 HTML 发布为可分享的预览链接，方便快速分享和评审原型页面，无需 Git、生产部署和注册账号",
       "status": "live",
       "date": "2026-09-04",
-      "url": "https://www.htmlshare.page/",
+      "url": "https://hosthtmlfile.com/",
       "author": "zeroXu1",
       "authorLinks": [
         {
