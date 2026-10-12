@@ -1,16 +1,92 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-12T15:36:19.120Z",
-    "statsSyncedAt": "2026-10-12T15:36:19.120Z",
-    "upstreamSha": "144ebb54ca32b02c8a8161d5ac62248052bb7dd9",
+    "contentSyncedAt": "2026-10-12T21:46:11.761Z",
+    "statsSyncedAt": "2026-10-12T21:46:11.761Z",
+    "upstreamSha": "e9bb7a399f1c3fd92c59011d42a7a284dd85dc4e",
     "counts": {
-      "main": 1667,
+      "main": 1671,
       "game": 137,
       "programmer": 366,
-      "total": 2170
+      "total": 2174
     }
   },
   "main": [
+    {
+      "slug": "f7eedd81c847",
+      "board": "main",
+      "name": "Smalltown Boy AI",
+      "intro": "AI 双人舞蹈视频生成器，上传两张正面人像照片分居左右，让两位主角同步跳固定的 80 年代合成波舞步，输出 14 秒 9:16 竖屏视频（不含原曲音频），无需编写提示词；按积分一次性付费，480P / 720P / 1080P 分别 45 / 90 / 180 积分，$4.99 起，无订阅",
+      "introMarkdown": "AI 双人舞蹈视频生成器，上传两张正面人像照片分居左右，让两位主角同步跳固定的 80 年代合成波舞步，输出 14 秒 9:16 竖屏视频（不含原曲音频），无需编写提示词；按积分一次性付费，480P / 720P / 1080P 分别 45 / 90 / 180 积分，$4.99 起，无订阅",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://smalltownboyai.com/",
+      "author": "Maaaaph",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Maaaaph"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "267ebb9cc4e5",
+      "board": "main",
+      "name": "pdf翻译小助手",
+      "intro": "文档一键翻译，译文保留原版式，上传 PDF / Word，翻成 20+ 种语言，前 3 页免费预览，满意再付费",
+      "introMarkdown": "文档一键翻译，译文保留原版式，上传 PDF / Word，翻成 20+ 种语言，前 3 页免费预览，满意再付费",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://translate.glance-tech.cn/",
+      "author": "hy0619",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hy0619"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "0b7c1ecbbe77",
+      "board": "main",
+      "name": "Liveify",
+      "intro": "实况照片制作与转换工具，在 iPhone 上将视频或 GIF 制作并保存为 Live Photo；网页版可预览片段、免费导出 GIF 和视频截图，也支持按积分付费的 AI 照片动画",
+      "introMarkdown": "实况照片制作与转换工具，在 iPhone 上将视频或 GIF 制作并保存为 Live Photo；网页版可预览片段、免费导出 GIF 和视频截图，也支持按积分付费的 AI 照片动画",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://videolivephoto.com/",
+      "author": "Yansoul",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Yansoul"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4d43667f5af2",
+      "board": "main",
+      "name": "AI 味体检",
+      "intro": "网文 AI 味检测器，粘贴正文输出 0-100 评分并逐处标出问题句，附一段可直接用的去味改写 Prompt；纯浏览器本地运行、正文不上传，免费无需注册，另有 38KB 单文件离线版下载双击即用",
+      "introMarkdown": "网文 AI 味检测器，粘贴正文输出 0-100 评分并逐处标出问题句，附一段可直接用的去味改写 Prompt；纯浏览器本地运行、正文不上传，免费无需注册，另有 38KB 单文件离线版下载双击即用 - [源码](https://github.com/31415959/deai-web)",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://31415959.github.io/deai-web/",
+      "author": "31415959",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/31415959"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "77ac3a5e7aef",
       "board": "main",
