@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-12T12:11:13.611Z",
-    "statsSyncedAt": "2026-10-12T12:11:13.611Z",
-    "upstreamSha": "7dd9a5f13379ae8cc57b1a5c978ee721bdcac089",
+    "contentSyncedAt": "2026-10-12T12:31:20.201Z",
+    "statsSyncedAt": "2026-10-12T12:31:20.201Z",
+    "upstreamSha": "f371402c99e0ac677e40adbe995acfcb4439da36",
     "counts": {
       "main": 1665,
       "game": 137,
@@ -202,19 +202,57 @@
       "comments": 0
     },
     {
-      "slug": "c4456441ef2c",
+      "slug": "9fd4fc7bc32a",
       "board": "main",
-      "name": "Launchlist",
-      "intro": "A community-voted weekly launch for AI and superintelligence builders",
-      "introMarkdown": "A community-voted weekly launch for AI and superintelligence builders",
+      "name": "阿军图解产业",
+      "intro": "中文产业图解知识库，55 期免费全文涵盖 AI 与算力、半导体与电子、新能源与储能、电力与设备、先进材料、医药与生命科学、高端装备 7 个领域，另设 7 个专题串读；完整高清图解需登录兑换",
+      "introMarkdown": "中文产业图解知识库，55 期免费全文涵盖 AI 与算力、半导体与电子、新能源与储能、电力与设备、先进材料、医药与生命科学、高端装备 7 个领域，另设 7 个专题串读；完整高清图解需登录兑换",
       "status": "live",
       "date": "2026-10-10",
-      "url": "https://launchlist.si",
-      "author": "leo",
+      "url": "https://ajun-industry.packscena.com/",
+      "author": "JonathanOwenTJ",
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/TangSirOnGit"
+          "url": "https://github.com/JonathanOwenTJ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "355822004abe",
+      "board": "main",
+      "name": "ResumePlot AI",
+      "intro": "中英双语 AI 简历编辑器，导入 PDF、DOCX 或文本后逐条整理真实经历，按目标岗位调整内容并导出可检索 PDF；基础编辑免费，AI 改写需登录，含免费额度",
+      "introMarkdown": "中英双语 AI 简历编辑器，导入 PDF、DOCX 或文本后逐条整理真实经历，按目标岗位调整内容并导出可检索 PDF；基础编辑免费，AI 改写需登录，含免费额度",
+      "status": "live",
+      "date": "2026-10-10",
+      "url": "https://resumeplot.com/",
+      "author": "JonathanOwenTJ",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JonathanOwenTJ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "30ca9fd03385",
+      "board": "main",
+      "name": "SubAtlas 订阅图谱",
+      "intro": "AI 订阅比价资料库，收录 63 个产品，按规格、地区、订阅周期与交付方式比较公开报价，保留来源、更新时间与历史价格走势，支持设置价格与到期提醒；站点只做资料收录，不销售订阅",
+      "introMarkdown": "AI 订阅比价资料库，收录 63 个产品，按规格、地区、订阅周期与交付方式比较公开报价，保留来源、更新时间与历史价格走势，支持设置价格与到期提醒；站点只做资料收录，不销售订阅",
+      "status": "live",
+      "date": "2026-10-10",
+      "url": "https://subatlas.packscena.com/",
+      "author": "JonathanOwenTJ",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JonathanOwenTJ"
         }
       ],
       "likes": 0,
@@ -234,6 +272,25 @@
         {
           "label": "Github",
           "url": "https://github.com/endNone"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "c4456441ef2c",
+      "board": "main",
+      "name": "Launchlist",
+      "intro": "A community-voted weekly launch for AI and superintelligence builders",
+      "introMarkdown": "A community-voted weekly launch for AI and superintelligence builders",
+      "status": "live",
+      "date": "2026-10-10",
+      "url": "https://launchlist.si",
+      "author": "leo",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/TangSirOnGit"
         }
       ],
       "likes": 0,
@@ -316,57 +373,19 @@
       "comments": 0
     },
     {
-      "slug": "9fd4fc7bc32a",
+      "slug": "7c98706c0280",
       "board": "main",
-      "name": "阿军图解产业",
-      "intro": "中文产业图解知识库，55 期免费全文涵盖 AI 与算力、半导体与电子、新能源与储能、电力与设备、先进材料、医药与生命科学、高端装备 7 个领域，另设 7 个专题串读；完整高清图解需登录兑换",
-      "introMarkdown": "中文产业图解知识库，55 期免费全文涵盖 AI 与算力、半导体与电子、新能源与储能、电力与设备、先进材料、医药与生命科学、高端装备 7 个领域，另设 7 个专题串读；完整高清图解需登录兑换",
+      "name": "ToolStack",
+      "intro": "免费在线工具箱，汇集 32 款打开即用的日常小工具（图片压缩与裁剪、JPG/PNG/WebP/HEIC 格式互转、颜色取色与转换、二维码与密码生成、字数统计、BMI/小费/折扣等计算器），全部在浏览器本地运行，无需注册、文件不上传，界面支持 7 种语言",
+      "introMarkdown": "免费在线工具箱，汇集 32 款打开即用的日常小工具（图片压缩与裁剪、JPG/PNG/WebP/HEIC 格式互转、颜色取色与转换、二维码与密码生成、字数统计、BMI/小费/折扣等计算器），全部在浏览器本地运行，无需注册、文件不上传，界面支持 7 种语言",
       "status": "live",
       "date": "2026-10-10",
-      "url": "https://ajun-industry.packscena.com/",
-      "author": "JonathanOwenTJ",
+      "url": "https://tools.mindutil.com/",
+      "author": "yisonlee888",
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/JonathanOwenTJ"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "355822004abe",
-      "board": "main",
-      "name": "ResumePlot AI",
-      "intro": "中英双语 AI 简历编辑器，导入 PDF、DOCX 或文本后逐条整理真实经历，按目标岗位调整内容并导出可检索 PDF；基础编辑免费，AI 改写需登录，含免费额度",
-      "introMarkdown": "中英双语 AI 简历编辑器，导入 PDF、DOCX 或文本后逐条整理真实经历，按目标岗位调整内容并导出可检索 PDF；基础编辑免费，AI 改写需登录，含免费额度",
-      "status": "live",
-      "date": "2026-10-10",
-      "url": "https://resumeplot.com/",
-      "author": "JonathanOwenTJ",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/JonathanOwenTJ"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "30ca9fd03385",
-      "board": "main",
-      "name": "SubAtlas 订阅图谱",
-      "intro": "AI 订阅比价资料库，收录 63 个产品，按规格、地区、订阅周期与交付方式比较公开报价，保留来源、更新时间与历史价格走势，支持设置价格与到期提醒；站点只做资料收录，不销售订阅",
-      "introMarkdown": "AI 订阅比价资料库，收录 63 个产品，按规格、地区、订阅周期与交付方式比较公开报价，保留来源、更新时间与历史价格走势，支持设置价格与到期提醒；站点只做资料收录，不销售订阅",
-      "status": "live",
-      "date": "2026-10-10",
-      "url": "https://subatlas.packscena.com/",
-      "author": "JonathanOwenTJ",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/JonathanOwenTJ"
+          "url": "https://github.com/yisonlee888"
         }
       ],
       "likes": 0,
@@ -405,25 +424,6 @@
         {
           "label": "Github",
           "url": "https://github.com/Vadaski"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "7c98706c0280",
-      "board": "main",
-      "name": "ToolStack",
-      "intro": "免费在线工具箱，汇集 32 款打开即用的日常小工具（图片压缩与裁剪、JPG/PNG/WebP/HEIC 格式互转、颜色取色与转换、二维码与密码生成、字数统计、BMI/小费/折扣等计算器），全部在浏览器本地运行，无需注册、文件不上传，界面支持 7 种语言",
-      "introMarkdown": "免费在线工具箱，汇集 32 款打开即用的日常小工具（图片压缩与裁剪、JPG/PNG/WebP/HEIC 格式互转、颜色取色与转换、二维码与密码生成、字数统计、BMI/小费/折扣等计算器），全部在浏览器本地运行，无需注册、文件不上传，界面支持 7 种语言",
-      "status": "live",
-      "date": "2026-10-10",
-      "url": "https://tools.mindutil.com/",
-      "author": "yisonlee888",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/yisonlee888"
         }
       ],
       "likes": 0,
