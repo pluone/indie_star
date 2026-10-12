@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-12T12:31:20.201Z",
-    "statsSyncedAt": "2026-10-12T12:31:20.201Z",
-    "upstreamSha": "f371402c99e0ac677e40adbe995acfcb4439da36",
+    "contentSyncedAt": "2026-10-12T15:36:19.120Z",
+    "statsSyncedAt": "2026-10-12T15:36:19.120Z",
+    "upstreamSha": "144ebb54ca32b02c8a8161d5ac62248052bb7dd9",
     "counts": {
-      "main": 1665,
+      "main": 1667,
       "game": 137,
-      "programmer": 365,
-      "total": 2167
+      "programmer": 366,
+      "total": 2170
     }
   },
   "main": [
+    {
+      "slug": "77ac3a5e7aef",
+      "board": "main",
+      "name": "MomentSift",
+      "intro": "AI 照片筛选、美化与创作网站，将相似照片分组并标记模糊、闭眼、曝光问题，先挑选值得保留的照片，再进行增强、修复、放大、移除背景或图像创作；提供 100 张照片与 10 个 AI 积分的免费试用，付费套餐每月 $19.90 起",
+      "introMarkdown": "AI 照片筛选、美化与创作网站，将相似照片分组并标记模糊、闭眼、曝光问题，先挑选值得保留的照片，再进行增强、修复、放大、移除背景或图像创作；提供 100 张照片与 10 个 AI 积分的免费试用，付费套餐每月 $19.90 起",
+      "status": "live",
+      "date": "2026-10-12",
+      "url": "https://momentsift.com",
+      "author": "AnshengHu",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zgaobai"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "3bb2917179d2",
+      "board": "main",
+      "name": "CCViewer",
+      "intro": "在浏览器里回放 Claude Code 会话历史，拖入 .jsonl 文件（或整个 ~/.claude/projects/ 文件夹）即可像聊天记录一样阅读——Markdown 渲染、思考过程、工具调用、Token 与费用统计，全程本地处理不上传",
+      "introMarkdown": "在浏览器里回放 Claude Code 会话历史，拖入 .jsonl 文件（或整个 ~/.claude/projects/ 文件夹）即可像聊天记录一样阅读——Markdown 渲染、思考过程、工具调用、Token 与费用统计，全程本地处理不上传 - [查看仓库](https://github.com/howardz27/ccviewer)",
+      "status": "live",
+      "date": "2026-10-12",
+      "url": "https://ccviewer.top",
+      "author": "howardz27",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/howardz27"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "948135ba0122",
       "board": "main",
@@ -33199,6 +33237,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "eb1687c15830",
+      "board": "programmer",
+      "name": "MakerEnd",
+      "intro": "AI 模型 API 中转平台，一个 API Key 即可调用 GPT、Claude、Gemini、Grok 等对话模型与 Midjourney、Flux、Sora、Veo、可灵等图像视频模型，OpenAI 兼容接口，按量计费，支持支付宝 / 微信 / USDT 充值，注册或联系客服可领免费测试额度",
+      "introMarkdown": "AI 模型 API 中转平台，一个 API Key 即可调用 GPT、Claude、Gemini、Grok 等对话模型与 Midjourney、Flux、Sora、Veo、可灵等图像视频模型，OpenAI 兼容接口，按量计费，支持支付宝 / 微信 / USDT 充值，注册或联系客服可领免费测试额度 - [价格列表](https://makerend.com/pricing)",
+      "status": "live",
+      "date": "2026-10-12",
+      "url": "https://makerend.com/console",
+      "author": "DustarCode",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/DustarCode"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "047f5dde66c9",
       "board": "programmer",
