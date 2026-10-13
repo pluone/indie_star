@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-13T03:51:15.288Z",
-    "statsSyncedAt": "2026-10-13T03:51:15.288Z",
-    "upstreamSha": "d2a6e6b99f8b58bbb31d30f6fea1b7ac7931a80c",
+    "contentSyncedAt": "2026-10-13T10:06:27.836Z",
+    "statsSyncedAt": "2026-10-13T10:06:27.836Z",
+    "upstreamSha": "1e4048b606ff869a4dc3797fbef6c279bbc78b91",
     "counts": {
-      "main": 1677,
+      "main": 1681,
       "game": 137,
-      "programmer": 367,
-      "total": 2181
+      "programmer": 368,
+      "total": 2186
     }
   },
   "main": [
+    {
+      "slug": "16159ee62fd3",
+      "board": "main",
+      "name": "NewYouGo",
+      "intro": "AI 图片、视频和音乐创作平台，支持多模型生成与图片编辑；登录后每天可免费生成 20 张 FLUX.1 Schnell 图片，其他模型按积分计费",
+      "introMarkdown": "AI 图片、视频和音乐创作平台，支持多模型生成与图片编辑；登录后每天可免费生成 20 张 FLUX.1 Schnell 图片，其他模型按积分计费",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://newyougo.com/",
+      "author": "niceboy",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sunlin-xiaonai"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "5252bb669a09",
+      "board": "main",
+      "name": "Raindance AI",
+      "intro": "AI 照片转视频工具，可先预览并选择场景模板；Raindance 场景能生成带原创 AI 配乐的 15 秒视频，按视频数量一次性付费，无订阅",
+      "introMarkdown": "AI 照片转视频工具，可先预览并选择场景模板；Raindance 场景能生成带原创 AI 配乐的 15 秒视频，按视频数量一次性付费，无订阅",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://raindanceai.stream/",
+      "author": "niceboy",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sunlin-xiaonai"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "4556456413a2",
       "board": "main",
@@ -202,6 +240,82 @@
       "comments": 0
     },
     {
+      "slug": "5d69bf192d89",
+      "board": "main",
+      "name": "ReadGZH",
+      "intro": "粘贴公众号文章链接就能拿到干净全文和 Markdown，直接交给 ChatGPT、Claude、Cursor 阅读，支持远程 MCP 与 REST API；免费额度每天 30 积分（新抓取 3 积分/篇、已缓存文章 0 积分），Lite ¥9/月",
+      "introMarkdown": "粘贴公众号文章链接就能拿到干净全文和 Markdown，直接交给 ChatGPT、Claude、Cursor 阅读，支持远程 MCP 与 REST API；免费额度每天 30 积分（新抓取 3 积分/篇、已缓存文章 0 积分），Lite ¥9/月",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://readgzh.site",
+      "author": "sweesama",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sweesama"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b7e541e7a3b5",
+      "board": "main",
+      "name": "FaviconDL",
+      "intro": "输入任意网址就能下载它的 favicon，一次拿齐 ICO、PNG、SVG 与 Apple touch icon 各尺寸，也支持批量提取和从图片生成；免费无需注册，支持中英日西四语",
+      "introMarkdown": "输入任意网址就能下载它的 favicon，一次拿齐 ICO、PNG、SVG 与 Apple touch icon 各尺寸，也支持批量提取和从图片生成；免费无需注册，支持中英日西四语",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://favicondl.com",
+      "author": "sweesama",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sweesama"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "0d824e72b20b",
+      "board": "main",
+      "name": "3D 太阳系模拟器",
+      "intro": "浏览器里的交互式 3D 太阳系，可环绕太阳与八大行星、切换真实距离或真实比例，还能降落到月球和火星表面；免费无广告，无需注册，适合课堂演示",
+      "introMarkdown": "浏览器里的交互式 3D 太阳系，可环绕太阳与八大行星、切换真实距离或真实比例，还能降落到月球和火星表面；免费无广告，无需注册，适合课堂演示",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://www.3dsolarsystem.net/",
+      "author": "sweesama",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sweesama"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "bfd188f38e1e",
+      "board": "main",
+      "name": "APPLORE",
+      "intro": "App 图标灵感库，收录 18,000+ 个 App Store / Google Play 真实 App 图标及每次改版的历史版本，可按颜色、风格、分类浏览；附免费的图标全尺寸导出（免注册）、商店截图生成、PNG 转 SVG 等工具，AI 生成图标按积分付费",
+      "introMarkdown": "App 图标灵感库，收录 18,000+ 个 App Store / Google Play 真实 App 图标及每次改版的历史版本，可按颜色、风格、分类浏览；附免费的图标全尺寸导出（免注册）、商店截图生成、PNG 转 SVG 等工具，AI 生成图标按积分付费",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://applore.app",
+      "author": "ViggoZ",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ViggoZ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "77ac3a5e7aef",
       "board": "main",
       "name": "MomentSift",
@@ -286,25 +400,6 @@
       "status": "live",
       "date": "2026-10-12",
       "url": "https://anymesgs.com/",
-      "author": "sweesama",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/sweesama"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b7e541e7a3b5",
-      "board": "main",
-      "name": "favicondl",
-      "intro": "网站图标下载工具，输入任意网址，自动找出该网站最清晰的图标（SVG / 大尺寸 PNG / ICO）并一键下载，也可一次批量下载 100 个网站的图标，免费无需注册",
-      "introMarkdown": "网站图标下载工具，输入任意网址，自动找出该网站最清晰的图标（SVG / 大尺寸 PNG / ICO）并一键下载，也可一次批量下载 100 个网站的图标，免费无需注册",
-      "status": "live",
-      "date": "2026-10-12",
-      "url": "https://favicondl.com/zh/",
       "author": "sweesama",
       "authorLinks": [
         {
@@ -3838,25 +3933,6 @@
         {
           "label": "Github",
           "url": "https://github.com/littlePig-zzf"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "5d69bf192d89",
-      "board": "main",
-      "name": "ReadGZH",
-      "intro": "微信公众号文章 AI 阅读工具，粘贴链接生成便于 AI 读取的页面，另提供 API 与 MCP 接入",
-      "introMarkdown": "微信公众号文章 AI 阅读工具，粘贴链接生成便于 AI 读取的页面，另提供 API 与 MCP 接入",
-      "status": "live",
-      "date": "2026-09-09",
-      "url": "https://readgzh.site/",
-      "author": "sweesama",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/sweesama"
         }
       ],
       "likes": 0,
@@ -33427,6 +33503,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "6110edd4be55",
+      "board": "programmer",
+      "name": "pan-transfer-bot",
+      "intro": "夸克/百度网盘资源整理工具与 AI Agent Skill，粘贴分享链接即自动识别提取码、转存到自己网盘并按年/月/日归档、生成新分享链接，纯本地生成配套文案无需大模型 API；FastAPI + Web 界面，Docker 一键部署，附 SKILL.md 可供 Claude Code 调用，MIT 开源",
+      "introMarkdown": "夸克/百度网盘资源整理工具与 AI Agent Skill，粘贴分享链接即自动识别提取码、转存到自己网盘并按年/月/日归档、生成新分享链接，纯本地生成配套文案无需大模型 API；FastAPI + Web 界面，Docker 一键部署，附 SKILL.md 可供 Claude Code 调用，MIT 开源",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://github.com/hen9xin/pan-transfer-bot",
+      "author": "hen9xin",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hen9xin"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "55e4b311466e",
       "board": "programmer",
