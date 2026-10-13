@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-13T10:11:24.128Z",
-    "statsSyncedAt": "2026-10-13T10:11:24.128Z",
-    "upstreamSha": "51769b75bf58782669647db5f37b191149e3204f",
+    "contentSyncedAt": "2026-10-13T12:36:13.467Z",
+    "statsSyncedAt": "2026-10-13T12:36:13.467Z",
+    "upstreamSha": "9dd4a87080adb41cbd5f81c4e46a512ec65e8ab9",
     "counts": {
-      "main": 1670,
+      "main": 1671,
       "game": 137,
       "programmer": 368,
-      "total": 2175
+      "total": 2176
     }
   },
   "main": [
+    {
+      "slug": "6a70f660ba72",
+      "board": "main",
+      "name": "一个字的一生",
+      "intro": "输入任意汉字，一页看完它从甲骨文、小篆、繁体到简体的完整演变，附中古音反切与音韵地位、上古音构拟、《说文解字》释义和同声符字族",
+      "introMarkdown": "输入任意汉字，一页看完它从甲骨文、小篆、繁体到简体的完整演变，附中古音反切与音韵地位、上古音构拟、《说文解字》释义和同声符字族 - [更多介绍](https://github.com/Ivan666jjj/yigezi)",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://ivan666jjj.github.io/yigezi/",
+      "author": "严毓焕",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Ivan666jjj"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "8edbb236025a",
       "board": "main",
