@@ -1,16 +1,130 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-13T10:06:27.836Z",
-    "statsSyncedAt": "2026-10-13T10:06:27.836Z",
-    "upstreamSha": "1e4048b606ff869a4dc3797fbef6c279bbc78b91",
+    "contentSyncedAt": "2026-10-13T10:11:24.128Z",
+    "statsSyncedAt": "2026-10-13T10:11:24.128Z",
+    "upstreamSha": "51769b75bf58782669647db5f37b191149e3204f",
     "counts": {
-      "main": 1681,
+      "main": 1670,
       "game": 137,
       "programmer": 368,
-      "total": 2186
+      "total": 2175
     }
   },
   "main": [
+    {
+      "slug": "8edbb236025a",
+      "board": "main",
+      "name": "孙哥在线",
+      "intro": "非官方孙宇晨资料整理站，按时间线回看重要经历与公开事件，收录《财富自由革命之路》146 期音频及逐段文字稿，以及《这世界既残酷也温柔》在线阅读；免费、无需注册，内容将持续整理更新",
+      "introMarkdown": "非官方孙宇晨资料整理站，按时间线回看重要经历与公开事件，收录《财富自由革命之路》146 期音频及逐段文字稿，以及《这世界既残酷也温柔》在线阅读；免费、无需注册，内容将持续整理更新",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://sunge.online",
+      "author": "lzeee",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lzeee"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "f6daada4d400",
+      "board": "main",
+      "name": "CastDub",
+      "intro": "AI 多角色配音工作台，粘贴剧本自动识别角色并分配声音，可逐句调整情绪，导出成品音频；支持中英日韩等 9 种语言，免注册试用，开放测试期免费",
+      "introMarkdown": "AI 多角色配音工作台，粘贴剧本自动识别角色并分配声音，可逐句调整情绪，导出成品音频；支持中英日韩等 9 种语言，免注册试用，开放测试期免费",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://castdub.com/",
+      "author": "dreamwake.eth",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/BEIDAHUANG"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "1aa39ef4e41c",
+      "board": "main",
+      "name": "Science Diagram",
+      "intro": "AI 科学示意图工具，一句话生成带标签、可编辑的论文/课件插图，支持多种学科模板并导出 PNG；Beta 期免费",
+      "introMarkdown": "AI 科学示意图工具，一句话生成带标签、可编辑的论文/课件插图，支持多种学科模板并导出 PNG；Beta 期免费",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://sciencediagram.com/",
+      "author": "dreamwake.eth",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/BEIDAHUANG"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "05aa03c7cfc0",
+      "board": "main",
+      "name": "SpritePixel",
+      "intro": "一款面向个人和独立游戏开发者的 AI 游戏资产工作室，用 AI 创建风格一致的游戏精灵图、动画、精灵图表和配套图标套装，并围绕同一个游戏项目持续生成与管理",
+      "introMarkdown": "一款面向个人和独立游戏开发者的 AI 游戏资产工作室，用 AI 创建风格一致的游戏精灵图、动画、精灵图表和配套图标套装，并围绕同一个游戏项目持续生成与管理",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://spritepixel.com/",
+      "author": "Miracle",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhoulianbo"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "61b43afd976f",
+      "board": "main",
+      "name": "Nano Banana 2.1",
+      "intro": "AI 图片生成与参考图编辑网站，支持商品场景、虚构人物分镜和带文字海报创作，提交前显示所选模型、输出设置与积分费用",
+      "introMarkdown": "AI 图片生成与参考图编辑网站，支持商品场景、虚构人物分镜和带文字海报创作，提交前显示所选模型、输出设置与积分费用 - [教程与原创示例](https://github.com/juren056/nano-banana-image-workflows)",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://nanobanana21pro.com/",
+      "author": "juren056",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/juren056"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "6174fd7868ef",
+      "board": "main",
+      "name": "Ad Multiplier",
+      "intro": "视频广告变体工具，上传现有 4–30 秒广告，生成最多 4 个不同人物、服装、场景或产品的视觉版本，可选择保留原音频，下载 720p / 1080p MP4 后人工审核和发布；按积分付费，无订阅，4–15 秒 Standard 输出单积分价格 $9.90",
+      "introMarkdown": "视频广告变体工具，上传现有 4–30 秒广告，生成最多 4 个不同人物、服装、场景或产品的视觉版本，可选择保留原音频，下载 720p / 1080p MP4 后人工审核和发布；按积分付费，无订阅，4–15 秒 Standard 输出单积分价格 $9.90",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://admultipliers.com/",
+      "author": "Jamailar",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Jamailar"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "16159ee62fd3",
       "board": "main",
@@ -44,6 +158,44 @@
         {
           "label": "Github",
           "url": "https://github.com/sunlin-xiaonai"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "bfd188f38e1e",
+      "board": "main",
+      "name": "APPLORE",
+      "intro": "App 图标灵感库，收录 18,000+ 个 App Store / Google Play 真实 App 图标及每次改版的历史版本，可按颜色、风格、分类浏览；附免费的图标全尺寸导出（免注册）、商店截图生成、PNG 转 SVG 等工具，AI 生成图标按积分付费",
+      "introMarkdown": "App 图标灵感库，收录 18,000+ 个 App Store / Google Play 真实 App 图标及每次改版的历史版本，可按颜色、风格、分类浏览；附免费的图标全尺寸导出（免注册）、商店截图生成、PNG 转 SVG 等工具，AI 生成图标按积分付费",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://applore.app",
+      "author": "ViggoZ",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ViggoZ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "0d824e72b20b",
+      "board": "main",
+      "name": "3D 太阳系模拟器",
+      "intro": "浏览器里的交互式 3D 太阳系，可环绕太阳与八大行星、切换真实距离或真实比例，还能降落到月球和火星表面；免费无广告，无需注册，适合课堂演示",
+      "introMarkdown": "浏览器里的交互式 3D 太阳系，可环绕太阳与八大行星、切换真实距离或真实比例，还能降落到月球和火星表面；免费无广告，无需注册，适合课堂演示",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://www.3dsolarsystem.net/",
+      "author": "sweesama",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sweesama"
         }
       ],
       "likes": 0,
@@ -240,82 +392,6 @@
       "comments": 0
     },
     {
-      "slug": "5d69bf192d89",
-      "board": "main",
-      "name": "ReadGZH",
-      "intro": "粘贴公众号文章链接就能拿到干净全文和 Markdown，直接交给 ChatGPT、Claude、Cursor 阅读，支持远程 MCP 与 REST API；免费额度每天 30 积分（新抓取 3 积分/篇、已缓存文章 0 积分），Lite ¥9/月",
-      "introMarkdown": "粘贴公众号文章链接就能拿到干净全文和 Markdown，直接交给 ChatGPT、Claude、Cursor 阅读，支持远程 MCP 与 REST API；免费额度每天 30 积分（新抓取 3 积分/篇、已缓存文章 0 积分），Lite ¥9/月",
-      "status": "live",
-      "date": "2026-10-13",
-      "url": "https://readgzh.site",
-      "author": "sweesama",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/sweesama"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b7e541e7a3b5",
-      "board": "main",
-      "name": "FaviconDL",
-      "intro": "输入任意网址就能下载它的 favicon，一次拿齐 ICO、PNG、SVG 与 Apple touch icon 各尺寸，也支持批量提取和从图片生成；免费无需注册，支持中英日西四语",
-      "introMarkdown": "输入任意网址就能下载它的 favicon，一次拿齐 ICO、PNG、SVG 与 Apple touch icon 各尺寸，也支持批量提取和从图片生成；免费无需注册，支持中英日西四语",
-      "status": "live",
-      "date": "2026-10-13",
-      "url": "https://favicondl.com",
-      "author": "sweesama",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/sweesama"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0d824e72b20b",
-      "board": "main",
-      "name": "3D 太阳系模拟器",
-      "intro": "浏览器里的交互式 3D 太阳系，可环绕太阳与八大行星、切换真实距离或真实比例，还能降落到月球和火星表面；免费无广告，无需注册，适合课堂演示",
-      "introMarkdown": "浏览器里的交互式 3D 太阳系，可环绕太阳与八大行星、切换真实距离或真实比例，还能降落到月球和火星表面；免费无广告，无需注册，适合课堂演示",
-      "status": "live",
-      "date": "2026-10-13",
-      "url": "https://www.3dsolarsystem.net/",
-      "author": "sweesama",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/sweesama"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "bfd188f38e1e",
-      "board": "main",
-      "name": "APPLORE",
-      "intro": "App 图标灵感库，收录 18,000+ 个 App Store / Google Play 真实 App 图标及每次改版的历史版本，可按颜色、风格、分类浏览；附免费的图标全尺寸导出（免注册）、商店截图生成、PNG 转 SVG 等工具，AI 生成图标按积分付费",
-      "introMarkdown": "App 图标灵感库，收录 18,000+ 个 App Store / Google Play 真实 App 图标及每次改版的历史版本，可按颜色、风格、分类浏览；附免费的图标全尺寸导出（免注册）、商店截图生成、PNG 转 SVG 等工具，AI 生成图标按积分付费",
-      "status": "live",
-      "date": "2026-10-13",
-      "url": "https://applore.app",
-      "author": "ViggoZ",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ViggoZ"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
       "slug": "77ac3a5e7aef",
       "board": "main",
       "name": "MomentSift",
@@ -400,6 +476,25 @@
       "status": "live",
       "date": "2026-10-12",
       "url": "https://anymesgs.com/",
+      "author": "sweesama",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sweesama"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b7e541e7a3b5",
+      "board": "main",
+      "name": "favicondl",
+      "intro": "网站图标下载工具，输入任意网址，自动找出该网站最清晰的图标（SVG / 大尺寸 PNG / ICO）并一键下载，也可一次批量下载 100 个网站的图标，免费无需注册",
+      "introMarkdown": "网站图标下载工具，输入任意网址，自动找出该网站最清晰的图标（SVG / 大尺寸 PNG / ICO）并一键下载，也可一次批量下载 100 个网站的图标，免费无需注册",
+      "status": "live",
+      "date": "2026-10-12",
+      "url": "https://favicondl.com/zh/",
       "author": "sweesama",
       "authorLinks": [
         {
@@ -3933,6 +4028,25 @@
         {
           "label": "Github",
           "url": "https://github.com/littlePig-zzf"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "5d69bf192d89",
+      "board": "main",
+      "name": "ReadGZH",
+      "intro": "微信公众号文章 AI 阅读工具，粘贴链接生成便于 AI 读取的页面，另提供 API 与 MCP 接入",
+      "introMarkdown": "微信公众号文章 AI 阅读工具，粘贴链接生成便于 AI 读取的页面，另提供 API 与 MCP 接入",
+      "status": "live",
+      "date": "2026-09-09",
+      "url": "https://readgzh.site/",
+      "author": "sweesama",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sweesama"
         }
       ],
       "likes": 0,
@@ -30554,359 +30668,78 @@
       "comments": 0
     },
     {
-      "slug": "8acf0d9198df",
-      "board": "main",
-      "name": "配图扫描 App",
-      "intro": "基于本地 OCR 配图扫描的文字识别 App",
-      "introMarkdown": "基于本地 OCR 配图扫描的文字识别 App",
-      "status": "live",
-      "date": "2024-08-13",
-      "url": "https://github.com/li150/mapping_scanning",
-      "author": "biboom",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/li150/mapping_scanning"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "fb9012572780",
-      "board": "main",
-      "name": "AI Tool Trek",
-      "intro": "AI 工具导航站 & 实时 AI 新闻预览",
-      "introMarkdown": "AI 工具导航站 & 实时 AI 新闻预览",
-      "status": "live",
-      "date": "2024-08-13",
-      "url": "https://aitooltrek.com/",
-      "author": "biboom",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/li150/mapping_scanning"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f6c95c3517a5",
-      "board": "main",
-      "name": "Logo.surf",
-      "intro": "文字生成 Logo & Favicon",
-      "introMarkdown": "文字生成 Logo & Favicon",
-      "status": "live",
-      "date": "2024-08-13",
-      "url": "https://www.logo.surf",
-      "author": "biboom",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/li150/mapping_scanning"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "39845e1ed441",
-      "board": "main",
-      "name": "AITDK SEO Extension",
-      "intro": "All-in-One SEO 浏览器插件（免费），支持一键查看网站的流量、Whois、关键词密度等 SEO 信息",
-      "introMarkdown": "All-in-One SEO 浏览器插件（免费），支持一键查看网站的流量、Whois、关键词密度等 SEO 信息",
-      "status": "live",
-      "date": "2024-08-12",
-      "url": "https://aitdk.com/extension",
-      "author": "blank",
-      "authorLinks": [
-        {
-          "label": "Twitter",
-          "url": "https://x.com/blankwebdev"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "751f00c7a318",
-      "board": "main",
-      "name": "Comment Fast",
-      "intro": "基于 AI 的快速评论工具，为任意帖子或文章生成高质量评论",
-      "introMarkdown": "基于 AI 的快速评论工具，为任意帖子或文章生成高质量评论",
-      "status": "live",
-      "date": "2024-08-12",
-      "url": "https://commentfast.com/",
-      "author": "blank",
-      "authorLinks": [
-        {
-          "label": "Twitter",
-          "url": "https://x.com/blankwebdev"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "e1cb7fbbc1c3",
-      "board": "main",
-      "name": "MP4 to MP3",
-      "intro": "免费、安全、快速的 MP4 转 MP3 工具",
-      "introMarkdown": "免费、安全、快速的 MP4 转 MP3 工具",
-      "status": "live",
-      "date": "2024-08-10",
-      "url": "https://mp4t.com/zh/",
-      "author": "木木木",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "82d60e5eca97",
-      "board": "main",
-      "name": "IP.network",
-      "intro": "IP 地址查询",
-      "introMarkdown": "IP 地址查询",
-      "status": "live",
-      "date": "2024-08-08",
-      "url": "https://www.ip.network",
-      "author": "zxcHolmes",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "efdde295c53e",
-      "board": "main",
-      "name": "DNS.fish",
-      "intro": "域名 DNS 记录查询",
-      "introMarkdown": "域名 DNS 记录查询",
-      "status": "live",
-      "date": "2024-08-08",
-      "url": "https://dns.fish",
-      "author": "zxcHolmes",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "a0ab74d2b178",
-      "board": "main",
-      "name": "Midjourney Sref code 精选库",
-      "intro": "在 Midjourney 的 prompt 输入 --sref xxx ，可以固定生成某种特定风格的图片。这对很多人来说非常方便，不用写一堆效果词，只要记住几位数字就可以。但 --sref xxx 有大概 40 亿个，其中重复或者质量不佳的不在少数。因此做了一个网站把一些个人觉得不错的 sref code 收集起来并进行分类，方便新人或设计师检索",
-      "introMarkdown": "在 Midjourney 的 prompt 输入 `--sref xxx` ，可以固定生成某种特定风格的图片。这对很多人来说非常方便，不用写一堆效果词，只要记住几位数字就可以。但 `--sref xxx` 有大概 40 亿个，其中重复或者质量不佳的不在少数。因此做了一个网站把一些个人觉得不错的 sref code 收集起来并进行分类，方便新人或设计师检索",
-      "status": "live",
-      "date": "2024-08-05",
-      "url": "https://midjourneysref.com/",
-      "author": "underwood",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "5f51acb08770",
-      "board": "main",
-      "name": "CosmeticCheck",
-      "intro": "化妆品批号免费查询网站",
-      "introMarkdown": "化妆品批号免费查询网站",
-      "status": "live",
-      "date": "2024-08-05",
-      "url": "https://www.cosmeticcheck.app",
-      "author": "0xJoanne",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/0xjoanne"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "90cdf2c66c12",
-      "board": "main",
-      "name": "GPS测速仪 - 速度表",
-      "intro": "GPS测速仪 - 跟踪您的速度和行程！Tesla Model 3 车主最爱速度表！",
-      "introMarkdown": "GPS测速仪 - 跟踪您的速度和行程！Tesla Model 3 车主最爱速度表！",
-      "status": "live",
-      "date": "2024-08-03",
-      "url": "https://apps.apple.com/cn/app/id1497060416",
-      "author": "7SaiWen",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b2a7c9fa1c35",
-      "board": "main",
-      "name": "Query.Domains",
-      "intro": "极速域名注册状态及 whois 批量查询",
-      "introMarkdown": "极速域名注册状态及 whois 批量查询",
-      "status": "live",
-      "date": "2024-08-03",
-      "url": "https://query.domains",
-      "author": "Airyland",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/airyland"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b05b74602cba",
-      "board": "main",
-      "name": "Favicon.im",
-      "intro": "获取网站 Favicon",
-      "introMarkdown": "获取网站 Favicon",
-      "status": "live",
-      "date": "2024-08-03",
-      "url": "https://favicon.im",
-      "author": "Airyland",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/airyland"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b71188d69f28",
-      "board": "main",
-      "name": "Geilio Timer",
-      "intro": "高度可定制的计时器，适用于考试单题计时提醒等，App Store，Google Play",
-      "introMarkdown": "高度可定制的计时器，适用于考试单题计时提醒等，[App Store](https://apps.apple.com/lt/app/geilio-timer/id6446805524)，[Google Play](https://play.google.com/store/apps/details?id=com.geilio.android.timer)",
-      "status": "live",
-      "date": "2024-08-02",
-      "url": "https://geilio.com/",
-      "author": "瓶水之冰",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/zzAlexzz"
-        },
-        {
-          "label": "网站",
-          "url": "https://geilio.com/"
-        },
-        {
-          "label": "小红书",
-          "url": "http://xhslink.com/tXLmAR"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "bae6492ecb57",
-      "board": "main",
-      "name": "WR.DO",
-      "intro": "基于 Cloudflare 的多租户 DNS 分发系统",
-      "introMarkdown": "基于 Cloudflare 的多租户 DNS 分发系统 - [仓库](https://github.com/oiov/wr.do)",
-      "status": "live",
-      "date": "2024-08-01",
-      "url": "https://wr.do",
-      "author": "Oiov",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/oiov"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "3a56f0f8620f",
-      "board": "main",
-      "name": "小篆传包",
-      "intro": "一键更新安卓 Apk 到华为、小米等多个应用市场，助力 App 发版",
-      "introMarkdown": "一键更新安卓 Apk 到华为、小米等多个应用市场，助力 App 发版",
-      "status": "developing",
-      "date": "2024-08-01",
-      "url": "https://github.com/Xigong93/XiaoZhuan",
-      "author": "Xigong",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Xigong93"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "c3b0f5585d70",
-      "board": "main",
-      "name": "Mejorar Imagen",
-      "intro": "AI 图像增强器：用 AI 将图片放大 10 倍，最高提升到 12K 分辨率",
-      "introMarkdown": "AI 图像增强器：用 AI 将图片放大 10 倍，最高提升到 12K 分辨率",
-      "status": "live",
-      "date": "2024-07-30",
-      "url": "https://mejorarimagen.org/",
-      "author": "疯狂的小波",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "c19b1c57f071",
+      "slug": "f221cc041a63",
       "board": "main",
       "name": "AI 独立制造所",
       "intro": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
       "introMarkdown": "本列表的可搜索、可筛选、每日自动同步的可视化版本 - [更多介绍](https://github.com/kolbyzhu5/indie-maker-directory)",
       "status": "live",
-      "date": "2024-07-30",
+      "date": "2024-08-14",
       "url": "https://indiemaker.cn/",
-      "author": "疯狂的小波",
-      "authorLinks": [],
+      "author": "zane12580",
+      "authorLinks": [
+        {
+          "label": "即刻",
+          "url": "https://jike.city/zane12580"
+        }
+      ],
       "likes": 0,
       "comments": 0
     },
     {
-      "slug": "1a0604d81f29",
+      "slug": "2240a5856117",
       "board": "main",
       "name": "中国独立开发者项目列表（网页版）",
       "intro": "基于本列表数据制作的网页版，开源",
       "introMarkdown": "基于本列表数据制作的网页版，开源 - [更多介绍](https://github.com/kisslove/chinese-independent-developer-site)",
       "status": "live",
-      "date": "2024-07-30",
+      "date": "2024-08-14",
       "url": "https://developer.hubing.online/home",
-      "author": "疯狂的小波",
-      "authorLinks": [],
+      "author": "zane12580",
+      "authorLinks": [
+        {
+          "label": "即刻",
+          "url": "https://jike.city/zane12580"
+        }
+      ],
       "likes": 0,
       "comments": 0
     },
     {
-      "slug": "6deec9617462",
+      "slug": "cc251a0efaf5",
       "board": "main",
       "name": "独立星球",
       "intro": "中国独立开发者作品集，按项目浏览与发现",
       "introMarkdown": "中国独立开发者作品集，按项目浏览与发现 - [更多介绍](https://github.com/zhulin025/chinese-independent-developer)",
       "status": "live",
-      "date": "2024-07-30",
+      "date": "2024-08-14",
       "url": "https://du.liuwa.xyz/",
-      "author": "疯狂的小波",
-      "authorLinks": [],
+      "author": "zane12580",
+      "authorLinks": [
+        {
+          "label": "即刻",
+          "url": "https://jike.city/zane12580"
+        }
+      ],
       "likes": 0,
       "comments": 0
     },
     {
-      "slug": "2be123b9cb93",
+      "slug": "798229eeb18a",
       "board": "main",
       "name": "独立观察",
       "intro": "把本列表整理成可搜索、可追踪更新的浏览器看板",
       "introMarkdown": "把本列表整理成可搜索、可追踪更新的浏览器看板 - [更多介绍](https://github.com/lei1024/chinese-independent-developer-report)",
       "status": "live",
-      "date": "2024-07-30",
+      "date": "2024-08-14",
       "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "author": "疯狂的小波",
-      "authorLinks": [],
+      "author": "zane12580",
+      "authorLinks": [
+        {
+          "label": "即刻",
+          "url": "https://jike.city/zane12580"
+        }
+      ],
       "likes": 0,
       "comments": 0
     }
