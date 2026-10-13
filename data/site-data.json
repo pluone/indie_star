@@ -1,16 +1,130 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-13T02:22:46.446Z",
-    "statsSyncedAt": "2026-10-13T02:22:46.446Z",
-    "upstreamSha": "e9bb7a399f1c3fd92c59011d42a7a284dd85dc4e",
+    "contentSyncedAt": "2026-10-13T03:51:15.288Z",
+    "statsSyncedAt": "2026-10-13T03:51:15.288Z",
+    "upstreamSha": "d2a6e6b99f8b58bbb31d30f6fea1b7ac7931a80c",
     "counts": {
-      "main": 1671,
+      "main": 1677,
       "game": 137,
-      "programmer": 366,
-      "total": 2174
+      "programmer": 367,
+      "total": 2181
     }
   },
   "main": [
+    {
+      "slug": "4556456413a2",
+      "board": "main",
+      "name": "LogoMovo",
+      "intro": "浏览器 Logo 设计工作台，探索图形、字体、颜色与排版方向，调整设计后导出 SVG 或 PNG；Studio 与 AI 生成功能需登录及有效付费方案，品牌配色与命名资料可公开浏览",
+      "introMarkdown": "浏览器 Logo 设计工作台，探索图形、字体、颜色与排版方向，调整设计后导出 SVG 或 PNG；Studio 与 AI 生成功能需登录及有效付费方案，品牌配色与命名资料可公开浏览",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://logomovo.com/",
+      "author": "JonathanOwenTJ",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JonathanOwenTJ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "3c543a910a51",
+      "board": "main",
+      "name": "NailMoodLab",
+      "intro": "AI 美甲设计规划工具，按颜色、长度和细节生成可下载的参考图，也可用手部照片预览风格；AI 功能需登录，免费方案每月含 5 次 AI 操作，另有付费方案，预览不保证与沙龙成品一致",
+      "introMarkdown": "AI 美甲设计规划工具，按颜色、长度和细节生成可下载的参考图，也可用手部照片预览风格；AI 功能需登录，免费方案每月含 5 次 AI 操作，另有付费方案，预览不保证与沙龙成品一致",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://nailmoodlab.com/",
+      "author": "JonathanOwenTJ",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JonathanOwenTJ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "ba4880919ea4",
+      "board": "main",
+      "name": "DishVivid",
+      "intro": "餐厅菜单与外卖图片编辑器，在浏览器调整光线、颜色和裁剪，对比原图并下载 JPEG；手动编辑无需账号，选用 AI 编辑时需登录及可用额度，发布前须检查食材、份量和摆盘是否准确",
+      "introMarkdown": "餐厅菜单与外卖图片编辑器，在浏览器调整光线、颜色和裁剪，对比原图并下载 JPEG；手动编辑无需账号，选用 AI 编辑时需登录及可用额度，发布前须检查食材、份量和摆盘是否准确",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://dishvivid.com/",
+      "author": "JonathanOwenTJ",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JonathanOwenTJ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "127a2a0fbb9b",
+      "board": "main",
+      "name": "PackScena",
+      "intro": "AI 商品背景与场景图工具，上传 1–3 件商品照片，选择预设、颜色或场景描述，逐张检查后导出方形与竖版 PNG；当前为邀请码免费试用，无需付款，公开样例可免注册浏览，AI 可能改变商品细节",
+      "introMarkdown": "AI 商品背景与场景图工具，上传 1–3 件商品照片，选择预设、颜色或场景描述，逐张检查后导出方形与竖版 PNG；当前为邀请码免费试用，无需付款，公开样例可免注册浏览，AI 可能改变商品细节",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://packscena.com/",
+      "author": "JonathanOwenTJ",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JonathanOwenTJ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "19ae34c2729d",
+      "board": "main",
+      "name": "LookScene",
+      "intro": "个人 AI 照片造型预览工具，成年人可用自己的照片探索发型、穿搭和人像场景，再对比原图下载结果；当前为需登录、邀请码及可用积分的免费预览，官网样例为 AI 示意图，不保证真实发型或服装效果",
+      "introMarkdown": "个人 AI 照片造型预览工具，成年人可用自己的照片探索发型、穿搭和人像场景，再对比原图下载结果；当前为需登录、邀请码及可用积分的免费预览，官网样例为 AI 示意图，不保证真实发型或服装效果",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://lookscene.packscena.com/",
+      "author": "JonathanOwenTJ",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JonathanOwenTJ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4d59aa650904",
+      "board": "main",
+      "name": "AI Lab",
+      "intro": "中文浏览器实用工具、小游戏与原创漫画平台，提供图片压缩、Markdown 转 HTML、EPUB 阅读等入口；基础图片压缩和部分样例可公开使用，完整工具或内容按入口要求登录及积分",
+      "introMarkdown": "中文浏览器实用工具、小游戏与原创漫画平台，提供图片压缩、Markdown 转 HTML、EPUB 阅读等入口；基础图片压缩和部分样例可公开使用，完整工具或内容按入口要求登录及积分",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://ailab.packscena.com/",
+      "author": "JonathanOwenTJ",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JonathanOwenTJ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "f7eedd81c847",
       "board": "main",
@@ -33313,6 +33427,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "55e4b311466e",
+      "board": "programmer",
+      "name": "AI SaaS Go",
+      "intro": "AI API 中转站，一个 Key 调用 OpenAI、Claude、Gemini、Grok 等模型，兼容 OpenAI Chat Completions 与 Anthropic Messages 协议，支持原生 SSE 流式响应、按量计费与提示缓存，站点另设在线生图入口",
+      "introMarkdown": "AI API 中转站，一个 Key 调用 OpenAI、Claude、Gemini、Grok 等模型，兼容 OpenAI Chat Completions 与 Anthropic Messages 协议，支持原生 SSE 流式响应、按量计费与提示缓存，站点另设在线生图入口",
+      "status": "live",
+      "date": "2026-10-13",
+      "url": "https://aisaasgo.org/",
+      "author": "cf12436",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cf12436"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "eb1687c15830",
       "board": "programmer",
