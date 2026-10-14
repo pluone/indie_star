@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-14T05:41:27.184Z",
-    "statsSyncedAt": "2026-10-14T05:41:27.184Z",
-    "upstreamSha": "c37f684f8c5509bbc47f2221a9e0415f18a59b02",
+    "contentSyncedAt": "2026-10-14T05:46:33.092Z",
+    "statsSyncedAt": "2026-10-14T05:46:33.092Z",
+    "upstreamSha": "25fa9c2646b170967f03d994b9e73fe08412c31e",
     "counts": {
-      "main": 1683,
+      "main": 1667,
       "game": 137,
       "programmer": 370,
-      "total": 2190
+      "total": 2174
     }
   },
   "main": [
+    {
+      "slug": "45d273c4dc76",
+      "board": "main",
+      "name": "LearnNote",
+      "intro": "本地学习工作台，把视频字幕与 PDF、Markdown 等资料整理为可编辑笔记，保留原文和来源时间点供核对；无需 LearnNote 账号，自选模型，远程 API 费用另计；当前 Windows 可用，macOS/Linux 预览，源码采用 Apache-2.0",
+      "introMarkdown": "本地学习工作台，把视频字幕与 PDF、Markdown 等资料整理为可编辑笔记，保留原文和来源时间点供核对；无需 LearnNote 账号，自选模型，远程 API 费用另计；当前 Windows 可用，macOS/Linux 预览，源码采用 Apache-2.0 - [源码与使用说明](https://github.com/hurry060215-tech/learnnote-assistant)",
+      "status": "live",
+      "date": "2026-10-14",
+      "url": "https://hurry060215-tech.github.io/learnnote-assistant/",
+      "author": "hurry",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hurry060215-tech"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "656166a8d87f",
       "board": "main",
@@ -139,6 +158,25 @@
         {
           "label": "Github",
           "url": "https://github.com/sunflower225"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "89edfd5796b5",
+      "board": "main",
+      "name": "Calorie Cup",
+      "intro": "星巴克热量计算器（免费），基于 2026 美区菜单，可自由切换杯型、奶、糖浆、浓缩与奶盖，实时看到热量、糖分和咖啡因变化，免注册，同站含中文版",
+      "introMarkdown": "星巴克热量计算器（免费），基于 2026 美区菜单，可自由切换杯型、奶、糖浆、浓缩与奶盖，实时看到热量、糖分和咖啡因变化，免注册，同站含中文版",
+      "status": "live",
+      "date": "2026-10-14",
+      "url": "https://caloriecup.com/",
+      "author": "zs19901",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zs19901"
         }
       ],
       "likes": 0,
@@ -30602,389 +30640,92 @@
       "comments": 0
     },
     {
-      "slug": "3c2068bbbe23",
-      "board": "main",
-      "name": "IT 摇篮曲",
-      "intro": "聚焦于计算机网络、计算机操作系统（Linux/Win）、项目部署实战、开源项目及软件、IT科普类等知识内容",
-      "introMarkdown": "聚焦于计算机网络、计算机操作系统（Linux/Win）、项目部署实战、开源项目及软件、IT科普类等知识内容",
-      "status": "live",
-      "date": "2024-08-31",
-      "url": "https://www.itylq.com",
-      "author": "fatalor",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/fatalor"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9a5797d56dab",
-      "board": "main",
-      "name": "美丽记账",
-      "intro": "记账 App（简单好用免费）",
-      "introMarkdown": "记账 App（简单好用免费）",
-      "status": "live",
-      "date": "2024-08-31",
-      "url": "https://www.mingcui.cn/meili/",
-      "author": "名翠软件",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "602939295b92",
-      "board": "main",
-      "name": "Flux AI Image Generator",
-      "intro": "文生图网站，基于 fluxai 包含 prompt 翻译优化功能（开源）",
-      "introMarkdown": "文生图网站，基于 fluxai 包含 prompt 翻译优化功能（开源）",
-      "status": "live",
-      "date": "2024-08-31",
-      "url": "https://fluxaipro.art",
-      "author": "virgoone",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/virgoone"
-        },
-        {
-          "label": "网站主页",
-          "url": "https://blog.douni.one"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "3fce21165049",
-      "board": "main",
-      "name": "找到每个任务的最佳 AI 工具",
-      "intro": "找到最好的 AI 工具",
-      "introMarkdown": "找到最好的 AI 工具",
-      "status": "live",
-      "date": "2024-08-30",
-      "url": "https://toollist.ai",
-      "author": "",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f59198a14c70",
-      "board": "main",
-      "name": "番石榴实验室 AI 智能应用",
-      "intro": "图片文字提取，OCR 文字提取，表格结构识别，文档比对",
-      "introMarkdown": "图片文字提取，OCR 文字提取，表格结构识别，文档比对",
-      "status": "live",
-      "date": "2024-08-30",
-      "url": "https://ai.maogoujiaoliuqi.com/",
-      "author": "jiangnanboy",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/jiangnanboy"
-        },
-        {
-          "label": "博客",
-          "url": "https://jiangnanboy.github.io/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "18085382617f",
-      "board": "main",
-      "name": "酒店协议代码——Hotel Corporate Codes",
-      "intro": "酒店协议代码是关于 IHG、希尔顿、万豪、凯悦等酒店品牌的特别折扣代码。这些代码提供给企业，以便以优惠价格预订酒店。公司可以利用这些代码为员工的出差节省旅行费用。免费且支持多语言。",
-      "introMarkdown": "酒店协议代码是关于 IHG、希尔顿、万豪、凯悦等酒店品牌的特别折扣代码。这些代码提供给企业，以便以优惠价格预订酒店。公司可以利用这些代码为员工的出差节省旅行费用。免费且支持多语言。",
-      "status": "live",
-      "date": "2024-08-29",
-      "url": "https://corporate-codes.online",
-      "author": "诸葛子房",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "fd2d59b18b59",
-      "board": "main",
-      "name": "网站地图 sitemap 生成及数据可视化分析平台",
-      "intro": "不仅可以按需生成网站地图（sitemap），还允许用户获取网站地图的统计数据，并以图形化的方式查看和分析网站的结构",
-      "introMarkdown": "不仅可以按需生成网站地图（sitemap），还允许用户获取网站地图的统计数据，并以图形化的方式查看和分析网站的结构 - [更多介绍]( https://juejin.cn/post/7407999205493178418)",
-      "status": "live",
-      "date": "2024-08-29",
-      "url": "https://sitemap.top",
-      "author": "风巢森淼",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": " https://github.com/wincatcher"
-        },
-        {
-          "label": "博客",
-          "url": "https://okjk.co/q4mQVu"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "3af99b268354",
-      "board": "main",
-      "name": "Kite 待办",
-      "intro": "桌面待办清单应用（简洁轻量）",
-      "introMarkdown": "桌面待办清单应用（简洁轻量）",
-      "status": "live",
-      "date": "2024-08-29",
-      "url": "https://kite.kitlib.cn/",
-      "author": "YiXinCoding",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "21f2fd84279e",
-      "board": "main",
-      "name": "Emoji Spark",
-      "intro": "AI Emoji 搜索工具",
-      "introMarkdown": "AI Emoji 搜索工具",
-      "status": "live",
-      "date": "2024-08-27",
-      "url": "https://emojispark.com",
-      "author": "0xJoanne",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/0xjoanne"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "84f1eed4c3cf",
-      "board": "main",
-      "name": "AI Anime Generator",
-      "intro": "AI 动漫图片生成器（免费）",
-      "introMarkdown": "AI 动漫图片生成器（免费）",
-      "status": "live",
-      "date": "2024-08-25",
-      "url": "https://aianimegen.org",
-      "author": "",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "ce4d081734e8",
-      "board": "main",
-      "name": "Text Compare & Merge",
-      "intro": "文本对比与合并工具",
-      "introMarkdown": "文本对比与合并工具",
-      "status": "live",
-      "date": "2024-08-22",
-      "url": "https://diffsuite.com",
-      "author": "木木木",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1ad71e575032",
-      "board": "main",
-      "name": "SVG to ICO",
-      "intro": "SVG、PNG 转 ICO 工具",
-      "introMarkdown": "SVG、PNG 转 ICO 工具",
-      "status": "live",
-      "date": "2024-08-22",
-      "url": "https://svg2ico.com/zh/",
-      "author": "木木木",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "32e97c0bd0f5",
-      "board": "main",
-      "name": "流沙 SEO",
-      "intro": "分享谷歌 SEO 相关知识",
-      "introMarkdown": "分享谷歌 SEO 相关知识",
-      "status": "live",
-      "date": "2024-08-22",
-      "url": "https://liusha.com",
-      "author": "shaoyangliu",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/fengmao"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1f094fe2d2a4",
-      "board": "main",
-      "name": "奇异字体生成器",
-      "intro": "帮助用户创建和转换各种独特的字体样式 (通过 unicode 编码转换)",
-      "introMarkdown": "帮助用户创建和转换各种独特的字体样式 (通过 unicode 编码转换) - [更多介绍](https://juejin.cn/post/7404777095623622666)",
-      "status": "live",
-      "date": "2024-08-22",
-      "url": "https://freakyfontgenerator.top",
-      "author": "风巢森淼",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": " https://github.com/wincatcher"
-        },
-        {
-          "label": "博客",
-          "url": " https://okjk.co/q4mQVu"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "c760a15e541c",
-      "board": "main",
-      "name": "Awesome Flux AI",
-      "intro": "Flux AI LoRA 和资料导航",
-      "introMarkdown": "Flux AI LoRA 和资料导航",
-      "status": "live",
-      "date": "2024-08-19",
-      "url": "https://www.awesomefluxai.com",
-      "author": "Airyland",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/airyland"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f8390c5067cf",
-      "board": "main",
-      "name": "Watch together",
-      "intro": "帮助身处异地的多个用户观看一个视频时同步进度的谷歌插件。打开相同视频网站->连接线通房间->拖动进度条或者暂停播放。",
-      "introMarkdown": "帮助身处异地的多个用户观看一个视频时同步进度的谷歌插件。打开相同视频网站->连接线通房间->拖动进度条或者暂停播放。",
-      "status": "live",
-      "date": "2024-08-16",
-      "url": "https://chromewebstore.google.com/detail/watch-together/lghnmgibkhmfeiiekigddnimaaabdmhk",
-      "author": "mabengda",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "59f187db4aa3",
-      "board": "main",
-      "name": "Perchance AI",
-      "intro": "无需注册即可在线使用 18 个 AI 图片生成器和体验 75 个文生图绘画风格，还支持在线使用 Flux AI、SDXL、SDXL Lightning 和 SDXL Flash 模型",
-      "introMarkdown": "无需注册即可在线使用 18 个 AI 图片生成器和体验 75 个文生图绘画风格，还支持在线使用 Flux AI、SDXL、SDXL Lightning 和 SDXL Flash 模型",
-      "status": "live",
-      "date": "2024-08-15",
-      "url": "https://perchanceai.cc",
-      "author": "Ethan Sunray",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9e7e19200577",
-      "board": "main",
-      "name": "微芒计划",
-      "intro": "待办效率管理工具（Windows 平台）（使用 Tauri 构建）",
-      "introMarkdown": "待办效率管理工具（Windows 平台）（使用 Tauri 构建）",
-      "status": "live",
-      "date": "2024-08-15",
-      "url": "https://kestrel-task.cn",
-      "author": "微芒不朽",
-      "authorLinks": [
-        {
-          "label": "Gitee",
-          "url": "https://gitee.com/zhanhongzhu/zhanhongzhu"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f221cc041a63",
+      "slug": "d3257d017b70",
       "board": "main",
       "name": "AI 独立制造所",
       "intro": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
       "introMarkdown": "本列表的可搜索、可筛选、每日自动同步的可视化版本 - [更多介绍](https://github.com/kolbyzhu5/indie-maker-directory)",
       "status": "live",
-      "date": "2024-08-14",
+      "date": "2024-09-02",
       "url": "https://indiemaker.cn/",
-      "author": "zane12580",
+      "author": "94r7",
       "authorLinks": [
         {
-          "label": "即刻",
-          "url": "https://jike.city/zane12580"
+          "label": "Github",
+          "url": "https://github.com/WtecHtec"
+        },
+        {
+          "label": "博客",
+          "url": "https://r7.nuxt.dev/"
         }
       ],
       "likes": 0,
       "comments": 0
     },
     {
-      "slug": "2240a5856117",
+      "slug": "8d94eb72f1e3",
       "board": "main",
       "name": "中国独立开发者项目列表（网页版）",
       "intro": "基于本列表数据制作的网页版，开源",
       "introMarkdown": "基于本列表数据制作的网页版，开源 - [更多介绍](https://github.com/kisslove/chinese-independent-developer-site)",
       "status": "live",
-      "date": "2024-08-14",
+      "date": "2024-09-02",
       "url": "https://developer.hubing.online/home",
-      "author": "zane12580",
+      "author": "94r7",
       "authorLinks": [
         {
-          "label": "即刻",
-          "url": "https://jike.city/zane12580"
+          "label": "Github",
+          "url": "https://github.com/WtecHtec"
+        },
+        {
+          "label": "博客",
+          "url": "https://r7.nuxt.dev/"
         }
       ],
       "likes": 0,
       "comments": 0
     },
     {
-      "slug": "cc251a0efaf5",
+      "slug": "c5fedfd9da59",
       "board": "main",
       "name": "独立星球",
       "intro": "中国独立开发者作品集，按项目浏览与发现",
       "introMarkdown": "中国独立开发者作品集，按项目浏览与发现 - [更多介绍](https://github.com/zhulin025/chinese-independent-developer)",
       "status": "live",
-      "date": "2024-08-14",
+      "date": "2024-09-02",
       "url": "https://du.liuwa.xyz/",
-      "author": "zane12580",
+      "author": "94r7",
       "authorLinks": [
         {
-          "label": "即刻",
-          "url": "https://jike.city/zane12580"
+          "label": "Github",
+          "url": "https://github.com/WtecHtec"
+        },
+        {
+          "label": "博客",
+          "url": "https://r7.nuxt.dev/"
         }
       ],
       "likes": 0,
       "comments": 0
     },
     {
-      "slug": "798229eeb18a",
+      "slug": "2badd8176d79",
       "board": "main",
       "name": "独立观察",
       "intro": "把本列表整理成可搜索、可追踪更新的浏览器看板",
       "introMarkdown": "把本列表整理成可搜索、可追踪更新的浏览器看板 - [更多介绍](https://github.com/lei1024/chinese-independent-developer-report)",
       "status": "live",
-      "date": "2024-08-14",
+      "date": "2024-09-02",
       "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "author": "zane12580",
+      "author": "94r7",
       "authorLinks": [
         {
-          "label": "即刻",
-          "url": "https://jike.city/zane12580"
+          "label": "Github",
+          "url": "https://github.com/WtecHtec"
+        },
+        {
+          "label": "博客",
+          "url": "https://r7.nuxt.dev/"
         }
       ],
       "likes": 0,
