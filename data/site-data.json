@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-14T06:21:28.416Z",
-    "statsSyncedAt": "2026-10-14T06:21:28.416Z",
-    "upstreamSha": "c3442b61cfd44db076b50fd8014281db72288f46",
+    "contentSyncedAt": "2026-10-14T14:11:31.658Z",
+    "statsSyncedAt": "2026-10-14T14:11:31.658Z",
+    "upstreamSha": "d882fe933ac49bb92fd78d3464149e4de44a4eff",
     "counts": {
-      "main": 1663,
-      "game": 137,
-      "programmer": 370,
-      "total": 2170
+      "main": 1665,
+      "game": 139,
+      "programmer": 371,
+      "total": 2175
     }
   },
   "main": [
+    {
+      "slug": "f5e4af598163",
+      "board": "main",
+      "name": "AIpet · 丛雨桌宠",
+      "intro": "Windows AI 桌面伴侣，支持本地或云端对话、语音输入输出、可选屏幕感知和对话记忆；提供免安装 EXE，聊天需配置模型或 API Key，基于 MurasamePet 继续开发",
+      "introMarkdown": "Windows AI 桌面伴侣，支持本地或云端对话、语音输入输出、可选屏幕感知和对话记忆；提供免安装 EXE，聊天需配置模型或 API Key，基于 MurasamePet 继续开发 - [源码与使用说明](https://github.com/kuxiaowo/AIpet-Murasame)",
+      "status": "live",
+      "date": "2026-10-14",
+      "url": "https://github.com/kuxiaowo/AIpet-Murasame/releases",
+      "author": "kuxiaowo",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kuxiaowo"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "90fc499f2a58",
+      "board": "main",
+      "name": "待办清单时间线",
+      "intro": "学习任务管理网站，用时间线查看截止日期，将任务拖入每日计划，支持习惯管理、ManageBac 作业导入及可选 AI 助手；支持中英文，保存和管理任务需登录 NetHub 账号",
+      "introMarkdown": "学习任务管理网站，用时间线查看截止日期，将任务拖入每日计划，支持习惯管理、ManageBac 作业导入及可选 AI 助手；支持中英文，保存和管理任务需登录 NetHub 账号 - [源码与使用说明](https://github.com/kuxiaowo/To-do-list)",
+      "status": "live",
+      "date": "2026-10-14",
+      "url": "https://todolist.nethub.wiki/",
+      "author": "kuxiaowo",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kuxiaowo"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "45d273c4dc76",
       "board": "main",
@@ -30642,6 +30680,44 @@
   ],
   "game": [
     {
+      "slug": "2f64e6715bad",
+      "board": "game",
+      "name": "KSA 简体中文汉化预览",
+      "intro": "Kitten Space Agency 的部分简体中文汉化 Mod，提供中文字体、译文和便携启动器，不替换原游戏文件；仅适配游戏 2026.10.13.5602，需 .NET 10 x64 Runtime，未覆盖文本回退英文",
+      "introMarkdown": "Kitten Space Agency 的部分简体中文汉化 Mod，提供中文字体、译文和便携启动器，不替换原游戏文件；仅适配游戏 2026.10.13.5602，需 .NET 10 x64 Runtime，未覆盖文本回退英文 - [源码与安装说明](https://github.com/kuxiaowo/KSA-CHINESE)",
+      "status": "developing",
+      "date": "2026-10-14",
+      "url": "https://github.com/kuxiaowo/KSA-CHINESE/releases/tag/v0.1.2",
+      "author": "kuxiaowo",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kuxiaowo"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "0c860092ade3",
+      "board": "game",
+      "name": "AC → Forza 遥测桥",
+      "intro": "Windows 赛车仪表盘适配工具，读取 Assetto Corsa 1 遥测并转换为 Forza Horizon Dash UDP 格式，让兼容仪表盘显示速度、转速、挡位等数据；提供可直接运行的发布包，需配合原游戏及兼容接收端使用",
+      "introMarkdown": "Windows 赛车仪表盘适配工具，读取 Assetto Corsa 1 遥测并转换为 Forza Horizon Dash UDP 格式，让兼容仪表盘显示速度、转速、挡位等数据；提供可直接运行的发布包，需配合原游戏及兼容接收端使用 - [源码与使用说明](https://github.com/kuxiaowo/AC-Forza-Telemetry-Bridge)",
+      "status": "live",
+      "date": "2026-10-14",
+      "url": "https://github.com/kuxiaowo/AC-Forza-Telemetry-Bridge/releases/tag/v1.1.0",
+      "author": "kuxiaowo",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kuxiaowo"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "e703cfb361f1",
       "board": "game",
       "name": "失控 AI 增量",
@@ -33232,6 +33308,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "22649a5673eb",
+      "board": "programmer",
+      "name": "WeChat ASR Bridge",
+      "intro": "把 Windows 微信语音识别接成兼容 OpenAI 的 ASR 接口，支持 WAV/MP3 和 JSON/文本输出；提供免安装窗口版，可选择音频并复制或保存识别结果；需安装并登录微信 4.1.13.65，音频经微信发送至微信服务端，属于版本限定的实验桥接器",
+      "introMarkdown": "把 Windows 微信语音识别接成兼容 OpenAI 的 ASR 接口，支持 WAV/MP3 和 JSON/文本输出；提供免安装窗口版，可选择音频并复制或保存识别结果；需安装并登录微信 4.1.13.65，音频经微信发送至微信服务端，属于版本限定的实验桥接器 - [下载与使用说明](https://github.com/kuxiaowo/wechat-asr-bridge/releases/tag/v0.2.0)",
+      "status": "live",
+      "date": "2026-10-14",
+      "url": "https://github.com/kuxiaowo/wechat-asr-bridge",
+      "author": "kuxiaowo",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kuxiaowo"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "cf54828ec014",
       "board": "programmer",
