@@ -1,16 +1,62 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-14T14:11:31.658Z",
-    "statsSyncedAt": "2026-10-14T14:11:31.658Z",
-    "upstreamSha": "d882fe933ac49bb92fd78d3464149e4de44a4eff",
+    "contentSyncedAt": "2026-10-14T14:56:30.065Z",
+    "statsSyncedAt": "2026-10-14T14:56:30.065Z",
+    "upstreamSha": "05bfea494c73c350f5ab0d2e74af733c48795ddf",
     "counts": {
-      "main": 1665,
+      "main": 1667,
       "game": 139,
       "programmer": 371,
-      "total": 2175
+      "total": 2177
     }
   },
   "main": [
+    {
+      "slug": "ef09d2986a14",
+      "board": "main",
+      "name": "Copyla",
+      "intro": "Mac 剪贴板管理工具，数据完全存在本机、无需账号，支持全文搜索历史、多项按顺序一次贴回、Pinboard 常用片段和本机 OCR，14 天免费试用后 ¥79 买断",
+      "introMarkdown": "Mac 剪贴板管理工具，数据完全存在本机、无需账号，支持全文搜索历史、多项按顺序一次贴回、Pinboard 常用片段和本机 OCR，14 天免费试用后 ¥79 买断",
+      "status": "live",
+      "date": "2026-10-14",
+      "url": "https://copyla.elazer.wang",
+      "author": "石头",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/rockythink"
+        },
+        {
+          "label": "博客",
+          "url": "https://elazer.wang"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "9f93aee4d728",
+      "board": "main",
+      "name": "Clacklet",
+      "intro": "Mac 键鼠音效工具，15 套机械键盘/打字机等按键声 + 8 种雨声海浪等环境声 + 打字猫等桌面反馈，不录音不存键入内容，App 内不限时免费试用，¥19.9 买断",
+      "introMarkdown": "Mac 键鼠音效工具，15 套机械键盘/打字机等按键声 + 8 种雨声海浪等环境声 + 打字猫等桌面反馈，不录音不存键入内容，App 内不限时免费试用，¥19.9 买断",
+      "status": "live",
+      "date": "2026-10-14",
+      "url": "https://clacklet.elazer.wang",
+      "author": "石头",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/rockythink"
+        },
+        {
+          "label": "博客",
+          "url": "https://elazer.wang"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "f5e4af598163",
       "board": "main",
