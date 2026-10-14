@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-14T05:46:33.092Z",
-    "statsSyncedAt": "2026-10-14T05:46:33.092Z",
-    "upstreamSha": "25fa9c2646b170967f03d994b9e73fe08412c31e",
+    "contentSyncedAt": "2026-10-14T06:21:28.416Z",
+    "statsSyncedAt": "2026-10-14T06:21:28.416Z",
+    "upstreamSha": "c3442b61cfd44db076b50fd8014281db72288f46",
     "counts": {
-      "main": 1667,
+      "main": 1663,
       "game": 137,
       "programmer": 370,
-      "total": 2174
+      "total": 2170
     }
   },
   "main": [
@@ -30625,98 +30625,6 @@
       "status": "live",
       "date": "2024-09-02",
       "url": "https://chromewebstore.google.com/detail/oamckfgecgfenpchklfhelhnngmhdnma?authuser=0&hl=zh-CN",
-      "author": "94r7",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/WtecHtec"
-        },
-        {
-          "label": "博客",
-          "url": "https://r7.nuxt.dev/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d3257d017b70",
-      "board": "main",
-      "name": "AI 独立制造所",
-      "intro": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "introMarkdown": "本列表的可搜索、可筛选、每日自动同步的可视化版本 - [更多介绍](https://github.com/kolbyzhu5/indie-maker-directory)",
-      "status": "live",
-      "date": "2024-09-02",
-      "url": "https://indiemaker.cn/",
-      "author": "94r7",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/WtecHtec"
-        },
-        {
-          "label": "博客",
-          "url": "https://r7.nuxt.dev/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "8d94eb72f1e3",
-      "board": "main",
-      "name": "中国独立开发者项目列表（网页版）",
-      "intro": "基于本列表数据制作的网页版，开源",
-      "introMarkdown": "基于本列表数据制作的网页版，开源 - [更多介绍](https://github.com/kisslove/chinese-independent-developer-site)",
-      "status": "live",
-      "date": "2024-09-02",
-      "url": "https://developer.hubing.online/home",
-      "author": "94r7",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/WtecHtec"
-        },
-        {
-          "label": "博客",
-          "url": "https://r7.nuxt.dev/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "c5fedfd9da59",
-      "board": "main",
-      "name": "独立星球",
-      "intro": "中国独立开发者作品集，按项目浏览与发现",
-      "introMarkdown": "中国独立开发者作品集，按项目浏览与发现 - [更多介绍](https://github.com/zhulin025/chinese-independent-developer)",
-      "status": "live",
-      "date": "2024-09-02",
-      "url": "https://du.liuwa.xyz/",
-      "author": "94r7",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/WtecHtec"
-        },
-        {
-          "label": "博客",
-          "url": "https://r7.nuxt.dev/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "2badd8176d79",
-      "board": "main",
-      "name": "独立观察",
-      "intro": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "introMarkdown": "把本列表整理成可搜索、可追踪更新的浏览器看板 - [更多介绍](https://github.com/lei1024/chinese-independent-developer-report)",
-      "status": "live",
-      "date": "2024-09-02",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
       "author": "94r7",
       "authorLinks": [
         {
