@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-14T20:16:27.119Z",
-    "statsSyncedAt": "2026-10-14T20:16:27.119Z",
-    "upstreamSha": "fa1acd80fa75651cece9e30098e1a40dec45c149",
+    "contentSyncedAt": "2026-10-14T20:21:29.717Z",
+    "statsSyncedAt": "2026-10-14T20:21:29.717Z",
+    "upstreamSha": "6bbe92dcedaf7fbd832d10b84e832d1b22f423e3",
     "counts": {
-      "main": 1669,
+      "main": 1661,
       "game": 139,
       "programmer": 371,
-      "total": 2179
+      "total": 2171
     }
   },
   "main": [
@@ -25,6 +25,63 @@
         {
           "label": "Github",
           "url": "https://github.com/AmintaCCCP"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4b29866d71cf",
+      "board": "main",
+      "name": "The 12 Axes",
+      "intro": "多维度政治倾向自我反思测试工具，提供 60 题精简版与 288 题完整版，从 12 个独立维度分析政治与社会议题取向，提供意识形态匹配与历史人物参考，纯前端运算、无需注册登录、答题进度与答案完全保存在浏览器；支持英语、西班牙语、葡萄牙语，完全免费",
+      "introMarkdown": "多维度政治倾向自我反思测试工具，提供 60 题精简版与 288 题完整版，从 12 个独立维度分析政治与社会议题取向，提供意识形态匹配与历史人物参考，纯前端运算、无需注册登录、答题进度与答案完全保存在浏览器；支持英语、西班牙语、葡萄牙语，完全免费",
+      "status": "live",
+      "date": "2026-10-15",
+      "url": "https://12axes.site/",
+      "author": "Axes Explorer",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Peacoke"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "a365b81ae0c0",
+      "board": "main",
+      "name": "MastraWork",
+      "intro": "开源桌面 AI 工作台，把一次 Agent 运行组织成可暂停、可回溯、可交接的任务——改代码、跑命令、调 LSP 是「工程任务」，计划/构建/复查三种模式管权限，主 Agent 还能带专家团队分工协作；模型服务自己配、数据默认留在本机，支持 Windows / macOS / Linux，Apache-2.0 开源",
+      "introMarkdown": "开源桌面 AI 工作台，把一次 Agent 运行组织成可暂停、可回溯、可交接的任务——改代码、跑命令、调 LSP 是「工程任务」，计划/构建/复查三种模式管权限，主 Agent 还能带专家团队分工协作；模型服务自己配、数据默认留在本机，支持 Windows / macOS / Linux，Apache-2.0 开源",
+      "status": "live",
+      "date": "2026-10-15",
+      "url": "https://github.com/movclantian/mastra-desktop",
+      "author": "movclantian",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/movclantian"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "1750918e1481",
+      "board": "main",
+      "name": "AI Hairstyle Fit",
+      "intro": "男士 AI 发型预览工具，上传正面照并可选填写偏好，对比新发型与原图，查看日常打理建议并生成理发卡；生成需登录，符合条件且完成验证的新账号可获 10 积分体验一次预览，后续按需购买积分包，无订阅；照片和结果 24 小时后清理",
+      "introMarkdown": "男士 AI 发型预览工具，上传正面照并可选填写偏好，对比新发型与原图，查看日常打理建议并生成理发卡；生成需登录，符合条件且完成验证的新账号可获 10 积分体验一次预览，后续按需购买积分包，无订阅；照片和结果 24 小时后清理",
+      "status": "live",
+      "date": "2026-10-15",
+      "url": "https://aihairstylefit.com/",
+      "author": "AnshengHu",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zgaobai"
         }
       ],
       "likes": 0,
@@ -769,25 +826,6 @@
         {
           "label": "Github",
           "url": "https://github.com/31415959"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1750918e1481",
-      "board": "main",
-      "name": "AI Hairstyle Fit",
-      "intro": "男士 AI 发型预览工具，上传正面照并可选填写偏好，对比新发型与原图，查看日常打理建议并生成理发卡；生成需登录，符合条件且完成验证的新账号可获 10 积分体验一次预览，后续按需购买积分包，无订阅；照片和结果 24 小时后清理",
-      "introMarkdown": "男士 AI 发型预览工具，上传正面照并可选填写偏好，对比新发型与原图，查看日常打理建议并生成理发卡；生成需登录，符合条件且完成验证的新账号可获 10 积分体验一次预览，后续按需购买积分包，无订阅；照片和结果 24 小时后清理",
-      "status": "live",
-      "date": "2026-10-12",
-      "url": "https://aihairstylefit.com/",
-      "author": "AnshengHu",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/zgaobai"
         }
       ],
       "likes": 0,
@@ -30547,212 +30585,6 @@
       "url": "https://www.ocmaker.net",
       "author": "Q-Sansan",
       "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "97a87a227712",
-      "board": "main",
-      "name": "改革后法定延迟退休年龄计算器 & 退休倒计时工具",
-      "intro": "帮助用户轻松计算退休时间并以有趣的方式倒数至退休日。我们的目标是让用户以积极乐观的态度面对工作和生活",
-      "introMarkdown": "帮助用户轻松计算退休时间并以有趣的方式倒数至退休日。我们的目标是让用户以积极乐观的态度面对工作和生活 - [更多介绍](https://juejin.cn/post/7415651555120824354)",
-      "status": "live",
-      "date": "2024-09-18",
-      "url": "https://daojishi.fun",
-      "author": "风巢森淼",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": " https://github.com/wincatcher"
-        },
-        {
-          "label": "博客",
-          "url": " https://okjk.co/q4mQVu"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "77bcace8dc7e",
-      "board": "main",
-      "name": "退休年龄计算器",
-      "intro": "按照《关于实施渐进式延迟法定退休年龄的决定》附表对照关系，您通过法定退休年龄计算器，选择出生年月、性别及人员类型，即可计算出对应的改革后法定退休年龄、改革后退休时间、延迟月数",
-      "introMarkdown": "按照《关于实施渐进式延迟法定退休年龄的决定》附表对照关系，您通过法定退休年龄计算器，选择出生年月、性别及人员类型，即可计算出对应的改革后法定退休年龄、改革后退休时间、延迟月数",
-      "status": "live",
-      "date": "2024-09-14",
-      "url": "http://test.kestrel-task.cn/",
-      "author": "Kestrel",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/kestrela"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "61735f95f221",
-      "board": "main",
-      "name": "Show HN Today",
-      "intro": "汇集 HackerNews 中热门项目的网站。每天从 Hacker News 平台中提取最有趣、最创新的项目和新闻，并通过简洁的界面展示，帮助用户轻松跟踪技术界的最新趋势。无论你是开发者、创业者还是技术爱好者，Show HN Today 都为你提供一个了解前沿技术和创意项目的便捷窗口。",
-      "introMarkdown": "汇集 HackerNews 中热门项目的网站。每天从 Hacker News 平台中提取最有趣、最创新的项目和新闻，并通过简洁的界面展示，帮助用户轻松跟踪技术界的最新趋势。无论你是开发者、创业者还是技术爱好者，Show HN Today 都为你提供一个了解前沿技术和创意项目的便捷窗口。",
-      "status": "live",
-      "date": "2024-09-10",
-      "url": "https://showhntoday.com",
-      "author": "Saga",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/s87343472"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "78dc51dee6ba",
-      "board": "main",
-      "name": "天命打工人插件",
-      "intro": "倒计时的时间摸鱼浏览器插件",
-      "introMarkdown": "倒计时的时间摸鱼浏览器插件",
-      "status": "live",
-      "date": "2024-09-09",
-      "url": "https://chromewebstore.google.com/detail/%E5%A4%A9%E5%91%BD%E6%89%93%E5%B7%A5%E4%BA%BA/annhlammehogodlbcnncafpgnefbmpah",
-      "author": "biboom",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/li150/li150"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "8ee2288f55ac",
-      "board": "main",
-      "name": "CloudOTP",
-      "intro": "双因素验证器（支持 Android 和 Windows 平台，支持从第三方软件导入和云备份）",
-      "introMarkdown": "双因素验证器（支持 Android 和 Windows 平台，支持从第三方软件导入和云备份） - [更多介绍](https://apps.cloudchewie.com/zh_CN/cloudotp/introduction)",
-      "status": "live",
-      "date": "2024-09-06",
-      "url": "https://apps.cloudchewie.com/zh_CN/cloudotp",
-      "author": "Cloudchewie",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Robert-Stackflow"
-        },
-        {
-          "label": "博客",
-          "url": "https://blog.cloudchewie.com"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "03323185b507",
-      "board": "main",
-      "name": "Moment",
-      "intro": "相册博客（支持自托管）",
-      "introMarkdown": "相册博客（支持自托管） - [更多介绍](https://github.com/Robert-Stackflow/Moment)",
-      "status": "live",
-      "date": "2024-09-06",
-      "url": "https://moment.cloudchewie.com/",
-      "author": "Cloudchewie",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Robert-Stackflow"
-        },
-        {
-          "label": "博客",
-          "url": "https://blog.cloudchewie.com"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1b3776e2a637",
-      "board": "main",
-      "name": "Flux AI",
-      "intro": "AI 图片生成器",
-      "introMarkdown": "AI 图片生成器",
-      "status": "live",
-      "date": "2024-09-06",
-      "url": "https://fluxaiweb.com",
-      "author": "xiaoxusdz",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/xiaoxusdz"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "af7b1465c003",
-      "board": "main",
-      "name": "AI Lyrics Generator",
-      "intro": "免费人工智能歌词生成器和人工智能歌曲作家",
-      "introMarkdown": "免费人工智能歌词生成器和人工智能歌曲作家",
-      "status": "live",
-      "date": "2024-09-06",
-      "url": "https://www.lyricsgenerator.io",
-      "author": "xiaoxusdz",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/xiaoxusdz"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b7b699bd84ab",
-      "board": "main",
-      "name": "海德时钟",
-      "intro": "集精美时钟、番茄计时以及白噪音的专注类 App（苹果应用）",
-      "introMarkdown": "集精美时钟、番茄计时以及白噪音的专注类 App（苹果应用）",
-      "status": "live",
-      "date": "2024-09-03",
-      "url": "https://apps.apple.com/cn/app/hyde-clock-time-widget/id6476807443",
-      "author": "keycheung",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/keycheung"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "70733bebe879",
-      "board": "main",
-      "name": "放大镜录屏",
-      "intro": "Chrome 录屏插件，可放大区域",
-      "introMarkdown": "Chrome 录屏插件，可放大区域 - [更多介绍](https://www.bilibili.com/video/BV1g9noedECb/?spm_id_from=333.999.0.0&vd_source=d5b28d31bf0713b1e64a887d37daeb4a)",
-      "status": "live",
-      "date": "2024-09-02",
-      "url": "https://chromewebstore.google.com/detail/oamckfgecgfenpchklfhelhnngmhdnma?authuser=0&hl=zh-CN",
-      "author": "94r7",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/WtecHtec"
-        },
-        {
-          "label": "博客",
-          "url": "https://r7.nuxt.dev/"
-        }
-      ],
       "likes": 0,
       "comments": 0
     }
