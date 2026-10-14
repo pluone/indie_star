@@ -1,22 +1,117 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-14T00:03:54.331Z",
-    "statsSyncedAt": "2026-10-14T00:03:54.331Z",
-    "upstreamSha": "9dd4a87080adb41cbd5f81c4e46a512ec65e8ab9",
+    "contentSyncedAt": "2026-10-14T01:01:27.678Z",
+    "statsSyncedAt": "2026-10-14T01:01:27.678Z",
+    "upstreamSha": "274b7206317e4d2cfc9cdbf65377d9b1cd38fcac",
     "counts": {
-      "main": 1671,
+      "main": 1676,
       "game": 137,
       "programmer": 368,
-      "total": 2176
+      "total": 2181
     }
   },
   "main": [
     {
+      "slug": "34a1342aa1dd",
+      "board": "main",
+      "name": "Rulr",
+      "intro": "Mac 可视化自动化工具，无需编程，通过快捷键、定时或应用事件等触发条件，自动执行各种操作和工作流，支持 AI 创建自动化规则",
+      "introMarkdown": "Mac 可视化自动化工具，无需编程，通过快捷键、定时或应用事件等触发条件，自动执行各种操作和工作流，支持 AI 创建自动化规则",
+      "status": "live",
+      "date": "2026-10-14",
+      "url": "https://www.rulr.app/",
+      "author": "fayecat",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/fayecat"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "7d8fb7232ee5",
+      "board": "main",
+      "name": "DiscourseCopilot",
+      "intro": "Discourse 论坛 AI 阅读助手（Chrome 插件），一键总结几百楼的长帖，或让 AI 在全站搜索并给出带楼层引用的答案；自带 OpenAI/Claude/DeepSeek 等 key 或用 Ollama 本地模型，无服务器、无统计，免费开源",
+      "introMarkdown": "Discourse 论坛 AI 阅读助手（Chrome 插件），一键总结几百楼的长帖，或让 AI 在全站搜索并给出带楼层引用的答案；自带 OpenAI/Claude/DeepSeek 等 key 或用 Ollama 本地模型，无服务器、无统计，免费开源 - [源码](https://github.com/kccarlos/DiscourseCopilot)",
+      "status": "live",
+      "date": "2026-10-14",
+      "url": "https://chromewebstore.google.com/detail/discoursecopilot/dpngnaiiofobfjleabbhnfmdflddnhac",
+      "author": "Ken",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kccarlos"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "de02f9e616a7",
+      "board": "main",
+      "name": "像话",
+      "intro": "无需注册，说一句英语就告诉你母语者会怎么说，再带你跟读、逐词对比；英文卡住时说中文也行（iOS / Android，免费）",
+      "introMarkdown": "无需注册，说一句英语就告诉你母语者会怎么说，再带你跟读、逐词对比；英文卡住时说中文也行（iOS / Android，免费）",
+      "status": "live",
+      "date": "2026-10-14",
+      "url": "https://mirrorsay.com",
+      "author": "Hayden",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hayden-xiong"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "a070a9e7d320",
+      "board": "main",
+      "name": "Bulin 47 AI",
+      "intro": "AI freestyle 视频生成器，上传一张正面人物照片，生成红灯餐厅场景下的 15 秒 9:16 竖屏表演视频；内置参考动作，无需编写提示词，可选 Seedance 2.0 / 2.5 与 480p / 720p，下载带原参考音频或无声版 MP4；生成需登录并购买积分，$9.90 起一次性付费，无订阅，失败退回扣除的积分；独立粉丝工具，与 Bulin 47、Kevin Wai 无隶属或背书关系",
+      "introMarkdown": "AI freestyle 视频生成器，上传一张正面人物照片，生成红灯餐厅场景下的 15 秒 9:16 竖屏表演视频；内置参考动作，无需编写提示词，可选 Seedance 2.0 / 2.5 与 480p / 720p，下载带原参考音频或无声版 MP4；生成需登录并购买积分，$9.90 起一次性付费，无订阅，失败退回扣除的积分；独立粉丝工具，与 Bulin 47、Kevin Wai 无隶属或背书关系",
+      "status": "live",
+      "date": "2026-10-14",
+      "url": "https://getbulin47ai.com",
+      "author": "littlePig-zzf",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/littlePig-zzf"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4887e6d745f4",
+      "board": "main",
+      "name": "Vedic Astrology Chart",
+      "intro": "吠陀占星排盘工具，输入出生日期、时间和地点，通过 Swiss Ephemeris 计算星盘，提供行星、宫位、Nakshatra、Dasha 与 D9/Navamsa 信息及中英文 AI 解读；基础排盘和简短 AI 摘要免费，详细报告与 PDF 可选付费",
+      "introMarkdown": "吠陀占星排盘工具，输入出生日期、时间和地点，通过 Swiss Ephemeris 计算星盘，提供行星、宫位、Nakshatra、Dasha 与 D9/Navamsa 信息及中英文 AI 解读；基础排盘和简短 AI 摘要免费，详细报告与 PDF 可选付费",
+      "status": "live",
+      "date": "2026-10-14",
+      "url": "https://vedicastrologychart.net/",
+      "author": "fpy5627",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fpy5627"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "6a70f660ba72",
       "board": "main",
       "name": "一个字的一生",
-      "intro": "输入任意汉字，一页看完它从甲骨文、小篆、繁体到简体的完整演变，附中古音反切与音韵地位、上古音构拟、《说文解字》释义和同声符字族",
-      "introMarkdown": "输入任意汉字，一页看完它从甲骨文、小篆、繁体到简体的完整演变，附中古音反切与音韵地位、上古音构拟、《说文解字》释义和同声符字族 - [更多介绍](https://github.com/Ivan666jjj/yigezi)",
+      "intro": "汉字字形演变查询工具，输入任意字即可看它从甲骨文、小篆、繁体到简体的完整演变，收录 10249 个小篆字形与 1425 个甲骨文，附中古反切、上古音构拟与《说文》释义，免费无需注册",
+      "introMarkdown": "汉字字形演变查询工具，输入任意字即可看它从甲骨文、小篆、繁体到简体的完整演变，收录 10249 个小篆字形与 1425 个甲骨文，附中古反切、上古音构拟与《说文》释义，免费无需注册 - [更多介绍](https://github.com/Ivan666jjj/yigezi)",
       "status": "live",
       "date": "2026-10-13",
       "url": "https://ivan666jjj.github.io/yigezi/",
