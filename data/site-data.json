@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-14T14:56:30.065Z",
-    "statsSyncedAt": "2026-10-14T14:56:30.065Z",
-    "upstreamSha": "05bfea494c73c350f5ab0d2e74af733c48795ddf",
+    "contentSyncedAt": "2026-10-14T20:16:27.119Z",
+    "statsSyncedAt": "2026-10-14T20:16:27.119Z",
+    "upstreamSha": "fa1acd80fa75651cece9e30098e1a40dec45c149",
     "counts": {
-      "main": 1667,
+      "main": 1669,
       "game": 139,
       "programmer": 371,
-      "total": 2177
+      "total": 2179
     }
   },
   "main": [
+    {
+      "slug": "3ec7e078eaff",
+      "board": "main",
+      "name": "GithubStarsManager",
+      "intro": "GitHub 星标管理桌面应用，AI 自动生成摘要与标签，支持语义搜索和版本更新追踪，数据本地保存、打开即用，支持 Windows / macOS / Linux",
+      "introMarkdown": "GitHub 星标管理桌面应用，AI 自动生成摘要与标签，支持语义搜索和版本更新追踪，数据本地保存、打开即用，支持 Windows / macOS / Linux - [源码](https://github.com/AmintaCCCP/GithubStarsManager)",
+      "status": "live",
+      "date": "2026-10-15",
+      "url": "https://gsm.aminta.top",
+      "author": "AmintaCCCP",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/AmintaCCCP"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "ef09d2986a14",
       "board": "main",
@@ -305,7 +324,7 @@
       "comments": 0
     },
     {
-      "slug": "de02f9e616a7",
+      "slug": "72d0477ed321",
       "board": "main",
       "name": "像话",
       "intro": "无需注册，说一句英语就告诉你母语者会怎么说，再带你跟读、逐词对比；英文卡住时说中文也行（iOS / Android，免费）",
@@ -313,13 +332,8 @@
       "status": "live",
       "date": "2026-10-14",
       "url": "https://mirrorsay.com",
-      "author": "Hayden",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/hayden-xiong"
-        }
-      ],
+      "author": "KM1024KKM",
+      "authorLinks": [],
       "likes": 0,
       "comments": 0
     },
@@ -755,6 +769,25 @@
         {
           "label": "Github",
           "url": "https://github.com/31415959"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "1750918e1481",
+      "board": "main",
+      "name": "AI Hairstyle Fit",
+      "intro": "男士 AI 发型预览工具，上传正面照并可选填写偏好，对比新发型与原图，查看日常打理建议并生成理发卡；生成需登录，符合条件且完成验证的新账号可获 10 积分体验一次预览，后续按需购买积分包，无订阅；照片和结果 24 小时后清理",
+      "introMarkdown": "男士 AI 发型预览工具，上传正面照并可选填写偏好，对比新发型与原图，查看日常打理建议并生成理发卡；生成需登录，符合条件且完成验证的新账号可获 10 积分体验一次预览，后续按需购买积分包，无订阅；照片和结果 24 小时后清理",
+      "status": "live",
+      "date": "2026-10-12",
+      "url": "https://aihairstylefit.com/",
+      "author": "AnshengHu",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zgaobai"
         }
       ],
       "likes": 0,
