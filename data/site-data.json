@@ -1,16 +1,92 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-14T23:35:33.865Z",
-    "statsSyncedAt": "2026-10-14T23:35:33.865Z",
-    "upstreamSha": "6bbe92dcedaf7fbd832d10b84e832d1b22f423e3",
+    "contentSyncedAt": "2026-10-15T02:26:30.152Z",
+    "statsSyncedAt": "2026-10-15T02:26:30.152Z",
+    "upstreamSha": "7984cb87cee2e4af5a8fa267b5b9dd820fe0c17a",
     "counts": {
-      "main": 1661,
+      "main": 1665,
       "game": 139,
       "programmer": 371,
-      "total": 2171
+      "total": 2175
     }
   },
   "main": [
+    {
+      "slug": "9282b86bb34c",
+      "board": "main",
+      "name": "TovoType",
+      "intro": "Mac 语音输入 App，转录和润色全部在本机完成、断网也能用，说完自动整理成文，支持自定义词典、口语转列表/文件路径，还能说关键词展开成预存的整段文字",
+      "introMarkdown": "Mac 语音输入 App，转录和润色全部在本机完成、断网也能用，说完自动整理成文，支持自定义词典、口语转列表/文件路径，还能说关键词展开成预存的整段文字",
+      "status": "live",
+      "date": "2026-10-15",
+      "url": "https://type.tovo.dev",
+      "author": "Qiwei",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/qiweiii"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "f6ff13ec7071",
+      "board": "main",
+      "name": "MacGrid",
+      "intro": "Mac 多桌面（Spaces）管理 App，把桌面和全屏应用从一条横排排成二维网格，触控板上下左右四向滑动即可跳转，支持拖拽自定义布局，无需关闭 SIP",
+      "introMarkdown": "Mac 多桌面（Spaces）管理 App，把桌面和全屏应用从一条横排排成二维网格，触控板上下左右四向滑动即可跳转，支持拖拽自定义布局，无需关闭 SIP",
+      "status": "live",
+      "date": "2026-10-15",
+      "url": "https://trymacgrid.com",
+      "author": "Qiwei",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/qiweiii"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "07fd2acef51a",
+      "board": "main",
+      "name": "Xext",
+      "intro": "X 网页增强插件，全程本地运行、无需登录 X 或授权，可隐藏侧边栏和推广内容、调整信息流密度与主题，支持收藏帖子和保存搜索，还能用浏览器内置 AI 直接写推文",
+      "introMarkdown": "X 网页增强插件，全程本地运行、无需登录 X 或授权，可隐藏侧边栏和推广内容、调整信息流密度与主题，支持收藏帖子和保存搜索，还能用浏览器内置 AI 直接写推文",
+      "status": "live",
+      "date": "2026-10-15",
+      "url": "https://chromewebstore.google.com/detail/cgnmmlaajjmbbaeihnlicgpahgjmclhc",
+      "author": "Qiwei",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/qiweiii"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "0aa9336127e9",
+      "board": "main",
+      "name": "Aggressive Memory Saver",
+      "intro": "Chrome 内存优化插件，自动卸载不活跃标签页来释放内存，比 Chrome 自带的内存节省模式更激进、更可控，支持自定义超时和按域名设置规则，并保护固定标签和播放中的标签页",
+      "introMarkdown": "Chrome 内存优化插件，自动卸载不活跃标签页来释放内存，比 Chrome 自带的内存节省模式更激进、更可控，支持自定义超时和按域名设置规则，并保护固定标签和播放中的标签页",
+      "status": "live",
+      "date": "2026-10-15",
+      "url": "https://chromewebstore.google.com/detail/aggressive-memory-saver/domkkegggmkeojhljedmhidkhjfcagab",
+      "author": "Qiwei",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/qiweiii"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "3ec7e078eaff",
       "board": "main",
