@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-15T14:51:30.427Z",
-    "statsSyncedAt": "2026-10-15T14:51:30.427Z",
-    "upstreamSha": "f2b53ffbb1ba47f5631be5cb5ba22d514614b7c3",
+    "contentSyncedAt": "2026-10-15T14:56:27.692Z",
+    "statsSyncedAt": "2026-10-15T14:56:27.692Z",
+    "upstreamSha": "333adf03c2f2b9c34eb96f297e10e5c3ed18b67f",
     "counts": {
       "main": 1656,
-      "game": 139,
-      "programmer": 375,
-      "total": 2170
+      "game": 141,
+      "programmer": 376,
+      "total": 2173
     }
   },
   "main": [
@@ -30518,6 +30518,44 @@
   ],
   "game": [
     {
+      "slug": "fa6f60b79e91",
+      "board": "game",
+      "name": "怀旧游戏合集",
+      "intro": "7 款网页小游戏合集，含 Galaga 风格太空射击，浏览器即开即玩",
+      "introMarkdown": "7 款网页小游戏合集，含 Galaga 风格太空射击，浏览器即开即玩",
+      "status": "live",
+      "date": "2026-10-15",
+      "url": "https://games.qizhen.xyz",
+      "author": "Qizhen Ruan",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ruanqizhen"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "41ba03113040",
+      "board": "game",
+      "name": "Abuja Life Game",
+      "intro": "Abuja Life 非官方攻略与工具站（免费），提供新手指南、游戏地点查询、出租车费用估算和预算计算器，并区分 Abuja Life 与 Lagos Life 里同名城市的两个版本，另附官方游戏入口，无需注册",
+      "introMarkdown": "Abuja Life 非官方攻略与工具站（免费），提供新手指南、游戏地点查询、出租车费用估算和预算计算器，并区分 Abuja Life 与 Lagos Life 里同名城市的两个版本，另附官方游戏入口，无需注册",
+      "status": "live",
+      "date": "2026-10-15",
+      "url": "https://abujalifegame.com/",
+      "author": "Masker99",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Masker99"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "2f64e6715bad",
       "board": "game",
       "name": "KSA 简体中文汉化预览",
@@ -33146,6 +33184,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "f04d041e879b",
+      "board": "programmer",
+      "name": "BBAuto",
+      "intro": "面向联盟营销投放者的品牌词投放管理系统，连接品牌词研究、Google Ads 任务创建、访问换参与多联盟归因报表，支持 Agent/MCP 操作；需在自己的 VPS 部署并配置相关账户，按订阅使用，产品闭源",
+      "introMarkdown": "面向联盟营销投放者的品牌词投放管理系统，连接品牌词研究、Google Ads 任务创建、访问换参与多联盟归因报表，支持 Agent/MCP 操作；需在自己的 VPS 部署并配置相关账户，按订阅使用，产品闭源",
+      "status": "live",
+      "date": "2026-10-15",
+      "url": "https://bbauto.top",
+      "author": "didi_dev",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wd9337812"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "072928a1890c",
       "board": "programmer",
