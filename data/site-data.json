@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-15T05:06:23.110Z",
-    "statsSyncedAt": "2026-10-15T05:06:23.110Z",
-    "upstreamSha": "835615b3787fe38f11f95689a0c14ce614f78076",
+    "contentSyncedAt": "2026-10-15T08:46:31.747Z",
+    "statsSyncedAt": "2026-10-15T08:46:31.747Z",
+    "upstreamSha": "9e752fafd67ebe8c9f73c9076b368781fab442eb",
     "counts": {
-      "main": 1655,
+      "main": 1656,
       "game": 139,
-      "programmer": 373,
-      "total": 2167
+      "programmer": 374,
+      "total": 2169
     }
   },
   "main": [
+    {
+      "slug": "e76be315d3bd",
+      "board": "main",
+      "name": "Lumina",
+      "intro": "本地优先的 AI 伴读器，把长文本按语义切成段落并逐段生成结构化摘要（段标题、要点、待解问题），摘要可溯源回原文，支持 PDF / EPUB / MOBI / AZW3 / DOCX / Markdown 等格式与扫描件本机 OCR，默认走本机 Ollama、也可接云端 API，另带跨书笔记与全局搜索、听文本、古文外语翻译和可选联网问答 — macOS 14+",
+      "introMarkdown": "本地优先的 AI 伴读器，把长文本按语义切成段落并逐段生成结构化摘要（段标题、要点、待解问题），摘要可溯源回原文，支持 PDF / EPUB / MOBI / AZW3 / DOCX / Markdown 等格式与扫描件本机 OCR，默认走本机 Ollama、也可接云端 API，另带跨书笔记与全局搜索、听文本、古文外语翻译和可选联网问答 — macOS 14+",
+      "status": "live",
+      "date": "2026-10-15",
+      "url": "https://github.com/hezhenghui7338/Lumina",
+      "author": "HeZhenghui",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hezhenghui7338"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "098ed9c29bbd",
       "board": "main",
@@ -33127,6 +33146,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "0b9ec196c1f8",
+      "board": "programmer",
+      "name": "SmartCompact",
+      "intro": "让 Claude Code、Codex、pi 的长会话在做完一件事之后提前压缩上下文，60 个任务实测花费降 44%、代码验收不受影响，本地运行，MIT 开源",
+      "introMarkdown": "让 Claude Code、Codex、pi 的长会话在做完一件事之后提前压缩上下文，60 个任务实测花费降 44%、代码验收不受影响，本地运行，MIT 开源",
+      "status": "live",
+      "date": "2026-10-15",
+      "url": "https://github.com/coffeecoproject/SmartCompact",
+      "author": "coffeecoproject",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/coffeecoproject"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "608f5f1944fa",
       "board": "programmer",
