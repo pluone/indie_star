@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-15T08:46:31.747Z",
-    "statsSyncedAt": "2026-10-15T08:46:31.747Z",
-    "upstreamSha": "9e752fafd67ebe8c9f73c9076b368781fab442eb",
+    "contentSyncedAt": "2026-10-15T14:51:30.427Z",
+    "statsSyncedAt": "2026-10-15T14:51:30.427Z",
+    "upstreamSha": "f2b53ffbb1ba47f5631be5cb5ba22d514614b7c3",
     "counts": {
       "main": 1656,
       "game": 139,
-      "programmer": 374,
-      "total": 2169
+      "programmer": 375,
+      "total": 2170
     }
   },
   "main": [
@@ -33146,6 +33146,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "072928a1890c",
+      "board": "programmer",
+      "name": "claude-tuner",
+      "intro": "专为 Claude Code 与 Claude Desktop (macOS) 打造的本地前缀缓存优化与工具精简网关，解决多轮对话缓存击穿（实测 DeepSeek 自动缓存命中率达 95%+）、并发工具顺序错位与 thinking 思考链丢失导致的 400 报错，附原生实时 WebUI 监控看板，零外部依赖，MIT 开源",
+      "introMarkdown": "专为 Claude Code 与 Claude Desktop (macOS) 打造的本地前缀缓存优化与工具精简网关，解决多轮对话缓存击穿（实测 DeepSeek 自动缓存命中率达 95%+）、并发工具顺序错位与 thinking 思考链丢失导致的 400 报错，附原生实时 WebUI 监控看板，零外部依赖，MIT 开源",
+      "status": "live",
+      "date": "2026-10-15",
+      "url": "https://github.com/ls-open/claude-tuner",
+      "author": "ls-open",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ls-open"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "0b9ec196c1f8",
       "board": "programmer",
