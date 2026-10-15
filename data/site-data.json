@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-15T04:56:22.295Z",
-    "statsSyncedAt": "2026-10-15T04:56:22.295Z",
-    "upstreamSha": "096e6f4c2ea8051ff77e5aff75c08f016e6a0d85",
+    "contentSyncedAt": "2026-10-15T05:01:29.241Z",
+    "statsSyncedAt": "2026-10-15T05:01:29.241Z",
+    "upstreamSha": "615151ca38af31410c42554e3745ba73b62d7fa2",
     "counts": {
-      "main": 1665,
+      "main": 1655,
       "game": 139,
       "programmer": 373,
-      "total": 2177
+      "total": 2167
     }
   },
   "main": [
+    {
+      "slug": "098ed9c29bbd",
+      "board": "main",
+      "name": "AIGCNEWS",
+      "intro": "AI 项目与资讯检索站，用自然语言找开源项目、比较 Star 增长，集中浏览论文和 X 中文动态，也能通过 MCP 让 Agent 检索；免费使用，部分功能需登录，MCP 有调用额度",
+      "introMarkdown": "AI 项目与资讯检索站，用自然语言找开源项目、比较 Star 增长，集中浏览论文和 X 中文动态，也能通过 MCP 让 Agent 检索；免费使用，部分功能需登录，MCP 有调用额度 - [源码与使用说明](https://github.com/Kaixxrua/AIGCNEWS)",
+      "status": "live",
+      "date": "2026-10-15",
+      "url": "https://aigcnews.cn/",
+      "author": "桜落",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Kaixxrua"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "8188eececbf4",
+      "board": "main",
+      "name": "书径 EbookNest",
+      "intro": "用中文介绍外文非虚构书，结合原书页面预览和专题导读，按兴趣比较书籍、选择阅读方向",
+      "introMarkdown": "用中文介绍外文非虚构书，结合原书页面预览和专题导读，按兴趣比较书籍、选择阅读方向 - [更多介绍](https://ebooknest.store/about)",
+      "status": "live",
+      "date": "2026-10-15",
+      "url": "https://ebooknest.store/",
+      "author": "BogerHou",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/BogerHou"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "9282b86bb34c",
       "board": "main",
@@ -30439,212 +30477,6 @@
         {
           "label": "博客",
           "url": "https://5ea.org"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f667d74912bc",
-      "board": "main",
-      "name": "enjoy-player",
-      "intro": "视频播放器，支持 Web 网页和 Windows、Mac、Linux 桌面应用。主要用于 CMS 视频采集站资源的在线浏览，实现了 HLS 视频流（m3u8）的在线播放",
-      "introMarkdown": "视频播放器，支持 Web 网页和 Windows、Mac、Linux 桌面应用。主要用于 CMS 视频采集站资源的在线浏览，实现了 HLS 视频流（m3u8）的在线播放",
-      "status": "live",
-      "date": "2024-09-28",
-      "url": "https://github.com/xurenda/enjoy-player",
-      "author": "xurenda",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/xurenda"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "a6e849a3ae8a",
-      "board": "main",
-      "name": "主打“高颜值”、“说人话”的开源许可证选择器",
-      "intro": "通过一系列 通俗易懂 问题帮助用户选择适合自己的开源许可证。网站另外包含 许可证比较器 和 许可证使用情况图表，为用户提供直观且立体的开源许可证信息",
-      "introMarkdown": "通过一系列 通俗易懂 问题帮助用户选择适合自己的开源许可证。网站另外包含 许可证比较器 和 许可证使用情况图表，为用户提供直观且立体的开源许可证信息 - [更多介绍]( https://juejin.cn/post/7418548134593527817)",
-      "status": "live",
-      "date": "2024-09-27",
-      "url": "https://open-source-license-chooser.toolsnav.top",
-      "author": "风巢森淼",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/wincatcher"
-        },
-        {
-          "label": "博客",
-          "url": "https://okjk.co/q4mQVu"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "36b23a9e5b61",
-      "board": "main",
-      "name": "SoColoring",
-      "intro": "AI 驱动的可打印填色稿生成平台，支持文本生成填色稿、AI一键上色等功能，同时还有丰富的免费填色稿图库供用户自由下载，欢迎来这里寻找填色的乐趣",
-      "introMarkdown": "AI 驱动的可打印填色稿生成平台，支持文本生成填色稿、AI一键上色等功能，同时还有丰富的免费填色稿图库供用户自由下载，欢迎来这里寻找填色的乐趣",
-      "status": "live",
-      "date": "2024-09-27",
-      "url": "https://www.socoloring.com",
-      "author": "yuesheng zheng",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "097d69ac22e3",
-      "board": "main",
-      "name": "OkeiAI",
-      "intro": "AI 导航站，内容有 AI 生成。目前免费收录，只需添加我们的 dofollow 反链即可。收录产品不限于 AI 产品",
-      "introMarkdown": "AI 导航站，内容有 AI 生成。目前免费收录，只需添加我们的 dofollow 反链即可。收录产品不限于 AI 产品",
-      "status": "live",
-      "date": "2024-09-26",
-      "url": "https://okeiai.com",
-      "author": "xiaocui723",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "4faa370dad76",
-      "board": "main",
-      "name": "TikTok Voice Generator",
-      "intro": "生成 TikTok 热门配音音效的文本转语音工具",
-      "introMarkdown": "生成 TikTok 热门配音音效的文本转语音工具",
-      "status": "live",
-      "date": "2024-09-26",
-      "url": "https://tiktokvoice.net",
-      "author": "benjamin",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/settings/profile"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "dc5c53438301",
-      "board": "main",
-      "name": "SeeWhatNewAI",
-      "intro": "AI 产品目录、AI 导航站。搜集热门和用户提交的 AI 相关网站产品。从期望用户、发现的问题和解决方案等方面简单分析这些产品，发现合适的 AI 工具",
-      "introMarkdown": "AI 产品目录、AI 导航站。搜集热门和用户提交的 AI 相关网站产品。从期望用户、发现的问题和解决方案等方面简单分析这些产品，发现合适的 AI 工具",
-      "status": "live",
-      "date": "2024-09-25",
-      "url": "https://www.seewhatnewai.com",
-      "author": "Sawana Huang",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b50d4affcf19",
-      "board": "main",
-      "name": "Random Pokemon Generator",
-      "intro": "宝可梦图片生成器，支持从 1400+ 宝可梦角色中随机生成，可自由修改类型、区域和生成数量等。输入你想象中的宝可梦，一键生成，支持 2D 和 3D 风格。",
-      "introMarkdown": "宝可梦图片生成器，支持从 1400+ 宝可梦角色中随机生成，可自由修改类型、区域和生成数量等。输入你想象中的宝可梦，一键生成，支持 2D 和 3D 风格。",
-      "status": "live",
-      "date": "2024-09-24",
-      "url": "https://randompokemongenerator.me",
-      "author": "Ethan Sunray",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "2748ac67beb6",
-      "board": "main",
-      "name": "Tabbiy",
-      "intro": "管理浏览器标签的扩展程序，集成自动分组功能，可根据使用习惯定制分组规则。集成快捷键切换最近使用的标签功能，以及个性化设置。让您在工作和生活中告别标签杂乱，提高效率且改善浏览体验。",
-      "introMarkdown": "管理浏览器标签的扩展程序，集成自动分组功能，可根据使用习惯定制分组规则。集成快捷键切换最近使用的标签功能，以及个性化设置。让您在工作和生活中告别标签杂乱，提高效率且改善浏览体验。",
-      "status": "live",
-      "date": "2024-09-24",
-      "url": "https://tyruslockwood.github.io",
-      "author": "Nebula",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "96fb0c1fac3c",
-      "board": "main",
-      "name": "JSON For You",
-      "intro": "JSON 在线可视化与处理工具。不仅支持常规的 JSON 处理，包括格式化/美化、最小化、校验、比较。还支持用图或表可视化浏览 JSON 数据，支持语义化/结构化比较两个 JSON 数据的差异，支持文本比较非 JSON 文本，支持将 JSON 与 CSV 互转，并且支持在线使用 jq。",
-      "introMarkdown": "JSON 在线可视化与处理工具。不仅支持常规的 JSON 处理，包括格式化/美化、最小化、校验、比较。还支持用图或表可视化浏览 JSON 数据，支持语义化/结构化比较两个 JSON 数据的差异，支持文本比较非 JSON 文本，支持将 JSON 与 CSV 互转，并且支持在线使用 jq。",
-      "status": "live",
-      "date": "2024-09-23",
-      "url": "https://json4u.cn",
-      "author": "loggerhead",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/loggerhead"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "3e53735702b2",
-      "board": "main",
-      "name": "Compress JPG",
-      "intro": "免费图片压缩工具，支持压缩 JPG、JPEG、PNG、WebP、GIF、AVIF、JXL 和 QOI 格式的图片，无需注册或登录。压缩过程在浏览器端完成，最多可同时处理多达 1000 个图片文件。文件永远不会离开您的设备，确保完全的隐私。可将压缩结果下载为 ZIP 压缩包。",
-      "introMarkdown": "免费图片压缩工具，支持压缩 JPG、JPEG、PNG、WebP、GIF、AVIF、JXL 和 QOI 格式的图片，无需注册或登录。压缩过程在浏览器端完成，最多可同时处理多达 1000 个图片文件。文件永远不会离开您的设备，确保完全的隐私。可将压缩结果下载为 ZIP 压缩包。",
-      "status": "live",
-      "date": "2024-09-22",
-      "url": "https://compressjpg.io",
-      "author": "Ethan Sunray",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "bb88da3f8597",
-      "board": "main",
-      "name": "SenGen - AI句子生成器",
-      "intro": "根据您的输入主题生成句子。无论您是作家、学生，还是单纯喜欢玩转语言的人，我们的工具都能提供快速高效的写作增强方式。",
-      "introMarkdown": "根据您的输入主题生成句子。无论您是作家、学生，还是单纯喜欢玩转语言的人，我们的工具都能提供快速高效的写作增强方式。",
-      "status": "live",
-      "date": "2024-09-21",
-      "url": "https://aisengen.com",
-      "author": "ConstantLove",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ConstantLove"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "273ba891e306",
-      "board": "main",
-      "name": "MiKaPo",
-      "intro": "AI 在线动捕控制 MMD 纸片人模型",
-      "introMarkdown": "AI 在线动捕控制 MMD 纸片人模型 - [更多介绍](https://github.com/AmyangXYZ/MiKaPo)",
-      "status": "live",
-      "date": "2024-09-21",
-      "url": "https://mikapo.amyang.dev",
-      "author": "Amyang",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/AmyangXYZ"
-        },
-        {
-          "label": "博客",
-          "url": "https://amyang.dev"
         }
       ],
       "likes": 0,
