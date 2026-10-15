@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-15T02:26:30.152Z",
-    "statsSyncedAt": "2026-10-15T02:26:30.152Z",
-    "upstreamSha": "7984cb87cee2e4af5a8fa267b5b9dd820fe0c17a",
+    "contentSyncedAt": "2026-10-15T04:41:30.071Z",
+    "statsSyncedAt": "2026-10-15T04:41:30.071Z",
+    "upstreamSha": "bd527f149182606495960421fd8a7e3bc1fa9568",
     "counts": {
       "main": 1665,
       "game": 139,
-      "programmer": 371,
-      "total": 2175
+      "programmer": 373,
+      "total": 2177
     }
   },
   "main": [
@@ -33295,6 +33295,44 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "608f5f1944fa",
+      "board": "programmer",
+      "name": "Tikway",
+      "intro": "面向开发者的多模型 AI API 接入服务，用统一 API Key 按 OpenAI、Anthropic、Gemini 协议配置请求地址，提供模型价格目录、中英文接入与排错教程和 Token 费用计算器，按使用量计费；第三方接入服务，非模型厂商官方",
+      "introMarkdown": "面向开发者的多模型 AI API 接入服务，用统一 API Key 按 OpenAI、Anthropic、Gemini 协议配置请求地址，提供模型价格目录、中英文接入与排错教程和 Token 费用计算器，按使用量计费；第三方接入服务，非模型厂商官方 - [接入教程](https://tikway.ai/guides)",
+      "status": "live",
+      "date": "2026-10-15",
+      "url": "https://tikway.ai/",
+      "author": "time410",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lintt76"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "714bc6e32125",
+      "board": "programmer",
+      "name": "Tikway API Examples",
+      "intro": "Python 标准库调用与 Node.js SSE 流式示例，处理中文跨分块、CRLF、多行 data、流内错误和提前断流，附离线 Token 费用估算工具，无第三方依赖，MIT 开源；真实模型调用按服务价格计费",
+      "introMarkdown": "Python 标准库调用与 Node.js SSE 流式示例，处理中文跨分块、CRLF、多行 data、流内错误和提前断流，附离线 Token 费用估算工具，无第三方依赖，MIT 开源；真实模型调用按服务价格计费",
+      "status": "live",
+      "date": "2026-10-15",
+      "url": "https://github.com/lintt76/tikway-examples",
+      "author": "time410",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lintt76"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "22649a5673eb",
       "board": "programmer",
