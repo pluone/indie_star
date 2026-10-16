@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-16T02:21:31.379Z",
-    "statsSyncedAt": "2026-10-16T02:21:31.379Z",
-    "upstreamSha": "cbac0091354d9c6b038ab9085890e2f1d01d6f24",
+    "contentSyncedAt": "2026-10-16T02:26:25.462Z",
+    "statsSyncedAt": "2026-10-16T02:26:25.462Z",
+    "upstreamSha": "627fd8c16f08128231fc9fab9b641bb13553e227",
     "counts": {
-      "main": 1657,
-      "game": 141,
+      "main": 1658,
+      "game": 142,
       "programmer": 377,
-      "total": 2175
+      "total": 2177
     }
   },
   "main": [
+    {
+      "slug": "7c2efb21bc1a",
+      "board": "main",
+      "name": "WeChat to Markdown",
+      "intro": "把微信公众号文章一键保存为本地 Markdown，浏览器内处理、不上传正文，可导入 Obsidian / 思源 / Typora；Freemium — Chrome 扩展",
+      "introMarkdown": "把微信公众号文章一键保存为本地 Markdown，浏览器内处理、不上传正文，可导入 Obsidian / 思源 / Typora；Freemium — Chrome 扩展 - [更多介绍](https://github.com/wangshan9870/wechat-to-markdown)",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://wx2md.com/",
+      "author": "望山",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wangshan9870"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b6fa40377e59",
+      "board": "main",
+      "name": "LightRead 轻阅",
+      "intro": "开源电子书与论文阅读器，支持 EPUB / MOBI / PDF、本地书库、批注与听书，本地阅读无需注册或联网，提供 macOS / Windows / Linux 安装包",
+      "introMarkdown": "开源电子书与论文阅读器，支持 EPUB / MOBI / PDF、本地书库、批注与听书，本地阅读无需注册或联网，提供 macOS / Windows / Linux 安装包 - [源码与使用说明](https://github.com/yzfly/LightRead)",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://github.com/yzfly/LightRead/releases/latest",
+      "author": "yzfly",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yzfly"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "2dabd297117f",
       "board": "main",
@@ -253,25 +291,6 @@
         {
           "label": "Github",
           "url": "https://github.com/wdhzw"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b6fa40377e59",
-      "board": "main",
-      "name": "LightRead 轻阅",
-      "intro": "开源电子书与论文阅读器，支持 EPUB / MOBI / PDF、本地书库、批注与听书，本地阅读无需注册或联网，提供 macOS / Windows / Linux 安装包",
-      "introMarkdown": "开源电子书与论文阅读器，支持 EPUB / MOBI / PDF、本地书库、批注与听书，本地阅读无需注册或联网，提供 macOS / Windows / Linux 安装包 - [源码与使用说明](https://github.com/yzfly/LightRead)",
-      "status": "live",
-      "date": "2026-10-15",
-      "url": "https://github.com/yzfly/LightRead/releases/latest",
-      "author": "yzfly",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/yzfly"
         }
       ],
       "likes": 0,
@@ -30549,6 +30568,25 @@
     }
   ],
   "game": [
+    {
+      "slug": "83ffb12b0368",
+      "board": "game",
+      "name": "AI Browser Games",
+      "intro": "浏览器游戏发现目录，整理 100 款第三方游戏，支持按操作方式、节奏和人数筛选，其中 4 款附有创作者来源支持的 AI 辅助制作标注",
+      "introMarkdown": "浏览器游戏发现目录，整理 100 款第三方游戏，支持按操作方式、节奏和人数筛选，其中 4 款附有创作者来源支持的 AI 辅助制作标注 - [更多介绍](https://aibrowsergames.net/about/)",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://aibrowsergames.net/",
+      "author": "BogerHou",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/BogerHou"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "fa6f60b79e91",
       "board": "game",
