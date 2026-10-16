@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-16T02:26:25.462Z",
-    "statsSyncedAt": "2026-10-16T02:26:25.462Z",
-    "upstreamSha": "627fd8c16f08128231fc9fab9b641bb13553e227",
+    "contentSyncedAt": "2026-10-16T08:07:17.690Z",
+    "statsSyncedAt": "2026-10-16T08:07:17.690Z",
+    "upstreamSha": "d591d760400610881c23ac21f97e1c6813ce1acf",
     "counts": {
       "main": 1658,
       "game": 142,
@@ -12,38 +12,19 @@
   },
   "main": [
     {
-      "slug": "7c2efb21bc1a",
+      "slug": "065d418df469",
       "board": "main",
-      "name": "WeChat to Markdown",
-      "intro": "把微信公众号文章一键保存为本地 Markdown，浏览器内处理、不上传正文，可导入 Obsidian / 思源 / Typora；Freemium — Chrome 扩展",
-      "introMarkdown": "把微信公众号文章一键保存为本地 Markdown，浏览器内处理、不上传正文，可导入 Obsidian / 思源 / Typora；Freemium — Chrome 扩展 - [更多介绍](https://github.com/wangshan9870/wechat-to-markdown)",
+      "name": "Anatomy Skill",
+      "intro": "输入一段技术概念描述，生成用等距机械动画讲解其原理的 MP4 视频与可交互 HTML 图，无需安装",
+      "introMarkdown": "输入一段技术概念描述，生成用等距机械动画讲解其原理的 MP4 视频与可交互 HTML 图，无需安装",
       "status": "live",
       "date": "2026-10-16",
-      "url": "https://wx2md.com/",
-      "author": "望山",
+      "url": "https://anatomyskill.org",
+      "author": "weidacn",
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/wangshan9870"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b6fa40377e59",
-      "board": "main",
-      "name": "LightRead 轻阅",
-      "intro": "开源电子书与论文阅读器，支持 EPUB / MOBI / PDF、本地书库、批注与听书，本地阅读无需注册或联网，提供 macOS / Windows / Linux 安装包",
-      "introMarkdown": "开源电子书与论文阅读器，支持 EPUB / MOBI / PDF、本地书库、批注与听书，本地阅读无需注册或联网，提供 macOS / Windows / Linux 安装包 - [源码与使用说明](https://github.com/yzfly/LightRead)",
-      "status": "live",
-      "date": "2026-10-16",
-      "url": "https://github.com/yzfly/LightRead/releases/latest",
-      "author": "yzfly",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/yzfly"
+          "url": "https://github.com/weidacn"
         }
       ],
       "likes": 0,
@@ -272,6 +253,257 @@
         {
           "label": "Github",
           "url": "https://github.com/weidacn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "f6f06e6aa530",
+      "board": "main",
+      "name": "Hotel Lobby AI",
+      "intro": "双人照片视频生成工具，将两张人像照片生成橙色演播室表演视频，支持左右人物位置、可选动作提示、画质选择及 MP4 预览下载；生成需登录并购买积分",
+      "introMarkdown": "双人照片视频生成工具，将两张人像照片生成橙色演播室表演视频，支持左右人物位置、可选动作提示、画质选择及 MP4 预览下载；生成需登录并购买积分",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://aihotellobby.dev",
+      "author": "fpy5627",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fpy5627"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "2690b02a83ee",
+      "board": "main",
+      "name": "Lucer AI Video",
+      "intro": "面向创作者的 AI 图像与视频平台，支持文生图、图生图，Michael Jackson、Raindance、Hotel Lobby 等热门视频特效，以及去水印、画质增强、滤镜修复；无需订阅，按积分按次计费，生成失败自动退还",
+      "introMarkdown": "面向创作者的 AI 图像与视频平台，支持文生图、图生图，Michael Jackson、Raindance、Hotel Lobby 等热门视频特效，以及去水印、画质增强、滤镜修复；无需订阅，按积分按次计费，生成失败自动退还",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://lucer.art",
+      "author": "Vincent",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Vincent-LuoFeng"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b29471315196",
+      "board": "main",
+      "name": "Screenshot Editor",
+      "intro": "截图文字编辑工具（免费），本地 OCR 识别文字后擦除或替换，全程在浏览器完成，不上传、不加水印，适合清理截图、海报和商品图",
+      "introMarkdown": "截图文字编辑工具（免费），本地 OCR 识别文字后擦除或替换，全程在浏览器完成，不上传、不加水印，适合清理截图、海报和商品图",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://screenshoteditor.net/",
+      "author": "Vincent",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Vincent-LuoFeng"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "286b814075de",
+      "board": "main",
+      "name": "Personalized Gift",
+      "intro": "生日、纪念日、圣诞等场合，几分钟做出带对方名字的专属歌曲，再通过专属页面送给对方",
+      "introMarkdown": "生日、纪念日、圣诞等场合，几分钟做出带对方名字的专属歌曲，再通过专属页面送给对方",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://personalizedgift.art",
+      "author": "Vincent",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Vincent-LuoFeng"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "205f1e65d816",
+      "board": "main",
+      "name": "Growing Up Video Maker",
+      "intro": "上传从婴儿到现在的照片，生成有故事感转场、可配自己音乐的 AI 成长视频，最长支持 2 分钟",
+      "introMarkdown": "上传从婴儿到现在的照片，生成有故事感转场、可配自己音乐的 AI 成长视频，最长支持 2 分钟",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://growingupvideoai.com",
+      "author": "Vincent",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Vincent-LuoFeng"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d46ebc6d2ee1",
+      "board": "main",
+      "name": "Quick Get Well",
+      "intro": "英文康复慰问措辞筛选工具，按关系、场景、语气和格式挑选可修改的例句，当前免费且无需注册，附教师纸卡 PDF 和职场关怀措辞练习",
+      "introMarkdown": "英文康复慰问措辞筛选工具，按关系、场景、语气和格式挑选可修改的例句，当前免费且无需注册，附教师纸卡 PDF 和职场关怀措辞练习",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://quickgetwell.com/",
+      "author": "BogerHou",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/BogerHou"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "13b1c2021b46",
+      "board": "main",
+      "name": "Chinese Gender Predictor",
+      "intro": "英文民俗娱乐网站，将公历生日和受孕日期换算为农历年龄与月份后查询传统性别表，另有独立虚岁计算器及免费 A4 / US Letter 派对游戏 PDF；无需注册，日期在浏览器内处理，不能用于医学判断",
+      "introMarkdown": "英文民俗娱乐网站，将公历生日和受孕日期换算为农历年龄与月份后查询传统性别表，另有独立虚岁计算器及免费 A4 / US Letter 派对游戏 PDF；无需注册，日期在浏览器内处理，不能用于医学判断 - [计算方法与来源](https://chinesegenderpredictor.net/how-it-works/)",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://chinesegenderpredictor.net/",
+      "author": "BogerHou",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/BogerHou"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "ece056a705db",
+      "board": "main",
+      "name": "GemiAi",
+      "intro": "AI 对话与绘图工作台，可写作、理解文档和图片、根据描述生成或修改图片，也能创建网页；支持网页、微信小程序「AI聊天工具箱」、Android 与 iOS，使用积分及会员计费",
+      "introMarkdown": "AI 对话与绘图工作台，可写作、理解文档和图片、根据描述生成或修改图片，也能创建网页；支持网页、微信小程序「AI聊天工具箱」、Android 与 iOS，使用积分及会员计费 - [多端入口](https://gemiai.cn/download)",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://gemiai.cn/",
+      "author": "16871233",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/16871233"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "9432aa53f462",
+      "board": "main",
+      "name": "Smalltown Boy AI",
+      "intro": "AI 双人舞蹈视频生成工具，上传两张单人照片或一张双人合照（人物、宠物均可），无需写提示词，生成 21 秒 720p 9:16 竖屏视频；生成需登录并购买积分",
+      "introMarkdown": "AI 双人舞蹈视频生成工具，上传两张单人照片或一张双人合照（人物、宠物均可），无需写提示词，生成 21 秒 720p 9:16 竖屏视频；生成需登录并购买积分",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://smalltownboyai.app/",
+      "author": "airobushotpot",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/airobushotpot"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "9da48a30d7dd",
+      "board": "main",
+      "name": "知迹",
+      "intro": "多模型 AI 对话与个人知识图谱，同一段对话可切换模型并延续已有上下文，回答支持多种音色朗读；每次对话后，自动整理摘要、标签与主题关联，方便搜索和查看个人的知识图谱 — Web 应用",
+      "introMarkdown": "多模型 AI 对话与个人知识图谱，同一段对话可切换模型并延续已有上下文，回答支持多种音色朗读；每次对话后，自动整理摘要、标签与主题关联，方便搜索和查看个人的知识图谱 — Web 应用 - [更多介绍](https://zhiji.aizeten.me/press-kit)",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://zhiji.aizeten.me",
+      "author": "my19940202",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/my19940202"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "ea30e6787330",
+      "board": "main",
+      "name": "Indie Radar",
+      "intro": "出海与独立开发 90% 降噪情报站，盯紧一手海外创客源，本地 pgvector 向量去重 + 5 轴打分，每天精选 2~4 条高价值工具与真实变现案例，全自用无广告；提供 Telegram 点滴广播与 GitHub 每日 Markdown 归档",
+      "introMarkdown": "出海与独立开发 90% 降噪情报站，盯紧一手海外创客源，本地 pgvector 向量去重 + 5 轴打分，每天精选 2~4 条高价值工具与真实变现案例，全自用无广告；提供 Telegram 点滴广播与 GitHub 每日 Markdown 归档 - [源码与每日归档](https://github.com/louis-cai/daily-indie-radar)",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://radar.everythingisok.top/",
+      "author": "louis-cai",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/louis-cai"
+        },
+        {
+          "label": "博客",
+          "url": "https://louis-cai.github.io"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "7c2efb21bc1a",
+      "board": "main",
+      "name": "WeChat to Markdown",
+      "intro": "把微信公众号文章一键保存为本地 Markdown，浏览器内处理、不上传正文，可导入 Obsidian / 思源 / Typora；Freemium — Chrome 扩展",
+      "introMarkdown": "把微信公众号文章一键保存为本地 Markdown，浏览器内处理、不上传正文，可导入 Obsidian / 思源 / Typora；Freemium — Chrome 扩展 - [更多介绍](https://github.com/wangshan9870/wechat-to-markdown)",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://wx2md.com/",
+      "author": "望山",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wangshan9870"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b6fa40377e59",
+      "board": "main",
+      "name": "LightRead 轻阅",
+      "intro": "开源电子书与论文阅读器，支持 EPUB / MOBI / PDF、本地书库、批注与听书，本地阅读无需注册或联网，提供 macOS / Windows / Linux 安装包",
+      "introMarkdown": "开源电子书与论文阅读器，支持 EPUB / MOBI / PDF、本地书库、批注与听书，本地阅读无需注册或联网，提供 macOS / Windows / Linux 安装包 - [源码与使用说明](https://github.com/yzfly/LightRead)",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://github.com/yzfly/LightRead/releases/latest",
+      "author": "yzfly",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yzfly"
         }
       ],
       "likes": 0,
@@ -30346,221 +30578,6 @@
         {
           "label": "Github",
           "url": "https://github.com/MuYiBo"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f59e61ea2bd2",
-      "board": "main",
-      "name": "Image to excel",
-      "intro": "识别图片中的表格并转成可编辑的 Excel 文档",
-      "introMarkdown": "识别图片中的表格并转成可编辑的 Excel 文档",
-      "status": "live",
-      "date": "2024-10-20",
-      "url": "https://itexcel.izhiyakeji.com/zh-Hans/",
-      "author": "zhiya",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "a6ecce15aaae",
-      "board": "main",
-      "name": "Notion Exporter",
-      "intro": "将 Notion 内容转成卡片，方便在社交媒体分享",
-      "introMarkdown": "将 Notion 内容转成卡片，方便在社交媒体分享 - [更多介绍](https://notionexporter.com/zh-hans/post/zh-hans-notion-to-redbook)",
-      "status": "live",
-      "date": "2024-10-19",
-      "url": "https://notionexporter.com/",
-      "author": "Shanshi",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Shanshi66"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "5783a1e28a30",
-      "board": "main",
-      "name": "扇贝单词助手V3",
-      "intro": "专为扇贝网用户打造的 Chrome 插件，帮助您在任何网页上轻松高效地学习英语",
-      "introMarkdown": "专为扇贝网用户打造的 Chrome 插件，帮助您在任何网页上轻松高效地学习英语 - [Github](https://github.com/honwhy/shanbay-ext)",
-      "status": "live",
-      "date": "2024-10-18",
-      "url": "https://shanbay.pages.dev",
-      "author": "Honwhy Wang",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/honwhy"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "482a57e44563",
-      "board": "main",
-      "name": "Inpodcast AI",
-      "intro": "将文档转成播客音频，支持 PDF、Word、Markdown 和 TXT 文件格式",
-      "introMarkdown": "将文档转成播客音频，支持 PDF、Word、Markdown 和 TXT 文件格式",
-      "status": "live",
-      "date": "2024-10-18",
-      "url": "https://inpodcast.ai",
-      "author": "Ethan Sunray",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d504e69341cc",
-      "board": "main",
-      "name": "MvpFast",
-      "intro": "帮助独立开发者快速构建 MVP 的开发模板，包含文字+视频教程，从0到1构建网站应用",
-      "introMarkdown": "帮助独立开发者快速构建 MVP 的开发模板，包含文字+视频教程，从0到1构建网站应用",
-      "status": "live",
-      "date": "2024-10-18",
-      "url": "https://www.mvpfast.top",
-      "author": "Kajian",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d496cadc43b0",
-      "board": "main",
-      "name": "网页微信书评插件",
-      "intro": "微信读书网页版本显示评论的插件，解答阅读中的困惑，了解他人的见解，不做一个孤独的阅读者",
-      "introMarkdown": "微信读书网页版本显示评论的插件，解答阅读中的困惑，了解他人的见解，不做一个孤独的阅读者",
-      "status": "live",
-      "date": "2024-10-17",
-      "url": "https://chromewebstore.google.com/detail/%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6/kfjimgaoegibikoojcbnkbffkongnoep",
-      "author": "xibobo",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": " https://github.com/my19940202"
-        },
-        {
-          "label": "X(Twitter)",
-          "url": "https://x.com/xishengbo"
-        },
-        {
-          "label": "即刻",
-          "url": "https://web.okjike.com/u/4930384A-ABE5-4856-BB23-E4A9DC2BE526"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "cd6f8b1ed1d5",
-      "board": "main",
-      "name": "图片分割器",
-      "intro": "创建 Instagram 拼图效果以及微信九宫格效果以及有图片分割需求的场景。支持批量分割",
-      "introMarkdown": "创建 Instagram 拼图效果以及微信九宫格效果以及有图片分割需求的场景。支持批量分割",
-      "status": "live",
-      "date": "2024-10-16",
-      "url": "https://imagesplitter.vip/zh",
-      "author": "xingstarx",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/xingstarx"
-        },
-        {
-          "label": "博客",
-          "url": "https://www.xingstarx.top"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "7bf0e46720e9",
-      "board": "main",
-      "name": "Abgerny",
-      "intro": "Abgerny 是粉丝自制模组，拥有超现实节奏、古怪角色和无限的创意创作可能性。",
-      "introMarkdown": "Abgerny 是粉丝自制模组，拥有超现实节奏、古怪角色和无限的创意创作可能性。",
-      "status": "live",
-      "date": "2024-10-16",
-      "url": "https://abgerny.net",
-      "author": "xiaocui723",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "53dcbee0ca0c",
-      "board": "main",
-      "name": "Text Search Pro",
-      "intro": "文本搜索 Chrome 插件，支持网页中进行大小写敏感和整词的文本搜索",
-      "introMarkdown": "文本搜索 Chrome 插件，支持网页中进行大小写敏感和整词的文本搜索",
-      "status": "live",
-      "date": "2024-10-15",
-      "url": "https://chromewebstore.google.com/detail/lfknakglefggmdkjdfhhofkjnnolffkh",
-      "author": "qiweiii",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/qiweiii"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "7af9be6f9499",
-      "board": "main",
-      "name": "Biofy",
-      "intro": "定制你的个人主页，聚合你的社交信息，展示你的个人作品",
-      "introMarkdown": "定制你的个人主页，聚合你的社交信息，展示你的个人作品 - [示例主页](https://biofy.cn/wangjiegulu)",
-      "status": "live",
-      "date": "2024-10-15",
-      "url": "https://Biofy.cn",
-      "author": "咕噜不爱猫",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/wangjiegulu"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "8a41241d862e",
-      "board": "main",
-      "name": "Ranking Tabs",
-      "intro": "浏览网站次数排行榜 Chrome 插件",
-      "introMarkdown": "浏览网站次数排行榜 Chrome 插件",
-      "status": "live",
-      "date": "2024-10-14",
-      "url": "https://chromewebstore.google.com/detail/ranking-tabs/nfnfblfhnipebcbicjapboccdabdimfa",
-      "author": "biboom",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1172a5b2d88f",
-      "board": "main",
-      "name": "AI 形象照",
-      "intro": "1 张照片轻松制作您的 AI 简历形象照，支持电脑摄像头拍摄 - 基于开源AI换脸系统搭建",
-      "introMarkdown": "1 张照片轻松制作您的 AI 简历形象照，支持电脑摄像头拍摄 - 基于[开源AI换脸系统](https://github.com/loxi-opensource/luna-swapping)搭建",
-      "status": "live",
-      "date": "2024-10-13",
-      "url": "https://luna-headshot.sodair.top/",
-      "author": "阿凯呵",
-      "authorLinks": [
-        {
-          "label": "博客",
-          "url": " https://www.sodair.top"
         }
       ],
       "likes": 0,
