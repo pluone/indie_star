@@ -1,16 +1,92 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-16T08:07:17.690Z",
-    "statsSyncedAt": "2026-10-16T08:07:17.690Z",
-    "upstreamSha": "d591d760400610881c23ac21f97e1c6813ce1acf",
+    "contentSyncedAt": "2026-10-16T10:51:25.374Z",
+    "statsSyncedAt": "2026-10-16T10:51:25.374Z",
+    "upstreamSha": "e6e9d41615efe2bfd58d2a2caa9825fdf901e94d",
     "counts": {
-      "main": 1658,
+      "main": 1662,
       "game": 142,
-      "programmer": 377,
-      "total": 2177
+      "programmer": 378,
+      "total": 2182
     }
   },
   "main": [
+    {
+      "slug": "8a208b6f7a4c",
+      "board": "main",
+      "name": "NanoBrowser",
+      "intro": "轻量桌面浏览器，复用系统已装的 WebView2 引擎，图形界面与无头两个可执行文件都在 4.5 MB 左右，另附一个可通过 MCP 让 AI 工具驱动的无头自动化浏览器；目前提供 Windows 安装包",
+      "introMarkdown": "轻量桌面浏览器，复用系统已装的 WebView2 引擎，图形界面与无头两个可执行文件都在 4.5 MB 左右，另附一个可通过 MCP 让 AI 工具驱动的无头自动化浏览器；目前提供 Windows 安装包",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://github.com/zhoujungis/NanoBrowser",
+      "author": "zhoujungis",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhoujungis"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "444692c297e9",
+      "board": "main",
+      "name": "SkillHey",
+      "intro": "AI Agent 技能市场，按网页与界面、图片、演示文稿、视频、文档等分类浏览，每个技能可先看作品预览与说明再下载安装到已有的 Claude Code、Codex、Cursor 等 Agent，支持中文界面",
+      "introMarkdown": "AI Agent 技能市场，按网页与界面、图片、演示文稿、视频、文档等分类浏览，每个技能可先看作品预览与说明再下载安装到已有的 Claude Code、Codex、Cursor 等 Agent，支持中文界面",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://skillhey.com/",
+      "author": "jyjyxt",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jyjyxt"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "7e7a02c3e298",
+      "board": "main",
+      "name": "DisplayPilot",
+      "intro": "macOS 外接显示器控制台，用 DDC/CI 直接调亮度、音量与输入源；面板不响应 DDC/CI 时自动改用伽马表调光，另含以面板原始曲线为基准的色彩校准，以及先隔离再删除的开发者缓存清理",
+      "introMarkdown": "macOS 外接显示器控制台，用 DDC/CI 直接调亮度、音量与输入源；面板不响应 DDC/CI 时自动改用伽马表调光，另含以面板原始曲线为基准的色彩校准，以及先隔离再删除的开发者缓存清理",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://huayanming.github.io/displaypilot/zh-Hans/?src=1c7",
+      "author": "huayanming",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/huayanming"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "10a4e1b93a4a",
+      "board": "main",
+      "name": "Glim",
+      "intro": "免费开源的 Mac 多格式文件查看器，在同一工作区查看 Markdown 图表与公式、PDF、图片、JSON、CSV 和源代码，支持 Apple Silicon 与 Intel",
+      "introMarkdown": "免费开源的 Mac 多格式文件查看器，在同一工作区查看 Markdown 图表与公式、PDF、图片、JSON、CSV 和源代码，支持 Apple Silicon 与 Intel - [下载试用](https://github.com/NeoPanic/Glim/releases/latest)",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://github.com/NeoPanic/Glim",
+      "author": "NeoPanic",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/NeoPanic"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "065d418df469",
       "board": "main",
@@ -33271,6 +33347,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "769095fd4456",
+      "board": "programmer",
+      "name": "Codex Token Bar",
+      "intro": "macOS 原生 Codex 用量监控工具，在菜单栏查看剩余额度、重置时间、会话 Token、缓存复用与上下文占用，支持跟随 Codex 桌面宠物移动的额度浮标；本地运行，无需额外 API Key，目前需从源码构建",
+      "introMarkdown": "macOS 原生 Codex 用量监控工具，在菜单栏查看剩余额度、重置时间、会话 Token、缓存复用与上下文占用，支持跟随 Codex 桌面宠物移动的额度浮标；本地运行，无需额外 API Key，目前需从源码构建",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://github.com/CaseyCACA/codex-token-bar",
+      "author": "CaseyCACA",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/CaseyCACA"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "7f0ef457e2c6",
       "board": "programmer",
