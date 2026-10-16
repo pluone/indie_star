@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-15T23:30:10.516Z",
-    "statsSyncedAt": "2026-10-15T23:30:10.516Z",
-    "upstreamSha": "ba5c072e532d2fb43f403e90ae887d6c9b89aea7",
+    "contentSyncedAt": "2026-10-16T02:21:31.379Z",
+    "statsSyncedAt": "2026-10-16T02:21:31.379Z",
+    "upstreamSha": "cbac0091354d9c6b038ab9085890e2f1d01d6f24",
     "counts": {
-      "main": 1656,
+      "main": 1657,
       "game": 141,
-      "programmer": 376,
-      "total": 2173
+      "programmer": 377,
+      "total": 2175
     }
   },
   "main": [
@@ -253,6 +253,25 @@
         {
           "label": "Github",
           "url": "https://github.com/wdhzw"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b6fa40377e59",
+      "board": "main",
+      "name": "LightRead 轻阅",
+      "intro": "开源电子书与论文阅读器，支持 EPUB / MOBI / PDF、本地书库、批注与听书，本地阅读无需注册或联网，提供 macOS / Windows / Linux 安装包",
+      "introMarkdown": "开源电子书与论文阅读器，支持 EPUB / MOBI / PDF、本地书库、批注与听书，本地阅读无需注册或联网，提供 macOS / Windows / Linux 安装包 - [源码与使用说明](https://github.com/yzfly/LightRead)",
+      "status": "live",
+      "date": "2026-10-15",
+      "url": "https://github.com/yzfly/LightRead/releases/latest",
+      "author": "yzfly",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yzfly"
         }
       ],
       "likes": 0,
@@ -33197,6 +33216,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "7f0ef457e2c6",
+      "board": "programmer",
+      "name": "Nebutra Sailor",
+      "intro": "源码公开的 SaaS 底座，npx create-sailor@latest my-app 一条命令生成 Next.js + Hono 网关、Better Auth 登录、Creem 与微信/支付宝收款、生成式 Postgres RLS 多租户的完整项目，空 .env 本地即可跑通，带 AGENTS.md 和 lint 护栏方便 Claude Code / Codex 接手；生成的项目为 MIT，主仓库 FSL-1.1-ALv2（两年后转 Apache-2.0）",
+      "introMarkdown": "源码公开的 SaaS 底座，`npx create-sailor@latest my-app` 一条命令生成 Next.js + Hono 网关、Better Auth 登录、Creem 与微信/支付宝收款、生成式 Postgres RLS 多租户的完整项目，空 .env 本地即可跑通，带 AGENTS.md 和 lint 护栏方便 Claude Code / Codex 接手；生成的项目为 MIT，主仓库 FSL-1.1-ALv2（两年后转 Apache-2.0） - [更多介绍](https://nebutra.com/sailor)",
+      "status": "live",
+      "date": "2026-10-16",
+      "url": "https://github.com/Nebutra/Nebutra-Sailor",
+      "author": "Tseka Luk",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/TsekaLuk"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "f04d041e879b",
       "board": "programmer",
