@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-17T01:26:50.273Z",
-    "statsSyncedAt": "2026-10-17T01:26:50.273Z",
-    "upstreamSha": "95753b31544ad6ed042a1f6d69a3bb5a00c2e99a",
+    "contentSyncedAt": "2026-10-17T07:11:25.865Z",
+    "statsSyncedAt": "2026-10-17T07:11:25.865Z",
+    "upstreamSha": "9ab921c2900626647b83323a068323a52bc45ca7",
     "counts": {
-      "main": 1662,
+      "main": 1663,
       "game": 142,
       "programmer": 378,
-      "total": 2182
+      "total": 2183
     }
   },
   "main": [
+    {
+      "slug": "0041bd2cb5f4",
+      "board": "main",
+      "name": "LayoutKeeper",
+      "intro": "Mac 外接屏窗口布局恢复工具，拔掉显示器再插回，窗口自动回到原来的位置和桌面（Space），家里公司换着接不同的显示器也行；还能用键盘亮度键直接调外接屏亮度，免费开源",
+      "introMarkdown": "Mac 外接屏窗口布局恢复工具，拔掉显示器再插回，窗口自动回到原来的位置和桌面（Space），家里公司换着接不同的显示器也行；还能用键盘亮度键直接调外接屏亮度，免费开源 - [下载](https://github.com/tumingke0/LayoutKeeper/releases/latest)",
+      "status": "live",
+      "date": "2026-10-17",
+      "url": "https://github.com/tumingke0/LayoutKeeper",
+      "author": "tumingke0",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tumingke0"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "8a208b6f7a4c",
       "board": "main",
