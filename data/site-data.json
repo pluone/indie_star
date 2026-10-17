@@ -1,16 +1,39 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-17T08:11:36.265Z",
-    "statsSyncedAt": "2026-10-17T08:11:36.265Z",
-    "upstreamSha": "7b9ffe0adbc29639e548125fdcfc35885e24046e",
+    "contentSyncedAt": "2026-10-17T08:16:29.631Z",
+    "statsSyncedAt": "2026-10-17T08:16:29.631Z",
+    "upstreamSha": "b471b54537a5ad1814a6c4e132adb44456decdbf",
     "counts": {
-      "main": 1657,
+      "main": 1658,
       "game": 143,
       "programmer": 378,
-      "total": 2178
+      "total": 2179
     }
   },
   "main": [
+    {
+      "slug": "624274593ff0",
+      "board": "main",
+      "name": "Blob0",
+      "intro": "macOS 上的 Cloudflare R2 / S3 对象存储客户端，像管理本地文件夹一样上传、下载、整理、预览和分享文件，文件存放在自己的存储账户；支持 Obsidian / Typora 粘贴图片自动上传，内置 CLI 与 Agent Skill；完整功能免费试用 30 天，之后 $16.90 一次性买断，无订阅",
+      "introMarkdown": "macOS 上的 Cloudflare R2 / S3 对象存储客户端，像管理本地文件夹一样上传、下载、整理、预览和分享文件，文件存放在自己的存储账户；支持 Obsidian / Typora 粘贴图片自动上传，内置 CLI 与 Agent Skill；完整功能免费试用 30 天，之后 $16.90 一次性买断，无订阅",
+      "status": "live",
+      "date": "2026-10-17",
+      "url": "https://blob0.com",
+      "author": "Justin3go",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Justin3go"
+        },
+        {
+          "label": "博客",
+          "url": "https://justin3go.com"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "66ced52c6203",
       "board": "main",
