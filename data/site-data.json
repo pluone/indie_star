@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-16T23:12:00.841Z",
-    "statsSyncedAt": "2026-10-16T23:12:00.841Z",
-    "upstreamSha": "e6e9d41615efe2bfd58d2a2caa9825fdf901e94d",
+    "contentSyncedAt": "2026-10-17T01:26:50.273Z",
+    "statsSyncedAt": "2026-10-17T01:26:50.273Z",
+    "upstreamSha": "95753b31544ad6ed042a1f6d69a3bb5a00c2e99a",
     "counts": {
       "main": 1662,
       "game": 142,
@@ -53,8 +53,8 @@
       "slug": "7e7a02c3e298",
       "board": "main",
       "name": "DisplayPilot",
-      "intro": "macOS 外接显示器控制台，用 DDC/CI 直接调亮度、音量与输入源；面板不响应 DDC/CI 时自动改用伽马表调光，另含以面板原始曲线为基准的色彩校准，以及先隔离再删除的开发者缓存清理",
-      "introMarkdown": "macOS 外接显示器控制台，用 DDC/CI 直接调亮度、音量与输入源；面板不响应 DDC/CI 时自动改用伽马表调光，另含以面板原始曲线为基准的色彩校准，以及先隔离再删除的开发者缓存清理",
+      "intro": "macOS 外接显示器控制台，用 DDC/CI 直接调亮度、音量与输入源；面板不响应 DDC/CI 时自动改用伽马表调光，另含色彩校准（基准只读取一次，反复调节不累积误差）与「先隔离再删除」的开发者缓存清理。付费买断，14 天试用功能完整，不需要注册账号",
+      "introMarkdown": "macOS 外接显示器控制台，用 DDC/CI 直接调亮度、音量与输入源；面板不响应 DDC/CI 时自动改用伽马表调光，另含色彩校准（基准只读取一次，反复调节不累积误差）与「先隔离再删除」的开发者缓存清理。付费买断，14 天试用功能完整，不需要注册账号",
       "status": "live",
       "date": "2026-10-16",
       "url": "https://huayanming.github.io/displaypilot/zh-Hans/?src=1c7",
