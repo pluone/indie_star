@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-17T08:16:29.631Z",
-    "statsSyncedAt": "2026-10-17T08:16:29.631Z",
-    "upstreamSha": "b471b54537a5ad1814a6c4e132adb44456decdbf",
+    "contentSyncedAt": "2026-10-17T10:56:27.566Z",
+    "statsSyncedAt": "2026-10-17T10:56:27.566Z",
+    "upstreamSha": "d4ab6ad24ffe5cb074a53f150df15c5582bb1be3",
     "counts": {
-      "main": 1658,
+      "main": 1660,
       "game": 143,
       "programmer": 378,
-      "total": 2179
+      "total": 2181
     }
   },
   "main": [
+    {
+      "slug": "cdf64482da98",
+      "board": "main",
+      "name": "AI Todo",
+      "intro": "自然语言任务管理，说一句话就改成结构化任务操作，diff 预览、确认后才执行；支持多层嵌套子任务，任务列表可升级为共享项目空间（@成员 + 甘特图）；另提供 JSON 输出的 CLI 供 AI agent 调用，在线版 https://ai-todo.stringzhao.life，开源（MIT）",
+      "introMarkdown": "自然语言任务管理，说一句话就改成结构化任务操作，diff 预览、确认后才执行；支持多层嵌套子任务，任务列表可升级为共享项目空间（@成员 + 甘特图）；另提供 JSON 输出的 CLI 供 AI agent 调用，在线版 https://ai-todo.stringzhao.life，开源（MIT）",
+      "status": "live",
+      "date": "2026-10-17",
+      "url": "https://github.com/strzhao/ai-todo",
+      "author": "strzhao",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/strzhao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d05e14309792",
+      "board": "main",
+      "name": "拾光 Relight",
+      "intro": "本地 AI 照片库，视觉模型在本机给照片打中文美学标签、写一段描述、打质量分，每天选出「每日精选」起标题配短文，macOS 菜单栏 App 自动设成壁纸；推理默认在本机完成，照片和标签不出电脑，开源（MIT）",
+      "introMarkdown": "本地 AI 照片库，视觉模型在本机给照片打中文美学标签、写一段描述、打质量分，每天选出「每日精选」起标题配短文，macOS 菜单栏 App 自动设成壁纸；推理默认在本机完成，照片和标签不出电脑，开源（MIT）",
+      "status": "live",
+      "date": "2026-10-17",
+      "url": "https://github.com/strzhao/relight",
+      "author": "strzhao",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/strzhao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "624274593ff0",
       "board": "main",
