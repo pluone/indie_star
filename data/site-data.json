@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-17T07:11:25.865Z",
-    "statsSyncedAt": "2026-10-17T07:11:25.865Z",
-    "upstreamSha": "9ab921c2900626647b83323a068323a52bc45ca7",
+    "contentSyncedAt": "2026-10-17T07:16:27.266Z",
+    "statsSyncedAt": "2026-10-17T07:16:27.266Z",
+    "upstreamSha": "05bb11eda5fb43e79403ca3373e617148645a9b3",
     "counts": {
-      "main": 1663,
-      "game": 142,
+      "main": 1654,
+      "game": 143,
       "programmer": 378,
-      "total": 2183
+      "total": 2175
     }
   },
   "main": [
+    {
+      "slug": "3b22d3da093a",
+      "board": "main",
+      "name": "VibeCV",
+      "intro": "聊天写简历的网页工具，讲讲你的经历，AI 整理成规范简历，可导出一页 PDF 或 Word，一句话生成英文版，第一份免费",
+      "introMarkdown": "聊天写简历的网页工具，讲讲你的经历，AI 整理成规范简历，可导出一页 PDF 或 Word，一句话生成英文版，第一份免费",
+      "status": "live",
+      "date": "2026-10-17",
+      "url": "https://vibecv.com",
+      "author": "Rory",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Coiggahou2002"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "e284ab69456d",
+      "board": "main",
+      "name": "Fuse Bead Patterns",
+      "intro": "拼豆图纸制作工具，将自己的图片转换为 Perler／Hama／Artkal S 配色网格，支持逐格编辑、材料统计、PNG／PDF 导出及工程保存；当前免费，无需注册，图片在浏览器内处理",
+      "introMarkdown": "拼豆图纸制作工具，将自己的图片转换为 Perler／Hama／Artkal S 配色网格，支持逐格编辑、材料统计、PNG／PDF 导出及工程保存；当前免费，无需注册，图片在浏览器内处理",
+      "status": "live",
+      "date": "2026-10-17",
+      "url": "https://fusebeadpatterns.art/",
+      "author": "BogerHou",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/BogerHou"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "0041bd2cb5f4",
       "board": "main",
@@ -30483,203 +30521,28 @@
       ],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "dbb9c01beafa",
-      "board": "main",
-      "name": "jarkViewer",
-      "intro": "Windows 平台看图软件",
-      "introMarkdown": "Windows 平台看图软件",
-      "status": "live",
-      "date": "2024-10-25",
-      "url": "https://github.com/jark006/jarkViewer",
-      "author": "JARK006",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/jark006"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "4f19b4734f45",
-      "board": "main",
-      "name": "FtpServer",
-      "intro": "Windows 平台 FTP 服务器",
-      "introMarkdown": "Windows 平台 FTP 服务器",
-      "status": "live",
-      "date": "2024-10-25",
-      "url": "https://github.com/jark006/FtpServer",
-      "author": "JARK006",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/jark006"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "7b02875f42af",
-      "board": "main",
-      "name": "小天气",
-      "intro": "安卓平台桌面天气小部件",
-      "introMarkdown": "安卓平台桌面天气小部件",
-      "status": "live",
-      "date": "2024-10-25",
-      "url": "https://github.com/jark006/weather_widget",
-      "author": "JARK006",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/jark006"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b2b0741a4edd",
-      "board": "main",
-      "name": "Img2Video",
-      "intro": "用文本或图像生成短视频（AI）非常适合社交媒体，立即开始创作爆款内容吧！",
-      "introMarkdown": "用文本或图像生成短视频（AI）非常适合社交媒体，立即开始创作爆款内容吧！",
-      "status": "live",
-      "date": "2024-10-25",
-      "url": "https://img2video.ai/",
-      "author": "Q-Sansan",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1faa847296e1",
-      "board": "main",
-      "name": "Bluesky Video Downloader",
-      "intro": "Bluesky 视频下载器，输入 Bluesky 文章地址，即可将文章中的视频下载到本地",
-      "introMarkdown": "Bluesky 视频下载器，输入 Bluesky 文章地址，即可将文章中的视频下载到本地",
-      "status": "live",
-      "date": "2024-10-25",
-      "url": "https://blueskyvideodownloader.org/",
-      "author": "疯狂的小波",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/MuYiBo"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "ee477513e646",
-      "board": "main",
-      "name": "Yes/No 塔罗 AI",
-      "intro": "融合 AI 技术与塔罗洞见，快速获得\"是\"与\"否\"解答",
-      "introMarkdown": "融合 AI 技术与塔罗洞见，快速获得\"是\"与\"否\"解答",
-      "status": "live",
-      "date": "2024-10-25",
-      "url": "https://yesnotarot.org/",
-      "author": "Yue",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/yuegao04"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "a6d4e7c41af7",
-      "board": "main",
-      "name": "ProjectHunt",
-      "intro": "发现与分享独立项目",
-      "introMarkdown": "发现与分享独立项目",
-      "status": "live",
-      "date": "2024-10-25",
-      "url": "https://projecthunt.me/",
-      "author": "Yue",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/yuegao04"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "005a910b7a1c",
-      "board": "main",
-      "name": "如快",
-      "intro": "启动器软件（基于 Tauri 开发，支持 Windows 和 Mac），UI 风格类似 Raycast，对键盘操作友好，大幅提高办公学习效率，支持快捷链接、剪贴板管理等功能并支持开发自定义扩展",
-      "introMarkdown": "启动器软件（基于 Tauri 开发，支持 Windows 和 Mac），UI 风格类似 Raycast，对键盘操作友好，大幅提高办公学习效率，支持快捷链接、剪贴板管理等功能并支持开发自定义扩展",
-      "status": "live",
-      "date": "2024-10-23",
-      "url": "https://sofast.fun",
-      "author": "Blushyes",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/blushyes"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1416123f9cae",
-      "board": "main",
-      "name": "liusha tech detector",
-      "intro": "分析技术栈，提交一个网址，分析该网站用的技术栈，是否 CMS，用什么编程语言，数据分析工具等",
-      "introMarkdown": "分析技术栈，提交一个网址，分析该网站用的技术栈，是否 CMS，用什么编程语言，数据分析工具等",
-      "status": "live",
-      "date": "2024-10-22",
-      "url": "https://liusha.org/",
-      "author": "fengmao",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "5deb8f3aa6d4",
-      "board": "main",
-      "name": "MIB",
-      "intro": "安卓数据备份软件，根据配置自动将移动设备上的数据文件迁移备份至电脑上，支持增量备份，节点配置",
-      "introMarkdown": "安卓数据备份软件，根据配置自动将移动设备上的数据文件迁移备份至电脑上，支持增量备份，节点配置",
-      "status": "live",
-      "date": "2024-10-22",
-      "url": "https://github.com/QC2168/mib",
-      "author": "fengmao",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "3b6328a7dc13",
-      "board": "main",
-      "name": "Hurricane Simulator",
-      "intro": "飓风模拟器，根据不同的季节模拟飓风造成的影响、破坏，提高灾害意识",
-      "introMarkdown": "飓风模拟器，根据不同的季节模拟飓风造成的影响、破坏，提高灾害意识",
-      "status": "live",
-      "date": "2024-10-22",
-      "url": "https://hurricanesimulator.org/",
-      "author": "疯狂的小波",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/MuYiBo"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
+    {
+      "slug": "2e52917e3b4b",
+      "board": "game",
+      "name": "球场经理",
+      "intro": "篮球球员抽卡收集与阵容养成的模拟游戏 — 网页版，非盈利个人项目（免费）",
+      "introMarkdown": "篮球球员抽卡收集与阵容养成的模拟游戏 — 网页版，非盈利个人项目（免费）",
+      "status": "live",
+      "date": "2026-10-17",
+      "url": "https://courtsidegame.xyz/",
+      "author": "zard0433-source",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zard0433-source"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "83ffb12b0368",
       "board": "game",
