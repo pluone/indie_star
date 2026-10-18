@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-18T04:56:08.650Z",
-    "statsSyncedAt": "2026-10-18T04:56:08.650Z",
-    "upstreamSha": "95514f69e6653ceb566053daab316e1e0caf4ca5",
+    "contentSyncedAt": "2026-10-18T06:31:11.239Z",
+    "statsSyncedAt": "2026-10-18T06:31:11.239Z",
+    "upstreamSha": "d415b9dd05c049feae592b523d1c6d238adf0f2a",
     "counts": {
-      "main": 1660,
+      "main": 1662,
       "game": 143,
       "programmer": 380,
-      "total": 2183
+      "total": 2185
     }
   },
   "main": [
+    {
+      "slug": "7c551f549527",
+      "board": "main",
+      "name": "Weather Trip",
+      "intro": "按未来天气筛选旅行目的地的工具站，支持按温度、降雨、湿度等条件查找全球城市，通过天气地图比较城市预报，提供中英文界面",
+      "introMarkdown": "按未来天气筛选旅行目的地的工具站，支持按温度、降雨、湿度等条件查找全球城市，通过天气地图比较城市预报，提供中英文界面 - [GitHub 仓库](https://github.com/xiaomingio/weather-trip)",
+      "status": "live",
+      "date": "2026-10-18",
+      "url": "https://weather-trip.aicake.io",
+      "author": "小明",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xiaomingio"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "8e3c1ab8edf3",
+      "board": "main",
+      "name": "夸夸跨境",
+      "intro": "面向中国 Ozon 跨境卖家的免费定价计算器（免登录，按类目佣金、rFBS/FBP 物流资费、汇率与目标利润反推建议售价）与中文实操教程；可选多店体检工作台 — Web 应用",
+      "introMarkdown": "面向中国 Ozon 跨境卖家的免费定价计算器（免登录，按类目佣金、rFBS/FBP 物流资费、汇率与目标利润反推建议售价）与中文实操教程；可选多店体检工作台 — Web 应用",
+      "status": "live",
+      "date": "2026-10-18",
+      "url": "https://kuakuakua.com/pricing-calculator/",
+      "author": "ikeisthere",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ikeisthere"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "4752eefdba20",
       "board": "main",
