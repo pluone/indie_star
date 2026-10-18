@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-18T06:36:15.942Z",
-    "statsSyncedAt": "2026-10-18T06:36:15.942Z",
-    "upstreamSha": "e189bb24988be6c9744cc740471b2a49b5e39ddd",
+    "contentSyncedAt": "2026-10-18T16:32:06.531Z",
+    "statsSyncedAt": "2026-10-18T16:32:06.531Z",
+    "upstreamSha": "c84f00d55c60285073426af3bcbf5e013e6a9936",
     "counts": {
-      "main": 1653,
+      "main": 1654,
       "game": 143,
-      "programmer": 380,
-      "total": 2176
+      "programmer": 381,
+      "total": 2178
     }
   },
   "main": [
@@ -174,6 +174,25 @@
       "url": "https://chinaabroadguide.com/eor-cost-calculator/",
       "author": "Owen Zhang",
       "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "bc35bf67230c",
+      "board": "main",
+      "name": "aiMakeVideo",
+      "intro": "AI 视频与图片创作工作台，文生视频 / 图生视频 / 图生图在同一处切换，可选 Seedance 2.5、MiniMax H3 等模型；另把 Bulin 47、Hotel Lobby、Rumpelstiltskin 等 10 个热门玩法做成独立模板页，上传一张照片就能出 15 秒竖屏视频、不用写提示词；积分包 $9.9 起也可订阅，注册送 10 积分，9 种语言界面",
+      "introMarkdown": "AI 视频与图片创作工作台，文生视频 / 图生视频 / 图生图在同一处切换，可选 Seedance 2.5、MiniMax H3 等模型；另把 Bulin 47、Hotel Lobby、Rumpelstiltskin 等 10 个热门玩法做成独立模板页，上传一张照片就能出 15 秒竖屏视频、不用写提示词；积分包 $9.9 起也可订阅，注册送 10 积分，9 种语言界面",
+      "status": "live",
+      "date": "2026-10-18",
+      "url": "https://aimakevideo.com",
+      "author": "tumingguang-svg",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tumingguang-svg"
+        }
+      ],
       "likes": 0,
       "comments": 0
     },
@@ -33233,6 +33252,25 @@
         {
           "label": "Github",
           "url": "https://github.com/erickkkyt"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "61359edf11a4",
+      "board": "programmer",
+      "name": "Megaphone",
+      "intro": "开源项目发布工具箱，粘贴仓库地址得到 0–100 发布就绪分和最该先改的事，再让 AI 按 Hacker News、V2EX、小红书等 17 个渠道各自的规则准备文案",
+      "introMarkdown": "开源项目发布工具箱，粘贴仓库地址得到 0–100 发布就绪分和最该先改的事，再让 AI 按 Hacker News、V2EX、小红书等 17 个渠道各自的规则准备文案 - [在线检测](https://2104178150-ai.github.io/megaphone/)",
+      "status": "live",
+      "date": "2026-10-18",
+      "url": "https://github.com/2104178150-ai/megaphone",
+      "author": "2104178150-ai",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/2104178150-ai"
         }
       ],
       "likes": 0,
