@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-18T06:31:11.239Z",
-    "statsSyncedAt": "2026-10-18T06:31:11.239Z",
-    "upstreamSha": "d415b9dd05c049feae592b523d1c6d238adf0f2a",
+    "contentSyncedAt": "2026-10-18T06:36:15.942Z",
+    "statsSyncedAt": "2026-10-18T06:36:15.942Z",
+    "upstreamSha": "e189bb24988be6c9744cc740471b2a49b5e39ddd",
     "counts": {
-      "main": 1662,
+      "main": 1653,
       "game": 143,
       "programmer": 380,
-      "total": 2185
+      "total": 2176
     }
   },
   "main": [
+    {
+      "slug": "61410b0630c7",
+      "board": "main",
+      "name": "少装一点",
+      "intro": "AI 插件目录，按具体任务整理 MCP 工具、Skills 与编辑器插件，逐项给出中文用途说明、接入方式和原项目链接，已收录 124 个项目，提供中英等多语言界面",
+      "introMarkdown": "AI 插件目录，按具体任务整理 MCP 工具、Skills 与编辑器插件，逐项给出中文用途说明、接入方式和原项目链接，已收录 124 个项目，提供中英等多语言界面",
+      "status": "live",
+      "date": "2026-10-18",
+      "url": "https://lessaitools.com/",
+      "author": "makexyf-max",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/makexyf-max"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "7c551f549527",
       "board": "main",
@@ -30469,212 +30488,6 @@
         {
           "label": "Github",
           "url": "https://github.com/HiToysMaker"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "132485858457",
-      "board": "main",
-      "name": "ExtensionsFox",
-      "intro": "几个 Instagram 自动化运营小工具",
-      "introMarkdown": "几个 Instagram 自动化运营小工具 - [更多介绍](https://github.com/asterism-software/extensionsfox.store)",
-      "status": "live",
-      "date": "2024-11-22",
-      "url": "https://extensionsfox.store",
-      "author": "jianpingliu",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/jianpingliu"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "33ae47ea8145",
-      "board": "main",
-      "name": "AMZ Downloader",
-      "intro": "Amazon 产品图片和视频下载小工具",
-      "introMarkdown": "Amazon 产品图片和视频下载小工具 - [更多介绍](https://github.com/asterism-software/amzdownloader.com)",
-      "status": "live",
-      "date": "2024-11-22",
-      "url": "https://amzdownloader.com",
-      "author": "jianpingliu",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/jianpingliu"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9c9a08514eb3",
-      "board": "main",
-      "name": "docgenie",
-      "intro": "将 Kindle Scribe 笔记本直接分享至各种云存储服务",
-      "introMarkdown": "将 Kindle Scribe 笔记本直接分享至各种云存储服务 - [更多介绍](https://github.com/asterism-software/docgenie.co.uk)",
-      "status": "live",
-      "date": "2024-11-22",
-      "url": "https://docgenie.co.uk",
-      "author": "jianpingliu",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/jianpingliu"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "a560df3411ce",
-      "board": "main",
-      "name": "OnlyFansKit",
-      "intro": "专为 OnlyFans 创作者设计的免费工具平台。其目的是帮助创作者轻松创建和管理自己的内容和账户，提升在 OnlyFans 上的成功机会。通过这个平台，用户可以生成独特的名字、用户名以及吸引人的个人简介。此外，OnlyFansKit 还提供自动生成欢迎消息的功能，让粉丝初次访问时便能感受到创作者的独特魅力。同时，该平台配有税收计算器，帮助创作者轻松完成财务规划与管理，为创作者节省时间与精力。",
-      "introMarkdown": "专为 OnlyFans 创作者设计的免费工具平台。其目的是帮助创作者轻松创建和管理自己的内容和账户，提升在 OnlyFans 上的成功机会。通过这个平台，用户可以生成独特的名字、用户名以及吸引人的个人简介。此外，OnlyFansKit 还提供自动生成欢迎消息的功能，让粉丝初次访问时便能感受到创作者的独特魅力。同时，该平台配有税收计算器，帮助创作者轻松完成财务规划与管理，为创作者节省时间与精力。",
-      "status": "live",
-      "date": "2024-11-21",
-      "url": "https://www.onlyfanskit.com/",
-      "author": "Q-Sansan",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Q-Sansan"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "e3207f5a3750",
-      "board": "main",
-      "name": "khaos 电吉他社",
-      "intro": "电吉他谱分享网站（有电吉他爱好的程序员做的）",
-      "introMarkdown": "电吉他谱分享网站（有电吉他爱好的程序员做的）",
-      "status": "live",
-      "date": "2024-11-19",
-      "url": "https://www.khaos.net.cn",
-      "author": "khaos",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/cxykhaos"
-        },
-        {
-          "label": "博客",
-          "url": "https://khaos.net.cn"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "310a737e1af5",
-      "board": "main",
-      "name": "导航站模板",
-      "intro": "轻松创建并部署上线的导航站模板，默认集成注册登录、支付、邮件、博客、导航站等所有功能",
-      "introMarkdown": "轻松创建并部署上线的导航站模板，默认集成注册登录、支付、邮件、博客、导航站等所有功能",
-      "status": "live",
-      "date": "2024-11-17",
-      "url": "https://mkdirs.com/",
-      "author": "Indie Maker Fox",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github/javayhu"
-        },
-        {
-          "label": "Twitter",
-          "url": "https://x.com/indie_maker_fox"
-        },
-        {
-          "label": "Blog",
-          "url": "https://mksaas.me"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "582f3dfbfe5e",
-      "board": "main",
-      "name": "vPaste",
-      "intro": "Mac 平台优秀的剪切板工具",
-      "introMarkdown": "Mac 平台优秀的剪切板工具",
-      "status": "live",
-      "date": "2024-11-12",
-      "url": "https://apps.apple.com/cn/app/vpaste/id6444913968",
-      "author": "vlv",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/livv"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "68fb2bf4d5fc",
-      "board": "main",
-      "name": "Sheas Cealer",
-      "intro": "SNI 伪造工具，无需代理即可合法加速 Github, Steam, Pixiv 等网站的直连，让你的网络冲浪畅快无阻",
-      "introMarkdown": "SNI 伪造工具，无需代理即可合法加速 Github, Steam, Pixiv 等网站的直连，让你的网络冲浪畅快无阻",
-      "status": "live",
-      "date": "2024-11-10",
-      "url": "https://github.com/SpaceTimee/Sheas-Cealer",
-      "author": "Space Time",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/SpaceTimee"
-        },
-        {
-          "label": "博客",
-          "url": "https://blog.spacetimee.xyz/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "c70112663140",
-      "board": "main",
-      "name": "Best Directories",
-      "intro": "导航站的导航站，网站汇集收录各类别各领域的优质导航站，帮助用户发现各领域优质的导航站，从而找到好用的产品。并且收录各类优质打榜平台，不止 ProductHunt，帮助产品更快启动。",
-      "introMarkdown": "导航站的导航站，网站汇集收录各类别各领域的优质导航站，帮助用户发现各领域优质的导航站，从而找到好用的产品。并且收录各类优质打榜平台，不止 ProductHunt，帮助产品更快启动。",
-      "status": "live",
-      "date": "2024-11-10",
-      "url": "https://bestdirectories.org",
-      "author": "Corey Chiu",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/iamcorey"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1e05b1bd6cff",
-      "board": "main",
-      "name": "TalkingAvatar",
-      "intro": "一键生成 AI 数字人视频的平台，支持多语言对话、表情动作定制，可快速创建个性化数字分身用于营销、教育等场景",
-      "introMarkdown": "一键生成 AI 数字人视频的平台，支持多语言对话、表情动作定制，可快速创建个性化数字分身用于营销、教育等场景",
-      "status": "live",
-      "date": "2024-11-09",
-      "url": "https://www.talkingavatar.ai/",
-      "author": "Leo",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/andylearnai"
         }
       ],
       "likes": 0,
