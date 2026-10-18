@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-18T01:46:07.726Z",
-    "statsSyncedAt": "2026-10-18T01:46:07.726Z",
-    "upstreamSha": "7d4e355338fe0e87e168e589d622b0ded29df5a3",
+    "contentSyncedAt": "2026-10-18T01:51:08.445Z",
+    "statsSyncedAt": "2026-10-18T01:51:08.445Z",
+    "upstreamSha": "d4053c0f937283379b032f45dd4b40b50704797a",
     "counts": {
-      "main": 1664,
+      "main": 1657,
       "game": 143,
-      "programmer": 379,
-      "total": 2186
+      "programmer": 380,
+      "total": 2180
     }
   },
   "main": [
+    {
+      "slug": "30c475d60a0b",
+      "board": "main",
+      "name": "BeadPattern",
+      "intro": "拼豆图案与像素画生成工具（免费），照片转 Perler/Hama/Artkal 官方色卡图案并算珠子数，纯前端零上传保护隐私，支持图纸导出与专注拼豆模式",
+      "introMarkdown": "拼豆图案与像素画生成工具（免费），照片转 Perler/Hama/Artkal 官方色卡图案并算珠子数，纯前端零上传保护隐私，支持图纸导出与专注拼豆模式",
+      "status": "live",
+      "date": "2026-10-18",
+      "url": "https://beadpattern.art/",
+      "author": "Peacoke",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Peacoke"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "e1c0bcd02316",
+      "board": "main",
+      "name": "Children's Chore",
+      "intro": "面向 4–14 岁孩子家庭的家务打卡与积分奖励工具（免费），家长安排任务、孩子打卡、家长一键确认得积分换家庭自定奖励，支持重复任务、照片证明、假期暂停与共用平板模式，孩子用 PIN/二维码登录，可打印家务表免注册使用",
+      "introMarkdown": "面向 4–14 岁孩子家庭的家务打卡与积分奖励工具（免费），家长安排任务、孩子打卡、家长一键确认得积分换家庭自定奖励，支持重复任务、照片证明、假期暂停与共用平板模式，孩子用 PIN/二维码登录，可打印家务表免注册使用",
+      "status": "live",
+      "date": "2026-10-18",
+      "url": "https://childrenschoreapp.com/",
+      "author": "Linky",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Linky-AIinlink"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "032cc55cbf1a",
+      "board": "main",
+      "name": "zippic",
+      "intro": "图片压缩与格式转换工具，支持 JPG/PNG/WebP/AVIF/GIF/JXL 批量处理、共 19 个图片工具，浏览器本地运行不上传，免费无需注册",
+      "introMarkdown": "图片压缩与格式转换工具，支持 JPG/PNG/WebP/AVIF/GIF/JXL 批量处理、共 19 个图片工具，浏览器本地运行不上传，免费无需注册",
+      "status": "live",
+      "date": "2026-10-18",
+      "url": "https://zippic.app",
+      "author": "KELEN",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/imkelen"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "9abc7000b3a2",
       "board": "main",
@@ -29,13 +86,18 @@
       "slug": "c9b29d0d3ea2",
       "board": "main",
       "name": "Calculator365",
-      "intro": "多语言在线计算器网站（中英日等6种语言），已上线20+计算工具，覆盖数学、金融、时间和健身等领域，iOS还支持桌面小组件、输入法、语音播报等功能，下载地址。",
-      "introMarkdown": "多语言在线计算器网站（中英日等6种语言），已上线20+计算工具，覆盖数学、金融、时间和健身等领域，iOS还支持桌面小组件、输入法、语音播报等功能，[下载地址](https://apps.apple.com/cn/app/id6448260851)。",
+      "intro": "多语言在线计算器网站（中英日等 6 种语言），提供 20 多个计算工具，覆盖数学、金融、时间和健身等领域，iOS 支持桌面小组件、输入法、语音播报等功能",
+      "introMarkdown": "多语言在线计算器网站（中英日等 6 种语言），提供 20 多个计算工具，覆盖数学、金融、时间和健身等领域，iOS 支持桌面小组件、输入法、语音播报等功能 - [下载地址](https://apps.apple.com/cn/app/id6448260851)",
       "status": "live",
       "date": "2026-10-17",
       "url": "https://www.calculator-365.com/zh-Hans",
       "author": "nbbmw",
-      "authorLinks": [],
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/nbbmw"
+        }
+      ],
       "likes": 0,
       "comments": 0
     },
@@ -53,25 +115,6 @@
         {
           "label": "Github",
           "url": "https://github.com/xjokerabab"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "50f776eeaee8",
-      "board": "main",
-      "name": "Textus",
-      "intro": "所见即所得的 Markdown 编辑器，支持公式、表格和 Mermaid，可选 AI 写作助手逐句给出修改建议，支持 DeepSeek 等 20 多家模型和 Ollama 本地模型；免费开源，无需账号，支持 macOS、Windows、Linux",
-      "introMarkdown": "所见即所得的 Markdown 编辑器，支持公式、表格和 Mermaid，可选 AI 写作助手逐句给出修改建议，支持 DeepSeek 等 20 多家模型和 Ollama 本地模型；免费开源，无需账号，支持 macOS、Windows、Linux - [下载](https://github.com/CatVinci-Studio/Textus/releases/latest)",
-      "status": "live",
-      "date": "2026-10-17",
-      "url": "https://textus.catvinci.com",
-      "author": "ChengAoShen",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ChengAoShen"
         }
       ],
       "likes": 0,
@@ -30541,170 +30584,6 @@
       ],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "4b3cfc3de47a",
-      "board": "main",
-      "name": "SparkleEasy",
-      "intro": "macOS 开发者的效率工具，一键生成 Sparkle 更新配置，快速管理应用权限，让开发更简单",
-      "introMarkdown": "macOS 开发者的效率工具，一键生成 Sparkle 更新配置，快速管理应用权限，让开发更简单 - [更多介绍](https://sparkleeasy.pages.dev)",
-      "status": "live",
-      "date": "2024-11-05",
-      "url": "https://sparkleeasy.pages.dev/",
-      "author": "94R7",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/WtecHtec"
-        },
-        {
-          "label": "博客",
-          "url": "https://r7.nuxt.dev/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "82d9150c9953",
-      "board": "main",
-      "name": "拾音簿 pickupnote",
-      "intro": "专为\"记录声音场景\"而生。将每一条笔记与特定的音乐绑定，3 秒内便可以完成。用标签和检索功能，则可以轻松找到那些与音乐相伴的重要时刻",
-      "introMarkdown": "专为\"记录声音场景\"而生。将每一条笔记与特定的音乐绑定，3 秒内便可以完成。用标签和检索功能，则可以轻松找到那些与音乐相伴的重要时刻 - [官网](https://pickupnote.com/zh/about)",
-      "status": "live",
-      "date": "2024-11-05",
-      "url": "https://apps.apple.com/cn/app/%E6%8B%BE%E9%9F%B3%E7%B0%BF-pickupnote-%E6%88%91%E7%9A%84%E9%9F%B3%E4%B9%90%E6%94%B6%E8%97%8F%E5%BA%93/id6478777973",
-      "author": "eddilexiok",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "50082d4ecf14",
-      "board": "main",
-      "name": "Recap",
-      "intro": "帮助你整理杂乱的内容，节省时间的 Chrome 插件！把网页和 PDF 转化为有趣的视觉摘要，包括思维导图、时间线和表格总结。适合学生、专业人士和内容创作者！",
-      "introMarkdown": "帮助你整理杂乱的内容，节省时间的 Chrome 插件！把网页和 PDF 转化为有趣的视觉摘要，包括思维导图、时间线和表格总结。适合学生、专业人士和内容创作者！",
-      "status": "live",
-      "date": "2024-11-03",
-      "url": "https://recapall.app/",
-      "author": "Zero24",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Liu-Lixin"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "4266705f3c55",
-      "board": "main",
-      "name": "食谱甄选",
-      "intro": "百万菜谱任君选择，专为下厨房而设计的菜谱 APP，菜谱精心甄选佳而全。每天纠结吃啥菜谱，根据个人口味食材智能推荐 (微信小程序)",
-      "introMarkdown": "百万菜谱任君选择，专为下厨房而设计的菜谱 APP，菜谱精心甄选佳而全。每天纠结吃啥菜谱，根据个人口味食材智能推荐 (微信小程序)",
-      "status": "live",
-      "date": "2024-11-02",
-      "url": "https://xiaocp.oss-cn-shenzhen.aliyuncs.com/images/applet/wx_cookbook.png",
-      "author": "食谱甄选",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/xiaocp"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "fff92b817fcf",
-      "board": "main",
-      "name": "AI Best Tools导航站",
-      "intro": "收录各种优质的 AI 产品工具，帮用户找到最优质且好用的 AI 产品，同时助力 AI 产品开发者展示自己产品。并且网站定时爬取 Product Hunt 等优质产品平台，给 AI 产品开发者提供开发及需求的思路。欢迎大家来提交自己的 AI 产品及发掘更多优质的 AI 工具",
-      "introMarkdown": "收录各种优质的 AI 产品工具，帮用户找到最优质且好用的 AI 产品，同时助力 AI 产品开发者展示自己产品。并且网站定时爬取 Product Hunt 等优质产品平台，给 AI 产品开发者提供开发及需求的思路。欢迎大家来提交自己的 AI 产品及发掘更多优质的 AI 工具",
-      "status": "live",
-      "date": "2024-10-31",
-      "url": "https://aibest.tools/",
-      "author": "Corey Chiu",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/iamcorey"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "e2bbe32baf29",
-      "board": "main",
-      "name": "文件禅",
-      "intro": "AI 文件整理工具，电脑中不断积累文件，每次想整理时，却总是发现这项任务既耗时又费力。为了解决这一痛点，我开发了可以自动化整理和分类杂乱文件的 AI 工具——FileNeatAI，它可以根据文件夹里的文件内容，通过AI自动的将文件进行分类并整理到不同的文件夹中，同时还可以对一些命名不规则的文件进行智能命名，帮助用户轻松、高效地管理文件，提升工作效率",
-      "introMarkdown": "AI 文件整理工具，电脑中不断积累文件，每次想整理时，却总是发现这项任务既耗时又费力。为了解决这一痛点，我开发了可以自动化整理和分类杂乱文件的 AI 工具——FileNeatAI，它可以根据文件夹里的文件内容，通过AI自动的将文件进行分类并整理到不同的文件夹中，同时还可以对一些命名不规则的文件进行智能命名，帮助用户轻松、高效地管理文件，提升工作效率 - [图文介绍](https://github.com/1c7/chinese-independent-developer/issues/439?notification_referrer_id=NT_kwDOABuJ07MxMzA2NzY1NzU0MzoxODA0NzU1)",
-      "status": "live",
-      "date": "2024-10-27",
-      "url": "https://fileneatai.com/?lang=zh-cn",
-      "author": "MrHuZhi",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/MrHuZhi"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "691d834df808",
-      "board": "main",
-      "name": "Temp Mail",
-      "intro": "临时邮箱(免费)，保护隐私安全，避免垃圾邮件骚扰，打开就可以使用，无需登录或注册。",
-      "introMarkdown": "临时邮箱(免费)，保护隐私安全，避免垃圾邮件骚扰，打开就可以使用，无需登录或注册。",
-      "status": "live",
-      "date": "2024-10-26",
-      "url": "https://tempmail.la/",
-      "author": "Ethan Sunray",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9140cbe88a4f",
-      "board": "main",
-      "name": "AI Detector",
-      "intro": "验证文本和图片是否由 AI 生成，图片和 PDF 等文档已支持 C2PA 内容凭证校验。（C2PA 是一项创新的开放技术，旨在提供在线内容的详细背景信息，增强数字内容的可信度和透明度，目前 OpenAI、Microsoft、Heygen 等知名公司都已经支持）",
-      "introMarkdown": "验证文本和图片是否由 AI 生成，图片和 PDF 等文档已支持 [C2PA](https://c2pa.org/) 内容凭证校验。（[C2PA](https://c2pa.org/) 是一项创新的开放技术，旨在提供在线内容的详细背景信息，增强数字内容的可信度和透明度，目前 OpenAI、Microsoft、Heygen 等知名公司都已经支持）",
-      "status": "live",
-      "date": "2024-10-26",
-      "url": "https://aidetector.tech/",
-      "author": "Ethan Sunray",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "3c9d5d72b39d",
-      "board": "main",
-      "name": "X-Comfort-Browser - 浏览器插件",
-      "intro": "用于浏览内容平台(推特、知乎)时，模糊媒体资源，屏蔽广告。专注信息获取，减少视觉干扰，获得互联网噪音下的注意力主动权，同时避免公共场合出现尴尬的场景。",
-      "introMarkdown": "用于浏览内容平台(推特、知乎)时，模糊媒体资源，屏蔽广告。专注信息获取，减少视觉干扰，获得互联网噪音下的注意力主动权，同时避免公共场合出现尴尬的场景。- [开源地址](https://github.com/dnevend/x-comfort-browser/)",
-      "status": "live",
-      "date": "2024-10-26",
-      "url": "https://x-comfort-browser.xyz/",
-      "author": "小学后生",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Dnevend"
-        },
-        {
-          "label": "个人主页",
-          "url": "https://dnevend.site/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
@@ -33427,6 +33306,25 @@
         {
           "label": "Github",
           "url": "https://github.com/erickkkyt"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "1df9fc08471b",
+      "board": "programmer",
+      "name": "Textus",
+      "intro": "所见即所得的 Markdown 编辑器，支持公式、表格和 Mermaid，可选 AI 写作助手逐句给出修改建议，支持 DeepSeek 等 20 多家模型和 Ollama 本地模型；免费开源，无需账号，支持 macOS、Windows、Linux",
+      "introMarkdown": "所见即所得的 Markdown 编辑器，支持公式、表格和 Mermaid，可选 AI 写作助手逐句给出修改建议，支持 DeepSeek 等 20 多家模型和 Ollama 本地模型；免费开源，无需账号，支持 macOS、Windows、Linux - [下载](https://github.com/CatVinci-Studio/Textus/releases/latest)",
+      "status": "live",
+      "date": "2026-10-18",
+      "url": "https://textus.catvinci.com",
+      "author": "ChengAoShen",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ChengAoShen"
         }
       ],
       "likes": 0,
