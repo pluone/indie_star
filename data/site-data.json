@@ -1,12 +1,12 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-18T01:51:08.445Z",
-    "statsSyncedAt": "2026-10-18T01:51:08.445Z",
-    "upstreamSha": "d4053c0f937283379b032f45dd4b40b50704797a",
+    "contentSyncedAt": "2026-10-18T02:31:12.595Z",
+    "statsSyncedAt": "2026-10-18T02:31:12.595Z",
+    "upstreamSha": "80a06b1c6c03d44dbc3f9cabd5d7deaa6a2eca16",
     "counts": {
-      "main": 1657,
+      "main": 1658,
       "game": 143,
-      "programmer": 380,
+      "programmer": 379,
       "total": 2180
     }
   },
@@ -79,6 +79,25 @@
       "url": "https://chinaabroadguide.com/eor-cost-calculator/",
       "author": "Owen Zhang",
       "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "50f776eeaee8",
+      "board": "main",
+      "name": "Textus",
+      "intro": "所见即所得的 Markdown 编辑器，支持公式、表格和 Mermaid，可选 AI 写作助手逐句给出修改建议，支持 DeepSeek 等 20 多家模型和 Ollama 本地模型；免费开源，无需账号，支持 macOS、Windows、Linux",
+      "introMarkdown": "所见即所得的 Markdown 编辑器，支持公式、表格和 Mermaid，可选 AI 写作助手逐句给出修改建议，支持 DeepSeek 等 20 多家模型和 Ollama 本地模型；免费开源，无需账号，支持 macOS、Windows、Linux - [下载](https://github.com/CatVinci-Studio/Textus/releases/latest)",
+      "status": "live",
+      "date": "2026-10-17",
+      "url": "https://textus.catvinci.com",
+      "author": "ChengAoShen",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ChengAoShen"
+        }
+      ],
       "likes": 0,
       "comments": 0
     },
@@ -33306,25 +33325,6 @@
         {
           "label": "Github",
           "url": "https://github.com/erickkkyt"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1df9fc08471b",
-      "board": "programmer",
-      "name": "Textus",
-      "intro": "所见即所得的 Markdown 编辑器，支持公式、表格和 Mermaid，可选 AI 写作助手逐句给出修改建议，支持 DeepSeek 等 20 多家模型和 Ollama 本地模型；免费开源，无需账号，支持 macOS、Windows、Linux",
-      "introMarkdown": "所见即所得的 Markdown 编辑器，支持公式、表格和 Mermaid，可选 AI 写作助手逐句给出修改建议，支持 DeepSeek 等 20 多家模型和 Ollama 本地模型；免费开源，无需账号，支持 macOS、Windows、Linux - [下载](https://github.com/CatVinci-Studio/Textus/releases/latest)",
-      "status": "live",
-      "date": "2026-10-18",
-      "url": "https://textus.catvinci.com",
-      "author": "ChengAoShen",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ChengAoShen"
         }
       ],
       "likes": 0,
