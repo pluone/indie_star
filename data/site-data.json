@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-18T02:31:12.595Z",
-    "statsSyncedAt": "2026-10-18T02:31:12.595Z",
-    "upstreamSha": "80a06b1c6c03d44dbc3f9cabd5d7deaa6a2eca16",
+    "contentSyncedAt": "2026-10-18T04:56:08.650Z",
+    "statsSyncedAt": "2026-10-18T04:56:08.650Z",
+    "upstreamSha": "95514f69e6653ceb566053daab316e1e0caf4ca5",
     "counts": {
-      "main": 1658,
+      "main": 1660,
       "game": 143,
-      "programmer": 379,
-      "total": 2180
+      "programmer": 380,
+      "total": 2183
     }
   },
   "main": [
+    {
+      "slug": "4752eefdba20",
+      "board": "main",
+      "name": "LayerGrab",
+      "intro": "AI 图片转图层工具，把一张图拆成可编辑的命名图层并补全被遮挡的背景，可导出 PNG/PSD，也能只提取你指名的一个元素；有 Figma 插件和 Chrome 扩展，网页英文界面，每个账号可免费试用一次",
+      "introMarkdown": "AI 图片转图层工具，把一张图拆成可编辑的命名图层并补全被遮挡的背景，可导出 PNG/PSD，也能只提取你指名的一个元素；有 Figma 插件和 Chrome 扩展，网页英文界面，每个账号可免费试用一次 - [更多介绍](https://github.com/layergrab/layergrab-plugins)",
+      "status": "live",
+      "date": "2026-10-18",
+      "url": "https://layergrab.com",
+      "author": "stimQQ",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/stimQQ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "fba80f59deb1",
+      "board": "main",
+      "name": "SortLines",
+      "intro": "文本行处理工具，粘贴文本即可按字母、数字、自然顺序或长度排序行，并支持删除重复行、对比列表、随机打乱、反转与清理关键词列表，浏览器本地处理不上传，免费无需注册",
+      "introMarkdown": "文本行处理工具，粘贴文本即可按字母、数字、自然顺序或长度排序行，并支持删除重复行、对比列表、随机打乱、反转与清理关键词列表，浏览器本地处理不上传，免费无需注册",
+      "status": "live",
+      "date": "2026-10-18",
+      "url": "https://sortlines.com",
+      "author": "dyordo",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/dyordo"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "30c475d60a0b",
       "board": "main",
@@ -33311,6 +33349,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "78dd832dcb8b",
+      "board": "programmer",
+      "name": "apimodels.app",
+      "intro": "多模型 AI API 平台，一个 API Key、一套 OpenAI 兼容接口调用 150+ 个图片、视频、语音和大语言模型（GPT Image 2、Nano Banana、Seedance、Kling、Veo、Claude、Gemini、DeepSeek 等），每个模型多条渠道出错自动切换、调用失败不扣费、图片视频任务支持异步回调，价格普遍低于官方价，按量计费无月费；需要写代码调用 API",
+      "introMarkdown": "多模型 AI API 平台，一个 API Key、一套 OpenAI 兼容接口调用 150+ 个图片、视频、语音和大语言模型（GPT Image 2、Nano Banana、Seedance、Kling、Veo、Claude、Gemini、DeepSeek 等），每个模型多条渠道出错自动切换、调用失败不扣费、图片视频任务支持异步回调，价格普遍低于官方价，按量计费无月费；需要写代码调用 API - [文档](https://apimodels.app/docs)",
+      "status": "live",
+      "date": "2026-10-18",
+      "url": "https://apimodels.app/zh",
+      "author": "stimQQ",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/stimQQ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "d84685e3f7f8",
       "board": "programmer",
