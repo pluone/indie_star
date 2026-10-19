@@ -1,16 +1,100 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-19T09:55:37.864Z",
-    "statsSyncedAt": "2026-10-19T09:55:37.864Z",
-    "upstreamSha": "6db211de868d48a17e69a1e017382dc4ca4986f0",
+    "contentSyncedAt": "2026-10-19T12:20:49.055Z",
+    "statsSyncedAt": "2026-10-19T12:20:49.055Z",
+    "upstreamSha": "1de1e7b12d46b099a51767bff11e9165c41fb850",
     "counts": {
-      "main": 1656,
+      "main": 1657,
       "game": 143,
       "programmer": 388,
-      "total": 2187
+      "total": 2188
     }
   },
   "main": [
+    {
+      "slug": "5e1a7b7bbc31",
+      "board": "main",
+      "name": "苏哲AI",
+      "intro": "ChatGPT 会员开通站，支付宝付款，买卡密后网页自助激活，通常 1–3 分钟到账，订阅类质保 1 个月；另有 Gemini、Super Duolingo 等 AI 会员",
+      "introMarkdown": "ChatGPT 会员开通站，支付宝付款，买卡密后网页自助激活，通常 1–3 分钟到账，订阅类质保 1 个月；另有 Gemini、Super Duolingo 等 AI 会员",
+      "status": "live",
+      "date": "2026-10-19",
+      "url": "https://suzhe.ai",
+      "author": "xinyanghu7",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xinyanghu7"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "ad2d7c8504bb",
+      "board": "main",
+      "name": "AI Anime Generator",
+      "intro": "AI 动漫绘图网站，输入文字或上传照片生成动漫角色、头像和 Chibi 图片，可选画风与画面比例，提供可直接使用的提示词；英文界面，需 Google 登录，新账号赠送 30 积分（7 天有效），生成按模型扣积分",
+      "introMarkdown": "AI 动漫绘图网站，输入文字或上传照片生成动漫角色、头像和 Chibi 图片，可选画风与画面比例，提供可直接使用的提示词；英文界面，需 Google 登录，新账号赠送 30 积分（7 天有效），生成按模型扣积分",
+      "status": "live",
+      "date": "2026-10-19",
+      "url": "https://ai-anime-generator.io/",
+      "author": "犀利豆",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/diaozxin007"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "78771fcbde45",
+      "board": "main",
+      "name": "Speaker",
+      "intro": "macOS 原生语音输入工具，BYOK，语音识别可选豆包、OpenAI、千问，macOS 26 及以上可用 Apple 离线识别，不需要 Key；支持多种文字整理模式，也可以自定义；无账号无服务端，会话记录和个人词库只存在本地；免费开源",
+      "introMarkdown": "macOS 原生语音输入工具，BYOK，语音识别可选豆包、OpenAI、千问，macOS 26 及以上可用 Apple 离线识别，不需要 Key；支持多种文字整理模式，也可以自定义；无账号无服务端，会话记录和个人词库只存在本地；免费开源 - [GitHub 仓库](https://github.com/simonwong/speaker)",
+      "status": "live",
+      "date": "2026-10-19",
+      "url": "https://speaker.moonunder.app",
+      "author": "Simon",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/simonwong"
+        },
+        {
+          "label": "博客",
+          "url": "https://simonwong.cn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d53fe7d8bd55",
+      "board": "main",
+      "name": "Whispek",
+      "intro": "AI 语音输入桌面应用，按住一个键说话，松开后整理好的文字直接出现在几乎任何应用的光标处，能去掉「嗯」「啊」和重复，还能语音翻译；支持 Windows、macOS、Linux（.deb 和 AppImage），有免费额度，每 7 天刷新",
+      "introMarkdown": "AI 语音输入桌面应用，按住一个键说话，松开后整理好的文字直接出现在几乎任何应用的光标处，能去掉「嗯」「啊」和重复，还能语音翻译；支持 Windows、macOS、Linux（.deb 和 AppImage），有免费额度，每 7 天刷新",
+      "status": "live",
+      "date": "2026-10-19",
+      "url": "https://whispek.com",
+      "author": "kevinxding",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kevinxding"
+        },
+        {
+          "label": "推特",
+          "url": "https://x.com/whispek_DingXu"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "4525da94829e",
       "board": "main",
@@ -30488,63 +30572,6 @@
         {
           "label": "Github",
           "url": "https://github.com/cuiheng511"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9e2dc516e7ea",
-      "board": "main",
-      "name": "Readest",
-      "intro": "阅读软件（极简设计、开源、跨平台）",
-      "introMarkdown": "阅读软件（极简设计、开源、跨平台） - [更多介绍](https://github.com/chrox/readest)",
-      "status": "live",
-      "date": "2024-12-08",
-      "url": "https://readest.com?utm_source=indiecn&utm_medium=referral&utm_campaign=post",
-      "author": "chrox",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/chrox/readest"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "591927494556",
-      "board": "main",
-      "name": "OnionAI",
-      "intro": "AI 聚合搜索引擎，轻松切换不同的 AI 搜索引擎",
-      "introMarkdown": "AI 聚合搜索引擎，轻松切换不同的 AI 搜索引擎",
-      "status": "live",
-      "date": "2024-12-07",
-      "url": "https://onionai.so",
-      "author": "Ovelv",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ovelv"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "25b748a3328d",
-      "board": "main",
-      "name": "字玩",
-      "intro": "字体设计工具",
-      "introMarkdown": "字体设计工具 - [源代码](https://github.com/HiToysMaker/fontplayer)",
-      "status": "live",
-      "date": "2024-11-24",
-      "url": "https://www.font-player.com",
-      "author": "玩具工匠",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/HiToysMaker"
         }
       ],
       "likes": 0,
