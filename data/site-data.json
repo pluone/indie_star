@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-19T00:56:13.594Z",
-    "statsSyncedAt": "2026-10-19T00:56:13.594Z",
-    "upstreamSha": "51b41ded1db4c6f9ffec2fe957f97fee34b6b796",
+    "contentSyncedAt": "2026-10-19T03:11:12.329Z",
+    "statsSyncedAt": "2026-10-19T03:11:12.329Z",
+    "upstreamSha": "808b89852e0ca2fd0e426f5856bde0dceab4b488",
     "counts": {
       "main": 1656,
       "game": 143,
@@ -15,8 +15,8 @@
       "slug": "4525da94829e",
       "board": "main",
       "name": "ToolKnit",
-      "intro": "PDF、图片、音视频和文本在线工具箱，支持中英文切换、无需注册；PDF 转图片、图片裁剪等功能在浏览器本地处理，免费使用有每日共享次数和文件大小限制",
-      "introMarkdown": "PDF、图片、音视频和文本在线工具箱，支持中英文切换、无需注册；PDF 转图片、图片裁剪等功能在浏览器本地处理，免费使用有每日共享次数和文件大小限制",
+      "intro": "免费、免注册的 PDF、图片、音视频和文本在线工具箱，支持中英文切换；PDF 转图片、图片裁剪等功能在浏览器本地完成，部分工具设有使用额度或文件大小上限",
+      "introMarkdown": "免费、免注册的 PDF、图片、音视频和文本在线工具箱，支持中英文切换；PDF 转图片、图片裁剪等功能在浏览器本地完成，部分工具设有使用额度或文件大小上限",
       "status": "live",
       "date": "2026-10-19",
       "url": "https://toolknit.com/",
