@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-19T09:20:44.539Z",
-    "statsSyncedAt": "2026-10-19T09:20:44.539Z",
-    "upstreamSha": "f60272656068f3e037ce6dd6e24b29e99004573d",
+    "contentSyncedAt": "2026-10-19T09:25:42.460Z",
+    "statsSyncedAt": "2026-10-19T09:25:42.460Z",
+    "upstreamSha": "a35d1894300c940da8af6e0cb3b0f5c14efd82c0",
     "counts": {
       "main": 1656,
       "game": 143,
@@ -33261,9 +33261,9 @@
       "slug": "ddafb613abde",
       "board": "programmer",
       "name": "Mackit",
-      "intro": "macOS 开发者缓存清理工具，扫描 Xcode、Node、Flutter、Go、Rust、Python 等工具留下的可再生缓存，也能指定代码目录找出 node_modules、build 等构建产物；50+ 条规则并发扫描，每项标出体积、路径和风险等级，默认不勾选、清理移入废纸篓可撤销，完全本地运行 — 需要 macOS 14 及以上",
-      "introMarkdown": "macOS 开发者缓存清理工具，扫描 Xcode、Node、Flutter、Go、Rust、Python 等工具留下的可再生缓存，也能指定代码目录找出 node_modules、build 等构建产物；50+ 条规则并发扫描，每项标出体积、路径和风险等级，默认不勾选、清理移入废纸篓可撤销，完全本地运行 — 需要 macOS 14 及以上",
-      "status": "live",
+      "intro": "代码写久了，依赖缓存占满了磁盘？为开发者打造的依赖缓存清理工具，扫描 Xcode、Node、Flutter、Go、Rust、Python 等工具留下的可再生缓存，逐项标示风险，让你安全地把磁盘空间拿回来；每一项都标好风险，删什么由你决定",
+      "introMarkdown": "代码写久了，依赖缓存占满了磁盘？为开发者打造的依赖缓存清理工具，扫描 Xcode、Node、Flutter、Go、Rust、Python 等工具留下的可再生缓存，逐项标示风险，让你安全地把磁盘空间拿回来；每一项都标好风险，删什么由你决定",
+      "status": "developing",
       "date": "2026-10-19",
       "url": "https://www.mingcui.cn/mackit/",
       "author": "virskor",
