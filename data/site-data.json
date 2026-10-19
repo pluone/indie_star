@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-19T03:11:12.329Z",
-    "statsSyncedAt": "2026-10-19T03:11:12.329Z",
-    "upstreamSha": "808b89852e0ca2fd0e426f5856bde0dceab4b488",
+    "contentSyncedAt": "2026-10-19T09:20:44.539Z",
+    "statsSyncedAt": "2026-10-19T09:20:44.539Z",
+    "upstreamSha": "f60272656068f3e037ce6dd6e24b29e99004573d",
     "counts": {
       "main": 1656,
       "game": 143,
-      "programmer": 385,
-      "total": 2184
+      "programmer": 388,
+      "total": 2187
     }
   },
   "main": [
@@ -33257,6 +33257,63 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "ddafb613abde",
+      "board": "programmer",
+      "name": "Mackit",
+      "intro": "macOS 开发者缓存清理工具，扫描 Xcode、Node、Flutter、Go、Rust、Python 等工具留下的可再生缓存，也能指定代码目录找出 node_modules、build 等构建产物；50+ 条规则并发扫描，每项标出体积、路径和风险等级，默认不勾选、清理移入废纸篓可撤销，完全本地运行 — 需要 macOS 14 及以上",
+      "introMarkdown": "macOS 开发者缓存清理工具，扫描 Xcode、Node、Flutter、Go、Rust、Python 等工具留下的可再生缓存，也能指定代码目录找出 node_modules、build 等构建产物；50+ 条规则并发扫描，每项标出体积、路径和风险等级，默认不勾选、清理移入废纸篓可撤销，完全本地运行 — 需要 macOS 14 及以上",
+      "status": "live",
+      "date": "2026-10-19",
+      "url": "https://www.mingcui.cn/mackit/",
+      "author": "virskor",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/virskor"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "36520bff0889",
+      "board": "programmer",
+      "name": "CatCatCode",
+      "intro": "面向新手的 GPT / Claude API 接入服务，国内直连不用翻墙，注册拿密钥后按教程改 Claude Code / Codex 等即可用；月费 99 / 199 / 299",
+      "introMarkdown": "面向新手的 GPT / Claude API 接入服务，国内直连不用翻墙，注册拿密钥后按教程改 Claude Code / Codex 等即可用；月费 99 / 199 / 299",
+      "status": "live",
+      "date": "2026-10-19",
+      "url": "https://catcatcode.com/",
+      "author": "星见",
+      "authorLinks": [
+        {
+          "label": "X",
+          "url": "https://x.com/xingjian_ai"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b0dd6774d723",
+      "board": "programmer",
+      "name": "AI余额管理大师",
+      "intro": "Windows 二次元桌宠式 AI 余额/额度/订阅到期提醒工具，DeepSeek、Kimi、硅基流动、OpenRouter 填 API Key 即可用官方接口查余额，ChatGPT、Cursor 等无公开接口的平台手动记录到期日，没数据一律显示“未获取”；数据全本地、Key 系统加密，MIT 开源，Releases 提供免安装 Windows 压缩包（未签名）",
+      "introMarkdown": "Windows 二次元桌宠式 AI 余额/额度/订阅到期提醒工具，DeepSeek、Kimi、硅基流动、OpenRouter 填 API Key 即可用官方接口查余额，ChatGPT、Cursor 等无公开接口的平台手动记录到期日，没数据一律显示“未获取”；数据全本地、Key 系统加密，MIT 开源，Releases 提供免安装 Windows 压缩包（未签名）",
+      "status": "live",
+      "date": "2026-10-19",
+      "url": "https://github.com/masterball-w/AI-Balance-Master",
+      "author": "masterball-w",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/masterball-w"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "434f0842329f",
       "board": "programmer",
