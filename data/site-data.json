@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-20T01:25:38.338Z",
-    "statsSyncedAt": "2026-10-20T01:25:38.338Z",
-    "upstreamSha": "70d2a1d7f03b5d9a42f7e2d09b63a36a23239f6d",
+    "contentSyncedAt": "2026-10-20T11:55:50.834Z",
+    "statsSyncedAt": "2026-10-20T11:55:50.834Z",
+    "upstreamSha": "c3a0006b6b23643cc6586455e0dffa0bef39142a",
     "counts": {
-      "main": 1657,
+      "main": 1659,
       "game": 143,
       "programmer": 390,
-      "total": 2190
+      "total": 2192
     }
   },
   "main": [
+    {
+      "slug": "340fc34231b6",
+      "board": "main",
+      "name": "AI Doctor Scan",
+      "intro": "可见症状的照片分诊工具，上传照片并可选填写症状，获得 AI 生成的就医紧急程度提示和简短说明；首次结果免费且无需登录，可追加同一区域的照片复查，支持英语等 7 种语言（暂无中文）；仅供健康教育参考，不构成诊断或替代就医",
+      "introMarkdown": "可见症状的照片分诊工具，上传照片并可选填写症状，获得 AI 生成的就医紧急程度提示和简短说明；首次结果免费且无需登录，可追加同一区域的照片复查，支持英语等 7 种语言（暂无中文）；仅供健康教育参考，不构成诊断或替代就医",
+      "status": "live",
+      "date": "2026-10-20",
+      "url": "https://aidoctorscan.com/",
+      "author": "blowxian",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/blowxian"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "630db721bfaa",
       "board": "main",
@@ -48,6 +67,29 @@
         {
           "label": "推特",
           "url": "https://x.com/ambrosex"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "02210c279dce",
+      "board": "main",
+      "name": "VOXR",
+      "intro": "导入 AI 配音的 SRT 字幕，在浏览器本地逐句找出语速、停顿和节奏问题，整理成可回看的复核点和交给下一次 TTS 重配的提示词，免费免注册",
+      "introMarkdown": "导入 AI 配音的 SRT 字幕，在浏览器本地逐句找出语速、停顿和节奏问题，整理成可回看的复核点和交给下一次 TTS 重配的提示词，免费免注册 - [更多介绍](https://aizhiz.com/zh/posts/2026-07-29-voiceover-review-layer/)",
+      "status": "live",
+      "date": "2026-10-20",
+      "url": "https://aizhiz.com/voxr/",
+      "author": "dlxeva",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/dlxeva"
+        },
+        {
+          "label": "博客",
+          "url": "https://aizhiz.com/zh/"
         }
       ],
       "likes": 0,
