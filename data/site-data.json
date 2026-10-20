@@ -1,35 +1,16 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-20T01:00:44.400Z",
-    "statsSyncedAt": "2026-10-20T01:00:44.400Z",
-    "upstreamSha": "a752edcdef4b11ec93f772fc1a046f69b43a780a",
+    "contentSyncedAt": "2026-10-20T01:25:38.338Z",
+    "statsSyncedAt": "2026-10-20T01:25:38.338Z",
+    "upstreamSha": "70d2a1d7f03b5d9a42f7e2d09b63a36a23239f6d",
     "counts": {
-      "main": 1660,
+      "main": 1657,
       "game": 143,
       "programmer": 390,
-      "total": 2193
+      "total": 2190
     }
   },
   "main": [
-    {
-      "slug": "f029a465c5bf",
-      "board": "main",
-      "name": "黯羽轻扬",
-      "intro": "中文 AI 与软件工程内容网站，提供工程实践文章、AI 知识讲解及课程目录；内容在浏览器内阅读，免费文章可直接看，付费专栏在站内单独标价",
-      "introMarkdown": "中文 AI 与软件工程内容网站，提供工程实践文章、AI 知识讲解及课程目录；内容在浏览器内阅读，免费文章可直接看，付费专栏在站内单独标价",
-      "status": "live",
-      "date": "2026-10-20",
-      "url": "https://blog.ayqy.net/",
-      "author": "ayqy",
-      "authorLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/ayqy"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
     {
       "slug": "630db721bfaa",
       "board": "main",
@@ -6915,11 +6896,11 @@
       "comments": 0
     },
     {
-      "slug": "ab6de2460361",
+      "slug": "f7624b9a773f",
       "board": "main",
-      "name": "AI 小说作家",
-      "intro": "AI 小说创作桌面应用，把角色、世界观、大纲、写作、审校与修订串成可控流程，写长篇不崩，包含续写仿写其他小说的功能；另有 DeepSeek Harness 插件版本，可用本地模型创作成人向（NSFW）小说",
-      "introMarkdown": "AI 小说创作桌面应用，把角色、世界观、大纲、写作、审校与修订串成可控流程，写长篇不崩，包含续写仿写其他小说的功能；另有 DeepSeek Harness 插件版本，可用本地模型创作成人向（NSFW）小说",
+      "name": "书童 Pagekin（原 AI 小说作家）",
+      "intro": "开源免费的 AI 小说写作桌面软件，将设定、章节蓝图、正文、审稿和定稿放在同一项目，支持拆解仿写、续写和改写，内容由作者确认；提供 Windows/macOS 安装包，可自配 Ollama 或云端模型，另有独立的早期 DeepSeek Harness 插件预览",
+      "introMarkdown": "开源免费的 AI 小说写作桌面软件，将设定、章节蓝图、正文、审稿和定稿放在同一项目，支持拆解仿写、续写和改写，内容由作者确认；提供 Windows/macOS 安装包，可自配 Ollama 或云端模型，另有独立的早期 DeepSeek Harness 插件预览",
       "status": "live",
       "date": "2026-08-24",
       "url": "https://github.com/EthanYoQ/AI-Novel-Writer",
@@ -6934,11 +6915,11 @@
       "comments": 0
     },
     {
-      "slug": "5593c51ec1f8",
+      "slug": "9dae669ef66f",
       "board": "main",
-      "name": "Invoice Downloader",
-      "intro": "电子发票整理与报销准备桌面应用，从 QQ 或 163 邮箱批量下载发票，也可直接把发票二维码下载成发票，OCR 识别、分类归档并生成报销 Excel 汇总；另有 DeepSeek Harness 插件版本",
-      "introMarkdown": "电子发票整理与报销准备桌面应用，从 QQ 或 163 邮箱批量下载发票，也可直接把发票二维码下载成发票，OCR 识别、分类归档并生成报销 Excel 汇总；另有 DeepSeek Harness 插件版本",
+      "name": "InvoiceFlowAI 发票管家",
+      "intro": "开源发票整理与报销准备软件，从 QQ/163 邮箱批量收集 PDF/OFD/XML 发票，OCR 识别、分类归档并导出 Excel，不确定结果留给人工复核；提供 Windows/macOS 桌面版与独立 DeepSeek Harness 插件",
+      "introMarkdown": "开源发票整理与报销准备软件，从 QQ/163 邮箱批量收集 PDF/OFD/XML 发票，OCR 识别、分类归档并导出 Excel，不确定结果留给人工复核；提供 Windows/macOS 桌面版与独立 DeepSeek Harness 插件",
       "status": "live",
       "date": "2026-08-24",
       "url": "https://github.com/EthanYoQ/Invoice-Downloader",
@@ -9178,25 +9159,6 @@
       "comments": 0
     },
     {
-      "slug": "9d9bdd849e62",
-      "board": "main",
-      "name": "Invoice-Downloader",
-      "intro": "电子发票整理与报销准备工具，从 QQ/163 邮箱批量收集 PDF/OFD/XML 发票，OCR 识别、分类归档并生成 Excel 汇总；提供 Windows/macOS 桌面版与 DeepSeek Harness 插件",
-      "introMarkdown": "电子发票整理与报销准备工具，从 QQ/163 邮箱批量收集 PDF/OFD/XML 发票，OCR 识别、分类归档并生成 Excel 汇总；提供 Windows/macOS 桌面版与 DeepSeek Harness 插件",
-      "status": "live",
-      "date": "2026-07-23",
-      "url": "https://github.com/EthanYoQ/Invoice-Downloader",
-      "author": "EthanYoQ",
-      "authorLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/EthanYoQ"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
       "slug": "79200deea944",
       "board": "main",
       "name": "whisper-input",
@@ -9224,25 +9186,6 @@
       "status": "live",
       "date": "2026-07-23",
       "url": "https://github.com/EthanYoQ/agent-xiaohongshu-workbench",
-      "author": "EthanYoQ",
-      "authorLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/EthanYoQ"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "62f6ab086e1f",
-      "board": "main",
-      "name": "AI-Novel-Writer",
-      "intro": "AI 小说创作桌面软件，把灵感、角色、世界观、大纲、章节蓝图、写作、审稿和修稿组织成完整流程；提供 Windows/macOS 安装包，支持 Ollama 与 DeepSeek Harness 插件",
-      "introMarkdown": "AI 小说创作桌面软件，把灵感、角色、世界观、大纲、章节蓝图、写作、审稿和修稿组织成完整流程；提供 Windows/macOS 安装包，支持 Ollama 与 DeepSeek Harness 插件",
-      "status": "live",
-      "date": "2026-07-23",
-      "url": "https://github.com/EthanYoQ/AI-Novel-Writer",
       "author": "EthanYoQ",
       "authorLinks": [
         {
