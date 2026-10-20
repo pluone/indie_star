@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-20T12:00:50.418Z",
-    "statsSyncedAt": "2026-10-20T12:00:50.418Z",
-    "upstreamSha": "ec13887c4ed07aef71705aec9c3d9140acc502f6",
+    "contentSyncedAt": "2026-10-20T14:10:43.197Z",
+    "statsSyncedAt": "2026-10-20T14:10:43.197Z",
+    "upstreamSha": "de1fc76e9cc889fed2f2d7f4e7b396b0fc92e19c",
     "counts": {
-      "main": 1651,
+      "main": 1652,
       "game": 143,
       "programmer": 391,
-      "total": 2185
+      "total": 2186
     }
   },
   "main": [
@@ -88,6 +88,20 @@
           "url": "https://github.com/David-XIa001"
         }
       ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "a986aa144048",
+      "board": "main",
+      "name": "知海图书馆",
+      "intro": "干净的中文电子书站，可按书名、作者、出版社、ISBN 精确找书，能在线读，没有弹窗广告",
+      "introMarkdown": "干净的中文电子书站，可按书名、作者、出版社、ISBN 精确找书，能在线读，没有弹窗广告",
+      "status": "live",
+      "date": "2026-10-20",
+      "url": "https://www.zhihailib.com",
+      "author": "知海图书馆团队",
+      "authorLinks": [],
       "likes": 0,
       "comments": 0
     },
