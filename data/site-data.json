@@ -1,16 +1,58 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-20T11:55:50.834Z",
-    "statsSyncedAt": "2026-10-20T11:55:50.834Z",
-    "upstreamSha": "c3a0006b6b23643cc6586455e0dffa0bef39142a",
+    "contentSyncedAt": "2026-10-20T12:00:50.418Z",
+    "statsSyncedAt": "2026-10-20T12:00:50.418Z",
+    "upstreamSha": "ec13887c4ed07aef71705aec9c3d9140acc502f6",
     "counts": {
-      "main": 1659,
+      "main": 1651,
       "game": 143,
-      "programmer": 390,
-      "total": 2192
+      "programmer": 391,
+      "total": 2185
     }
   },
   "main": [
+    {
+      "slug": "73817927f669",
+      "board": "main",
+      "name": "DTCStack",
+      "intro": "面向 Shopify/DTC 卖家的免费电商工具库，17 个工具覆盖订单利润、广告 ROAS、支付费率、到岸成本、退货、批发定价和商品 SEO，浏览器本地计算、免登录，中英双语",
+      "introMarkdown": "面向 Shopify/DTC 卖家的免费电商工具库，17 个工具覆盖订单利润、广告 ROAS、支付费率、到岸成本、退货、批发定价和商品 SEO，浏览器本地计算、免登录，中英双语 - [更多介绍](https://www.dtcstackhq.com/tools/)",
+      "status": "live",
+      "date": "2026-10-20",
+      "url": "https://www.dtcstackhq.com/",
+      "author": "Kevin",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kevin0168"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "02210c279dce",
+      "board": "main",
+      "name": "VOXR",
+      "intro": "导入 AI 配音的 SRT 字幕，在浏览器本地逐句找出语速、停顿和节奏问题，整理成可回看的复核点和交给下一次 TTS 重配的提示词，免费免注册",
+      "introMarkdown": "导入 AI 配音的 SRT 字幕，在浏览器本地逐句找出语速、停顿和节奏问题，整理成可回看的复核点和交给下一次 TTS 重配的提示词，免费免注册 - [更多介绍](https://aizhiz.com/zh/posts/2026-07-29-voiceover-review-layer/)",
+      "status": "live",
+      "date": "2026-10-20",
+      "url": "https://aizhiz.com/voxr/",
+      "author": "dlxeva",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/dlxeva"
+        },
+        {
+          "label": "博客",
+          "url": "https://aizhiz.com/zh/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "340fc34231b6",
       "board": "main",
@@ -25,6 +67,44 @@
         {
           "label": "Github",
           "url": "https://github.com/blowxian"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "05bc6c4e4705",
+      "board": "main",
+      "name": "未寄 · Unsent",
+      "intro": "基于地理坐标的时空信箱与情绪树洞，把未曾寄出的话留在真实物理位置上；支持五维情绪呼吸微光、时空信封倒计时封存、纸飞机善意回音与自带经纬度印章的拍立得海报导出，完全开源免费",
+      "introMarkdown": "基于地理坐标的时空信箱与情绪树洞，把未曾寄出的话留在真实物理位置上；支持五维情绪呼吸微光、时空信封倒计时封存、纸飞机善意回音与自带经纬度印章的拍立得海报导出，完全开源免费 - [源码](https://github.com/David-XIa001/unsent)",
+      "status": "live",
+      "date": "2026-10-20",
+      "url": "https://env-00jy5xxt7kdo-static.normal.cloudstatic.cn",
+      "author": "David-XIa001",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/David-XIa001"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "43044a75c379",
+      "board": "main",
+      "name": "ExamParser",
+      "intro": "把 Word、PDF 或 Google 文档一键转成 Canvas 可直接导入的题库，免登录、文件用完即删，老师再也不用手动一道道录题",
+      "introMarkdown": "把 Word、PDF 或 Google 文档一键转成 Canvas 可直接导入的题库，免登录、文件用完即删，老师再也不用手动一道道录题",
+      "status": "live",
+      "date": "2026-10-20",
+      "url": "https://examparser.com",
+      "author": "Nanshanelectrician",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Nanshanelectrician"
         }
       ],
       "likes": 0,
@@ -67,29 +147,6 @@
         {
           "label": "推特",
           "url": "https://x.com/ambrosex"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "02210c279dce",
-      "board": "main",
-      "name": "VOXR",
-      "intro": "导入 AI 配音的 SRT 字幕，在浏览器本地逐句找出语速、停顿和节奏问题，整理成可回看的复核点和交给下一次 TTS 重配的提示词，免费免注册",
-      "introMarkdown": "导入 AI 配音的 SRT 字幕，在浏览器本地逐句找出语速、停顿和节奏问题，整理成可回看的复核点和交给下一次 TTS 重配的提示词，免费免注册 - [更多介绍](https://aizhiz.com/zh/posts/2026-07-29-voiceover-review-layer/)",
-      "status": "live",
-      "date": "2026-10-20",
-      "url": "https://aizhiz.com/voxr/",
-      "author": "dlxeva",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/dlxeva"
-        },
-        {
-          "label": "博客",
-          "url": "https://aizhiz.com/zh/"
         }
       ],
       "likes": 0,
@@ -30396,232 +30453,6 @@
       ],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "4bf2ab84190d",
-      "board": "main",
-      "name": "XShorts",
-      "intro": "一键将优质 Tweet 转换为数字人短视频。定制化声音、AI背景图片，自动化发布。轻松创作内容优质的短视频",
-      "introMarkdown": "一键将优质 Tweet 转换为数字人短视频。定制化声音、AI背景图片，自动化发布。轻松创作内容优质的短视频",
-      "status": "live",
-      "date": "2024-12-24",
-      "url": "https://xshorts.pro/",
-      "author": "KIAN",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "c2884654a3f4",
-      "board": "main",
-      "name": "Free Open Graph Generator",
-      "intro": "Open Graph图片制作工具，支持多种布局，支持调整文字+背景，支持导出PNG，免费无水印",
-      "introMarkdown": "Open Graph图片制作工具，支持多种布局，支持调整文字+背景，支持导出PNG，免费无水印",
-      "status": "live",
-      "date": "2024-12-24",
-      "url": "https://og.indiehub.best/",
-      "author": "Indie Maker Fox",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github/javayhu"
-        },
-        {
-          "label": "Twitter",
-          "url": "https://x.com/indie_maker_fox"
-        },
-        {
-          "label": "Blog",
-          "url": "https://mksaas.me"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "7d0e924c9ae1",
-      "board": "main",
-      "name": "短剧大王",
-      "intro": "短剧爱好者的免费观影神器，带你畅享短剧盛宴！本应用完全免费！即可尽情观看海量短剧。如寻觅无果？别担心！只需轻松留言告知您心仪的短剧名称，我们会尽快为您找到资源",
-      "introMarkdown": "短剧爱好者的免费观影神器，带你畅享短剧盛宴！本应用完全免费！即可尽情观看海量短剧。如寻觅无果？别担心！只需轻松留言告知您心仪的短剧名称，我们会尽快为您找到资源 - [API 免费开放](https://www.inav.site/mp#/pageC/api/api)",
-      "status": "live",
-      "date": "2024-12-23",
-      "url": "https://www.inav.site/v",
-      "author": "前端小周",
-      "authorLinks": [
-        {
-          "label": "github",
-          "url": "https://github.com/webjuzi"
-        },
-        {
-          "label": "博客",
-          "url": "https://www.inav.site/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "fcec19dbbba6",
-      "board": "main",
-      "name": "GitHub Cards",
-      "intro": "将你的 GitHub 数据转换成漂亮易分享的卡片图",
-      "introMarkdown": "将你的 GitHub 数据转换成漂亮易分享的卡片图",
-      "status": "live",
-      "date": "2024-12-23",
-      "url": "https://github.cards",
-      "author": "Corey Chiu",
-      "authorLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/iamcorey"
-        },
-        {
-          "label": "博客",
-          "url": "https://coreychiu.com"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "2978c1a8aa16",
-      "board": "main",
-      "name": "Mkdirs",
-      "intro": "最好的导航站模板，默认集成注册登录、支付、邮件、博客、导航站等所有功能",
-      "introMarkdown": "最好的导航站模板，默认集成注册登录、支付、邮件、博客、导航站等所有功能",
-      "status": "live",
-      "date": "2024-12-22",
-      "url": "https://mkdirs.com/",
-      "author": "Indie Maker Fox",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github/javayhu"
-        },
-        {
-          "label": "Twitter",
-          "url": "https://x.com/indie_maker_fox"
-        },
-        {
-          "label": "Blog",
-          "url": "https://mksaas.me"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "642cd00f2008",
-      "board": "main",
-      "name": "IndieHub",
-      "intro": "最好的独立开发者导航站，收录400+独立开发工具，支持开发者提交产品",
-      "introMarkdown": "最好的独立开发者导航站，收录400+独立开发工具，支持开发者提交产品",
-      "status": "live",
-      "date": "2024-12-22",
-      "url": "https://indiehub.best/",
-      "author": "Indie Maker Fox",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github/javayhu"
-        },
-        {
-          "label": "Twitter",
-          "url": "https://x.com/indie_maker_fox"
-        },
-        {
-          "label": "Blog",
-          "url": "https://mksaas.me"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1ed2a8da3e34",
-      "board": "main",
-      "name": "帽子云",
-      "intro": "GitHub Pages / Cloudflare Pages 的国产替代方案，集成化的静态网站快速创建平台",
-      "introMarkdown": "GitHub Pages / Cloudflare Pages 的国产替代方案，集成化的静态网站快速创建平台 - [更多介绍](https://www.maoziyun.com/docs/introduction)",
-      "status": "live",
-      "date": "2024-12-17",
-      "url": "https://www.maoziyun.com/",
-      "author": "joyoyao",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/joyoyao"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "a7c5ff6d736e",
-      "board": "main",
-      "name": "BlueSky 工具目录站点",
-      "intro": "目前最完整的 BlueSky 工具收录站点",
-      "introMarkdown": "目前最完整的 BlueSky 工具收录站点",
-      "status": "live",
-      "date": "2024-12-14",
-      "url": "https://bskyinfo.com",
-      "author": "Leo",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1b74b15f5ef6",
-      "board": "main",
-      "name": "UnblurImage AI",
-      "intro": "图片无损放大变清晰网站（免费无广）",
-      "introMarkdown": "图片无损放大变清晰网站（免费无广）",
-      "status": "live",
-      "date": "2024-12-11",
-      "url": "https://unblurimage.ai/zh",
-      "author": "Aining",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "3678f7e7c67f",
-      "board": "main",
-      "name": "PodExtra AI",
-      "intro": "播客内容摘要生成器（有文字稿和思维导图）",
-      "introMarkdown": "播客内容摘要生成器（有文字稿和思维导图） - [更多介绍](https://www.podextra.ai/)",
-      "status": "live",
-      "date": "2024-12-11",
-      "url": "https://www.podextra.ai/",
-      "author": "Terry",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/jamieme"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6900a320e263",
-      "board": "main",
-      "name": "Autoppt",
-      "intro": "AI 演示文稿生成工具，彻底改变了您创建演示文稿的方式。凭借丰富的模板和强大的功能，让您轻松在几分钟内制作出令人惊叹的演示文稿",
-      "introMarkdown": "AI 演示文稿生成工具，彻底改变了您创建演示文稿的方式。凭借丰富的模板和强大的功能，让您轻松在几分钟内制作出令人惊叹的演示文稿",
-      "status": "live",
-      "date": "2024-12-10",
-      "url": "https://autoppt.com",
-      "author": "cuiheng511",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/cuiheng511"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
@@ -33330,6 +33161,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "9138a5dce310",
+      "board": "programmer",
+      "name": "Open Resume",
+      "intro": "可自部署的开源简历编辑器，156 款模板全部开放，免费无水印导出 PDF、PNG 和 JSON 备份，支持中文等七种界面语言，数据保存在自己的 SQLite；需 Docker 或 Node.js 24+ 部署，MIT 协议",
+      "introMarkdown": "可自部署的开源简历编辑器，156 款模板全部开放，免费无水印导出 PDF、PNG 和 JSON 备份，支持中文等七种界面语言，数据保存在自己的 SQLite；需 Docker 或 Node.js 24+ 部署，MIT 协议",
+      "status": "live",
+      "date": "2026-10-20",
+      "url": "https://github.com/AniChikage/open-resume",
+      "author": "AniChikage",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/AniChikage"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "0bb4fa6bdcf2",
       "board": "programmer",
