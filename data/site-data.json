@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-20T23:34:42.171Z",
-    "statsSyncedAt": "2026-10-20T23:34:42.171Z",
-    "upstreamSha": "de1fc76e9cc889fed2f2d7f4e7b396b0fc92e19c",
+    "contentSyncedAt": "2026-10-21T01:10:45.827Z",
+    "statsSyncedAt": "2026-10-21T01:10:45.827Z",
+    "upstreamSha": "271f2457f4d059e59bb770cdc4820673d69c0c1d",
     "counts": {
-      "main": 1652,
+      "main": 1654,
       "game": 143,
       "programmer": 391,
-      "total": 2186
+      "total": 2188
     }
   },
   "main": [
+    {
+      "slug": "b1ab0040cdf9",
+      "board": "main",
+      "name": "TradeSniper",
+      "intro": "A 股与期货行情站，手机上集合策略与做 T 辅助，方便盯盘和短线操作",
+      "introMarkdown": "A 股与期货行情站，手机上集合策略与做 T 辅助，方便盯盘和短线操作",
+      "status": "live",
+      "date": "2026-10-21",
+      "url": "https://x-swap.cn/tradesniper/",
+      "author": "yi wangyi",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wagnyi793797714"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "52d20974a499",
+      "board": "main",
+      "name": "AjaxModel Release Tracker",
+      "intro": "Ajax 模型发布追踪站，汇总官方来源、发布时间线和本地运行指南，免登录查看；非官方项目，不提供未发布模型的权重下载",
+      "introMarkdown": "Ajax 模型发布追踪站，汇总官方来源、发布时间线和本地运行指南，免登录查看；非官方项目，不提供未发布模型的权重下载",
+      "status": "live",
+      "date": "2026-10-21",
+      "url": "https://ajaxmodel.dev/",
+      "author": "fisher-byte",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fisher-byte"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "73817927f669",
       "board": "main",
