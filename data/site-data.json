@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-21T07:56:16.335Z",
-    "statsSyncedAt": "2026-10-21T07:56:16.335Z",
-    "upstreamSha": "9be6feac0e086d4307af18771a652d773b737ec0",
+    "contentSyncedAt": "2026-10-21T08:11:32.889Z",
+    "statsSyncedAt": "2026-10-21T08:11:32.889Z",
+    "upstreamSha": "e5e5cb698c7b053d064ae0c0aaf1f9d743663d8d",
     "counts": {
-      "main": 1653,
+      "main": 1656,
       "game": 143,
       "programmer": 392,
-      "total": 2188
+      "total": 2191
     }
   },
   "main": [
+    {
+      "slug": "eea0896548f1",
+      "board": "main",
+      "name": "Notebook Generator",
+      "intro": "免费生成可打印的笔记本、手帐、日历 PDF，100 多种内页模板与多种纸张尺寸，可导出对折装订的小册子，无需注册，PDF 在浏览器本地生成",
+      "introMarkdown": "免费生成可打印的笔记本、手帐、日历 PDF，100 多种内页模板与多种纸张尺寸，可导出对折装订的小册子，无需注册，PDF 在浏览器本地生成",
+      "status": "live",
+      "date": "2026-10-21",
+      "url": "https://www.notebookgenerator.com/zh-CN/",
+      "author": "tusunsun",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tusunsun"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4616b2151406",
+      "board": "main",
+      "name": "SliceLoft",
+      "intro": "免费的 3D 打印文件工具，全部在浏览器本地运行、不上传文件：把 Bambu Studio / OrcaSlicer 的 3MF 项目按盘或按零件转成 STL，也支持 STL→3MF、OBJ→STL、STEP→STL，在线预览 3MF/STL，还能自定义生成免支撑打印的星形指尖陀螺",
+      "introMarkdown": "免费的 3D 打印文件工具，全部在浏览器本地运行、不上传文件：把 Bambu Studio / OrcaSlicer 的 3MF 项目按盘或按零件转成 STL，也支持 STL→3MF、OBJ→STL、STEP→STL，在线预览 3MF/STL，还能自定义生成免支撑打印的星形指尖陀螺",
+      "status": "live",
+      "date": "2026-10-21",
+      "url": "https://sliceloft.com/",
+      "author": "abyssalyanbin",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/abyssalyanbin"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "03b269e8ddc3",
+      "board": "main",
+      "name": "PowerStation Size",
+      "intro": "便携储能计算器，按实际负载分别核对容量、持续功率和逆变器浪涌；X-Boost / Power Lifting / SurgePad 等 boost 峰值不能当作冰箱压缩机启动余量，规格从厂商页抄录并标注核对日期，免费开源",
+      "introMarkdown": "便携储能计算器，按实际负载分别核对容量、持续功率和逆变器浪涌；X-Boost / Power Lifting / SurgePad 等 boost 峰值不能当作冰箱压缩机启动余量，规格从厂商页抄录并标注核对日期，免费开源 — [源码](https://github.com/rosebsnowden-eng/powerstation-size)",
+      "status": "live",
+      "date": "2026-10-21",
+      "url": "https://powerstationsize.com/",
+      "author": "Chen Jie",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/rosebsnowden-eng"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "74bee1953808",
       "board": "main",
