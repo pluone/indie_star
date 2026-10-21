@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-21T03:51:05.623Z",
-    "statsSyncedAt": "2026-10-21T03:51:05.623Z",
-    "upstreamSha": "64e40cf6ee7c794ec554a91342dff01d628de238",
+    "contentSyncedAt": "2026-10-21T07:56:16.335Z",
+    "statsSyncedAt": "2026-10-21T07:56:16.335Z",
+    "upstreamSha": "9be6feac0e086d4307af18771a652d773b737ec0",
     "counts": {
       "main": 1653,
       "game": 143,
@@ -85,7 +85,7 @@
         }
       ],
       "likes": 0,
-      "comments": 0
+      "comments": 1
     },
     {
       "slug": "b1ab0040cdf9",
