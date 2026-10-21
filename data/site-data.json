@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-21T08:11:32.889Z",
-    "statsSyncedAt": "2026-10-21T08:11:32.889Z",
-    "upstreamSha": "e5e5cb698c7b053d064ae0c0aaf1f9d743663d8d",
+    "contentSyncedAt": "2026-10-21T08:16:22.499Z",
+    "statsSyncedAt": "2026-10-21T08:16:22.499Z",
+    "upstreamSha": "38970282cbb23c35910dff2f7b86c1d94f1bdc2e",
     "counts": {
       "main": 1656,
       "game": 143,
@@ -34,8 +34,8 @@
       "slug": "4616b2151406",
       "board": "main",
       "name": "SliceLoft",
-      "intro": "免费的 3D 打印文件工具，全部在浏览器本地运行、不上传文件：把 Bambu Studio / OrcaSlicer 的 3MF 项目按盘或按零件转成 STL，也支持 STL→3MF、OBJ→STL、STEP→STL，在线预览 3MF/STL，还能自定义生成免支撑打印的星形指尖陀螺",
-      "introMarkdown": "免费的 3D 打印文件工具，全部在浏览器本地运行、不上传文件：把 Bambu Studio / OrcaSlicer 的 3MF 项目按盘或按零件转成 STL，也支持 STL→3MF、OBJ→STL、STEP→STL，在线预览 3MF/STL，还能自定义生成免支撑打印的星形指尖陀螺",
+      "intro": "3D 打印文件工具（免费），全部在浏览器本地运行、不上传文件：把 Bambu Studio / OrcaSlicer 的 3MF 项目按盘或按零件转成 STL，也支持 STL→3MF、OBJ→STL、STEP→STL，在线预览 3MF/STL，还能自定义生成免支撑打印的星形指尖陀螺",
+      "introMarkdown": "3D 打印文件工具（免费），全部在浏览器本地运行、不上传文件：把 Bambu Studio / OrcaSlicer 的 3MF 项目按盘或按零件转成 STL，也支持 STL→3MF、OBJ→STL、STEP→STL，在线预览 3MF/STL，还能自定义生成免支撑打印的星形指尖陀螺",
       "status": "live",
       "date": "2026-10-21",
       "url": "https://sliceloft.com/",
