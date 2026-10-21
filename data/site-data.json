@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-21T08:26:50.359Z",
-    "statsSyncedAt": "2026-10-21T08:26:50.359Z",
-    "upstreamSha": "2a6fa27ea9a06a2c743a72313e84c4fe568427ce",
+    "contentSyncedAt": "2026-10-21T13:20:41.525Z",
+    "statsSyncedAt": "2026-10-21T13:20:41.525Z",
+    "upstreamSha": "f5d69d2c373c93eee2e5044dcbf9bc0a671f5032",
     "counts": {
       "main": 1656,
-      "game": 143,
-      "programmer": 392,
-      "total": 2191
+      "game": 144,
+      "programmer": 393,
+      "total": 2193
     }
   },
   "main": [
@@ -30548,6 +30548,25 @@
   ],
   "game": [
     {
+      "slug": "8798f2e26eee",
+      "board": "game",
+      "name": "Ride a Pet Wiki",
+      "intro": "Ride a Pet 非官方资料站，整理宠物、蛋、转生、突变、装备和食物，方便玩家随时查询",
+      "introMarkdown": "Ride a Pet 非官方资料站，整理宠物、蛋、转生、突变、装备和食物，方便玩家随时查询",
+      "status": "live",
+      "date": "2026-10-21",
+      "url": "https://ride-a-pet-rblx.wiki/",
+      "author": "sam ice",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sam-ice-star/ride-a-pet"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "2e52917e3b4b",
       "board": "game",
       "name": "球场经理",
@@ -33253,6 +33272,25 @@
   ],
   "programmer": [
     {
+      "slug": "6884f22332c0",
+      "board": "programmer",
+      "name": "Wan API",
+      "intro": "Wan 3.0 / Prime / Pro 与 Seedance 2.0 / 2.5 视频模型的 API 中转，按秒计费（480p 每秒 $0.0275，约为官方标价 55%），支持文生视频、首尾帧与多模态参考输入、最长 30 秒且默认带声音，注册后在后台创建 key、充值即可调用",
+      "introMarkdown": "Wan 3.0 / Prime / Pro 与 Seedance 2.0 / 2.5 视频模型的 API 中转，按秒计费（480p 每秒 $0.0275，约为官方标价 55%），支持文生视频、首尾帧与多模态参考输入、最长 30 秒且默认带声音，注册后在后台创建 key、充值即可调用",
+      "status": "live",
+      "date": "2026-10-21",
+      "url": "https://wanapi.app/",
+      "author": "reAPI",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/reAPIAI"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "8b554e3a4d5c",
       "board": "programmer",
       "name": "Yeahboot 开源后台脚手架",
@@ -34039,8 +34077,8 @@
       "slug": "0d83a5786cdb",
       "board": "programmer",
       "name": "mu",
-      "intro": "编程 Agent，带一个判定内核：30 多个决策点上的例行判断交给小而快的判定模型 Jev，比如长工具输出里哪些片段进上下文、被规则拦下的命令是不是用户要的、网页和 MCP 结果里有没有冲着模型来的指令，大模型只管干活，每次判断都记进本地账本；基于 pi 与 AionUi，命令行 npm i -g mu-agent 即用，桌面端支持 macOS / Windows / Linux，MIT 开源（桌面端 Apache-2.0）",
-      "introMarkdown": "编程 Agent，带一个判定内核：30 多个决策点上的例行判断交给小而快的判定模型 Jev，比如长工具输出里哪些片段进上下文、被规则拦下的命令是不是用户要的、网页和 MCP 结果里有没有冲着模型来的指令，大模型只管干活，每次判断都记进本地账本；基于 pi 与 AionUi，命令行 `npm i -g mu-agent` 即用，桌面端支持 macOS / Windows / Linux，MIT 开源（桌面端 Apache-2.0） - [中文说明](https://github.com/qybaihe/mu/blob/main/docs/readme/README.zh-CN.md)",
+      "intro": "带判定内核的开源编码代理，一个小而快的判定模型在 40 个判定点上替大模型做每一轮的例行决定（上下文、命令安全、是否真的完成、提示注入筛查），大模型专心写代码，每次判定都记进本地流水；命令行 npm i -g mu-agent，另有 macOS / Windows / Linux 桌面端，MIT 开源（桌面端中来自 AionUi 的文件仍为 Apache-2.0）",
+      "introMarkdown": "带判定内核的开源编码代理，一个小而快的判定模型在 40 个判定点上替大模型做每一轮的例行决定（上下文、命令安全、是否真的完成、提示注入筛查），大模型专心写代码，每次判定都记进本地流水；命令行 `npm i -g mu-agent`，另有 macOS / Windows / Linux 桌面端，MIT 开源（桌面端中来自 AionUi 的文件仍为 Apache-2.0） - [中文官网](https://usemu.dev/)",
       "status": "live",
       "date": "2026-10-06",
       "url": "https://github.com/qybaihe/mu",
