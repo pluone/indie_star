@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-21T01:10:45.827Z",
-    "statsSyncedAt": "2026-10-21T01:10:45.827Z",
-    "upstreamSha": "271f2457f4d059e59bb770cdc4820673d69c0c1d",
+    "contentSyncedAt": "2026-10-21T01:15:47.591Z",
+    "statsSyncedAt": "2026-10-21T01:15:47.591Z",
+    "upstreamSha": "eeaf8c3a299fdea6ff1508d4458e6c295246d88e",
     "counts": {
-      "main": 1654,
+      "main": 1656,
       "game": 143,
       "programmer": 391,
-      "total": 2188
+      "total": 2190
     }
   },
   "main": [
@@ -31,6 +31,25 @@
       "comments": 0
     },
     {
+      "slug": "5d1f51e12dc7",
+      "board": "main",
+      "name": "MyFateGPT（紫微命书）",
+      "intro": "中文紫微斗数排盘与 AI 白话解读工具，免费查看十二宫命盘和部分试读；完整七章报告一次性 ¥299 / US$39，含 PDF，另有出生时间、农历闰月和排盘差异的简繁体指南",
+      "introMarkdown": "中文紫微斗数排盘与 AI 白话解读工具，免费查看十二宫命盘和部分试读；完整七章报告一次性 ¥299 / US$39，含 PDF，另有出生时间、农历闰月和排盘差异的简繁体指南",
+      "status": "live",
+      "date": "2026-10-21",
+      "url": "https://myfategpt.com/",
+      "author": "Jayden-tong",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Jayden-tong"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "52d20974a499",
       "board": "main",
       "name": "AjaxModel Release Tracker",
@@ -44,6 +63,25 @@
         {
           "label": "Github",
           "url": "https://github.com/fisher-byte"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "74b73b7455ce",
+      "board": "main",
+      "name": "SongFromVideo",
+      "intro": "视频识曲工具，粘贴 TikTok/YouTube/Instagram/Facebook/X 链接或上传音视频就能找出背景音乐，登录后首次识别免费",
+      "introMarkdown": "视频识曲工具，粘贴 TikTok/YouTube/Instagram/Facebook/X 链接或上传音视频就能找出背景音乐，登录后首次识别免费",
+      "status": "live",
+      "date": "2026-10-21",
+      "url": "https://songfromvideo.com/",
+      "author": "蚊子",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/coderWenzi"
         }
       ],
       "likes": 0,
