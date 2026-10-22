@@ -1,16 +1,63 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-21T23:51:41.274Z",
-    "statsSyncedAt": "2026-10-21T23:51:41.274Z",
-    "upstreamSha": "f5d69d2c373c93eee2e5044dcbf9bc0a671f5032",
+    "contentSyncedAt": "2026-10-22T02:00:42.181Z",
+    "statsSyncedAt": "2026-10-22T02:00:42.181Z",
+    "upstreamSha": "0756c0afe94f5c33cb554736274d4e4e1fcbb210",
     "counts": {
-      "main": 1656,
-      "game": 144,
+      "main": 1652,
+      "game": 148,
       "programmer": 393,
       "total": 2193
     }
   },
   "main": [
+    {
+      "slug": "06b9fe97756c",
+      "board": "main",
+      "name": "Rainku",
+      "intro": "AI 日记，在雨声里写下今天，和你的 AI 聊聊，把乱糟糟的一天变成值得留下的东西；中英日韩等 6 种界面语言，登录后在浏览器里用，有免费额度",
+      "introMarkdown": "AI 日记，在雨声里写下今天，和你的 AI 聊聊，把乱糟糟的一天变成值得留下的东西；中英日韩等 6 种界面语言，登录后在浏览器里用，有免费额度",
+      "status": "live",
+      "date": "2026-10-22",
+      "url": "https://www.rainku.com/zh-CN?ref=cid",
+      "author": "Worldku 团队",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "bfb2c752473a",
+      "board": "main",
+      "name": "Tuneku FM",
+      "intro": "私人 AI 电台，把你电脑里的歌变成电台，歌与歌之间你的 AI 时不时像主持人一样聊一两句，打字或用语音点歌；不用下载，登录后在浏览器里听",
+      "introMarkdown": "私人 AI 电台，把你电脑里的歌变成电台，歌与歌之间你的 AI 时不时像主持人一样聊一两句，打字或用语音点歌；不用下载，登录后在浏览器里听",
+      "status": "live",
+      "date": "2026-10-22",
+      "url": "https://www.tuneku.com/zh-CN?ref=cid",
+      "author": "Worldku 团队",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "bfe2114fcfd8",
+      "board": "main",
+      "name": "这图能改",
+      "intro": "iPhone 图片视频工具箱，把任意视频转成可设为动态壁纸的实况照片（Live Photo），还能把图片压缩到指定文件大小、视频压缩、视频转 GIF、格式转换和改尺寸，普通处理全在手机本机完成不上传；iOS 17+，App Store 审核中，现可通过 TestFlight 公开测试免费体验",
+      "introMarkdown": "iPhone 图片视频工具箱，把任意视频转成可设为动态壁纸的实况照片（Live Photo），还能把图片压缩到指定文件大小、视频压缩、视频转 GIF、格式转换和改尺寸，普通处理全在手机本机完成不上传；iOS 17+，App Store 审核中，现可通过 TestFlight 公开测试免费体验 - [TestFlight 加入链接](https://testflight.apple.com/join/GK8ht2vv)",
+      "status": "developing",
+      "date": "2026-10-22",
+      "url": "https://hugehard.app/apps/this-pic-can-change/",
+      "author": "HugeHard Studio",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ilimei"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "eea0896548f1",
       "board": "main",
@@ -30422,131 +30469,65 @@
       ],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "28e73c88ad53",
-      "board": "main",
-      "name": "PhotoG",
-      "intro": "专为电商卖家打造的 AI 摄影工具。轻松制作专业级产品图片，自定义背景，优化视觉效果，助力销售增长",
-      "introMarkdown": "专为电商卖家打造的 AI 摄影工具。轻松制作专业级产品图片，自定义背景，优化视觉效果，助力销售增长",
-      "status": "live",
-      "date": "2025-01-24",
-      "url": "https://photog.art/",
-      "author": "JasmineChzI",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "3b774a6ba781",
-      "board": "main",
-      "name": "优好搜·SEO优化工具",
-      "intro": "免费精准诊断网站 SEO 状况，提供专业审查报告，致力保障网站和品牌在搜索引擎内的可见性",
-      "introMarkdown": "免费精准诊断网站 SEO 状况，提供专业审查报告，致力保障网站和品牌在搜索引擎内的可见性 - [更多介绍](https://www.uhaoseo.com/seo-analyzer)",
-      "status": "live",
-      "date": "2025-01-23",
-      "url": "https://www.uhaoseo.com",
-      "author": "wo-zx",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "af2b24732b9d",
-      "board": "main",
-      "name": "Minute Timer",
-      "intro": "计时器（轻量级且用户友好）",
-      "introMarkdown": "计时器（轻量级且用户友好）",
-      "status": "live",
-      "date": "2025-01-22",
-      "url": "https://minutetimers.net/",
-      "author": "moldav",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/HahaHa0099/MinuteTimer"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "61c9d9dba673",
-      "board": "main",
-      "name": "Staying",
-      "intro": "交互式可视化 Python & Javascript 代码",
-      "introMarkdown": "交互式可视化 Python & Javascript 代码 - [更多介绍](https://staying.fun/zh/docs/getting-started)",
-      "status": "live",
-      "date": "2025-01-14",
-      "url": "https://staying.fun",
-      "author": "lezhu",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "eed38b60e468",
-      "board": "main",
-      "name": "Image Describer",
-      "intro": "提供对艺术作品的深入分析（背景、寓意、构图元素），帮助用户更深层次地理解和欣赏艺术创作和评价编写",
-      "introMarkdown": "提供对艺术作品的深入分析（背景、寓意、构图元素），帮助用户更深层次地理解和欣赏艺术创作和评价编写",
-      "status": "live",
-      "date": "2025-01-14",
-      "url": "https://imagedescriber.app/",
-      "author": "Sean",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ShurshanX"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "21653c44ccae",
-      "board": "main",
-      "name": "猫步简历",
-      "intro": "简历制作神器（开源免费）",
-      "introMarkdown": "简历制作神器（开源免费）",
-      "status": "live",
-      "date": "2025-01-14",
-      "url": "https://maobucv.com/",
-      "author": "天之蓝源",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Hacker233/resume-design"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f7766b714007",
-      "board": "main",
-      "name": "小报童排行榜",
-      "intro": "哪些付费专栏最赚钱",
-      "introMarkdown": "哪些付费专栏最赚钱",
-      "status": "live",
-      "date": "2025-01-13",
-      "url": "https://xiaobaoto.com/ranking/",
-      "author": "zijiuok",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/zijiuok"
-        },
-        {
-          "label": "Twitter/X",
-          "url": "https://x.com/zijiuok"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
+    {
+      "slug": "5d6cf8011b25",
+      "board": "game",
+      "name": "Locoku",
+      "intro": "看照片猜地点的网页游戏，看几张真实照片从四个选项里猜是哪里，或在真实街景里找线索、在地图上标出位置，和你的 AI 一起玩；不用下载，登录后开始",
+      "introMarkdown": "看照片猜地点的网页游戏，看几张真实照片从四个选项里猜是哪里，或在真实街景里找线索、在地图上标出位置，和你的 AI 一起玩；不用下载，登录后开始",
+      "status": "live",
+      "date": "2026-10-22",
+      "url": "https://www.locoku.com/zh-CN?ref=cid",
+      "author": "Worldku 团队",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "2ceffb96287a",
+      "board": "game",
+      "name": "Fishingku",
+      "intro": "治愈系网页钓鱼游戏，和你的 AI 同坐一艘小船抛竿、等鱼、聊天，16 处水域、80 种鱼；不用下载，登录后在浏览器里玩",
+      "introMarkdown": "治愈系网页钓鱼游戏，和你的 AI 同坐一艘小船抛竿、等鱼、聊天，16 处水域、80 种鱼；不用下载，登录后在浏览器里玩",
+      "status": "live",
+      "date": "2026-10-22",
+      "url": "https://www.fishingku.com/zh-CN?ref=cid",
+      "author": "Worldku 团队",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "fe91d3ac7d05",
+      "board": "game",
+      "name": "Gridku",
+      "intro": "和你的 AI 下国际象棋、中国象棋、五子棋和西洋双陆棋，切磋时对面每一步由你的 AI 来走，挑战时你的 AI 陪你打青铜到钻石对手；不用下载，登录后用浏览器玩",
+      "introMarkdown": "和你的 AI 下国际象棋、中国象棋、五子棋和西洋双陆棋，切磋时对面每一步由你的 AI 来走，挑战时你的 AI 陪你打青铜到钻石对手；不用下载，登录后用浏览器玩",
+      "status": "live",
+      "date": "2026-10-22",
+      "url": "https://www.gridku.com/zh-CN?ref=cid",
+      "author": "Worldku 团队",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "3e1fcf7186bf",
+      "board": "game",
+      "name": "AI2P",
+      "intro": "和你的 AI 结伴游玩的 AI 互动小说，挑一个故事，用自己的话提问、行动，一起走向你们的结局；中文，登录后在浏览器里玩",
+      "introMarkdown": "和你的 AI 结伴游玩的 AI 互动小说，挑一个故事，用自己的话提问、行动，一起走向你们的结局；中文，登录后在浏览器里玩",
+      "status": "live",
+      "date": "2026-10-22",
+      "url": "https://www.ai2papp.com/?ref=cid",
+      "author": "Worldku 团队",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "8798f2e26eee",
       "board": "game",
