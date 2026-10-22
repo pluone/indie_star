@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-22T16:30:40.917Z",
-    "statsSyncedAt": "2026-10-22T16:30:40.917Z",
-    "upstreamSha": "659788047a7270636e03d7cfcfe25d231c80eb55",
+    "contentSyncedAt": "2026-10-22T16:35:43.559Z",
+    "statsSyncedAt": "2026-10-22T16:35:43.559Z",
+    "upstreamSha": "e0cc08d4368e0df4eb7f2c0f1faa751601452796",
     "counts": {
-      "main": 1653,
+      "main": 1648,
       "game": 148,
       "programmer": 395,
-      "total": 2196
+      "total": 2191
     }
   },
   "main": [
+    {
+      "slug": "67cc522745e0",
+      "board": "main",
+      "name": "Everygen AI",
+      "intro": "免费 AI 图片与视频创作工作台，Grok Imagine、Kling、Seedance、GPT Image、Nano Banana 等热门模型集中在一处，另可用 Suno 生成音乐；生成图片无需登录，新访客有欢迎积分可直接试用，登录后有新用户奖励和每日免费积分，每次生成前先显示所需积分；独立站点，与同名的其他 Everygen 产品无关",
+      "introMarkdown": "免费 AI 图片与视频创作工作台，Grok Imagine、Kling、Seedance、GPT Image、Nano Banana 等热门模型集中在一处，另可用 Suno 生成音乐；生成图片无需登录，新访客有欢迎积分可直接试用，登录后有新用户奖励和每日免费积分，每次生成前先显示所需积分；独立站点，与同名的其他 Everygen 产品无关",
+      "status": "live",
+      "date": "2026-10-23",
+      "url": "https://everygenai.io/",
+      "author": "watreesir",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/watreesir"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "922b425f7be8",
+      "board": "main",
+      "name": "UUScribe",
+      "intro": "在线音视频转文字工具，上传录音或粘贴 YouTube 链接，在线校对并导出 TXT、DOCX、PDF、CSV、SRT/VTT；支持说话人区分、翻译和 AI 摘要，免费账号每月 120 分钟，另有按量付费及订阅方案",
+      "introMarkdown": "在线音视频转文字工具，上传录音或粘贴 YouTube 链接，在线校对并导出 TXT、DOCX、PDF、CSV、SRT/VTT；支持说话人区分、翻译和 AI 摘要，免费账号每月 120 分钟，另有按量付费及订阅方案",
+      "status": "live",
+      "date": "2026-10-23",
+      "url": "https://scribe.uustudio.cc/",
+      "author": "UU Studio",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/6a209"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "286186807248",
+      "board": "main",
+      "name": "巨浪 AI",
+      "intro": "AI 模型/API 报价查询网站（免费），无需登录，可按模型查服务商报价、计费单位和原始来源，区分账户余额与实际费用",
+      "introMarkdown": "AI 模型/API 报价查询网站（免费），无需登录，可按模型查服务商报价、计费单位和原始来源，区分账户余额与实际费用",
+      "status": "live",
+      "date": "2026-10-23",
+      "url": "https://jvlangai.com/",
+      "author": "2EU55",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/2EU55"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "d3289bc9d0cc",
       "board": "main",
@@ -30345,162 +30402,6 @@
         {
           "label": "Github",
           "url": "https://github.com/shensven"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "fd634e30c5c7",
-      "board": "main",
-      "name": "高能闪刻 | Highlight Pulse",
-      "intro": "实时标记B站直播的高光时刻，一键导出记录数据，查看切片工具箱",
-      "introMarkdown": "实时标记B站直播的高光时刻，一键导出记录数据，查看切片工具箱",
-      "status": "live",
-      "date": "2025-02-24",
-      "url": "https://highlightpulse.site/",
-      "author": "Sawana",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/waitlistSawana"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6dde5dd9accb",
-      "board": "main",
-      "name": "NFC PLinkD (中文名：电纸链接)",
-      "intro": "能把 NFC 卡片、贴纸当作实体的链接，将电子资料链接到纸质资料中的 App",
-      "introMarkdown": "能把 NFC 卡片、贴纸当作实体的链接，将电子资料链接到纸质资料中的 App - [更多介绍](https://bhznjns.github.io/#static/%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91/%E8%BF%9B%E8%A1%8C%E4%B8%AD/NFC-PLinkD/)",
-      "status": "live",
-      "date": "2025-02-24",
-      "url": "https://github.com/BHznJNs/NFC-PLinkD",
-      "author": "BHznJNs",
-      "authorLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/BHznJNs"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "7da68ddb796c",
-      "board": "main",
-      "name": "Online Web Clock",
-      "intro": "网页时钟 - 免费在线时钟和时间工具",
-      "introMarkdown": "网页时钟 - 免费在线时钟和时间工具",
-      "status": "live",
-      "date": "2025-02-24",
-      "url": "https://webclock.online/",
-      "author": "Moldav",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/[WebClocks](https://github.com/WebClocks"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "2fcfcb6b612d",
-      "board": "main",
-      "name": "日语名字生成器",
-      "intro": "免费 AI 日文名字生成器！生成平假名、片假名、含义和发音",
-      "introMarkdown": "免费 AI 日文名字生成器！生成平假名、片假名、含义和发音",
-      "status": "live",
-      "date": "2025-02-23",
-      "url": "https://japanesename-generator.com",
-      "author": "sinpo",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/JapaneseNameGenerator/JapaneseNameGenerator"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6d03b2676485",
-      "board": "main",
-      "name": "Image Translate AI",
-      "intro": "AI 图片翻译软件，翻译 70 多种语言的图片文本，专为专业人士，电商商家打造。保持图片原始布局，扩大全球影响力，并简化本地化流程",
-      "introMarkdown": "AI 图片翻译软件，翻译 70 多种语言的图片文本，专为专业人士，电商商家打造。保持图片原始布局，扩大全球影响力，并简化本地化流程",
-      "status": "live",
-      "date": "2025-02-22",
-      "url": "https://imagetranslate.ai",
-      "author": "Corey Chiu",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/iamcorey"
-        },
-        {
-          "label": "博客",
-          "url": "https://coreychiu.com/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "798de180570d",
-      "board": "main",
-      "name": "小帖",
-      "intro": "iOS 端的模板批量生成图片的工具，支持表格文件和飞书多维表格同步",
-      "introMarkdown": "iOS 端的模板批量生成图片的工具，支持表格文件和飞书多维表格同步",
-      "status": "live",
-      "date": "2025-02-20",
-      "url": "https://apps.apple.com/us/app/xiaotie-batch-image-generator/id6741154916",
-      "author": "Ryan",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Leochens"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b23a45b877d6",
-      "board": "main",
-      "name": "aiagents42.com",
-      "intro": "AI Agents 导航站",
-      "introMarkdown": "AI Agents 导航站",
-      "status": "live",
-      "date": "2025-02-19",
-      "url": "https://aiagents42.com/",
-      "author": "邱比特",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/MQbit"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "8f8ba8359793",
-      "board": "main",
-      "name": "freaky-fonts.com",
-      "intro": "怪异字体生成工具，可以把普通的字符变成吸人眼球的字符，发到 Facebook/Instagram/Whatsapp/Twitter 等社交媒体，还有字符变换工具，可以按你喜欢的字体风格随机搭配，自定义字符的映射表/反转文本/打乱文本等",
-      "introMarkdown": "怪异字体生成工具，可以把普通的字符变成吸人眼球的字符，发到 Facebook/Instagram/Whatsapp/Twitter 等社交媒体，还有字符变换工具，可以按你喜欢的字体风格随机搭配，自定义字符的映射表/反转文本/打乱文本等",
-      "status": "live",
-      "date": "2025-02-16",
-      "url": "http://freaky-fonts.com/",
-      "author": "Sen Zheng 郑越升",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/dayinji"
         }
       ],
       "likes": 0,
