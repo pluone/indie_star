@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-22T16:35:43.559Z",
-    "statsSyncedAt": "2026-10-22T16:35:43.559Z",
-    "upstreamSha": "e0cc08d4368e0df4eb7f2c0f1faa751601452796",
+    "contentSyncedAt": "2026-10-22T16:40:38.558Z",
+    "statsSyncedAt": "2026-10-22T16:40:38.558Z",
+    "upstreamSha": "fb8487e251361dba22daca8416baa2d0c259307e",
     "counts": {
-      "main": 1648,
+      "main": 1649,
       "game": 148,
       "programmer": 395,
-      "total": 2191
+      "total": 2192
     }
   },
   "main": [
@@ -101,6 +101,29 @@
         {
           "label": "Github",
           "url": "https://github.com/wenxiuncle/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "7e82d7f9a423",
+      "board": "main",
+      "name": "失业了咋办",
+      "intro": "失业自救在线指南，按失业前、前 7 天、3 个月、6 个月、1 年给出办理顺序，带 N/2N 试算和 13 周现金流表，附北京上海政策原文，免费免登录",
+      "introMarkdown": "失业自救在线指南，按失业前、前 7 天、3 个月、6 个月、1 年给出办理顺序，带 N/2N 试算和 13 周现金流表，附北京上海政策原文，免费免登录",
+      "status": "live",
+      "date": "2026-10-23",
+      "url": "https://aipmandy.github.io/how-to-survive-unemployment/",
+      "author": "AI 酋长 Andy",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/AIPMAndy"
+        },
+        {
+          "label": "博客",
+          "url": "https://metaver.vip/"
         }
       ],
       "likes": 0,
