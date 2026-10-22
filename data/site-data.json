@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-22T14:15:39.290Z",
-    "statsSyncedAt": "2026-10-22T14:15:39.290Z",
-    "upstreamSha": "37f6b0117bec40bc259b12ae62e271c11ca7eb81",
+    "contentSyncedAt": "2026-10-22T16:30:40.917Z",
+    "statsSyncedAt": "2026-10-22T16:30:40.917Z",
+    "upstreamSha": "659788047a7270636e03d7cfcfe25d231c80eb55",
     "counts": {
-      "main": 1651,
+      "main": 1653,
       "game": 148,
-      "programmer": 394,
-      "total": 2193
+      "programmer": 395,
+      "total": 2196
     }
   },
   "main": [
+    {
+      "slug": "d3289bc9d0cc",
+      "board": "main",
+      "name": "xsub.ai",
+      "intro": "Grok 会员代充，在官方结账页开通到你自己的账号，可开发票对公报销，掉订阅质保",
+      "introMarkdown": "Grok 会员代充，在官方结账页开通到你自己的账号，可开发票对公报销，掉订阅质保",
+      "status": "live",
+      "date": "2026-10-23",
+      "url": "https://xsub.ai",
+      "author": "小李哥",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/li13203140613"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "71d56f93cbe5",
+      "board": "main",
+      "name": "趣站博物馆",
+      "intro": "英文 Sitopia 取自复合词 Site+Utopia，意为网站乌托邦，在浪漫温馨的游戏世界里沉浸式浏览趣站",
+      "introMarkdown": "英文 Sitopia 取自复合词 Site+Utopia，意为网站乌托邦，在浪漫温馨的游戏世界里沉浸式浏览趣站 - [更多介绍](https://youquhome.com/12870/)",
+      "status": "live",
+      "date": "2026-10-23",
+      "url": "https://sitopia.youquhome.com/",
+      "author": "Wenxi闻西",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wenxiuncle/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "c17301acc015",
       "board": "main",
@@ -33250,6 +33288,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "c98e100131c0",
+      "board": "programmer",
+      "name": "连镜",
+      "intro": "开源 AI 视觉创作工作台，用无限画布把文本、图片、视频、音频生成连成流程，内置 3D 导演台和画布 Agent，对接可灵、即梦、Vidu、Sora 等多家模型，支持 Docker 自部署",
+      "introMarkdown": "开源 AI 视觉创作工作台，用无限画布把文本、图片、视频、音频生成连成流程，内置 3D 导演台和画布 Agent，对接可灵、即梦、Vidu、Sora 等多家模型，支持 Docker 自部署 - [更多介绍](https://github.com/zaylora/video-canvas)",
+      "status": "live",
+      "date": "2026-10-23",
+      "url": "https://canvas.vbing.site",
+      "author": "zaylora",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zaylora"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "18de108f914e",
       "board": "programmer",
