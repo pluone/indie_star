@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-22T02:00:42.181Z",
-    "statsSyncedAt": "2026-10-22T02:00:42.181Z",
-    "upstreamSha": "0756c0afe94f5c33cb554736274d4e4e1fcbb210",
+    "contentSyncedAt": "2026-10-22T07:30:38.157Z",
+    "statsSyncedAt": "2026-10-22T07:30:38.157Z",
+    "upstreamSha": "47c1cebb3dbac88297d633e259d2cc4225de379b",
     "counts": {
-      "main": 1652,
+      "main": 1653,
       "game": 148,
       "programmer": 393,
-      "total": 2193
+      "total": 2194
     }
   },
   "main": [
+    {
+      "slug": "06161e2da5ee",
+      "board": "main",
+      "name": "NEON DUO",
+      "intro": "围绕 A2O LITE NEON 的双照片舞蹈视频项目，当前公开趋势说明、双图准备指南及标明用途的参考预览；真实 AI 舞蹈生成尚未开放，网站为英文界面",
+      "introMarkdown": "围绕 A2O LITE NEON 的双照片舞蹈视频项目，当前公开趋势说明、双图准备指南及标明用途的参考预览；真实 AI 舞蹈生成尚未开放，网站为英文界面",
+      "status": "developing",
+      "date": "2026-10-22",
+      "url": "https://a2oliteneon.xyz/",
+      "author": "JonathanOwenTJ",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JonathanOwenTJ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "06b9fe97756c",
       "board": "main",
