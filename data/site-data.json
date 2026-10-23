@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-23T06:00:44.873Z",
-    "statsSyncedAt": "2026-10-23T06:00:44.873Z",
-    "upstreamSha": "ea065f40d6b67acbbfab93c9ba999dd3b1d21b6e",
+    "contentSyncedAt": "2026-10-23T08:40:45.089Z",
+    "statsSyncedAt": "2026-10-23T08:40:45.089Z",
+    "upstreamSha": "55898913bbc073d82fca7e673c86eb58228d8a11",
     "counts": {
-      "main": 1651,
-      "game": 148,
+      "main": 1654,
+      "game": 149,
       "programmer": 396,
-      "total": 2195
+      "total": 2199
     }
   },
   "main": [
+    {
+      "slug": "da1fbd41c4bc",
+      "board": "main",
+      "name": "票号核对台",
+      "intro": "跨 Excel/CSV 核对相同发票号码的本地工具，导出原文件、工作表及行号便于复核；计划 19.9 元一次购买，尚未开放下单，官网可看合成数据演示",
+      "introMarkdown": "跨 Excel/CSV 核对相同发票号码的本地工具，导出原文件、工作表及行号便于复核；计划 19.9 元一次购买，尚未开放下单，官网可看合成数据演示",
+      "status": "developing",
+      "date": "2026-10-23",
+      "url": "https://piaoh-offline.xuhaotian29.chatgpt.site/",
+      "author": "xuhaotian29-cell",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xuhaotian29-cell"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "e81cb4ded463",
+      "board": "main",
+      "name": "匠工具箱 TakumiKit",
+      "intro": "免费在线工具箱，34 个工具含 AI 抠图、HEIC 转 JPG、音视频格式转换、文字转语音和常用计算器，无需注册，图片和音视频文件在浏览器本地处理不上传，支持简繁英日韩 5 种语言",
+      "introMarkdown": "免费在线工具箱，34 个工具含 AI 抠图、HEIC 转 JPG、音视频格式转换、文字转语音和常用计算器，无需注册，图片和音视频文件在浏览器本地处理不上传，支持简繁英日韩 5 种语言",
+      "status": "live",
+      "date": "2026-10-23",
+      "url": "https://tools.takumikit.com/zh-cn/",
+      "author": "Takumi",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/VincentL998"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "ac23722d18fa",
+      "board": "main",
+      "name": "字相",
+      "intro": "收录 237 款可免费商用的简体中文字体，输入任意文字即可在线预览，按笔形、字重等特征找风格相近的字体，最多 4 款并排对比，附授权说明与官方下载链接",
+      "introMarkdown": "收录 237 款可免费商用的简体中文字体，输入任意文字即可在线预览，按笔形、字重等特征找风格相近的字体，最多 4 款并排对比，附授权说明与官方下载链接",
+      "status": "live",
+      "date": "2026-10-23",
+      "url": "https://zixiangfont.com",
+      "author": "potatates",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/potatates"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "911bece8f839",
       "board": "main",
@@ -30470,6 +30527,25 @@
     }
   ],
   "game": [
+    {
+      "slug": "d9e58f7854e6",
+      "board": "game",
+      "name": "AION 2 Pets",
+      "intro": "AION 2 宠物收集规划工具，免费免登录，查阅宠物与已记录地图点位，分别估算重复灵魂的 Insight 成本和收集 EXP；手动清单保存在浏览器，支持 JSON 备份与校验合并，地图覆盖不完整，非官方项目",
+      "introMarkdown": "AION 2 宠物收集规划工具，免费免登录，查阅宠物与已记录地图点位，分别估算重复灵魂的 Insight 成本和收集 EXP；手动清单保存在浏览器，支持 JSON 备份与校验合并，地图覆盖不完整，非官方项目",
+      "status": "live",
+      "date": "2026-10-23",
+      "url": "https://aion2pets.app/",
+      "author": "Zen Nin",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zenanythin"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "5d6cf8011b25",
       "board": "game",
