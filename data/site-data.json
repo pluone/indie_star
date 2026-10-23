@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-22T23:48:36.044Z",
-    "statsSyncedAt": "2026-10-22T23:48:36.044Z",
-    "upstreamSha": "fb8487e251361dba22daca8416baa2d0c259307e",
+    "contentSyncedAt": "2026-10-23T02:00:41.949Z",
+    "statsSyncedAt": "2026-10-23T02:00:41.949Z",
+    "upstreamSha": "7cdd053b6d30620da8b2737b5d179614f628a566",
     "counts": {
-      "main": 1649,
+      "main": 1650,
       "game": 148,
       "programmer": 395,
-      "total": 2192
+      "total": 2193
     }
   },
   "main": [
+    {
+      "slug": "0886aef8817f",
+      "board": "main",
+      "name": "Paper Texture",
+      "intro": "在线纸纹叠加编辑器，手动编辑免费免登录；选择 AI 生成纸面并调整混合模式、透明度和尺寸，预览自己的图片或内置海报",
+      "introMarkdown": "在线纸纹叠加编辑器，手动编辑免费免登录；选择 AI 生成纸面并调整混合模式、透明度和尺寸，预览自己的图片或内置海报",
+      "status": "live",
+      "date": "2026-10-23",
+      "url": "https://paper-texture.com/paper-texture-overlay/",
+      "author": "JonathanOwenTJ",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JonathanOwenTJ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "67cc522745e0",
       "board": "main",
