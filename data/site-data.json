@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-23T02:00:41.949Z",
-    "statsSyncedAt": "2026-10-23T02:00:41.949Z",
-    "upstreamSha": "7cdd053b6d30620da8b2737b5d179614f628a566",
+    "contentSyncedAt": "2026-10-23T06:00:44.873Z",
+    "statsSyncedAt": "2026-10-23T06:00:44.873Z",
+    "upstreamSha": "ea065f40d6b67acbbfab93c9ba999dd3b1d21b6e",
     "counts": {
-      "main": 1650,
+      "main": 1651,
       "game": 148,
-      "programmer": 395,
-      "total": 2193
+      "programmer": 396,
+      "total": 2195
     }
   },
   "main": [
+    {
+      "slug": "911bece8f839",
+      "board": "main",
+      "name": "Pixwit",
+      "intro": "AI 照片转动图/迷因舞蹈特效生成器，上传一张照片即可生成短视频迷因（如乔丹踮脚、Dime Dime Baby），免费额度可用，进阶功能付费",
+      "introMarkdown": "AI 照片转动图/迷因舞蹈特效生成器，上传一张照片即可生成短视频迷因（如乔丹踮脚、Dime Dime Baby），免费额度可用，进阶功能付费",
+      "status": "live",
+      "date": "2026-10-23",
+      "url": "https://pixwit.ai",
+      "author": "maysunyoung",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/maysunyoung"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "0886aef8817f",
       "board": "main",
@@ -33231,6 +33250,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "ef805a8151ca",
+      "board": "programmer",
+      "name": "token-pilot",
+      "intro": "AI 工具本地账单与预算控制器，一条命令汇总 Claude Code / Codex / Kimi Code 等用量与花费，菜单栏常驻今日费用与预算占比，支持超支通知与打转检测；国产模型自动归一，只读本地日志、数据不出本机 — macOS / Windows",
+      "introMarkdown": "AI 工具本地账单与预算控制器，一条命令汇总 Claude Code / Codex / Kimi Code 等用量与花费，菜单栏常驻今日费用与预算占比，支持超支通知与打转检测；国产模型自动归一，只读本地日志、数据不出本机 — macOS / Windows",
+      "status": "live",
+      "date": "2026-10-23",
+      "url": "https://github.com/anthonyhann/token-pilot",
+      "author": "anthonyhann",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/anthonyhann"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "c98e100131c0",
       "board": "programmer",
