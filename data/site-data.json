@@ -1,23 +1,61 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-23T09:25:42.810Z",
-    "statsSyncedAt": "2026-10-23T09:25:42.810Z",
-    "upstreamSha": "98d6d26930726dea7191b99b49e5c05db24e0564",
+    "contentSyncedAt": "2026-10-23T14:30:39.949Z",
+    "statsSyncedAt": "2026-10-23T14:30:39.949Z",
+    "upstreamSha": "b6c6f9b70e99210abffbd111081f1020a07f3d07",
     "counts": {
-      "main": 1653,
-      "game": 149,
+      "main": 1649,
+      "game": 153,
       "programmer": 396,
       "total": 2198
     }
   },
   "main": [
     {
+      "slug": "75fc51ae13c4",
+      "board": "main",
+      "name": "Companest 伴境",
+      "intro": "Windows AI 工作伙伴应用，通过房间、角色和事项板组织邮件上下文、回复草稿与后续变化；当前可查看虚构数据演示，安装包与源码尚未公开",
+      "introMarkdown": "Windows AI 工作伙伴应用，通过房间、角色和事项板组织邮件上下文、回复草稿与后续变化；当前可查看虚构数据演示，安装包与源码尚未公开 - [邮件预览说明](https://github.com/Owen-Teng/companest/blob/main/docs/MAIL-FEATURES.zh-CN.md)",
+      "status": "developing",
+      "date": "2026-10-23",
+      "url": "https://github.com/Owen-Teng/companest",
+      "author": "Owen Teng · 滕新阳 — 与 Robinson AI Lab 共建",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Owen-Teng"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "635957d5ae8c",
+      "board": "main",
+      "name": "AI Dance Generator",
+      "intro": "AI 照片跳舞视频生成器，上传一张照片、选一个舞蹈模板，几分钟得到 9:16 竖屏跳舞视频，可直接发 TikTok/Reels/Shorts；网页英文界面",
+      "introMarkdown": "AI 照片跳舞视频生成器，上传一张照片、选一个舞蹈模板，几分钟得到 9:16 竖屏跳舞视频，可直接发 TikTok/Reels/Shorts；网页英文界面",
+      "status": "live",
+      "date": "2026-10-23",
+      "url": "https://danceaigenerator.com",
+      "author": "子竹",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zizhu-ai"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "da1fbd41c4bc",
       "board": "main",
       "name": "票号核对台",
-      "intro": "跨 Excel/CSV 核对相同发票号码的本地工具，导出原文件、工作表及行号便于复核；计划 19.9 元一次购买，尚未开放下单，官网可看合成数据演示",
-      "introMarkdown": "跨 Excel/CSV 核对相同发票号码的本地工具，导出原文件、工作表及行号便于复核；计划 19.9 元一次购买，尚未开放下单，官网可看合成数据演示",
-      "status": "developing",
+      "intro": "跨 Excel/CSV 核对相同发票号码的本地工具，导出原文件、工作表及行号便于复核；离线版 19.9 元一次购买，限量首发，48 小时内人工交付，官网可看合成数据演示",
+      "introMarkdown": "跨 Excel/CSV 核对相同发票号码的本地工具，导出原文件、工作表及行号便于复核；离线版 19.9 元一次购买，限量首发，48 小时内人工交付，官网可看合成数据演示",
+      "status": "live",
       "date": "2026-10-23",
       "url": "https://piaoh-offline.xuhaotian29.chatgpt.site/",
       "author": "xuhaotian29-cell",
@@ -6309,8 +6347,8 @@
       "slug": "3a033f643469",
       "board": "main",
       "name": "慧报价",
-      "intro": "AI 外贸报价工具，产品库一次建好，选品自动按 EXW/FOB/CFR/CIF/DDP 计价（利润率按售价、保险 110% 加成的实务口径），30 秒生成中英双语报价单 PDF，附免费无需注册的报价计算器",
-      "introMarkdown": "AI 外贸报价工具，产品库一次建好，选品自动按 EXW/FOB/CFR/CIF/DDP 计价（利润率按售价、保险 110% 加成的实务口径），30 秒生成中英双语报价单 PDF，附免费无需注册的报价计算器",
+      "intro": "AI 外贸报价工具，产品库一次建好，选品自动按 EXW/FOB/CFR/CIF/DDP 计价（成本加价率、保险 110% 加成的实务口径），30 秒生成中英双语报价单 PDF，附免费无需注册的报价计算器（完整报价与存档需登录）",
+      "introMarkdown": "AI 外贸报价工具，产品库一次建好，选品自动按 EXW/FOB/CFR/CIF/DDP 计价（成本加价率、保险 110% 加成的实务口径），30 秒生成中英双语报价单 PDF，附免费无需注册的报价计算器（完整报价与存档需登录）",
       "status": "live",
       "date": "2026-09-10",
       "url": "https://www.swqifu.com/",
@@ -30391,123 +30429,70 @@
       ],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "ac38c2ba52e1",
-      "board": "main",
-      "name": "mouse-click",
-      "intro": "带后台模式的 Windows 自动连点器",
-      "introMarkdown": "带后台模式的 Windows 自动连点器",
-      "status": "live",
-      "date": "2025-02-28",
-      "url": "https://github.com/zhaoxiaozhao07/mouse-click",
-      "author": "zhaoxiaozhao",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/zhaoxiaozhao07"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "3a0f5f20070f",
-      "board": "main",
-      "name": "Dynamic-photo-video-display-wall",
-      "intro": "多宫格动态播放视频/照片",
-      "introMarkdown": "多宫格动态播放视频/照片",
-      "status": "live",
-      "date": "2025-02-28",
-      "url": "https://github.com/zhaoxiaozhao07/Dynamic-photo-video-display-wall",
-      "author": "zhaoxiaozhao",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/zhaoxiaozhao07"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "dd82ff4f5cd4",
-      "board": "main",
-      "name": "Synexa AI",
-      "intro": "一行代码部署 AI 模型 (Replicate 50% 低价平替)，Synexa 是运行无服务器 AI API 最具性价比的解决方案，提供业界最具竞争力的 A100 GPU 价格，相比其他服务商可节省高达 62% 的 AI 算力成本",
-      "introMarkdown": "一行代码部署 AI 模型 (Replicate 50% 低价平替)，Synexa 是运行无服务器 AI API 最具性价比的解决方案，提供业界最具竞争力的 A100 GPU 价格，相比其他服务商可节省高达 62% 的 AI 算力成本 - [更多介绍](https://github.com/1c7/chinese-independent-developer/issues/478)",
-      "status": "live",
-      "date": "2025-02-27",
-      "url": "https://synexa.ai/",
-      "author": "Synexa AI",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/synexa-ai"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "fcb45e5d1036",
-      "board": "main",
-      "name": "MouseClick",
-      "intro": "鼠标连点器和管理工具，软件界面美观，操作直观，支持鼠标行为模拟，让用户在工作和游戏中实现高效自动化",
-      "introMarkdown": "鼠标连点器和管理工具，软件界面美观，操作直观，支持鼠标行为模拟，让用户在工作和游戏中实现高效自动化",
-      "status": "live",
-      "date": "2025-02-27",
-      "url": "https://github.com/SeaYJ/MouseClick",
-      "author": "SeaEpoch",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/SeaYJ"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "5051fecfd113",
-      "board": "main",
-      "name": "Midjourney Sref code 收集",
-      "intro": "Midjourney 的sref（风格一致性代码）收集库，现阶段已收集sref代码3000+",
-      "introMarkdown": "Midjourney 的sref（风格一致性代码）收集库，现阶段已收集sref代码3000+",
-      "status": "live",
-      "date": "2025-02-26",
-      "url": "https://mjsrefcode.com/",
-      "author": "damaodog",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/damaodog"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9ed9af0b3ada",
-      "board": "main",
-      "name": "Swads",
-      "intro": "群晖 Download Station 客户端，现代、原生、凭直觉再设计，支持 iOS / macOS",
-      "introMarkdown": "群晖 Download Station 客户端，现代、原生、凭直觉再设计，支持 iOS / macOS",
-      "status": "live",
-      "date": "2025-02-26",
-      "url": "https://swads.app/",
-      "author": "Sven",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/shensven"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
+    {
+      "slug": "def480647166",
+      "board": "game",
+      "name": "Crazy Cattle 3D",
+      "intro": "非官方粉丝站，在浏览器里免费玩这款物理碰碰羊大逃杀，不用注册、不用下载；用坡度和时机把别的羊撞出地图，尽量活到最后。页面上有新版 Sheep Bonk Arena 和经典版，地图包括爱尔兰、冰岛和新西兰，另有 Windows、macOS、Linux 下载和操作说明。不是原作的官方网站，和原作者没有关系",
+      "introMarkdown": "非官方粉丝站，在浏览器里免费玩这款物理碰碰羊大逃杀，不用注册、不用下载；用坡度和时机把别的羊撞出地图，尽量活到最后。页面上有新版 Sheep Bonk Arena 和经典版，地图包括爱尔兰、冰岛和新西兰，另有 Windows、macOS、Linux 下载和操作说明。不是原作的官方网站，和原作者没有关系",
+      "status": "live",
+      "date": "2026-10-23",
+      "url": "https://crazycattle3d.com/?utm_source=chineseindie.com&utm_medium=referral&utm_campaign=directory",
+      "author": "liujd0326",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/liujd0326"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b083332bdbcd",
+      "board": "game",
+      "name": "准时下班模拟器",
+      "intro": "办公室躲避小游戏：先拿工牌，按住移动、松手停下，避开老板和同事走到门口。（H5测试版）",
+      "introMarkdown": "办公室躲避小游戏：先拿工牌，按住移动、松手停下，避开老板和同事走到门口。（H5测试版）",
+      "status": "developing",
+      "date": "2026-10-23",
+      "url": "https://portal-test.qidianlingzhi.com/phone/h5/index.html?s=v1.IBoZeJLKTBUw1Syj4p_JnZbDpzegix6WvSUU8VyPDvM_mmqk&c=CgVBUUKp6j",
+      "author": "多奇·灵感实验室",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "ec8eddf2a923",
+      "board": "game",
+      "name": "躲避二手烟",
+      "intro": "画线躲避小游戏：在便利店、公交站等日常场景里画出路线，避开吸烟的人和烟圈。（H5测试版）",
+      "introMarkdown": "画线躲避小游戏：在便利店、公交站等日常场景里画出路线，避开吸烟的人和烟圈。（H5测试版）",
+      "status": "developing",
+      "date": "2026-10-23",
+      "url": "https://portal-test.qidianlingzhi.com/phone/h5/index.html?s=v1.fTOgmcoH6ajZp8kanP_KsCyJRQERNKX7dmz00tUKPHOBOcP9&c=smHx8ASuGU",
+      "author": "多奇·灵感实验室",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "fadde2957e9f",
+      "board": "game",
+      "name": "喷气飞车",
+      "intro": "喷气与翻转赛车小游戏：左半边按住喷射，右半边点击翻转到天花板，挑战当天同一条赛道的距离成绩。（H5测试版）",
+      "introMarkdown": "喷气与翻转赛车小游戏：左半边按住喷射，右半边点击翻转到天花板，挑战当天同一条赛道的距离成绩。（H5测试版）",
+      "status": "developing",
+      "date": "2026-10-23",
+      "url": "https://portal-test.qidianlingzhi.com/phone/h5/index.html?s=v1.M_x6mP251gHpMC4BSxwl_5mXjR1pAMvhCI_rNDSBWkng7LZH&c=jcZFf2wNe3",
+      "author": "多奇·灵感实验室",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "d9e58f7854e6",
       "board": "game",
