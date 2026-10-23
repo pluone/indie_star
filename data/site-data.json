@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-23T08:40:45.089Z",
-    "statsSyncedAt": "2026-10-23T08:40:45.089Z",
-    "upstreamSha": "55898913bbc073d82fca7e673c86eb58228d8a11",
+    "contentSyncedAt": "2026-10-23T09:25:42.810Z",
+    "statsSyncedAt": "2026-10-23T09:25:42.810Z",
+    "upstreamSha": "98d6d26930726dea7191b99b49e5c05db24e0564",
     "counts": {
-      "main": 1654,
+      "main": 1653,
       "game": 149,
       "programmer": 396,
-      "total": 2199
+      "total": 2198
     }
   },
   "main": [
@@ -3430,25 +3430,6 @@
         {
           "label": "Github",
           "url": "https://github.com/zizhu-ai"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "29b187ac4744",
-      "board": "main",
-      "name": "EaseGen",
-      "intro": "AI 图片与视频创作平台，把 Seedance 2.5、Kling 3、Veo 3.1、Wan 3.0、GPT Image 2.5、Seedream 5.0、Nano Banana 2 等数十个图像与视频模型收在同一工作区切换，支持参考图、首尾帧与参考视频音频，另内置广告图、海报、商品图等成品模板；提供免费额度、订阅与积分包",
-      "introMarkdown": "AI 图片与视频创作平台，把 Seedance 2.5、Kling 3、Veo 3.1、Wan 3.0、GPT Image 2.5、Seedream 5.0、Nano Banana 2 等数十个图像与视频模型收在同一工作区切换，支持参考图、首尾帧与参考视频音频，另内置广告图、海报、商品图等成品模板；提供免费额度、订阅与积分包",
-      "status": "live",
-      "date": "2026-10-08",
-      "url": "https://easegen.ai/",
-      "author": "udan520",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/udan520"
         }
       ],
       "likes": 0,
