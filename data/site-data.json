@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-24T11:36:00.189Z",
-    "statsSyncedAt": "2026-10-24T11:36:00.189Z",
-    "upstreamSha": "5d8431580a6c5f490e0c8872c2153668c9216a2c",
+    "contentSyncedAt": "2026-10-24T14:56:03.494Z",
+    "statsSyncedAt": "2026-10-24T14:56:03.494Z",
+    "upstreamSha": "74de9572d87459f3a5ac7c102fb42a46e232f012",
     "counts": {
-      "main": 1652,
+      "main": 1655,
       "game": 154,
       "programmer": 397,
-      "total": 2203
+      "total": 2206
     }
   },
   "main": [
+    {
+      "slug": "861a93cf0cda",
+      "board": "main",
+      "name": "MCLQE",
+      "intro": "开源的 Minecraft 启动器，自动下载游戏与 Java、支持微软正版登录和离线账号、一键安装 Fabric/Forge 与 Modrinth 模组，Windows 解压即用",
+      "introMarkdown": "开源的 Minecraft 启动器，自动下载游戏与 Java、支持微软正版登录和离线账号、一键安装 Fabric/Forge 与 Modrinth 模组，Windows 解压即用",
+      "status": "live",
+      "date": "2026-10-24",
+      "url": "https://github.com/yezi-fak/MCLQE",
+      "author": "椰子",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yezi-fak"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "0cae37025db0",
+      "board": "main",
+      "name": "seedance 3.0",
+      "intro": "图片、视频、音频混合输入合成一条视频，并可只替换片中商品或人物、保留原运镜；可切换 Seedance、Kling、Veo 等模型；第三方站点，非字节跳动官方产品",
+      "introMarkdown": "图片、视频、音频混合输入合成一条视频，并可只替换片中商品或人物、保留原运镜；可切换 Seedance、Kling、Veo 等模型；第三方站点，非字节跳动官方产品",
+      "status": "live",
+      "date": "2026-10-24",
+      "url": "https://seedance3.si/",
+      "author": "aivideolab12",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/aivideolab12"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "a64697c1fce4",
       "board": "main",
@@ -63,6 +101,25 @@
         {
           "label": "Github",
           "url": "https://github.com/chenaiqifei"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d1c1e238064f",
+      "board": "main",
+      "name": "漫匣 Manxia",
+      "intro": "注重书籍质感的 Flutter 漫画阅读器，3D 书架与插件阅读室，支持本地导入和离线阅读。",
+      "introMarkdown": "注重书籍质感的 Flutter 漫画阅读器，3D 书架与插件阅读室，支持本地导入和离线阅读。",
+      "status": "live",
+      "date": "2026-10-24",
+      "url": "https://github.com/LexianLix/manxia",
+      "author": "LexianLix",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/LexianLix"
         }
       ],
       "likes": 0,
