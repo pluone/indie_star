@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-23T23:42:35.417Z",
-    "statsSyncedAt": "2026-10-23T23:42:35.417Z",
-    "upstreamSha": "b6c6f9b70e99210abffbd111081f1020a07f3d07",
+    "contentSyncedAt": "2026-10-24T01:45:36.376Z",
+    "statsSyncedAt": "2026-10-24T01:45:36.376Z",
+    "upstreamSha": "9650456fe27e38fbe7a902d8b24a85633bb6ce2e",
     "counts": {
-      "main": 1649,
-      "game": 153,
+      "main": 1650,
+      "game": 154,
       "programmer": 396,
-      "total": 2198
+      "total": 2200
     }
   },
   "main": [
+    {
+      "slug": "9013d008cac4",
+      "board": "main",
+      "name": "AI Image Combiner",
+      "intro": "上传 2–5 张照片，用文字把人物、商品或背景组合到同一场景；有同框、家庭合照和商品场景提示词模板，首次免注册免费试用一次，下载无本站水印，之后登录继续使用，更多额度付费",
+      "introMarkdown": "上传 2–5 张照片，用文字把人物、商品或背景组合到同一场景；有同框、家庭合照和商品场景提示词模板，首次免注册免费试用一次，下载无本站水印，之后登录继续使用，更多额度付费",
+      "status": "live",
+      "date": "2026-10-24",
+      "url": "https://ai-image-combiner.com/",
+      "author": "chenaiqifei",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/chenaiqifei"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "75fc51ae13c4",
       "board": "main",
@@ -30432,6 +30451,25 @@
     }
   ],
   "game": [
+    {
+      "slug": "8eff4bc9140d",
+      "board": "game",
+      "name": "First Person Boxing",
+      "intro": "免费 3D 第一人称拳击网页游戏，从自己的拳套后出拳，可滑步反击，含训练、快速对战和五人生涯，无需下载或注册",
+      "introMarkdown": "免费 3D 第一人称拳击网页游戏，从自己的拳套后出拳，可滑步反击，含训练、快速对战和五人生涯，无需下载或注册",
+      "status": "live",
+      "date": "2026-10-24",
+      "url": "https://firstpersonboxing.net/",
+      "author": "liujd0326",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/liujd0326"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "def480647166",
       "board": "game",
