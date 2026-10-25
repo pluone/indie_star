@@ -1,16 +1,111 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-24T22:48:43.559Z",
-    "statsSyncedAt": "2026-10-24T22:48:43.559Z",
-    "upstreamSha": "df354de098feb1c5b14286dd963d882c6ef6623f",
+    "contentSyncedAt": "2026-10-25T01:36:03.128Z",
+    "statsSyncedAt": "2026-10-25T01:36:03.128Z",
+    "upstreamSha": "fab282597689cf9b861915a81902c4bc288b02fb",
     "counts": {
-      "main": 1651,
+      "main": 1656,
       "game": 154,
-      "programmer": 397,
-      "total": 2202
+      "programmer": 398,
+      "total": 2208
     }
   },
   "main": [
+    {
+      "slug": "352ccc1a3984",
+      "board": "main",
+      "name": "Aitoword",
+      "intro": "文档转换工具（免费），完全在浏览器本地运行，把 AI 回答、Markdown 文本或 .md / .txt 文件转成可编辑 Word，保留标题、表格和 LaTeX 公式，提供三套排版预设，无需注册登录",
+      "introMarkdown": "文档转换工具（免费），完全在浏览器本地运行，把 AI 回答、Markdown 文本或 .md / .txt 文件转成可编辑 Word，保留标题、表格和 LaTeX 公式，提供三套排版预设，无需注册登录",
+      "status": "live",
+      "date": "2026-10-25",
+      "url": "https://aitoword.online/",
+      "author": "259007",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/259007"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "28ca9f902dea",
+      "board": "main",
+      "name": "Time Overlay",
+      "intro": "浏览器本地倒计时叠加层生成器，导出透明 PNG 序列或带 alpha 的 WebM，给 OBS、Premiere 和 DaVinci 用，无需上传视频、无需注册",
+      "introMarkdown": "浏览器本地倒计时叠加层生成器，导出透明 PNG 序列或带 alpha 的 WebM，给 OBS、Premiere 和 DaVinci 用，无需上传视频、无需注册",
+      "status": "live",
+      "date": "2026-10-25",
+      "url": "https://timeoverlay.co/",
+      "author": "Yansoul",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Yansoul"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "6f3ec74559ae",
+      "board": "main",
+      "name": "VideoDance",
+      "intro": "AI 视频和图片生成网站，用文字或参考图生成视频和图片，可选 Seedance、Kling、Veo 等模型",
+      "introMarkdown": "AI 视频和图片生成网站，用文字或参考图生成视频和图片，可选 Seedance、Kling、Veo 等模型",
+      "status": "live",
+      "date": "2026-10-25",
+      "url": "https://videodance.co/",
+      "author": "Yansoul",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Yansoul"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "c203f35dbc30",
+      "board": "main",
+      "name": "YouTube GIF Comments",
+      "intro": "浏览器本地的视频转 GIF 和 GIF 压缩工具，附带 YouTube GIF 评论教程，无需注册、不上传文件",
+      "introMarkdown": "浏览器本地的视频转 GIF 和 GIF 压缩工具，附带 YouTube GIF 评论教程，无需注册、不上传文件",
+      "status": "live",
+      "date": "2026-10-25",
+      "url": "https://youtubegifcomments.com/",
+      "author": "Yansoul",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Yansoul"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "6774112c34ae",
+      "board": "main",
+      "name": "DoCube",
+      "intro": "本地优先的个人知识库，把 PDF、EPUB、网页、Markdown 和视频收进同一库，阅读中完成标注、文档链接、全文搜索与间隔复习；支持 Mac / iPhone / iPad，免费最多 5 篇文档，Pro 一次性买断",
+      "introMarkdown": "本地优先的个人知识库，把 PDF、EPUB、网页、Markdown 和视频收进同一库，阅读中完成标注、文档链接、全文搜索与间隔复习；支持 Mac / iPhone / iPad，免费最多 5 篇文档，Pro 一次性买断 - [App Store](https://apps.apple.com/app/id6470183496)",
+      "status": "live",
+      "date": "2026-10-25",
+      "url": "https://docube.venglyph.com/",
+      "author": "杭州文旭互动科技",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/TripleTre"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "861a93cf0cda",
       "board": "main",
@@ -33341,6 +33436,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "7a90cd107e9e",
+      "board": "programmer",
+      "name": "Qovia",
+      "intro": "中文社媒公开数据 API，一个 Key 拿到抖音、小红书、微博、B 站、快手、知乎、淘宝/京东评论等 20 多个平台的帖子、评论、达人资料和热榜，统一 JSON 格式；也可作为 MCP 接入 Claude、Cursor 等 AI 助手，空结果和失败不收费，新用户送 50 次试用",
+      "introMarkdown": "中文社媒公开数据 API，一个 Key 拿到抖音、小红书、微博、B 站、快手、知乎、淘宝/京东评论等 20 多个平台的帖子、评论、达人资料和热榜，统一 JSON 格式；也可作为 MCP 接入 Claude、Cursor 等 AI 助手，空结果和失败不收费，新用户送 50 次试用",
+      "status": "live",
+      "date": "2026-10-25",
+      "url": "https://qovia.ai/zh/",
+      "author": "Qovia",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/qovia"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "ce1299c3b2a6",
       "board": "programmer",
