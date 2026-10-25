@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-25T11:55:59.114Z",
-    "statsSyncedAt": "2026-10-25T11:55:59.114Z",
-    "upstreamSha": "fefcbcf84b356a16ab8673c46a654935d5e3a4ce",
+    "contentSyncedAt": "2026-10-25T12:00:59.892Z",
+    "statsSyncedAt": "2026-10-25T12:00:59.892Z",
+    "upstreamSha": "e308df51d95b2882d966920e066911c81366828c",
     "counts": {
-      "main": 1658,
+      "main": 1647,
       "game": 155,
-      "programmer": 398,
-      "total": 2211
+      "programmer": 397,
+      "total": 2199
     }
   },
   "main": [
+    {
+      "slug": "210e7eeded0e",
+      "board": "main",
+      "name": "apkgo / apkgo cloud",
+      "intro": "一次上传，并发发布到国内主流安卓应用商店，并支持鸿蒙与 iOS（App Store）上架；开源 CLI（PolyForm Noncommercial）：https://github.com/KevinGong2013/apkgo",
+      "introMarkdown": "一次上传，并发发布到国内主流安卓应用商店，并支持鸿蒙与 iOS（App Store）上架；开源 CLI（PolyForm Noncommercial）：https://github.com/KevinGong2013/apkgo - [上手指南](https://apkgo.baici.tech/onboarding)",
+      "status": "live",
+      "date": "2026-10-25",
+      "url": "https://apkgo.baici.tech",
+      "author": "KevinGong2013",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/KevinGong2013"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "dd94ebd0efac",
+      "board": "main",
+      "name": "ShotTide",
+      "intro": "AI 视频创作工作台，可规划和编辑分镜，生成图片与视频，添加中英文旁白和字幕并导出 MP4。支持中英文界面，适合产品展示、社交短视频和视觉故事",
+      "introMarkdown": "AI 视频创作工作台，可规划和编辑分镜，生成图片与视频，添加中英文旁白和字幕并导出 MP4。支持中英文界面，适合产品展示、社交短视频和视觉故事",
+      "status": "live",
+      "date": "2026-10-25",
+      "url": "https://shottide.com/",
+      "author": "Jianyu Chen",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/CJianYu"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "3c018cacba06",
       "board": "main",
@@ -30366,232 +30404,6 @@
       ],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "c64db6486a92",
-      "board": "main",
-      "name": "FLUX AI ART",
-      "intro": "基于 Flux 的图像生成网站",
-      "introMarkdown": "基于 Flux 的图像生成网站",
-      "status": "live",
-      "date": "2025-03-19",
-      "url": "https://fluxaiart.ai/",
-      "author": "Ryan",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Ryan10Yu"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "a3f40b6d9340",
-      "board": "main",
-      "name": "海嘉 AI 实验室智能应用",
-      "intro": "表格问答，文字 OCR，表格图片结构识别等",
-      "introMarkdown": "表格问答，文字 OCR，表格图片结构识别等",
-      "status": "live",
-      "date": "2025-03-16",
-      "url": "http://117.72.40.129:8001/",
-      "author": "jiangnanboy",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/jiangnanboy"
-        },
-        {
-          "label": "博客",
-          "url": "https://jiangnanboy.github.io/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "80908fa90770",
-      "board": "main",
-      "name": "AI Agents Directory",
-      "intro": "AI 智能体导航站",
-      "introMarkdown": "AI 智能体导航站",
-      "status": "live",
-      "date": "2025-03-16",
-      "url": "https://ai-agents-directory.com",
-      "author": "Jeremyym",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Jeremyymxiao"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9ba2acf92497",
-      "board": "main",
-      "name": "Chinese Name Generator",
-      "intro": "给外国人起中文名，基于 DeepSeek V3",
-      "introMarkdown": "给外国人起中文名，基于 DeepSeek V3",
-      "status": "live",
-      "date": "2025-03-16",
-      "url": "https://chinese-name-generator.com",
-      "author": "Jeremyym",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Jeremyymxiao"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "cb3c4488ed85",
-      "board": "main",
-      "name": "Learn Kana",
-      "intro": "学习日语平假名片假名, 基于 DeepSeek V3",
-      "introMarkdown": "学习日语平假名片假名, 基于 DeepSeek V3",
-      "status": "live",
-      "date": "2025-03-16",
-      "url": "https://learnkana.pro",
-      "author": "Jeremyym",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Jeremyymxiao"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d12966f673b8",
-      "board": "main",
-      "name": "TempMail.Love",
-      "intro": "即用即走的临时邮箱，保护你的个人隐私安全",
-      "introMarkdown": "即用即走的临时邮箱，保护你的个人隐私安全",
-      "status": "live",
-      "date": "2025-03-15",
-      "url": "https://tempmail.love/",
-      "author": "橘子哥",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "eaa85504b7c0",
-      "board": "main",
-      "name": "Aigotools",
-      "intro": "开源导航站",
-      "introMarkdown": "开源导航站",
-      "status": "live",
-      "date": "2025-03-15",
-      "url": "https://github.com/someu/aigotools/blob/main/README.zh-CN.md",
-      "author": "Someuxyz",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "github.com/someu/aigotools"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "70889c29333c",
-      "board": "main",
-      "name": "Similarlabs",
-      "intro": "洞察需求和流量，发现和对比你的下一个心仪工具",
-      "introMarkdown": "洞察需求和流量，发现和对比你的下一个心仪工具",
-      "status": "live",
-      "date": "2025-03-15",
-      "url": "http://similarlabs.com/",
-      "author": "Someuxyz",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "github.com/someu/aigotools"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "c6ca42bb3db4",
-      "board": "main",
-      "name": "反斗限免",
-      "intro": "软件、游戏限免资讯网站",
-      "introMarkdown": "软件、游戏限免资讯网站",
-      "status": "live",
-      "date": "2025-03-14",
-      "url": "https://free.apprcn.com",
-      "author": "jzhone",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6189c83f6856",
-      "board": "main",
-      "name": "BFP Calculator",
-      "intro": "免费计算你的体脂率，并提供相应解决方案",
-      "introMarkdown": "免费计算你的体脂率，并提供相应解决方案",
-      "status": "live",
-      "date": "2025-03-14",
-      "url": "https://bfpcalculator.com",
-      "author": "jzhone",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "5a6b6c8ab655",
-      "board": "main",
-      "name": "涂色乐园",
-      "intro": "通过 AI 生成涂画的涂色应用",
-      "introMarkdown": "通过 AI 生成涂画的涂色应用 - [更多介绍](https://www.dyy.im/coloring-land)",
-      "status": "live",
-      "date": "2025-03-13",
-      "url": "https://apps.apple.com/us/app/coloringland/id6742505878?platform=ipad",
-      "author": "Go7hic",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Go7hic"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b24970bd5e85",
-      "board": "main",
-      "name": "SSH Monitor: SSH终端与服务器监控",
-      "intro": "SSH 远程云服务器/容器监控管理终端",
-      "introMarkdown": "SSH 远程云服务器/容器监控管理终端",
-      "status": "live",
-      "date": "2025-03-13",
-      "url": "https://apps.apple.com/cn/app/id6479361680",
-      "author": "7SaiWen",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "268401f9cda5",
-      "board": "main",
-      "name": "OpenTerm",
-      "intro": "终端模拟器, 口袋里的 Linux",
-      "introMarkdown": "终端模拟器, 口袋里的 Linux",
-      "status": "live",
-      "date": "2025-03-13",
-      "url": "https://apps.apple.com/cn/app/openterm/id1481149807",
-      "author": "7SaiWen",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
@@ -33493,25 +33305,6 @@
     }
   ],
   "programmer": [
-    {
-      "slug": "e96ca1034583",
-      "board": "programmer",
-      "name": "apkgo",
-      "intro": "Android APK 多渠道分发 CLI，一条命令并发上传到华为 / 小米 / OPPO / vivo / 荣耀 / 应用宝 / Google Play / Samsung / 蒲公英 / fir.im 等 10+ 应用市场，也支持鸿蒙 .app；输出 JSON 与语义化退出码，适合接 GitHub Actions / GitLab CI，另有 Web GUI、Go 库调用与上传前后 Shell Hook",
-      "introMarkdown": "Android APK 多渠道分发 CLI，一条命令并发上传到华为 / 小米 / OPPO / vivo / 荣耀 / 应用宝 / Google Play / Samsung / 蒲公英 / fir.im 等 10+ 应用市场，也支持鸿蒙 .app；输出 JSON 与语义化退出码，适合接 GitHub Actions / GitLab CI，另有 Web GUI、Go 库调用与上传前后 Shell Hook",
-      "status": "live",
-      "date": "2026-10-25",
-      "url": "https://github.com/KevinGong2013/apkgo",
-      "author": "KevinGong2013",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/KevinGong2013"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
     {
       "slug": "7a90cd107e9e",
       "board": "programmer",
