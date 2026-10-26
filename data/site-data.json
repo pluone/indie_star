@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-26T12:26:25.130Z",
-    "statsSyncedAt": "2026-10-26T12:26:25.130Z",
-    "upstreamSha": "ee11496f31173980c66d09c6b969b0b8579add04",
+    "contentSyncedAt": "2026-10-26T14:16:09.336Z",
+    "statsSyncedAt": "2026-10-26T14:16:09.336Z",
+    "upstreamSha": "8a9486f9e6ba6fa52796635a4dec23698b8e4205",
     "counts": {
       "main": 1646,
       "game": 155,
-      "programmer": 402,
-      "total": 2203
+      "programmer": 403,
+      "total": 2204
     }
   },
   "main": [
@@ -33300,6 +33300,29 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "86fe0fe87ba3",
+      "board": "programmer",
+      "name": "GameSkill",
+      "intro": "收藏了上百个 game skill，让 Claude Code、Codex、Cursor、Kimi 等 AI 编程 Agent 更会做游戏的 Skill（SKILL.md）、MCP 服务器和配套工具 - 覆盖 Unity / Unreal / Godot / Bevy / Roblox 等引擎，以及美术资产、像素风格、音效、测试与逆向。所有链接都经过可访问性检查，星数和许可证来自 GitHub API（2026-10-26 更新）。同一个仓库里的多个 skill 合并为一行，data/skills.json 里保留了全部 255 个 skill 的明细",
+      "introMarkdown": "收藏了上百个 game skill，让 Claude Code、Codex、Cursor、Kimi 等 AI 编程 Agent 更会做游戏的 Skill（SKILL.md）、MCP 服务器和配套工具 - 覆盖 Unity / Unreal / Godot / Bevy / Roblox 等引擎，以及美术资产、像素风格、音效、测试与逆向。所有链接都经过可访问性检查，星数和许可证来自 GitHub API（2026-10-26 更新）。同一个仓库里的多个 skill 合并为一行，data/skills.json 里保留了全部 255 个 skill 的明细",
+      "status": "live",
+      "date": "2026-10-26",
+      "url": "https://gameskill.dev/",
+      "author": "Kajian",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/gdfsdjj145"
+        },
+        {
+          "label": "博客",
+          "url": "https://kajian.dev/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "1e6be1ddd585",
       "board": "programmer",
