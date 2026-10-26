@@ -1,30 +1,91 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-26T12:16:00.974Z",
-    "statsSyncedAt": "2026-10-26T12:16:00.974Z",
-    "upstreamSha": "1ea7d8fe408ad393de9db982fa278550e6211d15",
+    "contentSyncedAt": "2026-10-26T12:25:56.095Z",
+    "statsSyncedAt": "2026-10-26T12:25:56.095Z",
+    "upstreamSha": "ee11496f31173980c66d09c6b969b0b8579add04",
     "counts": {
-      "main": 1649,
+      "main": 1646,
       "game": 155,
       "programmer": 402,
-      "total": 2206
+      "total": 2203
     }
   },
   "main": [
     {
-      "slug": "648ea4c02a19",
+      "slug": "6f0a48b113e8",
       "board": "main",
-      "name": "Ideoy",
-      "intro": "用一张自拍重制本周热门梗视频模板，AI 生成竖屏短视频；免费增值，仅限成年人，输出内容标注 AI 生成",
-      "introMarkdown": "用一张自拍重制本周热门梗视频模板，AI 生成竖屏短视频；免费增值，仅限成年人，输出内容标注 AI 生成",
+      "name": "Space Simulator Online",
+      "intro": "浏览器 3D 太阳系与太空探索模拟器，基于 NASA/JPL 真实星历与原生 WebGL2/WebGPU 渲染 6,000+ 系外行星、TESS 凌星光变曲线实验室、N 体星系碰撞与 110 个梅西耶深空天体，支持中英等 10 种语言，免费免安装无需注册",
+      "introMarkdown": "浏览器 3D 太阳系与太空探索模拟器，基于 NASA/JPL 真实星历与原生 WebGL2/WebGPU 渲染 6,000+ 系外行星、TESS 凌星光变曲线实验室、N 体星系碰撞与 110 个梅西耶深空天体，支持中英等 10 种语言，免费免安装无需注册 - [更多介绍](https://dev.to/wudao0123/building-a-browser-solar-system-explorer-with-nasa-data-and-raw-webgl2-5bkj)",
       "status": "live",
       "date": "2026-10-26",
-      "url": "https://ideoy.ai",
-      "author": "zhangwenhao66",
+      "url": "https://spacesimulator.online/",
+      "author": "Run Cheng",
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/zhangwenhao66"
+          "url": "https://github.com/WuDao0123"
+        },
+        {
+          "label": "博客",
+          "url": "https://dev.to/wudao0123"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "688a2eac02fe",
+      "board": "main",
+      "name": "ReelMorph",
+      "intro": "面向内容创作者及普通用户的 AI 照片转视频工具，上传照片并描述想要的动态效果，或选择预设特效，用自己的照片创作热门同款视频",
+      "introMarkdown": "面向内容创作者及普通用户的 AI 照片转视频工具，上传照片并描述想要的动态效果，或选择预设特效，用自己的照片创作热门同款视频",
+      "status": "live",
+      "date": "2026-10-26",
+      "url": "https://reelmorph.app/",
+      "author": "Miracle",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhoulianbo"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "381b6d2c11fe",
+      "board": "main",
+      "name": "CarWrapDesign",
+      "intro": "帮助车主和汽车爱好者将车衣创意转化为可视化方案，选择支持车型版本，使用免费的浏览器编辑器或 AI 生成器创作图案，在 3D 车辆上比较五种表面效果，并保存、分享、发布或下载设计成果",
+      "introMarkdown": "帮助车主和汽车爱好者将车衣创意转化为可视化方案，选择支持车型版本，使用免费的浏览器编辑器或 AI 生成器创作图案，在 3D 车辆上比较五种表面效果，并保存、分享、发布或下载设计成果",
+      "status": "live",
+      "date": "2026-10-26",
+      "url": "https://carwrapdesign.app/",
+      "author": "Miracle",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhoulianbo"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4e021d528d3c",
+      "board": "main",
+      "name": "YIX",
+      "intro": "AI 图像与视频创作网站，在同一工作台完成图像生成、视频生成、修图、老照片修复和商品视觉制作；生成按积分付费，提供免费提示词工具，注册不赠送积分",
+      "introMarkdown": "AI 图像与视频创作网站，在同一工作台完成图像生成、视频生成、修图、老照片修复和商品视觉制作；生成按积分付费，提供免费提示词工具，注册不赠送积分",
+      "status": "live",
+      "date": "2026-10-26",
+      "url": "https://yix.ai",
+      "author": "Jiguang",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/indielucas"
         }
       ],
       "likes": 0,
@@ -50,6 +111,25 @@
       "comments": 0
     },
     {
+      "slug": "648ea4c02a19",
+      "board": "main",
+      "name": "Ideoy",
+      "intro": "用一张自拍重制本周热门梗视频模板，AI 生成竖屏短视频；免费增值，仅限成年人，输出内容标注 AI 生成",
+      "introMarkdown": "用一张自拍重制本周热门梗视频模板，AI 生成竖屏短视频；免费增值，仅限成年人，输出内容标注 AI 生成",
+      "status": "live",
+      "date": "2026-10-26",
+      "url": "https://ideoy.ai",
+      "author": "zhangwenhao66",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhangwenhao66"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "1275fa64517a",
       "board": "main",
       "name": "关津",
@@ -69,6 +149,25 @@
       "comments": 0
     },
     {
+      "slug": "a0c96a6d2b51",
+      "board": "main",
+      "name": "安星纪工具站",
+      "intro": "在线处理图片、按 Excel 清单批量改名和核对文件是否收齐；另提供 Windows 截图粘贴存图、剪贴板日记及操作手册生成工具，在线功能需登录开通会员，桌面工具提供 3 天试用、单款 10 元激活",
+      "introMarkdown": "在线处理图片、按 Excel 清单批量改名和核对文件是否收齐；另提供 Windows 截图粘贴存图、剪贴板日记及操作手册生成工具，在线功能需登录开通会员，桌面工具提供 3 天试用、单款 10 元激活",
+      "status": "live",
+      "date": "2026-10-26",
+      "url": "https://anxingjilab.com/",
+      "author": "重庆安星纪科技有限公司",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/MonsterJay"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "65fee6a6e16c",
       "board": "main",
       "name": "Quick Image Kit",
@@ -82,29 +181,6 @@
         {
           "label": "Github",
           "url": "https://github.com/mainliufeng"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6f0a48b113e8",
-      "board": "main",
-      "name": "Space Simulator Online",
-      "intro": "浏览器 3D 太阳系与太空探索模拟器，基于 NASA/JPL 真实星历与原生 WebGL2/WebGPU 渲染 6,000+ 系外行星、TESS 凌星光变曲线实验室、N 体星系碰撞与 110 个梅西耶深空天体，支持中英等 10 种语言，免费免安装无需注册",
-      "introMarkdown": "浏览器 3D 太阳系与太空探索模拟器，基于 NASA/JPL 真实星历与原生 WebGL2/WebGPU 渲染 6,000+ 系外行星、TESS 凌星光变曲线实验室、N 体星系碰撞与 110 个梅西耶深空天体，支持中英等 10 种语言，免费免安装无需注册 - [更多介绍](https://dev.to/wudao0123/building-a-browser-solar-system-explorer-with-nasa-data-and-raw-webgl2-5bkj)",
-      "status": "live",
-      "date": "2026-10-26",
-      "url": "https://spacesimulator.online/",
-      "author": "Run Cheng",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/WuDao0123"
-        },
-        {
-          "label": "博客",
-          "url": "https://dev.to/wudao0123"
         }
       ],
       "likes": 0,
@@ -30319,129 +30395,6 @@
         {
           "label": "Github",
           "url": "https://github.com/4o-image-gen"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "91f7484cc307",
-      "board": "main",
-      "name": "imghunt",
-      "intro": "图片下载浏览器扩展，能自动检测、批量下载并转换网页上的各类图片格式，并且支持自定义导出尺寸",
-      "introMarkdown": "图片下载浏览器扩展，能自动检测、批量下载并转换网页上的各类图片格式，并且支持自定义导出尺寸",
-      "status": "live",
-      "date": "2025-03-27",
-      "url": "https://imghunt.com/",
-      "author": "Yasuomang",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "2182b8a93114",
-      "board": "main",
-      "name": "idiom.today-中文成语学习工具",
-      "intro": "帮助英文用户学习中文成语的网站，通过脑图的形式拆分中文成语，提供词义解释，成语故事以及使用案例",
-      "introMarkdown": "帮助英文用户学习中文成语的网站，通过脑图的形式拆分中文成语，提供词义解释，成语故事以及使用案例",
-      "status": "live",
-      "date": "2025-03-27",
-      "url": "https://idiom.today/",
-      "author": "Sawyer",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Sawyer-G"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "c757b731fc18",
-      "board": "main",
-      "name": "Image2pixel",
-      "intro": "图片转像素画工具，已上架 Steam",
-      "introMarkdown": "图片转像素画工具，已上架 Steam",
-      "status": "live",
-      "date": "2025-03-26",
-      "url": "https://store.steampowered.com/app/3475120/Image2pixelPixelArtGenerator/",
-      "author": "PixelBear",
-      "authorLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/JobYu"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "2cda9bf8ecea",
-      "board": "main",
-      "name": "音之梦",
-      "intro": "轻音乐、白噪声和环境声 App，提供数十首轻音乐、几十种环境声，数十亿种搭配混合结果，用于辅助睡眠或者冥想，已上架 iOS App Store",
-      "introMarkdown": "轻音乐、白噪声和环境声 App，提供数十首轻音乐、几十种环境声，数十亿种搭配混合结果，用于辅助睡眠或者冥想，已上架 iOS App Store - [作者提供了一些兑换码](https://github.com/1c7/chinese-independent-developer/pull/485#issue-2945709859)",
-      "status": "live",
-      "date": "2025-03-26",
-      "url": "https://apps.apple.com/cn/app/%E9%9F%B3%E4%B9%8B%E6%A2%A6-%E5%8A%A9%E4%BD%A0%E4%B8%80%E5%A4%9C%E5%A5%BD%E6%A2%A6/id6742869783",
-      "author": "超能刚哥",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/margox/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "c8f8732088a2",
-      "board": "main",
-      "name": "Simpedit",
-      "intro": "提供高质量图像特效的免费在线平台，无论您是专业设计师还是普通用户，都能通过简单几步创造出具有艺术感的图像作品",
-      "introMarkdown": "提供高质量图像特效的免费在线平台，无论您是专业设计师还是普通用户，都能通过简单几步创造出具有艺术感的图像作品 - [更多介绍](https://github.com/1c7/chinese-independent-developer/issues/160#issuecomment-2746268292)",
-      "status": "live",
-      "date": "2025-03-24",
-      "url": "https://simpedit.com/",
-      "author": "underwoodxie",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "54cb93d5c87b",
-      "board": "main",
-      "name": "参要 AI - 诗词字帖",
-      "intro": "用诗词作为练字内容，又练字又温习诗词，双倍收获",
-      "introMarkdown": "用诗词作为练字内容，又练字又温习诗词，双倍收获",
-      "status": "live",
-      "date": "2025-03-24",
-      "url": "https://canyaoai.com/copybooks?from=1c7_chinese_independent_developer",
-      "author": "参要字帖",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/giroudg"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "5ebd314d6b06",
-      "board": "main",
-      "name": "VIEW PRE",
-      "intro": "中国观景指数预测，当前提供泰山、黄山、武功山云海近三日指数预测，后续扩展更多景点指数预测。期待大家的旅行都不扫兴而归！",
-      "introMarkdown": "中国观景指数预测，当前提供泰山、黄山、武功山云海近三日指数预测，后续扩展更多景点指数预测。期待大家的旅行都不扫兴而归！",
-      "status": "live",
-      "date": "2025-03-20",
-      "url": "https://viewpre.com/",
-      "author": "Duan",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/duanduanhh"
         }
       ],
       "likes": 0,
