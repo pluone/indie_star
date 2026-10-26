@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-25T22:58:40.398Z",
-    "statsSyncedAt": "2026-10-25T22:58:40.398Z",
-    "upstreamSha": "e308df51d95b2882d966920e066911c81366828c",
+    "contentSyncedAt": "2026-10-26T01:36:03.403Z",
+    "statsSyncedAt": "2026-10-26T01:36:03.403Z",
+    "upstreamSha": "b592053159ade1a0d03d56c6cca188b3b10f35bd",
     "counts": {
-      "main": 1647,
+      "main": 1648,
       "game": 155,
-      "programmer": 397,
-      "total": 2199
+      "programmer": 399,
+      "total": 2202
     }
   },
   "main": [
+    {
+      "slug": "65fee6a6e16c",
+      "board": "main",
+      "name": "Quick Image Kit",
+      "intro": "免费图片处理工具，把图片压缩到指定 KB、裁剪、转换格式，支持 JPG/PNG/WebP，全部在浏览器本地处理，不上传、无需注册",
+      "introMarkdown": "免费图片处理工具，把图片压缩到指定 KB、裁剪、转换格式，支持 JPG/PNG/WebP，全部在浏览器本地处理，不上传、无需注册",
+      "status": "live",
+      "date": "2026-10-26",
+      "url": "https://quickimagekit.com",
+      "author": "刘峰",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/mainliufeng"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "210e7eeded0e",
       "board": "main",
@@ -33305,6 +33324,39 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "1e6be1ddd585",
+      "board": "programmer",
+      "name": "invoice-archiver",
+      "intro": "邮件发票自动归档命令行工具，从 .eml 或只读 IMAP 取 PDF 发票（含诺诺网链接发票），按「项目-金额-月日」改名、按月归档、按发票号去重并记 CSV 台账；纯 Python 标准库 + pdftotext，MIT 协议",
+      "introMarkdown": "邮件发票自动归档命令行工具，从 .eml 或只读 IMAP 取 PDF 发票（含诺诺网链接发票），按「项目-金额-月日」改名、按月归档、按发票号去重并记 CSV 台账；纯 Python 标准库 + pdftotext，MIT 协议",
+      "status": "live",
+      "date": "2026-10-26",
+      "url": "https://github.com/cobalt-kite12/invoice-archiver",
+      "author": "cobalt-kite12",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cobalt-kite12"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "a29e3065c131",
+      "board": "programmer",
+      "name": "Twinkle Model",
+      "intro": "AI API 中转站，基于 sub2api、官方订阅渠道，OpenAI 兼容，一个 Key 调 GPT/Claude/Grok/GLM/DeepSeek/Kimi，按倍率计费（GPT 0.1 倍起），支付宝 ¥1 起充可开票",
+      "introMarkdown": "AI API 中转站，基于 sub2api、官方订阅渠道，OpenAI 兼容，一个 Key 调 GPT/Claude/Grok/GLM/DeepSeek/Kimi，按倍率计费（GPT 0.1 倍起），支付宝 ¥1 起充可开票",
+      "status": "live",
+      "date": "2026-10-26",
+      "url": "https://big-model.smart-agi.com",
+      "author": "Twinkle Model 站长",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "7a90cd107e9e",
       "board": "programmer",
