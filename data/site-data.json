@@ -1,16 +1,586 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-27T09:37:16.387Z",
-    "statsSyncedAt": "2026-10-27T09:37:16.387Z",
-    "upstreamSha": "5c75bcda1e106d63aca8e33c64cf55293624db3d",
+    "contentSyncedAt": "2026-10-27T14:51:07.733Z",
+    "statsSyncedAt": "2026-10-27T14:51:07.733Z",
+    "upstreamSha": "861447c6e27f3808a3cbabcb9cafaf5de08c171a",
     "counts": {
-      "main": 1641,
+      "main": 1651,
       "game": 155,
       "programmer": 408,
-      "total": 2204
+      "total": 2214
     }
   },
   "main": [
+    {
+      "slug": "072959367a88",
+      "board": "main",
+      "name": "airapvideo",
+      "intro": "人声 + 照片生成 9:16 对口型说唱短视频（独立工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "人声 + 照片生成 9:16 对口型说唱短视频（独立工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://ai-rap-video.asia",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "26bb684b3cc8",
+      "board": "main",
+      "name": "Alors on Danse AI",
+      "intro": "两张照片生成约 15 秒白棚双人舞短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "两张照片生成约 15 秒白棚双人舞短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://tryalorsondanse.video",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "6b4e4efb6eee",
+      "board": "main",
+      "name": "Bad Times AI",
+      "intro": "一张照片生成约 15 秒 9:16 争吵/对口型舞蹈短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "一张照片生成约 15 秒 9:16 争吵/对口型舞蹈短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://badtimesai.cc",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "30cbb2ef5dad",
+      "board": "main",
+      "name": "bbywowguy AI",
+      "intro": "一张照片生成约 10 秒 9:16 quince/concha 梗短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "一张照片生成约 10 秒 9:16 quince/concha 梗短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://bbywowguyai.cc",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "a06193827c6b",
+      "board": "main",
+      "name": "Burning Bridges AI",
+      "intro": "1–2 张照片生成派对模板短视频，银杯与 Where she at 两套素材（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "1–2 张照片生成派对模板短视频，银杯与 Where she at 两套素材（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://burningbridgesvideoai.com",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "268e27dc8425",
+      "board": "main",
+      "name": "Cat in the Hat AI",
+      "intro": "一张照片生成约 10 秒 9:16 门铃万圣节恶搞短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "一张照片生成约 10 秒 9:16 门铃万圣节恶搞短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://catinthehat.cc",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "55ad9c4ffffe",
+      "board": "main",
+      "name": "ChatGPT Millionaire AI",
+      "intro": "一张自拍生成约 10–13 秒「Get a job.」梗短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "一张自拍生成约 10–13 秒「Get a job.」梗短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://chatgptmillionaire.cc",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "2b2d0b5f9897",
+      "board": "main",
+      "name": "ChatGTT",
+      "intro": "一张照片生成约 10–13 秒 9:16 信用卡拒付梗短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "一张照片生成约 10–13 秒 9:16 信用卡拒付梗短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://chatgtt.cc",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "7bad21bdcf02",
+      "board": "main",
+      "name": "Cheba Man AI",
+      "intro": "一张全身照生成约 15–17 秒红色舞台 Tecktonik 短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "一张全身照生成约 15–17 秒红色舞台 Tecktonik 短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://chebamanai.cc",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "2e227d3aa43c",
+      "board": "main",
+      "name": "Choosin Texas AI",
+      "intro": "一张照片生成约 15 秒 9:16 emo 屋顶翻唱短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "一张照片生成约 15 秒 9:16 emo 屋顶翻唱短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://choosintexas.run",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "0162fabf968a",
+      "board": "main",
+      "name": "Chuttamalle Dance AI",
+      "intro": "授权人像生成约 15 秒 9:16 生成式舞蹈短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "授权人像生成约 15 秒 9:16 生成式舞蹈短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://trychuttamalle.app",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "f77f46e38453",
+      "board": "main",
+      "name": "coralineai",
+      "intro": "一张自拍生成约 10 秒 9:16 纽扣眼人偶变身短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "一张自拍生成约 10 秒 9:16 纽扣眼人偶变身短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://coralineai.run",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d7d97d69b098",
+      "board": "main",
+      "name": "Corpse Bride AI",
+      "intro": "一张照片生成约 10 秒 9:16 鬼新娘/新郎墓园共舞短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "一张照片生成约 10 秒 9:16 鬼新娘/新郎墓园共舞短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://corpsebride.cc",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "6adb31bca3e8",
+      "board": "main",
+      "name": "Devil Wears Prada AI",
+      "intro": "一张照片生成约 15 秒 9:16 街头造型焕新短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "一张照片生成约 15 秒 9:16 街头造型焕新短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://pradaai.cc",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "e2a1818b0baf",
+      "board": "main",
+      "name": "Flying Roadster AI",
+      "intro": "一张自拍生成约 10–12 秒夜坡垂直喷气翻转短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "一张自拍生成约 10–12 秒夜坡垂直喷气翻转短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://flyingcarai.cc",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "30c0cb74c2f7",
+      "board": "main",
+      "name": "Hotel Lobby AI",
+      "intro": "两张照片生成约 15 秒酒店大堂双人短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "两张照片生成约 15 秒酒店大堂双人短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://tryhotellobby.app",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "764976def7ad",
+      "board": "main",
+      "name": "Hug In Heaven AI",
+      "intro": "两张照片生成约 12–15 秒天堂楼梯重逢纪念短片，18+（独立纪念工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "两张照片生成约 12–15 秒天堂楼梯重逢纪念短片，18+（独立纪念工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://huginheaven.cc",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4ab34f9b6f25",
+      "board": "main",
+      "name": "JeanPhilAI",
+      "intro": "一张照片生成约 12–15 秒金发波波头加小胡子短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "一张照片生成约 12–15 秒金发波波头加小胡子短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://jeanphilai.cc",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "98fe4f3db219",
+      "board": "main",
+      "name": "Kiss Cam AI",
+      "intro": "1–2 张照片生成约 10 秒体育场 kiss-cam 短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "1–2 张照片生成约 10 秒体育场 kiss-cam 短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://coldplayaffairai.cc",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "9ab77e2a7ea8",
+      "board": "main",
+      "name": "Raindance AI",
+      "intro": "两张照片生成约 15 秒码头多镜头短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "两张照片生成约 15 秒码头多镜头短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://raindanceai.click",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "aa9f11719438",
+      "board": "main",
+      "name": "RemixMeme",
+      "intro": "用照片生成舞蹈、宠物和搞笑梗短视频，内置模板直接用（独立工具，非官方）",
+      "introMarkdown": "用照片生成舞蹈、宠物和搞笑梗短视频，内置模板直接用（独立工具，非官方）",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://remixmeme.com",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "3a0fc416ebf5",
+      "board": "main",
+      "name": "Rumpelstiltskin Dance AI",
+      "intro": "1–2 张照片生成谷仓踮脚舞蹈短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "1–2 张照片生成谷仓踮脚舞蹈短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://rumpelstiltskindance.video",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "a9993ee2dc98",
+      "board": "main",
+      "name": "ShanShenBu AI",
+      "intro": "一张照片生成约 13–15 秒 9:16 闪身步舞蹈短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "一张照片生成约 13–15 秒 9:16 闪身步舞蹈短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://shanshenbuai.cc",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "33fd20603b91",
+      "board": "main",
+      "name": "Unforgettable Car AI",
+      "intro": "一张自拍生成约 10 秒 9:16 纸牌揭车短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "一张自拍生成约 10 秒 9:16 纸牌揭车短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://unforgettablecarai.cc",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "158bcd0a682a",
+      "board": "main",
+      "name": "Venom Car AI",
+      "intro": "一张车照片生成约 15 秒黑液车库组装短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "一张车照片生成约 15 秒黑液车库组装短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://venomcarai.cc",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "1a553018c1d0",
+      "board": "main",
+      "name": "venommakeup AI",
+      "intro": "一张照片生成约 10 秒 9:16 万圣节半脸黑液短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "一张照片生成约 10 秒 9:16 万圣节半脸黑液短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://venommakeup.cc",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "03d54d66a191",
+      "board": "main",
+      "name": "Victoria Secret AI",
+      "intro": "一张照片生成约 10 秒 9:16 天使翅膀走秀短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "一张照片生成约 10 秒 9:16 天使翅膀走秀短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://victoriasecretai.cc",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "64978ca5b380",
+      "board": "main",
+      "name": "White Chicks AI",
+      "intro": "1–2 张照片生成约 10–12 秒 9:16 夜景敞篷车对唱短视频，支持双人或宠物（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "1–2 张照片生成约 10–12 秒 9:16 夜景敞篷车对唱短视频，支持双人或宠物（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://whitechicks.cc",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "1a1362517c45",
+      "board": "main",
+      "name": "wywmysweetie AI",
+      "intro": "一张照片生成约 13 秒 9:16 jersey-club 舞蹈短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "introMarkdown": "一张照片生成约 13 秒 9:16 jersey-club 舞蹈短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://wywmysweetie.run",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "cc6d53afb3cc",
+      "board": "main",
+      "name": "ZombieHug",
+      "intro": "两张照片生成竖屏僵尸爱情故事短视频，多镜头带音效（独立粉丝工具，非官方）；按条付费 $6.99 起",
+      "introMarkdown": "两张照片生成竖屏僵尸爱情故事短视频，多镜头带音效（独立粉丝工具，非官方）；按条付费 $6.99 起",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://aizombie.app",
+      "author": "xianyu110",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "423d3e59cf22",
       "board": "main",
@@ -29960,350 +30530,6 @@
         {
           "label": "博客",
           "url": "https://indiepa.ge/bo0bo0"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "17867547e50c",
-      "board": "main",
-      "name": "Clone UI",
-      "intro": "Web 网页克隆工具，只需上传网站截图、UI 设计图或网站链接就能还原 80% 前端代码设计",
-      "introMarkdown": "Web 网页克隆工具，只需上传网站截图、UI 设计图或网站链接就能还原 80% 前端代码设计",
-      "status": "live",
-      "date": "2025-05-02",
-      "url": "https://cloneui.org",
-      "author": "Allen",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9ef4dd1e503b",
-      "board": "main",
-      "name": "Style Ai",
-      "intro": "免费 GPT-4o 绘画工具，轻松将图片转成吉卜力、史努比、3D 盲盒等功能",
-      "introMarkdown": "免费 GPT-4o 绘画工具，轻松将图片转成吉卜力、史努比、3D 盲盒等功能",
-      "status": "live",
-      "date": "2025-05-02",
-      "url": "https://styleai.art",
-      "author": "Allen",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b3c4b3ec819f",
-      "board": "main",
-      "name": "CFA Essentials",
-      "intro": "高效复习 CFA 考试的手机 App，可以随时随地学习的笔记内容",
-      "introMarkdown": "高效复习 CFA 考试的手机 App，可以随时随地学习的笔记内容",
-      "status": "live",
-      "date": "2025-04-29",
-      "url": "https://apps.apple.com/us/app/cfa-essentials-l1-3-exam-prep/id6745157137",
-      "author": "dodid",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/dodid"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "a62a09fefa6e",
-      "board": "main",
-      "name": "Canvave",
-      "intro": "简单图形设计和动画制作平台。无须专业技能也能做出任意尺寸的精美设计；最高支持图片 3x 或动画 240 FPS 导出；内置基于 Flux 的 AI 文生图、图生图；适合电商卖家、广告设计、社媒运营、独立开发等有设计需求的群体",
-      "introMarkdown": "简单图形设计和动画制作平台。无须专业技能也能做出任意尺寸的精美设计；最高支持图片 3x 或动画 240 FPS 导出；内置基于 Flux 的 AI 文生图、图生图；适合电商卖家、广告设计、社媒运营、独立开发等有设计需求的群体",
-      "status": "live",
-      "date": "2025-04-29",
-      "url": "https://canvave.com",
-      "author": "vzt7",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/vzt7/canvave"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "4f73b0ff02b1",
-      "board": "main",
-      "name": "ProxyPin",
-      "intro": "全平台系统开源免费抓包软件",
-      "introMarkdown": "全平台系统开源免费抓包软件",
-      "status": "live",
-      "date": "2025-04-27",
-      "url": "https://github.com/wanghongenpin/proxypin/blob/main/README_CN.md",
-      "author": "wanghongenpin",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/wanghongenpin"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "7a5ea6ae63d1",
-      "board": "main",
-      "name": "Action Figure AI Generator",
-      "intro": "将您的照片转成动作人偶玩具图像。只需上传照片，添加配件和产品名称，选择喜欢的风格，即可生成专业级别的动作人偶包装盒效果图，适合收藏、分享或用作创意礼物",
-      "introMarkdown": "将您的照片转成动作人偶玩具图像。只需上传照片，添加配件和产品名称，选择喜欢的风格，即可生成专业级别的动作人偶包装盒效果图，适合收藏、分享或用作创意礼物",
-      "status": "live",
-      "date": "2025-04-27",
-      "url": "https://actionfigureai.co/",
-      "author": "handsometong",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/handsometong2020"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b2a750358758",
-      "board": "main",
-      "name": "Pet To Human",
-      "intro": "用人工智能把你的宠物照片变成人像，保留宠物独有的表情与个性",
-      "introMarkdown": "用人工智能把你的宠物照片变成人像，保留宠物独有的表情与个性",
-      "status": "live",
-      "date": "2025-04-27",
-      "url": "https://pettohuman.com/",
-      "author": "FluxStrive",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/fluxstrive"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "e74911f3678e",
-      "board": "main",
-      "name": "Character Headcanon Generator",
-      "intro": "角色文本生成网站",
-      "introMarkdown": "角色文本生成网站",
-      "status": "live",
-      "date": "2025-04-25",
-      "url": "https://characterheadcanongenerator.online/",
-      "author": "Ayden-123",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Ayden-123"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "222c95979990",
-      "board": "main",
-      "name": "Action Figure AI",
-      "intro": "用 AI 将照片转成手办图",
-      "introMarkdown": "用 AI 将照片转成手办图",
-      "status": "live",
-      "date": "2025-04-25",
-      "url": "https://actionfigureai.online",
-      "author": "Sean",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ShurshanX"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "5d61d976732d",
-      "board": "main",
-      "name": "ImageToBlackAndWhite",
-      "intro": "把彩色图片转成黑白图片",
-      "introMarkdown": "把彩色图片转成黑白图片",
-      "status": "live",
-      "date": "2025-04-21",
-      "url": "https://imagetoblackandwhite.org/",
-      "author": "Ayden",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Ayden-123"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "41609922f63d",
-      "board": "main",
-      "name": "Qwikrank",
-      "intro": "自动调研 SEO 关键词、生成高质量 SEO 长文章、发布到博客、获取自然搜索流量，并且添加图片、内链、外链。适合独立创业者，无需 SEO 知识",
-      "introMarkdown": "自动调研 SEO 关键词、生成高质量 SEO 长文章、发布到博客、获取自然搜索流量，并且添加图片、内链、外链。适合独立创业者，无需 SEO 知识",
-      "status": "live",
-      "date": "2025-04-19",
-      "url": "https://qwikrank.com/",
-      "author": "jianpingliu",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f5c66ae8db36",
-      "board": "main",
-      "name": "报告汇",
-      "intro": "各行各业的电子书、论文等数据报告",
-      "introMarkdown": "各行各业的电子书、论文等数据报告",
-      "status": "live",
-      "date": "2025-04-16",
-      "url": "https://www.vicsdf.com/",
-      "author": "lizhichao",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/lizhichao"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d5dd9bb0ef4e",
-      "board": "main",
-      "name": "AI Affiliate 分销目录",
-      "intro": "收录支持 Affiliate 分销的 AI 应用",
-      "introMarkdown": "收录支持 Affiliate 分销的 AI 应用",
-      "status": "live",
-      "date": "2025-04-14",
-      "url": "https://aiaffiliatelist.com/",
-      "author": "Leo",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "01de20446686",
-      "board": "main",
-      "name": "免费在线 AI 卡通图片生成工具",
-      "intro": "将文本和照片转换为令人惊艳的卡通风格图像。它提供多种艺术风格、丰富的自定义选项和高质量的输出，让用户轻松创建独特的头像、社交媒体内容和品牌插画",
-      "introMarkdown": "将文本和照片转换为令人惊艳的卡通风格图像。它提供多种艺术风格、丰富的自定义选项和高质量的输出，让用户轻松创建独特的头像、社交媒体内容和品牌插画",
-      "status": "live",
-      "date": "2025-04-08",
-      "url": "https://aicartoongenerator.org/zh",
-      "author": "vampirewyi",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "40b9e7d05829",
-      "board": "main",
-      "name": "动猫相机",
-      "intro": "一键拍猫表情包的相机 APP",
-      "introMarkdown": "一键拍猫表情包的相机 APP",
-      "status": "live",
-      "date": "2025-04-08",
-      "url": "https://apps.apple.com/cn/app/%E5%8A%A8%E7%8C%AB%E7%9B%B8%E6%9C%BA/id6449184105",
-      "author": "Link",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/LinkTBF"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "cf6fea39d4c7",
-      "board": "main",
-      "name": "策引",
-      "intro": "全球市场技术分析工具，可以创建多个市场的模拟组合并做深度回测分析。同时正在开发 AI Agent 功能，可帮助用户使用大模型自动生成基于不同交易策略的模拟组合。",
-      "introMarkdown": "全球市场技术分析工具，可以创建多个市场的模拟组合并做深度回测分析。同时正在开发 AI Agent 功能，可帮助用户使用大模型自动生成基于不同交易策略的模拟组合。",
-      "status": "live",
-      "date": "2025-04-08",
-      "url": "https://www.myinvestpilot.com/",
-      "author": "i365dev",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/madawei2699"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "2201004339b9",
-      "board": "main",
-      "name": "Logent AI",
-      "intro": "全球首个 AI Agent Logo 生成器；只需要输入产品名称/主要功能，自动生成合适的精美 Logo",
-      "introMarkdown": "全球首个 AI Agent Logo 生成器；只需要输入产品名称/主要功能，自动生成合适的精美 Logo",
-      "status": "live",
-      "date": "2025-04-07",
-      "url": "https://logent.ai/zh",
-      "author": "疯狂的小波",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "46ab96b25d83",
-      "board": "main",
-      "name": "Voice Cloning",
-      "intro": "只需要5秒语音，就可以免费克隆你的声音，无需等待。",
-      "introMarkdown": "只需要5秒语音，就可以免费克隆你的声音，无需等待。",
-      "status": "live",
-      "date": "2025-04-07",
-      "url": "https://aiclonevoicefree.com/",
-      "author": "Jay",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "48cd1f1e21dd",
-      "board": "main",
-      "name": "PhotoG V2",
-      "intro": "世界上第一个人工智能营销代理：从一张图片生成广告、视频和 SEO 内容 — 您的电子商务成功永远在线的团队",
-      "introMarkdown": "世界上第一个人工智能营销代理：从一张图片生成广告、视频和 SEO 内容 — 您的电子商务成功永远在线的团队",
-      "status": "live",
-      "date": "2025-04-04",
-      "url": "https://photog.art/",
-      "author": "JasmineChzI",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b629f64bb627",
-      "board": "main",
-      "name": "ReplayTact - Form Automation Tester",
-      "intro": "自动化填写和测试网页表单的 Chrome 插件，支持动态数据生成和用户操作重放，提升测试效率和覆盖率",
-      "introMarkdown": "自动化填写和测试网页表单的 Chrome 插件，支持动态数据生成和用户操作重放，提升测试效率和覆盖率",
-      "status": "live",
-      "date": "2025-04-04",
-      "url": "https://chromewebstore.google.com/detail/replaytact-form-automatio/ohkipcncfnmjoeneihmglaadloddopkg?authuser=0&hl=zh-CN",
-      "author": "rukShen",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/WtecHtec"
-        },
-        {
-          "label": "博客",
-          "url": "https://iam.xujingyichang.top/"
         }
       ],
       "likes": 0,
