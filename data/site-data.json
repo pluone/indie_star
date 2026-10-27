@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-27T02:31:07.501Z",
-    "statsSyncedAt": "2026-10-27T02:31:07.501Z",
-    "upstreamSha": "30d430287de01b57867d4d5acc53e2742d6ea6f6",
+    "contentSyncedAt": "2026-10-27T05:46:05.317Z",
+    "statsSyncedAt": "2026-10-27T05:46:05.317Z",
+    "upstreamSha": "cbd70dba06c5bdcc02825d03bd45812ae2325c9a",
     "counts": {
-      "main": 1637,
+      "main": 1640,
       "game": 155,
       "programmer": 407,
-      "total": 2199
+      "total": 2202
     }
   },
   "main": [
+    {
+      "slug": "423d3e59cf22",
+      "board": "main",
+      "name": "回想册 Idea Rewind",
+      "intro": "碎片笔记 App，随手记录文字、照片、录音和视频，用多个收纳箱交叉归类，再以卡片回顾、继续写旧想法；本地记录无需注册，基础功能免费、可选 Pro。iOS 已上线，Android 正在 Google Play 封测",
+      "introMarkdown": "碎片笔记 App，随手记录文字、照片、录音和视频，用多个收纳箱交叉归类，再以卡片回顾、继续写旧想法；本地记录无需注册，基础功能免费、可选 Pro。iOS 已上线，Android 正在 Google Play 封测 - [App Store](https://apps.apple.com/cn/app/id6806823786)",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://indieshade.com/products/recollect/",
+      "author": "影下独作 IndieShade",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/indieshade"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "70d0d1cf8140",
+      "board": "main",
+      "name": "风言写作",
+      "intro": "面向长篇小说与网文连载的本地写作软件，随正文呈现相关人物与世界观设定，支持设定属性追踪、卷章管理和同一局域网手机续写；书稿保存在自己的电脑，基础创作免费、无需注册",
+      "introMarkdown": "面向长篇小说与网文连载的本地写作软件，随正文呈现相关人物与世界观设定，支持设定属性追踪、卷章管理和同一局域网手机续写；书稿保存在自己的电脑，基础创作免费、无需注册",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://www.linkwrite.cn",
+      "author": "fengyandefeng",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fengyandefeng"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "9e253de6eded",
+      "board": "main",
+      "name": "Spaceora",
+      "intro": "AI 家居与花园设计工具，上传一张房间或庭院照片即可生成室内改造、虚拟布置、景观和后院设计效果，并可根据 USDA 种植区推荐植物；提供免费使用次数，生成结果用于设计构思而非精确施工图",
+      "introMarkdown": "AI 家居与花园设计工具，上传一张房间或庭院照片即可生成室内改造、虚拟布置、景观和后院设计效果，并可根据 USDA 种植区推荐植物；提供免费使用次数，生成结果用于设计构思而非精确施工图",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://spaceora.app/",
+      "author": "Zin",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zina26"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "eddfd0082a1b",
       "board": "main",
