@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-27T06:01:06.341Z",
-    "statsSyncedAt": "2026-10-27T06:01:06.341Z",
-    "upstreamSha": "4a855a909c248abb338bca3351ba285510aef3b4",
+    "contentSyncedAt": "2026-10-27T09:37:16.387Z",
+    "statsSyncedAt": "2026-10-27T09:37:16.387Z",
+    "upstreamSha": "5c75bcda1e106d63aca8e33c64cf55293624db3d",
     "counts": {
-      "main": 1640,
+      "main": 1641,
       "game": 155,
-      "programmer": 407,
-      "total": 2202
+      "programmer": 408,
+      "total": 2204
     }
   },
   "main": [
@@ -139,6 +139,25 @@
         {
           "label": "Github",
           "url": "https://github.com/tumingke0"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "30d3b160407f",
+      "board": "main",
+      "name": "DiskWise",
+      "intro": "Mac 磁盘清理工具，把整块盘画成一个环，每一段写明是什么、删了会怎样；node_modules、Xcode、Docker 和 AI 工具缓存能按项目列出来，删除只进废纸篓、随时可撤销；免费开源、无订阅、不联网",
+      "introMarkdown": "Mac 磁盘清理工具，把整块盘画成一个环，每一段写明是什么、删了会怎样；node_modules、Xcode、Docker 和 AI 工具缓存能按项目列出来，删除只进废纸篓、随时可撤销；免费开源、无订阅、不联网 - [App Store](https://apps.apple.com/cn/app/id6813265402)",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://github.com/DreamOfXM/diskwise",
+      "author": "DreamOfXM",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/DreamOfXM"
         }
       ],
       "likes": 0,
@@ -33190,6 +33209,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "7f01c9655112",
+      "board": "programmer",
+      "name": "Coday",
+      "intro": "Windows 桌面工具，让 Devin、Cursor、Windsurf、Kiro 和 VS Code 使用自选的 OpenAI / Claude 兼容接口，支持多源故障转移、跨 IDE 项目规则及 Devin 汉化；提供安装包和中文界面，源码未开放",
+      "introMarkdown": "Windows 桌面工具，让 Devin、Cursor、Windsurf、Kiro 和 VS Code 使用自选的 OpenAI / Claude 兼容接口，支持多源故障转移、跨 IDE 项目规则及 Devin 汉化；提供安装包和中文界面，源码未开放",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://github.com/HyperClockUp/Coday",
+      "author": "HyperClockUp",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/HyperClockUp"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "c0b7f58c4d16",
       "board": "programmer",
