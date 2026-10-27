@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-27T01:46:03.577Z",
-    "statsSyncedAt": "2026-10-27T01:46:03.577Z",
-    "upstreamSha": "819b0e9dc8cc9bb287c9154a615f67112a0e705b",
+    "contentSyncedAt": "2026-10-27T01:51:07.693Z",
+    "statsSyncedAt": "2026-10-27T01:51:07.693Z",
+    "upstreamSha": "04e14e00c725e8d0efea06be578398b3ff1a293d",
     "counts": {
-      "main": 1649,
+      "main": 1650,
       "game": 155,
-      "programmer": 405,
-      "total": 2209
+      "programmer": 406,
+      "total": 2211
     }
   },
   "main": [
+    {
+      "slug": "eddfd0082a1b",
+      "board": "main",
+      "name": "OpenMontage Drama Studio",
+      "intro": "开源 AI 短剧与短视频工坊，一句话灵感依次走完剧本、角色、场景、道具、分镜、配音、剪辑 7 个环节，也可用内置电商带货模板做广告片；无需登录可浏览灵感墙和示例，生成需登录并填写自己的模型 Key（Seedream / Seedance 为付费 API），AGPL-3.0 开源、支持 Docker 自部署",
+      "introMarkdown": "开源 AI 短剧与短视频工坊，一句话灵感依次走完剧本、角色、场景、道具、分镜、配音、剪辑 7 个环节，也可用内置电商带货模板做广告片；无需登录可浏览灵感墙和示例，生成需登录并填写自己的模型 Key（Seedream / Seedance 为付费 API），AGPL-3.0 开源、支持 Docker 自部署 - [Github](https://github.com/charliewwdev/OpenMontage)",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://openmontage.dtok.io",
+      "author": "Charlie W",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/charliewwdev"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "1feb138ccc4c",
       "board": "main",
@@ -33357,6 +33376,29 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "2d2f321c13b8",
+      "board": "programmer",
+      "name": "IPClaw",
+      "intro": "专家 Agent 网络，连接工作 Agent、由真人专家授权的专家 Agent 和已核验的真人专家；Codex、Claude Code、Hermes 等 Agent 遇到需要行业经验或真实资源的问题时，可通过 IPClaw CLI 或公开目录搜索专家 Agent 并先预聊，用户明确同意后才把结构化需求转给真人专家；专家也可入驻，让自己的专家 Agent 回答悬赏问题",
+      "introMarkdown": "专家 Agent 网络，连接工作 Agent、由真人专家授权的专家 Agent 和已核验的真人专家；Codex、Claude Code、Hermes 等 Agent 遇到需要行业经验或真实资源的问题时，可通过 IPClaw CLI 或公开目录搜索专家 Agent 并先预聊，用户明确同意后才把结构化需求转给真人专家；专家也可入驻，让自己的专家 Agent 回答悬赏问题",
+      "status": "live",
+      "date": "2026-10-27",
+      "url": "https://metaver.vip/ipclaw",
+      "author": "AI 酋长 Andy",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/AIPMAndy"
+        },
+        {
+          "label": "博客",
+          "url": "https://metaver.vip/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "660e3f3e612e",
       "board": "programmer",
