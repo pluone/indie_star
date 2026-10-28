@@ -1,49 +1,49 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-28T09:31:30.936Z",
-    "statsSyncedAt": "2026-10-28T09:31:30.936Z",
-    "upstreamSha": "5fd96bbdbae44f121c054294a76b963b5ec707ff",
+    "contentSyncedAt": "2026-10-28T09:36:34.504Z",
+    "statsSyncedAt": "2026-10-28T09:36:34.504Z",
+    "upstreamSha": "5398c3168bf4d0c449801edcc6bf2bf7e915b7ef",
     "counts": {
-      "main": 1657,
+      "main": 1649,
       "game": 155,
-      "programmer": 408,
-      "total": 2220
+      "programmer": 410,
+      "total": 2214
     }
   },
   "main": [
     {
-      "slug": "ca401517e0f1",
+      "slug": "ea5678969963",
       "board": "main",
-      "name": "Neat CSV",
-      "intro": "VS Code CSV/TSV 编辑器，支持大文件浏览、表格与对齐文本编辑、筛选排序和块编辑，文件在本地处理，免费开源",
-      "introMarkdown": "VS Code CSV/TSV 编辑器，支持大文件浏览、表格与对齐文本编辑、筛选排序和块编辑，文件在本地处理，免费开源 - [GitHub 仓库](https://github.com/xiaomingio/neat-csv)",
+      "name": "ZoopFizz",
+      "intro": "选模板或写提示词，上传照片或输入文字，在同一积分工作区用 Seedance / Veo / Wan 等模型生成 TikTok/Reels 短视频；草稿免费，新验证账号送 100 积分（30 天），月付从 $29.99 起",
+      "introMarkdown": "选模板或写提示词，上传照片或输入文字，在同一积分工作区用 Seedance / Veo / Wan 等模型生成 TikTok/Reels 短视频；草稿免费，新验证账号送 100 积分（30 天），月付从 $29.99 起 - [模型与积分](https://zoopfizz.com/models.md)",
       "status": "live",
       "date": "2026-10-28",
-      "url": "https://marketplace.visualstudio.com/items?itemName=xiaomingio.neat-csv",
-      "author": "小明",
+      "url": "https://zoopfizz.com/",
+      "author": "Koroo",
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/xiaomingio"
+          "url": "https://github.com/CClishan"
         }
       ],
       "likes": 0,
       "comments": 0
     },
     {
-      "slug": "595eff62e91c",
+      "slug": "1e8917948b90",
       "board": "main",
-      "name": "Neat SQLite",
-      "intro": "VS Code SQLite 编辑器，支持表格编辑、SQL 查询和 CSV 导入导出，跨表修改暂存后通过一个事务统一保存，免费开源",
-      "introMarkdown": "VS Code SQLite 编辑器，支持表格编辑、SQL 查询和 CSV 导入导出，跨表修改暂存后通过一个事务统一保存，免费开源 - [GitHub 仓库](https://github.com/xiaomingio/neat-sqlite)",
+      "name": "铝构AI BeamJoin",
+      "intro": "在线铝型材设计工具，用自然语言辅助搭建和修改桌架、工作台、置物架等三维方案，并整理型材切割长度、材料与加工清单，支持 PDF、Excel 导出",
+      "introMarkdown": "在线铝型材设计工具，用自然语言辅助搭建和修改桌架、工作台、置物架等三维方案，并整理型材切割长度、材料与加工清单，支持 PDF、Excel 导出",
       "status": "live",
       "date": "2026-10-28",
-      "url": "https://marketplace.visualstudio.com/items?itemName=xiaomingio.neat-sqlite",
-      "author": "小明",
+      "url": "https://forgepane.com",
+      "author": "Nolan",
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/xiaomingio"
+          "url": "https://github.com/NolanSoloBuilder"
         }
       ],
       "likes": 0,
@@ -30507,147 +30507,6 @@
       ],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "cc48ca1628b6",
-      "board": "main",
-      "name": "TabBoost（Chrome 扩展）",
-      "intro": "提高浏览器标签效率，灵感来自 Arc 浏览器和开发者的实际体验",
-      "introMarkdown": "提高浏览器标签效率，灵感来自 Arc 浏览器和开发者的实际体验 - [更多介绍](https://github.com/samzong/chrome-tabboost)",
-      "status": "live",
-      "date": "2025-05-09",
-      "url": "https://chromewebstore.google.com/detail/tabboost/pnpabkdhbbjmahfnhnfhpgfmhkkeoloe",
-      "author": "samzong",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "e2a7aa1a1557",
-      "board": "main",
-      "name": "Best Bra Size Calculator",
-      "intro": "根据体态计算用户适合穿戴什么文胸以及相关保养提示",
-      "introMarkdown": "根据体态计算用户适合穿戴什么文胸以及相关保养提示",
-      "status": "live",
-      "date": "2025-05-09",
-      "url": "https://bestbrasizecalculator.com",
-      "author": "jzhone",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "bd2490ac215c",
-      "board": "main",
-      "name": "信风 AI 外贸获客智能体",
-      "intro": "每周 AI 全网实时搜索获取高质量线索，自动化拓展终端客户/经销商/合作伙伴，快速布局海外市场",
-      "introMarkdown": "每周 AI 全网实时搜索获取高质量线索，自动化拓展终端客户/经销商/合作伙伴，快速布局海外市场 - [更多介绍](https://www.trade-wind.co/compare)",
-      "status": "live",
-      "date": "2025-05-09",
-      "url": "https://www.trade-wind.co",
-      "author": "Alex Li",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b96f13612b24",
-      "board": "main",
-      "name": "Free AI Beauty Test",
-      "intro": "AI 颜值测试，提供给你个性化的建议",
-      "introMarkdown": "AI 颜值测试，提供给你个性化的建议",
-      "status": "live",
-      "date": "2025-05-09",
-      "url": "https://aibeautytest.org/",
-      "author": "underwoodxie",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/underwoodxie"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "5c7a1615890d",
-      "board": "main",
-      "name": "AI Doll Generator",
-      "intro": "使用 AI 技术将人像转成玩具盒子风格！",
-      "introMarkdown": "使用 AI 技术将人像转成玩具盒子风格！",
-      "status": "live",
-      "date": "2025-05-07",
-      "url": "https://ai-doll-generator.net",
-      "author": "jerrybi",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/jerrybi"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "2ffbb43c0dd1",
-      "board": "main",
-      "name": "4oimg.org",
-      "intro": "基于 OpenAI 最新图像技术的创作平台，支持多风格生成和精确文本渲染的 AI 绘图工具",
-      "introMarkdown": "基于 OpenAI 最新图像技术的创作平台，支持多风格生成和精确文本渲染的 AI 绘图工具",
-      "status": "live",
-      "date": "2025-05-07",
-      "url": "https://4oimg.org",
-      "author": "Caron77",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Caron77ai"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "bb93b4eedb1d",
-      "board": "main",
-      "name": "Notion style illustration",
-      "intro": "专注于 Notion 风格插画生成网站，一句话提示词就能生成 Notion 风格插画/Flat style illustration",
-      "introMarkdown": "专注于 Notion 风格插画生成网站，一句话提示词就能生成 Notion 风格插画/Flat style illustration",
-      "status": "live",
-      "date": "2025-05-06",
-      "url": "https://illustration.imglab.dev",
-      "author": "yiquan00",
-      "authorLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/yiquan00"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "8ee2bc347c63",
-      "board": "main",
-      "name": "Labubu Wallpaper",
-      "intro": "下载 4K Labubu 壁纸，针对 iPhone, 笔记本和移动设备优化",
-      "introMarkdown": "下载 4K Labubu 壁纸，针对 iPhone, 笔记本和移动设备优化",
-      "status": "live",
-      "date": "2025-05-06",
-      "url": "https://labubuwallpaper.com/",
-      "author": "Bobo Cao",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/bo0-bo0"
-        },
-        {
-          "label": "博客",
-          "url": "https://indiepa.ge/bo0bo0"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
@@ -33549,6 +33408,44 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "a37a12cd9f9d",
+      "board": "programmer",
+      "name": "Neat CSV",
+      "intro": "VS Code CSV/TSV 编辑器，支持大文件浏览、表格与对齐文本编辑、筛选排序和块编辑，文件在本地处理，免费开源",
+      "introMarkdown": "VS Code CSV/TSV 编辑器，支持大文件浏览、表格与对齐文本编辑、筛选排序和块编辑，文件在本地处理，免费开源 - [GitHub 仓库](https://github.com/xiaomingio/neat-csv)",
+      "status": "live",
+      "date": "2026-10-28",
+      "url": "https://marketplace.visualstudio.com/items?itemName=xiaomingio.neat-csv",
+      "author": "小明",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xiaomingio"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "9f30e03df6fd",
+      "board": "programmer",
+      "name": "Neat SQLite",
+      "intro": "VS Code SQLite 编辑器，支持表格编辑、SQL 查询和 CSV 导入导出，跨表修改暂存后通过一个事务统一保存，免费开源",
+      "introMarkdown": "VS Code SQLite 编辑器，支持表格编辑、SQL 查询和 CSV 导入导出，跨表修改暂存后通过一个事务统一保存，免费开源 - [GitHub 仓库](https://github.com/xiaomingio/neat-sqlite)",
+      "status": "live",
+      "date": "2026-10-28",
+      "url": "https://marketplace.visualstudio.com/items?itemName=xiaomingio.neat-sqlite",
+      "author": "小明",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xiaomingio"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "7f01c9655112",
       "board": "programmer",
