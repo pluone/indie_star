@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-28T14:06:03.804Z",
-    "statsSyncedAt": "2026-10-28T14:06:03.804Z",
-    "upstreamSha": "c470fd784454746adaea08d646d80cb81a07e894",
+    "contentSyncedAt": "2026-10-28T14:11:06.644Z",
+    "statsSyncedAt": "2026-10-28T14:11:06.644Z",
+    "upstreamSha": "ab799ec84f236fcac1013f3cbd71d57b847c4fa1",
     "counts": {
       "main": 1650,
       "game": 155,
@@ -15,8 +15,8 @@
       "slug": "d283e3f9fbe5",
       "board": "main",
       "name": "JoJo Characters",
-      "intro": "独立的《JOJO的奇妙冒险》人物百科，按部数和作品浏览人物、已有配图与替身资料，支持姓名和别名搜索，附来源及剧情防剧透。",
-      "introMarkdown": "独立的《JOJO的奇妙冒险》人物百科，按部数和作品浏览人物、已有配图与替身资料，支持姓名和别名搜索，附来源及剧情防剧透。",
+      "intro": "独立的《JOJO的奇妙冒险》人物百科，按部数和作品浏览人物、已有配图与替身资料，支持姓名和别名搜索，附来源及剧情防剧透",
+      "introMarkdown": "独立的《JOJO的奇妙冒险》人物百科，按部数和作品浏览人物、已有配图与替身资料，支持姓名和别名搜索，附来源及剧情防剧透",
       "status": "live",
       "date": "2026-10-28",
       "url": "https://jojocharacters.com/",
