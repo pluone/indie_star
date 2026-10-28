@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-28T04:26:02.986Z",
-    "statsSyncedAt": "2026-10-28T04:26:02.986Z",
-    "upstreamSha": "5ca0a85bcbbb596bc22f4d702a98273e0c26be03",
+    "contentSyncedAt": "2026-10-28T09:31:30.936Z",
+    "statsSyncedAt": "2026-10-28T09:31:30.936Z",
+    "upstreamSha": "5fd96bbdbae44f121c054294a76b963b5ec707ff",
     "counts": {
-      "main": 1654,
+      "main": 1657,
       "game": 155,
       "programmer": 408,
-      "total": 2217
+      "total": 2220
     }
   },
   "main": [
+    {
+      "slug": "ca401517e0f1",
+      "board": "main",
+      "name": "Neat CSV",
+      "intro": "VS Code CSV/TSV 编辑器，支持大文件浏览、表格与对齐文本编辑、筛选排序和块编辑，文件在本地处理，免费开源",
+      "introMarkdown": "VS Code CSV/TSV 编辑器，支持大文件浏览、表格与对齐文本编辑、筛选排序和块编辑，文件在本地处理，免费开源 - [GitHub 仓库](https://github.com/xiaomingio/neat-csv)",
+      "status": "live",
+      "date": "2026-10-28",
+      "url": "https://marketplace.visualstudio.com/items?itemName=xiaomingio.neat-csv",
+      "author": "小明",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xiaomingio"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "595eff62e91c",
+      "board": "main",
+      "name": "Neat SQLite",
+      "intro": "VS Code SQLite 编辑器，支持表格编辑、SQL 查询和 CSV 导入导出，跨表修改暂存后通过一个事务统一保存，免费开源",
+      "introMarkdown": "VS Code SQLite 编辑器，支持表格编辑、SQL 查询和 CSV 导入导出，跨表修改暂存后通过一个事务统一保存，免费开源 - [GitHub 仓库](https://github.com/xiaomingio/neat-sqlite)",
+      "status": "live",
+      "date": "2026-10-28",
+      "url": "https://marketplace.visualstudio.com/items?itemName=xiaomingio.neat-sqlite",
+      "author": "小明",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xiaomingio"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "2e91839e9cd9",
+      "board": "main",
+      "name": "Me2Cloud",
+      "intro": "云服务器延迟测试工具，打开网页就能测你家网络到 AWS、阿里云等 17 家云厂商 361 个区域的延迟、抖动和丢包，买服务器前先挑最快的区域，免费开源无需注册",
+      "introMarkdown": "云服务器延迟测试工具，打开网页就能测你家网络到 AWS、阿里云等 17 家云厂商 361 个区域的延迟、抖动和丢包，买服务器前先挑最快的区域，免费开源无需注册",
+      "status": "live",
+      "date": "2026-10-28",
+      "url": "https://m2c.1ms.dog",
+      "author": "yt1988",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yt1988"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "f38dce90724b",
       "board": "main",
