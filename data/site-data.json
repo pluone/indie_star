@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-28T00:11:53.092Z",
-    "statsSyncedAt": "2026-10-28T00:11:53.092Z",
-    "upstreamSha": "861447c6e27f3808a3cbabcb9cafaf5de08c171a",
+    "contentSyncedAt": "2026-10-28T02:01:05.123Z",
+    "statsSyncedAt": "2026-10-28T02:01:05.123Z",
+    "upstreamSha": "c6382ad1485141960f7c9fccd1f897c3f493d359",
     "counts": {
-      "main": 1651,
+      "main": 1652,
       "game": 155,
       "programmer": 408,
-      "total": 2214
+      "total": 2215
     }
   },
   "main": [
+    {
+      "slug": "334d38d36361",
+      "board": "main",
+      "name": "ReclipMuse",
+      "intro": "上传 1–3 张照片，选择 Hotel Lobby、Burning Bridges、Fireline 等效果，生成 5–30 秒 AI 说唱短视频（独立工具，非官方）；一次性积分包 $4.90 起",
+      "introMarkdown": "上传 1–3 张照片，选择 Hotel Lobby、Burning Bridges、Fireline 等效果，生成 5–30 秒 AI 说唱短视频（独立工具，非官方）；一次性积分包 $4.90 起",
+      "status": "live",
+      "date": "2026-10-28",
+      "url": "https://www.reclipmuse.com",
+      "author": "rudy2steiner",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/rudy2steiner"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "072959367a88",
       "board": "main",
