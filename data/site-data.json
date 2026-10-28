@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-28T09:36:34.504Z",
-    "statsSyncedAt": "2026-10-28T09:36:34.504Z",
-    "upstreamSha": "5398c3168bf4d0c449801edcc6bf2bf7e915b7ef",
+    "contentSyncedAt": "2026-10-28T14:06:03.804Z",
+    "statsSyncedAt": "2026-10-28T14:06:03.804Z",
+    "upstreamSha": "c470fd784454746adaea08d646d80cb81a07e894",
     "counts": {
-      "main": 1649,
+      "main": 1650,
       "game": 155,
       "programmer": 410,
-      "total": 2214
+      "total": 2215
     }
   },
   "main": [
+    {
+      "slug": "d283e3f9fbe5",
+      "board": "main",
+      "name": "JoJo Characters",
+      "intro": "独立的《JOJO的奇妙冒险》人物百科，按部数和作品浏览人物、已有配图与替身资料，支持姓名和别名搜索，附来源及剧情防剧透。",
+      "introMarkdown": "独立的《JOJO的奇妙冒险》人物百科，按部数和作品浏览人物、已有配图与替身资料，支持姓名和别名搜索，附来源及剧情防剧透。",
+      "status": "live",
+      "date": "2026-10-28",
+      "url": "https://jojocharacters.com/",
+      "author": "guetyitudabian",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/guetyitudabian"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "ea5678969963",
       "board": "main",
