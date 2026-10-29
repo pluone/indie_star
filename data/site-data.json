@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-29T06:10:30.436Z",
-    "statsSyncedAt": "2026-10-29T06:10:30.436Z",
-    "upstreamSha": "8c2814171a6a8e40c6e3aec098301d2696d863be",
+    "contentSyncedAt": "2026-10-29T08:16:19.790Z",
+    "statsSyncedAt": "2026-10-29T08:16:19.790Z",
+    "upstreamSha": "77577c534278784a291a6faed0f1f3180d5f96b9",
     "counts": {
-      "main": 1646,
+      "main": 1648,
       "game": 155,
-      "programmer": 411,
-      "total": 2212
+      "programmer": 412,
+      "total": 2215
     }
   },
   "main": [
+    {
+      "slug": "fced20abb2b9",
+      "board": "main",
+      "name": "Pixsolo",
+      "intro": "一款面向 iOS / Android 开发者的免安装 Web 端应用商店截图设计平台",
+      "introMarkdown": "一款面向 iOS / Android 开发者的免安装 Web 端应用商店截图设计平台 - [更多介绍](https://www.pixsolo.com/)",
+      "status": "live",
+      "date": "2026-10-29",
+      "url": "https://www.pixsolo.com/",
+      "author": "cena",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cena001plus"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "862df657bd25",
+      "board": "main",
+      "name": "HD Image Enhancer",
+      "intro": "免费 AI 图片画质增强工具，放大并锐化模糊照片，无需注册即可使用",
+      "introMarkdown": "免费 AI 图片画质增强工具，放大并锐化模糊照片，无需注册即可使用",
+      "status": "live",
+      "date": "2026-10-29",
+      "url": "https://hdimageenhancer.com/",
+      "author": "zimjin",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zimjin"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "f01d2131d42a",
       "board": "main",
@@ -33366,6 +33404,20 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "bd70ab8d813b",
+      "board": "programmer",
+      "name": "xxapi",
+      "intro": "Claude Code / Codex API 中转站，一个账号调用 Claude（Opus 5.5、Sonnet 5.5 等）和 GPT（GPT-6.1、GPT-5.6 等）模型；Claude Code 填 https://xxapi.ai，Codex 等 OpenAI 兼容工具填 https://xxapi.ai/v1；支付宝、微信、Stripe 充值 ¥1 = $1，余额不过期，按量计费，无月费",
+      "introMarkdown": "Claude Code / Codex API 中转站，一个账号调用 Claude（Opus 5.5、Sonnet 5.5 等）和 GPT（GPT-6.1、GPT-5.6 等）模型；Claude Code 填 `https://xxapi.ai`，Codex 等 OpenAI 兼容工具填 `https://xxapi.ai/v1`；支付宝、微信、Stripe 充值 ¥1 = $1，余额不过期，按量计费，无月费 - [中文教程](https://docs.xxapi.ai/)",
+      "status": "live",
+      "date": "2026-10-29",
+      "url": "https://xxapi.ai/",
+      "author": "xxapi",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "5339824cf981",
       "board": "programmer",
