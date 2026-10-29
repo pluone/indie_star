@@ -1,16 +1,92 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-29T02:26:05.300Z",
-    "statsSyncedAt": "2026-10-29T02:26:05.300Z",
-    "upstreamSha": "bcbfd8594b93f255c8d403ce1df43e83f6284979",
+    "contentSyncedAt": "2026-10-29T06:10:30.436Z",
+    "statsSyncedAt": "2026-10-29T06:10:30.436Z",
+    "upstreamSha": "8c2814171a6a8e40c6e3aec098301d2696d863be",
     "counts": {
-      "main": 1651,
+      "main": 1646,
       "game": 155,
       "programmer": 411,
-      "total": 2217
+      "total": 2212
     }
   },
   "main": [
+    {
+      "slug": "f01d2131d42a",
+      "board": "main",
+      "name": "馆长（NCurator）",
+      "intro": "用自然语言读取、创建和编辑本地 DOCX、XLSX、PPTX 的开源 AI 办公助手，支持查看文件修改差异、PDF 阅读和本地知识库检索，软件免费、自备模型 API Key，Windows、macOS 可用",
+      "introMarkdown": "用自然语言读取、创建和编辑本地 DOCX、XLSX、PPTX 的开源 AI 办公助手，支持查看文件修改差异、PDF 阅读和本地知识库检索，软件免费、自备模型 API Key，Windows、macOS 可用 — [开源仓库](https://github.com/Yoan98/Ncurator)",
+      "status": "live",
+      "date": "2026-10-29",
+      "url": "https://www.guanzhangai.cn/zh",
+      "author": "Yoan98",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Yoan98"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "5aba8c717237",
+      "board": "main",
+      "name": "知周 ZhiZhou",
+      "intro": "八字和紫微斗数排盘网站，按出生地经度、均时差和各地历史夏令时自动换算真太阳时，免登录排盘；可免费生成 AI 写的命盘报告，前两节免费读，全文 US$9.90，有简繁两版",
+      "introMarkdown": "八字和紫微斗数排盘网站，按出生地经度、均时差和各地历史夏令时自动换算真太阳时，免登录排盘；可免费生成 AI 写的命盘报告，前两节免费读，全文 US$9.90，有简繁两版 - [真太阳时换算器](https://zhizhou.app/true-solar)",
+      "status": "live",
+      "date": "2026-10-29",
+      "url": "https://zhizhou.app/",
+      "author": "goodlettdummett-alt",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/goodlettdummett-alt"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "8c02ba76f241",
+      "board": "main",
+      "name": "闪电全能下载",
+      "intro": "Mac 下载工具，磁力、种子、网页文件和 YouTube、B 站、抖音、小红书视频放在一个窗口下载，复制链接按 ⌘V 即开始，抖音小红书无水印，电影可边下边看，免费开源",
+      "introMarkdown": "Mac 下载工具，磁力、种子、网页文件和 YouTube、B 站、抖音、小红书视频放在一个窗口下载，复制链接按 ⌘V 即开始，抖音小红书无水印，电影可边下边看，免费开源",
+      "status": "live",
+      "date": "2026-10-29",
+      "url": "https://github.com/chenmozhe008/shandian-download",
+      "author": "沉默者之二",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/chenmozhe008"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "f7c27932bfe4",
+      "board": "main",
+      "name": "小清",
+      "intro": "Mac 清理工具，识别剪映、达芬奇、Adobe 和 Cursor、Claude Code 等 60 余款剪辑与 AI 工具的缓存，只清能自动重建的部分、不碰项目和对话，一键清理可撤销，免费开源不联网",
+      "introMarkdown": "Mac 清理工具，识别剪映、达芬奇、Adobe 和 Cursor、Claude Code 等 60 余款剪辑与 AI 工具的缓存，只清能自动重建的部分、不碰项目和对话，一键清理可撤销，免费开源不联网",
+      "status": "live",
+      "date": "2026-10-29",
+      "url": "https://github.com/chenmozhe008/qingo",
+      "author": "沉默者之二",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/chenmozhe008"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "26ad5d0f0bcd",
       "board": "main",
@@ -30387,162 +30463,6 @@
       "url": "https://attractivenessscale.com/",
       "author": "Brice",
       "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "5e0022464e49",
-      "board": "main",
-      "name": "在线工具箱",
-      "intro": "满足各种任务需求的在线工具，强大的AI驱动工具，提升您的工作效率",
-      "introMarkdown": "满足各种任务需求的在线工具，强大的AI驱动工具，提升您的工作效率",
-      "status": "live",
-      "date": "2025-05-12",
-      "url": "https://tools.cmdragon.cn/zh",
-      "author": "cmdragon",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://[github.com/Amd794](https://github.com/Amd794"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "eaf9bda150a7",
-      "board": "main",
-      "name": "FacelessVideos.APP",
-      "intro": "将一个 idea 转化成短视频 ，自动加上语音，可以定制化背景音乐和字幕，发布在 youtube 频道中。",
-      "introMarkdown": "将一个 idea 转化成短视频 ，自动加上语音，可以定制化背景音乐和字幕，发布在 youtube 频道中。",
-      "status": "live",
-      "date": "2025-05-12",
-      "url": "https://facelessvideos.app",
-      "author": "Jacky",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f0f140a89d9f",
-      "board": "main",
-      "name": "ImagesArt.ai",
-      "intro": "生成完美的AI艺术提示词。使用这个工具为Flux、Midjourney和Stable Diffusion模型生成并优化图像提示词。",
-      "introMarkdown": "生成完美的AI艺术提示词。使用这个工具为Flux、Midjourney和Stable Diffusion模型生成并优化图像提示词。",
-      "status": "live",
-      "date": "2025-05-12",
-      "url": "https://imagesart.ai",
-      "author": "Jacky",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "67e85190e07e",
-      "board": "main",
-      "name": "Flux2Klein.io",
-      "intro": "在 0.5 秒内生成照片级真实图像。基于 Flux2 Klein 9B 模型，提供统一的图像生成和编辑功能。无需注册即可免费生成 2 次。",
-      "introMarkdown": "在 0.5 秒内生成照片级真实图像。基于 Flux2 Klein 9B 模型，提供统一的图像生成和编辑功能。无需注册即可免费生成 2 次。",
-      "status": "live",
-      "date": "2025-05-12",
-      "url": "https://flux2klein.io/",
-      "author": "Jacky",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "c7019eadefbe",
-      "board": "main",
-      "name": "PapyrusFont.com",
-      "intro": "用 Papyrus 字体创建精美的文字设计，可保存为 PNG",
-      "introMarkdown": "用 Papyrus 字体创建精美的文字设计，可保存为 PNG",
-      "status": "live",
-      "date": "2025-05-12",
-      "url": "https://papyrusfont.com/",
-      "author": "sing1ee",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/sing1ee"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d1c6025fd3d2",
-      "board": "main",
-      "name": "免费在线 AI 角色脑洞生成工具",
-      "intro": "借助先进 AI 技术，一键生成多维度角色设定——性格、成长经历、人际关系、价值观等一应俱全。无需注册，完全免费，适用于小说、漫画、游戏等创作场景，智能解析人物特征，助你轻松突破瓶颈，打造鲜活立体的角色。",
-      "introMarkdown": "借助先进 AI 技术，一键生成多维度角色设定——性格、成长经历、人际关系、价值观等一应俱全。无需注册，完全免费，适用于小说、漫画、游戏等创作场景，智能解析人物特征，助你轻松突破瓶颈，打造鲜活立体的角色。",
-      "status": "live",
-      "date": "2025-05-12",
-      "url": "https://characterheadcanongen.com/zh",
-      "author": "vampirewy",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/vampirewy"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "7290c8153458",
-      "board": "main",
-      "name": "Calligraphy Font Generator",
-      "intro": "免费在线书法字体生成工具，一键将普通文字转换为优雅的艺术字体，提供50多种风格选择，适用于设计、社交媒体等多种场景。",
-      "introMarkdown": "免费在线书法字体生成工具，一键将普通文字转换为优雅的艺术字体，提供50多种风格选择，适用于设计、社交媒体等多种场景。",
-      "status": "live",
-      "date": "2025-05-11",
-      "url": "https://calligraphyfontgenerator.org/",
-      "author": "Ayden",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Ayden-123"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "80c80d9a83f3",
-      "board": "main",
-      "name": "Bilibili “换一换” 历史插件",
-      "intro": "查看 B 站首页的换一换历史。有时不小心点太快导致错过了想看的视频，这个插件可以让你往回走，查看前几组推荐视频",
-      "introMarkdown": "查看 B 站首页的换一换历史。有时不小心点太快导致错过了想看的视频，这个插件可以让你往回走，查看前几组推荐视频",
-      "status": "live",
-      "date": "2025-05-10",
-      "url": "https://chromewebstore.google.com/detail/bilibili-%E2%80%9D%E6%8D%A2%E4%B8%80%E6%8D%A2%E2%80%9C-%E5%8E%86%E5%8F%B2/npfopljnjbamegincfjelhjhnonnjloo",
-      "author": "Qiwei",
-      "authorLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/qiweiii"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "deb7fb0fc745",
-      "board": "main",
-      "name": "Addsubtitle",
-      "intro": "视频一键翻译编辑加字幕，超高效视频处理，精准翻译，还原情感；语音克隆与自然配音；自动字幕生成，高效省时；即时在线编辑",
-      "introMarkdown": "视频一键翻译编辑加字幕，超高效视频处理，精准翻译，还原情感；语音克隆与自然配音；自动字幕生成，高效省时；即时在线编辑",
-      "status": "live",
-      "date": "2025-05-10",
-      "url": "https://addsubtitle.ai/",
-      "author": "Christine",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/liuyinjiwen06"
-        }
-      ],
       "likes": 0,
       "comments": 0
     }
