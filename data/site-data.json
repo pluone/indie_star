@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-29T08:16:19.790Z",
-    "statsSyncedAt": "2026-10-29T08:16:19.790Z",
-    "upstreamSha": "77577c534278784a291a6faed0f1f3180d5f96b9",
+    "contentSyncedAt": "2026-10-29T14:35:31.652Z",
+    "statsSyncedAt": "2026-10-29T14:35:31.652Z",
+    "upstreamSha": "ff5b7fcbb5431d67359cab063ce8174bf2eb57e4",
     "counts": {
-      "main": 1648,
+      "main": 1649,
       "game": 155,
       "programmer": 412,
-      "total": 2215
+      "total": 2216
     }
   },
   "main": [
+    {
+      "slug": "6ae0294a65b3",
+      "board": "main",
+      "name": "AIVIZENS",
+      "intro": "中文 AI 日报，每天 5 分钟读完，固定拆解两个一人公司（OPC）案例，附当天 AI 要闻与热门开源工具；免费，邮箱订阅，每期也有独立网页可直接读",
+      "introMarkdown": "中文 AI 日报，每天 5 分钟读完，固定拆解两个一人公司（OPC）案例，附当天 AI 要闻与热门开源工具；免费，邮箱订阅，每期也有独立网页可直接读",
+      "status": "live",
+      "date": "2026-10-29",
+      "url": "https://aivizens.com/?utm_source=chinese_independent_developer&utm_medium=submission",
+      "author": "Paul",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/paulfan2200-debug"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "fced20abb2b9",
       "board": "main",
