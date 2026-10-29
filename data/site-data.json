@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-29T00:33:02.086Z",
-    "statsSyncedAt": "2026-10-29T00:33:02.086Z",
-    "upstreamSha": "ab799ec84f236fcac1013f3cbd71d57b847c4fa1",
+    "contentSyncedAt": "2026-10-29T02:26:05.300Z",
+    "statsSyncedAt": "2026-10-29T02:26:05.300Z",
+    "upstreamSha": "bcbfd8594b93f255c8d403ce1df43e83f6284979",
     "counts": {
-      "main": 1650,
+      "main": 1651,
       "game": 155,
-      "programmer": 410,
-      "total": 2215
+      "programmer": 411,
+      "total": 2217
     }
   },
   "main": [
+    {
+      "slug": "26ad5d0f0bcd",
+      "board": "main",
+      "name": "周五追账排序器 Friday Invoice Chase Ranker",
+      "intro": "打开网页粘贴欠款清单，按 Current / 1–30 / 31–60 / 60+ 排出本周五该催的 Top3，本地运行无需注册，免费开源",
+      "introMarkdown": "打开网页粘贴欠款清单，按 Current / 1–30 / 31–60 / 60+ 排出本周五该催的 Top3，本地运行无需注册，免费开源 — [源码](https://github.com/SirMem/friday-invoice-chase-tool)",
+      "status": "live",
+      "date": "2026-10-29",
+      "url": "https://sirmem.github.io/friday-invoice-chase-tool/",
+      "author": "SirMem",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/SirMem"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "d283e3f9fbe5",
       "board": "main",
@@ -33427,6 +33446,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "5339824cf981",
+      "board": "programmer",
+      "name": "瑶瑶 AI 会员代充",
+      "intro": "ChatGPT Plus / Pro、Claude Pro / Max、SuperGrok、Gemini 会员人民币代充，不用海外信用卡，支付宝付款，付款后平均 2 分钟到账；订阅有质保、掉会员补，24 小时客服；Plus ¥129/月；独立第三方，非官方",
+      "introMarkdown": "ChatGPT Plus / Pro、Claude Pro / Max、SuperGrok、Gemini 会员人民币代充，不用海外信用卡，支付宝付款，付款后平均 2 分钟到账；订阅有质保、掉会员补，24 小时客服；Plus ¥129/月；独立第三方，非官方 - [开通教程](https://github.com/haiwaihuyonghui-rgb/gpt-chongzhi)",
+      "status": "live",
+      "date": "2026-10-29",
+      "url": "https://kw.yaoyao.chat/?utm_source=cnindie&utm_medium=github",
+      "author": "瑶瑶",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yaoyao-ai-trainer"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "a37a12cd9f9d",
       "board": "programmer",
