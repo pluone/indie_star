@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-29T14:35:31.652Z",
-    "statsSyncedAt": "2026-10-29T14:35:31.652Z",
-    "upstreamSha": "ff5b7fcbb5431d67359cab063ce8174bf2eb57e4",
+    "contentSyncedAt": "2026-10-29T15:20:31.804Z",
+    "statsSyncedAt": "2026-10-29T15:20:31.804Z",
+    "upstreamSha": "f938372509d14ac6942959839efee06a00e9180a",
     "counts": {
       "main": 1649,
       "game": 155,
@@ -34,8 +34,8 @@
       "slug": "fced20abb2b9",
       "board": "main",
       "name": "Pixsolo",
-      "intro": "一款面向 iOS / Android 开发者的免安装 Web 端应用商店截图设计平台",
-      "introMarkdown": "一款面向 iOS / Android 开发者的免安装 Web 端应用商店截图设计平台 - [更多介绍](https://www.pixsolo.com/)",
+      "intro": "为 iOS / Android 开发者设计应用商店上架截图的网页工具，打开浏览器即用、无需安装",
+      "introMarkdown": "为 iOS / Android 开发者设计应用商店上架截图的网页工具，打开浏览器即用、无需安装 - [更多介绍](https://www.pixsolo.com/)",
       "status": "live",
       "date": "2026-10-29",
       "url": "https://www.pixsolo.com/",
