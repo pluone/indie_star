@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-30T00:32:11.990Z",
-    "statsSyncedAt": "2026-10-30T00:32:11.990Z",
-    "upstreamSha": "c43ef8da51e2645054b06922ab17f7d0bd662b67",
+    "contentSyncedAt": "2026-10-30T02:00:28.746Z",
+    "statsSyncedAt": "2026-10-30T02:00:28.746Z",
+    "upstreamSha": "b466b7d9cff7fd1e9b967c2dd8b134e768e0276b",
     "counts": {
       "main": 1650,
       "game": 155,
-      "programmer": 412,
-      "total": 2217
+      "programmer": 413,
+      "total": 2218
     }
   },
   "main": [
@@ -33437,6 +33437,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "45f3a6855aeb",
+      "board": "programmer",
+      "name": "Polish Proof",
+      "intro": "现有网页的视觉润色 Skill，围绕约定的文案、品牌、控件和行为限制修改范围，配套前后截图、保护项检查与交互测试记录；MIT 开源",
+      "introMarkdown": "现有网页的视觉润色 Skill，围绕约定的文案、品牌、控件和行为限制修改范围，配套前后截图、保护项检查与交互测试记录；MIT 开源 - [演示与使用说明](https://github.com/mozzie49/polish-proof#same-product-css-only-polish)",
+      "status": "live",
+      "date": "2026-10-30",
+      "url": "https://github.com/mozzie49/polish-proof",
+      "author": "mozzie49",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/mozzie49"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "bd70ab8d813b",
       "board": "programmer",
