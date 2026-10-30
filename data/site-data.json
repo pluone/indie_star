@@ -1,16 +1,111 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-30T02:05:24.785Z",
-    "statsSyncedAt": "2026-10-30T02:05:24.785Z",
-    "upstreamSha": "cdcd0e5f126fb31d522f98e5f3bf2939573e26ce",
+    "contentSyncedAt": "2026-10-30T13:40:34.840Z",
+    "statsSyncedAt": "2026-10-30T13:40:34.840Z",
+    "upstreamSha": "9088c5a99983a7496026e49f2342f2f495a3db09",
     "counts": {
-      "main": 1651,
+      "main": 1656,
       "game": 155,
       "programmer": 413,
-      "total": 2219
+      "total": 2224
     }
   },
   "main": [
+    {
+      "slug": "d496462f2d29",
+      "board": "main",
+      "name": "IPZOR",
+      "intro": "IP 地址查询与网络检测工具，查公网 IP、大致地区、ASN 和运营网络，还能对比网站出口、DNS、WebRTC 检测结果，每条数据都标明来源，免费无需注册",
+      "introMarkdown": "IP 地址查询与网络检测工具，查公网 IP、大致地区、ASN 和运营网络，还能对比网站出口、DNS、WebRTC 检测结果，每条数据都标明来源，免费无需注册",
+      "status": "live",
+      "date": "2026-10-30",
+      "url": "https://ipzor.com/",
+      "author": "yehyakin",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yehyakin"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "ee0c3de78ee8",
+      "board": "main",
+      "name": "HKDone 香港办事指南",
+      "intro": "给内地短期访港用户的办事指南，整理 33 项香港银行开户、电话卡、支付和交通服务的办理条件、所需材料和步骤，没有香港身份证也能提前准备",
+      "introMarkdown": "给内地短期访港用户的办事指南，整理 33 项香港银行开户、电话卡、支付和交通服务的办理条件、所需材料和步骤，没有香港身份证也能提前准备",
+      "status": "live",
+      "date": "2026-10-30",
+      "url": "https://hkdone.com/",
+      "author": "yehyakin",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yehyakin"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "38beff120bc0",
+      "board": "main",
+      "name": "VAQIRA · 独立产品收入榜",
+      "intro": "独立开发者真实收入排行榜，每个数字都附创始人公开的原文出处，不估算、不换算，每天更新，数据按 CC BY 4.0 开放下载",
+      "introMarkdown": "独立开发者真实收入排行榜，每个数字都附创始人公开的原文出处，不估算、不换算，每天更新，数据按 CC BY 4.0 开放下载 - [收录规则](https://vaqira.com/method/)",
+      "status": "live",
+      "date": "2026-10-30",
+      "url": "https://vaqira.com/",
+      "author": "yehyakin",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yehyakin"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "9c2580821d51",
+      "board": "main",
+      "name": "食愿小灶",
+      "intro": "面向两个人或一家人的家庭餐食协作微信小程序，一起选菜、安排每餐、调整备菜用量、整理采购清单；微信搜索「食愿小灶」使用",
+      "introMarkdown": "面向两个人或一家人的家庭餐食协作微信小程序，一起选菜、安排每餐、调整备菜用量、整理采购清单；微信搜索「食愿小灶」使用 - [更多介绍与小程序码](https://github.com/pydaxing/shiyuan#readme)",
+      "status": "live",
+      "date": "2026-10-30",
+      "url": "https://github.com/pydaxing/shiyuan#readme",
+      "author": "pydaxing",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/pydaxing"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4213abc395b2",
+      "board": "main",
+      "name": "Asteriadne",
+      "intro": "实用网站与在线工具导航，每个网站都实际打开核实过并配有中文介绍和截图，按主题分类浏览，免费无需注册",
+      "introMarkdown": "实用网站与在线工具导航，每个网站都实际打开核实过并配有中文介绍和截图，按主题分类浏览，免费无需注册",
+      "status": "live",
+      "date": "2026-10-30",
+      "url": "https://korlyn.xyz",
+      "author": "KorlynShae",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/KorlynShae"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "46d0ef9db5d3",
       "board": "main",
