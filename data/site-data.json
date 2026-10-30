@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-30T13:40:34.840Z",
-    "statsSyncedAt": "2026-10-30T13:40:34.840Z",
-    "upstreamSha": "9088c5a99983a7496026e49f2342f2f495a3db09",
+    "contentSyncedAt": "2026-10-30T14:35:29.803Z",
+    "statsSyncedAt": "2026-10-30T14:35:29.803Z",
+    "upstreamSha": "4068d56021ce635850cbe443f8e9cebbb9fbcc76",
     "counts": {
-      "main": 1656,
+      "main": 1647,
       "game": 155,
-      "programmer": 413,
-      "total": 2224
+      "programmer": 414,
+      "total": 2216
     }
   },
   "main": [
@@ -30489,167 +30489,6 @@
       ],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "c290ad0e8540",
-      "board": "main",
-      "name": "Microsoft SAM TTS",
-      "intro": "复刻 Microsoft SAM 的文本转语音工具，支持文字输入并生成极具复古感的电子语音。用户可自定义音高、语速、嘴型、喉咙共鸣等参数，还可下载生成的语音（WAV 格式），无需登录，适合内容创作、游戏配音、搞笑语音等多种场景。",
-      "introMarkdown": "复刻 Microsoft SAM 的文本转语音工具，支持文字输入并生成极具复古感的电子语音。用户可自定义音高、语速、嘴型、喉咙共鸣等参数，还可下载生成的语音（WAV 格式），无需登录，适合内容创作、游戏配音、搞笑语音等多种场景。",
-      "status": "live",
-      "date": "2025-05-17",
-      "url": "https://samtts.com/",
-      "author": "SAM-TTS-Tool",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/SAM-TTS-Tool"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b6341a5097bd",
-      "board": "main",
-      "name": "Free Voice Cloning",
-      "intro": "仅需 5 秒音频样本，即可克隆你的声音 无需登录 免费无限制使用",
-      "introMarkdown": "仅需 5 秒音频样本，即可克隆你的声音 无需登录 免费无限制使用",
-      "status": "live",
-      "date": "2025-05-16",
-      "url": "https://aiclonevoicefree.com/",
-      "author": "apple1413",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/apple1413"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "46968a3449ce",
-      "board": "main",
-      "name": "Image to Image AI",
-      "intro": "将您的普通照片转换为令人惊叹的艺术作品。是艺术家、设计师和创意专业人士重新构想视觉内容的理想工具",
-      "introMarkdown": "将您的普通照片转换为令人惊叹的艺术作品。是艺术家、设计师和创意专业人士重新构想视觉内容的理想工具",
-      "status": "live",
-      "date": "2025-05-16",
-      "url": "https://imgtoimgai.org/",
-      "author": "Ayden",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Ayden-123"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6ff0fee36f38",
-      "board": "main",
-      "name": "SafeWrite AI",
-      "intro": "结合 AI Humanizer 与 AI 检测功能的写作工具，帮助用户生成更自然、难以被检测为 AI 的内容。支持训练私有化的 Humanizer，模拟个人文风并确保隐私不泄露。同时整合 GPTZero、Turnitin 等检测器，一键获取多平台检测结果。通过“改写-检测-再改写”的自动流程，有效提升内容通过率，适用于学生、自由写手及内容创作者。",
-      "introMarkdown": "结合 AI Humanizer 与 AI 检测功能的写作工具，帮助用户生成更自然、难以被检测为 AI 的内容。支持训练私有化的 Humanizer，模拟个人文风并确保隐私不泄露。同时整合 GPTZero、Turnitin 等检测器，一键获取多平台检测结果。通过“改写-检测-再改写”的自动流程，有效提升内容通过率，适用于学生、自由写手及内容创作者。",
-      "status": "live",
-      "date": "2025-05-15",
-      "url": "https://safewrite.ai/",
-      "author": "lwj973",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/lwj973"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "29030f427531",
-      "board": "main",
-      "name": "FramePack AI",
-      "intro": "AI 视频生成",
-      "introMarkdown": "AI 视频生成",
-      "status": "live",
-      "date": "2025-05-15",
-      "url": "https://frame-pack.video",
-      "author": "Sarkory",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "ef8cf605ac8c",
-      "board": "main",
-      "name": "ACE-Step",
-      "intro": "音乐生成，文本转音乐 歌词生成",
-      "introMarkdown": "音乐生成，文本转音乐 歌词生成",
-      "status": "live",
-      "date": "2025-05-14",
-      "url": "https://acestep.app/",
-      "author": "bear-clicker",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/bear-clicker"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "544df54dd702",
-      "board": "main",
-      "name": "Graffitiart app",
-      "intro": "涂鸦生成工具，可以生成各种不同风格的涂鸦",
-      "introMarkdown": "涂鸦生成工具，可以生成各种不同风格的涂鸦",
-      "status": "live",
-      "date": "2025-05-14",
-      "url": "https://graffitiart.app/",
-      "author": "lkunxyz",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/lkunxyz"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "2aa6d75454b1",
-      "board": "main",
-      "name": "Musci",
-      "intro": "AI 音乐生成，文本转音乐 歌词生成",
-      "introMarkdown": "AI 音乐生成，文本转音乐 歌词生成",
-      "status": "live",
-      "date": "2025-05-14",
-      "url": "https://musci.app",
-      "author": "lkunxyz",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/lkunxyz"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "4b7d813509d8",
-      "board": "main",
-      "name": "Attractiveness Scale",
-      "intro": "颜值打分网站（基于 AI）",
-      "introMarkdown": "颜值打分网站（基于 AI）",
-      "status": "live",
-      "date": "2025-05-13",
-      "url": "https://attractivenessscale.com/",
-      "author": "Brice",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
@@ -33551,6 +33390,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "5891110ca5f8",
+      "board": "programmer",
+      "name": "HotRepo",
+      "intro": "GitHub 热门项目发现网站，提供中英双语 AI 解读，可按日、周、月及历史榜单查看项目，网页版免费浏览、无需登录",
+      "introMarkdown": "GitHub 热门项目发现网站，提供中英双语 AI 解读，可按日、周、月及历史榜单查看项目，网页版免费浏览、无需登录",
+      "status": "live",
+      "date": "2026-10-30",
+      "url": "https://hotrepo.ai/zh",
+      "author": "AloneMonkey",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/AloneMonkey"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "45f3a6855aeb",
       "board": "programmer",
