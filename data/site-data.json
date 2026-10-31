@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-31T12:01:48.809Z",
-    "statsSyncedAt": "2026-10-31T12:01:48.809Z",
-    "upstreamSha": "29753dfecbde5154c5a07915334a74c130489988",
+    "contentSyncedAt": "2026-10-31T15:16:28.419Z",
+    "statsSyncedAt": "2026-10-31T15:16:28.419Z",
+    "upstreamSha": "b376cb0f6a1ad79faf61bf733a1347f32f92c906",
     "counts": {
       "main": 1642,
       "game": 155,
-      "programmer": 416,
-      "total": 2213
+      "programmer": 417,
+      "total": 2214
     }
   },
   "main": [
@@ -33310,6 +33310,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "7de847c92897",
+      "board": "programmer",
+      "name": "jev-subtitle-translator",
+      "intro": "开源 SRT 字幕翻译工具，用结构化 LLM 输出（OpenRouter，可选 GPT/Claude/Gemini/DeepSeek 等）翻译字幕，保留每条字幕的序号和时间轴，漏译自动按 ID 重试，并用 Jev 自动质检，提供本地网页界面和 CLI。是 GeekLink 字幕软件开源出来的翻译引擎",
+      "introMarkdown": "开源 SRT 字幕翻译工具，用结构化 LLM 输出（OpenRouter，可选 GPT/Claude/Gemini/DeepSeek 等）翻译字幕，保留每条字幕的序号和时间轴，漏译自动按 ID 重试，并用 Jev 自动质检，提供本地网页界面和 CLI。是 GeekLink 字幕软件开源出来的翻译引擎",
+      "status": "live",
+      "date": "2026-10-31",
+      "url": "https://github.com/GeekLinkDev/jev-subtitle-translator",
+      "author": "YeefyisOK",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/YeefyisOK"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "83623c80a1b7",
       "board": "programmer",
