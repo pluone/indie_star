@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-31T00:17:31.628Z",
-    "statsSyncedAt": "2026-10-31T00:17:31.628Z",
-    "upstreamSha": "4068d56021ce635850cbe443f8e9cebbb9fbcc76",
+    "contentSyncedAt": "2026-10-31T08:06:47.699Z",
+    "statsSyncedAt": "2026-10-31T08:06:47.699Z",
+    "upstreamSha": "f94788378b895dc7aa0e99b7a02c4f7e99bd181e",
     "counts": {
-      "main": 1647,
+      "main": 1650,
       "game": 155,
-      "programmer": 414,
-      "total": 2216
+      "programmer": 416,
+      "total": 2221
     }
   },
   "main": [
+    {
+      "slug": "d3e429a0b93d",
+      "board": "main",
+      "name": "ChanScout",
+      "intro": "中文 Telegram 公开资源目录，收录可核验的频道、群组与机器人，支持分类浏览与持续核验，免费使用",
+      "introMarkdown": "中文 Telegram 公开资源目录，收录可核验的频道、群组与机器人，支持分类浏览与持续核验，免费使用",
+      "status": "live",
+      "date": "2026-10-31",
+      "url": "https://chanscout.com/",
+      "author": "Jun Dong",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/dj05305"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "af478b438e36",
+      "board": "main",
+      "name": "BGX",
+      "intro": "AI 抠图工具，内置 U2Net / ISNet / BRIA RMBG 等 9 个模型，全部在浏览器本地推理、图片不上传，可导出透明 PNG、白底 JPG 或 WebP，另有 Windows 桌面版可离线使用，免费无需注册",
+      "introMarkdown": "AI 抠图工具，内置 U2Net / ISNet / BRIA RMBG 等 9 个模型，全部在浏览器本地推理、图片不上传，可导出透明 PNG、白底 JPG 或 WebP，另有 Windows 桌面版可离线使用，免费无需注册 - [开源仓库](https://github.com/isixe/bgx)",
+      "status": "live",
+      "date": "2026-10-31",
+      "url": "https://bgx.itea.dev/",
+      "author": "isixe",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/isixe"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "c2ba4995d430",
+      "board": "main",
+      "name": "bg2x",
+      "intro": "AI 图片无损放大工具，Real-ESRGAN / Swin2SR / Real-CUGAN 共 10 个模型本地推理，最高 4 倍放大、GPU 加速、批量导出 ZIP，图片不上传、首次下载模型后可离线，免费开源",
+      "introMarkdown": "AI 图片无损放大工具，Real-ESRGAN / Swin2SR / Real-CUGAN 共 10 个模型本地推理，最高 4 倍放大、GPU 加速、批量导出 ZIP，图片不上传、首次下载模型后可离线，免费开源 - [开源仓库](https://github.com/isixe/bg2x)",
+      "status": "live",
+      "date": "2026-10-31",
+      "url": "https://bg2x.itea.dev/",
+      "author": "isixe",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/isixe"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "d496462f2d29",
       "board": "main",
@@ -33390,6 +33447,44 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "83623c80a1b7",
+      "board": "programmer",
+      "name": "Iris Analytics",
+      "intro": "轻量开源的网站流量分析面板，基于 Cloudflare Pages + Analytics Engine，无需数据库，部署后一条 script 标签即可统计访问数据，支持密码保护、站点白名单和 IP 黑名单过滤，免费自托管",
+      "introMarkdown": "轻量开源的网站流量分析面板，基于 Cloudflare Pages + Analytics Engine，无需数据库，部署后一条 script 标签即可统计访问数据，支持密码保护、站点白名单和 IP 黑名单过滤，免费自托管",
+      "status": "live",
+      "date": "2026-10-31",
+      "url": "https://github.com/rowink/IrisAnalytics",
+      "author": "rowink",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/rowink"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "f70df78c7148",
+      "board": "programmer",
+      "name": "Motionboard",
+      "intro": "发布片镜头配方库，38 个 Apple、Linear 等官方发布片镜头的 HyperFrames 复刻，附 agent skill，npx skills add 一行安装让 Claude Code 做发布片",
+      "introMarkdown": "发布片镜头配方库，38 个 Apple、Linear 等官方发布片镜头的 HyperFrames 复刻，附 agent skill，npx skills add 一行安装让 Claude Code 做发布片",
+      "status": "live",
+      "date": "2026-10-31",
+      "url": "https://motionboard.app",
+      "author": "Kris Yang",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/krisyangdev"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "5891110ca5f8",
       "board": "programmer",
