@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-31T08:06:47.699Z",
-    "statsSyncedAt": "2026-10-31T08:06:47.699Z",
-    "upstreamSha": "f94788378b895dc7aa0e99b7a02c4f7e99bd181e",
+    "contentSyncedAt": "2026-10-31T12:01:48.809Z",
+    "statsSyncedAt": "2026-10-31T12:01:48.809Z",
+    "upstreamSha": "29753dfecbde5154c5a07915334a74c130489988",
     "counts": {
-      "main": 1650,
+      "main": 1642,
       "game": 155,
       "programmer": 416,
-      "total": 2221
+      "total": 2213
     }
   },
   "main": [
+    {
+      "slug": "51d73e3e647f",
+      "board": "main",
+      "name": "KanaCraft 卡娜日语 / 卡娜英语",
+      "intro": "面向中文用户的日语与英语自学网站，日语从零基础五十音与听写入门，覆盖 JLPT N5–N1 词汇和教材词书，英语用打字、听写、卡片与连连看背单词并带语法知识库，覆盖四六级、考研与雅思托福词库；基础功能免费、会员可选 — 浏览器即可用，适配手机、平板与电脑",
+      "introMarkdown": "面向中文用户的日语与英语自学网站，日语从零基础五十音与听写入门，覆盖 JLPT N5–N1 词汇和教材词书，英语用打字、听写、卡片与连连看背单词并带语法知识库，覆盖四六级、考研与雅思托福词库；基础功能免费、会员可选 — 浏览器即可用，适配手机、平板与电脑 - [卡娜英语](https://english.kanacraft.cn/)",
+      "status": "live",
+      "date": "2026-10-31",
+      "url": "https://kanacraft.cn/library",
+      "author": "18841144913",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/18841144913"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "9a187eb438cb",
+      "board": "main",
+      "name": "豆门",
+      "intro": "面向拼豆爱好者的图纸识别与制作 App，导入现成图纸或照片后核对网格与颜色，编辑导出并记录制作进度；免费、无需注册，支持 iOS / iPadOS 与 Android",
+      "introMarkdown": "面向拼豆爱好者的图纸识别与制作 App，导入现成图纸或照片后核对网格与颜色，编辑导出并记录制作进度；免费、无需注册，支持 iOS / iPadOS 与 Android - [原创图纸与入门教程](https://doumen.work/blog/beginner-guide/)",
+      "status": "live",
+      "date": "2026-10-31",
+      "url": "https://doumen.work/",
+      "author": "ceasarXuu",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ceasarXuu"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "d3e429a0b93d",
       "board": "main",
@@ -30367,181 +30405,6 @@
         {
           "label": "Github",
           "url": "https://github.com/hanlaoshinb"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "de327cc54c3d",
-      "board": "main",
-      "name": "bratgenerator",
-      "intro": "可以设置字体，背景颜色等",
-      "introMarkdown": "可以设置字体，背景颜色等",
-      "status": "live",
-      "date": "2025-05-20",
-      "url": "https://bratgenerator.dev/",
-      "author": "Lee",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/lkunxyz"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1979bd8dbd0f",
-      "board": "main",
-      "name": "WriteHybrid",
-      "intro": "可绕过所有顶级 AI 检测器的 AI 人性化工具",
-      "introMarkdown": "可绕过所有顶级 AI 检测器的 AI 人性化工具",
-      "status": "live",
-      "date": "2025-05-20",
-      "url": "https://writehybrid.com/",
-      "author": "HuzefaUsama25",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/HuzefaUsama25"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "3d7faf8b7de1",
-      "board": "main",
-      "name": "Firsto",
-      "intro": "你的产品，从这里出发",
-      "introMarkdown": "你的产品，从这里出发",
-      "status": "live",
-      "date": "2025-05-20",
-      "url": "https://firsto.co/",
-      "author": "Leo",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6dd76291877d",
-      "board": "main",
-      "name": "Raffle Blue",
-      "intro": "针对 bluesky post 的抽奖工具",
-      "introMarkdown": "针对 bluesky post 的抽奖工具",
-      "status": "live",
-      "date": "2025-05-20",
-      "url": "https://raffle.blue/",
-      "author": "Leo",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d7c1fb1280fa",
-      "board": "main",
-      "name": "BlueSky SDK",
-      "intro": "Bluesky & AT Protocol SDKs Directory",
-      "introMarkdown": "Bluesky & AT Protocol SDKs Directory",
-      "status": "live",
-      "date": "2025-05-20",
-      "url": "https://bskyinfo.com/sdks/",
-      "author": "Leo",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "62883684ed00",
-      "board": "main",
-      "name": "TarotQA",
-      "intro": "AI 塔罗占卜平台，提供多位 AI 塔罗师风格、智能牌阵推荐、每日运势和语音解读等",
-      "introMarkdown": "AI 塔罗占卜平台，提供多位 AI 塔罗师风格、智能牌阵推荐、每日运势和语音解读等",
-      "status": "live",
-      "date": "2025-05-19",
-      "url": "https://tarotqa.com",
-      "author": "Will",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/will-deeplearn"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "07400945ce95",
-      "board": "main",
-      "name": "FaceRatingAI",
-      "intro": "AI 颜值打分网站，包括不同维度评分、整体排名等",
-      "introMarkdown": "AI 颜值打分网站，包括不同维度评分、整体排名等",
-      "status": "live",
-      "date": "2025-05-18",
-      "url": "https://faceratingai.com/",
-      "author": "Rainlin",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Rainlin007"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "83187ed85876",
-      "board": "main",
-      "name": "AIPoemGenerator",
-      "intro": "AI 写诗网站",
-      "introMarkdown": "AI 写诗网站",
-      "status": "live",
-      "date": "2025-05-18",
-      "url": "https://aipoemgenerator.cc/",
-      "author": "Rainlin",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Rainlin007"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0f53269280ca",
-      "board": "main",
-      "name": "AI Tool Kit",
-      "intro": "AI 工具聚合站，通过不同类别找到你想要的 AI 工具",
-      "introMarkdown": "AI 工具聚合站，通过不同类别找到你想要的 AI 工具",
-      "status": "live",
-      "date": "2025-05-18",
-      "url": "https://aitoolkit.io/",
-      "author": "lkunemail",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/lkunemail"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b5c8871f3931",
-      "board": "main",
-      "name": "AI Image Editor",
-      "intro": "AI 图片处理工具，支持图片增强、去水印、抠图、风格转换、线稿提取等十余种功能。无需下载软件，无需注册，上传图片即可一键生成专业效果。适用于电商设计、社交内容创作、摄影后期、教育教学等多种场景，让图片编辑变得更智能、更高效、更简单！",
-      "introMarkdown": "AI 图片处理工具，支持图片增强、去水印、抠图、风格转换、线稿提取等十余种功能。无需下载软件，无需注册，上传图片即可一键生成专业效果。适用于电商设计、社交内容创作、摄影后期、教育教学等多种场景，让图片编辑变得更智能、更高效、更简单！",
-      "status": "live",
-      "date": "2025-05-18",
-      "url": "https://aiimageeditor.me/",
-      "author": "worminone",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/worminone"
         }
       ],
       "likes": 0,
