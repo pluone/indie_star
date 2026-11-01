@@ -1,16 +1,130 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-10-31T23:54:29.562Z",
-    "statsSyncedAt": "2026-10-31T23:54:29.562Z",
-    "upstreamSha": "b376cb0f6a1ad79faf61bf733a1347f32f92c906",
+    "contentSyncedAt": "2026-11-01T01:01:45.602Z",
+    "statsSyncedAt": "2026-11-01T01:01:45.602Z",
+    "upstreamSha": "a42d8c0dca7831fbf255ec93be90876481f325c2",
     "counts": {
-      "main": 1642,
+      "main": 1648,
       "game": 155,
       "programmer": 417,
-      "total": 2214
+      "total": 2220
     }
   },
   "main": [
+    {
+      "slug": "fdca13a04ff2",
+      "board": "main",
+      "name": "Kyna Player",
+      "intro": "支持 GPU 播放、DLSS 画质增强和 AI 字幕工具的 Windows 视频播放器",
+      "introMarkdown": "支持 GPU 播放、DLSS 画质增强和 AI 字幕工具的 Windows 视频播放器",
+      "status": "live",
+      "date": "2026-11-01",
+      "url": "https://kyna.fynxlab.com/",
+      "author": "z4none",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/z4none"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "c95f943e1094",
+      "board": "main",
+      "name": "Logo Animation AI",
+      "intro": "上传静态 Logo，选择动效模板或用文字描述效果，生成用于品牌展示、视频片头和社交媒体的 Logo 动画，无需掌握剪辑或关键帧",
+      "introMarkdown": "上传静态 Logo，选择动效模板或用文字描述效果，生成用于品牌展示、视频片头和社交媒体的 Logo 动画，无需掌握剪辑或关键帧",
+      "status": "live",
+      "date": "2026-11-01",
+      "url": "https://logoanimationai.com/",
+      "author": "kian",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/BossChow"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "6b9dfe107ce7",
+      "board": "main",
+      "name": "Pic2SVG",
+      "intro": "Convert uploaded raster images to editable SVG paths with hosted tracing; includes a free browser-local SVG structure checker for files up to 2 MB, with no account or upload",
+      "introMarkdown": "Convert uploaded raster images to editable SVG paths with hosted tracing; includes a free browser-local SVG structure checker for files up to 2 MB, with no account or upload - [SVG checker](https://pic2svg.com/svg-cut-file-checker/)",
+      "status": "live",
+      "date": "2026-11-01",
+      "url": "https://pic2svg.com/",
+      "author": "szj2ys",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/szj2ys"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "772ccc1c9e94",
+      "board": "main",
+      "name": "Big Walk Guide",
+      "intro": "Free unofficial English/Chinese Big Walk guide with a browser signal-code planner, coordinate lookup and puzzle walkthroughs; no registration.",
+      "introMarkdown": "Free unofficial English/Chinese Big Walk guide with a browser signal-code planner, coordinate lookup and puzzle walkthroughs; no registration.",
+      "status": "live",
+      "date": "2026-11-01",
+      "url": "https://thebigwalk.world/en/protocols",
+      "author": "szj2ys",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/szj2ys"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "3690a7c37bca",
+      "board": "main",
+      "name": "Roam Radio",
+      "intro": "全球网络电台目录与播放器，按国家、音乐流派、语言或在 3D 地球上找台，浏览器直接收听，每个电台有独立详情页，免费无需注册",
+      "introMarkdown": "全球网络电台目录与播放器，按国家、音乐流派、语言或在 3D 地球上找台，浏览器直接收听，每个电台有独立详情页，免费无需注册",
+      "status": "live",
+      "date": "2026-11-01",
+      "url": "https://roamradios.com/",
+      "author": "Li Wen",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wenliabc2007"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "6eac9a2b1560",
+      "board": "main",
+      "name": "湾区 AI 日历",
+      "intro": "粤港澳大湾区 AI 活动与赛事日历，把深圳、广州、中国香港、东莞、珠海的 AI 大会、行业沙龙和黑客松按城市和日期排好，每天核对一次，每场都带主办方与官方报名入口，可一键订阅到手机日历",
+      "introMarkdown": "粤港澳大湾区 AI 活动与赛事日历，把深圳、广州、中国香港、东莞、珠海的 AI 大会、行业沙龙和黑客松按城市和日期排好，每天核对一次，每场都带主办方与官方报名入口，可一键订阅到手机日历",
+      "status": "live",
+      "date": "2026-11-01",
+      "url": "https://wqai.ltd/",
+      "author": "湾区AI日历",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tgchtggn29-bit"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "51d73e3e647f",
       "board": "main",
