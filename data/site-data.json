@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-01T01:01:45.602Z",
-    "statsSyncedAt": "2026-11-01T01:01:45.602Z",
-    "upstreamSha": "a42d8c0dca7831fbf255ec93be90876481f325c2",
+    "contentSyncedAt": "2026-11-01T01:06:47.571Z",
+    "statsSyncedAt": "2026-11-01T01:06:47.571Z",
+    "upstreamSha": "0bd7ae6f56b1b722b97409f18e25a146e973b048",
     "counts": {
-      "main": 1648,
+      "main": 1638,
       "game": 155,
       "programmer": 417,
-      "total": 2220
+      "total": 2210
     }
   },
   "main": [
@@ -120,6 +120,44 @@
         {
           "label": "Github",
           "url": "https://github.com/tgchtggn29-bit"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "e42f9a67c59b",
+      "board": "main",
+      "name": "Magic Resume",
+      "intro": "开源 AI 简历工作台，支持实时预览、按目标岗位获取建议，逐条采纳或跳过 AI 修改；提供中英文、可自定义模板及 PDF/JSON 导出，云端版提供免费和付费计划",
+      "introMarkdown": "开源 AI 简历工作台，支持实时预览、按目标岗位获取建议，逐条采纳或跳过 AI 修改；提供中英文、可自定义模板及 PDF/JSON 导出，云端版提供免费和付费计划 - [源码](https://github.com/Magic-Resume/Magic-Resume)",
+      "status": "live",
+      "date": "2026-11-01",
+      "url": "https://www.magic-resume.cn/",
+      "author": "LinMoQC",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/LinMoQC"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "5eea0e78ba74",
+      "board": "main",
+      "name": "ReferralCodes Canada",
+      "intro": "加拿大推荐码与注册奖励目录，查找、比较并分享各种服务的推荐码，了解奖励详情、资格要求和分享规则，帮助用户在加拿大获取更多优惠",
+      "introMarkdown": "加拿大推荐码与注册奖励目录，查找、比较并分享各种服务的推荐码，了解奖励详情、资格要求和分享规则，帮助用户在加拿大获取更多优惠",
+      "status": "live",
+      "date": "2026-11-01",
+      "url": "https://referralcodescanada.com/",
+      "author": "Linky",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Linky-AIinlink"
         }
       ],
       "likes": 0,
@@ -30288,237 +30326,6 @@
         {
           "label": "Github",
           "url": "https://github.com/ShawnHacks"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f5eb483384d6",
-      "board": "main",
-      "name": "Transmonkey",
-      "intro": "所有您所需的翻译工具，一应俱全",
-      "introMarkdown": "所有您所需的翻译工具，一应俱全 - [更多介绍](https://www.transmonkey.ai/faq)",
-      "status": "live",
-      "date": "2025-05-29",
-      "url": "https://www.transmonkey.ai/",
-      "author": "Charlie",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/weight567"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "3888a8773e1f",
-      "board": "main",
-      "name": "TeachAny",
-      "intro": "使用 TeachAny AI 工具，简化您的教学",
-      "introMarkdown": "使用 TeachAny AI 工具，简化您的教学 - [更多功能](https://www.teachany.com/tools)",
-      "status": "live",
-      "date": "2025-05-29",
-      "url": "https://www.teachany.com/",
-      "author": "Charlie",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/weight567"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "96abbc9d68d4",
-      "board": "main",
-      "name": "Imgkits",
-      "intro": "全能 AI 图像、视频编辑器：使用 Imgkits 创建令人惊艳的照片和视频",
-      "introMarkdown": "全能 AI 图像、视频编辑器：使用 Imgkits 创建令人惊艳的照片和视频 - [更多功能](https://www.imgkits.com/create/image)",
-      "status": "live",
-      "date": "2025-05-29",
-      "url": "https://www.imgkits.com/",
-      "author": "Charlie",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/weight567"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "aef7500a6761",
-      "board": "main",
-      "name": "AgentHunter",
-      "intro": "每日更新的 AI Agent 目录和新闻",
-      "introMarkdown": "每日更新的 AI Agent 目录和新闻",
-      "status": "live",
-      "date": "2025-05-29",
-      "url": "https://www.agenthunter.io/",
-      "author": "zane",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/littleblackone"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6d2354a0dd9d",
-      "board": "main",
-      "name": "English Daily",
-      "intro": "AI 每日英语学习平台",
-      "introMarkdown": "AI 每日英语学习平台",
-      "status": "live",
-      "date": "2025-05-28",
-      "url": "https://englishdaily.ai/",
-      "author": "Lingglee",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/lingglee"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "7435ef891909",
-      "board": "main",
-      "name": "AI 今日热榜",
-      "intro": "汇集全球顶尖来源的最新 AI 新闻、研究和趋势，为您节省宝贵时间",
-      "introMarkdown": "汇集全球顶尖来源的最新 AI 新闻、研究和趋势，为您节省宝贵时间",
-      "status": "live",
-      "date": "2025-05-26",
-      "url": "https://aihot.today",
-      "author": "羊上上",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/yangbishang/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "37242b505a13",
-      "board": "main",
-      "name": "Veo 3 AI",
-      "intro": "Veo 3 AI 视频生成",
-      "introMarkdown": "Veo 3 AI 视频生成",
-      "status": "live",
-      "date": "2025-05-25",
-      "url": "https://veo3ai.org",
-      "author": "3d-animation",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/3d-animation"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0c2665a36fc2",
-      "board": "main",
-      "name": "Board Foot Calculator",
-      "intro": "简便的在线版英尺计算器，用来计算木材的体积和对应的价格，面向木工爱好者，或者要购买木材的买家",
-      "introMarkdown": "简便的在线版英尺计算器，用来计算木材的体积和对应的价格，面向木工爱好者，或者要购买木材的买家",
-      "status": "live",
-      "date": "2025-05-22",
-      "url": "https://boardfootcalculator.cc/",
-      "author": "Sawana Huang",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6545f260055c",
-      "board": "main",
-      "name": "mksaas.com",
-      "intro": "最好的 AI SaaS 模板，只需1个周末就可以上线你的 AI SaaS",
-      "introMarkdown": "最好的 AI SaaS 模板，只需1个周末就可以上线你的 AI SaaS",
-      "status": "live",
-      "date": "2025-05-22",
-      "url": "https://mksaas.com",
-      "author": "Indie Maker Fox",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github/javayhu"
-        },
-        {
-          "label": "Twitter",
-          "url": "https://x.com/indie_maker_fox"
-        },
-        {
-          "label": "Blog",
-          "url": "https://mksaas.me"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1ff9f54e93f0",
-      "board": "main",
-      "name": "video2ppt.com",
-      "intro": "将任意来源的视频转换为 PPT 演示文档",
-      "introMarkdown": "将任意来源的视频转换为 PPT 演示文档",
-      "status": "live",
-      "date": "2025-05-21",
-      "url": "https://video2ppt.com",
-      "author": "Axis Wang",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github/wangxs404"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "17ae8537d29b",
-      "board": "main",
-      "name": "AI Doll",
-      "intro": "用 AI 将人像照片转换成玩具人偶",
-      "introMarkdown": "用 AI 将人像照片转换成玩具人偶",
-      "status": "live",
-      "date": "2025-05-21",
-      "url": "https://ai-doll.online/",
-      "author": "Rns",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/rnsss"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "008e493bb86c",
-      "board": "main",
-      "name": "TarotDreamHub",
-      "intro": "免费 AI 塔罗牌占卜。想好您想占卜的问题，在线抽牌后就可以一键解牌啦！",
-      "introMarkdown": "免费 AI 塔罗牌占卜。想好您想占卜的问题，在线抽牌后就可以一键解牌啦！",
-      "status": "live",
-      "date": "2025-05-21",
-      "url": "https://www.tarotdreamhub.com/",
-      "author": "hanlaoshinb",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/hanlaoshinb"
         }
       ],
       "likes": 0,
