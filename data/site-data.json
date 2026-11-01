@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-01T13:11:21.812Z",
-    "statsSyncedAt": "2026-11-01T13:11:21.812Z",
-    "upstreamSha": "cd59801417224926e61deec0da3907b024f7a506",
+    "contentSyncedAt": "2026-11-01T13:31:16.337Z",
+    "statsSyncedAt": "2026-11-01T13:31:16.337Z",
+    "upstreamSha": "31766754a4d966eecfdddcecab730827ddb35968",
     "counts": {
       "main": 1643,
       "game": 155,
@@ -15,8 +15,8 @@
       "slug": "8f81db52b02f",
       "board": "main",
       "name": "TrustBible Bible Word Counter",
-      "intro": "Free KJV and Chinese Union Version text counts with matching verses, Old/New Testament totals and CSV export; English/Chinese interface, no account required. Character matches are literal, not theological interpretation.",
-      "introMarkdown": "Free KJV and Chinese Union Version text counts with matching verses, Old/New Testament totals and CSV export; English/Chinese interface, no account required. Character matches are literal, not theological interpretation.",
+      "intro": "KJV 与和合本全文词频统计，输出命中经文、旧约/新约分部计数并支持 CSV 导出；中英双语界面，无需注册，按字面字符匹配、不做神学解释",
+      "introMarkdown": "KJV 与和合本全文词频统计，输出命中经文、旧约/新约分部计数并支持 CSV 导出；中英双语界面，无需注册，按字面字符匹配、不做神学解释",
       "status": "live",
       "date": "2026-11-01",
       "url": "https://trustbible.org/zh-cn/bible-word-counter/",
@@ -167,8 +167,8 @@
       "slug": "7a03796e361f",
       "board": "main",
       "name": "imgmov Image Prep",
-      "intro": "Browser image-preparation utility: crop or pad a starting frame to a chosen aspect ratio and export JPEG or PNG locally; free and no account required.",
-      "introMarkdown": "Browser image-preparation utility: crop or pad a starting frame to a chosen aspect ratio and export JPEG or PNG locally; free and no account required.",
+      "intro": "浏览器内图片预处理工具，为 AI 视频首帧裁剪或补边到指定比例，本地导出 JPEG / PNG，免费、无需注册",
+      "introMarkdown": "浏览器内图片预处理工具，为 AI 视频首帧裁剪或补边到指定比例，本地导出 JPEG / PNG，免费、无需注册",
       "status": "live",
       "date": "2026-11-01",
       "url": "https://imgmov.com/resize-image-for-ai-video",
