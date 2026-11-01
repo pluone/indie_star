@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-01T01:16:47.728Z",
-    "statsSyncedAt": "2026-11-01T01:16:47.728Z",
-    "upstreamSha": "eedf47411906a24221d3d133458805fd047923ba",
+    "contentSyncedAt": "2026-11-01T01:26:33.554Z",
+    "statsSyncedAt": "2026-11-01T01:26:33.554Z",
+    "upstreamSha": "66f4ec3d3c764260aaea33c9f9055d434ca79190",
     "counts": {
-      "main": 1638,
+      "main": 1639,
       "game": 155,
-      "programmer": 417,
-      "total": 2210
+      "programmer": 418,
+      "total": 2212
     }
   },
   "main": [
+    {
+      "slug": "39de2a23a160",
+      "board": "main",
+      "name": "DisconfirmAI",
+      "intro": "AI 投资研究与阅读平台，下结论前先找可能推翻自己判断的证据。每天整理公开来源的 AI 与投资资讯，每条附原文链接；可以对着财报和数据做研究，让雷达按你写下的条件定时扫描变化，也能写下自己的投资体系，另有 AI 100 榜单和产业地图。阅读和投资体系永久免费，注册送 400 积分，不提供买卖建议",
+      "introMarkdown": "AI 投资研究与阅读平台，下结论前先找可能推翻自己判断的证据。每天整理公开来源的 AI 与投资资讯，每条附原文链接；可以对着财报和数据做研究，让雷达按你写下的条件定时扫描变化，也能写下自己的投资体系，另有 AI 100 榜单和产业地图。阅读和投资体系永久免费，注册送 400 积分，不提供买卖建议",
+      "status": "live",
+      "date": "2026-11-01",
+      "url": "https://disconfirmai.com/zh",
+      "author": "tumingke0",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tumingke0"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "fdca13a04ff2",
       "board": "main",
@@ -33231,6 +33250,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "e79492d48981",
+      "board": "programmer",
+      "name": "SoloPup Memory",
+      "intro": "DeepSeek Harness 原生文本记忆插件，按项目/全局保存决定与工作偏好，记录出处、条件和修订；MIT 公开测试版，需 Node 24.9+、DSH >=0.2.1-rc.0 <0.3.0，配置的模型 API 可另计费",
+      "introMarkdown": "DeepSeek Harness 原生文本记忆插件，按项目/全局保存决定与工作偏好，记录出处、条件和修订；MIT 公开测试版，需 Node 24.9+、DSH >=0.2.1-rc.0 <0.3.0，配置的模型 API 可另计费",
+      "status": "developing",
+      "date": "2026-11-01",
+      "url": "https://github.com/OakcoderX/solopup-memory",
+      "author": "OakcoderX",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/OakcoderX"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "7de847c92897",
       "board": "programmer",
