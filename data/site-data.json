@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-01T13:06:21.108Z",
-    "statsSyncedAt": "2026-11-01T13:06:21.108Z",
-    "upstreamSha": "36d997e78133745357c2c09ee24baa4e673533a0",
+    "contentSyncedAt": "2026-11-01T13:11:21.812Z",
+    "statsSyncedAt": "2026-11-01T13:11:21.812Z",
+    "upstreamSha": "cd59801417224926e61deec0da3907b024f7a506",
     "counts": {
-      "main": 1640,
+      "main": 1643,
       "game": 155,
       "programmer": 419,
-      "total": 2214
+      "total": 2217
     }
   },
   "main": [
+    {
+      "slug": "8f81db52b02f",
+      "board": "main",
+      "name": "TrustBible Bible Word Counter",
+      "intro": "Free KJV and Chinese Union Version text counts with matching verses, Old/New Testament totals and CSV export; English/Chinese interface, no account required. Character matches are literal, not theological interpretation.",
+      "introMarkdown": "Free KJV and Chinese Union Version text counts with matching verses, Old/New Testament totals and CSV export; English/Chinese interface, no account required. Character matches are literal, not theological interpretation.",
+      "status": "live",
+      "date": "2026-11-01",
+      "url": "https://trustbible.org/zh-cn/bible-word-counter/",
+      "author": "Jeff Song",
+      "authorLinks": [
+        {
+          "label": "About",
+          "url": "https://trustbible.org/en/about/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b4defa8690cc",
+      "board": "main",
+      "name": "旅伴 TripMate",
+      "intro": "家庭出游 AI 行程工具，按目的地、预算和同行需求整理可编辑的每日安排、交通与费用，网页和 Windows 可导出 PDF；支持网页、Windows 和安卓（Beta），游客预览第 1 天，AI 生成使用额度",
+      "introMarkdown": "家庭出游 AI 行程工具，按目的地、预算和同行需求整理可编辑的每日安排、交通与费用，网页和 Windows 可导出 PDF；支持网页、Windows 和安卓（Beta），游客预览第 1 天，AI 生成使用额度 - [介绍与下载](https://github.com/xuantingjiang39/TripMate)",
+      "status": "live",
+      "date": "2026-11-01",
+      "url": "https://111.230.133.155/",
+      "author": "xuantingjiang39",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xuantingjiang39"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "d7b1e4c15996",
       "board": "main",
@@ -115,6 +153,25 @@
       "status": "live",
       "date": "2026-11-01",
       "url": "https://thebigwalk.world/en/protocols",
+      "author": "szj2ys",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/szj2ys"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "7a03796e361f",
+      "board": "main",
+      "name": "imgmov Image Prep",
+      "intro": "Browser image-preparation utility: crop or pad a starting frame to a chosen aspect ratio and export JPEG or PNG locally; free and no account required.",
+      "introMarkdown": "Browser image-preparation utility: crop or pad a starting frame to a chosen aspect ratio and export JPEG or PNG locally; free and no account required.",
+      "status": "live",
+      "date": "2026-11-01",
+      "url": "https://imgmov.com/resize-image-for-ai-video",
       "author": "szj2ys",
       "authorLinks": [
         {
