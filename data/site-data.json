@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-01T01:26:33.554Z",
-    "statsSyncedAt": "2026-11-01T01:26:33.554Z",
-    "upstreamSha": "66f4ec3d3c764260aaea33c9f9055d434ca79190",
+    "contentSyncedAt": "2026-11-01T13:06:21.108Z",
+    "statsSyncedAt": "2026-11-01T13:06:21.108Z",
+    "upstreamSha": "36d997e78133745357c2c09ee24baa4e673533a0",
     "counts": {
-      "main": 1639,
+      "main": 1640,
       "game": 155,
-      "programmer": 418,
-      "total": 2212
+      "programmer": 419,
+      "total": 2214
     }
   },
   "main": [
+    {
+      "slug": "d7b1e4c15996",
+      "board": "main",
+      "name": "听笺",
+      "intro": "粘贴中英文文章或导入公众号链接，自动提炼 AI 文字要点，点击后生成语音，先听重点再听原文，支持倍速播放、七天账号记录和跨设备续听",
+      "introMarkdown": "粘贴中英文文章或导入公众号链接，自动提炼 AI 文字要点，点击后生成语音，先听重点再听原文，支持倍速播放、七天账号记录和跨设备续听",
+      "status": "live",
+      "date": "2026-11-01",
+      "url": "https://tingjian.art/",
+      "author": "clarkloveProduct",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/clarkloveProduct"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "39de2a23a160",
       "board": "main",
@@ -33250,6 +33269,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "c3d7c0d985db",
+      "board": "programmer",
+      "name": "AudioLens",
+      "intro": "VS Code 音频查看与分析扩展，在本地或 Remote SSH 工作区查看多声道波形、频谱和选区 RMS/峰值，支持原始 PCM 与 Kaldi Ark 中的 WAV 条目，免费、Apache-2.0 开源",
+      "introMarkdown": "VS Code 音频查看与分析扩展，在本地或 Remote SSH 工作区查看多声道波形、频谱和选区 RMS/峰值，支持原始 PCM 与 Kaldi Ark 中的 WAV 条目，免费、Apache-2.0 开源 - [GitHub 仓库与演示](https://github.com/SimZhou/vscode-audiolens)",
+      "status": "live",
+      "date": "2026-11-01",
+      "url": "https://marketplace.visualstudio.com/items?itemName=simzhou.audiolens",
+      "author": "SimZhou",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/SimZhou"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "e79492d48981",
       "board": "programmer",
