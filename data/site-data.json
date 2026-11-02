@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-02T03:06:28.622Z",
-    "statsSyncedAt": "2026-11-02T03:06:28.622Z",
-    "upstreamSha": "a400d7903285666550be280c5642dd3eb527aaea",
+    "contentSyncedAt": "2026-11-02T03:11:25.144Z",
+    "statsSyncedAt": "2026-11-02T03:11:25.144Z",
+    "upstreamSha": "2fb9aab71a21ca29d4b793c26f3f9ca4501bcd0a",
     "counts": {
-      "main": 1646,
-      "game": 155,
+      "main": 1634,
+      "game": 156,
       "programmer": 420,
-      "total": 2221
+      "total": 2210
     }
   },
   "main": [
@@ -18,7 +18,7 @@
       "intro": "Mac 图片压缩与格式转换 App，支持 HEIC 和 RAW，画质可调，图片全程在本机处理不上传，免费下载",
       "introMarkdown": "Mac 图片压缩与格式转换 App，支持 HEIC 和 RAW，画质可调，图片全程在本机处理不上传，免费下载",
       "status": "live",
-      "date": "2026-11-01",
+      "date": "2026-11-02",
       "url": "https://obelisk.club/quickpix?lang=zh",
       "author": "Peter Zhang",
       "authorLinks": [
@@ -41,7 +41,7 @@
       "intro": "Mac 视频压缩 App，拖入视频即可压到适合邮件和聊天发送的大小，用 Apple 芯片硬件编码，文件留在本机",
       "introMarkdown": "Mac 视频压缩 App，拖入视频即可压到适合邮件和聊天发送的大小，用 Apple 芯片硬件编码，文件留在本机",
       "status": "live",
-      "date": "2026-11-01",
+      "date": "2026-11-02",
       "url": "https://obelisk.club/quickvid?lang=zh",
       "author": "Peter Zhang",
       "authorLinks": [
@@ -64,7 +64,7 @@
       "intro": "咖啡、茶、奶茶、能量饮料和汽水的咖啡因含量对照，附份量、入睡时间和每日上限参考，免费无需注册",
       "introMarkdown": "咖啡、茶、奶茶、能量饮料和汽水的咖啡因含量对照，附份量、入睡时间和每日上限参考，免费无需注册",
       "status": "live",
-      "date": "2026-11-01",
+      "date": "2026-11-02",
       "url": "https://obelisk.club/caffeine-in?lang=zh",
       "author": "Peter Zhang",
       "authorLinks": [
@@ -75,6 +75,82 @@
         {
           "label": "博客",
           "url": "https://obelisk.club/blog?lang=zh"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "218bf1b403ff",
+      "board": "main",
+      "name": "ShotMap",
+      "intro": "macOS 视频拼图工具，自动或手动选帧，批量导出带时间码的分镜图，视频在本机处理；免费、MIT 开源，macOS 13+",
+      "introMarkdown": "macOS 视频拼图工具，自动或手动选帧，批量导出带时间码的分镜图，视频在本机处理；免费、MIT 开源，macOS 13+ - [源码与下载](https://github.com/ixiehao/ShotMap)",
+      "status": "live",
+      "date": "2026-11-02",
+      "url": "https://ixiehao.github.io/ShotMap/zh/",
+      "author": "ixiehao",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ixiehao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "7d8ddd09d6c1",
+      "board": "main",
+      "name": "MP4Flow",
+      "intro": "macOS 视频处理工具，批量转 MP4、截取片段、裁切画面、旋转和合并；免费、MIT 开源，macOS 13+，需另装 FFmpeg 和 ffprobe",
+      "introMarkdown": "macOS 视频处理工具，批量转 MP4、截取片段、裁切画面、旋转和合并；免费、MIT 开源，macOS 13+，需另装 FFmpeg 和 ffprobe - [源码与安装说明](https://github.com/ixiehao/MP4Flow)",
+      "status": "live",
+      "date": "2026-11-02",
+      "url": "https://ixiehao.github.io/MP4Flow/",
+      "author": "ixiehao",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ixiehao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "a89e605de154",
+      "board": "main",
+      "name": "LumaView",
+      "intro": "macOS 轻量看图工具，直接浏览文件夹、缩放旋转、查看 EXIF 和多页 PDF；免费、MIT 开源，macOS 12+，通用版 DMG 约 2.5 MB",
+      "introMarkdown": "macOS 轻量看图工具，直接浏览文件夹、缩放旋转、查看 EXIF 和多页 PDF；免费、MIT 开源，macOS 12+，通用版 DMG 约 2.5 MB - [源码与下载](https://github.com/ixiehao/LumaView)",
+      "status": "live",
+      "date": "2026-11-02",
+      "url": "https://ixiehao.github.io/LumaView/",
+      "author": "ixiehao",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ixiehao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "c33abac886cd",
+      "board": "main",
+      "name": "Nihongo to Japan",
+      "intro": "日语自学网站，从五十音到 JLPT N1，650+ 篇文法解说、191 课自学教材、程度测验与动词变化表，支持简体中文等 9 种界面；核心内容免费无需注册，另有可选支持方案（额外练习与 PDF），网站含广告",
+      "introMarkdown": "日语自学网站，从五十音到 JLPT N1，650+ 篇文法解说、191 课自学教材、程度测验与动词变化表，支持简体中文等 9 种界面；核心内容免费无需注册，另有可选支持方案（额外练习与 PDF），网站含广告",
+      "status": "live",
+      "date": "2026-11-02",
+      "url": "https://www.nihongotojapan.com/zh-cn",
+      "author": "Hsiao-Yi Yang",
+      "authorLinks": [
+        {
+          "label": "网站",
+          "url": "https://www.nihongotojapan.com/zh-cn"
         }
       ],
       "likes": 0,
@@ -30215,288 +30291,28 @@
       ],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "02b404f4f9cd",
-      "board": "main",
-      "name": "AI 取名网",
-      "intro": "用 AI 帮助宝宝取名服务，依据中国传统命理学为您的宝宝提供最为合适的名字。这款扩展功能融合了八字、生肖、五行以及三才五格等多种传统命理因素，为您的宝宝量身打造吉祥如意的好名字",
-      "introMarkdown": "用 AI 帮助宝宝取名服务，依据中国传统命理学为您的宝宝提供最为合适的名字。这款扩展功能融合了八字、生肖、五行以及三才五格等多种传统命理因素，为您的宝宝量身打造吉祥如意的好名字 - [更多介绍](https://bbname.cc/about)",
-      "status": "live",
-      "date": "2025-06-04",
-      "url": "https://bbname.cc/",
-      "author": "CodaPrime",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0f31c1e99f3f",
-      "board": "main",
-      "name": "FLUX.1 Kontext Image Generator",
-      "intro": "具有上下文理解、角色一致性和本地编辑功能的 AI 图像生成器",
-      "introMarkdown": "具有上下文理解、角色一致性和本地编辑功能的 AI 图像生成器",
-      "status": "live",
-      "date": "2025-06-04",
-      "url": "https://flux1kontextimagegenerator.online/",
-      "author": "rns",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "a6ecde6728cb",
-      "board": "main",
-      "name": "AI Baby Generator",
-      "intro": "基于 AI 的宝宝长相预测工具",
-      "introMarkdown": "基于 AI 的宝宝长相预测工具",
-      "status": "live",
-      "date": "2025-06-04",
-      "url": "https://aibabygenerator.art/",
-      "author": "Ryan",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1d2ad706c69c",
-      "board": "main",
-      "name": "台灣解夢",
-      "intro": "融合 AI 技术与传统解梦学说，为用户提供免费梦境解析服务，无需注册即可一直免费使用",
-      "introMarkdown": "融合 AI 技术与传统解梦学说，为用户提供免费梦境解析服务，无需注册即可一直免费使用 - [更多介绍](https://twjiemeng.com/about)",
-      "status": "live",
-      "date": "2025-06-04",
-      "url": "https://twjiemeng.com/",
-      "author": "dy",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b4e09f04a094",
-      "board": "main",
-      "name": "AI 随机图片生成器",
-      "intro": "随机图片生成工具（免费），支持数字艺术、抽象背景、概念插图等多种风格",
-      "introMarkdown": "随机图片生成工具（免费），支持数字艺术、抽象背景、概念插图等多种风格",
-      "status": "live",
-      "date": "2025-06-04",
-      "url": "https://randomimagegenerator.info/index.html",
-      "author": "mao wei",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/mw138"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1e20d30a96ba",
-      "board": "main",
-      "name": "AI Line Art Generator",
-      "intro": "功能强大的 AI 线稿生成平台，为用户提供多样化的线稿创作与获取服务",
-      "introMarkdown": "功能强大的 AI 线稿生成平台，为用户提供多样化的线稿创作与获取服务 - [更多介绍](https://lineart.app/about)",
-      "status": "live",
-      "date": "2025-06-04",
-      "url": "https://lineart.app/",
-      "author": "dy",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "e231f2f7be87",
-      "board": "main",
-      "name": "Proof of Awesome",
-      "intro": "AI 辅助的学术同行评审的共识机制，将你的真实成就永久记录在区块链上，用有意义的人类成就取代传统挖矿",
-      "introMarkdown": "AI 辅助的学术同行评审的共识机制，将你的真实成就永久记录在区块链上，用有意义的人类成就取代传统挖矿 - [更多介绍](https://proof-of-awesome.app/call-for-achievement)",
-      "status": "live",
-      "date": "2025-06-03",
-      "url": "https://proof-of-awesome.app",
-      "author": "Amyang",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/AmyangXYZ"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9cc86d8cfda0",
-      "board": "main",
-      "name": "Veo3 video",
-      "intro": "收集 Veo3 生成的最新视频，每天更新",
-      "introMarkdown": "收集 Veo3 生成的最新视频，每天更新",
-      "status": "live",
-      "date": "2025-06-02",
-      "url": "https://veo3.directory/",
-      "author": "sing1ee",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/sing1ee"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "4bc114c72ceb",
-      "board": "main",
-      "name": "LoraAI",
-      "intro": "flux lora 图片生成工具，用户可以选择不同的 lora 风格实时生成对应的风格图片，价格便宜",
-      "introMarkdown": "flux lora 图片生成工具，用户可以选择不同的 lora 风格实时生成对应的风格图片，价格便宜",
-      "status": "live",
-      "date": "2025-06-02",
-      "url": "https://loraai.io/",
-      "author": "",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/bear-clicker"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0c6872de0175",
-      "board": "main",
-      "name": "Ask Me Anything",
-      "intro": "世界上最简单的问答网站，内置实时联网搜索，你可以问它任何问题，还可以查询任何推特/X用户的最新动态，例如输入@elonmusk即可获得马斯克的最新X动态",
-      "introMarkdown": "世界上最简单的问答网站，内置实时联网搜索，你可以问它任何问题，还可以查询任何推特/X用户的最新动态，例如输入@elonmusk即可获得马斯克的最新X动态",
-      "status": "live",
-      "date": "2025-06-02",
-      "url": "https://ama.stockai.trade/",
-      "author": "yvonuk",
-      "authorLinks": [
-        {
-          "label": "推特",
-          "url": "https://x.com/mcwangcn"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b92023fdfec1",
-      "board": "main",
-      "name": "NoteGen",
-      "intro": "跨平台的 Markdown AI 笔记软件，致力于使用 AI 建立记录和写作的桥梁",
-      "introMarkdown": "跨平台的 Markdown AI 笔记软件，致力于使用 AI 建立记录和写作的桥梁",
-      "status": "live",
-      "date": "2025-05-30",
-      "url": "https://notegen.top/",
-      "author": "NoteGen",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/codexu/note-gen"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "84d6600ff9cb",
-      "board": "main",
-      "name": "Mii Maker",
-      "intro": "角色创建者（免费），可以让你设计个性化的 Mii 化身。创建具有可定制功能的独特虚拟角色，包括脸型、发型、眼睛、衣服和配饰",
-      "introMarkdown": "角色创建者（免费），可以让你设计个性化的 Mii 化身。创建具有可定制功能的独特虚拟角色，包括脸型、发型、眼睛、衣服和配饰",
-      "status": "live",
-      "date": "2025-05-30",
-      "url": "https://miimaker.net/",
-      "author": "Anna",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/fluxstrive"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "624e9dbebefe",
-      "board": "main",
-      "name": "JSON Merge",
-      "intro": "JSON 合并工具",
-      "introMarkdown": "JSON 合并工具",
-      "status": "live",
-      "date": "2025-05-30",
-      "url": "https://jsonmerge.com/",
-      "author": "Corey Chiu",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/iamcorey"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f5d98c39574e",
-      "board": "main",
-      "name": "AIHuntList",
-      "intro": "发现最佳 AI 产品和工具的搜索导航",
-      "introMarkdown": "发现最佳 AI 产品和工具的搜索导航",
-      "status": "live",
-      "date": "2025-05-30",
-      "url": "https://aihuntlist.com/",
-      "author": "ShownHacks",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ShawnHacks"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "11296dcbd98f",
-      "board": "main",
-      "name": "NestSaaS",
-      "intro": "构建内容驱动的网站和SaaS应用的现代框架，配备强大的管理工具",
-      "introMarkdown": "构建内容驱动的网站和SaaS应用的现代框架，配备强大的管理工具",
-      "status": "live",
-      "date": "2025-05-30",
-      "url": "https://nestsaas.com",
-      "author": "ShownHacks",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ShawnHacks"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "8dc0466bba2c",
-      "board": "main",
-      "name": "SnapReader",
-      "intro": "立即快速保存在线内容，稍后轻松阅读，SnapReader 是一款轻量级的浏览器扩展，旨在帮助你以最小的阻力捕获在线内容",
-      "introMarkdown": "立即快速保存在线内容，稍后轻松阅读，SnapReader 是一款轻量级的浏览器扩展，旨在帮助你以最小的阻力捕获在线内容",
-      "status": "live",
-      "date": "2025-05-30",
-      "url": "https://chromewebstore.google.com/detail/snapreader/mogfnnfmcbchdciddfejbkfgahklegpp",
-      "author": "ShownHacks",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ShawnHacks"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
+    {
+      "slug": "0702d9580240",
+      "board": "game",
+      "name": "Poker Practice Simulator",
+      "intro": "免费的在线德州扑克练习工具，与电脑对手对局，实时查看胜率、补牌与底池赔率，支持中英文，无需注册",
+      "introMarkdown": "免费的在线德州扑克练习工具，与电脑对手对局，实时查看胜率、补牌与底池赔率，支持中英文，无需注册 - [更多介绍](https://pokerpracticesimulator.com/zh/about)",
+      "status": "live",
+      "date": "2026-11-02",
+      "url": "https://pokerpracticesimulator.com/",
+      "author": "Linky-AIinlink",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Linky-AIinlink"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "a23601160aa3",
       "board": "game",
@@ -33402,7 +33218,7 @@
       "intro": "iOS / Mac 应用上架前用的免费浏览器工具，Info.plist 检查、ITMS 上传报错查询、隐私政策生成、App Store 链接生成等，无需注册，文件不上传",
       "introMarkdown": "iOS / Mac 应用上架前用的免费浏览器工具，Info.plist 检查、ITMS 上传报错查询、隐私政策生成、App Store 链接生成等，无需注册，文件不上传",
       "status": "live",
-      "date": "2026-11-01",
+      "date": "2026-11-02",
       "url": "https://obelisk.club/toolkit?lang=zh",
       "author": "Peter Zhang",
       "authorLinks": [
