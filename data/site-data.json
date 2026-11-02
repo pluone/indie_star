@@ -1,16 +1,85 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-02T00:08:06.428Z",
-    "statsSyncedAt": "2026-11-02T00:08:06.428Z",
-    "upstreamSha": "31766754a4d966eecfdddcecab730827ddb35968",
+    "contentSyncedAt": "2026-11-02T03:06:28.622Z",
+    "statsSyncedAt": "2026-11-02T03:06:28.622Z",
+    "upstreamSha": "a400d7903285666550be280c5642dd3eb527aaea",
     "counts": {
-      "main": 1643,
+      "main": 1646,
       "game": 155,
-      "programmer": 419,
-      "total": 2217
+      "programmer": 420,
+      "total": 2221
     }
   },
   "main": [
+    {
+      "slug": "046b88d4d3b9",
+      "board": "main",
+      "name": "QuickPix",
+      "intro": "Mac 图片压缩与格式转换 App，支持 HEIC 和 RAW，画质可调，图片全程在本机处理不上传，免费下载",
+      "introMarkdown": "Mac 图片压缩与格式转换 App，支持 HEIC 和 RAW，画质可调，图片全程在本机处理不上传，免费下载",
+      "status": "live",
+      "date": "2026-11-01",
+      "url": "https://obelisk.club/quickpix?lang=zh",
+      "author": "Peter Zhang",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/peterzhang0216"
+        },
+        {
+          "label": "博客",
+          "url": "https://obelisk.club/blog?lang=zh"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b010dd5e31fa",
+      "board": "main",
+      "name": "QuickVid",
+      "intro": "Mac 视频压缩 App，拖入视频即可压到适合邮件和聊天发送的大小，用 Apple 芯片硬件编码，文件留在本机",
+      "introMarkdown": "Mac 视频压缩 App，拖入视频即可压到适合邮件和聊天发送的大小，用 Apple 芯片硬件编码，文件留在本机",
+      "status": "live",
+      "date": "2026-11-01",
+      "url": "https://obelisk.club/quickvid?lang=zh",
+      "author": "Peter Zhang",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/peterzhang0216"
+        },
+        {
+          "label": "博客",
+          "url": "https://obelisk.club/blog?lang=zh"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "fd561878b8aa",
+      "board": "main",
+      "name": "饮品咖啡因速查",
+      "intro": "咖啡、茶、奶茶、能量饮料和汽水的咖啡因含量对照，附份量、入睡时间和每日上限参考，免费无需注册",
+      "introMarkdown": "咖啡、茶、奶茶、能量饮料和汽水的咖啡因含量对照，附份量、入睡时间和每日上限参考，免费无需注册",
+      "status": "live",
+      "date": "2026-11-01",
+      "url": "https://obelisk.club/caffeine-in?lang=zh",
+      "author": "Peter Zhang",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/peterzhang0216"
+        },
+        {
+          "label": "博客",
+          "url": "https://obelisk.club/blog?lang=zh"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "8f81db52b02f",
       "board": "main",
@@ -33326,6 +33395,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "9b68e80e4163",
+      "board": "programmer",
+      "name": "Swift 与 App Store 开发者工具",
+      "intro": "iOS / Mac 应用上架前用的免费浏览器工具，Info.plist 检查、ITMS 上传报错查询、隐私政策生成、App Store 链接生成等，无需注册，文件不上传",
+      "introMarkdown": "iOS / Mac 应用上架前用的免费浏览器工具，Info.plist 检查、ITMS 上传报错查询、隐私政策生成、App Store 链接生成等，无需注册，文件不上传",
+      "status": "live",
+      "date": "2026-11-01",
+      "url": "https://obelisk.club/toolkit?lang=zh",
+      "author": "Peter Zhang",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/peterzhang0216"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "c3d7c0d985db",
       "board": "programmer",
