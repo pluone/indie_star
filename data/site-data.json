@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-02T15:26:22.200Z",
-    "statsSyncedAt": "2026-11-02T15:26:22.200Z",
-    "upstreamSha": "910ff186002d8d71b38955ea21867aed0d9600b5",
+    "contentSyncedAt": "2026-11-03T01:01:21.969Z",
+    "statsSyncedAt": "2026-11-03T01:01:21.969Z",
+    "upstreamSha": "8532d7f97183ace1832acc3a0c1dd9586b0dda61",
     "counts": {
       "main": 1628,
       "game": 156,
@@ -33311,7 +33311,7 @@
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/yaoyao-ai-trainer"
+          "url": "https://github.com/yaoyao-chat"
         }
       ],
       "likes": 0,
