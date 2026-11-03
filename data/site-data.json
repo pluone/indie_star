@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-03T08:31:42.508Z",
-    "statsSyncedAt": "2026-11-03T08:31:42.508Z",
-    "upstreamSha": "f7779ca364c46e972a42f4c5ce833f8505a21142",
+    "contentSyncedAt": "2026-11-03T08:36:31.299Z",
+    "statsSyncedAt": "2026-11-03T08:36:31.299Z",
+    "upstreamSha": "4f796b5a071a77c3977c8759ff7e297735b8a08a",
     "counts": {
-      "main": 1633,
+      "main": 1634,
       "game": 157,
       "programmer": 421,
-      "total": 2211
+      "total": 2212
     }
   },
   "main": [
+    {
+      "slug": "3d45d8e9645f",
+      "board": "main",
+      "name": "Linger",
+      "intro": "macOS 本地优先私人灵感库，保存图片、网页出处与自己的笔记，用关键词和筛选找回参考；支持 Apple Silicon，提供 14 天试用，之后一次性购买",
+      "introMarkdown": "macOS 本地优先私人灵感库，保存图片、网页出处与自己的笔记，用关键词和筛选找回参考；支持 Apple Silicon，提供 14 天试用，之后一次性购买 - [在线体验](https://withlinger.com/demo/)",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://withlinger.com/zh/",
+      "author": "Lucius Miao",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/suicuLsi"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "916465eb9af2",
       "board": "main",
