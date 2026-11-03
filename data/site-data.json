@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-03T08:36:31.299Z",
-    "statsSyncedAt": "2026-11-03T08:36:31.299Z",
-    "upstreamSha": "4f796b5a071a77c3977c8759ff7e297735b8a08a",
+    "contentSyncedAt": "2026-11-03T10:01:41.611Z",
+    "statsSyncedAt": "2026-11-03T10:01:41.611Z",
+    "upstreamSha": "ac25ac68688a831d738c1eb5cb912207c0de95be",
     "counts": {
-      "main": 1634,
-      "game": 157,
+      "main": 1636,
+      "game": 158,
       "programmer": 421,
-      "total": 2212
+      "total": 2215
     }
   },
   "main": [
+    {
+      "slug": "b70f8864ff3a",
+      "board": "main",
+      "name": "Hookai",
+      "intro": "上传一张或两张人物照片，生成带人声演唱与节拍的竖屏说唱短视频，5-15 秒，无需剪辑；示例免费观看，实际生成需注册和点数",
+      "introMarkdown": "上传一张或两张人物照片，生成带人声演唱与节拍的竖屏说唱短视频，5-15 秒，无需剪辑；示例免费观看，实际生成需注册和点数",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://hookai.io/",
+      "author": "hwlvipone",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hwlvipone"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "8d3a7f52053d",
+      "board": "main",
+      "name": "BayesChat",
+      "intro": "iPhone / iPad 上的 AI 聊天客户端，自带 API Key 接任意 OpenAI / Anthropic 兼容模型（含本机 Ollama），可挂远程 MCP 服务器调用工具；对话和 Key 只存本机、无需注册，MCP 工具属一次性买断",
+      "introMarkdown": "iPhone / iPad 上的 AI 聊天客户端，自带 API Key 接任意 OpenAI / Anthropic 兼容模型（含本机 Ollama），可挂远程 MCP 服务器调用工具；对话和 Key 只存本机、无需注册，MCP 工具属一次性买断",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://bayeschat.xyz",
+      "author": "fan3cn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fan3cn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "3d45d8e9645f",
       "board": "main",
@@ -2872,7 +2910,7 @@
       "comments": 0
     },
     {
-      "slug": "74b73b7455ce",
+      "slug": "a4264a498ab9",
       "board": "main",
       "name": "SongFromVideo",
       "intro": "视频识曲工具，粘贴 TikTok/YouTube/Instagram/Facebook/X 链接或上传音视频就能找出背景音乐，登录后首次识别免费",
@@ -2880,7 +2918,7 @@
       "status": "live",
       "date": "2026-10-21",
       "url": "https://songfromvideo.com/",
-      "author": "蚊子",
+      "author": "Wen",
       "authorLinks": [
         {
           "label": "Github",
@@ -11111,7 +11149,7 @@
       "comments": 0
     },
     {
-      "slug": "47f9adb7eee3",
+      "slug": "d0f26199c307",
       "board": "main",
       "name": "VidLux AI",
       "intro": "AI 视频生成与编辑平台，支持文生视频、图生视频、参考生视频和视频编辑",
@@ -11119,7 +11157,7 @@
       "status": "live",
       "date": "2026-08-05",
       "url": "https://vidlux.ai/",
-      "author": "蚊子",
+      "author": "Wen",
       "authorLinks": [
         {
           "label": "Github",
@@ -30310,6 +30348,25 @@
     }
   ],
   "game": [
+    {
+      "slug": "1d6f64975ed1",
+      "board": "game",
+      "name": "词不一样就跑步",
+      "intro": "两人面对面共用一部手机的中文联想网页小游戏，从两个起始词各想相关词，倒计时后同时说出，不同就继续联想直到答案一致；三类共60组起始词，3/5/10秒倒计时，免费、无需下载或注册",
+      "introMarkdown": "两人面对面共用一部手机的中文联想网页小游戏，从两个起始词各想相关词，倒计时后同时说出，不同就继续联想直到答案一致；三类共60组起始词，3/5/10秒倒计时，免费、无需下载或注册",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://glm5.pro/",
+      "author": "词不一样就跑步",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/bukun678"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "f303be43807a",
       "board": "game",
