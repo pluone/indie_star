@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-03T02:45:30.464Z",
-    "statsSyncedAt": "2026-11-03T02:45:30.464Z",
-    "upstreamSha": "8532d7f97183ace1832acc3a0c1dd9586b0dda61",
+    "contentSyncedAt": "2026-11-03T05:56:47.776Z",
+    "statsSyncedAt": "2026-11-03T05:56:47.776Z",
+    "upstreamSha": "093ae459af6aee6270f0a03f39be313357eb042e",
     "counts": {
-      "main": 1628,
-      "game": 156,
+      "main": 1629,
+      "game": 157,
       "programmer": 421,
-      "total": 2205
+      "total": 2207
     }
   },
   "main": [
+    {
+      "slug": "470aeb941aec",
+      "board": "main",
+      "name": "绘页",
+      "intro": "生成绘本轮播视频，把文字做成一页一页切换的竖屏故事，30 多种手绘风格 — Web 应用",
+      "introMarkdown": "生成绘本轮播视频，把文字做成一页一页切换的竖屏故事，30 多种手绘风格 — Web 应用 - [更多介绍](https://huiye.org/zh/about)",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://huiye.org",
+      "author": "my19940202",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/my19940202"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "fb2e250f7b9b",
       "board": "main",
@@ -30196,6 +30215,25 @@
     }
   ],
   "game": [
+    {
+      "slug": "f303be43807a",
+      "board": "game",
+      "name": "人间走一遭",
+      "intro": "中文人生模拟网页游戏，投胎三选一，一年一回合过完一生，出生年份 1950 到 2049 可选；含 4992 个随机事件、200 种职业、75 座城市，水墨画风，免费、免注册，手机电脑都能玩",
+      "introMarkdown": "中文人生模拟网页游戏，投胎三选一，一年一回合过完一生，出生年份 1950 到 2049 可选；含 4992 个随机事件、200 种职业、75 座城市，水墨画风，免费、免注册，手机电脑都能玩",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://cn.zouyizao.com/?from=cid",
+      "author": "Leo Lin",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/flukier1016"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "0702d9580240",
       "board": "game",
