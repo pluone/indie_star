@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-03T05:56:47.776Z",
-    "statsSyncedAt": "2026-11-03T05:56:47.776Z",
-    "upstreamSha": "093ae459af6aee6270f0a03f39be313357eb042e",
+    "contentSyncedAt": "2026-11-03T07:21:40.039Z",
+    "statsSyncedAt": "2026-11-03T07:21:40.039Z",
+    "upstreamSha": "428fc5d031abebdc23a3054bf2d330f58cc25b66",
     "counts": {
-      "main": 1629,
+      "main": 1632,
       "game": 157,
       "programmer": 421,
-      "total": 2207
+      "total": 2210
     }
   },
   "main": [
+    {
+      "slug": "bb620e121d15",
+      "board": "main",
+      "name": "KinetMagicDisk",
+      "intro": "Mac 磁盘空间清理 App，可视化查看磁盘占用、快速定位大文件并安全清理，本地处理不上传数据",
+      "introMarkdown": "Mac 磁盘空间清理 App，可视化查看磁盘占用、快速定位大文件并安全清理，本地处理不上传数据 - [更多介绍](https://apps.apple.com/cn/app/id6813423397)",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://apps.apple.com/cn/app/id6813423397",
+      "author": "phinn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "7069eefc2c56",
+      "board": "main",
+      "name": "KinetFlashFind",
+      "intro": "Mac 文件搜索 App，按名称或内容秒级定位文件并支持预览，本地索引不上传数据",
+      "introMarkdown": "Mac 文件搜索 App，按名称或内容秒级定位文件并支持预览，本地索引不上传数据 - [更多介绍](https://apps.apple.com/cn/app/id6808698046)",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://apps.apple.com/cn/app/id6808698046",
+      "author": "phinn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "2fa82f0fc0ed",
+      "board": "main",
+      "name": "DriftDesk",
+      "intro": "Mac 专注氛围声 App，内置雨声、白噪等声景与极简桌面组件，帮助专注与放松",
+      "introMarkdown": "Mac 专注氛围声 App，内置雨声、白噪等声景与极简桌面组件，帮助专注与放松 - [更多介绍](https://apps.apple.com/cn/app/id6817377455)",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://apps.apple.com/cn/app/id6817377455",
+      "author": "phinn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "470aeb941aec",
       "board": "main",
