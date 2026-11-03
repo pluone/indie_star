@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-03T10:01:41.611Z",
-    "statsSyncedAt": "2026-11-03T10:01:41.611Z",
-    "upstreamSha": "ac25ac68688a831d738c1eb5cb912207c0de95be",
+    "contentSyncedAt": "2026-11-03T14:11:57.713Z",
+    "statsSyncedAt": "2026-11-03T14:11:57.713Z",
+    "upstreamSha": "2b5512d42dd0519d04ea1ba84874805e13b233c7",
     "counts": {
       "main": 1636,
       "game": 158,
@@ -9115,7 +9115,7 @@
       "comments": 0
     },
     {
-      "slug": "67bf0f0b19d5",
+      "slug": "a200b4ecc2eb",
       "board": "main",
       "name": "Gemini Omni",
       "intro": "免费生成和编辑视频，保持角色一致性，音频同步",
@@ -9123,7 +9123,7 @@
       "status": "live",
       "date": "2026-09-05",
       "url": "https://geminiomni.video/",
-      "author": "coderWenzi",
+      "author": "Wen",
       "authorLinks": [
         {
           "label": "Github",
@@ -18023,7 +18023,7 @@
       "comments": 0
     },
     {
-      "slug": "5caa09e96f94",
+      "slug": "5cdcaba0ca4f",
       "board": "main",
       "name": "GPT Image 2 AI",
       "intro": "AI 图像与视频创作平台",
@@ -18031,7 +18031,7 @@
       "status": "live",
       "date": "2026-05-15",
       "url": "https://gptimage2app.com/",
-      "author": "Poge",
+      "author": "Wen",
       "authorLinks": [
         {
           "label": "Github",
