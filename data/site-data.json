@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-03T07:21:40.039Z",
-    "statsSyncedAt": "2026-11-03T07:21:40.039Z",
-    "upstreamSha": "428fc5d031abebdc23a3054bf2d330f58cc25b66",
+    "contentSyncedAt": "2026-11-03T08:31:42.508Z",
+    "statsSyncedAt": "2026-11-03T08:31:42.508Z",
+    "upstreamSha": "f7779ca364c46e972a42f4c5ce833f8505a21142",
     "counts": {
-      "main": 1632,
+      "main": 1633,
       "game": 157,
       "programmer": 421,
-      "total": 2210
+      "total": 2211
     }
   },
   "main": [
+    {
+      "slug": "916465eb9af2",
+      "board": "main",
+      "name": "Clarpex",
+      "intro": "AI 照片修复工具，上传模糊、低清或老照片即可增强、去模糊、放大与上色，浏览器内完成，每日免费额度无需注册",
+      "introMarkdown": "AI 照片修复工具，上传模糊、低清或老照片即可增强、去模糊、放大与上色，浏览器内完成，每日免费额度无需注册",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://clarpex.ai/",
+      "author": "Wen",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/coderWenzi"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "bb620e121d15",
       "board": "main",
