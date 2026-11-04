@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-04T07:01:57.229Z",
-    "statsSyncedAt": "2026-11-04T07:01:57.229Z",
-    "upstreamSha": "44f26a97f09a7f633544abf15af93b4b2b816565",
+    "contentSyncedAt": "2026-11-04T08:31:54.063Z",
+    "statsSyncedAt": "2026-11-04T08:31:54.063Z",
+    "upstreamSha": "fa4110a22107d990815a5f956f1ca9f29f939060",
     "counts": {
-      "main": 1633,
+      "main": 1635,
       "game": 158,
       "programmer": 423,
-      "total": 2214
+      "total": 2216
     }
   },
   "main": [
@@ -267,6 +267,253 @@
       "status": "live",
       "date": "2026-11-03",
       "url": "https://apps.apple.com/cn/app/id6817377455",
+      "author": "phinn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b3139a9e03f7",
+      "board": "main",
+      "name": "KinetAios",
+      "intro": "macOS 本地优先 AI Agent 工作台，多引擎会话、40+ 内置工具、长期记忆，数据全程留在本机，另有同款开源版",
+      "introMarkdown": "macOS 本地优先 AI Agent 工作台，多引擎会话、40+ 内置工具、长期记忆，数据全程留在本机，另有同款开源版 - [更多介绍](https://github.com/phinn/KinetAios)",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://apps.apple.com/cn/app/id6809450051",
+      "author": "phinn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "e2efe01d1298",
+      "board": "main",
+      "name": "KinetBrief",
+      "intro": "AI 会议纪要 App，开完会纪要即有，录音转写与要点提取全在本地完成",
+      "introMarkdown": "AI 会议纪要 App，开完会纪要即有，录音转写与要点提取全在本地完成 - [更多介绍](https://apps.apple.com/cn/app/id6782778566)",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://apps.apple.com/cn/app/id6782778566",
+      "author": "phinn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "02b5454314c5",
+      "board": "main",
+      "name": "KinetMinutes",
+      "intro": "AI 会议记录 App，开完会纪要即有，本地转写不上传",
+      "introMarkdown": "AI 会议记录 App，开完会纪要即有，本地转写不上传 - [更多介绍](https://apps.apple.com/cn/app/id6813593104)",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://apps.apple.com/cn/app/id6813593104",
+      "author": "phinn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "73bbc12dace6",
+      "board": "main",
+      "name": "KinetMemory",
+      "intro": "间隔复习 App，按遗忘曲线安排复习，该忘的才忘",
+      "introMarkdown": "间隔复习 App，按遗忘曲线安排复习，该忘的才忘 - [更多介绍](https://apps.apple.com/cn/app/id6815923723)",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://apps.apple.com/cn/app/id6815923723",
+      "author": "phinn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "df851ebfc5fd",
+      "board": "main",
+      "name": "KinetStudy",
+      "intro": "错题管理 App，拍照批改作业并把错题归集起来",
+      "introMarkdown": "错题管理 App，拍照批改作业并把错题归集起来 - [更多介绍](https://apps.apple.com/cn/app/id6797004663)",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://apps.apple.com/cn/app/id6797004663",
+      "author": "phinn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b67ab89b7796",
+      "board": "main",
+      "name": "KinetMorning",
+      "intro": "远程报平安 App，一声平安远程可见",
+      "introMarkdown": "远程报平安 App，一声平安远程可见 - [更多介绍](https://apps.apple.com/cn/app/id6779978181)",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://apps.apple.com/cn/app/id6779978181",
+      "author": "phinn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4c13b2759e06",
+      "board": "main",
+      "name": "Clasp Focus",
+      "intro": "专注锁机 App，合上盖子就开始专注",
+      "introMarkdown": "专注锁机 App，合上盖子就开始专注 - [更多介绍](https://apps.apple.com/cn/app/id6820942179)",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://apps.apple.com/cn/app/id6820942179",
+      "author": "phinn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "bb0e83accd14",
+      "board": "main",
+      "name": "M5Chat",
+      "intro": "多引擎 AI 对话 App，一个 App 切换多家大模型",
+      "introMarkdown": "多引擎 AI 对话 App，一个 App 切换多家大模型 - [更多介绍](https://apps.apple.com/cn/app/id6820196518)",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://apps.apple.com/cn/app/id6820196518",
+      "author": "phinn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d83c19078581",
+      "board": "main",
+      "name": "KinetFit",
+      "intro": "健身训练打卡 App，记录每次训练与完成情况",
+      "introMarkdown": "健身训练打卡 App，记录每次训练与完成情况 - [更多介绍](https://apps.apple.com/cn/app/id6773755689)",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://apps.apple.com/cn/app/id6773755689",
+      "author": "phinn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "8c781e233301",
+      "board": "main",
+      "name": "KinetSoul",
+      "intro": "AI 情绪日记 App，把每天的情绪记下来并回看",
+      "introMarkdown": "AI 情绪日记 App，把每天的情绪记下来并回看 - [更多介绍](https://apps.apple.com/cn/app/id6780600464)",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://apps.apple.com/cn/app/id6780600464",
+      "author": "phinn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "f6a640eaa3cb",
+      "board": "main",
+      "name": "KinetRain",
+      "intro": "雨声白噪音 App，随时放一场雨",
+      "introMarkdown": "雨声白噪音 App，随时放一场雨 - [更多介绍](https://apps.apple.com/cn/app/id6814033986)",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://apps.apple.com/cn/app/id6814033986",
+      "author": "phinn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "513d0edea8f0",
+      "board": "main",
+      "name": "KinetElf",
+      "intro": "桌面宠物 App，养一只会长大的口袋精灵",
+      "introMarkdown": "桌面宠物 App，养一只会长大的口袋精灵 - [更多介绍](https://apps.apple.com/cn/app/id6807457522)",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://apps.apple.com/cn/app/id6807457522",
+      "author": "phinn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "6bf9a230b30e",
+      "board": "main",
+      "name": "DuoFolio",
+      "intro": "折叠屏阅读 App，左右对开显示两页",
+      "introMarkdown": "折叠屏阅读 App，左右对开显示两页 - [更多介绍](https://apps.apple.com/cn/app/id6823855712)",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://apps.apple.com/cn/app/id6823855712",
       "author": "phinn",
       "authorLinks": [
         {
@@ -30109,184 +30356,6 @@
       "url": "https://labubulivewallpaper.cc",
       "author": "Horatio",
       "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "389818f1f17b",
-      "board": "main",
-      "name": "WhatsMyName",
-      "intro": "在互联网上搜索用户名足迹的网站。它可覆盖主流社交媒体、论坛、代码托管平台等进行全局搜索，借助高效算法快速出结果",
-      "introMarkdown": "在互联网上搜索用户名足迹的网站。它可覆盖主流社交媒体、论坛、代码托管平台等进行全局搜索，借助高效算法快速出结果 - [更多介绍](https://whatsmyname.me/about)",
-      "status": "live",
-      "date": "2025-06-21",
-      "url": "https://whatsmyname.me/",
-      "author": "z3674313",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9b2b2ab25360",
-      "board": "main",
-      "name": "asmrvideo.ai",
-      "intro": "用 Veo3 生成高质量的 ASMR 视频",
-      "introMarkdown": "用 Veo3 生成高质量的 ASMR 视频",
-      "status": "live",
-      "date": "2025-06-21",
-      "url": "https://asmrvideo.ai/",
-      "author": "james",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "7b2ff99779dc",
-      "board": "main",
-      "name": "Vogue Veo 3 Generator",
-      "intro": "最便宜的 Veo3 文本生成视频",
-      "introMarkdown": "最便宜的 Veo3 文本生成视频",
-      "status": "live",
-      "date": "2025-06-21",
-      "url": "https://www.vogueai.net/veo-3-generator",
-      "author": "kkkk-杭州",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "540d1bc914d4",
-      "board": "main",
-      "name": "Coast FIRE Calculator",
-      "intro": "退休储蓄计算器",
-      "introMarkdown": "退休储蓄计算器",
-      "status": "live",
-      "date": "2025-06-21",
-      "url": "https://coast-fire-calculator.com/",
-      "author": "leo",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "dc293c132fa0",
-      "board": "main",
-      "name": "Free AI Image Generator",
-      "intro": "聚合所有主流 AI 图片生成模型，无需登录使用",
-      "introMarkdown": "聚合所有主流 AI 图片生成模型，无需登录使用 - [更多介绍](https://github.com/free-ai-image-generator/Free-AI-Image-Generator)",
-      "status": "live",
-      "date": "2025-06-21",
-      "url": "https://ai-image-generator.co",
-      "author": "monsoonw",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6cb940b75d3c",
-      "board": "main",
-      "name": "CleverGet Free Recorder",
-      "intro": "免费录制在线视频并可过滤广告的工具",
-      "introMarkdown": "免费录制在线视频并可过滤广告的工具",
-      "status": "live",
-      "date": "2025-06-21",
-      "url": "https://www.leawo.org/cleverget-recorder/",
-      "author": "DamonTsang986",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "c5d148a22d05",
-      "board": "main",
-      "name": "免费录屏器",
-      "intro": "4 合 1 屏幕录制软件（免费）",
-      "introMarkdown": "4 合 1 屏幕录制软件（免费）",
-      "status": "live",
-      "date": "2025-06-21",
-      "url": "https://www.leawo.com/free-screen-recorder/",
-      "author": "DamonTsang986",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "c63cd753a4ae",
-      "board": "main",
-      "name": "sound effect generator",
-      "intro": "音效生成网站, 生成自定义音效",
-      "introMarkdown": "音效生成网站, 生成自定义音效",
-      "status": "live",
-      "date": "2025-06-19",
-      "url": "https://soundeffectgenerator.org/",
-      "author": "smkwls",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/smkwls"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d418ad544cba",
-      "board": "main",
-      "name": "Lip Sync",
-      "intro": "视频和音频嘴形同步，将视频中人的嘴形进行改变以适配音频",
-      "introMarkdown": "视频和音频嘴形同步，将视频中人的嘴形进行改变以适配音频",
-      "status": "live",
-      "date": "2025-06-19",
-      "url": "https://lipsync.studio/",
-      "author": "smkwls",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/smkwls"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "86483da130ad",
-      "board": "main",
-      "name": "Quit Porn AI",
-      "intro": "帮助人们戒除色情成瘾",
-      "introMarkdown": "帮助人们戒除色情成瘾",
-      "status": "live",
-      "date": "2025-06-19",
-      "url": "https://quitporn.ai/",
-      "author": "smkwls",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/smkwls"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "414bbfdfbf35",
-      "board": "main",
-      "name": "Catime",
-      "intro": "极致轻量的 Windows 倒计时工具，具有番茄工作法功能、透明界面和丰富自定义选项，只需几 MB 内存且几乎不占用 CPU 资源，便可在 Windows 上优雅掌控时间",
-      "introMarkdown": "极致轻量的 Windows 倒计时工具，具有番茄工作法功能、透明界面和丰富自定义选项，只需几 MB 内存且几乎不占用 CPU 资源，便可在 Windows 上优雅掌控时间 - [更多介绍](https://vladelaina.github.io/Catime/)",
-      "status": "live",
-      "date": "2025-06-19",
-      "url": "https://github.com/vladelaina/Catime",
-      "author": "vladelaina",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/vladelaina"
-        },
-        {
-          "label": "博客",
-          "url": "https://vladelaina.com/blog"
-        }
-      ],
       "likes": 0,
       "comments": 0
     }
