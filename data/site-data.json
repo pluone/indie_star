@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-04T08:31:54.063Z",
-    "statsSyncedAt": "2026-11-04T08:31:54.063Z",
-    "upstreamSha": "fa4110a22107d990815a5f956f1ca9f29f939060",
+    "contentSyncedAt": "2026-11-04T11:26:47.188Z",
+    "statsSyncedAt": "2026-11-04T11:26:47.188Z",
+    "upstreamSha": "057babeff3d12e0235e6aecf3f2ac68a5797498c",
     "counts": {
-      "main": 1635,
+      "main": 1638,
       "game": 158,
       "programmer": 423,
-      "total": 2216
+      "total": 2219
     }
   },
   "main": [
@@ -357,8 +357,8 @@
       "slug": "df851ebfc5fd",
       "board": "main",
       "name": "KinetStudy",
-      "intro": "错题管理 App，拍照批改作业并把错题归集起来",
-      "introMarkdown": "错题管理 App，拍照批改作业并把错题归集起来 - [更多介绍](https://apps.apple.com/cn/app/id6797004663)",
+      "intro": "错题管理 App，错题有人管，家长不用猜",
+      "introMarkdown": "错题管理 App，错题有人管，家长不用猜 - [更多介绍](https://apps.apple.com/cn/app/id6797004663)",
       "status": "live",
       "date": "2026-11-03",
       "url": "https://apps.apple.com/cn/app/id6797004663",
@@ -414,8 +414,8 @@
       "slug": "bb0e83accd14",
       "board": "main",
       "name": "M5Chat",
-      "intro": "多引擎 AI 对话 App，一个 App 切换多家大模型",
-      "introMarkdown": "多引擎 AI 对话 App，一个 App 切换多家大模型 - [更多介绍](https://apps.apple.com/cn/app/id6820196518)",
+      "intro": "口袋里的多引擎 AI 助手，一个 App 切换多家大模型",
+      "introMarkdown": "口袋里的多引擎 AI 助手，一个 App 切换多家大模型 - [更多介绍](https://apps.apple.com/cn/app/id6820196518)",
       "status": "live",
       "date": "2026-11-03",
       "url": "https://apps.apple.com/cn/app/id6820196518",
@@ -433,8 +433,8 @@
       "slug": "d83c19078581",
       "board": "main",
       "name": "KinetFit",
-      "intro": "健身训练打卡 App，记录每次训练与完成情况",
-      "introMarkdown": "健身训练打卡 App，记录每次训练与完成情况 - [更多介绍](https://apps.apple.com/cn/app/id6773755689)",
+      "intro": "健康管理 App，先把身体打开",
+      "introMarkdown": "健康管理 App，先把身体打开 - [更多介绍](https://apps.apple.com/cn/app/id6773755689)",
       "status": "live",
       "date": "2026-11-03",
       "url": "https://apps.apple.com/cn/app/id6773755689",
@@ -452,8 +452,8 @@
       "slug": "8c781e233301",
       "board": "main",
       "name": "KinetSoul",
-      "intro": "AI 情绪日记 App，把每天的情绪记下来并回看",
-      "introMarkdown": "AI 情绪日记 App，把每天的情绪记下来并回看 - [更多介绍](https://apps.apple.com/cn/app/id6780600464)",
+      "intro": "AI 心理日记，给情绪一个出口",
+      "introMarkdown": "AI 心理日记，给情绪一个出口 - [更多介绍](https://apps.apple.com/cn/app/id6780600464)",
       "status": "live",
       "date": "2026-11-03",
       "url": "https://apps.apple.com/cn/app/id6780600464",
@@ -471,8 +471,8 @@
       "slug": "f6a640eaa3cb",
       "board": "main",
       "name": "KinetRain",
-      "intro": "雨声白噪音 App，随时放一场雨",
-      "introMarkdown": "雨声白噪音 App，随时放一场雨 - [更多介绍](https://apps.apple.com/cn/app/id6814033986)",
+      "intro": "氛围声 App，想下雨就下雨",
+      "introMarkdown": "氛围声 App，想下雨就下雨 - [更多介绍](https://apps.apple.com/cn/app/id6814033986)",
       "status": "live",
       "date": "2026-11-03",
       "url": "https://apps.apple.com/cn/app/id6814033986",
@@ -490,8 +490,8 @@
       "slug": "513d0edea8f0",
       "board": "main",
       "name": "KinetElf",
-      "intro": "桌面宠物 App，养一只会长大的口袋精灵",
-      "introMarkdown": "桌面宠物 App，养一只会长大的口袋精灵 - [更多介绍](https://apps.apple.com/cn/app/id6807457522)",
+      "intro": "口袋宠物精灵，会长大的桌面伙伴",
+      "introMarkdown": "口袋宠物精灵，会长大的桌面伙伴 - [更多介绍](https://apps.apple.com/cn/app/id6807457522)",
       "status": "live",
       "date": "2026-11-03",
       "url": "https://apps.apple.com/cn/app/id6807457522",
@@ -506,11 +506,68 @@
       "comments": 0
     },
     {
+      "slug": "c61ab7185f67",
+      "board": "main",
+      "name": "KinetTask",
+      "intro": "端侧 AI 任务管理器，数据全程本地 SQLite，不上云不建账号",
+      "introMarkdown": "端侧 AI 任务管理器，数据全程本地 SQLite，不上云不建账号 - [更多介绍](https://apps.apple.com/us/app/kinettask-private-ai-tasks/id6780944289)",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://apps.apple.com/us/app/kinettask-private-ai-tasks/id6780944289",
+      "author": "phinn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "0f63c61ada78",
+      "board": "main",
+      "name": "Promptside",
+      "intro": "AI 短片创作台，一个人就是整个剧组",
+      "introMarkdown": "AI 短片创作台，一个人就是整个剧组 - [更多介绍](https://apps.apple.com/us/app/promptside/id6820624868)",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://apps.apple.com/us/app/promptside/id6820624868",
+      "author": "phinn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4596bfea615c",
+      "board": "main",
+      "name": "FurChart",
+      "intro": "宠物健康记录，毛孩子病历不翻抽屉",
+      "introMarkdown": "宠物健康记录，毛孩子病历不翻抽屉 - [更多介绍](https://apps.apple.com/us/app/furchart-pet-health-records/id6817339084)",
+      "status": "live",
+      "date": "2026-11-03",
+      "url": "https://apps.apple.com/us/app/furchart-pet-health-records/id6817339084",
+      "author": "phinn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "6bf9a230b30e",
       "board": "main",
       "name": "DuoFolio",
-      "intro": "折叠屏阅读 App，左右对开显示两页",
-      "introMarkdown": "折叠屏阅读 App，左右对开显示两页 - [更多介绍](https://apps.apple.com/cn/app/id6823855712)",
+      "intro": "为折叠屏而生的书",
+      "introMarkdown": "为折叠屏而生的书 - [更多介绍](https://apps.apple.com/cn/app/id6823855712)",
       "status": "live",
       "date": "2026-11-03",
       "url": "https://apps.apple.com/cn/app/id6823855712",
