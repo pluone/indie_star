@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-04T12:21:52.711Z",
-    "statsSyncedAt": "2026-11-04T12:21:52.711Z",
-    "upstreamSha": "5aa9f9cb898bb901fdea242fcfa49a2ecedf2919",
+    "contentSyncedAt": "2026-11-04T19:06:32.551Z",
+    "statsSyncedAt": "2026-11-04T19:06:32.551Z",
+    "upstreamSha": "a5b2eb5b3b8e3a5ea050f11c8cb899df98fab83e",
     "counts": {
-      "main": 1635,
+      "main": 1638,
       "game": 158,
       "programmer": 423,
-      "total": 2216
+      "total": 2219
     }
   },
   "main": [
+    {
+      "slug": "c5c524b44840",
+      "board": "main",
+      "name": "Mandarin Recall",
+      "intro": "HSK 3.0 词汇站，2025 考纲每个词带拼音、发音和旧新级别对照；间隔重复免费且不用注册，写自己的句子可以得到 AI 反馈",
+      "introMarkdown": "HSK 3.0 词汇站，2025 考纲每个词带拼音、发音和旧新级别对照；间隔重复免费且不用注册，写自己的句子可以得到 AI 反馈",
+      "status": "live",
+      "date": "2026-11-05",
+      "url": "https://mandarinrecall.com",
+      "author": "Wujie Li",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wujieli0207"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "54a653b88b2e",
+      "board": "main",
+      "name": "券到卡包",
+      "intro": "微信电子券制作小程序，面向实体店永久免费做优惠券、券包、次卡；顾客领进卡包，到店扫码核销，不用自己开发",
+      "introMarkdown": "微信电子券制作小程序，面向实体店永久免费做优惠券、券包、次卡；顾客领进卡包，到店扫码核销，不用自己开发",
+      "status": "live",
+      "date": "2026-11-05",
+      "url": "https://www.quandaokabao.com",
+      "author": "mac nie",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/macuns"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "ee77d0d2a178",
+      "board": "main",
+      "name": "题伴",
+      "intro": "中文截图与文字练习助手，粘贴题目或上传截图，查看编程题、选择题、填空及主观题的答案和解析；需登录，新账号赠送 10 次体验，后续按次付费",
+      "introMarkdown": "中文截图与文字练习助手，粘贴题目或上传截图，查看编程题、选择题、填空及主观题的答案和解析；需登录，新账号赠送 10 次体验，后续按次付费 - [更多介绍](https://tiban.momoai.pro/)",
+      "status": "live",
+      "date": "2026-11-05",
+      "url": "https://tiban.momoai.pro/app",
+      "author": "air158",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/air158"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "88ca9c442982",
       "board": "main",
