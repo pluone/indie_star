@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-04T01:41:55.388Z",
-    "statsSyncedAt": "2026-11-04T01:41:55.388Z",
-    "upstreamSha": "be3821570a74472915e7c127831b218daf7db9d9",
+    "contentSyncedAt": "2026-11-04T07:01:57.229Z",
+    "statsSyncedAt": "2026-11-04T07:01:57.229Z",
+    "upstreamSha": "44f26a97f09a7f633544abf15af93b4b2b816565",
     "counts": {
-      "main": 1632,
+      "main": 1633,
       "game": 158,
-      "programmer": 422,
-      "total": 2212
+      "programmer": 423,
+      "total": 2214
     }
   },
   "main": [
+    {
+      "slug": "f40cd0364e8e",
+      "board": "main",
+      "name": "Tapemoon",
+      "intro": "AI 音乐视频生成器，上传一首歌（适合 Suno、Udio 生成的 AI 歌曲），自动生成分镜并按人声对齐歌词，渲染前可逐镜修改，可选 Seedance 或 Kling 出 16:9 / 9:16 MV；新用户送免费积分可预览，另有免费的逐字同步歌词视频工具",
+      "introMarkdown": "AI 音乐视频生成器，上传一首歌（适合 Suno、Udio 生成的 AI 歌曲），自动生成分镜并按人声对齐歌词，渲染前可逐镜修改，可选 Seedance 或 Kling 出 16:9 / 9:16 MV；新用户送免费积分可预览，另有免费的逐字同步歌词视频工具",
+      "status": "live",
+      "date": "2026-11-04",
+      "url": "https://tapemoon.com",
+      "author": "suio03",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/suio03"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "750a50c94862",
       "board": "main",
@@ -33228,6 +33247,20 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "db0fbbfe81c7",
+      "board": "programmer",
+      "name": "ChatGPT礼品卡",
+      "intro": "ChatGPT 多面值礼品卡，可直充自己账户",
+      "introMarkdown": "ChatGPT 多面值礼品卡，可直充自己账户",
+      "status": "live",
+      "date": "2026-11-04",
+      "url": "https://aicardhub.shop/",
+      "author": "欧克元",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "f7b1c14bef84",
       "board": "programmer",
