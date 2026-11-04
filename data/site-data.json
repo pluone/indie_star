@@ -1,16 +1,87 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-04T11:26:47.188Z",
-    "statsSyncedAt": "2026-11-04T11:26:47.188Z",
-    "upstreamSha": "057babeff3d12e0235e6aecf3f2ac68a5797498c",
+    "contentSyncedAt": "2026-11-04T12:21:52.711Z",
+    "statsSyncedAt": "2026-11-04T12:21:52.711Z",
+    "upstreamSha": "5aa9f9cb898bb901fdea242fcfa49a2ecedf2919",
     "counts": {
-      "main": 1638,
+      "main": 1635,
       "game": 158,
       "programmer": 423,
-      "total": 2219
+      "total": 2216
     }
   },
   "main": [
+    {
+      "slug": "88ca9c442982",
+      "board": "main",
+      "name": "OnTrend AI",
+      "intro": "趣味 AI 短视频生成工具，面向普通用户与年轻人，无需编写提示词或掌握剪辑，挑选正在流行的爆款模板并上传 1-2 张照片，即可把静态照片变成带原版音乐与动作卡点的 9:16 搞笑短视频",
+      "introMarkdown": "趣味 AI 短视频生成工具，面向普通用户与年轻人，无需编写提示词或掌握剪辑，挑选正在流行的爆款模板并上传 1-2 张照片，即可把静态照片变成带原版音乐与动作卡点的 9:16 搞笑短视频",
+      "status": "live",
+      "date": "2026-11-04",
+      "url": "https://ontrendai.com",
+      "author": "Robin Ma",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Maaaaph"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "7656357db076",
+      "board": "main",
+      "name": "ResumeInvited",
+      "intro": "英文简历制作工具（免费），支持模板、实时预览和 PDF 或可编辑 Word 导出，无需注册",
+      "introMarkdown": "英文简历制作工具（免费），支持模板、实时预览和 PDF 或可编辑 Word 导出，无需注册",
+      "status": "live",
+      "date": "2026-11-04",
+      "url": "https://resumeinvited.com/",
+      "author": "Bowen Guo",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "feab582dc8c7",
+      "board": "main",
+      "name": "Live Face Swap",
+      "intro": "在浏览器里用摄像头实时试换脸、画面风格和服装造型，录下片段后可直接回看并下载；摄像头预览免费，实时 AI 生成需登录并消耗积分",
+      "introMarkdown": "在浏览器里用摄像头实时试换脸、画面风格和服装造型，录下片段后可直接回看并下载；摄像头预览免费，实时 AI 生成需登录并消耗积分",
+      "status": "live",
+      "date": "2026-11-04",
+      "url": "https://live-face-swap.net/",
+      "author": "Qing Shao",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/aloow"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "9c70a98466ca",
+      "board": "main",
+      "name": "PosterSheet",
+      "intro": "海报打印工具，将图片拆分成多张纸打印，再拼接成大幅海报，用家用打印机制作墙面装饰和活动海报",
+      "introMarkdown": "海报打印工具，将图片拆分成多张纸打印，再拼接成大幅海报，用家用打印机制作墙面装饰和活动海报",
+      "status": "live",
+      "date": "2026-11-04",
+      "url": "https://postersheet.com/",
+      "author": "djyou32",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/djyou32"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "f40cd0364e8e",
       "board": "main",
@@ -30300,118 +30371,6 @@
       "date": "2025-06-26",
       "url": "https://headcanongenerator.fun/",
       "author": "rns",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "77bfd84d7952",
-      "board": "main",
-      "name": "Amazon Downloader",
-      "intro": "Amazon 的点播视频下载工具",
-      "introMarkdown": "Amazon 的点播视频下载工具",
-      "status": "live",
-      "date": "2025-06-25",
-      "url": "https://www.leawo.org/save-video/",
-      "author": "DT986",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "2d19ffd45dfe",
-      "board": "main",
-      "name": "免费的5合1播放器软件",
-      "intro": "可播放 4K 蓝光、蓝光、DVD、视频与音频",
-      "introMarkdown": "可播放 4K 蓝光、蓝光、DVD、视频与音频",
-      "status": "live",
-      "date": "2025-06-25",
-      "url": "https://www.leawo.com/",
-      "author": "DT986",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b86c909a82b4",
-      "board": "main",
-      "name": "Kmail临时邮箱",
-      "intro": "免费安全的临时邮箱，保护您的个人隐私，告别广告垃圾邮件的骚扰",
-      "introMarkdown": "免费安全的临时邮箱，保护您的个人隐私，告别广告垃圾邮件的骚扰",
-      "status": "live",
-      "date": "2025-06-25",
-      "url": "https://kmail.pw/",
-      "author": "HongZhong",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b3c680a6e296",
-      "board": "main",
-      "name": "My Ringtone",
-      "intro": "免费无注册的 100w+ 铃声资源 在线下载工具，只要你想要，没有你搜不到的铃声",
-      "introMarkdown": "免费无注册的 100w+ 铃声资源 在线下载工具，只要你想要，没有你搜不到的铃声 - [更多介绍](https://myringtone.app/zh-cn/about)",
-      "status": "live",
-      "date": "2025-06-24",
-      "url": "https://myringtone.app/zh-cn/",
-      "author": "Poiybro",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d3a3f2987539",
-      "board": "main",
-      "name": "whisperkeyboard",
-      "intro": "灵动岛 + LLM + whisper 语音输入",
-      "introMarkdown": "灵动岛 + LLM + whisper 语音输入",
-      "status": "live",
-      "date": "2025-06-23",
-      "url": "https://whisperkeyboard.app/",
-      "author": "wtechtec",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/WtecHtec"
-        },
-        {
-          "label": "博客",
-          "url": "https://iam.xujingyichang.top/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "241351788ced",
-      "board": "main",
-      "name": "金句盲盒",
-      "intro": "趣站，页面定时随机推荐一条影视、歌曲或书籍等精彩文字内容，自定义配图或AI生成配图，可复制链接或创建卡片分享。",
-      "introMarkdown": "趣站，页面定时随机推荐一条影视、歌曲或书籍等精彩文字内容，自定义配图或AI生成配图，可复制链接或创建卡片分享。",
-      "status": "live",
-      "date": "2025-06-23",
-      "url": "http://jinju.yotooapp.com",
-      "author": "zhucm",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/zhucm"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "ab47f512d4e7",
-      "board": "main",
-      "name": "Labubu Live Wallpaper",
-      "intro": "专为 Labubu 爱好者打造的免费高清动态壁纸宝库，收录超过100款动态壁纸，让可爱的 Labubu 在你的屏幕上动起来，网站提供免费下载获取精美动画 Labubu 动态壁纸设计，并适用于所有设备。",
-      "introMarkdown": "专为 Labubu 爱好者打造的免费高清动态壁纸宝库，收录超过100款动态壁纸，让可爱的 Labubu 在你的屏幕上动起来，网站提供免费下载获取精美动画 Labubu 动态壁纸设计，并适用于所有设备。",
-      "status": "live",
-      "date": "2025-06-22",
-      "url": "https://labubulivewallpaper.cc",
-      "author": "Horatio",
       "authorLinks": [],
       "likes": 0,
       "comments": 0
