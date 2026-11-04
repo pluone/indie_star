@@ -1,16 +1,130 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-04T01:00:01.226Z",
-    "statsSyncedAt": "2026-11-04T01:00:01.226Z",
-    "upstreamSha": "2b5512d42dd0519d04ea1ba84874805e13b233c7",
+    "contentSyncedAt": "2026-11-04T01:41:55.388Z",
+    "statsSyncedAt": "2026-11-04T01:41:55.388Z",
+    "upstreamSha": "be3821570a74472915e7c127831b218daf7db9d9",
     "counts": {
-      "main": 1636,
+      "main": 1632,
       "game": 158,
-      "programmer": 421,
-      "total": 2215
+      "programmer": 422,
+      "total": 2212
     }
   },
   "main": [
+    {
+      "slug": "750a50c94862",
+      "board": "main",
+      "name": "SoulPaw",
+      "intro": "在线 AI 宠物写真工具，上传 1–5 张同一只宠物的照片，选择水彩、皇家或影棚风格，生成并下载一幅专属画像",
+      "introMarkdown": "在线 AI 宠物写真工具，上传 1–5 张同一只宠物的照片，选择水彩、皇家或影棚风格，生成并下载一幅专属画像",
+      "status": "live",
+      "date": "2026-11-04",
+      "url": "https://soulpaw.art/",
+      "author": "Linhao Cui",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cuilinhao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "88d2409151b9",
+      "board": "main",
+      "name": "FlyingCar AI Video",
+      "intro": "AI 飞车视频生成工具，上传汽车或产品照片，选择模板即可生成炫酷的飞行特效视频",
+      "introMarkdown": "AI 飞车视频生成工具，上传汽车或产品照片，选择模板即可生成炫酷的飞行特效视频",
+      "status": "live",
+      "date": "2026-11-04",
+      "url": "https://flyingcaraivideo.app/",
+      "author": "Masker99",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Masker99"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "2c121d6387e9",
+      "board": "main",
+      "name": "12 Axes Test",
+      "intro": "在线多维价值观测试（免费），通过回答问题探索自己的政治观点与价值观倾向",
+      "introMarkdown": "在线多维价值观测试（免费），通过回答问题探索自己的政治观点与价值观倾向",
+      "status": "live",
+      "date": "2026-11-04",
+      "url": "https://12axestest.site/",
+      "author": "Masker99",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Masker99"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "f02ede76e7d9",
+      "board": "main",
+      "name": "HackerTube Guide",
+      "intro": "HackerTube 介绍与资源导航站，提供使用指南、常见问题解答及相关项目推荐",
+      "introMarkdown": "HackerTube 介绍与资源导航站，提供使用指南、常见问题解答及相关项目推荐",
+      "status": "live",
+      "date": "2026-11-04",
+      "url": "https://hackertube.top/",
+      "author": "Masker99",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Masker99"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "832c3e9559ab",
+      "board": "main",
+      "name": "BizPeel",
+      "intro": "有真实收入的海外产品数据库，可按 MRR、近 30 天收入、增长速度和赛道筛选，每家都有增长拆解：流量从哪来、做了哪些营销动作、用户为什么付钱，适合找出海生意点子",
+      "introMarkdown": "有真实收入的海外产品数据库，可按 MRR、近 30 天收入、增长速度和赛道筛选，每家都有增长拆解：流量从哪来、做了哪些营销动作、用户为什么付钱，适合找出海生意点子",
+      "status": "live",
+      "date": "2026-11-04",
+      "url": "https://bizpeel.com/zh/",
+      "author": "熠辉",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yihui-dev"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "9130265942a8",
+      "board": "main",
+      "name": "PicYep",
+      "intro": "上传一张参考照或写一句描述，生成真人感头像、证件照、自拍与宠物写真；注册送免费积分、无需绑卡，付费计划从 $12/月起",
+      "introMarkdown": "上传一张参考照或写一句描述，生成真人感头像、证件照、自拍与宠物写真；注册送免费积分、无需绑卡，付费计划从 $12/月起",
+      "status": "live",
+      "date": "2026-11-04",
+      "url": "https://picyep.com/zh",
+      "author": "Liujiacheng-yuexin",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Liujiacheng-yuexin"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "b70f8864ff3a",
       "board": "main",
@@ -30156,195 +30270,6 @@
       ],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "f4faeeac8623",
-      "board": "main",
-      "name": "Veo3 AI Video Generator",
-      "intro": "支持文本转视频和图像转视频，配备原生音频生成和精准唇形同步，2-5秒完成专业级视频创作。",
-      "introMarkdown": "支持文本转视频和图像转视频，配备原生音频生成和精准唇形同步，2-5秒完成专业级视频创作。",
-      "status": "live",
-      "date": "2025-06-18",
-      "url": "https://veo-3.art",
-      "author": "Caron77",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Caron77ai"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9d7e0345b936",
-      "board": "main",
-      "name": "Flux Kontext AI Image Editor",
-      "intro": "基于 Black Forest Labs 多模态技术的专业图像转换工具，支持风格迁移、背景替换等功能，2-5秒完成高质量编辑。",
-      "introMarkdown": "基于 Black Forest Labs 多模态技术的专业图像转换工具，支持风格迁移、背景替换等功能，2-5秒完成高质量编辑。",
-      "status": "live",
-      "date": "2025-06-18",
-      "url": "https://flux-kontext.xyz",
-      "author": "Caron77",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Caron77ai"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "ded8168326a2",
-      "board": "main",
-      "name": "KeyTone",
-      "intro": "简单易用、高度可定制的开源按键声音应用，帮助你通过载入自制音频打造独一无二的键音体验，支持多合一 高级声音 的随机或顺序触发，支持 高级声音 间的 组合与继承，力求每次敲击都充满创意，释放你的键音艺术。",
-      "introMarkdown": "简单易用、高度可定制的开源按键声音应用，帮助你通过载入自制音频打造独一无二的键音体验，支持多合一 ***高级声音*** 的随机或顺序触发，支持 ***高级声音*** 间的 ***组合与继承***，力求每次敲击都充满创意，释放你的键音艺术。 - [更多介绍](https://github.com/LuSrackhall/KeyTone)",
-      "status": "live",
-      "date": "2025-06-18",
-      "url": "https://keytone.xuanhall.com/",
-      "author": "LuSrackhall",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/LuSrackhall"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "fcb9492ee58c",
-      "board": "main",
-      "name": "md2card",
-      "intro": "MD2Card 在线工具，支持多主题，一键将 Markdown 拆分并生成知识卡片，支持 AI 魔幻卡片和长文智能拆分功能，可编辑，可导出 PNG/SVG/PDF，适合笔记分享与社媒传播",
-      "introMarkdown": "MD2Card 在线工具，支持多主题，一键将 Markdown 拆分并生成知识卡片，支持 AI 魔幻卡片和长文智能拆分功能，可编辑，可导出 PNG/SVG/PDF，适合笔记分享与社媒传播",
-      "status": "live",
-      "date": "2025-06-18",
-      "url": "https://www.md2card.online/",
-      "author": "md2card",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/JsonChao"
-        },
-        {
-          "label": "博客",
-          "url": "https://juejin.cn/user/4318537403878167/posts"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "92c1f6af1ef9",
-      "board": "main",
-      "name": "Kuakua夸夸",
-      "intro": "全网最全的心理学资源网站，用简单心理学与AI工具带来幸福激发内在力量 | 成为更好的自己 | 简单心理学，目前还在持续更新中，做更多可体验的心理学内容",
-      "introMarkdown": "全网最全的心理学资源网站，用简单心理学与AI工具带来幸福激发内在力量 | 成为更好的自己 | 简单心理学，目前还在持续更新中，做更多可体验的心理学内容 - [更多介绍](https://github.com/C-Jeril/kuakua)",
-      "status": "live",
-      "date": "2025-06-18",
-      "url": "https://kuakua.app/",
-      "author": "Alex",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/C-Jeril"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "fafe5607f1f9",
-      "board": "main",
-      "name": "Labubu Wallpaper",
-      "intro": "下载高级 Labubu 动态壁纸合集，免费获取精美动画 Labubu 动态壁纸设计。适用于所有设备的高品质 Labubu 动态壁纸，动画流畅。",
-      "introMarkdown": "下载高级 Labubu 动态壁纸合集，免费获取精美动画 Labubu 动态壁纸设计。适用于所有设备的高品质 Labubu 动态壁纸，动画流畅。",
-      "status": "live",
-      "date": "2025-06-16",
-      "url": "https://labubulivewallpaper.com/",
-      "author": "handsometom",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "76dc289baba8",
-      "board": "main",
-      "name": "Seedance AI Video Generator",
-      "intro": "用 文字/图片 生成视频，Seedance AI 将您的想法转化为令人惊叹的视频（Seedance 1.0 Pro 模型）",
-      "introMarkdown": "用 文字/图片 生成视频，Seedance AI 将您的想法转化为令人惊叹的视频（Seedance 1.0 Pro 模型）",
-      "status": "live",
-      "date": "2025-06-13",
-      "url": "https://seedanceai.net/",
-      "author": "Anna",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/fluxstrive"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "46bd433c9c42",
-      "board": "main",
-      "name": "Random Letter Generator",
-      "intro": "随机生成指定数量的序列,适用密码生成、游戏开发中的随机元素序列等等",
-      "introMarkdown": "随机生成指定数量的序列,适用密码生成、游戏开发中的随机元素序列等等",
-      "status": "live",
-      "date": "2025-06-12",
-      "url": "https://randomlettergenerator.app/",
-      "author": "sing1ee",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/sing1ee"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f9dc53c8ba5c",
-      "board": "main",
-      "name": "职场沟通小诸葛",
-      "intro": "告别职场说错话焦虑，AI助你掌握高效沟通技巧，提升职场表达力。",
-      "introMarkdown": "告别职场说错话焦虑，AI助你掌握高效沟通技巧，提升职场表达力。",
-      "status": "live",
-      "date": "2025-06-12",
-      "url": "https://procommai.com/",
-      "author": "TuShenmei",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/TuShenmei-xiannv"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0028e74b4b5e",
-      "board": "main",
-      "name": "Veo3 AI",
-      "intro": "根据文本提示或图像生成专业视频（使用 Veo3），并提供本地音频和逼真的物理效果",
-      "introMarkdown": "根据文本提示或图像生成专业视频（使用 Veo3），并提供本地音频和逼真的物理效果",
-      "status": "live",
-      "date": "2025-06-12",
-      "url": "https://aiveo3.net/",
-      "author": "Anna",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/fluxstrive"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
@@ -33303,6 +33228,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "f7b1c14bef84",
+      "board": "programmer",
+      "name": "Skillry",
+      "intro": "Agent Skill 库，每个 Skill 对应一种设计好的风格（如杂志感品牌故事 PPT、像素风宣传片），装进 Claude Code、Codex、Cursor 等 Agent，就能照着做出没有 AI 味的幻灯片、网页、图片和视频；装前可看真实成品",
+      "introMarkdown": "Agent Skill 库，每个 Skill 对应一种设计好的风格（如杂志感品牌故事 PPT、像素风宣传片），装进 Claude Code、Codex、Cursor 等 Agent，就能照着做出没有 AI 味的幻灯片、网页、图片和视频；装前可看真实成品",
+      "status": "live",
+      "date": "2026-11-04",
+      "url": "https://skillry.dev/zh/",
+      "author": "熠辉",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yihui-dev"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "8fbbe8070f6e",
       "board": "programmer",
