@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-04T19:06:32.551Z",
-    "statsSyncedAt": "2026-11-04T19:06:32.551Z",
-    "upstreamSha": "a5b2eb5b3b8e3a5ea050f11c8cb899df98fab83e",
+    "contentSyncedAt": "2026-11-05T00:46:53.610Z",
+    "statsSyncedAt": "2026-11-05T00:46:53.610Z",
+    "upstreamSha": "a8b623549280e02a562dac41edaa09282a938002",
     "counts": {
-      "main": 1638,
+      "main": 1639,
       "game": 158,
       "programmer": 423,
-      "total": 2219
+      "total": 2220
     }
   },
   "main": [
+    {
+      "slug": "40e7b6df2c58",
+      "board": "main",
+      "name": "涂装知识网站",
+      "intro": "免费涂装知识库，面向工业涂装工程师，涵盖涂装理论、22 条缺陷诊断、涂膜性能要求、28 种检测方法与露点、膜厚、涂布率等车间计算工具，简体中文",
+      "introMarkdown": "免费涂装知识库，面向工业涂装工程师，涵盖涂装理论、22 条缺陷诊断、涂膜性能要求、28 种检测方法与露点、膜厚、涂布率等车间计算工具，简体中文",
+      "status": "live",
+      "date": "2026-11-05",
+      "url": "https://muse.ai/s/tu-zhuang-zhi-shi-wang-zhan-xjf6h2xd3fxfxdxv/M__w8toiRYQ-oNAQlbmG5XnqVvhQwcJugMiT_gZIXQA",
+      "author": "Anthony",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/CoatingKnowledgeHub"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "c5c524b44840",
       "board": "main",
