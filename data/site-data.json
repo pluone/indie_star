@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-05T04:21:34.798Z",
-    "statsSyncedAt": "2026-11-05T04:21:34.798Z",
-    "upstreamSha": "3fe218a6478c6e25037d23b99a4da21d1ae07a9c",
+    "contentSyncedAt": "2026-11-05T07:17:25.018Z",
+    "statsSyncedAt": "2026-11-05T07:17:25.018Z",
+    "upstreamSha": "4e283aec14c00c58ebfc56c9f617fbed8224f47c",
     "counts": {
-      "main": 1634,
+      "main": 1637,
       "game": 158,
       "programmer": 423,
-      "total": 2215
+      "total": 2218
     }
   },
   "main": [
+    {
+      "slug": "b68dca986f76",
+      "board": "main",
+      "name": "CrestGeo",
+      "intro": "想知道豆包、DeepSeek、Kimi 等 AI 回答问题时会不会提到你的网站或店铺、说得对不对、推荐了谁？输入网址或品牌名/店铺名先看分数，并给出可执行的修改建议",
+      "introMarkdown": "想知道豆包、DeepSeek、Kimi 等 AI 回答问题时会不会提到你的网站或店铺、说得对不对、推荐了谁？输入网址或品牌名/店铺名先看分数，并给出可执行的修改建议",
+      "status": "live",
+      "date": "2026-11-05",
+      "url": "https://crestgeo.com",
+      "author": "sdupig",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sdupig"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "ceebc1c89a48",
+      "board": "main",
+      "name": "InkByYou",
+      "intro": "AI 纹身设计工具，用文字或参考图生成纹身草图，支持多种风格、AI 修改、线稿提取和上身预览；提供免费预览，高清原创图下载需付费",
+      "introMarkdown": "AI 纹身设计工具，用文字或参考图生成纹身草图，支持多种风格、AI 修改、线稿提取和上身预览；提供免费预览，高清原创图下载需付费",
+      "status": "live",
+      "date": "2026-11-05",
+      "url": "https://inkbyyou.com/",
+      "author": "Jayden-tong",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Jayden-tong"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "11f1b9be1717",
+      "board": "main",
+      "name": "WordStar 词光",
+      "intro": "面向雅思备考者的词汇学习网站，通过插画、英美发音、例句、拼写练习和间隔复习记单词；免费试学 100 词，完整词表文件免费下载，全词库在线学习需会员",
+      "introMarkdown": "面向雅思备考者的词汇学习网站，通过插画、英美发音、例句、拼写练习和间隔复习记单词；免费试学 100 词，完整词表文件免费下载，全词库在线学习需会员",
+      "status": "live",
+      "date": "2026-11-05",
+      "url": "https://www.wordstar.cc",
+      "author": "Jayden-tong",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Jayden-tong"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "0b9f475e9d11",
       "board": "main",
@@ -9626,8 +9683,8 @@
       "slug": "87b2a5200c2e",
       "board": "main",
       "name": "法脉 LawPulse",
-      "intro": "给中国执业律师的本地离线法律研究工具（macOS）：412 部现行法律逐条检索，笔记直接挂在法条下自动成链，AI 合同审查用自己的模型密钥且引用逐条回本地法库核实；数据全在本机不上云。公测期免费。配套开源了 chinese-law-corpus（412 部法律逐条 JSON + 723 件案例，CC0）",
-      "introMarkdown": "给中国执业律师的本地离线法律研究工具（macOS）：412 部现行法律逐条检索，笔记直接挂在法条下自动成链，AI 合同审查用自己的模型密钥且引用逐条回本地法库核实；数据全在本机不上云。公测期免费。配套开源了 [chinese-law-corpus](https://github.com/lttxzmj/chinese-law-corpus)（412 部法律逐条 JSON + 723 件案例，CC0）",
+      "intro": "给中国执业律师的本地离线法律研究工具（macOS）：412 部现行法律逐条检索，笔记直接挂在法条下自动成链，AI 合同审查用自己的模型密钥且引用逐条回本地法库核实。公测期免费。配套开源了 chinese-law-corpus（412 部法律逐条 JSON + 723 件案例，CC0）",
+      "introMarkdown": "给中国执业律师的本地离线法律研究工具（macOS）：412 部现行法律逐条检索，笔记直接挂在法条下自动成链，AI 合同审查用自己的模型密钥且引用逐条回本地法库核实。公测期免费。配套开源了 [chinese-law-corpus](https://github.com/lttxzmj/chinese-law-corpus)（412 部法律逐条 JSON + 723 件案例，CC0）",
       "status": "live",
       "date": "2026-09-07",
       "url": "https://lttxzmj.github.io/lawpulse-site/",
@@ -38082,8 +38139,8 @@
       "slug": "f89561436bcc",
       "board": "programmer",
       "name": "CoderPlan",
-      "intro": "LLM API 中转网关，OpenAI 兼容接口，一行配置接入 Claude Code / Codex CLI / Gemini CLI，新用户免费额度，按量付费，支持支付宝/微信",
-      "introMarkdown": "LLM API 中转网关，OpenAI 兼容接口，一行配置接入 Claude Code / Codex CLI / Gemini CLI，新用户免费额度，按量付费，支持支付宝/微信",
+      "intro": "AI 编程 API 中转站，一个 Key 调 Claude（Opus 5.5、Sonnet 5.5 等）、GPT（GPT-6.1、GPT-5.6 等）、Gemini、Grok、MiniMax 模型，同时服务 Claude Code、Codex CLI、Cursor、Gemini CLI；Claude Code 填 https://api.coderplan.ai，OpenAI 兼容工具填 https://api.coderplan.ai/v1；Stripe 国际卡充值，价格表注册前可查，每笔请求明细（模型 / tokens / 缓存 / 费用）可核对，余额不过期，按量计费无月费；文档部分为中文，英文版进行中",
+      "introMarkdown": "AI 编程 API 中转站，一个 Key 调 Claude（Opus 5.5、Sonnet 5.5 等）、GPT（GPT-6.1、GPT-5.6 等）、Gemini、Grok、MiniMax 模型，同时服务 Claude Code、Codex CLI、Cursor、Gemini CLI；Claude Code 填 `https://api.coderplan.ai`，OpenAI 兼容工具填 `https://api.coderplan.ai/v1`；Stripe 国际卡充值，价格表注册前可查，每笔请求明细（模型 / tokens / 缓存 / 费用）可核对，余额不过期，按量计费无月费；文档部分为中文，英文版进行中 - [定价页](https://coderplan.ai/pricing)",
       "status": "live",
       "date": "2026-06-06",
       "url": "https://coderplan.ai",
