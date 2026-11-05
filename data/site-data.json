@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-05T08:27:27.974Z",
-    "statsSyncedAt": "2026-11-05T08:27:27.974Z",
-    "upstreamSha": "a8f9bb592e7ede3e68ca8e6a057053b61c9315b4",
+    "contentSyncedAt": "2026-11-05T14:42:07.411Z",
+    "statsSyncedAt": "2026-11-05T14:42:07.411Z",
+    "upstreamSha": "2e46e4e10d965af7170c42a876b7e79d41c976aa",
     "counts": {
       "main": 1638,
       "game": 158,
-      "programmer": 423,
-      "total": 2219
+      "programmer": 426,
+      "total": 2222
     }
   },
   "main": [
@@ -33414,6 +33414,58 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "67a71e58af71",
+      "board": "programmer",
+      "name": "gh-pull",
+      "intro": "免费、MIT 开源的 GitHub CLI 扩展，在本地浏览器中集中查看多个仓库的 PR，保存搜索与分组，查看堆叠 PR 依赖、CI 状态和已解决／总评审线程数",
+      "introMarkdown": "免费、MIT 开源的 GitHub CLI 扩展，在本地浏览器中集中查看多个仓库的 PR，保存搜索与分组，查看堆叠 PR 依赖、CI 状态和已解决／总评审线程数 - [演示视频](https://youtu.be/4LBga5H5Wwk)",
+      "status": "live",
+      "date": "2026-11-05",
+      "url": "https://github.com/shiqicao/gh-pull",
+      "author": "Shiqi Cao",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/shiqicao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "a83f755c3660",
+      "board": "programmer",
+      "name": "halfsize",
+      "intro": "开源的视频压缩命令行工具（自带本地网页界面），把视频精确压到指定大小（微信 / Discord 20 MB、邮件 20 MB 等），并用 VMAF/SSIM 报告画质损失；一条命令、文件不上传、无需账号，Windows / macOS / Linux 都能用",
+      "introMarkdown": "开源的视频压缩命令行工具（自带本地网页界面），把视频精确压到指定大小（微信 / Discord 20 MB、邮件 20 MB 等），并用 VMAF/SSIM 报告画质损失；一条命令、文件不上传、无需账号，Windows / macOS / Linux 都能用 - [更多介绍](https://github.com/YKLovePython/halfsize#readme)",
+      "status": "live",
+      "date": "2026-11-05",
+      "url": "https://github.com/YKLovePython/halfsize",
+      "author": "YKLovePython",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/YKLovePython"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "10abf250b384",
+      "board": "programmer",
+      "name": "小羊Plus",
+      "intro": "国内 ChatGPT 代充平台，支持使用 Account ID 充值，无需账号密码，无需验证码，可开正规公司发票，充值失败全额退款",
+      "introMarkdown": "国内 ChatGPT 代充平台，支持使用 Account ID 充值，无需账号密码，无需验证码，可开正规公司发票，充值失败全额退款",
+      "status": "live",
+      "date": "2026-11-05",
+      "url": "https://xiaoyangplus.com/",
+      "author": "王乐",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "db0fbbfe81c7",
       "board": "programmer",
