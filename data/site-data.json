@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-05T01:14:16.622Z",
-    "statsSyncedAt": "2026-11-05T01:14:16.622Z",
-    "upstreamSha": "a8b623549280e02a562dac41edaa09282a938002",
+    "contentSyncedAt": "2026-11-05T04:21:34.798Z",
+    "statsSyncedAt": "2026-11-05T04:21:34.798Z",
+    "upstreamSha": "3fe218a6478c6e25037d23b99a4da21d1ae07a9c",
     "counts": {
-      "main": 1639,
+      "main": 1634,
       "game": 158,
       "programmer": 423,
-      "total": 2220
+      "total": 2215
     }
   },
   "main": [
+    {
+      "slug": "0b9f475e9d11",
+      "board": "main",
+      "name": "TATOOLS",
+      "intro": "面向人文社科研究者的中文在线文本分析平台，无需编程即可做词频统计、情感分析与主题建模，按算力点数收费",
+      "introMarkdown": "面向人文社科研究者的中文在线文本分析平台，无需编程即可做词频统计、情感分析与主题建模，按算力点数收费 - [更多介绍与教程](https://tatools.cn/article)",
+      "status": "live",
+      "date": "2026-11-05",
+      "url": "https://tatools.cn/",
+      "author": "leafiy",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/leafiy"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "2546287c8592",
+      "board": "main",
+      "name": "PDF-Editor",
+      "intro": "免费开源的网页 PDF 编辑器，可在浏览器内改文字和图片、批注及合并页面，文件无需上传",
+      "introMarkdown": "免费开源的网页 PDF 编辑器，可在浏览器内改文字和图片、批注及合并页面，文件无需上传",
+      "status": "live",
+      "date": "2026-11-05",
+      "url": "https://wei2hu0.github.io/PDF-Editor/",
+      "author": "JhuoW",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JhuoW"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "54e30ecec3ca",
+      "board": "main",
+      "name": "OpenMathpix",
+      "intro": "Windows 公式截图工具（免费），首次下载模型后可在本机离线将单个公式截图转为 LaTeX",
+      "introMarkdown": "Windows 公式截图工具（免费），首次下载模型后可在本机离线将单个公式截图转为 LaTeX",
+      "status": "live",
+      "date": "2026-11-05",
+      "url": "https://github.com/JhuoW/OpenMathpix/releases/latest",
+      "author": "JhuoW",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JhuoW"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "40e7b6df2c58",
       "board": "main",
@@ -44,25 +101,6 @@
         {
           "label": "Github",
           "url": "https://github.com/wujieli0207"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "54a653b88b2e",
-      "board": "main",
-      "name": "券到卡包",
-      "intro": "微信电子券制作小程序，面向实体店永久免费做优惠券、券包、次卡；顾客领进卡包，到店扫码核销，不用自己开发",
-      "introMarkdown": "微信电子券制作小程序，面向实体店永久免费做优惠券、券包、次卡；顾客领进卡包，到店扫码核销，不用自己开发",
-      "status": "live",
-      "date": "2026-11-05",
-      "url": "https://www.quandaokabao.com",
-      "author": "mac nie",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/macuns"
         }
       ],
       "likes": 0,
@@ -30344,109 +30382,6 @@
       "date": "2025-06-29",
       "url": "https://saasgree.com",
       "author": "Dylan Tao",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f7e278352fe3",
-      "board": "main",
-      "name": "Asphalt Calculator",
-      "intro": "沥青价格计算器",
-      "introMarkdown": "沥青价格计算器",
-      "status": "live",
-      "date": "2025-06-28",
-      "url": "https://asphaltcalculatorhub.com/",
-      "author": "leo",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "e833110fe3f6",
-      "board": "main",
-      "name": "KKV AI",
-      "intro": "KKV 是一站式 AI 创作平台，提供视频生成、图像创作、照片编辑、趣味滤镜、AI 聊天助手等功能，无障碍访问 Veo 3、Flux、Claude Opus 4 等 100+ 顶级模型",
-      "introMarkdown": "KKV 是一站式 AI 创作平台，提供视频生成、图像创作、照片编辑、趣味滤镜、AI 聊天助手等功能，无障碍访问 Veo 3、Flux、Claude Opus 4 等 100+ 顶级模型",
-      "status": "live",
-      "date": "2025-06-28",
-      "url": "https://kkv.ai",
-      "author": "Ethan Sunray",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "eb5f6fc9fc0f",
-      "board": "main",
-      "name": "AI  Dog Olympics Generator",
-      "intro": "制作独一无二、爆火的动物奥运会 AI 视频",
-      "introMarkdown": "制作独一无二、爆火的动物奥运会 AI 视频",
-      "status": "live",
-      "date": "2025-06-28",
-      "url": "https://www.dogolympics.net/",
-      "author": "erickkkyt",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/erickkkyt"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "e6ce78e19b53",
-      "board": "main",
-      "name": "FantasyGen",
-      "intro": "AI 生成奇幻地图和人物",
-      "introMarkdown": "AI 生成奇幻地图和人物",
-      "status": "live",
-      "date": "2025-06-27",
-      "url": "https://fantasygen.net/",
-      "author": "toby",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b399ec875da6",
-      "board": "main",
-      "name": "Curate Click",
-      "intro": "导航站，收录产品和工具。",
-      "introMarkdown": "导航站，收录产品和工具。",
-      "status": "live",
-      "date": "2025-06-27",
-      "url": "https://curateclick.com/",
-      "author": "sing1ee",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "02f4bf076cb0",
-      "board": "main",
-      "name": "FLUX Kontext",
-      "intro": "上下文感知智能图像编辑平台，内置 FLUX.1 Kontext ，Gpt4o image 图像编辑器。能够保持人物一致性，对画面精修",
-      "introMarkdown": "上下文感知智能图像编辑平台，内置 FLUX.1 Kontext ，Gpt4o image 图像编辑器。能够保持人物一致性，对画面精修",
-      "status": "live",
-      "date": "2025-06-26",
-      "url": "https://kontextflux.com",
-      "author": "Allen",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d3fe2ac2e58d",
-      "board": "main",
-      "name": "Headcanon 生成器 - 创作同人小说创意",
-      "intro": "为您喜爱的角色创作独特的同人小说创意",
-      "introMarkdown": "为您喜爱的角色创作独特的同人小说创意",
-      "status": "live",
-      "date": "2025-06-26",
-      "url": "https://headcanongenerator.fun/",
-      "author": "rns",
       "authorLinks": [],
       "likes": 0,
       "comments": 0
