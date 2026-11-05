@@ -1,16 +1,30 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-05T07:17:25.018Z",
-    "statsSyncedAt": "2026-11-05T07:17:25.018Z",
-    "upstreamSha": "4e283aec14c00c58ebfc56c9f617fbed8224f47c",
+    "contentSyncedAt": "2026-11-05T08:27:27.974Z",
+    "statsSyncedAt": "2026-11-05T08:27:27.974Z",
+    "upstreamSha": "a8f9bb592e7ede3e68ca8e6a057053b61c9315b4",
     "counts": {
-      "main": 1637,
+      "main": 1638,
       "game": 158,
       "programmer": 423,
-      "total": 2218
+      "total": 2219
     }
   },
   "main": [
+    {
+      "slug": "252cf9170e0a",
+      "board": "main",
+      "name": "dola",
+      "intro": "AI 视频与图片生成器，用文字、首尾帧或参考图生成短片，Seedance 2.5 最高 1080p，导出不带水印，按次扣额度、无免费试用",
+      "introMarkdown": "AI 视频与图片生成器，用文字、首尾帧或参考图生成短片，Seedance 2.5 最高 1080p，导出不带水印，按次扣额度、无免费试用",
+      "status": "live",
+      "date": "2026-11-05",
+      "url": "https://dolaai.video/",
+      "author": "bob",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "b68dca986f76",
       "board": "main",
