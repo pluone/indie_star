@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-06T04:01:55.702Z",
-    "statsSyncedAt": "2026-11-06T04:01:55.702Z",
-    "upstreamSha": "05b0bb3bdf9adc56f2570fd0ea05e93035a15499",
+    "contentSyncedAt": "2026-11-06T14:01:24.056Z",
+    "statsSyncedAt": "2026-11-06T14:01:24.056Z",
+    "upstreamSha": "11fc46a5d53e5308024f1576dd231ad8a4cc9a72",
     "counts": {
-      "main": 1639,
+      "main": 1635,
       "game": 159,
-      "programmer": 428,
-      "total": 2226
+      "programmer": 429,
+      "total": 2223
     }
   },
   "main": [
+    {
+      "slug": "90939474516a",
+      "board": "main",
+      "name": "妙比特 funnybit",
+      "intro": "Vibe Coding 作品与 AI 应用灵感发现平台，汇集独立开发者创作的 AI 应用和实际作品案例，包含官方开发的一些应用，支持分类浏览与作品探索，并提供原创 AI 日报和周报",
+      "introMarkdown": "Vibe Coding 作品与 AI 应用灵感发现平台，汇集独立开发者创作的 AI 应用和实际作品案例，包含官方开发的一些应用，支持分类浏览与作品探索，并提供原创 AI 日报和周报",
+      "status": "live",
+      "date": "2026-11-06",
+      "url": "https://funnybit.cn/",
+      "author": "Sphinx-Shawn",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Sphinx-Shawn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "90e2a1f01e32",
+      "board": "main",
+      "name": "AllInOneIME",
+      "intro": "Mac 输入法，在任何 App 的输入框句首打 @improve、@translate 或 @question 再按回车，就地润色、翻译或提问，选中结果直接上屏，不用复制到聊天窗口；自带 Rime 雾凇拼音，免费，每天 20 次免费 AI，也可以用自己的 Claude / Gemini / DeepSeek key",
+      "introMarkdown": "Mac 输入法，在任何 App 的输入框句首打 @improve、@translate 或 @question 再按回车，就地润色、翻译或提问，选中结果直接上屏，不用复制到聊天窗口；自带 Rime 雾凇拼音，免费，每天 20 次免费 AI，也可以用自己的 Claude / Gemini / DeepSeek key",
+      "status": "live",
+      "date": "2026-11-06",
+      "url": "https://allinoneime.com/zh/",
+      "author": "Weijian Zhang",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/MicroZ-LLC/AllInOneIME"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "0fd184ebb8a8",
       "board": "main",
@@ -30363,118 +30401,6 @@
       "authorLinks": [],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "73df99e6a3f9",
-      "board": "main",
-      "name": "Converters.pro",
-      "intro": "基于 AI 的图片和视频转换网站，可以帮你做背景修复、老照片恢复、虚拟换衣",
-      "introMarkdown": "基于 AI 的图片和视频转换网站，可以帮你做背景修复、老照片恢复、虚拟换衣",
-      "status": "live",
-      "date": "2025-07-02",
-      "url": "https://www.converters.pro",
-      "author": "tao",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/nietao2018"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "265a4bf7fbf0",
-      "board": "main",
-      "name": "Quitar Fondo",
-      "intro": "（西班牙语产品，无中文或英文版）用 AI 删除图片背景",
-      "introMarkdown": "（西班牙语产品，无中文或英文版）用 AI 删除图片背景",
-      "status": "live",
-      "date": "2025-07-01",
-      "url": "https://quitarfondo.cc/",
-      "author": "rns",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "e948a94802f6",
-      "board": "main",
-      "name": "MARS AI",
-      "intro": "MARS AI 提供免费的 AI 视频生成和图像生成，用文本或图片创建专业视频和图片，把点子转为视觉内容",
-      "introMarkdown": "MARS AI 提供免费的 AI 视频生成和图像生成，用文本或图片创建专业视频和图片，把点子转为视觉内容",
-      "status": "live",
-      "date": "2025-07-01",
-      "url": "https://marsai.site/",
-      "author": "iam-tin",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/iam-tin"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "4293de743aaa",
-      "board": "main",
-      "name": "AIRI",
-      "intro": "包含 AI 老婆/虚拟角色灵魂的容器，将它们带入我们的世界，希望达到 Neuro-sama 的高度，完全由 LLM 和 AI 驱动，能够进行实时语音聊天、玩 Minecraft、玩Factorio。可在浏览器或桌面运行。",
-      "introMarkdown": "包含 AI 老婆/虚拟角色灵魂的容器，将它们带入我们的世界，希望达到 Neuro-sama 的高度，完全由 LLM 和 AI 驱动，能够进行实时语音聊天、玩 Minecraft、玩Factorio。可在浏览器或桌面运行。",
-      "status": "live",
-      "date": "2025-07-01",
-      "url": "https://github.com/moeru-ai/airi",
-      "author": "RainbowBird",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/luoling8192"
-        },
-        {
-          "label": "博客",
-          "url": "https://blog.luoling.moe"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "a853207e3863",
-      "board": "main",
-      "name": "相机水印生成器",
-      "intro": "在线为图片添加相机水印。相机水印包含相机品牌 / 型号 / 拍摄时间 / 拍摄地点 / 光圈 / 快门 / ISO 等信息。优雅的展示你的摄影作品。无需注册登录，免费导出。",
-      "introMarkdown": "在线为图片添加相机水印。相机水印包含相机品牌 / 型号 / 拍摄时间 / 拍摄地点 / 光圈 / 快门 / ISO 等信息。优雅的展示你的摄影作品。无需注册登录，免费导出。",
-      "status": "live",
-      "date": "2025-06-30",
-      "url": "https://exifframe.org",
-      "author": "seeeeal",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/seeeeal"
-        },
-        {
-          "label": "Blog",
-          "url": "https://seeeeal.fun/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d3b93a3eb073",
-      "board": "main",
-      "name": "SaaSGree",
-      "intro": "SaaSGree 专为企业间签订各类 SaaS 合同的场景而设计，帮助用户通过专业合同模板快速生成协议，无需高价聘请律师，也避免使用低质量模板带来的法律风险。",
-      "introMarkdown": "SaaSGree 专为企业间签订各类 SaaS 合同的场景而设计，帮助用户通过专业合同模板快速生成协议，无需高价聘请律师，也避免使用低质量模板带来的法律风险。",
-      "status": "live",
-      "date": "2025-06-29",
-      "url": "https://saasgree.com",
-      "author": "Dylan Tao",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
@@ -33453,6 +33379,25 @@
   ],
   "programmer": [
     {
+      "slug": "6f1ec51b4e14",
+      "board": "programmer",
+      "name": "ouba-classmate",
+      "intro": "免费、MIT 开源的中文求职与创作 Agent Skills 套件（支持 Claude Code / Codex / Cursor 一行命令安装），覆盖多平台岗位搜索、简历与 JD 可复算匹配评分（内置本地零依赖 MCP Server）、中文经历面试追问与 Offer 前公司证据调查，附 12 个主流求职 Skill 实测公开横评数据",
+      "introMarkdown": "免费、MIT 开源的中文求职与创作 Agent Skills 套件（支持 Claude Code / Codex / Cursor 一行命令安装），覆盖多平台岗位搜索、简历与 JD 可复算匹配评分（内置本地零依赖 MCP Server）、中文经历面试追问与 Offer 前公司证据调查，附 12 个主流求职 Skill 实测公开横评数据 - [横评报告与在线数据页](https://ouxxyy.github.io/ouba-classmate/)",
+      "status": "live",
+      "date": "2026-11-06",
+      "url": "https://github.com/ouxxyy/ouba-classmate",
+      "author": "欧八同学",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ouxxyy"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "e3eeeacda64b",
       "board": "programmer",
       "name": "UsageRail",
@@ -35561,8 +35506,8 @@
       "slug": "88e09fab9f8b",
       "board": "programmer",
       "name": "TeamoRouter",
-      "intro": "多模型 AI API 中转网关，GPT-6 Astra / Claude / Gemini 用一个 Key 调用，Codex 和 Claude Code 改 base_url 即用，支持支付宝/微信充值、按量计费",
-      "introMarkdown": "多模型 AI API 中转网关，GPT-6 Astra / Claude / Gemini 用一个 Key 调用，Codex 和 Claude Code 改 base_url 即用，支持支付宝/微信充值、按量计费 - [Astra + Codex 配置教程](https://teamorouter.cn/blogs/gpt-6-astra-codex-cursor-setup)",
+      "intro": "多模型 AI API 网关，一个 Key 调用 DeepSeek、Kimi、GLM、Qwen、MiniMax、豆包等国产模型，兼容 OpenAI / Anthropic 协议，Claude Code、Codex、CC Switch、Cherry Studio 改 base_url 即用，支持支付宝/微信充值、按量计费",
+      "introMarkdown": "多模型 AI API 网关，一个 Key 调用 DeepSeek、Kimi、GLM、Qwen、MiniMax、豆包等国产模型，兼容 OpenAI / Anthropic 协议，Claude Code、Codex、CC Switch、Cherry Studio 改 base_url 即用，支持支付宝/微信充值、按量计费 - [接入文档](https://teamorouter.cn/zh/docs/api-integration)",
       "status": "live",
       "date": "2026-09-08",
       "url": "https://teamorouter.cn",
@@ -38157,7 +38102,7 @@
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/teamorouter"
+          "url": "https://github.com/blammectrappora"
         }
       ],
       "likes": 0,
