@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-06T03:41:58.192Z",
-    "statsSyncedAt": "2026-11-06T03:41:58.192Z",
-    "upstreamSha": "4213eb3a8ffb86b87a4ee2387c8b91c54eae2133",
+    "contentSyncedAt": "2026-11-06T04:01:55.702Z",
+    "statsSyncedAt": "2026-11-06T04:01:55.702Z",
+    "upstreamSha": "05b0bb3bdf9adc56f2570fd0ea05e93035a15499",
     "counts": {
       "main": 1639,
       "game": 159,
@@ -2468,11 +2468,11 @@
       "slug": "eddfd0082a1b",
       "board": "main",
       "name": "OpenMontage Drama Studio",
-      "intro": "开源 AI 短剧与短视频工坊，一句话灵感依次走完剧本、角色、场景、道具、分镜、配音、剪辑 7 个环节，也可用内置电商带货模板做广告片；无需登录可浏览灵感墙和示例，生成需登录并填写自己的模型 Key（Seedream / Seedance 为付费 API），AGPL-3.0 开源、支持 Docker 自部署",
-      "introMarkdown": "开源 AI 短剧与短视频工坊，一句话灵感依次走完剧本、角色、场景、道具、分镜、配音、剪辑 7 个环节，也可用内置电商带货模板做广告片；无需登录可浏览灵感墙和示例，生成需登录并填写自己的模型 Key（Seedream / Seedance 为付费 API），AGPL-3.0 开源、支持 Docker 自部署 - [Github](https://github.com/charliewwdev/OpenMontage)",
+      "intro": "可自己部署的 AI 短剧工作台，剧本→角色→场景→道具→分镜→配音→剪辑一条线走完，角色和场景参考图跨镜头复用保持人物一致；Docker Compose 部署，接任意 OpenAI 兼容大模型，图像视频走 Seedream/Seedance（付费 API）或自己的 ComfyUI，AGPL-3.0 开源",
+      "introMarkdown": "可自己部署的 AI 短剧工作台，剧本→角色→场景→道具→分镜→配音→剪辑一条线走完，角色和场景参考图跨镜头复用保持人物一致；Docker Compose 部署，接任意 OpenAI 兼容大模型，图像视频走 Seedream/Seedance（付费 API）或自己的 ComfyUI，AGPL-3.0 开源 - [在线体验](https://openmontage.dtok.io)",
       "status": "live",
       "date": "2026-10-27",
-      "url": "https://openmontage.dtok.io",
+      "url": "https://github.com/charliewwdev/OpenMontage",
       "author": "Charlie W",
       "authorLinks": [
         {
