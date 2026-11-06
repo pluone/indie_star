@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-06T01:19:19.108Z",
-    "statsSyncedAt": "2026-11-06T01:19:19.108Z",
-    "upstreamSha": "2e46e4e10d965af7170c42a876b7e79d41c976aa",
+    "contentSyncedAt": "2026-11-06T03:26:58.324Z",
+    "statsSyncedAt": "2026-11-06T03:26:58.324Z",
+    "upstreamSha": "3398fd04c0da934b595b665feca46dfdb3070221",
     "counts": {
       "main": 1638,
-      "game": 158,
-      "programmer": 426,
-      "total": 2222
+      "game": 159,
+      "programmer": 428,
+      "total": 2225
     }
   },
   "main": [
@@ -30460,6 +30460,25 @@
   ],
   "game": [
     {
+      "slug": "1d56f98c2621",
+      "board": "game",
+      "name": "Parallel Parking Simulator",
+      "intro": "侧方停车模拟器（免费），打开网页即可练习打方向、倒车入位和回正，附分步停车指南",
+      "introMarkdown": "侧方停车模拟器（免费），打开网页即可练习打方向、倒车入位和回正，附分步停车指南",
+      "status": "live",
+      "date": "2026-11-06",
+      "url": "https://parallelparkingsimulator.com/",
+      "author": "Linky-AIinlink",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Linky-AIinlink"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "1d6f64975ed1",
       "board": "game",
       "name": "词不一样就跑步",
@@ -33414,6 +33433,44 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "e3eeeacda64b",
+      "board": "programmer",
+      "name": "UsageRail",
+      "intro": "API 计费与限流工具，几行中间件给自己的 API 发 Key、按套餐限流和配额，用量通过你自己的 Stripe 按量扣费；Key 和限额在你的服务进程里校验，请求不经过第三方；每月经它计费 1000 美元以内免费",
+      "introMarkdown": "API 计费与限流工具，几行中间件给自己的 API 发 Key、按套餐限流和配额，用量通过你自己的 Stripe 按量扣费；Key 和限额在你的服务进程里校验，请求不经过第三方；每月经它计费 1000 美元以内免费 - [文档](https://usagerail.com/docs)",
+      "status": "live",
+      "date": "2026-11-06",
+      "url": "https://usagerail.com/",
+      "author": "supertj",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/supertj"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b9da680e8228",
+      "board": "programmer",
+      "name": "卖家图片策划 Free",
+      "intro": "电商商品图策划 Agent Skill，将商品资料和有权使用的评论整理成最多三张拍摄与设计任务单，含 FABE、构图、短文案及证据缺口；只做策划不生图，免费使用但非开源，需自备兼容 Agent、模型并承担运行费用",
+      "introMarkdown": "电商商品图策划 Agent Skill，将商品资料和有权使用的评论整理成最多三张拍摄与设计任务单，含 FABE、构图、短文案及证据缺口；只做策划不生图，免费使用但非开源，需自备兼容 Agent、模型并承担运行费用 - [说明与合成教学案例](https://pdben-auto.github.io/seller-image-brief-free/)",
+      "status": "live",
+      "date": "2026-11-06",
+      "url": "https://github.com/PDBen-Auto/seller-image-brief-free",
+      "author": "PDBen-Auto",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/PDBen-Auto"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "67a71e58af71",
       "board": "programmer",
