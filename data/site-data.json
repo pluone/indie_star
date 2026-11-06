@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-06T03:26:58.324Z",
-    "statsSyncedAt": "2026-11-06T03:26:58.324Z",
-    "upstreamSha": "3398fd04c0da934b595b665feca46dfdb3070221",
+    "contentSyncedAt": "2026-11-06T03:41:58.192Z",
+    "statsSyncedAt": "2026-11-06T03:41:58.192Z",
+    "upstreamSha": "4213eb3a8ffb86b87a4ee2387c8b91c54eae2133",
     "counts": {
-      "main": 1638,
+      "main": 1639,
       "game": 159,
       "programmer": 428,
-      "total": 2225
+      "total": 2226
     }
   },
   "main": [
+    {
+      "slug": "0fd184ebb8a8",
+      "board": "main",
+      "name": "Pettenderly",
+      "intro": "在线 AI 宠物写真工具，上传 1–5 张同一只宠物的照片，选择水彩、皇家或影棚风格，生成并下载一幅专属画像",
+      "introMarkdown": "在线 AI 宠物写真工具，上传 1–5 张同一只宠物的照片，选择水彩、皇家或影棚风格，生成并下载一幅专属画像",
+      "status": "live",
+      "date": "2026-11-06",
+      "url": "https://pettenderly.com/",
+      "author": "Linhao Cui",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cuilinhao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "252cf9170e0a",
       "board": "main",
