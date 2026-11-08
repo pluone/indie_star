@@ -1,16 +1,87 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-08T00:08:57.349Z",
-    "statsSyncedAt": "2026-11-08T00:08:57.349Z",
-    "upstreamSha": "591ae0ed87a70466f75112ceb18d1062e61d03ab",
+    "contentSyncedAt": "2026-11-08T04:46:31.570Z",
+    "statsSyncedAt": "2026-11-08T04:46:31.570Z",
+    "upstreamSha": "63a7032e5b31eff69dcf340c7a9af226dde6e5b6",
     "counts": {
-      "main": 1635,
-      "game": 159,
-      "programmer": 431,
-      "total": 2225
+      "main": 1639,
+      "game": 160,
+      "programmer": 432,
+      "total": 2231
     }
   },
   "main": [
+    {
+      "slug": "cb8be896705b",
+      "board": "main",
+      "name": "职页 KeenPage",
+      "intro": "按职业找 AI 提示词卡，输入职业（已收录 2,054 个）、选一项工作、点选补一句，就拼好能直接发给任何 AI 的提示词，附结果示例；免费、不用注册，中英双语",
+      "introMarkdown": "按职业找 AI 提示词卡，输入职业（已收录 2,054 个）、选一项工作、点选补一句，就拼好能直接发给任何 AI 的提示词，附结果示例；免费、不用注册，中英双语",
+      "status": "live",
+      "date": "2026-11-08",
+      "url": "https://keenpage.com/zh",
+      "author": "craftboat",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/craftboat"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "c7e7df15d9a6",
+      "board": "main",
+      "name": "学术成果商业化评估系统",
+      "intro": "科研成果转化初筛工具，输入一篇论文或研究方向，生成带引用的技术成熟度、专利和市场报告，MIT 开源。示例报告打开就能看，无需注册；跑新分析需自备模型和搜索 Key",
+      "introMarkdown": "科研成果转化初筛工具，输入一篇论文或研究方向，生成带引用的技术成熟度、专利和市场报告，MIT 开源。示例报告打开就能看，无需注册；跑新分析需自备模型和搜索 Key",
+      "status": "live",
+      "date": "2026-11-08",
+      "url": "https://academic-commercialization-agent.up.railway.app/samples",
+      "author": "Jingbo Chai",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/shuxiachai"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "356e484a2757",
+      "board": "main",
+      "name": "红果短剧批量下载",
+      "intro": "粘贴短剧分享链接，云端解析整部剧集并批量下载到电脑，可按集取直链或一次生成整剧 ZIP；1000 集约 85 秒完成，按实际取件集数计费、无需安装客户端",
+      "introMarkdown": "粘贴短剧分享链接，云端解析整部剧集并批量下载到电脑，可按集取直链或一次生成整剧 ZIP；1000 集约 85 秒完成，按实际取件集数计费、无需安装客户端",
+      "status": "live",
+      "date": "2026-11-08",
+      "url": "https://guoshi.app",
+      "author": "parallelpan",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/parallelpan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b98c188a7b28",
+      "board": "main",
+      "name": "Athena Reader",
+      "intro": "自带书的免费 EPUB/PDF 阅读器：朗读、笔记、带出处的 AI 问答，多端同步，离线也能读",
+      "introMarkdown": "自带书的免费 EPUB/PDF 阅读器：朗读、笔记、带出处的 AI 问答，多端同步，离线也能读",
+      "status": "live",
+      "date": "2026-11-08",
+      "url": "https://athena-reader.com/",
+      "author": "Daniel Zhang",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "90939474516a",
       "board": "main",
@@ -30405,6 +30476,20 @@
   ],
   "game": [
     {
+      "slug": "b21e59bd62b4",
+      "board": "game",
+      "name": "Azeroth Survivors 构筑计算器",
+      "intro": "面向 Azeroth Survivors 玩家的非官方构筑规划工具，搭配天赋、技能和装备，生成可继续编辑的分享链接或导出 PNG；核心规划功能免费，无需注册",
+      "introMarkdown": "面向 Azeroth Survivors 玩家的非官方构筑规划工具，搭配天赋、技能和装备，生成可继续编辑的分享链接或导出 PNG；核心规划功能免费，无需注册",
+      "status": "live",
+      "date": "2026-11-08",
+      "url": "https://azerothsurvivors.app/build-calculator/",
+      "author": "PlanJ",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "1d56f98c2621",
       "board": "game",
       "name": "Parallel Parking Simulator",
@@ -33378,6 +33463,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "ecd5ad83d4b0",
+      "board": "programmer",
+      "name": "Neat MD",
+      "intro": "VS Code Markdown 编辑器，支持边写边预览、源码与预览并排显示、表格编辑、Mermaid 图表和 KaTeX 公式，免费开源",
+      "introMarkdown": "VS Code Markdown 编辑器，支持边写边预览、源码与预览并排显示、表格编辑、Mermaid 图表和 KaTeX 公式，免费开源 - [GitHub 仓库](https://github.com/xiaomingio/neat-md)",
+      "status": "live",
+      "date": "2026-11-08",
+      "url": "https://marketplace.visualstudio.com/items?itemName=xiaomingio.neat-md",
+      "author": "小明",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xiaomingio"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "a26342af24ed",
       "board": "programmer",
