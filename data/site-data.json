@@ -1,16 +1,30 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-08T04:46:31.570Z",
-    "statsSyncedAt": "2026-11-08T04:46:31.570Z",
-    "upstreamSha": "63a7032e5b31eff69dcf340c7a9af226dde6e5b6",
+    "contentSyncedAt": "2026-11-08T12:21:00.844Z",
+    "statsSyncedAt": "2026-11-08T12:21:00.844Z",
+    "upstreamSha": "6198b421d45914b96026aa719eaac9e0ebc30484",
     "counts": {
-      "main": 1639,
+      "main": 1632,
       "game": 160,
       "programmer": 432,
-      "total": 2231
+      "total": 2224
     }
   },
   "main": [
+    {
+      "slug": "d8733f85acb2",
+      "board": "main",
+      "name": "出海找需求",
+      "intro": "面向独立开发者的海外产品机会研究站，可免费浏览需求概况、美国月搜和关键词难度，并用图文指南和虚构样板练习需求验证。完整研究报告按份付费",
+      "introMarkdown": "面向独立开发者的海外产品机会研究站，可免费浏览需求概况、美国月搜和关键词难度，并用图文指南和虚构样板练习需求验证。完整研究报告按份付费 - [研究方法](https://zhaoxuqiu.online/methodology)",
+      "status": "live",
+      "date": "2026-11-08",
+      "url": "https://zhaoxuqiu.online/",
+      "author": "quven1990",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "cb8be896705b",
       "board": "main",
@@ -30343,133 +30357,6 @@
           "url": "https://github.com/iam-tin"
         }
       ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "3515a3ba8eff",
-      "board": "main",
-      "name": "Gemlink.app",
-      "intro": "集内容收集、整理与社交分享于一体的平台。可以作为“稍后阅读”替代使用。旨在解决信息过载、跨平台内容割裂和深度阅读缺失的问题，打造“个性化互联网精华库与思想交流空间”",
-      "introMarkdown": "集内容收集、整理与社交分享于一体的平台。可以作为“稍后阅读”替代使用。旨在解决信息过载、跨平台内容割裂和深度阅读缺失的问题，打造“个性化互联网精华库与思想交流空间” - [配套浏览器插件](https://chromewebstore.google.com/detail/gemlink-your-space-for-sm/pickcibaiaapcbobgbjgmomocmcdpmmn)",
-      "status": "live",
-      "date": "2025-07-06",
-      "url": "https://gemlink.app",
-      "author": "ShawnHacks",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ShawnHacks"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "345eb6376ccb",
-      "board": "main",
-      "name": "晚星",
-      "intro": "简约纯粹的白噪音App，包含上百种自然音效和轻音乐，可自由搭配组合，辅助睡眠、放松情绪，缓解压力。",
-      "introMarkdown": "简约纯粹的白噪音App，包含上百种自然音效和轻音乐，可自由搭配组合，辅助睡眠、放松情绪，缓解压力。",
-      "status": "live",
-      "date": "2025-07-06",
-      "url": "https://dream.sayhi.cc/",
-      "author": "Margox",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "http://github.com/margox"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "64aeb24e03aa",
-      "board": "main",
-      "name": "图片压缩神器",
-      "intro": "对图片进行快速高效的批量压缩和格式转换",
-      "introMarkdown": "对图片进行快速高效的批量压缩和格式转换",
-      "status": "live",
-      "date": "2025-07-05",
-      "url": "https://www.zgcoder.com/tic/",
-      "author": "zgcoder",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "42615b03094d",
-      "board": "main",
-      "name": "Ries.AI",
-      "intro": "颠覆你对学英语的认知！英语学不好的最大原因是接触的太少！我们创新地将高频词汇融入你看的视频和文章，把每天接触的大量中文改造一部分成英语接触，渐进低压拓展语言边界。",
-      "introMarkdown": "颠覆你对学英语的认知！英语学不好的最大原因是接触的太少！我们创新地将高频词汇融入你看的视频和文章，把每天接触的大量中文改造一部分成英语接触，渐进低压拓展语言边界。",
-      "status": "live",
-      "date": "2025-07-04",
-      "url": "https://ries.ai/zh/learn-english?c=sP0B",
-      "author": "Orion",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/OrionTyce"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "108d8fd8efe7",
-      "board": "main",
-      "name": "实时工资计时器",
-      "intro": "输入你的年薪或月薪，即可实时看到每一秒赚了多少钱。支持多种货币和实时汇率转换，适合远程工作者、自由职业者等，随时感受赚钱的爽感！比如干远程的小伙伴，赚的是美金，可以实时转换成人民币，干活的时候，非常的有爽感。",
-      "introMarkdown": "输入你的年薪或月薪，即可实时看到每一秒赚了多少钱。支持多种货币和实时汇率转换，适合远程工作者、自由职业者等，随时感受赚钱的爽感！比如干远程的小伙伴，赚的是美金，可以实时转换成人民币，干活的时候，非常的有爽感。",
-      "status": "live",
-      "date": "2025-07-04",
-      "url": "https://www.realtimesalary.info/",
-      "author": "james",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "ccad60bb0eb9",
-      "board": "main",
-      "name": "TwitterDown",
-      "intro": "下载 Twitter 视频",
-      "introMarkdown": "下载 Twitter 视频",
-      "status": "live",
-      "date": "2025-07-03",
-      "url": "https://twitterdown.com/",
-      "author": "ChillWay",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "c5fddf4e7bd8",
-      "board": "main",
-      "name": "KuaishouVideoDownload",
-      "intro": "下载快手视频",
-      "introMarkdown": "下载快手视频",
-      "status": "live",
-      "date": "2025-07-03",
-      "url": "https://kuaishou-video-download.com/",
-      "author": "ChillWay",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "ed577d5df194",
-      "board": "main",
-      "name": "Veegen",
-      "intro": "图片生成视频工具",
-      "introMarkdown": "图片生成视频工具",
-      "status": "live",
-      "date": "2025-07-03",
-      "url": "https://veegen.ai/",
-      "author": "wdh",
-      "authorLinks": [],
       "likes": 0,
       "comments": 0
     }
