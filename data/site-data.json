@@ -1,16 +1,68 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-09T02:16:13.087Z",
-    "statsSyncedAt": "2026-11-09T02:16:13.087Z",
-    "upstreamSha": "d2ba17f8ace02df67fa56ae191dae2c0b41f5307",
+    "contentSyncedAt": "2026-11-09T10:11:01.315Z",
+    "statsSyncedAt": "2026-11-09T10:11:01.315Z",
+    "upstreamSha": "f48b88a5a3f5a63a604d2f9b9ab76e66697d9c48",
     "counts": {
-      "main": 1635,
+      "main": 1631,
       "game": 160,
       "programmer": 432,
-      "total": 2227
+      "total": 2223
     }
   },
   "main": [
+    {
+      "slug": "65e3dabd8fb7",
+      "board": "main",
+      "name": "OK JLPT",
+      "intro": "日语能力考试（JLPT）练习网站，N5–N1 按年份整理的 104 套整卷练习（2010–2026），带听力音频，在线作答、交卷自动估分并给出中文解析；另有免费的估分计算器和助词、动词变形练习。N5、N4 全部免费，N3–N1 各一套免费，其余需会员",
+      "introMarkdown": "日语能力考试（JLPT）练习网站，N5–N1 按年份整理的 104 套整卷练习（2010–2026），带听力音频，在线作答、交卷自动估分并给出中文解析；另有免费的[估分计算器](https://okjlpt.com/zh-Hans/tools/score)和助词、动词变形练习。N5、N4 全部免费，N3–N1 各一套免费，其余需会员",
+      "status": "live",
+      "date": "2026-11-09",
+      "url": "https://okjlpt.com/zh-Hans",
+      "author": "Torres",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "a0bd62c9fd56",
+      "board": "main",
+      "name": "THE JURY",
+      "intro": "匿名困境盲投裁决社区，发私人两难陌生人盲投，满 30 票且单项严格过半才结案生成可分享裁决卡，浏览和投稿无需注册",
+      "introMarkdown": "匿名困境盲投裁决社区，发私人两难陌生人盲投，满 30 票且单项严格过半才结案生成可分享裁决卡，浏览和投稿无需注册",
+      "status": "live",
+      "date": "2026-11-09",
+      "url": "https://jury.pagecleans.com",
+      "author": "bellefly-god",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/bellefly-god"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "24fd1756e0ef",
+      "board": "main",
+      "name": "OurYearbook",
+      "intro": "同学共同书写的线上班级纪念册，回忆由不同同学补充各自视角，设定日期才解锁的未来信件，隐私优先仅开放示例班",
+      "introMarkdown": "同学共同书写的线上班级纪念册，回忆由不同同学补充各自视角，设定日期才解锁的未来信件，隐私优先仅开放示例班",
+      "status": "live",
+      "date": "2026-11-09",
+      "url": "https://ouryearbook.pagecleans.com",
+      "author": "bellefly-god",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/bellefly-god"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "14c0ac2f244f",
       "board": "main",
@@ -30289,124 +30341,6 @@
         {
           "label": "GitHub",
           "url": "https://github.com/SSShooter"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "5010e253bc23",
-      "board": "main",
-      "name": "KissPixel",
-      "intro": "AI 图像生成平台，集成六大核心工具：文本生成图像、图像风格转换、AI 换脸、智能图像替换、图像扩展和图像放大。平台采用积分制运营模式，新用户注册即可获得免费积分。支持多种订阅计划，满足不同用户需求。所有生成的图像均享有商业使用许可，可用于个人和商业项目。无论您是内容创作者、设计师还是营销专业人士，KissPixel 都能为您提供专业的 AI 图像创作解决方案。",
-      "introMarkdown": "AI 图像生成平台，集成六大核心工具：文本生成图像、图像风格转换、AI 换脸、智能图像替换、图像扩展和图像放大。平台采用积分制运营模式，新用户注册即可获得免费积分。支持多种订阅计划，满足不同用户需求。所有生成的图像均享有商业使用许可，可用于个人和商业项目。无论您是内容创作者、设计师还是营销专业人士，KissPixel 都能为您提供专业的 AI 图像创作解决方案。",
-      "status": "live",
-      "date": "2025-07-10",
-      "url": "https://kisspixel.ai/",
-      "author": "liunice",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "7df2b20a4a50",
-      "board": "main",
-      "name": "铜钟",
-      "intro": "专注听歌，无广告和社交，下载 歌曲/歌词，创建歌单，资源丰富，UI 清爽",
-      "introMarkdown": "专注听歌，无广告和社交，下载 歌曲/歌词，创建歌单，资源丰富，UI 清爽 - [更多介绍](https://about-tonzhon.netlify.app/)",
-      "status": "live",
-      "date": "2025-07-10",
-      "url": "https://tonzhon.whamon.com/",
-      "author": "李恩泽",
-      "authorLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/enzeberg"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "818cc7a4ca64",
-      "board": "main",
-      "name": "分身宝",
-      "intro": "Android 应用多开工具，支持微信、QQ、抖音、小红书、淘宝、京东、拼多多、美团、快手、咸鱼等绝大多数主流应用以及各类游戏，轻松管理多个账号。",
-      "introMarkdown": "Android 应用多开工具，支持微信、QQ、抖音、小红书、淘宝、京东、拼多多、美团、快手、咸鱼等绝大多数主流应用以及各类游戏，轻松管理多个账号。",
-      "status": "live",
-      "date": "2025-07-10",
-      "url": "https://clone.youchong.club",
-      "author": "hcc",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "7f9b6e970026",
-      "board": "main",
-      "name": "客群采集-微信小程序",
-      "intro": "拓客小工具，基于地理位置以及一些开放的api去采集商户信息，并围绕这些信息提供了一系列的小功能，例如：数据导入导出、拨打电话、保存通讯录、导航等等",
-      "introMarkdown": "拓客小工具，基于地理位置以及一些开放的api去采集商户信息，并围绕这些信息提供了一系列的小功能，例如：数据导入导出、拨打电话、保存通讯录、导航等等",
-      "status": "live",
-      "date": "2025-07-10",
-      "url": "https://my-works.oss-cn-beijing.aliyuncs.com/images/download.jpg",
-      "author": "asui",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6e270bcfaf0c",
-      "board": "main",
-      "name": "Humanizar Text",
-      "intro": "一键优化 AI 生成的文本，让AI无法检测到文本是AI所生成，AI时代下“去AI”的本文神器。",
-      "introMarkdown": "一键优化 AI 生成的文本，让AI无法检测到文本是AI所生成，AI时代下“去AI”的本文神器。",
-      "status": "live",
-      "date": "2025-07-08",
-      "url": "https://humanizartexto.app/",
-      "author": "iam-tin",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/iam-tin"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "437f4a183542",
-      "board": "main",
-      "name": "HIDream AI",
-      "intro": "HiDream 大模型在线生成图像，让图像更清晰更逼真。",
-      "introMarkdown": "HiDream 大模型在线生成图像，让图像更清晰更逼真。",
-      "status": "live",
-      "date": "2025-07-08",
-      "url": "https://hidream.online/",
-      "author": "iam-tin",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/iam-tin"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "e53e593c8238",
-      "board": "main",
-      "name": "MORSE CODE",
-      "intro": "一键把内容生成对应的摩斯电码的平台，可以通过摩斯电码表达爱意，或者让莫斯电码成为两个人之间的“加密”语言。",
-      "introMarkdown": "一键把内容生成对应的摩斯电码的平台，可以通过摩斯电码表达爱意，或者让莫斯电码成为两个人之间的“加密”语言。",
-      "status": "live",
-      "date": "2025-07-08",
-      "url": "https://morsecode-translator.app/",
-      "author": "iam-tin",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/iam-tin"
         }
       ],
       "likes": 0,
