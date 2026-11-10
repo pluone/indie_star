@@ -1,16 +1,92 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-10T06:06:53.812Z",
-    "statsSyncedAt": "2026-11-10T06:06:53.812Z",
-    "upstreamSha": "e014a5adbc85a4793f8133d3aea67de68eeb559a",
+    "contentSyncedAt": "2026-11-10T12:36:53.500Z",
+    "statsSyncedAt": "2026-11-10T12:36:53.500Z",
+    "upstreamSha": "9f425d6aa9e400202fbd3d1251fb1d62eaabb7e0",
     "counts": {
-      "main": 1629,
+      "main": 1625,
       "game": 160,
-      "programmer": 433,
-      "total": 2222
+      "programmer": 434,
+      "total": 2219
     }
   },
   "main": [
+    {
+      "slug": "a8394c069c00",
+      "board": "main",
+      "name": "FlyDesk 飞桌",
+      "intro": "远程桌面软件，在手机上输入设备 ID 与访问码连接自己的电脑，支持触控、键盘操作、同账号设备管理和云收藏；普通单人连接免费，含 VIP 付费权益",
+      "introMarkdown": "远程桌面软件，在手机上输入设备 ID 与访问码连接自己的电脑，支持触控、键盘操作、同账号设备管理和云收藏；普通单人连接免费，含 VIP 付费权益 - [下载](https://desk.flychat.work/downloads) · [开发方介绍与体验招募](https://zhuanlan.zhihu.com/p/2103291767672026342)",
+      "status": "live",
+      "date": "2026-11-10",
+      "url": "https://desk.flychat.work/",
+      "author": "FlyDesk 飞桌开发团队",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lyingjack"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "9c5c9436e2b0",
+      "board": "main",
+      "name": "wmfree",
+      "intro": "网页图片去水印工具，在浏览器里涂抹或框选即可修复、打码或裁剪，本地处理不上传，打开即用、无需注册",
+      "introMarkdown": "网页图片去水印工具，在浏览器里涂抹或框选即可修复、打码或裁剪，本地处理不上传，打开即用、无需注册 - [更多介绍](https://github.com/pamelaaaaa1218/watermark-remover)",
+      "status": "live",
+      "date": "2026-11-10",
+      "url": "https://wmfree.com/",
+      "author": "Pamela",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/pamelaaaaa1218"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "37d31e9558f1",
+      "board": "main",
+      "name": "EarlyLore",
+      "intro": "产品调研网站，写下想法或粘贴网址，对照真实在线软件看竞争、定价和获客后再决定是否动手；流量为估算，免费可用，提供中日文界面",
+      "introMarkdown": "产品调研网站，写下想法或粘贴网址，对照真实在线软件看竞争、定价和获客后再决定是否动手；流量为估算，免费可用，提供中日文界面",
+      "status": "live",
+      "date": "2026-11-10",
+      "url": "https://earlylore.com",
+      "author": "Kai Jiang",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jiangqizheng"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "a315f8b1632f",
+      "board": "main",
+      "name": "Lyrics to Song AI",
+      "intro": "AI 歌词成曲工具，把你写好的歌词做成带人声的完整歌曲，可选风格并一次生成多个版本对比",
+      "introMarkdown": "AI 歌词成曲工具，把你写好的歌词做成带人声的完整歌曲，可选风格并一次生成多个版本对比",
+      "status": "live",
+      "date": "2026-11-10",
+      "url": "https://lyricstosongai.org",
+      "author": "kiya0908",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kiya0908"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "1c91e66ab6e3",
       "board": "main",
@@ -30190,148 +30266,6 @@
       "authorLinks": [],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "445c0d1edf75",
-      "board": "main",
-      "name": "怼怼侠",
-      "intro": "小网站，用 AI 帮你优雅回怼阴阳怪气，不带脏话",
-      "introMarkdown": "小网站，用 AI 帮你优雅回怼阴阳怪气，不带脏话",
-      "status": "live",
-      "date": "2025-07-19",
-      "url": "https://www.duiduixia.com/",
-      "author": "Patrick",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "878bec1907f2",
-      "board": "main",
-      "name": "会员次卡通",
-      "intro": "会员计次卡管理系统",
-      "introMarkdown": "会员计次卡管理系统",
-      "status": "live",
-      "date": "2025-07-19",
-      "url": "https://emember.hnher.com",
-      "author": "Hnher",
-      "authorLinks": [
-        {
-          "label": "博客",
-          "url": "https://www.hnher.com"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "ea9de046ee32",
-      "board": "main",
-      "name": "互游侠",
-      "intro": "游戏卡册收集器",
-      "introMarkdown": "游戏卡册收集器",
-      "status": "live",
-      "date": "2025-07-19",
-      "url": "https://egame.hnher.com",
-      "author": "Hnher",
-      "authorLinks": [
-        {
-          "label": "博客",
-          "url": "https://www.hnher.com"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "c85f0faec4b0",
-      "board": "main",
-      "name": "ContactHelper",
-      "intro": "编辑通讯录联系人属性，让 iPhone 支持T9拨号以及非中文系统下的通讯录排序",
-      "introMarkdown": "编辑通讯录联系人属性，让 iPhone 支持T9拨号以及非中文系统下的通讯录排序",
-      "status": "live",
-      "date": "2025-07-18",
-      "url": "https://apps.apple.com/us/app/contacthelper/id6738916060",
-      "author": "fx",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/limxfx"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "22163cdb04d4",
-      "board": "main",
-      "name": "Gone & Left",
-      "intro": "时间可视化，感受每一刻时间的流逝，支持 iPhone 小组件",
-      "introMarkdown": "时间可视化，感受每一刻时间的流逝，支持 iPhone 小组件",
-      "status": "live",
-      "date": "2025-07-18",
-      "url": "https://apps.apple.com/us/app/gone-left/id6744050306",
-      "author": "fx",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/limxfx"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d3391bdbba38",
-      "board": "main",
-      "name": "Omnigen2",
-      "intro": "智源开源的 7B 统一多模态图像生成模型，一句话精准完成风格转换、元素增删、背景替换等高阶 PS 级操作。",
-      "introMarkdown": "智源开源的 7B 统一多模态图像生成模型，一句话精准完成风格转换、元素增删、背景替换等高阶 PS 级操作。",
-      "status": "live",
-      "date": "2025-07-17",
-      "url": "https://omnigen2.org/",
-      "author": "ziwu",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ziwu7"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "83f5cdf1bc41",
-      "board": "main",
-      "name": "水印相机",
-      "intro": "可以拍带水印照片并分享给微信好友。",
-      "introMarkdown": "可以拍带水印照片并分享给微信好友。",
-      "status": "live",
-      "date": "2025-07-17",
-      "url": "https://camera.hnher.com/",
-      "author": "hnher",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "62d520d88578",
-      "board": "main",
-      "name": "去留助手AI",
-      "intro": "专为海外留学生和海外发展的华人打造的智能决策辅助工具。通过 AI 大模型分析，根据每个人不同的情况，评估“回国发展”与“留在海外”两种路径的优劣，助力做出更明智的职业与人生选择。并且能通过大数据分析，智能计算与同龄人平均水平的位置。",
-      "introMarkdown": "专为海外留学生和海外发展的华人打造的智能决策辅助工具。通过 AI 大模型分析，根据每个人不同的情况，评估“回国发展”与“留在海外”两种路径的优劣，助力做出更明智的职业与人生选择。并且能通过大数据分析，智能计算与同龄人平均水平的位置。",
-      "status": "live",
-      "date": "2025-07-16",
-      "url": "https://www.huiguo.info/",
-      "author": "james",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/JamesHuang22"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
@@ -33323,6 +33257,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "f7dd3f568a69",
+      "board": "programmer",
+      "name": "Ligamina",
+      "intro": "让 Koishi、NoneBot 和 AstrBot 的聊天机器人插件以原样在各自的原生框架中运行，并通过统一的类 MCP 接口供任意 bot 框架或 AI 编程助手使用。Rust Core 为每个框架监督一个隔离的 Host 进程；插件保留自己的命令解析、中间件、权限与存储",
+      "introMarkdown": "让 Koishi、NoneBot 和 AstrBot 的聊天机器人插件以原样在各自的原生框架中运行，并通过统一的类 MCP 接口供任意 bot 框架或 AI 编程助手使用。Rust Core 为每个框架监督一个隔离的 Host 进程；插件保留自己的命令解析、中间件、权限与存储",
+      "status": "developing",
+      "date": "2026-11-10",
+      "url": "https://github.com/Eternal-Wanderer-Vegetable/Ligamina",
+      "author": "Eternal-Wanderer-Vegetable",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Eternal-Wanderer-Vegetable"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "3542ce92a807",
       "board": "programmer",
