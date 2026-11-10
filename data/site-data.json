@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-10T02:44:06.515Z",
-    "statsSyncedAt": "2026-11-10T02:44:06.515Z",
-    "upstreamSha": "35e982981aa8bb2aae9e81bece2a9b9d5fc48350",
+    "contentSyncedAt": "2026-11-10T06:06:53.812Z",
+    "statsSyncedAt": "2026-11-10T06:06:53.812Z",
+    "upstreamSha": "e014a5adbc85a4793f8133d3aea67de68eeb559a",
     "counts": {
-      "main": 1628,
+      "main": 1629,
       "game": 160,
-      "programmer": 432,
-      "total": 2220
+      "programmer": 433,
+      "total": 2222
     }
   },
   "main": [
+    {
+      "slug": "1c91e66ab6e3",
+      "board": "main",
+      "name": "EmoteLoop",
+      "intro": "AI Twitch emote 生成器，写一句话或上传一张自拍，大约 20 秒得到透明背景、无限循环的 512px GIF，动作按描述生成，不是给静态表情套预设动画",
+      "introMarkdown": "AI Twitch emote 生成器，写一句话或上传一张自拍，大约 20 秒得到透明背景、无限循环的 512px GIF，动作按描述生成，不是给静态表情套预设动画",
+      "status": "live",
+      "date": "2026-11-10",
+      "url": "https://emoteloop.com/",
+      "author": "Wujie Li",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wujieli0207"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "8b26ebb03f55",
       "board": "main",
@@ -4319,7 +4338,7 @@
       "introMarkdown": "面向中国 Ozon 跨境卖家的免费定价计算器（免登录，按类目佣金、rFBS/FBP 物流资费、汇率与目标利润反推建议售价）与中文实操教程；可选多店体检工作台 — Web 应用",
       "status": "live",
       "date": "2026-10-18",
-      "url": "https://kuakuakua.com/pricing-calculator/",
+      "url": "https://kuakuakua.com/tools/pricing-calculator/",
       "author": "ikeisthere",
       "authorLinks": [
         {
@@ -33304,6 +33323,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "3542ce92a807",
+      "board": "programmer",
+      "name": "HopBase",
+      "intro": "多模型 AI API 网关，一个 Base URL 调用 Claude / GPT / Gemini / DeepSeek / 千问等文本模型，以及 Seedream、Seedance、可灵等图片和视频模型；兼容 OpenAI、Anthropic、Gemini 三种接口格式，Claude Code / Codex 改 base_url 和 key 即可使用，按量计费",
+      "introMarkdown": "多模型 AI API 网关，一个 Base URL 调用 Claude / GPT / Gemini / DeepSeek / 千问等文本模型，以及 Seedream、Seedance、可灵等图片和视频模型；兼容 OpenAI、Anthropic、Gemini 三种接口格式，Claude Code / Codex 改 base_url 和 key 即可使用，按量计费 - [接入文档](https://hop-base.com/zh-cn/docs)",
+      "status": "live",
+      "date": "2026-11-10",
+      "url": "https://hop-base.com",
+      "author": "Victor",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/victor-zzh"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "ecd5ad83d4b0",
       "board": "programmer",
