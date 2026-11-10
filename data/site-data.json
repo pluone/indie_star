@@ -1,16 +1,130 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-09T10:11:01.315Z",
-    "statsSyncedAt": "2026-11-09T10:11:01.315Z",
-    "upstreamSha": "f48b88a5a3f5a63a604d2f9b9ab76e66697d9c48",
+    "contentSyncedAt": "2026-11-10T02:44:06.515Z",
+    "statsSyncedAt": "2026-11-10T02:44:06.515Z",
+    "upstreamSha": "35e982981aa8bb2aae9e81bece2a9b9d5fc48350",
     "counts": {
-      "main": 1631,
+      "main": 1628,
       "game": 160,
       "programmer": 432,
-      "total": 2223
+      "total": 2220
     }
   },
   "main": [
+    {
+      "slug": "8b26ebb03f55",
+      "board": "main",
+      "name": "Models Rank 模型榜",
+      "intro": "AI 大模型榜单，汇总 Artificial Analysis 等第三方公开评测，把能力分、单任务成本和速度放在一张表里比较，每个模型有标注来源的详情页，每周更新，中英双语",
+      "introMarkdown": "AI 大模型榜单，汇总 Artificial Analysis 等第三方公开评测，把能力分、单任务成本和速度放在一张表里比较，每个模型有标注来源的详情页，每周更新，中英双语",
+      "status": "live",
+      "date": "2026-11-10",
+      "url": "https://modelsrank.org/",
+      "author": "Samuel Shek",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Samuel-Shek"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "ba9693bc9d2e",
+      "board": "main",
+      "name": "课伴",
+      "intro": "面向独立家教的 iOS App，学生档案、排课、课时包、收款与 AI 起草家长反馈一条线，本地优先，免费可管约 5 名学生",
+      "introMarkdown": "面向独立家教的 iOS App，学生档案、排课、课时包、收款与 AI 起草家长反馈一条线，本地优先，免费可管约 5 名学生",
+      "status": "live",
+      "date": "2026-11-10",
+      "url": "https://apps.apple.com/cn/app/id6790702626",
+      "author": "高剑辉",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Jeffgao222"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "309590695bc6",
+      "board": "main",
+      "name": "NextJSON",
+      "intro": "免费 JSON 工具箱，可解析嵌套/转义的 JSON 字符串、格式化与查看、对比两份 JSON、生成 JSON Schema，全部在浏览器里运行，无需注册",
+      "introMarkdown": "免费 JSON 工具箱，可解析嵌套/转义的 JSON 字符串、格式化与查看、对比两份 JSON、生成 JSON Schema，全部在浏览器里运行，无需注册",
+      "status": "live",
+      "date": "2026-11-10",
+      "url": "https://nextjson.com/",
+      "author": "NextJSON",
+      "authorLinks": [
+        {
+          "label": "网站",
+          "url": "https://nextjson.com/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4f827330bc46",
+      "board": "main",
+      "name": "知音",
+      "intro": "贴网易云「我喜欢的音乐」或 QQ 音乐主页的分享链接，不用登录，Claude 给你的口味起个名字、锐评一句，再按每首歌点喜欢的月份画成一张能分享的唱片；用 YouTube Music 的话还是一个每周更新的私人电台，每首歌都说为什么选它",
+      "introMarkdown": "贴网易云「我喜欢的音乐」或 QQ 音乐主页的分享链接，不用登录，Claude 给你的口味起个名字、锐评一句，再按每首歌点喜欢的月份画成一张能分享的唱片；用 YouTube Music 的话还是一个每周更新的私人电台，每首歌都说为什么选它 - [GitHub 仓库](https://github.com/billpwchan/zhiyin)",
+      "status": "live",
+      "date": "2026-11-10",
+      "url": "https://zhiyin.billpwchan.art/card?ref=1c7",
+      "author": "Bill Chan",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/billpwchan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "938ff271d251",
+      "board": "main",
+      "name": "TypeAloud",
+      "intro": "Mac/Windows 语音输入工具，在任意应用里按住快捷键说话、松手文字就出现在光标处，用千问 Qwen3-ASR 在本机转写，中英混说也能识别；免费开源，本地转写无需注册或 API Key",
+      "introMarkdown": "Mac/Windows 语音输入工具，在任意应用里按住快捷键说话、松手文字就出现在光标处，用千问 Qwen3-ASR 在本机转写，中英混说也能识别；免费开源，本地转写无需注册或 API Key - [更多介绍](https://github.com/hellotaotao/typealoud)",
+      "status": "live",
+      "date": "2026-11-10",
+      "url": "https://typealoud.app/zh",
+      "author": "Tao Wang",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hellotaotao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "864f5131038d",
+      "board": "main",
+      "name": "ClapClip AI",
+      "intro": "在自己的 Windows 10/11 电脑上给照片和长视频换脸，4 个模型可选，实时预览，NVIDIA/AMD/Intel 显卡加速，素材不上传；安装和预览免费，导出需订阅",
+      "introMarkdown": "在自己的 Windows 10/11 电脑上给照片和长视频换脸，4 个模型可选，实时预览，NVIDIA/AMD/Intel 显卡加速，素材不上传；安装和预览免费，导出需订阅",
+      "status": "live",
+      "date": "2026-11-10",
+      "url": "https://www.clapclip.net/",
+      "author": "ClapClip",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ClapClip"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "65e3dabd8fb7",
       "board": "main",
@@ -30195,152 +30309,6 @@
         {
           "label": "Github",
           "url": "https://github.com/JamesHuang22"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "a9bea9e40321",
-      "board": "main",
-      "name": "TmpMail",
-      "intro": "免费临时邮箱TmpMail",
-      "introMarkdown": "免费临时邮箱TmpMail",
-      "status": "live",
-      "date": "2025-07-14",
-      "url": "https://www.tmpmail.online",
-      "author": "heyjude",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d786d90a057f",
-      "board": "main",
-      "name": "Avatify",
-      "intro": "生成头像",
-      "introMarkdown": "生成头像",
-      "status": "live",
-      "date": "2025-07-14",
-      "url": "https://www.avatify.online/",
-      "author": "heyjude",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "8cc79f631610",
-      "board": "main",
-      "name": "LLMOCR",
-      "intro": "基于 AI 的 OCR 服务",
-      "introMarkdown": "基于 AI 的 OCR 服务",
-      "status": "live",
-      "date": "2025-07-14",
-      "url": "https://llmocr.com",
-      "author": "Selenium39",
-      "authorLinks": [
-        {
-          "label": "Selenium39",
-          "url": "http://github.com/Selenium39"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1520307cd842",
-      "board": "main",
-      "name": "FWFW",
-      "intro": "Find Websites From World",
-      "introMarkdown": "Find Websites From World",
-      "status": "live",
-      "date": "2025-07-14",
-      "url": "https://fwfw.app",
-      "author": "Selenium39",
-      "authorLinks": [
-        {
-          "label": "Selenium39",
-          "url": "http://github.com/Selenium39"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "32edc1fefdc8",
-      "board": "main",
-      "name": "stater best",
-      "intro": "收集一下发布的产品，可以作为导航站、发布站",
-      "introMarkdown": "收集一下发布的产品，可以作为导航站、发布站",
-      "status": "live",
-      "date": "2025-07-13",
-      "url": "https://starterbest.com/",
-      "author": "nogeek",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1d019e5dbb30",
-      "board": "main",
-      "name": "melhorar imagem",
-      "intro": "专注巴西市场的在线图像处理工具，用 AI 帮助用户提升图片分辨率、增强画质、修复模糊和噪点，让您的照片焕然一新。",
-      "introMarkdown": "专注巴西市场的在线图像处理工具，用 AI 帮助用户提升图片分辨率、增强画质、修复模糊和噪点，让您的照片焕然一新。",
-      "status": "live",
-      "date": "2025-07-12",
-      "url": "https://melhorarimagem.org",
-      "author": "fanison",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "5a9fee69c9b9",
-      "board": "main",
-      "name": "魔镜歌词网",
-      "intro": "500 万歌词库，专业歌词搜索平台",
-      "introMarkdown": "500 万歌词库，专业歌词搜索平台 - [更多介绍](https://mojigeci.com/about)",
-      "status": "live",
-      "date": "2025-07-12",
-      "url": "https://mojigeci.com/",
-      "author": "hjiayu799",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "8c39cbf8ef1b",
-      "board": "main",
-      "name": "PoPo",
-      "intro": "LLM 在线生成 MMD 纸片人姿势",
-      "introMarkdown": "LLM 在线生成 MMD 纸片人姿势",
-      "status": "live",
-      "date": "2025-07-12",
-      "url": "https://popo.love",
-      "author": "Amyang",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/AmyangXYZ"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "cbe57df511cf",
-      "board": "main",
-      "name": "SS 工具箱",
-      "intro": "SS 工具箱是一个集成 40+ 实用在线工具的综合平台，专为提升你的工作效率和创造力而设计。所有工具完全在浏览器中运行，无需上传数据，确保完全的隐私和安全",
-      "introMarkdown": "SS 工具箱是一个集成 40+ 实用在线工具的综合平台，专为提升你的工作效率和创造力而设计。所有工具完全在浏览器中运行，无需上传数据，确保完全的隐私和安全",
-      "status": "live",
-      "date": "2025-07-12",
-      "url": "https://tools.mind-elixir.com/",
-      "author": "SSShooter",
-      "authorLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/SSShooter"
         }
       ],
       "likes": 0,
