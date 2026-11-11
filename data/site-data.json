@@ -1,16 +1,70 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-11T02:01:47.762Z",
-    "statsSyncedAt": "2026-11-11T02:01:47.762Z",
-    "upstreamSha": "baff7de7528473c44a73be3f19fe861ad50037e8",
+    "contentSyncedAt": "2026-11-11T07:16:44.775Z",
+    "statsSyncedAt": "2026-11-11T07:16:44.775Z",
+    "upstreamSha": "d3c0778adf293f1dbba473cf9a81b68d748f2754",
     "counts": {
-      "main": 1626,
+      "main": 1628,
       "game": 160,
-      "programmer": 434,
-      "total": 2220
+      "programmer": 435,
+      "total": 2223
     }
   },
   "main": [
+    {
+      "slug": "f3adfe0d90a3",
+      "board": "main",
+      "name": "Mole",
+      "intro": "Mac 和 Windows 上的原生清理工具，清理电脑残留垃圾、连同残留一起卸载 App、看清磁盘空间被谁占了，删之前都先列出来让你确认，一次买断",
+      "introMarkdown": "Mac 和 Windows 上的原生清理工具，清理电脑残留垃圾、连同残留一起卸载 App、看清磁盘空间被谁占了，删之前都先列出来让你确认，一次买断 - [Windows 版](https://mole.fit/windows)",
+      "status": "live",
+      "date": "2026-11-11",
+      "url": "https://mole.fit",
+      "author": "Tw93",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tw93"
+        },
+        {
+          "label": "Twitter",
+          "url": "https://x.com/HiTw93"
+        },
+        {
+          "label": "博客",
+          "url": "https://tw93.fun"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "097c94d69f64",
+      "board": "main",
+      "name": "Pake",
+      "intro": "把常用网站变成 Mac、Windows 和 Linux 上的桌面 App，从画廊挑一个或贴上网址就能生成，有自己的图标和窗口，不用装 Node.js 或 Rust，免费做 2 个，之后一次买断",
+      "introMarkdown": "把常用网站变成 Mac、Windows 和 Linux 上的桌面 App，从画廊挑一个或贴上网址就能生成，有自己的图标和窗口，不用装 Node.js 或 Rust，免费做 2 个，之后一次买断",
+      "status": "live",
+      "date": "2026-11-11",
+      "url": "https://pake.run/",
+      "author": "Tw93",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tw93"
+        },
+        {
+          "label": "Twitter",
+          "url": "https://x.com/HiTw93"
+        },
+        {
+          "label": "博客",
+          "url": "https://tw93.fun"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "0b63f53d7732",
       "board": "main",
@@ -33276,6 +33330,33 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "90283f04bd1b",
+      "board": "programmer",
+      "name": "Mole",
+      "intro": "开源的 Mac 和 Windows 命令行清理工具，brew install mole 或 scoop install mole 装好后用 mo 清理缓存和残留、卸载 App、分析磁盘、查看系统状态",
+      "introMarkdown": "开源的 Mac 和 Windows 命令行清理工具，`brew install mole` 或 `scoop install mole` 装好后用 `mo` 清理缓存和残留、卸载 App、分析磁盘、查看系统状态",
+      "status": "live",
+      "date": "2026-11-11",
+      "url": "https://github.com/tw93/Mole",
+      "author": "Tw93",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tw93"
+        },
+        {
+          "label": "Twitter",
+          "url": "https://x.com/HiTw93"
+        },
+        {
+          "label": "博客",
+          "url": "https://tw93.fun"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "f7dd3f568a69",
       "board": "programmer",
