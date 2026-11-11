@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-11T11:36:47.962Z",
-    "statsSyncedAt": "2026-11-11T11:36:47.962Z",
-    "upstreamSha": "56e1daffd93bddc287335f7913850f261540b5bf",
+    "contentSyncedAt": "2026-11-11T11:41:38.529Z",
+    "statsSyncedAt": "2026-11-11T11:41:38.529Z",
+    "upstreamSha": "ef9081136b49e2f931c248a8c62354d156e29ba7",
     "counts": {
-      "main": 1628,
+      "main": 1629,
       "game": 161,
       "programmer": 436,
-      "total": 2225
+      "total": 2226
     }
   },
   "main": [
+    {
+      "slug": "cd0e65b212e1",
+      "board": "main",
+      "name": "MingList",
+      "intro": "纯 Serverless 架构的出海隐私分类信息平台。用 Cloudflare 边缘节点实现了双向匿名邮件中继，主打海外 24 城本地交易，防爬虫、不暴露真实邮箱",
+      "introMarkdown": "纯 Serverless 架构的出海隐私分类信息平台。用 Cloudflare 边缘节点实现了双向匿名邮件中继，主打海外 24 城本地交易，防爬虫、不暴露真实邮箱",
+      "status": "live",
+      "date": "2026-11-11",
+      "url": "https://minglist.top",
+      "author": "王光明",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/no1guangming"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "68eac45256ae",
       "board": "main",
