@@ -45,8 +45,11 @@ export default function ProjectCard({ item, highlighted = false, highlightVisibl
         </div>
         {/* truncate 的 overflow:hidden 留在内层 span —— 挂在 <a> 上会给伪元素的裁切埋隐患,
             铺满整卡的 after 必须完整地伸出标题自己的盒子。 */}
+        {/* 详情页的分段预取文件在构建时被 scripts/prune-segment-cache.mjs 删掉了(Cloudflare Pages
+            单次部署 20,000 文件上限),预取只会换来一串 404,所以显式关掉;点击依然走软导航。 */}
         <Link
           href={`/project/${item.slug}`}
+          prefetch={false}
           onClick={() => onOpen(item.slug)}
           className="min-w-0 text-[15px] font-semibold text-ink-1 no-underline after:absolute after:inset-0 after:content-['']"
         >

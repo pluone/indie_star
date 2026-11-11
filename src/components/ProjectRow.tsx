@@ -52,8 +52,11 @@ export default function ProjectRow({
       </div>
       <div className="min-w-0 flex-1">
         <div className="flex flex-wrap items-center gap-2">
+          {/* 详情页的分段预取文件在构建时被 scripts/prune-segment-cache.mjs 删掉了(Cloudflare Pages
+              单次部署 20,000 文件上限),预取只会换来一串 404,所以显式关掉;点击依然走软导航。 */}
           <Link
             href={`/project/${item.slug}`}
+            prefetch={false}
             onClick={() => onOpen(item.slug)}
             className="text-[16.5px] font-semibold text-ink-1 no-underline transition-colors after:absolute after:inset-0 after:content-[''] group-hover:text-accent"
           >
@@ -76,6 +79,7 @@ export default function ProjectRow({
           >
             <Link
               href={isImageUrl(item.url) ? `/project/${item.slug}` : item.url}
+              prefetch={false}
               {...(isImageUrl(item.url) ? {} : { target: "_blank", rel: "noreferrer" })}
               onClick={(e) => {
                 e.stopPropagation();

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "prebuild": "node scripts/fetch-data.mjs",
-    "build": "next build",
+    "build": "next build && node scripts/prune-segment-cache.mjs",
     "start": "next start",
     "lint": "eslint .",
     "sync:content": "node scripts/sync-content.mjs"

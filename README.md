@@ -43,6 +43,7 @@ GitHub Discussions ──────┘     (sync-content.mjs)                 
 |---|---|---|
 | `scripts/fetch-data.mjs` | 自动在 `build` 前跑(`prebuild`) | 从 `data` 分支拉 `site-data.json` 到 `public/data/`;`data` 分支不存在时回退本地 `data/site-data.json` |
 | `scripts/sync-content.mjs` | `npm run sync:content` | 解析上游 3 个 README + 实时抓 giscus 计数,**全量重建** `data/site-data.json`,并写出 `data/upstream.json` |
+| `scripts/prune-segment-cache.mjs` | 自动在 `next build` 后跑 | 删掉每个路由的 `__next*.txt` 分段预取文件,把部署产物压到约 4,500 个文件,详见「单次部署的文件数上限」 |
 | `worker/src/index.js` | `cd worker && npm run deploy` | 上游监听 Worker,详见「近实时内容同步」 |
 
 > `sync-content.mjs` 会先解析出上游 `master` 的当前 commit SHA,再把 3 个 raw 请求**钉死在这个 SHA 上**。按分支名拉会跟 raw.githubusercontent 的 CDN 缓存赛跑:可能拿到比记录下来的 SHA 更旧的内容,而 Worker 只比对 SHA,那次更新就会被永久跳过。
@@ -105,11 +106,20 @@ npm run build      # 先跑 prebuild 拉数据,再静态导出到 out/
 |---|---|
 | `GISCUS_STATS_TOKEN` | 一个只读的 GitHub PAT(建议 fine-grained,只授权本仓库 `Discussions: Read-only`)。**专用于这个 Function,不要复用 Actions 的 `GITHUB_TOKEN`** —— 那个是 CI 专用,这个是面向公网的边缘函数。缺了它 `/api/stats` 不会报错,只会一直返回空数据,首页照样能正常显示(退回静态快照)。 |
 
-### 2. 创建 Deploy Hook
+### 2. 单次部署的文件数上限(20,000)
+
+Cloudflare Pages 每个部署最多 20,000 个文件(免费版硬上限)。Next 16 的 App Router 除了每个路由的 `index.html` + `index.txt`,还会额外写 7 个 `__next*.txt` 分段预取文件;2,200+ 个详情页 × 9 ≈ 20,000 个文件正好顶满,构建会在 `Validating asset output directory` 阶段报 `Pages only supports up to 20,000 files`。
+
+所以 `npm run build` 在 `next build` 之后会跑 `scripts/prune-segment-cache.mjs`,删掉这些分段预取文件,把每个路由压回 2 个文件(全站约 4,500 个,免费版可支撑约 9,900 个详情页)。脚本同时会统计剩余文件数,下次再顶到上限时直接在构建日志里报错,而不是等 Cloudflare 抛错。
+
+- **代价**:客户端不再做「按段预取」—— `<Link>` 的 `prefetch` 已在 `ProjectRow`/`ProjectCard` 里显式关掉(否则视口内每个链接都会打出一个无用的 404),每次页面加载还会剩 3~4 个 `__next*.txt` 的 404。站内点击**仍然**是 SPA 软导航:客户端读不到分段数据时会回退成请求整页 RSC 载荷 `<slug>.txt`(该文件照常保留)。
+- **想恢复按段预取**:升级到 Pages 付费版(Pro 及以上,上限 100,000),在该项目环境变量里设置 `PAGES_WRANGLER_MAJOR_VERSION=4` 启用 v4 上传器,然后把 `build` 脚本尾部的 prune 去掉、移除那几个 `prefetch={false}`。
+
+### 3. 创建 Deploy Hook
 
 在该 Pages 项目 **Settings → Builds & deployments → Deploy hooks** 新建一个 hook(绑定 `main` 分支),复制生成的 URL。这是让"数据更新"能触发"站点重建"的关键。
 
-### 3. 配置 GitHub Actions secret
+### 4. 配置 GitHub Actions secret
 
 在 GitHub 仓库 **Settings → Secrets and variables → Actions** 添加:
 
@@ -119,13 +129,13 @@ npm run build      # 先跑 prebuild 拉数据,再静态导出到 out/
 
 > `GITHUB_TOKEN` 由 Actions 自动提供,无需手动添加;sync 脚本用它查询本仓库 Discussions 的 giscus 计数。
 
-### 4. 首次数据初始化
+### 5. 首次数据初始化
 
 `data` 分支由 Actions 首次运行 `sync-content` 时自动创建。可以在 GitHub **Actions → Sync content → Run workflow** 手动触发一次,生成 `data` 分支并首次填充数据。
 
 之后 **Sync content**(`.github/workflows/sync-content.yml`)有两个触发源:主要靠下面的 Worker 派发(上游一有提交,5 分钟内),外加每天 21:00 UTC 的兜底定时。它在更新 `data` 分支后会触发 Deploy Hook 重新部署。
 
-### 5. 部署上游监听 Worker
+### 6. 部署上游监听 Worker
 
 见下面「近实时内容同步」一节。
 
