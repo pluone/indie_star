@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-11T00:59:24.963Z",
-    "statsSyncedAt": "2026-11-11T00:59:24.963Z",
-    "upstreamSha": "9f425d6aa9e400202fbd3d1251fb1d62eaabb7e0",
+    "contentSyncedAt": "2026-11-11T02:01:47.762Z",
+    "statsSyncedAt": "2026-11-11T02:01:47.762Z",
+    "upstreamSha": "baff7de7528473c44a73be3f19fe861ad50037e8",
     "counts": {
-      "main": 1625,
+      "main": 1626,
       "game": 160,
       "programmer": 434,
-      "total": 2219
+      "total": 2220
     }
   },
   "main": [
+    {
+      "slug": "0b63f53d7732",
+      "board": "main",
+      "name": "vvid",
+      "intro": "给特斯拉车机浏览器用的网页应用，手机上把 YouTube、B站、抖音链接加进媒体库，车机浏览器打开同一账号就能播，无需安装 App",
+      "introMarkdown": "给特斯拉车机浏览器用的网页应用，手机上把 YouTube、B站、抖音链接加进媒体库，车机浏览器打开同一账号就能播，无需安装 App",
+      "status": "live",
+      "date": "2026-11-11",
+      "url": "https://vvid.tv/home",
+      "author": "Opie Studio",
+      "authorLinks": [
+        {
+          "label": "网站",
+          "url": "https://vvid.tv/home"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "a8394c069c00",
       "board": "main",
