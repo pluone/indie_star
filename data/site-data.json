@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-11T11:31:43.020Z",
-    "statsSyncedAt": "2026-11-11T11:31:43.020Z",
-    "upstreamSha": "8a5fbf4f325d380240d440fa9383a7bfd434c2e7",
+    "contentSyncedAt": "2026-11-11T11:36:47.962Z",
+    "statsSyncedAt": "2026-11-11T11:36:47.962Z",
+    "upstreamSha": "56e1daffd93bddc287335f7913850f261540b5bf",
     "counts": {
-      "main": 1630,
-      "game": 160,
-      "programmer": 435,
+      "main": 1628,
+      "game": 161,
+      "programmer": 436,
       "total": 2225
     }
   },
   "main": [
+    {
+      "slug": "68eac45256ae",
+      "board": "main",
+      "name": "AI Rap Video",
+      "intro": "AI 说唱视频生成工具，利用 AI 将照片转化为有趣的 Rap 风格短视频，适合社交媒体分享",
+      "introMarkdown": "AI 说唱视频生成工具，利用 AI 将照片转化为有趣的 Rap 风格短视频，适合社交媒体分享",
+      "status": "live",
+      "date": "2026-11-11",
+      "url": "https://ai-rapvideo.cc/",
+      "author": "Masker99",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Masker99"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "2585f8c354c5",
+      "board": "main",
+      "name": "AIBanlv Bot",
+      "intro": "Windows / macOS 桌面 AI 伴侣，支持透明悬浮的 3D 形象、文字和语音交流，可连接 Harness、Codex 等工具处理任务；支持自备模型 Key 或使用平台积分",
+      "introMarkdown": "Windows / macOS 桌面 AI 伴侣，支持透明悬浮的 3D 形象、文字和语音交流，可连接 Harness、Codex 等工具处理任务；支持自备模型 Key 或使用平台积分 - [开源代码](https://github.com/AIBanlv/AIBanlv-Bot)",
+      "status": "live",
+      "date": "2026-11-11",
+      "url": "https://aibanlv.ai/zh?view=desktop-companion",
+      "author": "AIBanlv 开发团队",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/AIBanlv"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "fd03aca5ca67",
+      "board": "main",
+      "name": "Origrab",
+      "intro": "把当前网页里的图片全部列出来，标出尺寸和格式，勾选后一键打包成 ZIP 下载；不用注册、不上传，全程在浏览器本地完成，免费",
+      "introMarkdown": "把当前网页里的图片全部列出来，标出尺寸和格式，勾选后一键打包成 ZIP 下载；不用注册、不上传，全程在浏览器本地完成，免费",
+      "status": "live",
+      "date": "2026-11-11",
+      "url": "https://chromewebstore.google.com/detail/origrab-bulk-image-downlo/bmafbkjjmmcmckabcibobnicmfafpmmg",
+      "author": "crafthwj",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/crafthwj"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "b7f600b50c33",
       "board": "main",
@@ -30302,84 +30359,28 @@
       ],
       "likes": 0,
       "comments": 0
-    },
+    }
+  ],
+  "game": [
     {
-      "slug": "ebd3504198af",
-      "board": "main",
-      "name": "Tovo - AI 会议/面试助手",
-      "intro": "在会议中，Tovo 是一款注重隐私的 AI 助手，完全在您的设备上运行，为会议和对话提供实时转录和智能协助，无需向外部服务器发送任何数据。",
-      "introMarkdown": "在会议中，Tovo 是一款注重隐私的 AI 助手，完全在您的设备上运行，为会议和对话提供实时转录和智能协助，无需向外部服务器发送任何数据。",
+      "slug": "af3b3361b2d2",
+      "board": "game",
+      "name": "Vibes College",
+      "intro": "雅思备考闯关游戏，手机浏览器打开就玩，不用下载；在一张地图上一关一关打听力、阅读、词汇、语法，卡住了看锦囊、问 AI 英语助教；第一章免费，注册就能玩",
+      "introMarkdown": "雅思备考闯关游戏，手机浏览器打开就玩，不用下载；在一张地图上一关一关打听力、阅读、词汇、语法，卡住了看锦囊、问 AI 英语助教；第一章免费，注册就能玩 - [雅思攻略](https://vibes.college/guides/)",
       "status": "live",
-      "date": "2025-07-22",
-      "url": "https://tovo.dev",
-      "author": "Qiwei",
+      "date": "2026-11-11",
+      "url": "https://vibes.college/",
+      "author": "Vibes College",
       "authorLinks": [
         {
-          "label": "GitHub",
-          "url": "https://github.com/qiweiii"
+          "label": "Github",
+          "url": "https://github.com/Vibes-college"
         }
       ],
       "likes": 0,
       "comments": 0
     },
-    {
-      "slug": "5669b9d1b5a3",
-      "board": "main",
-      "name": "Dog Names World",
-      "intro": "专为宠物爱好者打造的狗名导航网站，可按性别、风格、含义等多维度筛选，快速找到最适合你爱犬的名字。从可爱风到霸气风，一应俱全",
-      "introMarkdown": "专为宠物爱好者打造的狗名导航网站，可按性别、风格、含义等多维度筛选，快速找到最适合你爱犬的名字。从可爱风到霸气风，一应俱全",
-      "status": "live",
-      "date": "2025-07-22",
-      "url": "https://dognamesworld.com/",
-      "author": "leo",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "4f571168f064",
-      "board": "main",
-      "name": "中文古籍數字復刻計劃",
-      "intro": "古籍刻本掃描影像通常存在掃描變形、頁面瑕疵、文件巨大等問題，且圖像無法選中其文字從而不能查詢生字生詞，因而不便閱讀。該計劃目的是參照古籍刻本之原貌，復刻出文字版的電子書，支持圈註、查閱，方便存入電子閱讀器隨時閱讀。通過古籍刻本古樸形式所帶來的沉浸優雅之閱讀體驗，也許將吸引更多讀者愛上古籍閱讀。",
-      "introMarkdown": "古籍刻本掃描影像通常存在掃描變形、頁面瑕疵、文件巨大等問題，且圖像無法選中其文字從而不能查詢生字生詞，因而不便閱讀。該計劃目的是參照古籍刻本之原貌，復刻出文字版的電子書，支持圈註、查閱，方便存入電子閱讀器隨時閱讀。通過古籍刻本古樸形式所帶來的沉浸優雅之閱讀體驗，也許將吸引更多讀者愛上古籍閱讀。",
-      "status": "live",
-      "date": "2025-07-22",
-      "url": "https://github.com/shanleiguang/vBooks",
-      "author": "雷光",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "3a32778bfc33",
-      "board": "main",
-      "name": "HiColors",
-      "intro": "专注收集动漫/游戏人物，制作成调色板的网站。",
-      "introMarkdown": "专注收集动漫/游戏人物，制作成调色板的网站。",
-      "status": "live",
-      "date": "2025-07-22",
-      "url": "https://hicolors.org",
-      "author": "meetqy",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "102573c3c159",
-      "board": "main",
-      "name": "photo color changer",
-      "intro": "免费在线更改图像颜色，简化图像类型的处理流程。只需使用直观的颜色选择器选择目标区域（前景或背景），然后选择新的颜色即可",
-      "introMarkdown": "免费在线更改图像颜色，简化图像类型的处理流程。只需使用直观的颜色选择器选择目标区域（前景或背景），然后选择新的颜色即可",
-      "status": "live",
-      "date": "2025-07-21",
-      "url": "https://photocolorchanger.com/",
-      "author": "fanison",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    }
-  ],
-  "game": [
     {
       "slug": "b21e59bd62b4",
       "board": "game",
@@ -33368,6 +33369,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "405bd5bf72c4",
+      "board": "programmer",
+      "name": "KayingCode",
+      "intro": "专为游戏开发优化的开源 AI Agent Harness，描述玩法即可让 Agent 写代码，在同一个桌面工作台运行预览、试玩验证，并通过 TapTap Maker 构建发布",
+      "introMarkdown": "专为游戏开发优化的开源 AI Agent Harness，描述玩法即可让 Agent 写代码，在同一个桌面工作台运行预览、试玩验证，并通过 TapTap Maker 构建发布 - [GitHub 仓库与下载](https://github.com/kaying-ai/KayingCode)",
+      "status": "live",
+      "date": "2026-11-11",
+      "url": "https://kayingai.com/",
+      "author": "咖影AI",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kaying-ai"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "90283f04bd1b",
       "board": "programmer",
