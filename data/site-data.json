@@ -1,16 +1,87 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-12T01:01:43.793Z",
-    "statsSyncedAt": "2026-11-12T01:01:43.793Z",
-    "upstreamSha": "67e7e1ac9889bcf75ad55dee858384de4aaa03bd",
+    "contentSyncedAt": "2026-11-12T01:06:46.899Z",
+    "statsSyncedAt": "2026-11-12T01:06:46.899Z",
+    "upstreamSha": "66816791134e2f1793d4fe295eb1389768ab2816",
     "counts": {
-      "main": 1636,
+      "main": 1640,
       "game": 161,
-      "programmer": 440,
-      "total": 2237
+      "programmer": 442,
+      "total": 2243
     }
   },
   "main": [
+    {
+      "slug": "946d561edc44",
+      "board": "main",
+      "name": "套餐雷达",
+      "intro": "国产 AI 编程 / Agent 订阅套餐对照站，汇总各档价格、额度和库存状态，每条尽量附官方来源和核对日期，免费查阅",
+      "introMarkdown": "国产 AI 编程 / Agent 订阅套餐对照站，汇总各档价格、额度和库存状态，每条尽量附官方来源和核对日期，免费查阅",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://taocanleida.com/",
+      "author": "Livis",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "26522081d896",
+      "board": "main",
+      "name": "Square Face Generator",
+      "intro": "九个免费头像小工具放在一个网站里：方块脸、椭圆脸、8-bit 像素图标、全身像素小人、像素猫、Q 版角色，还能打印成纸方块，每个部件都能换色，存 PNG 无水印，不用注册",
+      "introMarkdown": "九个免费头像小工具放在一个网站里：方块脸、椭圆脸、8-bit 像素图标、全身像素小人、像素猫、Q 版角色，还能打印成纸方块，每个部件都能换色，存 PNG 无水印，不用注册",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://www.squarefaceicongenerator.app/",
+      "author": "Square Face Studio",
+      "authorLinks": [
+        {
+          "label": "博客",
+          "url": "https://www.squarefaceicongenerator.app/blog"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "6c2482477a41",
+      "board": "main",
+      "name": "Digital Love Letters",
+      "intro": "数字情书服务（免费），选九种模板之一，写下心意密封后发送私密链接，收件人轻触封印即可展开阅读，无需注册",
+      "introMarkdown": "数字情书服务（免费），选九种模板之一，写下心意密封后发送私密链接，收件人轻触封印即可展开阅读，无需注册",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://digiloveletter.com/",
+      "author": "Linky",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Linky-AIinlink"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "e9e5ffbca877",
+      "board": "main",
+      "name": "FinchGram",
+      "intro": "开源的 macOS Telegram 第三方客户端，Rust + Slint 编写，支持多账号与 MCP（AI 工具接入）",
+      "introMarkdown": "开源的 macOS Telegram 第三方客户端，Rust + Slint 编写，支持多账号与 MCP（AI 工具接入） - [开源代码](https://github.com/FinchGram/FinchGram)",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://www.finchgram.com",
+      "author": "Yumin Gui",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/guiyumin"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "df0174a7d0de",
       "board": "main",
@@ -126,19 +197,23 @@
       "comments": 0
     },
     {
-      "slug": "e9e5ffbca877",
+      "slug": "24b9af67b44a",
       "board": "main",
-      "name": "FinchGram",
-      "intro": "开源的 macOS Telegram 第三方客户端，Rust + Slint 编写，支持多账号与 MCP（AI 工具接入）",
-      "introMarkdown": "开源的 macOS Telegram 第三方客户端，Rust + Slint 编写，支持多账号与 MCP（AI 工具接入） - [开源代码](https://github.com/FinchGram/FinchGram)",
+      "name": "CBZ Reader",
+      "intro": "免费在线CBZ漫画阅读器，打开网页就能看书、也能把 CBZ 转成 PDF；无需注册，文件只在本地处理，访问一次后缓存页可离线阅读和转换格式",
+      "introMarkdown": "免费在线CBZ漫画阅读器，打开网页就能看书、也能把 CBZ 转成 PDF；无需注册，文件只在本地处理，访问一次后缓存页可离线阅读和转换格式",
       "status": "live",
-      "date": "2026-11-11",
-      "url": "https://www.finchgram.com",
-      "author": "Yumin Gui",
+      "date": "2026-11-12",
+      "url": "https://cbzreader.mavi.help/",
+      "author": "Ollivander23",
       "authorLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/guiyumin"
+          "url": "https://github.com/ollivander23"
+        },
+        {
+          "label": "博客",
+          "url": "https://blog.csdn.net/2301_76996311"
         }
       ],
       "likes": 0,
@@ -33521,6 +33596,44 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "994dfb510968",
+      "board": "programmer",
+      "name": "Skillπ",
+      "intro": "给 AI 助手找技能的市场，按任务搜索，作者授权的技能复制一条命令就能装到 Claude Code、Codex 或 Cursor 上，中英双语，免费浏览",
+      "introMarkdown": "给 AI 助手找技能的市场，按任务搜索，作者授权的技能复制一条命令就能装到 Claude Code、Codex 或 Cursor 上，中英双语，免费浏览",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://skillpi.com",
+      "author": "Skillπ",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Findskills"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "3ffb0b14aa66",
+      "board": "programmer",
+      "name": "Kejike API中转站",
+      "intro": "AI API 中转服务，OpenAI 兼容接口调用 GPT、Claude、Gemini、DeepSeek、Grok、Kimi、GLM 七类模型，提供 Codex 接入文档与控制台用量账单",
+      "introMarkdown": "AI API 中转服务，OpenAI 兼容接口调用 GPT、Claude、Gemini、DeepSeek、Grok、Kimi、GLM 七类模型，提供 Codex 接入文档与控制台用量账单",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://www.kejike.top",
+      "author": "kejike",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/1528960014"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "71123edd20d8",
       "board": "programmer",
