@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-12T06:16:26.140Z",
-    "statsSyncedAt": "2026-11-12T06:16:26.140Z",
-    "upstreamSha": "4130e0633ce991f3c83a487dae9804f8e19c28ec",
+    "contentSyncedAt": "2026-11-12T13:26:35.141Z",
+    "statsSyncedAt": "2026-11-12T13:26:35.141Z",
+    "upstreamSha": "c817a8ce0d3a59066e970e5618c3a3ce10b241e7",
     "counts": {
-      "main": 1632,
+      "main": 1633,
       "game": 162,
       "programmer": 442,
-      "total": 2236
+      "total": 2237
     }
   },
   "main": [
+    {
+      "slug": "7b3646e94aa9",
+      "board": "main",
+      "name": "造梦橱窗",
+      "intro": "独立开发者作品收录榜，免费投稿网站、小程序、软件，按每周数据打分选出精选作品上榜展示",
+      "introMarkdown": "独立开发者作品收录榜，免费投稿网站、小程序、软件，按每周数据打分选出精选作品上榜展示",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://zm94.com/",
+      "author": "frank",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fxxqq"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "fa8f81a67b22",
       "board": "main",
