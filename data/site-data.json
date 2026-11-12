@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-12T01:06:46.899Z",
-    "statsSyncedAt": "2026-11-12T01:06:46.899Z",
-    "upstreamSha": "66816791134e2f1793d4fe295eb1389768ab2816",
+    "contentSyncedAt": "2026-11-12T01:11:46.197Z",
+    "statsSyncedAt": "2026-11-12T01:11:46.197Z",
+    "upstreamSha": "cd171b274d96c4289343879c9c34e05c8e190c23",
     "counts": {
-      "main": 1640,
+      "main": 1632,
       "game": 161,
       "programmer": 442,
-      "total": 2243
+      "total": 2235
     }
   },
   "main": [
@@ -30431,159 +30431,6 @@
       "url": "https://aistemsplitter.net",
       "author": "monsoonw",
       "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "7678e97129e4",
-      "board": "main",
-      "name": "极巧立算 (iOS)",
-      "intro": "汇集各种计算工具的全能计算器 App",
-      "introMarkdown": "汇集各种计算工具的全能计算器 App - [Android - GooglePlay](https://play.google.com/store/apps/details?id=com.jessen.unitsconverter), [Android - 国内应用商店](https://www.jessenbox.com/)",
-      "status": "live",
-      "date": "2025-07-26",
-      "url": "https://apps.apple.com/cn/app/id6448924181",
-      "author": "码上云行科技",
-      "authorLinks": [
-        {
-          "label": "官网",
-          "url": "https://www.jessenbox.com/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "79f96845758a",
-      "board": "main",
-      "name": "EasyTransfer",
-      "intro": "免费、匿名、加密且易于使用的 E2EE 文件传输工具。只需访问一个简单的网页，即可使用设备代码连接到任何网络中的任何设备。支持免费的内网穿透，也可自行部署",
-      "introMarkdown": "免费、匿名、加密且易于使用的 E2EE 文件传输工具。只需访问一个简单的网页，即可使用设备代码连接到任何网络中的任何设备。支持免费的内网穿透，也可自行部署 - [仓库](https://github.com/WCY-dt/EasyTransfer)",
-      "status": "live",
-      "date": "2025-07-26",
-      "url": "https://file.ch3nyang.top/",
-      "author": "**Ch3nyang(南京)**",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/wcy-dt"
-        },
-        {
-          "label": "博客",
-          "url": "https://blog.ch3nyang.top/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "117bdd13497c",
-      "board": "main",
-      "name": "my-github-2024",
-      "intro": "统计用户2024年在GitHub上的活动，并根据提交记录等生成一份数据报告。预计下半年会更新为2025版",
-      "introMarkdown": "统计用户2024年在GitHub上的活动，并根据提交记录等生成一份数据报告。预计下半年会更新为2025版 - [效果预览](https://github.com/WCY-dt/my-github-2024)",
-      "status": "live",
-      "date": "2025-07-26",
-      "url": "https://2024.ch3nyang.top/",
-      "author": "**Ch3nyang(南京)**",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/wcy-dt"
-        },
-        {
-          "label": "博客",
-          "url": "https://blog.ch3nyang.top/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "8a3d27fd0887",
-      "board": "main",
-      "name": "AI ASMR Generator",
-      "intro": "AI ASMR 视频生成器",
-      "introMarkdown": "AI ASMR 视频生成器",
-      "status": "live",
-      "date": "2025-07-26",
-      "url": "https://aiasmrgenerator.com",
-      "author": "金川",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f79be2b56ad3",
-      "board": "main",
-      "name": "NextDevKit",
-      "intro": "Next.js & OpenNext 启动模板，可以比以往快 10 倍地构建你的SaaS应用程序，包括身份验证、支付、落地页、电子邮件、存储、博客、文档和数据库，只需要一天就能启动你的项目，支持部署到所有平台，原生支持 Cloudflare Workers & AWS 等平台。",
-      "introMarkdown": "Next.js & OpenNext 启动模板，可以比以往快 10 倍地构建你的SaaS应用程序，包括身份验证、支付、落地页、电子邮件、存储、博客、文档和数据库，只需要一天就能启动你的项目，支持部署到所有平台，原生支持 Cloudflare Workers & AWS 等平台。",
-      "status": "live",
-      "date": "2025-07-25",
-      "url": "https://nextdevkit.com",
-      "author": "guangzhengli",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/guangzhengli"
-        },
-        {
-          "label": "Twitter",
-          "url": "https://x.com/iguangzhengli"
-        },
-        {
-          "label": "Blog",
-          "url": "https://guangzhengli.com"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "c2820b56cb67",
-      "board": "main",
-      "name": "Photo AI Enhancer - 图片AI增强工具",
-      "intro": "图片 AI 增强器，可自动或手动调整图片效果，如自动校正曝光、增强光线、去除噪点、调整眼睛大小、自动锐化等，支持批量图片效果增强 。",
-      "introMarkdown": "图片 AI 增强器，可自动或手动调整图片效果，如自动校正曝光、增强光线、去除噪点、调整眼睛大小、自动锐化等，支持批量图片效果增强 。",
-      "status": "live",
-      "date": "2025-07-24",
-      "url": "https://www.leawo.com/image-enhancer/",
-      "author": "DT986",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "146af11fbf7b",
-      "board": "main",
-      "name": "DVD刻录",
-      "intro": "帮助把图片或者视频刻录成DVD-9/DVD-5碟片、文件夹或者是ISO镜像文件，允许选择字幕与音轨，添加外部字幕，预置多个菜单模板并允许自定义菜单，提供多个视频编辑功能。",
-      "introMarkdown": "帮助把图片或者视频刻录成DVD-9/DVD-5碟片、文件夹或者是ISO镜像文件，允许选择字幕与音轨，添加外部字幕，预置多个菜单模板并允许自定义菜单，提供多个视频编辑功能。",
-      "status": "live",
-      "date": "2025-07-24",
-      "url": "https://www.leawo.com/pro/dvd-creator.html",
-      "author": "DT986",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "8bbe984dc694",
-      "board": "main",
-      "name": "OfferStar - AI 笔试面试辅助工具",
-      "intro": "AI 笔试面试辅助工具，隐蔽性高，无视屏幕共享，切屏等检测，AI 问答秒级响应。",
-      "introMarkdown": "AI 笔试面试辅助工具，隐蔽性高，无视屏幕共享，切屏等检测，AI 问答秒级响应。",
-      "status": "live",
-      "date": "2025-07-23",
-      "url": "https://www.offerstar.cn",
-      "author": "多喝热水",
-      "authorLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/acmenlei"
-        }
-      ],
       "likes": 0,
       "comments": 0
     }
