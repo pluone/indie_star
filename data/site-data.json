@@ -1,16 +1,111 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-12T01:11:46.197Z",
-    "statsSyncedAt": "2026-11-12T01:11:46.197Z",
-    "upstreamSha": "cd171b274d96c4289343879c9c34e05c8e190c23",
+    "contentSyncedAt": "2026-11-12T01:31:27.363Z",
+    "statsSyncedAt": "2026-11-12T01:31:27.363Z",
+    "upstreamSha": "7d3f5dbc0c6e8553a6bb5ce1ec29994b5d5b1f4b",
     "counts": {
-      "main": 1632,
+      "main": 1637,
       "game": 161,
       "programmer": 442,
-      "total": 2235
+      "total": 2240
     }
   },
   "main": [
+    {
+      "slug": "772bd33b9673",
+      "board": "main",
+      "name": "AMAN Machine",
+      "intro": "发一张瓶样或图纸，就能询价吹瓶机和模具——瓶盖、化妆品罐、瓶子、PET 瓶坯的模具，可配我们的机器或你现有的机器；英文站，2007 年起服务 100 多个国家",
+      "introMarkdown": "发一张瓶样或图纸，就能询价吹瓶机和模具——瓶盖、化妆品罐、瓶子、PET 瓶坯的模具，可配我们的机器或你现有的机器；英文站，2007 年起服务 100 多个国家",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://www.amanmachine.com/",
+      "author": "borong.zheng",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/borongzheng-sketch"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "c7e3597c13ef",
+      "board": "main",
+      "name": "Aman Machinery",
+      "intro": "发一份图纸或零件，就能询价组装机和包装自动化设备——瓶盖、泵头、化妆品包装、医疗件、笔和电器件的装配线；英文站",
+      "introMarkdown": "发一份图纸或零件，就能询价组装机和包装自动化设备——瓶盖、泵头、化妆品包装、医疗件、笔和电器件的装配线；英文站",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://www.amanmachinery.com/",
+      "author": "borong.zheng",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/borongzheng-sketch"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "dbc7ce876d87",
+      "board": "main",
+      "name": "AMAN 灌装包装机",
+      "intro": "选灌装机、旋盖机、贴标机、包装机的英文站，从台式单机到整条线，按你的产品和产量询价",
+      "introMarkdown": "选灌装机、旋盖机、贴标机、包装机的英文站，从台式单机到整条线，按你的产品和产量询价",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://amanfilling.com/",
+      "author": "borong.zheng",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/borongzheng-sketch"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "dbe3b8a2001c",
+      "board": "main",
+      "name": "Aman Pack",
+      "intro": "化妆品包装英文站，瓶盖、泵头、瓶子，可选标准款、按你的颜色加 Logo，或按你的设计做",
+      "introMarkdown": "化妆品包装英文站，瓶盖、泵头、瓶子，可选标准款、按你的颜色加 Logo，或按你的设计做",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://www.aman-pack.com/",
+      "author": "borong.zheng",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/borongzheng-sketch"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "2586b488e8d8",
+      "board": "main",
+      "name": "CNCMAN",
+      "intro": "首饰戒指雕刻机 AM30、光纤激光打标机、CO2 激光切割机和数控雕刻机的英文站，面向店铺和小工坊，发需求即可询价",
+      "introMarkdown": "首饰戒指雕刻机 AM30、光纤激光打标机、CO2 激光切割机和数控雕刻机的英文站，面向店铺和小工坊，发需求即可询价",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://www.cncman.net/",
+      "author": "borong.zheng",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/borongzheng-sketch"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "946d561edc44",
       "board": "main",
