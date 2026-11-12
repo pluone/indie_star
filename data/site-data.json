@@ -1,16 +1,206 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-12T06:11:40.345Z",
-    "statsSyncedAt": "2026-11-12T06:11:40.345Z",
-    "upstreamSha": "c1231580c45dcb9ef8f7b2b343b902845489fac8",
+    "contentSyncedAt": "2026-11-12T06:16:26.140Z",
+    "statsSyncedAt": "2026-11-12T06:16:26.140Z",
+    "upstreamSha": "4130e0633ce991f3c83a487dae9804f8e19c28ec",
     "counts": {
-      "main": 1639,
-      "game": 161,
+      "main": 1632,
+      "game": 162,
       "programmer": 442,
-      "total": 2242
+      "total": 2236
     }
   },
   "main": [
+    {
+      "slug": "fa8f81a67b22",
+      "board": "main",
+      "name": "AI秒记账",
+      "intro": "给经常出差、先替公司垫钱的人用的微信小程序。每趟出差单开一个账本，路上说一句或传张票就能记一笔，回来按趟导出 Excel",
+      "introMarkdown": "给经常出差、先替公司垫钱的人用的微信小程序。每趟出差单开一个账本，路上说一句或传张票就能记一笔，回来按趟导出 Excel",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://gist.githubusercontent.com/wujm12138/1cad024149ad8528c03a4286dcffcb58/raw/a097ee5ce7d86bf9b005d657c24d14fc53c8d8b4/ai-miaojizhang.jpg",
+      "author": "wujm12138",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/wujm12138"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "a3bb53f596c4",
+      "board": "main",
+      "name": "SplitImage",
+      "intro": "浏览器图片分割工具，支持宫格、对半和切条，可预览后下载，图片在本地处理",
+      "introMarkdown": "浏览器图片分割工具，支持宫格、对半和切条，可预览后下载，图片在本地处理",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://splitimage.io",
+      "author": "Tom Wang",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/WanderZil"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d9cf5d445a2d",
+      "board": "main",
+      "name": "Bulk Image Editor",
+      "intro": "浏览器批量图片编辑工具，支持裁剪、缩放、压缩、格式转换、水印和重命名，图片在本地处理",
+      "introMarkdown": "浏览器批量图片编辑工具，支持裁剪、缩放、压缩、格式转换、水印和重命名，图片在本地处理",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://bulkimage.io",
+      "author": "Tom Wang",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/WanderZil"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d1ed50db1d8e",
+      "board": "main",
+      "name": "Batch Image Crop",
+      "intro": "浏览器批量裁剪工具，可按比例、像素、形状或社媒预设裁剪并预览，支持打包 ZIP 下载，图片在本地处理",
+      "introMarkdown": "浏览器批量裁剪工具，可按比例、像素、形状或社媒预设裁剪并预览，支持打包 ZIP 下载，图片在本地处理",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://batchimagecrop.com",
+      "author": "Tom Wang",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/WanderZil"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "90d2a3eb01ac",
+      "board": "main",
+      "name": "Canmetry",
+      "intro": "CAN / CAN FD 日志查看器，支持 BLF、MF4、ASC 文件、DBC 解码、过滤、曲线绘制及 CSV 导出；本地查看无需安装软件，云项目和团队工作区需登录",
+      "introMarkdown": "CAN / CAN FD 日志查看器，支持 BLF、MF4、ASC 文件、DBC 解码、过滤、曲线绘制及 CSV 导出；本地查看无需安装软件，云项目和团队工作区需登录",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://canmetry.com",
+      "author": "Tom Wang",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/WanderZil"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "32ad1e2dc054",
+      "board": "main",
+      "name": "Bulk Image Download",
+      "intro": "网页图片提取工具，粘贴链接后可预览并批量下载，也可打包为 ZIP，无需安装扩展",
+      "introMarkdown": "网页图片提取工具，粘贴链接后可预览并批量下载，也可打包为 ZIP，无需安装扩展",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://bulkimagedownload.com",
+      "author": "Tom Wang",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/WanderZil"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "2fc2b58b3abd",
+      "board": "main",
+      "name": "费马测试（FermatMind）",
+      "intro": "在线人格与职业兴趣测评网站，无需注册即可体验 MBTI、大五人格和霍兰德职业兴趣测试，并结合结果查看职业档案、比较职业方向",
+      "introMarkdown": "在线人格与职业兴趣测评网站，无需注册即可体验 MBTI、大五人格和霍兰德职业兴趣测试，并结合结果查看职业档案、比较职业方向",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://fermatmind.com/",
+      "author": "费马测试",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/fermatmind"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d9e3ba55fe0f",
+      "board": "main",
+      "name": "Builderoom",
+      "intro": "独立开发者作品展台，用一句话描述需求就能找到软件，发布作品只需贴一个链接，AI 自动整理介绍与分类，免费提交、不卖排名",
+      "introMarkdown": "独立开发者作品展台，用一句话描述需求就能找到软件，发布作品只需贴一个链接，AI 自动整理介绍与分类，免费提交、不卖排名",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://www.builderoom.com/zh-CN",
+      "author": "cena001plus",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cena001plus"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "138287d7ba89",
+      "board": "main",
+      "name": "PhotoSway",
+      "intro": "AI 照片变视频工具站，上传一张宠物照片，套用 Car Alarm、OIIA 猫等爆款跳舞模板做成短视频，附 15 篇分步教程；生成功能正在等候名单中",
+      "introMarkdown": "AI 照片变视频工具站，上传一张宠物照片，套用 Car Alarm、OIIA 猫等爆款跳舞模板做成短视频，附 15 篇分步教程；生成功能正在等候名单中",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://photosway.com/",
+      "author": "张文健",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wenjianzhang70-dot"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4287ffb04f0a",
+      "board": "main",
+      "name": "Reroll Odds",
+      "intro": "抽卡保底计算器，输入抽数算出金概率与期望抽数，覆盖 Clover RPG、怪物猎人 Outlanders、碧蓝普罗米亚、Epic Seven 等游戏",
+      "introMarkdown": "抽卡保底计算器，输入抽数算出金概率与期望抽数，覆盖 Clover RPG、怪物猎人 Outlanders、碧蓝普罗米亚、Epic Seven 等游戏",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://rerollodds.com/",
+      "author": "张文健",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wenjianzhang70-dot"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "772bd33b9673",
       "board": "main",
@@ -309,44 +499,6 @@
         {
           "label": "博客",
           "url": "https://blog.csdn.net/2301_76996311"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "138287d7ba89",
-      "board": "main",
-      "name": "PhotoSway",
-      "intro": "AI 照片变视频工具站，上传一张宠物照片，套用 Car Alarm、OIIA 猫等爆款跳舞模板做成短视频，附 15 篇分步教程；生成功能正在等候名单中",
-      "introMarkdown": "AI 照片变视频工具站，上传一张宠物照片，套用 Car Alarm、OIIA 猫等爆款跳舞模板做成短视频，附 15 篇分步教程；生成功能正在等候名单中",
-      "status": "live",
-      "date": "2026-11-12",
-      "url": "https://photosway.com/",
-      "author": "张文健",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/wenjianzhang70-dot"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "4287ffb04f0a",
-      "board": "main",
-      "name": "Reroll Odds",
-      "intro": "抽卡保底计算器，输入抽数算出金概率与期望抽数，覆盖 Clover RPG、怪物猎人 Outlanders、碧蓝普罗米亚、Epic Seven 等游戏",
-      "introMarkdown": "抽卡保底计算器，输入抽数算出金概率与期望抽数，覆盖 Clover RPG、怪物猎人 Outlanders、碧蓝普罗米亚、Epic Seven 等游戏",
-      "status": "live",
-      "date": "2026-11-12",
-      "url": "https://rerollodds.com/",
-      "author": "张文健",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/wenjianzhang70-dot"
         }
       ],
       "likes": 0,
@@ -30327,248 +30479,28 @@
       "authorLinks": [],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "a39fc33d7d8f",
-      "board": "main",
-      "name": "AI资讯日报",
-      "intro": "每日精选 AI 领域的最新动态，包括行业新闻、热门开源项目、前沿学术论文、科技大V社交媒体言论，并通过 Google Gemini 模型进行智能处理与摘要生成",
-      "introMarkdown": "每日精选 AI 领域的最新动态，包括行业新闻、热门开源项目、前沿学术论文、科技大V社交媒体言论，并通过 Google Gemini 模型进行智能处理与摘要生成 - [后端项目](https://github.com/justlovemaki/CloudFlare-AI-Insight-Daily) 与 [配套前端项目](https://github.com/justlovemaki/Hextra-AI-Insight-Daily)。",
-      "status": "live",
-      "date": "2025-08-04",
-      "url": "https://ai.hubtoday.app/",
-      "author": "何夕2077",
-      "authorLinks": [
-        {
-          "label": "GIthub",
-          "url": "https://github.com/justlovemaki"
-        },
-        {
-          "label": "小宇宙",
-          "url": "https://www.xiaoyuzhoufm.com/podcast/683c62b7c1ca9cf575a5030e"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f3e60a40dda6",
-      "board": "main",
-      "name": "The One Startup",
-      "intro": "每个小产品都是一个小公司，发现一些小公司，让每个小产品都有被发现的机会",
-      "introMarkdown": "每个小产品都是一个小公司，发现一些小公司，让每个小产品都有被发现的机会",
-      "status": "live",
-      "date": "2025-08-03",
-      "url": "https://theonestartup.com",
-      "author": "nogeek",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "fc598bb3adc3",
-      "board": "main",
-      "name": "AI剪影生成器",
-      "intro": "免费 AI 剪影生成器，瞬间将任何照片转换为令人惊艳的剪影",
-      "introMarkdown": "免费 AI 剪影生成器，瞬间将任何照片转换为令人惊艳的剪影",
-      "status": "live",
-      "date": "2025-08-03",
-      "url": "https://silhouettegenerator.app/",
-      "author": "feiyu",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "a004ee508568",
-      "board": "main",
-      "name": "Neetoo",
-      "intro": "上班摸鱼小说阅读器，可以在工作之余尽情的阅读小说，不用担心被发现（macOS，可隐藏）",
-      "introMarkdown": "上班摸鱼小说阅读器，可以在工作之余尽情的阅读小说，不用担心被发现（macOS，可隐藏）",
-      "status": "live",
-      "date": "2025-08-02",
-      "url": "https://apps.apple.com/cn/app/neetoo/id6743790550?mt=12",
-      "author": "gemoonly",
-      "authorLinks": [
-        {
-          "label": "Twitter",
-          "url": "https://x.com/gell_moon"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "ad5b2eee80a5",
-      "board": "main",
-      "name": "AI 亲吻视频生成器",
-      "intro": "用 AI 基于照片创建逼真的接吻视频，从多种亲吻风格中选择，如法式亲吻或雨中亲吻",
-      "introMarkdown": "用 AI 基于照片创建逼真的接吻视频，从多种亲吻风格中选择，如法式亲吻或雨中亲吻",
-      "status": "live",
-      "date": "2025-08-02",
-      "url": "https://kissingai.app/",
-      "author": "Jay6343",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/1c7/chinese-independent-developer/issues/160#issuecomment-3138860512"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "4377433e75c6",
-      "board": "main",
-      "name": "smartimagix",
-      "intro": "用 AI 修改图片",
-      "introMarkdown": "用 AI 修改图片",
-      "status": "live",
-      "date": "2025-07-31",
-      "url": "http://smartimagix.cloud",
-      "author": "biboom",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b3d5bb00010b",
-      "board": "main",
-      "name": "Green Screen Remover 免费一键抠图",
-      "intro": "手动抠图太慢太烦？我们都懂。免费AI背景抠图网站，释放你的创作力",
-      "introMarkdown": "手动抠图太慢太烦？我们都懂。免费AI背景抠图网站，释放你的创作力",
-      "status": "live",
-      "date": "2025-07-31",
-      "url": "https://greenscreenremover.online/",
-      "author": "tushenmei",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "8cba03c8c862",
-      "board": "main",
-      "name": "AI LRC Generator",
-      "intro": "AI LRC Generator 使用 AI 技术一键生成音频 LRC 文件！支持自动识别音频内容，精准同步时间轴，适用于配音、字幕、K歌、播客等多种场景。做这个起因是因为手里有一些老歌或者一些市面上消失的歌，没有歌词，所以搞了个音频处理+AI生成歌词的网站。",
-      "introMarkdown": "AI LRC Generator 使用 AI 技术一键生成音频 LRC 文件！支持自动识别音频内容，精准同步时间轴，适用于配音、字幕、K歌、播客等多种场景。做这个起因是因为手里有一些老歌或者一些市面上消失的歌，没有歌词，所以搞了个音频处理+AI生成歌词的网站。",
-      "status": "live",
-      "date": "2025-07-30",
-      "url": "https://ailrcgenerator.com/",
-      "author": "Flicker",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "028a5a70498f",
-      "board": "main",
-      "name": "FreeConvert",
-      "intro": "提供图片格式转换功能，支持 heic、heif、png、jpg、pdf 等格式",
-      "introMarkdown": "提供图片格式转换功能，支持 heic、heif、png、jpg、pdf 等格式",
-      "status": "live",
-      "date": "2025-07-29",
-      "url": "https://www.freeconvert.cc/",
-      "author": "heyjude",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "fedb5cf1d031",
-      "board": "main",
-      "name": "AIColoringPages",
-      "intro": "提供各种类型的着色图，支持收藏和PDF下载，所有着色图均是用AI生成，每天持续更新着色图，后续考虑支持用户自己AI生成着色图",
-      "introMarkdown": "提供各种类型的着色图，支持收藏和PDF下载，所有着色图均是用AI生成，每天持续更新着色图，后续考虑支持用户自己AI生成着色图",
-      "status": "live",
-      "date": "2025-07-28",
-      "url": "https://ai-coloring-pages.art",
-      "author": "sk",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "16b23e4d06ff",
-      "board": "main",
-      "name": "Runway Aleph",
-      "intro": "视频编辑新方式，Runway Aleph 是 AI 视频编辑平台，能通过简单的文本提示来改造视频内容。用户可以增删物体、生成新视角、应用风格迁移、调整光线，轻松达到专业级效果。",
-      "introMarkdown": "视频编辑新方式，Runway Aleph 是 AI 视频编辑平台，能通过简单的文本提示来改造视频内容。用户可以增删物体、生成新视角、应用风格迁移、调整光线，轻松达到专业级效果。",
-      "status": "live",
-      "date": "2025-07-28",
-      "url": "https://runwayaleph.net/",
-      "author": "minutes",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9492d4422637",
-      "board": "main",
-      "name": "Days Launch",
-      "intro": "每天构建，每天发布。做一个发布站+目录站，让开发者都可以免费的发布自己的作品，进行获客和宣传",
-      "introMarkdown": "每天构建，每天发布。做一个发布站+目录站，让开发者都可以免费的发布自己的作品，进行获客和宣传",
-      "status": "live",
-      "date": "2025-07-28",
-      "url": "https://dayslaunch.com/",
-      "author": "nogeek",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6673a3d08efe",
-      "board": "main",
-      "name": "Easy2Text",
-      "intro": "将语音转成文本、字幕等多种格式",
-      "introMarkdown": "将语音转成文本、字幕等多种格式",
-      "status": "live",
-      "date": "2025-07-28",
-      "url": "https://easy2text.app/",
-      "author": "Shanshi",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Shanshi66"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9bea329eef14",
-      "board": "main",
-      "name": "How To Sketch",
-      "intro": "图片转素描网站",
-      "introMarkdown": "图片转素描网站",
-      "status": "live",
-      "date": "2025-07-28",
-      "url": "https://howtosketch.net/",
-      "author": "wmin",
-      "authorLinks": [
-        {
-          "label": "github",
-          "url": "https://github.com/worminone"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "78a334cefe4f",
-      "board": "main",
-      "name": "AI Stem Splitter",
-      "intro": "AI 音轨分离器",
-      "introMarkdown": "AI 音轨分离器",
-      "status": "live",
-      "date": "2025-07-28",
-      "url": "https://aistemsplitter.net",
-      "author": "monsoonw",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
+    {
+      "slug": "51221f965f9e",
+      "board": "game",
+      "name": "404世界",
+      "intro": "AI 互动小说网站，可进入喜欢的小说参与剧情、改变结局；用一句话一键成书，创作自己的小说，包括二创同人；还可将喜欢的角色拉进同一个聊天群，让他们互相聊天，体验好感度等互动机制",
+      "introMarkdown": "AI 互动小说网站，可进入喜欢的小说参与剧情、改变结局；用一句话一键成书，创作自己的小说，包括二创同人；还可将喜欢的角色拉进同一个聊天群，让他们互相聊天，体验好感度等互动机制",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://versecraft.cn/",
+      "author": "bei666qi-pan",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/bei666qi-pan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "af3b3361b2d2",
       "board": "game",
