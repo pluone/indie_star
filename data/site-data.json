@@ -1,16 +1,87 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-13T02:56:45.633Z",
-    "statsSyncedAt": "2026-11-13T02:56:45.633Z",
-    "upstreamSha": "d8d183334a89f5f18c72a2db52017dade94ae953",
+    "contentSyncedAt": "2026-11-13T13:31:45.485Z",
+    "statsSyncedAt": "2026-11-13T13:31:45.485Z",
+    "upstreamSha": "43ae27c4589b026d2197696683df6a33842547d2",
     "counts": {
-      "main": 1631,
-      "game": 163,
-      "programmer": 445,
-      "total": 2239
+      "main": 1635,
+      "game": 164,
+      "programmer": 446,
+      "total": 2245
     }
   },
   "main": [
+    {
+      "slug": "839c1e4cd0fd",
+      "board": "main",
+      "name": "ShortDramaKit",
+      "intro": "短剧片单工具，在 Chrome 侧边栏保存剧目链接、标签和备注，支持 CSV 导出与 JSON 备份。本地片单免费、无需注册；受支持的联网采集和下载按任务消耗积分",
+      "introMarkdown": "短剧片单工具，在 Chrome 侧边栏保存剧目链接、标签和备注，支持 CSV 导出与 JSON 备份。本地片单免费、无需注册；受支持的联网采集和下载按任务消耗积分",
+      "status": "live",
+      "date": "2026-11-13",
+      "url": "https://shortdramakit.com",
+      "author": "leontloveless",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/leontloveless"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "1672efac5134",
+      "board": "main",
+      "name": "雅思爱我",
+      "intro": "雅思和四六级背单词网站，一屏只放一个词：英美音标、中文核心义、一句记忆钩子和雅思语境例句；每天按计划学新词，到期自动复习，答错的词进错词本；另有名人演讲逐句精听，字幕里的生词点一下就能查。打开即用，登录同一邮箱可多端同步",
+      "introMarkdown": "雅思和四六级背单词网站，一屏只放一个词：英美音标、中文核心义、一句记忆钩子和雅思语境例句；每天按计划学新词，到期自动复习，答错的词进错词本；另有名人演讲逐句精听，字幕里的生词点一下就能查。打开即用，登录同一邮箱可多端同步",
+      "status": "live",
+      "date": "2026-11-13",
+      "url": "https://yasilove.me",
+      "author": "315fang",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/315fang"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b0a5f8b0bd42",
+      "board": "main",
+      "name": "TopSAAS",
+      "intro": "SaaS 产品与 AI 工具导航目录，支持免费提交产品，可按 AI、效率、营销、设计等分类浏览、对比和发现热门新品",
+      "introMarkdown": "SaaS 产品与 AI 工具导航目录，支持免费提交产品，可按 AI、效率、营销、设计等分类浏览、对比和发现热门新品",
+      "status": "live",
+      "date": "2026-11-13",
+      "url": "https://topsaas.space/",
+      "author": "Joelpillar1",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Joelpillar1"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "2c8726855354",
+      "board": "main",
+      "name": "Tunenoodle",
+      "intro": "AI 音乐生成网站，写一句描述、填歌词或哼一段旋律就能生成歌曲，另有 30+ 个免注册的浏览器音频工具（音频转 MIDI、BPM 测速、和弦分析）",
+      "introMarkdown": "AI 音乐生成网站，写一句描述、填歌词或哼一段旋律就能生成歌曲，另有 30+ 个免注册的浏览器音频工具（音频转 MIDI、BPM 测速、和弦分析）",
+      "status": "live",
+      "date": "2026-11-13",
+      "url": "https://tunenoodle.com",
+      "author": "Yoking Chan",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "4401ad8b1a20",
       "board": "main",
@@ -30455,6 +30526,20 @@
   ],
   "game": [
     {
+      "slug": "9e0e798a1839",
+      "board": "game",
+      "name": "Omoggle Game",
+      "intro": "浏览器 1v1 \"mog battle\" 镜头对战游戏，先做一次端侧 PSL 面部评分（对称、协调、下颌、皮肤、眼角倾斜，模型在浏览器本地运行、画面不上传），再随机匹配陌生人进行 15 秒开镜头对决，观众投票定胜负并计入 ELO 天梯；基础对战、私人房间和天梯免费且无需注册，可选 VIP（$4.99/月或 $12.99 买断）提供优先队列和性别/地区筛选；实时视频匹配仅限 18 岁以上",
+      "introMarkdown": "浏览器 1v1 \"mog battle\" 镜头对战游戏，先做一次端侧 PSL 面部评分（对称、协调、下颌、皮肤、眼角倾斜，模型在浏览器本地运行、画面不上传），再随机匹配陌生人进行 15 秒开镜头对决，观众投票定胜负并计入 ELO 天梯；基础对战、私人房间和天梯免费且无需注册，可选 VIP（$4.99/月或 $12.99 买断）提供优先队列和性别/地区筛选；实时视频匹配仅限 18 岁以上",
+      "status": "live",
+      "date": "2026-11-13",
+      "url": "https://omogglegame.com/",
+      "author": "omogglegame.com 团队",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "675ae3d0c07e",
       "board": "game",
       "name": "萌宠出征",
@@ -33499,6 +33584,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "a703b0973320",
+      "board": "programmer",
+      "name": "vsux",
+      "intro": "原生 Mac 轻量编辑器，按项目组织分屏终端、文件、Git 变更、常用命令与后台服务；免费、MIT 开源，支持中英文，需要 macOS 14+ 与 Apple Silicon，目前为 v0.1.2 预发布版",
+      "introMarkdown": "原生 Mac 轻量编辑器，按项目组织分屏终端、文件、Git 变更、常用命令与后台服务；免费、MIT 开源，支持中英文，需要 macOS 14+ 与 Apple Silicon，目前为 v0.1.2 预发布版 - [源码与下载](https://github.com/shadowDragons/vsux)",
+      "status": "developing",
+      "date": "2026-11-13",
+      "url": "https://vsux.sphrag.com/",
+      "author": "Junexus",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/shadowDragons"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "443dd53b0adb",
       "board": "programmer",
