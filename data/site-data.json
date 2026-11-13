@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-13T01:01:54.053Z",
-    "statsSyncedAt": "2026-11-13T01:01:54.053Z",
-    "upstreamSha": "f8413616911aeea504967754f25df5c159ac97c0",
+    "contentSyncedAt": "2026-11-13T01:06:29.988Z",
+    "statsSyncedAt": "2026-11-13T01:06:29.988Z",
+    "upstreamSha": "a8c6547207a3431bc141d104352a2b5a4e666c2c",
     "counts": {
-      "main": 1636,
-      "game": 162,
-      "programmer": 443,
-      "total": 2241
+      "main": 1630,
+      "game": 163,
+      "programmer": 444,
+      "total": 2237
     }
   },
   "main": [
@@ -18,7 +18,7 @@
       "intro": "无需注册，在浏览器里整理并下载科研实验计划；训练前明确研究问题、数据划分、对比基线、评估指标与所需证据。该工具不执行实验、不自动保存。完整 AutoResearch 系统（https://autoresearch.me）目前为需管理员审批的内测，与本工具不是同一回事。",
       "introMarkdown": "无需注册，在浏览器里整理并下载科研实验计划；训练前明确研究问题、数据划分、对比基线、评估指标与所需证据。该工具不执行实验、不自动保存。完整 AutoResearch 系统（https://autoresearch.me）目前为需管理员审批的内测，与本工具不是同一回事。",
       "status": "live",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "url": "https://autoresearch.me/zh/research-plan/",
       "author": "AutoResearch",
       "authorLinks": [],
@@ -32,7 +32,7 @@
       "intro": "Windows 本地 AI 搜图工具，用一句中文描述（如「海滩日落」「孩子笑脸」）就能在几万张照片里找到那张，还能以图搜图、搜照片上的文字；照片和 AI 都在自己电脑上跑、不上传云端，直接在原有文件夹建索引，免费版永久可用，Pro 一次性买断",
       "introMarkdown": "Windows 本地 AI 搜图工具，用一句中文描述（如「海滩日落」「孩子笑脸」）就能在几万张照片里找到那张，还能以图搜图、搜照片上的文字；照片和 AI 都在自己电脑上跑、不上传云端，直接在原有文件夹建索引，免费版永久可用，Pro 一次性买断",
       "status": "live",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "url": "https://www.seekphoto.cn",
       "author": "aiyo407",
       "authorLinks": [],
@@ -46,13 +46,69 @@
       "intro": "每天汇总国内 AI 大会、分享会和黑客松，合并重复活动，按日历、城市和线上线下查看，可订阅每日邮件简报",
       "introMarkdown": "每天汇总国内 AI 大会、分享会和黑客松，合并重复活动，按日历、城市和线上线下查看，可订阅每日邮件简报",
       "status": "live",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "url": "https://antonailog.com/more/ai-events/",
       "author": "阿東",
       "authorLinks": [
         {
           "label": "GitHub",
           "url": "https://github.com/antonailog"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4630e5287144",
+      "board": "main",
+      "name": "gessov",
+      "intro": "英英词汇 iPhone app，先读英文例句理解语境，再看全英文解释，不给中文释义；无需注册，进度只存在手机上",
+      "introMarkdown": "英英词汇 iPhone app，先读英文例句理解语境，再看全英文解释，不给中文释义；无需注册，进度只存在手机上 - [更多介绍](https://gessov.com)",
+      "status": "live",
+      "date": "2026-11-13",
+      "url": "https://apps.apple.com/cn/app/id6815108797",
+      "author": "gessov 的开发者",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "33fea5c2feb4",
+      "board": "main",
+      "name": "inspace",
+      "intro": "地点攻略与故事网站，按地点查阅内容，并用一个空间链接分享攻略和记录",
+      "introMarkdown": "地点攻略与故事网站，按地点查阅内容，并用一个空间链接分享攻略和记录 - [更多介绍](https://gist.github.com/lhq1363511234/fa7deee0b07eb516ddd03f4fd6b8cce1)",
+      "status": "live",
+      "date": "2026-11-13",
+      "url": "https://opctoai.com/inspace",
+      "author": "lhq1363511234",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lhq1363511234"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b16d1809e51f",
+      "board": "main",
+      "name": "AI Photo Editor",
+      "intro": "免费在线 AI 图片编辑器，无需注册",
+      "introMarkdown": "免费在线 AI 图片编辑器，无需注册",
+      "status": "live",
+      "date": "2026-11-13",
+      "url": "https://getaiphotoeditor.com/",
+      "author": "CoderLim",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/CoderLim"
+        },
+        {
+          "label": "博客",
+          "url": "https://limbuilder.hashnode.dev/"
         }
       ],
       "likes": 0,
@@ -30376,178 +30432,28 @@
       "authorLinks": [],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "af5b5618e79f",
-      "board": "main",
-      "name": "PromptArk",
-      "intro": "帮助用户优化提示词，用户输入简单的提示词，AI 辅助生成更结构化，更详细的提示词",
-      "introMarkdown": "帮助用户优化提示词，用户输入简单的提示词，AI 辅助生成更结构化，更详细的提示词",
-      "status": "live",
-      "date": "2025-08-12",
-      "url": "https://promptark.net/",
-      "author": "jammy24",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/chenminjie24"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "26c284016862",
-      "board": "main",
-      "name": "LLM from URL",
-      "intro": "通过网址直接使用大模型，完全免费，只需把提问放在 818233.xyz 之后作为新的网址即可获得大模型的回答，支持中文，也支持从 Linux/Mac 终端通过 wget 调用",
-      "introMarkdown": "通过网址直接使用大模型，完全免费，只需把提问放在 [818233.xyz](https://818233.xyz/) 之后作为新的网址即可获得大模型的回答，支持中文，也支持从 Linux/Mac 终端通过 wget 调用",
-      "status": "live",
-      "date": "2025-08-12",
-      "url": "https://818233.xyz/",
-      "author": "yvonuk",
-      "authorLinks": [
-        {
-          "label": "推特",
-          "url": "https://x.com/mcwangcn"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f6252961ab7d",
-      "board": "main",
-      "name": "TweetCloner",
-      "intro": "为使用 X/Twitter 设计的创意工具。克隆任何推文创意，翻译或再创作，将其改造成你自己的全新原创内容，再发布到 X/Twitter",
-      "introMarkdown": "为使用 X/Twitter 设计的创意工具。克隆任何推文创意，翻译或再创作，将其改造成你自己的全新原创内容，再发布到 X/Twitter",
-      "status": "live",
-      "date": "2025-08-12",
-      "url": "https://tweetcloner.com/",
-      "author": "ShawnHacks",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ShawnHacks"
-        },
-        {
-          "label": "博客",
-          "url": "https://indietion.com/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f75d9395ea3c",
-      "board": "main",
-      "name": "MP3TO",
-      "intro": "mp3 格式转换工具网站",
-      "introMarkdown": "mp3 格式转换工具网站",
-      "status": "live",
-      "date": "2025-08-12",
-      "url": "https://www.mp3to.cc",
-      "author": "heyjude",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/heyjude1817"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "5ad7d596f58d",
-      "board": "main",
-      "name": "MP4TO",
-      "intro": "mp4 格式转换工具网站",
-      "introMarkdown": "mp4 格式转换工具网站",
-      "status": "live",
-      "date": "2025-08-12",
-      "url": "https://www.mp4to.cc",
-      "author": "heyjude",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/heyjude1817"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "c28e3e23f424",
-      "board": "main",
-      "name": "GrsAi",
-      "intro": "GrsAI 国外主流 AI 模型 API 平台。提供价格便宜（全网最低价）稳定的 GPT-4o、Gemini、Flux 和 Veo3 AI API，GPT-4o 图像生成仅需 0.02 一张图",
-      "introMarkdown": "GrsAI 国外主流 AI 模型 API 平台。提供价格便宜（全网最低价）稳定的 GPT-4o、Gemini、Flux 和 Veo3 AI API，GPT-4o 图像生成仅需 0.02 一张图",
-      "status": "live",
-      "date": "2025-08-08",
-      "url": "https://grsai.com/",
-      "author": "lio",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/31702160136/ComfyUI-GrsAI"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "2fc2aa74f465",
-      "board": "main",
-      "name": "状态栏小本本 (macOS)",
-      "intro": "可以在状态栏调起的小本本，查看备忘或者速记灵感，不需要回到主页面，在任何屏幕上方都可以直接调起。支持富文本编辑、快捷键调出。",
-      "introMarkdown": "可以在状态栏调起的小本本，查看备忘或者速记灵感，不需要回到主页面，在任何屏幕上方都可以直接调起。支持富文本编辑、快捷键调出。",
-      "status": "live",
-      "date": "2025-08-08",
-      "url": "https://apps.apple.com/us/app/%E7%8A%B6%E6%80%81%E6%A0%8F%E5%B0%8F%E6%9C%AC%E6%9C%AC/id6749236800",
-      "author": "Leochens",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "66d57cd650ac",
-      "board": "main",
-      "name": "WebsiteScreenshot.online",
-      "intro": "免费在线网站截图工具。支持 PNG、JPEG、PDF 格式，支持自定义分辨率，支持移动端和桌面端视图。无需注册，立即使用！",
-      "introMarkdown": "免费在线网站截图工具。支持 PNG、JPEG、PDF 格式，支持自定义分辨率，支持移动端和桌面端视图。无需注册，立即使用！ - [更多介绍](https://websitescreenshot.online/zh-CN#features)",
-      "status": "live",
-      "date": "2025-08-08",
-      "url": "https://websitescreenshot.online/",
-      "author": "ShawnHacks",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ShawnHacks"
-        },
-        {
-          "label": "博客",
-          "url": "https://indietion.com/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6f7370428388",
-      "board": "main",
-      "name": "Discord Timestamp Generator",
-      "intro": "简化了在 Disord 中创建特殊格式信息的过程，这些信息会以每个查看者的当地时区显示日期和时间，从而使跨时区的活动协调变得更加容易。",
-      "introMarkdown": "简化了在 Disord 中创建特殊格式信息的过程，这些信息会以每个查看者的当地时区显示日期和时间，从而使跨时区的活动协调变得更加容易。",
-      "status": "live",
-      "date": "2025-08-08",
-      "url": "https://discordtimestampgenerator.net",
-      "author": "monoonw",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
+    {
+      "slug": "675ae3d0c07e",
+      "board": "game",
+      "name": "萌宠出征",
+      "intro": "Windows 桌面宠物割草游戏，养 16 种猫狗鸟龟躲虫群打 40 关，通关 5 关宠物住进桌面，全程离线免费无广告",
+      "introMarkdown": "Windows 桌面宠物割草游戏，养 16 种猫狗鸟龟躲虫群打 40 关，通关 5 关宠物住进桌面，全程离线免费无广告",
+      "status": "live",
+      "date": "2026-11-13",
+      "url": "https://www.mcleyuan.com/cz/index.html",
+      "author": "芽朵软件",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tiyinet"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "51221f965f9e",
       "board": "game",
@@ -33581,7 +33487,7 @@
       "intro": "Claude Code / Codex 用的 Agent Skill 合集，做调研报告、播客笔记、公众号和小红书稿、生图 prompt 和新 Skill，每个附一个真实跑过的例子",
       "introMarkdown": "Claude Code / Codex 用的 Agent Skill 合集，做调研报告、播客笔记、公众号和小红书稿、生图 prompt 和新 Skill，每个附一个真实跑过的例子",
       "status": "live",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "url": "https://github.com/antonailog/skills",
       "author": "阿東",
       "authorLinks": [
@@ -33590,6 +33496,20 @@
           "url": "https://github.com/antonailog"
         }
       ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "e8f3d42b8f79",
+      "board": "programmer",
+      "name": "卡站 AI 会员选购助手",
+      "intro": "AI 会员选购与比价网站，按平台和预算筛选套餐，支持最多 3 件商家报价同屏对比，选购比价免费且无需注册",
+      "introMarkdown": "AI 会员选购与比价网站，按平台和预算筛选套餐，支持最多 3 件商家报价同屏对比，选购比价免费且无需注册",
+      "status": "live",
+      "date": "2026-11-13",
+      "url": "https://kazhan.store/choose?utm_source=github_chinese_independent_developer&utm_campaign=launch_20261113",
+      "author": "卡站 KAZHAN",
+      "authorLinks": [],
       "likes": 0,
       "comments": 0
     },
