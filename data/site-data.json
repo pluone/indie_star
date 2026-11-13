@@ -1,25 +1,44 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-13T01:38:11.356Z",
-    "statsSyncedAt": "2026-11-13T01:38:11.356Z",
-    "upstreamSha": "bce0442597e9e4a69312bbc8d7a21c4cbfa20def",
+    "contentSyncedAt": "2026-11-13T02:56:45.633Z",
+    "statsSyncedAt": "2026-11-13T02:56:45.633Z",
+    "upstreamSha": "d8d183334a89f5f18c72a2db52017dade94ae953",
     "counts": {
-      "main": 1630,
+      "main": 1631,
       "game": 163,
       "programmer": 445,
-      "total": 2238
+      "total": 2239
     }
   },
   "main": [
     {
-      "slug": "e0014ac4dbfd",
+      "slug": "4401ad8b1a20",
       "board": "main",
-      "name": "免费科研计划工具",
-      "intro": "无需注册，在浏览器里整理并下载科研实验计划；训练前明确研究问题、数据划分、对比基线、评估指标与所需证据",
-      "introMarkdown": "无需注册，在浏览器里整理并下载科研实验计划；训练前明确研究问题、数据划分、对比基线、评估指标与所需证据",
+      "name": "Tutti",
+      "intro": "乐谱 PDF 转 MusicXML 工具，直接读取 Sibelius 等打谱软件导出 PDF 里的音符数据，而不是靠图像识别，转完可在 MuseScore、Dorico、Sibelius 里继续编辑，每周 5 页免费",
+      "introMarkdown": "乐谱 PDF 转 MusicXML 工具，直接读取 Sibelius 等打谱软件导出 PDF 里的音符数据，而不是靠图像识别，转完可在 MuseScore、Dorico、Sibelius 里继续编辑，每周 5 页免费",
       "status": "live",
       "date": "2026-11-13",
-      "url": "https://autoresearch.me/zh/research-plan/",
+      "url": "https://tutti-studio.com",
+      "author": "Kan",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kanlac"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "406702de629a",
+      "board": "main",
+      "name": "AutoResearch",
+      "intro": "浏览器端 AI 科研系统，将文献探索、科研想法、模型实现、GPU 实验与论文写作连在同一流程。完整系统目前为内测：需在官网提交申请，经管理员审核通过后，按邮件引导设置密码并登录；获批成员获赠 5,000 初始 credits。官方说明内测期间免费，但这是有限额度，不是无限免费；后续方案已在价格页预览，具体价格尚未公布",
+      "introMarkdown": "浏览器端 AI 科研系统，将文献探索、科研想法、模型实现、GPU 实验与论文写作连在同一流程。完整系统目前为内测：需在官网提交申请，经管理员审核通过后，按邮件引导设置密码并登录；获批成员获赠 5,000 初始 credits。官方说明内测期间免费，但这是有限额度，不是无限免费；后续方案已在价格页预览，具体价格尚未公布",
+      "status": "live",
+      "date": "2026-11-13",
+      "url": "https://autoresearch.me/zh/",
       "author": "AutoResearch",
       "authorLinks": [],
       "likes": 0,
