@@ -1,16 +1,63 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-12T13:26:35.141Z",
-    "statsSyncedAt": "2026-11-12T13:26:35.141Z",
-    "upstreamSha": "c817a8ce0d3a59066e970e5618c3a3ce10b241e7",
+    "contentSyncedAt": "2026-11-13T01:01:54.053Z",
+    "statsSyncedAt": "2026-11-13T01:01:54.053Z",
+    "upstreamSha": "f8413616911aeea504967754f25df5c159ac97c0",
     "counts": {
-      "main": 1633,
+      "main": 1636,
       "game": 162,
-      "programmer": 442,
-      "total": 2237
+      "programmer": 443,
+      "total": 2241
     }
   },
   "main": [
+    {
+      "slug": "e0014ac4dbfd",
+      "board": "main",
+      "name": "免费科研计划工具",
+      "intro": "无需注册，在浏览器里整理并下载科研实验计划；训练前明确研究问题、数据划分、对比基线、评估指标与所需证据。该工具不执行实验、不自动保存。完整 AutoResearch 系统（https://autoresearch.me）目前为需管理员审批的内测，与本工具不是同一回事。",
+      "introMarkdown": "无需注册，在浏览器里整理并下载科研实验计划；训练前明确研究问题、数据划分、对比基线、评估指标与所需证据。该工具不执行实验、不自动保存。完整 AutoResearch 系统（https://autoresearch.me）目前为需管理员审批的内测，与本工具不是同一回事。",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://autoresearch.me/zh/research-plan/",
+      "author": "AutoResearch",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "5255badd3cd7",
+      "board": "main",
+      "name": "SeekPhoto",
+      "intro": "Windows 本地 AI 搜图工具，用一句中文描述（如「海滩日落」「孩子笑脸」）就能在几万张照片里找到那张，还能以图搜图、搜照片上的文字；照片和 AI 都在自己电脑上跑、不上传云端，直接在原有文件夹建索引，免费版永久可用，Pro 一次性买断",
+      "introMarkdown": "Windows 本地 AI 搜图工具，用一句中文描述（如「海滩日落」「孩子笑脸」）就能在几万张照片里找到那张，还能以图搜图、搜照片上的文字；照片和 AI 都在自己电脑上跑、不上传云端，直接在原有文件夹建索引，免费版永久可用，Pro 一次性买断",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://www.seekphoto.cn",
+      "author": "aiyo407",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "cc7a5dcf8e30",
+      "board": "main",
+      "name": "国内AI活动追踪",
+      "intro": "每天汇总国内 AI 大会、分享会和黑客松，合并重复活动，按日历、城市和线上线下查看，可订阅每日邮件简报",
+      "introMarkdown": "每天汇总国内 AI 大会、分享会和黑客松，合并重复活动，按日历、城市和线上线下查看，可订阅每日邮件简报",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://antonailog.com/more/ai-events/",
+      "author": "阿東",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/antonailog"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "7b3646e94aa9",
       "board": "main",
@@ -33527,6 +33574,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "38b615fdcea7",
+      "board": "programmer",
+      "name": "skills",
+      "intro": "Claude Code / Codex 用的 Agent Skill 合集，做调研报告、播客笔记、公众号和小红书稿、生图 prompt 和新 Skill，每个附一个真实跑过的例子",
+      "introMarkdown": "Claude Code / Codex 用的 Agent Skill 合集，做调研报告、播客笔记、公众号和小红书稿、生图 prompt 和新 Skill，每个附一个真实跑过的例子",
+      "status": "live",
+      "date": "2026-11-12",
+      "url": "https://github.com/antonailog/skills",
+      "author": "阿東",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/antonailog"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "994dfb510968",
       "board": "programmer",
