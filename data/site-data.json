@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-13T01:16:36.021Z",
-    "statsSyncedAt": "2026-11-13T01:16:36.021Z",
-    "upstreamSha": "bde8cb7928c430464364c4a91f0f5d5693b7b6a1",
+    "contentSyncedAt": "2026-11-13T01:36:24.134Z",
+    "statsSyncedAt": "2026-11-13T01:36:24.134Z",
+    "upstreamSha": "bce0442597e9e4a69312bbc8d7a21c4cbfa20def",
     "counts": {
       "main": 1630,
       "game": 163,
-      "programmer": 444,
-      "total": 2237
+      "programmer": 445,
+      "total": 2238
     }
   },
   "main": [
@@ -33480,6 +33480,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "443dd53b0adb",
+      "board": "programmer",
+      "name": "Github加速器",
+      "intro": "免费开源 Windows 本地工具，通过优选 IP 来加速 GitHub 和 Cloudflare CDN 网站（非 VPN）",
+      "introMarkdown": "免费开源 Windows 本地工具，通过优选 IP 来加速 GitHub 和 Cloudflare CDN 网站（非 VPN）",
+      "status": "live",
+      "date": "2026-11-13",
+      "url": "https://github.com/bebincas/IPOptimize",
+      "author": "bebincas",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/bebincas"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "38b615fdcea7",
       "board": "programmer",
