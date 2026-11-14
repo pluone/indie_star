@@ -1,16 +1,92 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-14T04:51:50.626Z",
-    "statsSyncedAt": "2026-11-14T04:51:50.626Z",
-    "upstreamSha": "9e9d755a1cb9679f34b88e5e94f501f2ecec1b6c",
+    "contentSyncedAt": "2026-11-14T14:31:53.513Z",
+    "statsSyncedAt": "2026-11-14T14:31:53.513Z",
+    "upstreamSha": "b7777633f5c8a91d849030986fa99e8df77f5142",
     "counts": {
-      "main": 1626,
+      "main": 1624,
       "game": 165,
-      "programmer": 447,
-      "total": 2238
+      "programmer": 448,
+      "total": 2237
     }
   },
   "main": [
+    {
+      "slug": "c22f28038e21",
+      "board": "main",
+      "name": "灵犀 Lyncis",
+      "intro": "国学版 MBTI，输入生日，测出你在《周易》64 卦里的本命卦、身份名和本命神，还能拉朋友合一卦，看你们是什么组合；不算命、不断吉凶，每一句都有古籍出处，支持中英文，网页直接用",
+      "introMarkdown": "国学版 MBTI，输入生日，测出你在《周易》64 卦里的本命卦、身份名和本命神，还能拉朋友合一卦，看你们是什么组合；不算命、不断吉凶，每一句都有古籍出处，支持中英文，网页直接用",
+      "status": "live",
+      "date": "2026-11-14",
+      "url": "https://lyncis.app",
+      "author": "Lorraine",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/LorraineLiuNUS"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "973c3288047c",
+      "board": "main",
+      "name": "AIHOT",
+      "intro": "中文 AI 资讯网站，把模型发布、新产品、研究和行业动态整理成精选与日、周、月报，每条保留原文链接，也可以按主题跟踪进展。打开即读，无需注册",
+      "introMarkdown": "中文 AI 资讯网站，把模型发布、新产品、研究和行业动态整理成精选与日、周、月报，每条保留原文链接，也可以按主题跟踪进展。打开即读，无需注册",
+      "status": "live",
+      "date": "2026-11-14",
+      "url": "https://aihot.news/",
+      "author": "数字生命卡兹克",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/KKKKhazix"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "c11889e280ae",
+      "board": "main",
+      "name": "農民曆",
+      "intro": "面向台湾的农历、宜忌与国定假日查询网站，附资料来源；提供免费的假日行事历订阅，目前包含 2026、2027 年，无需注册即可使用",
+      "introMarkdown": "面向台湾的农历、宜忌与国定假日查询网站，附资料来源；提供免费的假日行事历订阅，目前包含 2026、2027 年，无需注册即可使用 - [订阅教学](https://github.com/CrabMen/nongminli.tw/blob/main/docs/calendar-subscription.md)",
+      "status": "live",
+      "date": "2026-11-14",
+      "url": "https://nongminli.tw/",
+      "author": "CrabMen",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/CrabMen"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "9e58774f5d7d",
+      "board": "main",
+      "name": "光梦 AlphaDrama",
+      "intro": "AI 短剧漫剧与带货视频工作台，把网文小说或商品图一键改写成 60 秒 9:16 竖屏剧本、生成角色正侧背三视图锁脸、拆解 12–18 镜分镜表，接 Seedance / 可灵 / 海螺 / Wan / Veo 批量生视频并配音压字幕导出成片；也支持粘贴爆款短视频链接按镜拆解复刻。新注册送免费体验额度",
+      "introMarkdown": "AI 短剧漫剧与带货视频工作台，把网文小说或商品图一键改写成 60 秒 9:16 竖屏剧本、生成角色正侧背三视图锁脸、拆解 12–18 镜分镜表，接 Seedance / 可灵 / 海螺 / Wan / Veo 批量生视频并配音压字幕导出成片；也支持粘贴爆款短视频链接按镜拆解复刻。新注册送免费体验额度 - [国内直连](https://ad.yosweet.cn/)",
+      "status": "live",
+      "date": "2026-11-14",
+      "url": "https://www.getalphadrama.com/",
+      "author": "Alwzc",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Alwzc"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "48c311baaf34",
       "board": "main",
@@ -30300,105 +30376,6 @@
       ],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "f96b431dde37",
-      "board": "main",
-      "name": "ARR (Annual Recurring Revenue) （年度经常性收入）排行榜",
-      "intro": "爬取了全网公开的 ARR 营收数据做的 founder ARR 榜单，会定期更新，感兴趣的朋友可以看看，说不定你也在这份榜单上面",
-      "introMarkdown": "爬取了全网公开的 ARR 营收数据做的 founder ARR 榜单，会定期更新，感兴趣的朋友可以看看，说不定你也在这份榜单上面",
-      "status": "live",
-      "date": "2025-08-25",
-      "url": "https://arrfounder.com",
-      "author": "北纬27度",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "88ab6ed8aaec",
-      "board": "main",
-      "name": "AI Short Video Factory - 短视频工厂",
-      "intro": "一键生成产品营销与泛内容短视频，AI批量自动剪辑，高颜值跨平台桌面端工具",
-      "introMarkdown": "一键生成产品营销与泛内容短视频，AI批量自动剪辑，高颜值跨平台桌面端工具",
-      "status": "live",
-      "date": "2025-08-25",
-      "url": "https://github.com/YILS-LIN/short-video-factory",
-      "author": "YILS-LIN",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/YILS-LIN"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "fad3b0a3e9e3",
-      "board": "main",
-      "name": "Image Splitter",
-      "intro": "图集拆分工具。帮助游戏开发者或UI设计师快速、方便地从一张雪碧图 (Sprite Sheet) 中，提取出所有独立的精灵icon资源，或按网格分割图片得到其切片。平台支持：mac/win/linux/web",
-      "introMarkdown": "图集拆分工具。帮助`游戏开发者`或`UI设计师`快速、方便地从一张雪碧图 (`Sprite Sheet`) 中，提取出所有独立的精灵icon资源，或按网格分割图片得到其切片。平台支持：mac/win/linux/web",
-      "status": "live",
-      "date": "2025-08-25",
-      "url": "https://github.com/ask-tao/image-splitter",
-      "author": "AskTao",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ask-tao"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "2ea21ddb51bf",
-      "board": "main",
-      "name": "AI 软著生成器",
-      "intro": "AI 快速生成软件著作权（软著）申请所需的文档材料",
-      "introMarkdown": "AI 快速生成软件著作权（软著）申请所需的文档材料",
-      "status": "live",
-      "date": "2025-08-24",
-      "url": "https://ruanzhu.pro",
-      "author": "hackun666",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/hackun666"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "8c50460f3f73",
-      "board": "main",
-      "name": "morse code translator",
-      "intro": "摩斯码翻译器，用来将英文或者日语转为摩斯码，有可视化功能",
-      "introMarkdown": "摩斯码翻译器，用来将英文或者日语转为摩斯码，有可视化功能",
-      "status": "live",
-      "date": "2025-08-23",
-      "url": "https://morsecodetranslator.best/",
-      "author": "SUOWU",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "33c7c4cb8375",
-      "board": "main",
-      "name": "Free Qwen Image Edit AI",
-      "intro": "Qwen Image Edit 网站。高级 AI 图像编辑与完美文本渲染，完美支持中英文文本渲染。",
-      "introMarkdown": "Qwen Image Edit 网站。高级 AI 图像编辑与完美文本渲染，完美支持中英文文本渲染。",
-      "status": "live",
-      "date": "2025-08-22",
-      "url": "https://qwen-image.co",
-      "author": "monsoonw",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
@@ -33480,6 +33457,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "0d6495484e3a",
+      "board": "programmer",
+      "name": "SourceWeft",
+      "intro": "开源 AI 工作站，多智能体、技能库、MCP 和带引用的知识库放在一起，可自托管并使用自己的模型 Key，提供 Web 端与 macOS/Windows/Linux 桌面端",
+      "introMarkdown": "开源 AI 工作站，多智能体、技能库、MCP 和带引用的知识库放在一起，可自托管并使用自己的模型 Key，提供 Web 端与 macOS/Windows/Linux 桌面端 - [更多介绍](https://github.com/SourceWeft/SourceWeft)",
+      "status": "live",
+      "date": "2026-11-14",
+      "url": "https://sourceweft.com/zh-CN",
+      "author": "QThans",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/QThans"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "e0070184681d",
       "board": "programmer",
