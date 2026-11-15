@@ -1,16 +1,68 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-15T00:36:41.779Z",
-    "statsSyncedAt": "2026-11-15T00:36:41.779Z",
-    "upstreamSha": "b7777633f5c8a91d849030986fa99e8df77f5142",
+    "contentSyncedAt": "2026-11-15T01:36:25.152Z",
+    "statsSyncedAt": "2026-11-15T01:36:25.152Z",
+    "upstreamSha": "a7e6978b14e560ad571e66d10aa1f60db993ecaa",
     "counts": {
-      "main": 1624,
+      "main": 1627,
       "game": 165,
       "programmer": 448,
-      "total": 2237
+      "total": 2240
     }
   },
   "main": [
+    {
+      "slug": "43df400be1d2",
+      "board": "main",
+      "name": "运动营养健康指南",
+      "intro": "给普通成年人的中文问答网站，免费、免登录，可直接搜索 465 条关于跑步、力量训练、营养和训练健康的问题。回答优先参考权威指南、专业学会的立场声明和系统综述，每条都标注证据等级并附参考出处",
+      "introMarkdown": "给普通成年人的中文问答网站，免费、免登录，可直接搜索 465 条关于跑步、力量训练、营养和训练健康的问题。回答优先参考权威指南、专业学会的立场声明和系统综述，每条都标注证据等级并附参考出处 - [项目介绍](https://github.com/jiangweiqi001/sports-nutrition-health)",
+      "status": "live",
+      "date": "2026-11-15",
+      "url": "https://jiangweiqi001.github.io/sports-nutrition-health/search.html",
+      "author": "jiangweiqi001",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "c052c9e4f208",
+      "board": "main",
+      "name": "iching.tools",
+      "intro": "在线易经占卜，水墨风界面里点屏幕逐爻掷铜钱起卦，附 64 卦与 384 爻原文解读，可免费 AI 解卦，支持简繁英日韩等 10 种语言",
+      "introMarkdown": "在线易经占卜，水墨风界面里点屏幕逐爻掷铜钱起卦，附 64 卦与 384 爻原文解读，可免费 AI 解卦，支持简繁英日韩等 10 种语言",
+      "status": "live",
+      "date": "2026-11-15",
+      "url": "https://iching.tools/zh-CN",
+      "author": "tusunsun",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tusunsun"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "77f3b9c2b96a",
+      "board": "main",
+      "name": "giffgaff 保号提醒工具",
+      "intro": "境外卡保号日历提醒工具，输入上次使用日期在浏览器本地计算第 5 个月缓冲期并导出 .ics 日历文件，防范跨国号码因逾期未用被注销；纯本地计算不收集号码，免费免注册",
+      "introMarkdown": "境外卡保号日历提醒工具，输入上次使用日期在浏览器本地计算第 5 个月缓冲期并导出 .ics 日历文件，防范跨国号码因逾期未用被注销；纯本地计算不收集号码，免费免注册 - [开源仓库](https://github.com/siuserxiaowei/keep-number-reminder)",
+      "status": "live",
+      "date": "2026-11-14",
+      "url": "https://getgiffgaff.com/tools/keep-number-reminder/",
+      "author": "Nathan",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/siuserxiaowei"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "c22f28038e21",
       "board": "main",
