@@ -1,16 +1,87 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-15T03:36:14.163Z",
-    "statsSyncedAt": "2026-11-15T03:36:14.163Z",
-    "upstreamSha": "ae0666303c68c656f7ffc224546463474adeb9cd",
+    "contentSyncedAt": "2026-11-15T11:11:16.500Z",
+    "statsSyncedAt": "2026-11-15T11:11:16.500Z",
+    "upstreamSha": "e6e17d3c2c1da17e2e1cc756a1bb7ad1b43d244f",
     "counts": {
-      "main": 1628,
-      "game": 165,
-      "programmer": 448,
-      "total": 2241
+      "main": 1620,
+      "game": 166,
+      "programmer": 449,
+      "total": 2235
     }
   },
   "main": [
+    {
+      "slug": "cd5e309a05f3",
+      "board": "main",
+      "name": "图小妥-证件照助手",
+      "intro": "在线证件照制作工具，面向报名、入职等场景，支持自动抠图、构图和换底，可按要求调整像素、DPI与文件大小上限，提供一寸、二寸等常用规格及自定义尺寸，支持2×4、2×5打印排版；提供网页版和微信小程序，当前免费试用，无需额外注册",
+      "introMarkdown": "在线证件照制作工具，面向报名、入职等场景，支持自动抠图、构图和换底，可按要求调整像素、DPI与文件大小上限，提供一寸、二寸等常用规格及自定义尺寸，支持2×4、2×5打印排版；提供网页版和微信小程序，当前免费试用，无需额外注册 - [微信小程序码](https://photo.jimxu.cn/assets/wechat-miniapp-code.jpg)",
+      "status": "live",
+      "date": "2026-11-15",
+      "url": "https://photo.jimxu.cn/",
+      "author": "jimxu",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "6e7b577650df",
+      "board": "main",
+      "name": "LayerSeparator",
+      "intro": "将平面图片拆分为可供后续编辑的位图图层，支持导出分层 PSD 和 PNG ZIP",
+      "introMarkdown": "将平面图片拆分为可供后续编辑的位图图层，支持导出分层 PSD 和 PNG ZIP",
+      "status": "live",
+      "date": "2026-11-15",
+      "url": "https://layerseparator.com/",
+      "author": "Waypernix AI",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Waypernix-AI"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "24eec21be62a",
+      "board": "main",
+      "name": "漫迹",
+      "intro": "自动足迹记录 iPhone App，不用按开始，后台全天记下走过的路和到过的地方，还能从相册点亮以前去过的城市和国家；数据只存在自己的 iCloud，免费",
+      "introMarkdown": "自动足迹记录 iPhone App，不用按开始，后台全天记下走过的路和到过的地方，还能从相册点亮以前去过的城市和国家；数据只存在自己的 iCloud，免费 - [开源仓库](https://github.com/lxyeternal/PathTracker)",
+      "status": "live",
+      "date": "2026-11-15",
+      "url": "https://apps.apple.com/cn/app/id6827694426",
+      "author": "lxyeternal",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxyeternal"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "7d89dc8d916c",
+      "board": "main",
+      "name": "Trace",
+      "intro": "Mac 自动时间记录工具，免费开源，不用手动计时，自动记下每个应用、窗口、文件和网页用了多久，可按标签和项目查看一天的时间线和周报；数据只存在本机，支持中英文",
+      "introMarkdown": "Mac 自动时间记录工具，免费开源，不用手动计时，自动记下每个应用、窗口、文件和网页用了多久，可按标签和项目查看一天的时间线和周报；数据只存在本机，支持中英文",
+      "status": "live",
+      "date": "2026-11-15",
+      "url": "https://github.com/lxyeternal/Trace",
+      "author": "lxyeternal",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxyeternal"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "ef54ed0502d4",
       "board": "main",
@@ -30230,226 +30301,23 @@
       ],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "17fdf6fb491d",
-      "board": "main",
-      "name": "对话翻译器",
-      "intro": "将你的耳机变成实时翻译器，支持双语实时语音自动翻译、AI对话问答你的翻译记录",
-      "introMarkdown": "将你的耳机变成实时翻译器，支持双语实时语音自动翻译、AI对话问答你的翻译记录",
-      "status": "live",
-      "date": "2025-09-01",
-      "url": "https://www.talk-translator.com",
-      "author": "JR",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6f5f98bb537d",
-      "board": "main",
-      "name": "Nano Banana AI",
-      "intro": "基于市面上最强的 AI 图像编辑模型 Nano Banana 开发的图片编辑器，用嘴改图、保持角色一致性、控制细节、图片融合",
-      "introMarkdown": "基于市面上最强的 AI 图像编辑模型 Nano Banana 开发的图片编辑器，用嘴改图、保持角色一致性、控制细节、图片融合",
-      "status": "live",
-      "date": "2025-09-01",
-      "url": "https://nanobanana-ai.net",
-      "author": "Carol",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/carolgryman-sudo"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f09b79725369",
-      "board": "main",
-      "name": "LaunchitX",
-      "intro": "新产品(创意)启动平台，适合新产品宣发",
-      "introMarkdown": "新产品(创意)启动平台，适合新产品宣发",
-      "status": "live",
-      "date": "2025-09-01",
-      "url": "https://launchitx.com",
-      "author": "yiquan00",
-      "authorLinks": [
-        {
-          "label": "yiquan00",
-          "url": "https://github.com/yiquan00"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "378d1c94f71e",
-      "board": "main",
-      "name": "Nano Banana",
-      "intro": "Nano Banana 使用谷歌最新AI技术，提供角色一致性保持、自然语言编辑、多图融合等强大功能。无论是人物换装、场景变换还是精准局部编辑，都能保持原有特征，让您的创意无限可能。",
-      "introMarkdown": "Nano Banana 使用谷歌最新AI技术，提供角色一致性保持、自然语言编辑、多图融合等强大功能。无论是人物换装、场景变换还是精准局部编辑，都能保持原有特征，让您的创意无限可能。",
-      "status": "live",
-      "date": "2025-08-31",
-      "url": "https://usenanobanana.com",
-      "author": "FlickerMi",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/FlickerMi"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9b5ff99bf034",
-      "board": "main",
-      "name": "信息系统项目管理师重点总结itpm",
-      "intro": "信息系统项目管理师高项的知识总结与记录网站，持续更新，软考的部分朋友可用",
-      "introMarkdown": "信息系统项目管理师高项的知识总结与记录网站，持续更新，软考的部分朋友可用",
-      "status": "live",
-      "date": "2025-08-31",
-      "url": "https://www.itpmp.cc/",
-      "author": "laine001",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/laine001"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "251726d584a1",
-      "board": "main",
-      "name": "Nano Banana AI 图像编辑器",
-      "intro": "基于最先进的 AI 图像编辑模型 Nano Banana 开发的图片编辑器，用嘴改图、保持角色一致性、控制细节、图片融合",
-      "introMarkdown": "基于最先进的 AI 图像编辑模型 Nano Banana 开发的图片编辑器，用嘴改图、保持角色一致性、控制细节、图片融合",
-      "status": "live",
-      "date": "2025-08-29",
-      "url": "https://picir.ai/",
-      "author": "疯狂的小波",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6710deee6e98",
-      "board": "main",
-      "name": "PrivyDrop",
-      "intro": "开源简单易用的 P2P 文本文件传输工具网页，支持传输任意大小的文件",
-      "introMarkdown": "开源简单易用的 P2P 文本文件传输工具网页，支持传输任意大小的文件 - [更多介绍](https://www.privydrop.app/features)",
-      "status": "live",
-      "date": "2025-08-28",
-      "url": "https://www.privydrop.app",
-      "author": "david_bai",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/david-bai00/PrivyDrop"
-        },
-        {
-          "label": "博客",
-          "url": "https://www.privydrop.app/blog"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "3bc33f385585",
-      "board": "main",
-      "name": "Flower Drawing 花卉绘画",
-      "intro": "专注于花卉绘画的网站，有不同的花的种类可以选择，只要你用语言描述出样子，你可以画任何的花卉。",
-      "introMarkdown": "专注于花卉绘画的网站，有不同的花的种类可以选择，只要你用语言描述出样子，你可以画任何的花卉。",
-      "status": "live",
-      "date": "2025-08-28",
-      "url": "https://flowerdrawing.site/",
-      "author": "iam-tin",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/iam-tin"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "4579229a1f49",
-      "board": "main",
-      "name": "Fish Drawing 鱼类绘画",
-      "intro": "专注于画各种鱼的网站，你可以随心所欲画出任何你想画的鱼的图片。",
-      "introMarkdown": "专注于画各种鱼的网站，你可以随心所欲画出任何你想画的鱼的图片。",
-      "status": "live",
-      "date": "2025-08-28",
-      "url": "https://fishdrawing.site/",
-      "author": "iam-tin",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/iam-tin"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "72fe0b33e762",
-      "board": "main",
-      "name": "简链",
-      "intro": "打造个性化简历，赢得理想工作",
-      "introMarkdown": "打造个性化简历，赢得理想工作",
-      "status": "live",
-      "date": "2025-08-27",
-      "url": "https://www.cvlinkhub.online/",
-      "author": "flingyp",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/flingyp"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "87f36f005b23",
-      "board": "main",
-      "name": "EzWebp",
-      "intro": "视频转动图（WebP/GIF）在线工具，本地执行，数据安全。",
-      "introMarkdown": "视频转动图（WebP/GIF）在线工具，本地执行，数据安全。",
-      "status": "live",
-      "date": "2025-08-27",
-      "url": "https://www.ezwebp.com/",
-      "author": "小灰雀",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d9f4e34df8c6",
-      "board": "main",
-      "name": "数字生命管",
-      "intro": "抖音热搜时间轴， 一小时自动抓取一次，通过工作流全网搜关于这个事件的时间线，然后  AI 梳理，AI 配图",
-      "introMarkdown": "抖音热搜时间轴， 一小时自动抓取一次，通过工作流全网搜关于这个事件的时间线，然后  AI 梳理，AI 配图",
-      "status": "live",
-      "date": "2025-08-26",
-      "url": "https://news.lizer.cc/",
-      "author": "Lizer",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Loverz55"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
+    {
+      "slug": "5313f1a854b0",
+      "board": "game",
+      "name": "白日梦想家 Story",
+      "intro": "中文互动小说，选一本故事读开场，再用自己的话写下角色的行动或对白，由 AI 续写剧情，浏览器免注册可免费试玩两回合",
+      "introMarkdown": "中文互动小说，选一本故事读开场，再用自己的话写下角色的行动或对白，由 AI 续写剧情，浏览器免注册可免费试玩两回合 - [直接试玩](https://hidaydream.com/demo) · [玩法介绍](https://hidaydream.com/story/about)",
+      "status": "live",
+      "date": "2026-11-15",
+      "url": "https://hidaydream.com/",
+      "author": "白日梦想家 Hi Daydream",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "c463537a878c",
       "board": "game",
@@ -33528,6 +33396,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "e4951cb7d2f6",
+      "board": "programmer",
+      "name": "AimStack（三知弟弟）",
+      "intro": "纯 C / 纯 stdlib 从零手写的本地 AI 全栈，含三值推理引擎、插件总线、多引擎爬虫、全文检索知识库、训练管线和 Web UI，零第三方依赖、断网可运行；2018 年 i7-7500U 无 GPU 笔记本实测可跑 BitNet 2B 模型（3.2 tok/s），AGPL-3.0 开源",
+      "introMarkdown": "纯 C / 纯 stdlib 从零手写的本地 AI 全栈，含三值推理引擎、插件总线、多引擎爬虫、全文检索知识库、训练管线和 Web UI，零第三方依赖、断网可运行；2018 年 i7-7500U 无 GPU 笔记本实测可跑 BitNet 2B 模型（3.2 tok/s），AGPL-3.0 开源",
+      "status": "live",
+      "date": "2026-11-15",
+      "url": "https://github.com/tanxiansheng221/aimstack-sanzhidiji",
+      "author": "tanxiansheng221",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tanxiansheng221"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "0d6495484e3a",
       "board": "programmer",
