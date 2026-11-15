@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-15T15:06:21.340Z",
-    "statsSyncedAt": "2026-11-15T15:06:21.340Z",
-    "upstreamSha": "25b43e80f96508dfe22822d11e755a1fe2b81340",
+    "contentSyncedAt": "2026-11-15T21:21:15.509Z",
+    "statsSyncedAt": "2026-11-15T21:21:15.509Z",
+    "upstreamSha": "de5a6555886534bdb1399cbe0f515dcfec9fe015",
     "counts": {
-      "main": 1621,
+      "main": 1622,
       "game": 166,
       "programmer": 449,
-      "total": 2236
+      "total": 2237
     }
   },
   "main": [
+    {
+      "slug": "e6747100c5f1",
+      "board": "main",
+      "name": "GIFLance",
+      "intro": "免费在线GIF转换器 —— 裁剪、压缩、视频转GIF、图片转GIF",
+      "introMarkdown": "免费在线GIF转换器 —— 裁剪、压缩、视频转GIF、图片转GIF",
+      "status": "live",
+      "date": "2026-11-16",
+      "url": "https://www.giflance.com",
+      "author": "ljxyaly",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ljxyaly"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "82433ccd32b6",
       "board": "main",
