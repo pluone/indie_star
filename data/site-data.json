@@ -1,16 +1,30 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-15T11:11:16.500Z",
-    "statsSyncedAt": "2026-11-15T11:11:16.500Z",
-    "upstreamSha": "e6e17d3c2c1da17e2e1cc756a1bb7ad1b43d244f",
+    "contentSyncedAt": "2026-11-15T15:06:21.340Z",
+    "statsSyncedAt": "2026-11-15T15:06:21.340Z",
+    "upstreamSha": "25b43e80f96508dfe22822d11e755a1fe2b81340",
     "counts": {
-      "main": 1620,
+      "main": 1621,
       "game": 166,
       "programmer": 449,
-      "total": 2235
+      "total": 2236
     }
   },
   "main": [
+    {
+      "slug": "82433ccd32b6",
+      "board": "main",
+      "name": "AIClipMaker.org",
+      "intro": "AI 视频切片工具，把播客、直播、访谈等长视频按你选的时间段切成 15–90 秒的片段，每次最多 10 段，用 AI 人脸跟踪重新构图成 9:16 竖屏，让说话的人始终在画面里，导出 720×1280 MP4，可直接发 TikTok、Reels 和 YouTube Shorts",
+      "introMarkdown": "AI 视频切片工具，把播客、直播、访谈等长视频按你选的时间段切成 15–90 秒的片段，每次最多 10 段，用 AI 人脸跟踪重新构图成 9:16 竖屏，让说话的人始终在画面里，导出 720×1280 MP4，可直接发 TikTok、Reels 和 YouTube Shorts",
+      "status": "live",
+      "date": "2026-11-15",
+      "url": "https://aiclipmaker.org",
+      "author": "YeefyisOK",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "cd5e309a05f3",
       "board": "main",
