@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-15T01:36:25.152Z",
-    "statsSyncedAt": "2026-11-15T01:36:25.152Z",
-    "upstreamSha": "a7e6978b14e560ad571e66d10aa1f60db993ecaa",
+    "contentSyncedAt": "2026-11-15T03:36:14.163Z",
+    "statsSyncedAt": "2026-11-15T03:36:14.163Z",
+    "upstreamSha": "ae0666303c68c656f7ffc224546463474adeb9cd",
     "counts": {
-      "main": 1627,
+      "main": 1628,
       "game": 165,
       "programmer": 448,
-      "total": 2240
+      "total": 2241
     }
   },
   "main": [
+    {
+      "slug": "ef54ed0502d4",
+      "board": "main",
+      "name": "GSC Vault",
+      "intro": "给网站站长的 Chrome 扩展，打开即用：批量对照 Search Console 官方数据，列出 Sitemap 里哪些页面没被 Google 收录以及原因，并把 GSC 数据自动备份到自己的 Google Drive，不怕超过 16 个月被删除。3 个站点以内免费",
+      "introMarkdown": "给网站站长的 Chrome 扩展，打开即用：批量对照 Search Console 官方数据，列出 Sitemap 里哪些页面没被 Google 收录以及原因，并把 GSC 数据自动备份到自己的 Google Drive，不怕超过 16 个月被删除。3 个站点以内免费",
+      "status": "live",
+      "date": "2026-11-15",
+      "url": "https://gscvault.app/zh",
+      "author": "Quanneng BI",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/biquanneng"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "43df400be1d2",
       "board": "main",
