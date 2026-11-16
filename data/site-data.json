@@ -1,16 +1,30 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-16T15:06:21.523Z",
-    "statsSyncedAt": "2026-11-16T15:06:21.523Z",
-    "upstreamSha": "c347c45e82d0d149ad2c929ab47f711223c7344b",
+    "contentSyncedAt": "2026-11-16T19:26:17.015Z",
+    "statsSyncedAt": "2026-11-16T19:26:17.015Z",
+    "upstreamSha": "54d93b7949269cd63559e496c89f816f775bf17a",
     "counts": {
-      "main": 1620,
-      "game": 166,
-      "programmer": 449,
-      "total": 2235
+      "main": 1621,
+      "game": 167,
+      "programmer": 450,
+      "total": 2238
     }
   },
   "main": [
+    {
+      "slug": "cd8b32d827af",
+      "board": "main",
+      "name": "Telo",
+      "intro": "iPhone 和 Apple Watch 上的 AI 健康助手，把 Apple 健康里的睡眠、运动与心率变异性放在一起，方便查看每日状态，也能用语音、照片或文字记录健康事件",
+      "introMarkdown": "iPhone 和 Apple Watch 上的 AI 健康助手，把 Apple 健康里的睡眠、运动与心率变异性放在一起，方便查看每日状态，也能用语音、照片或文字记录健康事件 - [中国区 App Store](https://apps.apple.com/cn/app/id6761092493)",
+      "status": "live",
+      "date": "2026-11-17",
+      "url": "https://telo.ferryman.app/",
+      "author": "BlynkAI",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "d3fab56f5601",
       "board": "main",
@@ -30311,6 +30325,20 @@
   ],
   "game": [
     {
+      "slug": "ecf8b9638779",
+      "board": "game",
+      "name": "Elunvi Games",
+      "intro": "免费网页游戏平台，收录 69 款独立游戏与 AI 辅助创作作品，打开浏览器即可玩，每款列明操作方式、支持设备和游戏语言，可按玩法分类筛选",
+      "introMarkdown": "免费网页游戏平台，收录 69 款独立游戏与 AI 辅助创作作品，打开浏览器即可玩，每款列明操作方式、支持设备和游戏语言，可按玩法分类筛选",
+      "status": "live",
+      "date": "2026-11-17",
+      "url": "https://elunvi.fun/?lang=zh-Hans&src=gh-cnindie",
+      "author": "Elunvi Games",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "5313f1a854b0",
       "board": "game",
       "name": "白日梦想家 Story",
@@ -33402,6 +33430,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "27cdd7474cdc",
+      "board": "programmer",
+      "name": "同事AI 订单台账核查技能",
+      "intro": "本机核查 CSV 和 XLSX 订单表的重复编号、异常金额和退款状态，生成可回查源行的异常清单和 HTML 报告，支付宝 ¥19.90 一次买断",
+      "introMarkdown": "本机核查 CSV 和 XLSX 订单表的重复编号、异常金额和退款状态，生成可回查源行的异常清单和 HTML 报告，支付宝 ¥19.90 一次买断",
+      "status": "live",
+      "date": "2026-11-17",
+      "url": "https://sqtlow7jjmgjdgncr4fhmf7pki.srv.us/skills/order-audit",
+      "author": "Arron-byte",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Arron-byte"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "e4951cb7d2f6",
       "board": "programmer",
