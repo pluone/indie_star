@@ -1,16 +1,92 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-16T03:06:24.026Z",
-    "statsSyncedAt": "2026-11-16T03:06:24.026Z",
-    "upstreamSha": "a07c4da7607dce5af2062d7089efee28702193bc",
+    "contentSyncedAt": "2026-11-16T11:26:19.825Z",
+    "statsSyncedAt": "2026-11-16T11:26:19.825Z",
+    "upstreamSha": "c54576cbe8b3ee4e58030a1135d81dd85b2bcdb0",
     "counts": {
-      "main": 1623,
+      "main": 1628,
       "game": 166,
       "programmer": 449,
-      "total": 2238
+      "total": 2243
     }
   },
   "main": [
+    {
+      "slug": "a112e0ade3ec",
+      "board": "main",
+      "name": "同事AI 订单 CSV 自查",
+      "intro": "免费订单表格自查工具，在浏览器内找出重复或空白的订单编号以及空白金额，导出带原表行号的异常清单，免注册",
+      "introMarkdown": "免费订单表格自查工具，在浏览器内找出重复或空白的订单编号以及空白金额，导出带原表行号的异常清单，免注册",
+      "status": "live",
+      "date": "2026-11-16",
+      "url": "https://sqtlow7jjmgjdgncr4fhmf7pki.srv.us/tools/order-csv-check",
+      "author": "Arron-byte",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Arron-byte"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d752478c4df1",
+      "board": "main",
+      "name": "iForgot",
+      "intro": "点赞收藏同步 App，把小红书、抖音里点过赞、收藏过的帖子同步到一处，以前攒的也会补上；授权一次后，Claude、ChatGPT 这类 AI 就能照着你收藏过的东西推荐吃的玩的，目前只有 iPhone 版",
+      "introMarkdown": "点赞收藏同步 App，把小红书、抖音里点过赞、收藏过的帖子同步到一处，以前攒的也会补上；授权一次后，Claude、ChatGPT 这类 AI 就能照着你收藏过的东西推荐吃的玩的，目前只有 iPhone 版 - [App Store](https://apps.apple.com/cn/app/id6740919579)",
+      "status": "live",
+      "date": "2026-11-16",
+      "url": "https://iforgot.ai/zh?s=cnindie",
+      "author": "Caspian",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/dohooo"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "3ab26c32ab50",
+      "board": "main",
+      "name": "SRT 字幕检查器",
+      "intro": "浏览器里校对 SRT 字幕，检查行长和阅读速度，还能做简繁转换，文件留在本地不上传",
+      "introMarkdown": "浏览器里校对 SRT 字幕，检查行长和阅读速度，还能做简繁转换，文件留在本地不上传",
+      "status": "live",
+      "date": "2026-11-16",
+      "url": "https://todanley.github.io/srt-subtitle-checker/",
+      "author": "Stanley J",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/todanley"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "1935198b857b",
+      "board": "main",
+      "name": "App 上架字数统计",
+      "intro": "按 App Store / Google Play 官方字段限制统计上架文案字数，含关键词检查，文案留在浏览器不上传",
+      "introMarkdown": "按 App Store / Google Play 官方字段限制统计上架文案字数，含关键词检查，文案留在浏览器不上传",
+      "status": "live",
+      "date": "2026-11-16",
+      "url": "https://todanley.github.io/app-store-listing-counter/",
+      "author": "Stanley J",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/todanley"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "c6dfef2a8bf3",
       "board": "main",
@@ -44,6 +120,25 @@
         {
           "label": "Github",
           "url": "https://github.com/ljxyaly"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "c019a0ed7481",
+      "board": "main",
+      "name": "Face Rate",
+      "intro": "在线面部对称度测试，用面部关键点比对左右两侧并给出比例数据，分析在浏览器本地完成，图片 2 小时内删除，结果仅供娱乐参考",
+      "introMarkdown": "在线面部对称度测试，用面部关键点比对左右两侧并给出比例数据，分析在浏览器本地完成，图片 2 小时内删除，结果仅供娱乐参考",
+      "status": "live",
+      "date": "2026-11-16",
+      "url": "https://facerate.co/face-symmetry-test/",
+      "author": "Robin2027",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Robin2027"
         }
       ],
       "likes": 0,
