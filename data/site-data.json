@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-16T00:37:38.985Z",
-    "statsSyncedAt": "2026-11-16T00:37:38.985Z",
-    "upstreamSha": "de5a6555886534bdb1399cbe0f515dcfec9fe015",
+    "contentSyncedAt": "2026-11-16T03:06:24.026Z",
+    "statsSyncedAt": "2026-11-16T03:06:24.026Z",
+    "upstreamSha": "a07c4da7607dce5af2062d7089efee28702193bc",
     "counts": {
-      "main": 1622,
+      "main": 1623,
       "game": 166,
       "programmer": 449,
-      "total": 2237
+      "total": 2238
     }
   },
   "main": [
+    {
+      "slug": "c6dfef2a8bf3",
+      "board": "main",
+      "name": "English Dialogue",
+      "intro": "沉浸式英语学习网站（免费），提供 600+ 真实生活场景、3,300+ 对话课程和 2,800+ 高频词汇，支持中英双语对照、AI 口语评分、听说读写互动练习及间隔重复复习，无需注册",
+      "introMarkdown": "沉浸式英语学习网站（免费），提供 600+ 真实生活场景、3,300+ 对话课程和 2,800+ 高频词汇，支持中英双语对照、AI 口语评分、听说读写互动练习及间隔重复复习，无需注册",
+      "status": "live",
+      "date": "2026-11-16",
+      "url": "https://english-dialogue.com/zh",
+      "author": "Alex",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/zxcHolmes"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "e6747100c5f1",
       "board": "main",
