@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-16T11:26:19.825Z",
-    "statsSyncedAt": "2026-11-16T11:26:19.825Z",
-    "upstreamSha": "c54576cbe8b3ee4e58030a1135d81dd85b2bcdb0",
+    "contentSyncedAt": "2026-11-16T11:31:21.707Z",
+    "statsSyncedAt": "2026-11-16T11:31:21.707Z",
+    "upstreamSha": "d07e4d9a137d77f7c82dad75073845f5641058df",
     "counts": {
-      "main": 1628,
+      "main": 1618,
       "game": 166,
       "programmer": 449,
-      "total": 2243
+      "total": 2233
     }
   },
   "main": [
+    {
+      "slug": "853f66694482",
+      "board": "main",
+      "name": "拾页 Shiye",
+      "intro": "K12 亲子学习工具，输入知识点，一键生成一页纸互动学习手账",
+      "introMarkdown": "K12 亲子学习工具，输入知识点，一键生成一页纸互动学习手账",
+      "status": "live",
+      "date": "2026-11-16",
+      "url": "https://shiye.leiping.dev/",
+      "author": "Perry Lei",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/meekr"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "bea23f544bbc",
+      "board": "main",
+      "name": "ToolCraft",
+      "intro": "PDF 转 JPG、图片压缩、PDF 合并等 50 个文件工具，全部在浏览器里处理——文件不上传、无需登录、不限次数，装成 PWA 后断网也能用",
+      "introMarkdown": "PDF 转 JPG、图片压缩、PDF 合并等 50 个文件工具，全部在浏览器里处理——文件不上传、无需登录、不限次数，装成 PWA 后断网也能用",
+      "status": "live",
+      "date": "2026-11-16",
+      "url": "https://toolcraftbox.com",
+      "author": "listone075-sys",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/listone075-sys"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "c019a0ed7481",
+      "board": "main",
+      "name": "Face Rate",
+      "intro": "面部对称度测试，用面部关键点比对左右两侧并给出比例数据，分析在浏览器本地完成，图片 2 小时内删除，结果仅供娱乐参考",
+      "introMarkdown": "面部对称度测试，用面部关键点比对左右两侧并给出比例数据，分析在浏览器本地完成，图片 2 小时内删除，结果仅供娱乐参考",
+      "status": "live",
+      "date": "2026-11-16",
+      "url": "https://facerate.co/face-symmetry-test/",
+      "author": "Robin2027",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Robin2027"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "a112e0ade3ec",
       "board": "main",
@@ -120,25 +177,6 @@
         {
           "label": "Github",
           "url": "https://github.com/ljxyaly"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "c019a0ed7481",
-      "board": "main",
-      "name": "Face Rate",
-      "intro": "在线面部对称度测试，用面部关键点比对左右两侧并给出比例数据，分析在浏览器本地完成，图片 2 小时内删除，结果仅供娱乐参考",
-      "introMarkdown": "在线面部对称度测试，用面部关键点比对左右两侧并给出比例数据，分析在浏览器本地完成，图片 2 小时内删除，结果仅供娱乐参考",
-      "status": "live",
-      "date": "2026-11-16",
-      "url": "https://facerate.co/face-symmetry-test/",
-      "author": "Robin2027",
-      "authorLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/Robin2027"
         }
       ],
       "likes": 0,
@@ -30232,218 +30270,6 @@
         {
           "label": "Github",
           "url": "https://github.com/prompt-2-tool"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "de8d780e7bb6",
-      "board": "main",
-      "name": "PDF 编辑器",
-      "intro": "简易的 PDF 编辑器",
-      "introMarkdown": "简易的 PDF 编辑器",
-      "status": "live",
-      "date": "2025-09-06",
-      "url": "https://pdf-editor.uyidev.com",
-      "author": "ljxyaly",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ljxyaly"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "8fc016774b9e",
-      "board": "main",
-      "name": "GIF 助手",
-      "intro": "GIF 合并与分解",
-      "introMarkdown": "GIF 合并与分解",
-      "status": "live",
-      "date": "2025-09-06",
-      "url": "https://gif.uyidev.com",
-      "author": "ljxyaly",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ljxyaly"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "8d27305aedc0",
-      "board": "main",
-      "name": "AI ASMR视频生成器",
-      "intro": "AI ASMR视频生成器（采用先进 Veo3 技术）",
-      "introMarkdown": "AI ASMR视频生成器（采用先进 Veo3 技术）",
-      "status": "live",
-      "date": "2025-09-06",
-      "url": "https://asmrvideo.ai",
-      "author": "Jazz Jay",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "a5bdce67d251",
-      "board": "main",
-      "name": "AI Miniatur",
-      "intro": "一键制作微缩模型的 AI 图片网站，用户不需要操心提示词，通过预制的提示词模板能快速制作微缩模型图片。",
-      "introMarkdown": "一键制作微缩模型的 AI 图片网站，用户不需要操心提示词，通过预制的提示词模板能快速制作微缩模型图片。",
-      "status": "live",
-      "date": "2025-09-06",
-      "url": "https://aiminiatur.com/",
-      "author": "Jammy",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/chenminjie24"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f2aeda26f4e8",
-      "board": "main",
-      "name": "Imagable AI",
-      "intro": "人工智能 图片编辑和生成工具，用户可以不需要设计的技术即可通过提示词一键生成和编辑照片或图片。",
-      "introMarkdown": "人工智能 图片编辑和生成工具，用户可以不需要设计的技术即可通过提示词一键生成和编辑照片或图片。",
-      "status": "live",
-      "date": "2025-09-06",
-      "url": "https://imagable.ai/",
-      "author": "tianqi",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/allenalston"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d6b1082201e7",
-      "board": "main",
-      "name": "Runway Aleph",
-      "intro": "人工智能 视频编辑平台，用简单的文本提示转换视频内容。用户可以在几分钟内添加/删除对象，生成新的相机角度，应用风格转移，并修改具有专业质量结果的照明",
-      "introMarkdown": "人工智能 视频编辑平台，用简单的文本提示转换视频内容。用户可以在几分钟内添加/删除对象，生成新的相机角度，应用风格转移，并修改具有专业质量结果的照明",
-      "status": "live",
-      "date": "2025-09-05",
-      "url": "https://runwayaleph.net/",
-      "author": "Jazz Jay",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0d548c85c4bb",
-      "board": "main",
-      "name": "Copy My Text",
-      "intro": "将你的 Markdown 文本秒变海报或短链，安全、优雅地分享。",
-      "introMarkdown": "将你的 Markdown 文本秒变海报或短链，安全、优雅地分享。",
-      "status": "live",
-      "date": "2025-09-05",
-      "url": "https://www.copymytxt.com",
-      "author": "Galen Dai",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/galendai"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0f542d4a6179",
-      "board": "main",
-      "name": "APKExport",
-      "intro": "APK 导出工具，可以非常方便的导出和分享 apk 文件",
-      "introMarkdown": "APK 导出工具，可以非常方便的导出和分享 apk 文件 - [更多介绍](https://leftshine.gitlab.io/apkexport)",
-      "status": "live",
-      "date": "2025-09-05",
-      "url": "https://github.com/leftshine/APKExport",
-      "author": "leftshine",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/leftshine"
-        },
-        {
-          "label": "gitee",
-          "url": "https://gitee.com/leftshine"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "306700ebb945",
-      "board": "main",
-      "name": "OnePractice",
-      "intro": "英语四六级真题网站",
-      "introMarkdown": "英语四六级真题网站",
-      "status": "live",
-      "date": "2025-09-04",
-      "url": "https://moon.onepractice.top",
-      "author": "AprDeci",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/AprDeci"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "59f15a64b03c",
-      "board": "main",
-      "name": "Brave Pink Hero Green",
-      "intro": "用粉色和绿色双色调照片滤镜美化照片。处理快速、私密，并且完全在您的浏览器中完成。",
-      "introMarkdown": "用粉色和绿色双色调照片滤镜美化照片。处理快速、私密，并且完全在您的浏览器中完成。",
-      "status": "live",
-      "date": "2025-09-04",
-      "url": "https://bravepinkherogreen.com",
-      "author": "Ethan Sunray",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6089d8186cfd",
-      "board": "main",
-      "name": "三角形简易计算器",
-      "intro": "输入任意三个参数（边长、角度）既可以绘制出对应的三角形，并计算出其他的参数。欢迎体验和吐槽",
-      "introMarkdown": "输入任意三个参数（边长、角度）既可以绘制出对应的三角形，并计算出其他的参数。欢迎体验和吐槽",
-      "status": "live",
-      "date": "2025-09-03",
-      "url": "https://wbshm.github.io/show/mini_triangle/mini_triangle.html",
-      "author": "wbshm",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "a8fce4e31890",
-      "board": "main",
-      "name": "nanobanana.co",
-      "intro": "Nanobanana.co 是革命性的人工智能图像编辑平台，通过智能文本驱动编辑改变创意工作流程。无论您是数字艺术家，内容创作者还是营销专业人士，每次都可以零学习曲线和完美结果体验 AI 图像编辑的未来。",
-      "introMarkdown": "Nanobanana.co 是革命性的人工智能图像编辑平台，通过智能文本驱动编辑改变创意工作流程。无论您是数字艺术家，内容创作者还是营销专业人士，每次都可以零学习曲线和完美结果体验 AI 图像编辑的未来。",
-      "status": "live",
-      "date": "2025-09-02",
-      "url": "https://nanobanana.co/",
-      "author": "Jay6343",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Jay6343"
         }
       ],
       "likes": 0,
