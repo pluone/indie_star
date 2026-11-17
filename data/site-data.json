@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-17T11:26:05.941Z",
-    "statsSyncedAt": "2026-11-17T11:26:05.941Z",
-    "upstreamSha": "605a9a9ef201e4b65435efcbfe4a7a837e05fd11",
+    "contentSyncedAt": "2026-11-17T15:05:59.824Z",
+    "statsSyncedAt": "2026-11-17T15:05:59.824Z",
+    "upstreamSha": "6a28f36f8d435d6f29a8f0f991b327e0307bf60c",
     "counts": {
-      "main": 1618,
+      "main": 1619,
       "game": 167,
       "programmer": 451,
-      "total": 2236
+      "total": 2237
     }
   },
   "main": [
+    {
+      "slug": "9e0dbd012123",
+      "board": "main",
+      "name": "叮当小宝CS",
+      "intro": "给中小电商卖家的 Windows AI 客服助手，支持千牛（淘宝/天猫）、拼多多、京东、抖店、快手、小红书、微信、闲鱼 8 个平台自动回复；买家发图片能识别，可设为「人工检查后发送」，知识库保存在本机不上云；注册免费，每天 30 条 AI 接待额度",
+      "introMarkdown": "给中小电商卖家的 Windows AI 客服助手，支持千牛（淘宝/天猫）、拼多多、京东、抖店、快手、小红书、微信、闲鱼 8 个平台自动回复；买家发图片能识别，可设为「人工检查后发送」，知识库保存在本机不上云；注册免费，每天 30 条 AI 接待额度 - [GitHub 发布页](https://github.com/22109906/DingDangCS)",
+      "status": "live",
+      "date": "2026-11-17",
+      "url": "https://dingdang.asia/?ch=cnindie",
+      "author": "22109906",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/22109906"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "1bf7ef186264",
       "board": "main",
@@ -96,7 +115,7 @@
       "board": "main",
       "name": "Bazi Diff",
       "intro": "免注册的四柱八字试算网站，出生时间只记得大概时，也能按时段比较五种排盘设置，查看哪些柱一致、哪些可能变化，出生资料在浏览器内计算",
-      "introMarkdown": "免注册的四柱八字试算网站，出生时间只记得大概时，也能按时段比较五种排盘设置，查看哪些柱一致、哪些可能变化，出生资料在浏览器内计算 - [中文说明](https://bazi-diff.pages.dev/guides/bazi-without-exact-birth-time/zh-hans/)",
+      "introMarkdown": "免注册的四柱八字试算网站，出生时间只记得大概时，也能按时段比较五种排盘设置，查看哪些柱一致、哪些可能变化，出生资料在浏览器内计算 - [中文说明](https://bazi-diff.pages.dev/guides/bazi-without-exact-birth-time/zh-hans/) · [两岗事业样稿](https://bazi-diff.pages.dev/sample-report/career/zh-hans/?utm_source=chinese_indie_dev&utm_medium=community&utm_campaign=career_sample_zh)",
       "status": "live",
       "date": "2026-11-17",
       "url": "https://bazi-diff.pages.dev/chart/?time=range&utm_source=chinese_indie_dev&utm_medium=community&utm_campaign=birth_time_zh",
@@ -142,8 +161,8 @@
       "slug": "1a322f3170d0",
       "board": "main",
       "name": "HumanPen",
-      "intro": "AI 文档处理与翻译平台，支持 12 种语言文档翻译（PDF/DOCX/PPTX/XLSX/EPUB/HTML/TXT 保留原排版）、DOCX/PPTX/TXT 文档级润色（Humanize）、DOCX 精简与引文格式校正，注册即赠 100 积分（按积分计费的商业服务）",
-      "introMarkdown": "AI 文档处理与翻译平台，支持 12 种语言文档翻译（PDF/DOCX/PPTX/XLSX/EPUB/HTML/TXT 保留原排版）、DOCX/PPTX/TXT 文档级润色（Humanize）、DOCX 精简与引文格式校正，注册即赠 100 积分（按积分计费的商业服务）",
+      "intro": "AI 文档处理与翻译平台，支持 12 种语言文档翻译（PDF/DOCX/PPTX/XLSX/EPUB/HTML/TXT 尽量保留原排版）、DOCX/PPTX/TXT 文档级润色（Humanize）、DOCX 精简与引文格式校正，注册即赠 100 积分（按积分计费的商业服务）",
+      "introMarkdown": "AI 文档处理与翻译平台，支持 12 种语言文档翻译（PDF/DOCX/PPTX/XLSX/EPUB/HTML/TXT 尽量保留原排版）、DOCX/PPTX/TXT 文档级润色（Humanize）、DOCX 精简与引文格式校正，注册即赠 100 积分（按积分计费的商业服务）",
       "status": "live",
       "date": "2026-11-16",
       "url": "https://humanpen.net",
