@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-17T15:05:59.824Z",
-    "statsSyncedAt": "2026-11-17T15:05:59.824Z",
-    "upstreamSha": "6a28f36f8d435d6f29a8f0f991b327e0307bf60c",
+    "contentSyncedAt": "2026-11-17T19:25:57.774Z",
+    "statsSyncedAt": "2026-11-17T19:25:57.774Z",
+    "upstreamSha": "423d98b1156ad4682814931e6392e68db89ba15a",
     "counts": {
       "main": 1619,
       "game": 167,
-      "programmer": 451,
-      "total": 2237
+      "programmer": 452,
+      "total": 2238
     }
   },
   "main": [
@@ -33406,6 +33406,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "3a941cb61af4",
+      "board": "programmer",
+      "name": "Lastout",
+      "intro": "macOS 终端输出工具。在任何 App 里按 ⌃⌥⌘C，把上一条终端命令的输出整理好复制出来，直接粘给 AI：长日志只留开头、报错附近和结尾，识别到的密钥先打码，还在跑的 dev server 也能复制；另带 lo 命令行和只读 MCP。闭源，14 天免费试用，之后 29 美元买断",
+      "introMarkdown": "macOS 终端输出工具。在任何 App 里按 ⌃⌥⌘C，把上一条终端命令的输出整理好复制出来，直接粘给 AI：长日志只留开头、报错附近和结尾，识别到的密钥先打码，还在跑的 dev server 也能复制；另带 lo 命令行和只读 MCP。闭源，14 天免费试用，之后 29 美元买断",
+      "status": "live",
+      "date": "2026-11-18",
+      "url": "https://lastout.dev",
+      "author": "Xiang-Suc",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Xiang-Suc"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "e2d950ae373e",
       "board": "programmer",
