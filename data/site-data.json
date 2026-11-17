@@ -1,16 +1,77 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-17T03:21:34.236Z",
-    "statsSyncedAt": "2026-11-17T03:21:34.236Z",
-    "upstreamSha": "5a359148f6294bbba786b48c558f0b27f095f355",
+    "contentSyncedAt": "2026-11-17T11:26:05.941Z",
+    "statsSyncedAt": "2026-11-17T11:26:05.941Z",
+    "upstreamSha": "605a9a9ef201e4b65435efcbfe4a7a837e05fd11",
     "counts": {
-      "main": 1623,
+      "main": 1618,
       "game": 167,
       "programmer": 451,
-      "total": 2241
+      "total": 2236
     }
   },
   "main": [
+    {
+      "slug": "1bf7ef186264",
+      "board": "main",
+      "name": "江山时序",
+      "intro": "中国历史交互地图网站，拖动时间轴浏览战国至现代 2400 年疆域分合与古海岸线演变，支持点击古城查看 18 朝政区沿革、同屏追踪百余位历史人物行迹与战役沙盘，纯浏览器运行免费无需注册",
+      "introMarkdown": "中国历史交互地图网站，拖动时间轴浏览战国至现代 2400 年疆域分合与古海岸线演变，支持点击古城查看 18 朝政区沿革、同屏追踪百余位历史人物行迹与战役沙盘，纯浏览器运行免费无需注册 - [GitHub 源码](https://github.com/DeanChensj/jiangshan-map)",
+      "status": "live",
+      "date": "2026-11-17",
+      "url": "https://deanchen.me/jiangshan-map/",
+      "author": "Dean Chen",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/DeanChensj"
+        },
+        {
+          "label": "博客",
+          "url": "https://deanchen.me"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "a6f0dae9e6cf",
+      "board": "main",
+      "name": "刊讯",
+      "intro": "技术期刊目录与更新订阅网站，聚合 RSS/Atom 更新，支持按日、周、月浏览新刊；登录后可关注期刊，在收件箱、日历和邮件摘要中跟踪更新",
+      "introMarkdown": "技术期刊目录与更新订阅网站，聚合 RSS/Atom 更新，支持按日、周、月浏览新刊；登录后可关注期刊，在收件箱、日历和邮件摘要中跟踪更新",
+      "status": "live",
+      "date": "2026-11-17",
+      "url": "https://books.sanzhigou.cn/",
+      "author": "Open Books",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kaixiangliuran"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d6d9e308bbde",
+      "board": "main",
+      "name": "AntShot",
+      "intro": "Chrome / Edge 整页截图扩展，一键截整页，网页里自己滚动的表格、列表、看板也能整块截下来，截图只在本机处理不上传，免账号，免费版无水印",
+      "introMarkdown": "Chrome / Edge 整页截图扩展，一键截整页，网页里自己滚动的表格、列表、看板也能整块截下来，截图只在本机处理不上传，免账号，免费版无水印 - [更多介绍](https://microsoftedge.microsoft.com/addons/detail/ijhjpbbanmcggdokkdkfjadgkngfligj)",
+      "status": "live",
+      "date": "2026-11-17",
+      "url": "https://antshot.com/zh/",
+      "author": "jasonxu610",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jasonxu610"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "ef330b8942b7",
       "board": "main",
@@ -25124,8 +25185,8 @@
       "slug": "25a0fe74624a",
       "board": "main",
       "name": "CookLLM",
-      "intro": "带你从头训练一个 LLM",
-      "introMarkdown": "带你从头训练一个 LLM",
+      "intro": "中文大模型训练课程，带你从零训练一个 3.07 亿参数的中英双语小模型（会员付费）；另有免费的 AI 岗位看板，收录 1,400 多家 AI 公司官网上的岗位",
+      "introMarkdown": "中文大模型训练课程，带你从零训练一个 3.07 亿参数的中英双语小模型（会员付费）；另有免费的 AI 岗位看板，收录 1,400 多家 AI 公司官网上的岗位",
       "status": "live",
       "date": "2026-02-13",
       "url": "https://cookllm.com/",
@@ -30213,148 +30274,6 @@
         {
           "label": "Github",
           "url": "https://github.com/Caron77ai"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f1ca2d271a06",
-      "board": "main",
-      "name": "Proxied Web from URL",
-      "intro": "代理服务器，完全免费，把任何网址放在 https://web.818233.xyz/ 后面，这个新的网址就可以作为代理服务器获取原网站的内容，目前只支持内容获取，不支持网站交互操作。",
-      "introMarkdown": "代理服务器，完全免费，把任何网址放在 https://web.818233.xyz/ 后面，这个新的网址就可以作为代理服务器获取原网站的内容，目前只支持内容获取，不支持网站交互操作。",
-      "status": "live",
-      "date": "2025-09-10",
-      "url": "https://web.818233.xyz",
-      "author": "yvonuk",
-      "authorLinks": [
-        {
-          "label": "推特",
-          "url": "https://x.com/mcwangcn"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "fc418188a028",
-      "board": "main",
-      "name": "AI miniatur",
-      "intro": "将照片转换为 AI 手办模型",
-      "introMarkdown": "将照片转换为 AI 手办模型",
-      "status": "live",
-      "date": "2025-09-10",
-      "url": "https://aiminiatur.org/",
-      "author": "George",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "e3438d6ba55d",
-      "board": "main",
-      "name": "1desk",
-      "intro": "您的私人订制在线桌面：可添加多个页面空间，每个页面空间可添加并自定义卡片位置与尺寸，添加多种卡片如笔记本、Rss、书签、自定义搜索引擎等",
-      "introMarkdown": "您的私人订制在线桌面：可添加多个页面空间，每个页面空间可添加并自定义卡片位置与尺寸，添加多种卡片如笔记本、Rss、书签、自定义搜索引擎等 - [更多介绍](https://www.1desk.app/zh-CN)",
-      "status": "live",
-      "date": "2025-09-10",
-      "url": "https://www.1desk.app/zh-CN",
-      "author": "godow",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "http://github.com/godow"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "625b3445745e",
-      "board": "main",
-      "name": "Backlink Manager",
-      "intro": "专注于外链提交管理、SEO 问题检测及权重提升",
-      "introMarkdown": "专注于外链提交管理、SEO 问题检测及权重提升",
-      "status": "live",
-      "date": "2025-09-10",
-      "url": "https://backlinkmanager.net",
-      "author": "Susu(南京) - Github",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "230325a4788c",
-      "board": "main",
-      "name": "潦草头像馆",
-      "intro": "随机生成多种搞怪风格头像的微信小程序，让你的头像不再 “撞衫”",
-      "introMarkdown": "随机生成多种搞怪风格头像的微信小程序，让你的头像不再 “撞衫” - [更多介绍](https://developers.weixin.qq.com/community/develop/doc/0006a652bc0ac077bed3e03606180c)",
-      "status": "live",
-      "date": "2025-09-08",
-      "url": "https://avatar-gen.oss-cn-hangzhou.aliyuncs.com/image/%E6%BD%A6%E8%8D%89%E5%A4%B4%E5%83%8F%E9%A6%86.jpeg",
-      "author": "asui",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/xingxingc/stray_avatar"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "60ac93b5f5b3",
-      "board": "main",
-      "name": "所思笔记",
-      "intro": "日有所思夜有所梦，记录白天的所思和晚上的梦。",
-      "introMarkdown": "日有所思夜有所梦，记录白天的所思和晚上的梦。",
-      "status": "live",
-      "date": "2025-09-08",
-      "url": "https://apps.apple.com/cn/app/id1668533045",
-      "author": "景彬",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/youlookwhat"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "54457480d910",
-      "board": "main",
-      "name": "Pixel Art Generator",
-      "intro": "像素画生成器，将任意图片一键转换为复古风格的像素艺术，支持 JPG、PNG、WebP、GIF、BMP、TIFF 等多种格式，你可以自定义像素尺寸、颜色数量、调色板风格（如 Pico-8、Game Boy、NES 等），还可实时预览转换效果，轻松下载高质量像素画，适合用于社交媒体、游戏、周边设计等场景。",
-      "introMarkdown": "像素画生成器，将任意图片一键转换为复古风格的像素艺术，支持 JPG、PNG、WebP、GIF、BMP、TIFF 等多种格式，你可以自定义像素尺寸、颜色数量、调色板风格（如 Pico-8、Game Boy、NES 等），还可实时预览转换效果，轻松下载高质量像素画，适合用于社交媒体、游戏、周边设计等场景。",
-      "status": "live",
-      "date": "2025-09-08",
-      "url": "https://imgtopixel.art/",
-      "author": "leah626888",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/leah626888"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "179e46af2b2a",
-      "board": "main",
-      "name": "AI 驱动的免费在线工具平台",
-      "intro": "提供 300+ 实用工具，无需注册即可使用",
-      "introMarkdown": "提供 300+ 实用工具，无需注册即可使用",
-      "status": "live",
-      "date": "2025-09-07",
-      "url": "https://prompt2tool.com/",
-      "author": "Prompt2Tool",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/prompt-2-tool"
         }
       ],
       "likes": 0,
