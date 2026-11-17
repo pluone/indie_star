@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-16T19:26:17.015Z",
-    "statsSyncedAt": "2026-11-16T19:26:17.015Z",
-    "upstreamSha": "54d93b7949269cd63559e496c89f816f775bf17a",
+    "contentSyncedAt": "2026-11-17T02:36:21.954Z",
+    "statsSyncedAt": "2026-11-17T02:36:21.954Z",
+    "upstreamSha": "5a359148f6294bbba786b48c558f0b27f095f355",
     "counts": {
-      "main": 1621,
+      "main": 1623,
       "game": 167,
-      "programmer": 450,
-      "total": 2238
+      "programmer": 451,
+      "total": 2241
     }
   },
   "main": [
+    {
+      "slug": "ef330b8942b7",
+      "board": "main",
+      "name": "资料星球",
+      "intro": "中文学习与创作资料导航，按语言学习、AI、内容创作等主题查找资料，先看目录预览，再跳转夸克网盘免费领取，浏览无需注册",
+      "introMarkdown": "中文学习与创作资料导航，按语言学习、AI、内容创作等主题查找资料，先看目录预览，再跳转夸克网盘免费领取，浏览无需注册",
+      "status": "live",
+      "date": "2026-11-17",
+      "url": "https://resources.packscena.com/",
+      "author": "JonathanOwenTJ",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/JonathanOwenTJ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d79904c61e95",
+      "board": "main",
+      "name": "Bazi Diff",
+      "intro": "免注册的四柱八字试算网站，出生时间只记得大概时，也能按时段比较五种排盘设置，查看哪些柱一致、哪些可能变化，出生资料在浏览器内计算",
+      "introMarkdown": "免注册的四柱八字试算网站，出生时间只记得大概时，也能按时段比较五种排盘设置，查看哪些柱一致、哪些可能变化，出生资料在浏览器内计算 - [中文说明](https://bazi-diff.pages.dev/guides/bazi-without-exact-birth-time/zh-hans/)",
+      "status": "live",
+      "date": "2026-11-17",
+      "url": "https://bazi-diff.pages.dev/chart/?time=range&utm_source=chinese_indie_dev&utm_medium=community&utm_campaign=birth_time_zh",
+      "author": "chilayt",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/chilayt"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "cd8b32d827af",
       "board": "main",
@@ -33430,6 +33468,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "e2d950ae373e",
+      "board": "programmer",
+      "name": "dsplugin.app",
+      "intro": "DeepSeek Harness 社区插件目录，可按来源与 Manifest 状态筛选，查看 GitHub 数据和安装命令，也可发布与自动发现 dsh-plugin 仓库",
+      "introMarkdown": "DeepSeek Harness 社区插件目录，可按来源与 Manifest 状态筛选，查看 GitHub 数据和安装命令，也可发布与自动发现 dsh-plugin 仓库 — [源码](https://github.com/vbarter/dsh-plugin-registry)",
+      "status": "live",
+      "date": "2026-11-17",
+      "url": "https://dsplugin.app/",
+      "author": "vbarter",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/vbarter"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "27cdd7474cdc",
       "board": "programmer",
