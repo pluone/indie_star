@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-18T02:42:02.594Z",
-    "statsSyncedAt": "2026-11-18T02:42:02.594Z",
-    "upstreamSha": "423d98b1156ad4682814931e6392e68db89ba15a",
+    "contentSyncedAt": "2026-11-18T03:26:18.608Z",
+    "statsSyncedAt": "2026-11-18T03:26:18.608Z",
+    "upstreamSha": "cceb5d44668f86c5ccaf6a7b9337547239b13a09",
     "counts": {
       "main": 1619,
-      "game": 167,
+      "game": 169,
       "programmer": 452,
-      "total": 2238
+      "total": 2240
     }
   },
   "main": [
@@ -30300,6 +30300,44 @@
     }
   ],
   "game": [
+    {
+      "slug": "c6982eea0559",
+      "board": "game",
+      "name": "Best Daily Games",
+      "intro": "每日网页游戏导航，按文字、地理、问答等玩法找游戏，条目链接到创作者原版。只有几分钟时，可以先看适合咖啡休息时间玩的小游戏",
+      "introMarkdown": "每日网页游戏导航，按文字、地理、问答等玩法找游戏，条目链接到创作者原版。只有几分钟时，可以先看[适合咖啡休息时间玩的小游戏](https://bestdaily.games/collections/coffee-break-games/)",
+      "status": "live",
+      "date": "2026-11-18",
+      "url": "https://bestdaily.games/",
+      "author": "Andrew Bamboo",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/dongan-beta"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "a7db3f03563b",
+      "board": "game",
+      "name": "Puffer Party",
+      "intro": "浏览器多人派对游戏（免费）。开私人房间邀请朋友，轮流给出符合题目且没人用过的答案，赶在河豚爆开前传给下一位。不用下载",
+      "introMarkdown": "浏览器多人派对游戏（免费）。开私人房间邀请朋友，轮流给出符合题目且没人用过的答案，赶在河豚爆开前传给下一位。不用下载",
+      "status": "live",
+      "date": "2026-11-18",
+      "url": "https://pufferparty.org/",
+      "author": "Andrew Bamboo",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/dongan-beta"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "ecf8b9638779",
       "board": "game",
