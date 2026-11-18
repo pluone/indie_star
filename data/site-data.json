@@ -1,16 +1,142 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-18T04:11:25.308Z",
-    "statsSyncedAt": "2026-11-18T04:11:25.308Z",
-    "upstreamSha": "3227f945f33b0d53245f9f06820873d23c2feab0",
+    "contentSyncedAt": "2026-11-18T11:31:23.401Z",
+    "statsSyncedAt": "2026-11-18T11:31:23.401Z",
+    "upstreamSha": "90b1ebc371fcf253cd3e5ceadb837f065a126fd9",
     "counts": {
-      "main": 1620,
+      "main": 1612,
       "game": 169,
-      "programmer": 452,
-      "total": 2241
+      "programmer": 453,
+      "total": 2234
     }
   },
   "main": [
+    {
+      "slug": "47edadddfa5d",
+      "board": "main",
+      "name": "Viral Video AI",
+      "intro": "网页版短视频生成工具，上传自己的照片套用热门模板，或粘贴公开的 TikTok、YouTube、Instagram 视频链接作为参考，省去手动下载和重传；生成前可查看积分消耗，生成需要 Google 登录和付费积分",
+      "introMarkdown": "网页版短视频生成工具，上传自己的照片套用热门模板，或粘贴公开的 TikTok、YouTube、Instagram 视频链接作为参考，省去手动下载和重传；生成前可查看积分消耗，生成需要 Google 登录和付费积分",
+      "status": "live",
+      "date": "2026-11-18",
+      "url": "https://viralvideoai.ai/",
+      "author": "Viral Video AI 团队",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b3c84521b125",
+      "board": "main",
+      "name": "Ruxget 拾影",
+      "intro": "Windows 下载器与浏览器插件，桌面版可保存 YouTube 视频，插件可保存 B站等受支持平台的视频",
+      "introMarkdown": "Windows 下载器与浏览器插件，桌面版可保存 YouTube 视频，插件可保存 B站等受支持平台的视频",
+      "status": "live",
+      "date": "2026-11-18",
+      "url": "https://hidaydream.cloud/ruxget/?utm_source=github_cn_independent",
+      "author": "白日梦想家 Hi Daydream",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "bc2e6208a15f",
+      "board": "main",
+      "name": "Tapaste",
+      "intro": "手机和电脑在同一 Wi-Fi 下双向发送照片、文件和文字，手机扫码打开网页",
+      "introMarkdown": "手机和电脑在同一 Wi-Fi 下双向发送照片、文件和文字，手机扫码打开网页",
+      "status": "live",
+      "date": "2026-11-18",
+      "url": "https://hidaydream.cloud/tapaste/?utm_source=github_cn_independent",
+      "author": "白日梦想家 Hi Daydream",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "e1a2e872e234",
+      "board": "main",
+      "name": "Lightable",
+      "intro": "Windows 看图软件，支持浏览常见 RAW 照片、打星选片和全屏放幻灯片",
+      "introMarkdown": "Windows 看图软件，支持浏览常见 RAW 照片、打星选片和全屏放幻灯片",
+      "status": "live",
+      "date": "2026-11-18",
+      "url": "https://hidaydream.cloud/lightable/?utm_source=github_cn_independent",
+      "author": "白日梦想家 Hi Daydream",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d6f78df320ca",
+      "board": "main",
+      "name": "Leafable",
+      "intro": "在 Windows 本地查看、合并和压缩 PDF，可以拖动缩略图调整页序",
+      "introMarkdown": "在 Windows 本地查看、合并和压缩 PDF，可以拖动缩略图调整页序",
+      "status": "live",
+      "date": "2026-11-18",
+      "url": "https://hidaydream.cloud/leafable/?utm_source=github_cn_independent",
+      "author": "白日梦想家 Hi Daydream",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4cdc0a1ee8ab",
+      "board": "main",
+      "name": "Twinline",
+      "intro": "在电脑 Chrome 中给已有字幕的 YouTube 视频加一行中文译文，也可逐段翻译网页",
+      "introMarkdown": "在电脑 Chrome 中给已有字幕的 YouTube 视频加一行中文译文，也可逐段翻译网页",
+      "status": "live",
+      "date": "2026-11-18",
+      "url": "https://hidaydream.cloud/twinline/?utm_source=github_cn_independent",
+      "author": "白日梦想家 Hi Daydream",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "0bd129944577",
+      "board": "main",
+      "name": "ClassyGit",
+      "intro": "基于 GitHub 的个人主页与博客网站，将公开数据渲染成 System 6、8-bit、Windows 98、DOS 四套复古主题；输入任意公开用户名即可看效果，不用部署、不用注册、不用服务器",
+      "introMarkdown": "基于 GitHub 的个人主页与博客网站，将公开数据渲染成 System 6、8-bit、Windows 98、DOS 四套复古主题；输入任意公开用户名即可看效果，不用部署、不用注册、不用服务器 - [GitHub 仓库](https://github.com/Dnevend/classy-github)",
+      "status": "live",
+      "date": "2026-11-18",
+      "url": "https://classygit.dev",
+      "author": "小学后生",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Dnevend"
+        },
+        {
+          "label": "个人主页",
+          "url": "https://dnevend.site/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "31ea9c9d5280",
+      "board": "main",
+      "name": "Angry Dance",
+      "intro": "单张照片生成 AI 跳舞与整活竖屏视频的网站，无需剪辑经验或写英文提示词，上传人像、猫狗或爱车照片即可直出 9:16 无水印成片（内置愤怒之舞、狗狗跳舞、小狗大战美容师、微缩工人洗车等 23 款特效，复杂场景自动串联两步定帧与运镜）；支持中英文，采用一次性积分包计费免包月订阅，生成失败自动退还积分",
+      "introMarkdown": "单张照片生成 AI 跳舞与整活竖屏视频的网站，无需剪辑经验或写英文提示词，上传人像、猫狗或爱车照片即可直出 9:16 无水印成片（内置愤怒之舞、狗狗跳舞、小狗大战美容师、微缩工人洗车等 23 款特效，复杂场景自动串联两步定帧与运镜）；支持中英文，采用一次性积分包计费免包月订阅，生成失败自动退还积分 - [英文版](https://angrydance.com) · [开源提示词配方库](https://github.com/siuserxiaowei/ai-photo-to-video-prompt-recipes)",
+      "status": "live",
+      "date": "2026-11-18",
+      "url": "https://angrydance.com/zh",
+      "author": "Nathan",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/siuserxiaowei"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "f9f712e77c9c",
       "board": "main",
@@ -30019,303 +30145,6 @@
       "authorLinks": [],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "ccebe56e084d",
-      "board": "main",
-      "name": "JSON Translator",
-      "intro": "国际化（i18n）翻译工具（为前端开发者打造），上传 json 文件，通过 AI（支持 DeepSeek、Gemini、OpenAI、Anthropic）翻译后直接导出 json，支持 70+ 个国家语言，助力产品出海",
-      "introMarkdown": "国际化（i18n）翻译工具（为前端开发者打造），上传 json 文件，通过 AI（支持 DeepSeek、Gemini、OpenAI、Anthropic）翻译后直接导出 json，支持 70+ 个国家语言，助力产品出海",
-      "status": "live",
-      "date": "2025-09-17",
-      "url": "https://jsontrans.fun",
-      "author": "Red",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/CrisChr/json-translator"
-        },
-        {
-          "label": "博客",
-          "url": "https://red666.vercel.app/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "da9f5829c074",
-      "board": "main",
-      "name": "Foto Miniatur",
-      "intro": "nano banana 图片生成器，提供常用 prompt",
-      "introMarkdown": "nano banana 图片生成器，提供常用 prompt",
-      "status": "live",
-      "date": "2025-09-17",
-      "url": "https://fotominiatur.com/",
-      "author": "sing1ee",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/sing1ee"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "dd9718a64f54",
-      "board": "main",
-      "name": "Thumbnail Downloader",
-      "intro": "下载视频网站封面的工具，支持 Youtube，Facebook，Ted，支持网站在逐步添加中",
-      "introMarkdown": "下载视频网站封面的工具，支持 Youtube，Facebook，Ted，支持网站在逐步添加中",
-      "status": "live",
-      "date": "2025-09-17",
-      "url": "https://thumbnaildownloader.cc",
-      "author": "饭特稀",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "89e29b5a6f93",
-      "board": "main",
-      "name": "一刻记账",
-      "intro": "纯净的记账 App",
-      "introMarkdown": "纯净的记账 App - [更多介绍](https://github.com/xiaojinzi123/yike-app)",
-      "status": "live",
-      "date": "2025-09-15",
-      "url": "https://yike.icxj.cn/",
-      "author": "小金子",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/xiaojinzi123"
-        },
-        {
-          "label": "博客",
-          "url": "https://blog.csdn.net/u011692041"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "170cc25d6a00",
-      "board": "main",
-      "name": "版权符号",
-      "intro": "版权符号的网站，可以复制版权符号及相关的符号©, ®,℗, and ™. ，生成页面footer的版权，版权符号的各种css、alt code、怎么输入在windows、mac、iphone，在word、excel中输入",
-      "introMarkdown": "版权符号的网站，可以复制版权符号及相关的符号©, ®,℗, and ™. ，生成页面footer的版权，版权符号的各种css、alt code、怎么输入在windows、mac、iphone，在word、excel中输入",
-      "status": "live",
-      "date": "2025-09-15",
-      "url": "https://copyrightsymbol.app/",
-      "author": "yangjuzi",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/yangjuzi"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0c023b717fe6",
-      "board": "main",
-      "name": "Seedream AI",
-      "intro": "Seedream AI 4.0 AI 图片生成器（最新，免费）",
-      "introMarkdown": "Seedream AI 4.0 AI 图片生成器（最新，免费）",
-      "status": "live",
-      "date": "2025-09-15",
-      "url": "https://seedreamai.run/",
-      "author": "Corey",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/iamcorey"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "236e69adb7a0",
-      "board": "main",
-      "name": "DR Checker",
-      "intro": "检查并展示任何网站的 Domain rating，并且一键生成可展示的DR徽章",
-      "introMarkdown": "检查并展示任何网站的 Domain rating，并且一键生成可展示的DR徽章",
-      "status": "live",
-      "date": "2025-09-15",
-      "url": "https://drchecker.org/",
-      "author": "Corey",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/iamcorey"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "09666baa85ab",
-      "board": "main",
-      "name": "Vidgo AI",
-      "intro": "图片、视频生成平台",
-      "introMarkdown": "图片、视频生成平台",
-      "status": "live",
-      "date": "2025-09-15",
-      "url": "https://vidgo.ai",
-      "author": "Ronny",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d1bb57933aa8",
-      "board": "main",
-      "name": "Doculator",
-      "intro": "集文档，视频，图片翻译于一身的平台",
-      "introMarkdown": "集文档，视频，图片翻译于一身的平台",
-      "status": "live",
-      "date": "2025-09-15",
-      "url": "https://doculator.org/",
-      "author": "Ronny",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b99b572ae78a",
-      "board": "main",
-      "name": "Verbord",
-      "intro": "录音笔记 iOS 应用(纯净、私密），帮你轻松记录生活点滴和创作灵感",
-      "introMarkdown": "录音笔记 iOS 应用(纯净、私密），帮你轻松记录生活点滴和创作灵感",
-      "status": "live",
-      "date": "2025-09-12",
-      "url": "https://apps.apple.com/us/app/verbord-private-voice-diary/id6751261198",
-      "author": "OD-Ice",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/OD-Ice"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "ab8ab6c2606e",
-      "board": "main",
-      "name": "EZQuiz",
-      "intro": "AI 智能实时测验，让你快速创建、分享并与观众通过实时互动测验进行互动",
-      "introMarkdown": "AI 智能实时测验，让你快速创建、分享并与观众通过实时互动测验进行互动",
-      "status": "live",
-      "date": "2025-09-12",
-      "url": "https://ezquiz.online",
-      "author": "licon",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": " https://github.com/licon"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f42267cc8d99",
-      "board": "main",
-      "name": "EZ-translate",
-      "intro": "AI 浏览器翻译插件(免费)，支持页面内翻译，截图翻译，自动检测语言",
-      "introMarkdown": "AI 浏览器翻译插件(免费)，支持页面内翻译，截图翻译，自动检测语言 - [开源仓库](https://github.com/licon/llm-translate)",
-      "status": "live",
-      "date": "2025-09-12",
-      "url": "https://chromewebstore.google.com/detail/ahlibmildbganmkdhokbkfanpaakpgfd?utm_source=item-share-cb",
-      "author": "licon",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": " https://github.com/licon"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9565f59c23cb",
-      "board": "main",
-      "name": "SiteData",
-      "intro": "网站流量查询与 SEO/Google Ads 情报工具，支持任意网站流量估算、Reverse AdSense 反查（发现同发布者的站点网络）、Google Ads 广告主与关键词分析、域名信息与 DR 查询，并提供 Chrome/Edge 浏览器插件",
-      "introMarkdown": "网站流量查询与 SEO/Google Ads 情报工具，支持任意网站流量估算、Reverse AdSense 反查（发现同发布者的站点网络）、Google Ads 广告主与关键词分析、域名信息与 DR 查询，并提供 Chrome/Edge 浏览器插件 - [浏览器插件](https://chromewebstore.google.com/detail/emeakbgdecgmdjgegnejpppcnkcnoaen)",
-      "status": "live",
-      "date": "2025-09-12",
-      "url": "https://sitedata.dev",
-      "author": "饭特稀",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/shineforever"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "69efdebf5c37",
-      "board": "main",
-      "name": "AI Song",
-      "intro": "AI 生成歌曲、歌词的音乐网站",
-      "introMarkdown": "AI 生成歌曲、歌词的音乐网站",
-      "status": "live",
-      "date": "2025-09-12",
-      "url": "https://aisong.tech/",
-      "author": "Ryan",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Ryan10Yu"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "a9a60695ea67",
-      "board": "main",
-      "name": "AI 赛事通",
-      "intro": "全球 AI 竞赛聚合平台，收录涵盖数据算法竞赛、AI 大模型竞赛、AI Agent 挑战赛、工程开发竞赛等多个领域，让你不会错过任何一场 AI 赛事，提升技能，赢取奖金",
-      "introMarkdown": "全球 AI 竞赛聚合平台，收录涵盖数据算法竞赛、AI 大模型竞赛、AI Agent 挑战赛、工程开发竞赛等多个领域，让你不会错过任何一场 AI 赛事，提升技能，赢取奖金",
-      "status": "live",
-      "date": "2025-09-11",
-      "url": "https://www.competehub.dev/zh",
-      "author": "ai77",
-      "authorLinks": [
-        {
-          "label": "网站",
-          "url": "https://www.ai77.dev"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "017f651b93c7",
-      "board": "main",
-      "name": "AIToolsss",
-      "intro": "AI 工具导航，收录全球 AI 产品与应用",
-      "introMarkdown": "AI 工具导航，收录全球 AI 产品与应用",
-      "status": "live",
-      "date": "2025-09-11",
-      "url": "https://www.aitoolsss.com/",
-      "author": "Carys",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Caron77ai"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
@@ -33463,6 +33292,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "e261d2fbe2b0",
+      "board": "programmer",
+      "name": "HiAPI",
+      "intro": "多模型 AI API 平台，同一个 Key 按量调用图片、视频、音频和文本模型（GPT Image、Seedance、Kling、Veo、DeepSeek、Claude、Grok、Qwen 等）；文本走 OpenAI 兼容的 Responses 与 Chat Completions，媒体生成走异步任务接口（提交任务拿 ID、轮询取结果）；按美元计费、单价公开，任务失败自动退款，注册送 200 积分（2,000 积分 = $1），需要用代码调用",
+      "introMarkdown": "多模型 AI API 平台，同一个 Key 按量调用图片、视频、音频和文本模型（GPT Image、Seedance、Kling、Veo、DeepSeek、Claude、Grok、Qwen 等）；文本走 OpenAI 兼容的 Responses 与 Chat Completions，媒体生成走异步任务接口（提交任务拿 ID、轮询取结果）；按美元计费、单价公开，任务失败自动退款，注册送 200 积分（2,000 积分 = $1），需要用代码调用 - [中文文档](https://hiapi.ai/zh/docs)",
+      "status": "live",
+      "date": "2026-11-18",
+      "url": "https://hiapi.ai/?utm_source=github&utm_medium=awesome-list&utm_campaign=bf26&utm_content=chinese-independent-developer",
+      "author": "HiAPI 开发团队",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/HiAPIAI"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "3a941cb61af4",
       "board": "programmer",
