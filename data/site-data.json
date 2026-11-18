@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-18T11:31:23.401Z",
-    "statsSyncedAt": "2026-11-18T11:31:23.401Z",
-    "upstreamSha": "90b1ebc371fcf253cd3e5ceadb837f065a126fd9",
+    "contentSyncedAt": "2026-11-18T11:36:13.703Z",
+    "statsSyncedAt": "2026-11-18T11:36:13.703Z",
+    "upstreamSha": "af4c5806b49ab98b255617a81cd9933fc0781b4d",
     "counts": {
       "main": 1612,
       "game": 169,
@@ -8175,7 +8175,7 @@
       "introMarkdown": "为不同社媒账号分别整理素材、稿件和长期偏好，让 AI 检索引用资料并辅助写稿；复用带文字变量和参考图的模板，为小红书等平台制作不同选题的图文 — 本地优先 AI 社媒工作台，素材库定位类似面向社媒和 AI 的 Eagle - [更多介绍](https://github.com/Jamailar/Beav#readme)",
       "status": "live",
       "date": "2026-10-11",
-      "url": "https://github.com/Jamailar/Beav",
+      "url": "https://beav.pro/",
       "author": "Jamailar",
       "authorLinks": [
         {
