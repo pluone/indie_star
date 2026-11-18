@@ -1,16 +1,128 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-18T11:36:13.703Z",
-    "statsSyncedAt": "2026-11-18T11:36:13.703Z",
-    "upstreamSha": "af4c5806b49ab98b255617a81cd9933fc0781b4d",
+    "contentSyncedAt": "2026-11-18T15:06:24.946Z",
+    "statsSyncedAt": "2026-11-18T15:06:24.946Z",
+    "upstreamSha": "5cb80bb28aade6e97cabe269afd46402fea12953",
     "counts": {
-      "main": 1612,
-      "game": 169,
+      "main": 1620,
+      "game": 170,
       "programmer": 453,
-      "total": 2234
+      "total": 2243
     }
   },
   "main": [
+    {
+      "slug": "7d800f3b6f97",
+      "board": "main",
+      "name": "红鸦 AI",
+      "intro": "给小红书运营和电商商家使用的网页版图文工具，输入主题或上传商品实拍图，先核对标题、正文与每页配图大纲，再批量生成图片；生成按账号积分计费",
+      "introMarkdown": "给小红书运营和电商商家使用的网页版图文工具，输入主题或上传商品实拍图，先核对标题、正文与每页配图大纲，再批量生成图片；生成按账号积分计费",
+      "status": "live",
+      "date": "2026-11-18",
+      "url": "https://hy.ithinkai.cn/",
+      "author": "红鸦团队",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "ddfb03971324",
+      "board": "main",
+      "name": "AI Pet Meme",
+      "intro": "宠物梗视频工具，一张猫或狗的照片即可生成跳舞、唱歌、说话或反应类的带声音短视频",
+      "introMarkdown": "宠物梗视频工具，一张猫或狗的照片即可生成跳舞、唱歌、说话或反应类的带声音短视频",
+      "status": "live",
+      "date": "2026-11-18",
+      "url": "https://aipetmeme.org/",
+      "author": "Ldmts",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "8af983b028c2",
+      "board": "main",
+      "name": "Rap AI Video",
+      "intro": "说唱短视频工具，上传两张照片并选择舞台，生成带嘻哈节奏和说唱人声的竖屏片段",
+      "introMarkdown": "说唱短视频工具，上传两张照片并选择舞台，生成带嘻哈节奏和说唱人声的竖屏片段",
+      "status": "live",
+      "date": "2026-11-18",
+      "url": "https://airapvideoai.org/",
+      "author": "Ldmts",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "3eff57820955",
+      "board": "main",
+      "name": "EffectClick",
+      "intro": "模板视频工具，选热门模板、上传一张照片，即可生成带声音的竖屏短视频，不用写提示词",
+      "introMarkdown": "模板视频工具，选热门模板、上传一张照片，即可生成带声音的竖屏短视频，不用写提示词",
+      "status": "live",
+      "date": "2026-11-18",
+      "url": "https://effectclick.com/",
+      "author": "Ldmts",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "acf730c350d3",
+      "board": "main",
+      "name": "AI Image Editor",
+      "intro": "AI 修图工具，支持提示词编辑，以及去背景、去文字水印、老照片修复、上色和放大",
+      "introMarkdown": "AI 修图工具，支持提示词编辑，以及去背景、去文字水印、老照片修复、上色和放大",
+      "status": "live",
+      "date": "2026-11-18",
+      "url": "https://image-editor-ai.com/",
+      "author": "Ldmts",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "f8a7c8f3ef2a",
+      "board": "main",
+      "name": "Image to Image AI",
+      "intro": "图生图编辑工具，上传照片后用提示词做风格迁移、细节修改和去背景",
+      "introMarkdown": "图生图编辑工具，上传照片后用提示词做风格迁移、细节修改和去背景",
+      "status": "live",
+      "date": "2026-11-18",
+      "url": "https://imagetoimageai.io/",
+      "author": "Ldmts",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "3e9a39fddf54",
+      "board": "main",
+      "name": "Grok Imagine",
+      "intro": "图像和短视频生成工具，支持文生图、图生视频，提供 Normal、Fun、Spicy 三种模式，无需 X 账号",
+      "introMarkdown": "图像和短视频生成工具，支持文生图、图生视频，提供 Normal、Fun、Spicy 三种模式，无需 X 账号",
+      "status": "live",
+      "date": "2026-11-18",
+      "url": "https://imaginegrok.org/",
+      "author": "Ldmts",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "fc5476c92ee6",
+      "board": "main",
+      "name": "letsmkvideo",
+      "intro": "文生视频和图生视频工具，既可以从提示词或照片生成，也可以用舞蹈、动漫、电影感等模板直接出片",
+      "introMarkdown": "文生视频和图生视频工具，既可以从提示词或照片生成，也可以用舞蹈、动漫、电影感等模板直接出片",
+      "status": "live",
+      "date": "2026-11-18",
+      "url": "https://letsmkvideo.com/",
+      "author": "Ldmts",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "47edadddfa5d",
       "board": "main",
@@ -259,8 +371,8 @@
       "slug": "d79904c61e95",
       "board": "main",
       "name": "Bazi Diff",
-      "intro": "免注册的四柱八字试算网站，出生时间只记得大概时，也能按时段比较五种排盘设置，查看哪些柱一致、哪些可能变化，出生资料在浏览器内计算",
-      "introMarkdown": "免注册的四柱八字试算网站，出生时间只记得大概时，也能按时段比较五种排盘设置，查看哪些柱一致、哪些可能变化，出生资料在浏览器内计算 - [中文说明](https://bazi-diff.pages.dev/guides/bazi-without-exact-birth-time/zh-hans/) · [两岗事业样稿](https://bazi-diff.pages.dev/sample-report/career/zh-hans/?utm_source=chinese_indie_dev&utm_medium=community&utm_campaign=career_sample_zh)",
+      "intro": "免费八字与紫微斗数排盘，可比较出生时段内哪些八字柱会变，也可用两张虚构盘对照夫妻宫。免注册，出生资料在浏览器内计算",
+      "introMarkdown": "免费八字与紫微斗数排盘，可比较出生时段内哪些八字柱会变，也可用两张虚构盘对照夫妻宫。免注册，出生资料在浏览器内计算 - [中文说明](https://bazi-diff.pages.dev/guides/bazi-without-exact-birth-time/zh-hans/) · [紫微夫妻宫算例](https://bazi-diff.pages.dev/guides/relationship-reflection/zh-hans/?utm_source=chinese_indie_dev&utm_medium=community&utm_campaign=spouse_example_zh#relationship-empty-star) · [两岗事业样稿](https://bazi-diff.pages.dev/sample-report/career/zh-hans/?utm_source=chinese_indie_dev&utm_medium=community&utm_campaign=career_sample_zh)",
       "status": "live",
       "date": "2026-11-17",
       "url": "https://bazi-diff.pages.dev/chart/?time=range&utm_source=chinese_indie_dev&utm_medium=community&utm_campaign=birth_time_zh",
@@ -30148,6 +30260,25 @@
     }
   ],
   "game": [
+    {
+      "slug": "b84777c9ad06",
+      "board": "game",
+      "name": "Famedle",
+      "intro": "看线索猜名人的网页小游戏，要在倒计时结束前打出这位名人的名字。每人有 3 条线索，随时间依次解锁；猜错时按出生国家、去世年份、去世年龄和领域四项和答案比对，用绿、黄、灰色块提示差多远，并立刻多开一条线索。共 10 关、每关 5 人，越往后人越冷门、时间越短（每人 30 秒逐关减到 20 秒），每过一关得到一张称号卡（从「见多识广」到「名人堂」），可以保存或分享；题库 1,143 位古今中外人物，中英文界面可切换，设备语言是中文时先出中国名人。免费、免注册，手机和电脑浏览器打开就能玩",
+      "introMarkdown": "看线索猜名人的网页小游戏，要在倒计时结束前打出这位名人的名字。每人有 3 条线索，随时间依次解锁；猜错时按出生国家、去世年份、去世年龄和领域四项和答案比对，用绿、黄、灰色块提示差多远，并立刻多开一条线索。共 10 关、每关 5 人，越往后人越冷门、时间越短（每人 30 秒逐关减到 20 秒），每过一关得到一张称号卡（从「见多识广」到「名人堂」），可以保存或分享；题库 1,143 位古今中外人物，中英文界面可切换，设备语言是中文时先出中国名人。免费、免注册，手机和电脑浏览器打开就能玩",
+      "status": "live",
+      "date": "2026-11-18",
+      "url": "https://sparkgame.store/famedle",
+      "author": "stimQQ",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/stimQQ"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "c6982eea0559",
       "board": "game",
