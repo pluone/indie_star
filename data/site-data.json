@@ -1,16 +1,77 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-19T11:26:31.300Z",
-    "statsSyncedAt": "2026-11-19T11:26:31.300Z",
-    "upstreamSha": "922bd1ecb884b779389ddf86e4d1713ed62e6d38",
+    "contentSyncedAt": "2026-11-19T11:31:23.732Z",
+    "statsSyncedAt": "2026-11-19T11:31:23.732Z",
+    "upstreamSha": "892ae75f7e26e53a39fe5039f6d10c8b492798d2",
     "counts": {
-      "main": 1611,
-      "game": 170,
+      "main": 1604,
+      "game": 171,
       "programmer": 453,
-      "total": 2234
+      "total": 2228
     }
   },
   "main": [
+    {
+      "slug": "4f67877ff041",
+      "board": "main",
+      "name": "DemoReady",
+      "intro": "输入网页链接直接录制产品演示视频，支持 localhost 和线上网站，可选视频比例、设备 Mockup 与莫奈、葛饰北斋等艺术画作背景，实时预览最终画面后直接录制下载，全程在浏览器里完成，不用安装",
+      "introMarkdown": "输入网页链接直接录制产品演示视频，支持 localhost 和线上网站，可选视频比例、设备 Mockup 与莫奈、葛饰北斋等艺术画作背景，实时预览最终画面后直接录制下载，全程在浏览器里完成，不用安装",
+      "status": "live",
+      "date": "2026-11-19",
+      "url": "https://demoready.bitwonder.app/",
+      "author": "qijin-3",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/qijin-3"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "1ffd81e8bada",
+      "board": "main",
+      "name": "小陪班 PetWaits",
+      "intro": "用一张自家猫狗的照片做一个会唱歌、会跳舞的桌宠，让它在 Mac 或 Windows 桌面上陪你工作。每只宠物一次付费",
+      "introMarkdown": "用一张自家猫狗的照片做一个会唱歌、会跳舞的桌宠，让它在 Mac 或 Windows 桌面上陪你工作。每只宠物一次付费",
+      "status": "live",
+      "date": "2026-11-19",
+      "url": "https://petwaits.com/zh",
+      "author": "ZHANG LINGQING",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4111925bfd23",
+      "board": "main",
+      "name": "BeatMusic",
+      "intro": "AI 音乐生成工具，输入一句想法或粘贴歌词，几分钟生成原创、免版税的完整歌曲，还支持 100+ 种声音风格的 AI 翻唱、50+ 种风格的 AI 混音和人声分离，不会乐器也能用",
+      "introMarkdown": "AI 音乐生成工具，输入一句想法或粘贴歌词，几分钟生成原创、免版税的完整歌曲，还支持 100+ 种声音风格的 AI 翻唱、50+ 种风格的 AI 混音和人声分离，不会乐器也能用",
+      "status": "live",
+      "date": "2026-11-19",
+      "url": "https://beatmusic.ai/",
+      "author": "Haoxiang Chen",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "8e82358cdc63",
+      "board": "main",
+      "name": "BeatMV",
+      "intro": "AI 音乐视频生成工具，上传一首歌就能生成跟着节拍走的音乐 MV，支持固定角色、分镜生成、Suno/Udio 歌曲转视频和歌词视频，可导出到 YouTube、TikTok、Reels",
+      "introMarkdown": "AI 音乐视频生成工具，上传一首歌就能生成跟着节拍走的音乐 MV，支持固定角色、分镜生成、Suno/Udio 歌曲转视频和歌词视频，可导出到 YouTube、TikTok、Reels",
+      "status": "live",
+      "date": "2026-11-19",
+      "url": "https://beatmv.ai/",
+      "author": "Haoxiang Chen",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "901d66682921",
       "board": "main",
@@ -20,6 +81,25 @@
       "status": "live",
       "date": "2026-11-19",
       "url": "https://draw.lzkz.top/",
+      "author": "松柏",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/co-pine"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "f3235585c06e",
+      "board": "main",
+      "name": "松果看板",
+      "intro": "面向自媒体创作者与内容运营的多平台数据看板与 AI 复盘工作台，把微信公众号、小红书、B站、抖音、微信视频号五个平台的阅读/播放、点赞、收藏、评论、互动率与粉丝数据收进同一张表，按各平台自身篇均倍数自动标记爆款、生成最佳发布时段热力图、支持一键 AI 复盘及通过远程/本地 MCP 接入 Claude、Cursor 直接查数据写复盘；登录态仅保存在本地浏览器，服务器不存 Cookie。免费版可先连接 1 个平台，内置免登录公众号 Markdown 排版工具永久免费",
+      "introMarkdown": "面向自媒体创作者与内容运营的多平台数据看板与 AI 复盘工作台，把微信公众号、小红书、B站、抖音、微信视频号五个平台的阅读/播放、点赞、收藏、评论、互动率与粉丝数据收进同一张表，按各平台自身篇均倍数自动标记爆款、生成最佳发布时段热力图、支持一键 AI 复盘及通过远程/本地 MCP 接入 Claude、Cursor 直接查数据写复盘；登录态仅保存在本地浏览器，服务器不存 Cookie。免费版可先连接 1 个平台，内置免登录公众号 Markdown 排版工具永久免费 - [公众号 Markdown 排版器](https://songguo.lzkz.top/tools/wechat-formatter)",
+      "status": "live",
+      "date": "2026-11-19",
+      "url": "https://songguo.lzkz.top",
       "author": "松柏",
       "authorLinks": [
         {
@@ -29899,226 +29979,28 @@
       ],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "441bae3199a8",
-      "board": "main",
-      "name": "实用小工具：时间格式转换和计算器",
-      "intro": "支持时分秒格式和小数表示法双向转换、分钟/秒/天不同单位相互转换、考勤打卡时间四舍五入，工资计算等",
-      "introMarkdown": "支持时分秒格式和小数表示法双向转换、分钟/秒/天不同单位相互转换、考勤打卡时间四舍五入，工资计算等",
-      "status": "live",
-      "date": "2025-09-29",
-      "url": "https://time-to-decimal.org/",
-      "author": "pandaupup",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/pandaupup"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "956f0a844321",
-      "board": "main",
-      "name": "Git Stars",
-      "intro": "发掘最热门，Stars 数最多的 GitHub 开源项目仓库",
-      "introMarkdown": "发掘最热门，Stars 数最多的 GitHub 开源项目仓库",
-      "status": "live",
-      "date": "2025-09-29",
-      "url": "https://git-stars.org/",
-      "author": "zxcHolmes",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "ec0d67c9dd59",
-      "board": "main",
-      "name": "scream ai",
-      "intro": "把你的自拍照转化为电影感十足的千禧年（Y2K）恐怖风照片",
-      "introMarkdown": "把你的自拍照转化为电影感十足的千禧年（Y2K）恐怖风照片",
-      "status": "live",
-      "date": "2025-09-29",
-      "url": "https://screamai.art//",
-      "author": "anywhereto",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/anywhereto"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "2e095dbd5420",
-      "board": "main",
-      "name": "在线 GPU 性能测试网站 - 毒蘑菇显卡测试",
-      "intro": "在浏览器里运行3D体积着色器测试GPU渲染能力。实时显示压测性能数据：包括实时的帧率（FPS）、帧时间（Frame Time）和显卡型号。可多渠道分享测试结果，用户点击可使用相同参数进行渲染测试。",
-      "introMarkdown": "在浏览器里运行3D体积着色器测试GPU渲染能力。实时显示压测性能数据：包括实时的帧率（FPS）、帧时间（Frame Time）和显卡型号。可多渠道分享测试结果，用户点击可使用相同参数进行渲染测试。",
-      "status": "live",
-      "date": "2025-09-29",
-      "url": "https://volumeshaderbm.org/benchmark",
-      "author": "pandaupup",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/pandaupup"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "63138623dc59",
-      "board": "main",
-      "name": "banana nana ai",
-      "intro": "AI 图片工具, AI 换脸，AI 清除背景， AI y2k 风格人像",
-      "introMarkdown": "AI 图片工具, AI 换脸，AI 清除背景， AI y2k 风格人像",
-      "status": "live",
-      "date": "2025-09-28",
-      "url": "https://bananananoai.net/",
-      "author": "anywhereto",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/anywhereto"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "e224123da3b2",
-      "board": "main",
-      "name": "Image to Pixel Art",
-      "intro": "图像到像素艺术转换器 – 通过即时预览和调色板控件将 PNG 或 JPG 图像转换为像素艺术，并进行图像到像素的转换帮我生成跟图像那样的",
-      "introMarkdown": "图像到像素艺术转换器 – 通过即时预览和调色板控件将 PNG 或 JPG 图像转换为像素艺术，并进行图像到像素的转换帮我生成跟图像那样的",
-      "status": "live",
-      "date": "2025-09-28",
-      "url": "https://pixelartvillage.org/",
-      "author": "elng12",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/elng12"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9271d9c04593",
-      "board": "main",
-      "name": "PDFLance",
-      "intro": "PDF 工具集，全部在浏览器里本地运行。你的文件不会被上传到其他地方。免费合并，拆分，编辑，转换 PDF，我们重视您的隐私",
-      "introMarkdown": "PDF 工具集，全部在浏览器里本地运行。你的文件不会被上传到其他地方。免费合并，拆分，编辑，转换 PDF，我们重视您的隐私",
-      "status": "live",
-      "date": "2025-09-28",
-      "url": "https://www.pdflance.com",
-      "author": "ljxyaly",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ljxyaly"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "7e64fd0ae53a",
-      "board": "main",
-      "name": "EZHolo",
-      "intro": "轻易从照片和其他平面图像创建手工绘制或机器打印的刮擦全息路径",
-      "introMarkdown": "轻易从照片和其他平面图像创建手工绘制或机器打印的刮擦全息路径 - [更多介绍](https://github.com/POPCORNBOOM/EZHolodotNet)",
-      "status": "live",
-      "date": "2025-09-27",
-      "url": "https://github.com/POPCORNBOOM/EZHolodotNet/releases/latest",
-      "author": "PopcornBoom",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/POPCORNBOOM"
-        },
-        {
-          "label": "Bilibili",
-          "url": "https://space.bilibili.com/271218438"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "2b35437ab95f",
-      "board": "main",
-      "name": "opus to mp3",
-      "intro": "免费在线音乐格式转换网站。支持全球各地多个语言，免费使用、无需注册、无需下载 APP 即可使用、方便快捷是我们的口号。专为 opus 格式转换 mp3 而生，让每一个人都能听到声音",
-      "introMarkdown": "免费在线音乐格式转换网站。支持全球各地多个语言，免费使用、无需注册、无需下载 APP 即可使用、方便快捷是我们的口号。专为 opus 格式转换 mp3 而生，让每一个人都能听到声音",
-      "status": "live",
-      "date": "2025-09-27",
-      "url": "https://opustomp3.online",
-      "author": "虾米",
-      "authorLinks": [
-        {
-          "label": "博客",
-          "url": "https://blog.2pp.link"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "a3a506459f77",
-      "board": "main",
-      "name": "Watermarkzero",
-      "intro": "AI 免费去除图片水印。擦除您照片上多余的水印、文字或标志。它并非仅仅涂抹或模糊水印，而是智能地重建水印后方的背景。 最终呈现的是一张完美干净、自然的照片，仿佛水印从未存在过",
-      "introMarkdown": "AI 免费去除图片水印。擦除您照片上多余的水印、文字或标志。它并非仅仅涂抹或模糊水印，而是智能地重建水印后方的背景。 最终呈现的是一张完美干净、自然的照片，仿佛水印从未存在过",
-      "status": "live",
-      "date": "2025-09-26",
-      "url": "https://watermarkzero.com/",
-      "author": "皮皮卡",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6a97347c1ae9",
-      "board": "main",
-      "name": "Free AI for Everyone",
-      "intro": "无需登录、完全免费的 AI（模型包括 Grok 4 Fast、DeepSeek V3.1 等）。可选择的模型以后可能会有所调整，但这个服务会长期提供，并且完全免费",
-      "introMarkdown": "无需登录、完全免费的 AI（模型包括 Grok 4 Fast、DeepSeek V3.1 等）。可选择的模型以后可能会有所调整，但这个服务会长期提供，并且完全免费",
-      "status": "live",
-      "date": "2025-09-26",
-      "url": "https://free.stockai.trade",
-      "author": "yvonuk",
-      "authorLinks": [
-        {
-          "label": "推特",
-          "url": "https://x.com/mcwangcn"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d10cfbac896b",
-      "board": "main",
-      "name": "AI Image Editor",
-      "intro": "通过文字指令编辑你的照片，AI 图像编辑器是一款由提示词驱动的智能新一代工具，它能让您使用自然语言编辑照片——无需像传统照片编辑器那样进行复杂的手动操作",
-      "introMarkdown": "通过文字指令编辑你的照片，AI 图像编辑器是一款由提示词驱动的智能新一代工具，它能让您使用自然语言编辑照片——无需像传统照片编辑器那样进行复杂的手动操作",
-      "status": "live",
-      "date": "2025-09-25",
-      "url": "https://aiimageeditor.photos/",
-      "author": "皮皮卡",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
+    {
+      "slug": "d3770b22844c",
+      "board": "game",
+      "name": "深矿 Deepmine",
+      "intro": "在自己电脑上玩的像素挖掘游戏。打开仓库 README，按系统下载并启动，选一个用 Codex 或 Claude Code 做过的项目：那天消耗的 token 会驱动钻头，画过的肖像、做过的网页就可能从岩层里蹦出来；沿矿道往上翻，还能找到以前的作品",
+      "introMarkdown": "在自己电脑上玩的像素挖掘游戏。打开仓库 README，按系统下载并启动，选一个用 Codex 或 Claude Code 做过的项目：那天消耗的 token 会驱动钻头，画过的肖像、做过的网页就可能从岩层里蹦出来；沿矿道往上翻，还能找到以前的作品 - [中文试玩（免安装，虚构样例）](https://yjin94606-art.github.io/deepmine/?lang=zh-CN) · [18 秒中文实机演示](https://yjin94606-art.github.io/deepmine/watch/zh/)",
+      "status": "live",
+      "date": "2026-11-19",
+      "url": "https://github.com/yjin94606-art/deepmine",
+      "author": "yjin94606-art",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/yjin94606-art"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "b84777c9ad06",
       "board": "game",
