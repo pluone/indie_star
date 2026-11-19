@@ -1,16 +1,87 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-19T03:26:46.085Z",
-    "statsSyncedAt": "2026-11-19T03:26:46.085Z",
-    "upstreamSha": "e59bb4882f40220c8f8f7fa7aec5eb496c1eefb3",
+    "contentSyncedAt": "2026-11-19T11:26:31.300Z",
+    "statsSyncedAt": "2026-11-19T11:26:31.300Z",
+    "upstreamSha": "922bd1ecb884b779389ddf86e4d1713ed62e6d38",
     "counts": {
-      "main": 1607,
+      "main": 1611,
       "game": 170,
       "programmer": 453,
-      "total": 2230
+      "total": 2234
     }
   },
   "main": [
+    {
+      "slug": "901d66682921",
+      "board": "main",
+      "name": "构图AI",
+      "intro": "基于 Excalidraw 引擎的 AI 手绘风格技术图表工具，一句话生成架构图、时序图、流程图、思维导图、拓扑图、ER 图等 12 种技术图表，生成后可在画布上继续拖拽编辑或框选局部让 AI 精修，支持导出 PNG / SVG / .excalidraw 源文件；内置 20+ 可二次编辑的示例模板，登录可免费体验（另有会员档与 MIT 开源版可自带 API Key 本地运行）",
+      "introMarkdown": "基于 Excalidraw 引擎的 AI 手绘风格技术图表工具，一句话生成架构图、时序图、流程图、思维导图、拓扑图、ER 图等 12 种技术图表，生成后可在画布上继续拖拽编辑或框选局部让 AI 精修，支持导出 PNG / SVG / .excalidraw 源文件；内置 20+ 可二次编辑的示例模板，登录可免费体验（另有会员档与 MIT 开源版可自带 API Key 本地运行） - [开源仓库](https://github.com/co-pine/ai-excalidraw)",
+      "status": "live",
+      "date": "2026-11-19",
+      "url": "https://draw.lzkz.top/",
+      "author": "松柏",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/co-pine"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "8d9a3965a622",
+      "board": "main",
+      "name": "Earlyfollow",
+      "intro": "AI 创业公司发现榜单，每天盯 500 多位风投、天使投资人在 X 上刚开始关注的新 AI 公司，每条信号都能看到是谁、在哪天关注的；免费看延后 14 天的榜单，Pro 去掉延迟并提供完整关注者名单、CSV 与 API",
+      "introMarkdown": "AI 创业公司发现榜单，每天盯 500 多位风投、天使投资人在 X 上刚开始关注的新 AI 公司，每条信号都能看到是谁、在哪天关注的；免费看延后 14 天的榜单，Pro 去掉延迟并提供完整关注者名单、CSV 与 API",
+      "status": "live",
+      "date": "2026-11-19",
+      "url": "https://earlyfollow.com/",
+      "author": "Wujie Li",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wujieli0207"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "5106c30993d8",
+      "board": "main",
+      "name": "My Face Analyzer",
+      "intro": "脸部分析网站，上传一张自拍免费测脸型、眼型、下颌线、左右对称、黄金比例和眼角倾斜，测量线直接画在照片上；478 个面部关键点在浏览器本地计算，照片不上传、无需注册；详细报告一次性付费 $7.99 起（含 AI 发型试戴图和 PDF），支持简繁中文、英文、日文",
+      "introMarkdown": "脸部分析网站，上传一张自拍免费测脸型、眼型、下颌线、左右对称、黄金比例和眼角倾斜，测量线直接画在照片上；478 个面部关键点在浏览器本地计算，照片不上传、无需注册；详细报告一次性付费 $7.99 起（含 AI 发型试戴图和 PDF），支持简繁中文、英文、日文 - [英文版](https://myfaceanalyzer.com)",
+      "status": "live",
+      "date": "2026-11-19",
+      "url": "https://myfaceanalyzer.com/zh-cn",
+      "author": "deepblue1991",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b31f8e61ec0a",
+      "board": "main",
+      "name": "7 Deadly Sins Test",
+      "intro": "免费七宗罪网页测验，答完 28 道题可查看七项得分，分享结果后可与朋友在同一张图上对比，无需注册",
+      "introMarkdown": "免费七宗罪网页测验，答完 28 道题可查看七项得分，分享结果后可与朋友在同一张图上对比，无需注册",
+      "status": "live",
+      "date": "2026-11-19",
+      "url": "https://7-deadly-sins-test.org/?utm_source=github.com&utm_medium=referral&utm_campaign=directory_listing&utm_content=website_link",
+      "author": "finalgod2003",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/finalgod2003"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "b2c6bdaf5509",
       "board": "main",
