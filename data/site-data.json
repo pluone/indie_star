@@ -1,16 +1,111 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-20T01:59:21.487Z",
-    "statsSyncedAt": "2026-11-20T01:59:21.487Z",
-    "upstreamSha": "892ae75f7e26e53a39fe5039f6d10c8b492798d2",
+    "contentSyncedAt": "2026-11-20T03:06:32.902Z",
+    "statsSyncedAt": "2026-11-20T03:06:32.902Z",
+    "upstreamSha": "05f3be3d9b9b8d2bceb83a9872b3245883dde8c6",
     "counts": {
-      "main": 1604,
-      "game": 171,
+      "main": 1609,
+      "game": 175,
       "programmer": 453,
-      "total": 2228
+      "total": 2237
     }
   },
   "main": [
+    {
+      "slug": "c897078ec813",
+      "board": "main",
+      "name": "微境沙盘",
+      "intro": "浏览器里的互动科学沙盘。可以拨动摆球观察摆波、调整棱镜看白光分色，也可以种植物观察生长过程，免登录",
+      "introMarkdown": "浏览器里的互动科学沙盘。可以拨动摆球观察摆波、调整棱镜看白光分色，也可以种植物观察生长过程，免登录 - [直接体验摆波](https://wyanhub.com/microcosm/lab/pendulum/)",
+      "status": "live",
+      "date": "2026-11-20",
+      "url": "https://wyanhub.com/microcosm/",
+      "author": "微言",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d028cd39bd2c",
+      "board": "main",
+      "name": "微言桌面 WyanDesk",
+      "intro": "浏览器里的个人桌面，可以把常用网站、待办和便签放在同一页，并按自己的习惯调整布局",
+      "introMarkdown": "浏览器里的个人桌面，可以把常用网站、待办和便签放在同一页，并按自己的习惯调整布局",
+      "status": "live",
+      "date": "2026-11-20",
+      "url": "https://desk.wyanhub.com/",
+      "author": "微言",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "130df7306588",
+      "board": "main",
+      "name": "AI指南站",
+      "intro": "把免费 GPU、免费服务器、免费大模型 API 的额度信息逐条核实后整理成清单，标明额度、领取条件和核实日期，失效就下架，帮开发者省去自己逐个验证真伪的时间",
+      "introMarkdown": "把免费 GPU、免费服务器、免费大模型 API 的额度信息逐条核实后整理成清单，标明额度、领取条件和核实日期，失效就下架，帮开发者省去自己逐个验证真伪的时间 - [开源仓库](https://github.com/wodeai956-ops/awesome-free-ai-resources)（179 条清单，每日自动同步）",
+      "status": "live",
+      "date": "2026-11-20",
+      "url": "https://taofai.com",
+      "author": "wodeai956-ops",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/wodeai956-ops"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "e765c421fd9b",
+      "board": "main",
+      "name": "观象",
+      "intro": "中国古籍研读网站，85 部典籍原文逐段配白话译文，难字点开有注释，另有朝代时间轴、人物志与诸子对辩，免费免登录无广告",
+      "introMarkdown": "中国古籍研读网站，85 部典籍原文逐段配白话译文，难字点开有注释，另有朝代时间轴、人物志与诸子对辩，免费免登录无广告",
+      "status": "live",
+      "date": "2026-11-20",
+      "url": "https://hexa.gavin.pub",
+      "author": "Gao Jiasheng",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/GaoJiasheng"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "02f496a71fc4",
+      "board": "main",
+      "name": "红果桌面端",
+      "intro": "适用于 Windows 10 / 11 x64 的免费第三方短剧客户端，在电脑上搜索、选集、收藏和接着本机进度看。由渠道有数独立维护，非红果官方出品。另有 Mac 和 Android TV 测试版",
+      "introMarkdown": "适用于 Windows 10 / 11 x64 的免费第三方短剧客户端，在电脑上搜索、选集、收藏和接着本机进度看。由渠道有数独立维护，非红果官方出品。另有 Mac 和 Android TV 测试版 - [Windows 下载与安装](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/blob/main/docs/WINDOWS-INSTALL.md)",
+      "status": "live",
+      "date": "2026-11-20",
+      "url": "https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases",
+      "author": "渠道有数",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/waligoraamodio288-rgb"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "4f67877ff041",
       "board": "main",
@@ -29982,6 +30077,82 @@
     }
   ],
   "game": [
+    {
+      "slug": "29e66da38d47",
+      "board": "game",
+      "name": "晚灯书店",
+      "intro": "三维网页寻物游戏。可以在书店等场景里找藏物，也可以自己藏一封信，把链接发给朋友来找",
+      "introMarkdown": "三维网页寻物游戏。可以在书店等场景里找藏物，也可以自己藏一封信，把链接发给朋友来找",
+      "status": "live",
+      "date": "2026-11-20",
+      "url": "https://wyanhub.com/bookshop/",
+      "author": "微言",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "60e6fa76494b",
+      "board": "game",
+      "name": "算独方格",
+      "intro": "网页版数独练习与解题工具。可以自己做题，也可以逐步查看解题推理、整理题本和打印题目",
+      "introMarkdown": "网页版数独练习与解题工具。可以自己做题，也可以逐步查看解题推理、整理题本和打印题目",
+      "status": "live",
+      "date": "2026-11-20",
+      "url": "https://wyanhub.com/sudoku/",
+      "author": "微言",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "e24f7e013d09",
+      "board": "game",
+      "name": "GuessCrowd",
+      "intro": "英文每日问答网页游戏。每天五道生活类问题，每题有 20 秒输入你认为最多人会给出的答案，越常见的答案得分越高。作答后可看答案排名，初期由预估答案生成，再随真实作答更新。每天当地时间零点换题，往期可以重玩。免费，手机和电脑浏览器打开就能玩，无需注册",
+      "introMarkdown": "英文每日问答网页游戏。每天五道生活类问题，每题有 20 秒输入你认为最多人会给出的答案，越常见的答案得分越高。作答后可看答案排名，初期由预估答案生成，再随真实作答更新。每天当地时间零点换题，往期可以重玩。免费，手机和电脑浏览器打开就能玩，无需注册",
+      "status": "live",
+      "date": "2026-11-20",
+      "url": "https://guesscrowd.com/",
+      "author": "liuzhen264",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/liuzhen264"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "92ebfebc3e9a",
+      "board": "game",
+      "name": "pubgspot",
+      "intro": "《绝地求生》九张互动地图，可查密室和载具点位。在艾伦格和米拉玛点选密室，就能对照游戏实景找到入口。手机浏览器可直接使用",
+      "introMarkdown": "《绝地求生》九张互动地图，可查密室和载具点位。在艾伦格和米拉玛点选密室，就能对照游戏实景找到入口。手机浏览器可直接使用",
+      "status": "live",
+      "date": "2026-11-20",
+      "url": "https://pubgspot.com/zh/",
+      "author": "Ted151951",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Ted151951"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "d3770b22844c",
       "board": "game",
