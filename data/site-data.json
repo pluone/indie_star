@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-20T03:06:32.902Z",
-    "statsSyncedAt": "2026-11-20T03:06:32.902Z",
-    "upstreamSha": "05f3be3d9b9b8d2bceb83a9872b3245883dde8c6",
+    "contentSyncedAt": "2026-11-20T03:26:14.336Z",
+    "statsSyncedAt": "2026-11-20T03:26:14.336Z",
+    "upstreamSha": "4cae338af3181a2edc3606686fc7643c2581e428",
     "counts": {
       "main": 1609,
-      "game": 175,
+      "game": 176,
       "programmer": 453,
-      "total": 2237
+      "total": 2238
     }
   },
   "main": [
@@ -30105,6 +30105,25 @@
       "status": "live",
       "date": "2026-11-20",
       "url": "https://wyanhub.com/sudoku/",
+      "author": "微言",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b51a4c4c46d8",
+      "board": "game",
+      "name": "微言松弛休闲",
+      "intro": "浏览器益智与怀旧小游戏合集（免费），收录扫雷、推箱子、数独、2048 等经典玩法，也有旋镜引光、落叶归湾等原创短局。打开网页即可玩",
+      "introMarkdown": "浏览器益智与怀旧小游戏合集（免费），收录扫雷、推箱子、数独、2048 等经典玩法，也有旋镜引光、落叶归湾等原创短局。打开网页即可玩",
+      "status": "live",
+      "date": "2026-11-20",
+      "url": "https://tools.wyanhub.com/relax",
       "author": "微言",
       "authorLinks": [
         {
