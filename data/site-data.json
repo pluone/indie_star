@@ -1,16 +1,106 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-20T03:26:14.336Z",
-    "statsSyncedAt": "2026-11-20T03:26:14.336Z",
-    "upstreamSha": "4cae338af3181a2edc3606686fc7643c2581e428",
+    "contentSyncedAt": "2026-11-20T11:11:30.944Z",
+    "statsSyncedAt": "2026-11-20T11:11:30.944Z",
+    "upstreamSha": "55aaf21b393f5b1204df37109ad47d8437e65983",
     "counts": {
-      "main": 1609,
+      "main": 1601,
       "game": 176,
-      "programmer": 453,
-      "total": 2238
+      "programmer": 454,
+      "total": 2231
     }
   },
   "main": [
+    {
+      "slug": "c153fa6b0466",
+      "board": "main",
+      "name": "面试领航员 InterPilot",
+      "intro": "线上面试时实时识别面试官的问题，结合简历和岗位给出可以直接说出口的回答，支持飞书、钉钉、腾讯会议等网页版，按分钟计费，新用户注册送 20 分钟",
+      "introMarkdown": "线上面试时实时识别面试官的问题，结合简历和岗位给出可以直接说出口的回答，支持飞书、钉钉、腾讯会议等网页版，按分钟计费，新用户注册送 20 分钟 - [使用说明](https://interpilot.cn/guide.html)",
+      "status": "live",
+      "date": "2026-11-20",
+      "url": "https://interpilot.cn",
+      "author": "zhangmnn",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/zhangmnn"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "2046e953895b",
+      "board": "main",
+      "name": "GuruTrans",
+      "intro": "AI 翻译与文本工具网站，支持中英、日英、希腊语等语言互译，还能把英文改写成莎士比亚等历史风格，以及转换摩斯码，粘贴文字就能用",
+      "introMarkdown": "AI 翻译与文本工具网站，支持中英、日英、希腊语等语言互译，还能把英文改写成莎士比亚等历史风格，以及转换摩斯码，粘贴文字就能用",
+      "status": "live",
+      "date": "2026-11-20",
+      "url": "https://gurutrans.app/",
+      "author": "Haoxiang Chen",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "da4b12a988c0",
+      "board": "main",
+      "name": "TattooTryOn",
+      "intro": "纹之前，先在自己身上看看效果。上传一张照片，AI 把纹身画进你的皮肤，摆放预览免费",
+      "introMarkdown": "纹之前，先在自己身上看看效果。上传一张照片，AI 把纹身画进你的皮肤，摆放预览免费",
+      "status": "live",
+      "date": "2026-11-20",
+      "url": "https://tattootryon.app/",
+      "author": "Yuzu-Peel",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Yuzu-Peel"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "12a37adeeb25",
+      "board": "main",
+      "name": "书本记账",
+      "intro": "AI 语音记账微信小程序，说一句话自动识别金额、分类与标签，可按标签归类与多选筛选统计，支持从其他记账应用迁移数据",
+      "introMarkdown": "AI 语音记账微信小程序，说一句话自动识别金额、分类与标签，可按标签归类与多选筛选统计，支持从其他记账应用迁移数据",
+      "status": "live",
+      "date": "2026-11-20",
+      "url": "https://github.com/z850672062/shubenjizhang",
+      "author": "z850672062",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/z850672062"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "85ba7acfaf28",
+      "board": "main",
+      "name": "jpnotes 日语备考",
+      "intro": "JLPT 日语能力考试备考网站，N5–N1 全部免费：4000+ 道练习题（含带音频的听力题）、整套模拟考、93 课语法笔记和单词卡，答完可让 AI 讲解，点生词加入生词本按间隔复习；免注册，登录后进度多设备同步，中英双语界面",
+      "introMarkdown": "JLPT 日语能力考试备考网站，N5–N1 全部免费：4000+ 道练习题（含带音频的听力题）、整套模拟考、93 课语法笔记和单词卡，答完可让 AI 讲解，点生词加入生词本按间隔复习；免注册，登录后进度多设备同步，中英双语界面",
+      "status": "live",
+      "date": "2026-11-20",
+      "url": "https://jpnotes.dev/",
+      "author": "jpnotes",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Ralphbupt"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "c897078ec813",
       "board": "main",
@@ -29868,212 +29958,6 @@
       ],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "6fc2c1a59547",
-      "board": "main",
-      "name": "Gemini Storybook Gallery",
-      "intro": "Gemini Storybook 汇总，分类，保留原生的交互式阅读体验",
-      "introMarkdown": "Gemini Storybook 汇总，分类，保留原生的交互式阅读体验",
-      "status": "live",
-      "date": "2025-10-10",
-      "url": "https://geministorybook.gallery/",
-      "author": "Leo",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "eaff5eedd015",
-      "board": "main",
-      "name": "TO MD",
-      "intro": "将 Word、PDF、表格、演示、网页、图片、音频、压缩包、代码、RSS 和网址转成结构化的 Markdown，秒级转换，无需注册，长期免费，注重隐私与安全。",
-      "introMarkdown": "将 Word、PDF、表格、演示、网页、图片、音频、压缩包、代码、RSS 和网址转成结构化的 Markdown，秒级转换，无需注册，长期免费，注重隐私与安全。",
-      "status": "live",
-      "date": "2025-10-10",
-      "url": "https://tomd.io",
-      "author": "Ethan Sunray",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "81b8932af1f9",
-      "board": "main",
-      "name": "AI照片渲染",
-      "intro": "🔥上传任意照片就能快速生成各种风格的头像，轻松满足所有社交平台的头像需求",
-      "introMarkdown": "🔥上传任意照片就能快速生成各种风格的头像，轻松满足所有社交平台的头像需求",
-      "status": "live",
-      "date": "2025-10-10",
-      "url": "https://www.aimage.top/",
-      "author": "Archer",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "79402049d6cd",
-      "board": "main",
-      "name": "软著宝",
-      "intro": "AI 生成全套软著材料（包括 8 张软件截图、详细图文文档鉴别材料、60 页原创源代码等）",
-      "introMarkdown": "AI 生成全套软著材料（包括 8 张软件截图、详细图文文档鉴别材料、60 页原创源代码等）- [更多介绍](https://ruanzhubao.com/blogs/ruanzhubao-shuomingshu)",
-      "status": "live",
-      "date": "2025-10-09",
-      "url": "https://ruanzhubao.com",
-      "author": "黑查理",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/clhey"
-        },
-        {
-          "label": "博客",
-          "url": "https://ruanzhubao.com"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f0bf5fb0828d",
-      "board": "main",
-      "name": "图像去模糊",
-      "intro": "用人工智能技术消除图像模糊，恢复清晰度和细节。即时提升照片清晰度，修复模糊照片，提高分辨率",
-      "introMarkdown": "用人工智能技术消除图像模糊，恢复清晰度和细节。即时提升照片清晰度，修复模糊照片，提高分辨率",
-      "status": "live",
-      "date": "2025-10-07",
-      "url": "https://unblurimg.ai/",
-      "author": "Ryan",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1c62670311ae",
-      "board": "main",
-      "name": "NanaVis",
-      "intro": "Nano Banana 驱动的 AI 图片编辑工具",
-      "introMarkdown": "Nano Banana 驱动的 AI 图片编辑工具",
-      "status": "live",
-      "date": "2025-10-07",
-      "url": "https://nanavis.com/zh",
-      "author": "Jali",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/qqxufo"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "26a31312c9b0",
-      "board": "main",
-      "name": "AI-NanoBanana",
-      "intro": "AI 图像工作室，让你轻松把创意变成高质量视觉作品",
-      "introMarkdown": "AI 图像工作室，让你轻松把创意变成高质量视觉作品",
-      "status": "live",
-      "date": "2025-10-05",
-      "url": "https://www.ai-nanobanana.net/",
-      "author": "Leon",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b9aebae00e13",
-      "board": "main",
-      "name": "Teleprompter",
-      "intro": "提词器，适用于视频创作者、演讲者和教育工作者",
-      "introMarkdown": "提词器，适用于视频创作者、演讲者和教育工作者",
-      "status": "live",
-      "date": "2025-10-04",
-      "url": "https://teleprompteronline.org",
-      "author": "pillow",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d768018fced0",
-      "board": "main",
-      "name": "sora2ai.ai",
-      "intro": "最新的 AI 视频生成模型。创建具有同步音频、对话和效果的逼真且物理准确的视频。",
-      "introMarkdown": "最新的 AI 视频生成模型。创建具有同步音频、对话和效果的逼真且物理准确的视频。",
-      "status": "live",
-      "date": "2025-10-04",
-      "url": "https://sora2ai.ai",
-      "author": "詹姆斯 周",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "70c3130c4c55",
-      "board": "main",
-      "name": "NanoImg",
-      "intro": "基于 Nano Banana 的 AI 图像引擎，带来简单高效的图片编辑体验。上传图片，输入需求，即刻生成你想要的视觉效果。",
-      "introMarkdown": "基于 Nano Banana 的 AI 图像引擎，带来简单高效的图片编辑体验。上传图片，输入需求，即刻生成你想要的视觉效果。",
-      "status": "live",
-      "date": "2025-10-04",
-      "url": "https://nanoimg.net/",
-      "author": "fanison",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "8e69e8ac4b16",
-      "board": "main",
-      "name": "AI Lyrics Generator",
-      "intro": "AI 歌词生成 & 改进",
-      "introMarkdown": "AI 歌词生成 & 改进",
-      "status": "live",
-      "date": "2025-10-02",
-      "url": "https://ai-lyrics-generator.net/",
-      "author": "SUNJL",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "e03bb93a6d47",
-      "board": "main",
-      "name": "萌宠计划（iOS）",
-      "intro": "清新易用的宠物陪伴管家，包含宠物档案、图文日记、消费记账等功能",
-      "introMarkdown": "清新易用的宠物陪伴管家，包含宠物档案、图文日记、消费记账等功能",
-      "status": "live",
-      "date": "2025-10-02",
-      "url": "https://apps.apple.com/cn/app/%E8%90%8C%E5%AE%A0%E8%AE%A1%E5%88%92-%E5%AE%A0%E7%89%A9%E6%97%A5%E8%AE%B0%E4%B8%8E%E6%B6%88%E8%B4%B9%E8%AE%B0%E8%B4%A6/id6748669989",
-      "author": "Margox",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/margox"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6d4d750a00dc",
-      "board": "main",
-      "name": "Beardstyle AI",
-      "intro": "虚拟试戴胡子",
-      "introMarkdown": "虚拟试戴胡子",
-      "status": "live",
-      "date": "2025-10-01",
-      "url": "https://beardstyle.org/",
-      "author": "Yuzu-Peel",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Yuzu-Peel"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
@@ -33354,6 +33238,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "c80bf6669a90",
+      "board": "programmer",
+      "name": "DataXAPI",
+      "intro": "给 AI 和开发者用的市场数据接口，一把 Key 取抖音（含巨量算数、星图）、小红书（含蒲公英）、公众号、视频号、快手、B站、微博、知乎以及 TikTok、X、YouTube 等 21 个平台的公开数据；HTTP、SDK、命令行、远程 MCP 都能接，一次 $0.0003 起，调用失败不收费，免费试用最多 333 次、不用绑卡；需要写代码或在 AI 客户端里配置",
+      "introMarkdown": "给 AI 和开发者用的市场数据接口，一把 Key 取抖音（含巨量算数、星图）、小红书（含蒲公英）、公众号、视频号、快手、B站、微博、知乎以及 TikTok、X、YouTube 等 21 个平台的公开数据；HTTP、SDK、命令行、远程 MCP 都能接，一次 $0.0003 起，调用失败不收费，免费试用最多 333 次、不用绑卡；需要写代码或在 AI 客户端里配置 - [SDK 与中文文档](https://github.com/data-x-api/dataxapi)",
+      "status": "live",
+      "date": "2026-11-20",
+      "url": "https://dataxapi.com/zh/",
+      "author": "DataXAPI 团队",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/data-x-api"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "e261d2fbe2b0",
       "board": "programmer",
