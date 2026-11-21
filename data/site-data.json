@@ -1,16 +1,73 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-21T01:55:40.407Z",
-    "statsSyncedAt": "2026-11-21T01:55:40.407Z",
-    "upstreamSha": "b8b3f7ab5b9d45c20fe633efa4dd053fe47c4a9d",
+    "contentSyncedAt": "2026-11-21T03:26:17.925Z",
+    "statsSyncedAt": "2026-11-21T03:26:17.925Z",
+    "upstreamSha": "121beeabed9fa7e3e71fcb617e578a656a0ab736",
     "counts": {
-      "main": 1605,
-      "game": 177,
-      "programmer": 454,
-      "total": 2236
+      "main": 1604,
+      "game": 178,
+      "programmer": 455,
+      "total": 2237
     }
   },
   "main": [
+    {
+      "slug": "6ca56685327c",
+      "board": "main",
+      "name": "Any2WebP",
+      "intro": "本地图片转换工具，把图片批量转为 WebP 或 GIF，也能把多张图片或短视频片段制成动图并逐帧对比；免费、MIT 开源",
+      "introMarkdown": "本地图片转换工具，把图片批量转为 WebP 或 GIF，也能把多张图片或短视频片段制成动图并逐帧对比；免费、MIT 开源 - [源码与下载](https://github.com/ixiehao/Any2WebP)",
+      "status": "live",
+      "date": "2026-11-21",
+      "url": "https://ixiehao.github.io/Any2WebP/zh/",
+      "author": "ixiehao",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ixiehao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "56fc8b0b7cbc",
+      "board": "main",
+      "name": "ezNTFS",
+      "intro": "Mac 外接 NTFS 磁盘读写工具，支持按磁盘自动挂载、安全推出和 SHA-256 复制校验；免费开源，需 macFUSE",
+      "introMarkdown": "Mac 外接 NTFS 磁盘读写工具，支持按磁盘自动挂载、安全推出和 SHA-256 复制校验；免费开源，需 macFUSE - [源码与安装要求](https://github.com/ixiehao/ezNTFS)",
+      "status": "live",
+      "date": "2026-11-21",
+      "url": "https://ixiehao.github.io/ezNTFS/zh/",
+      "author": "ixiehao",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ixiehao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "5fe2155675fc",
+      "board": "main",
+      "name": "Site Templates Hub",
+      "intro": "免费 Google Sites 网站模板库，挑一个复制到自己的 Google Drive，替换文字和照片即可发布；无需写代码，托管免费，可绑定自定义域名",
+      "introMarkdown": "免费 Google Sites 网站模板库，挑一个复制到自己的 Google Drive，替换文字和照片即可发布；无需写代码，托管免费，可绑定自定义域名",
+      "status": "live",
+      "date": "2026-11-21",
+      "url": "https://sitetemplateshub.com/",
+      "author": "Linky",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Linky-AIinlink"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "0fba989de50a",
       "board": "main",
@@ -29950,93 +30007,28 @@
       ],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "6ef91123eb71",
-      "board": "main",
-      "name": "Veo 3.1 AI",
-      "intro": "使用 Veo3.1 创作电影级视频，配备 1080p 原生音频、首尾帧控制及免费试用额度",
-      "introMarkdown": "使用 Veo3.1 创作电影级视频，配备 1080p 原生音频、首尾帧控制及免费试用额度",
-      "status": "live",
-      "date": "2025-10-16",
-      "url": "https://veo3-1.co/zh",
-      "author": "lanmo",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/oddboy0152-create"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f59b5a9b4385",
-      "board": "main",
-      "name": "Sora2 AI",
-      "intro": "体验 Sora 2 视频生成 – 创建 1080p 无水印视频，配备同步音频",
-      "introMarkdown": "体验 Sora 2 视频生成 – 创建 1080p 无水印视频，配备同步音频",
-      "status": "live",
-      "date": "2025-10-15",
-      "url": "https://sora2-ai.net/",
-      "author": "oddboy",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/liuShuZhu"
-        },
-        {
-          "label": "博客",
-          "url": "http://www.oddboy.top"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "22229060cfbb",
-      "board": "main",
-      "name": "灵象工具箱",
-      "intro": "AI 智能图像处理工具，视频抠图换背景、视频去水印、AI抠图、智能擦除、截图美化、OCR文字识别、在线拼图、视频智能镜头分割、图片压缩、图片格式转换，几乎所有功能都支持批量操作，不限制文件数量和大小（支持 win 和 mac 平台，所有处理都是本地模式保证用户隐私）",
-      "introMarkdown": "AI 智能图像处理工具，视频抠图换背景、视频去水印、AI抠图、智能擦除、截图美化、OCR文字识别、在线拼图、视频智能镜头分割、图片压缩、图片格式转换，几乎所有功能都支持批量操作，不限制文件数量和大小（支持 win 和 mac 平台，所有处理都是本地模式保证用户隐私） - [更多介绍](https://www.lingxiangtools.top/#features)",
-      "status": "live",
-      "date": "2025-10-14",
-      "url": "https://www.lingxiangtools.top/",
-      "author": "xiaobin",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/pangxiaobin"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "fcfa0c1470b2",
-      "board": "main",
-      "name": "Bulk Resize Images Online",
-      "intro": "批量调整多张图片的大小。快速、安全，完全在浏览器中运行——无需上传",
-      "introMarkdown": "批量调整多张图片的大小。快速、安全，完全在浏览器中运行——无需上传 - [更多介绍](https://bulkresizeimages.online/zh/about)",
-      "status": "live",
-      "date": "2025-10-12",
-      "url": "https://bulkresizeimages.online/",
-      "author": "ShawnHacks",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ShawnHacks"
-        },
-        {
-          "label": "博客",
-          "url": "https://indietion.com/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
+    {
+      "slug": "493c92655ceb",
+      "board": "game",
+      "name": "闲钓小栈",
+      "intro": "在电脑浏览器里玩的单人 3D 钓鱼模拟。可以去池塘、河流、湖泊和近海选钓位，从配钓组、调漂、抛竿一路练到看漂、遛鱼和抄鱼。也可以单独练习辨认漂相和调漂。免费免登录，练习记录保存在当前浏览器",
+      "introMarkdown": "在电脑浏览器里玩的单人 3D 钓鱼模拟。可以去池塘、河流、湖泊和近海选钓位，从配钓组、调漂、抛竿一路练到看漂、遛鱼和抄鱼。也可以单独练习辨认漂相和调漂。免费免登录，练习记录保存在当前浏览器",
+      "status": "live",
+      "date": "2026-11-21",
+      "url": "https://fishing.wyanhub.com/",
+      "author": "微言",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "9442c4f6e9d5",
       "board": "game",
@@ -33333,6 +33325,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "7543eccee008",
+      "board": "programmer",
+      "name": "Open Agent API",
+      "intro": "自托管开发工具，让现有 Python 或 Node.js 程序沿用 OpenAI SDK 调用本机代码助手，不用自己管理交互式命令行进程。Apache-2.0 开源，附不耗模型额度的离线示例",
+      "introMarkdown": "自托管开发工具，让现有 Python 或 Node.js 程序沿用 OpenAI SDK 调用本机代码助手，不用自己管理交互式命令行进程。Apache-2.0 开源，附不耗模型额度的离线示例 - [源码与中文快速入门](https://github.com/jiangxingfan1-coder/Open-Agent-API/blob/main/README.zh-CN.md)",
+      "status": "live",
+      "date": "2026-11-21",
+      "url": "https://openagentapi.pages.dev/",
+      "author": "StarFans",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jiangxingfan1-coder"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "c80bf6669a90",
       "board": "programmer",
