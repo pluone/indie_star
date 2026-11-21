@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-21T13:36:59.971Z",
-    "statsSyncedAt": "2026-11-21T13:36:59.971Z",
-    "upstreamSha": "18ee0c1a8d9434543f89911e09b91101c324b121",
+    "contentSyncedAt": "2026-11-21T13:41:49.333Z",
+    "statsSyncedAt": "2026-11-21T13:41:49.333Z",
+    "upstreamSha": "fce55a2a6dbcac815c78a79abdf3bbd0c9d11e20",
     "counts": {
       "main": 1599,
       "game": 179,
@@ -8405,8 +8405,8 @@
       "slug": "7b314f40b619",
       "board": "main",
       "name": "像话口语",
-      "intro": "说一句中文或英文，听示范、跟读，再回听自己的录音。也能从网页邀请和朋友练同一道题，录音默认私密（iOS / Android）。",
-      "introMarkdown": "说一句中文或英文，听示范、跟读，再回听自己的录音。也能从网页邀请和朋友练同一道题，录音默认私密（iOS / Android）。",
+      "intro": "说一句中文或英文，听示范、跟读，再回听自己的录音。也能从网页邀请和朋友练同一道题，录音默认私密（iOS / Android）",
+      "introMarkdown": "说一句中文或英文，听示范、跟读，再回听自己的录音。也能从网页邀请和朋友练同一道题，录音默认私密（iOS / Android）",
       "status": "live",
       "date": "2026-10-14",
       "url": "https://mirrorsay.com",
