@@ -1,8 +1,8 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-23T06:16:23.951Z",
-    "statsSyncedAt": "2026-11-23T06:16:23.951Z",
-    "upstreamSha": "5dd6c86f224a6451a5064bf56fde1141870bd792",
+    "contentSyncedAt": "2026-11-23T07:31:21.581Z",
+    "statsSyncedAt": "2026-11-23T07:31:21.581Z",
+    "upstreamSha": "dc7cdaf8d9adfa491ace604673ff68c297918747",
     "counts": {
       "main": 1595,
       "game": 182,
@@ -11,6 +11,25 @@
     }
   },
   "main": [
+    {
+      "slug": "47fcf0938bd3",
+      "board": "main",
+      "name": "回声口袋",
+      "intro": "中文音视频转文字工具，把会议、采访和课程录音自动整理成带时间轴、可区分说话人的文字稿，支持导出和分享，提供网站和小程序",
+      "introMarkdown": "中文音视频转文字工具，把会议、采访和课程录音自动整理成带时间轴、可区分说话人的文字稿，支持导出和分享，提供网站和小程序",
+      "status": "live",
+      "date": "2026-11-23",
+      "url": "https://huishengkoudai.cn/",
+      "author": "苏维",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/dsfsdsfs2007"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "a9356a3ffc6b",
       "board": "main",
@@ -210,25 +229,6 @@
         {
           "label": "GitHub",
           "url": "https://github.com/lwxyfer"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "a1c6d0f936f6",
-      "board": "main",
-      "name": "DemoReady",
-      "intro": "在浏览器里录产品演示视频，直接输入 localhost 或线上网页链接就能开录，先选视频比例、手机平板电脑的 Mockup 和背景（含莫奈、葛饰北斋画作），实时预览后录制下载，不用装软件、不用再剪辑",
-      "introMarkdown": "在浏览器里录产品演示视频，直接输入 localhost 或线上网页链接就能开录，先选视频比例、手机平板电脑的 Mockup 和背景（含莫奈、葛饰北斋画作），实时预览后录制下载，不用装软件、不用再剪辑",
-      "status": "live",
-      "date": "2026-11-23",
-      "url": "https://demoready.bitwonder.app/",
-      "author": "Q.Jin",
-      "authorLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/qijin-3"
         }
       ],
       "likes": 0,
