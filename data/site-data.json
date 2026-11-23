@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-23T10:16:22.834Z",
-    "statsSyncedAt": "2026-11-23T10:16:22.834Z",
-    "upstreamSha": "a552f3ca929d65f0a9a5ac4795ffad7e7e34b1fb",
+    "contentSyncedAt": "2026-11-23T18:21:27.115Z",
+    "statsSyncedAt": "2026-11-23T18:21:27.115Z",
+    "upstreamSha": "71dca294f0dc2af27af02af6c8d6f1fa9d3f3436",
     "counts": {
-      "main": 1596,
+      "main": 1598,
       "game": 182,
-      "programmer": 460,
-      "total": 2238
+      "programmer": 462,
+      "total": 2242
     }
   },
   "main": [
+    {
+      "slug": "904fb63a3b95",
+      "board": "main",
+      "name": "HSKWin",
+      "intro": "HSK 3.0 模拟考试网站，按真实考试计时并提供即时评分、每题解析、AI 写作批改和 HSKK 口语评分",
+      "introMarkdown": "HSK 3.0 模拟考试网站，按真实考试计时并提供即时评分、每题解析、AI 写作批改和 HSKK 口语评分",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://hskwin.com/",
+      "author": "Daniel Gross",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/obcl3w"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b210e5f09475",
+      "board": "main",
+      "name": "OpenFMV",
+      "intro": "中文互动影游编辑器，导入视频后可以连出可选择的剧情、安排事件和条件，导出独立 Windows 或网页游戏；Windows 11 x64 便携预览版，无需注册，MIT 开源",
+      "introMarkdown": "中文互动影游编辑器，导入视频后可以连出可选择的剧情、安排事件和条件，导出独立 Windows 或网页游戏；Windows 11 x64 便携预览版，无需注册，MIT 开源 - [更多介绍](https://github.com/Sheldon23357/OpenFMV)",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://github.com/Sheldon23357/OpenFMV/releases/tag/v0.1.2",
+      "author": "Sheldon23357",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Sheldon23357"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "992a9a64a518",
       "board": "main",
@@ -20939,7 +20977,7 @@
       "board": "main",
       "name": "cv.cm",
       "intro": "浏览器本地 PDF、图片和二维码工具，文件不上传；另有阅后即焚云剪切板",
-      "introMarkdown": "浏览器本地 PDF、图片和二维码工具，文件不上传；另有阅后即焚云剪切板 - [GitHub 仓库](https://github.com/mantoufan/cvcm)",
+      "introMarkdown": "浏览器本地 PDF、图片和二维码工具，文件不上传；另有阅后即焚云剪切板",
       "status": "live",
       "date": "2026-06-05",
       "url": "https://cv.cm",
@@ -33294,6 +33332,44 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "6cbdb3890eda",
+      "board": "programmer",
+      "name": "pt-tools",
+      "intro": "PT 站点自动化工具，一个 Docker 容器完成 RSS 下载、刷流、IYUU 辅种、追剧入库、签到保号和数据统计，统一管理 qBittorrent 和 Transmission，内置 AI 助手，另有 Android App，开源免费",
+      "introMarkdown": "PT 站点自动化工具，一个 Docker 容器完成 RSS 下载、刷流、IYUU 辅种、追剧入库、签到保号和数据统计，统一管理 qBittorrent 和 Transmission，内置 AI 助手，另有 Android App，开源免费 - [更多介绍](https://github.com/sunerpy/pt-tools)",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://firlab.app/pt-tools/",
+      "author": "sunerpy",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sunerpy"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "eded26d7faf7",
+      "board": "programmer",
+      "name": "Keepbay",
+      "intro": "自部署的私有网盘，直接管理硬盘上已有的文件夹，只建索引、不导入；专业版用本地模型读取证件、合同和保修卡，提取到期日并提醒，按语义搜索文档和照片；支持 Linux 和 Docker，免费版是完整的网盘，专业版 ¥199 买断",
+      "introMarkdown": "自部署的私有网盘，直接管理硬盘上已有的文件夹，只建索引、不导入；专业版用本地模型读取证件、合同和保修卡，提取到期日并提醒，按语义搜索文档和照片；支持 Linux 和 Docker，免费版是完整的网盘，专业版 ¥199 买断 - [在线演示](https://demo.keepbay.app)",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://keepbay.app",
+      "author": "SparkStudio",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/huohuastudio"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "276e0aaaca8c",
       "board": "programmer",
