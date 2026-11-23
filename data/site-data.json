@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-23T06:06:25.553Z",
-    "statsSyncedAt": "2026-11-23T06:06:25.553Z",
-    "upstreamSha": "932e7d382b1be403d910227efaab5769c4881319",
+    "contentSyncedAt": "2026-11-23T06:11:25.655Z",
+    "statsSyncedAt": "2026-11-23T06:11:25.655Z",
+    "upstreamSha": "89a15763130ec51a4a514ba5d7d0efebae2d360a",
     "counts": {
-      "main": 1593,
-      "game": 181,
-      "programmer": 458,
-      "total": 2232
+      "main": 1595,
+      "game": 182,
+      "programmer": 460,
+      "total": 2237
     }
   },
   "main": [
+    {
+      "slug": "a9356a3ffc6b",
+      "board": "main",
+      "name": "MakeMidas",
+      "intro": "AI 生图、生视频和音乐工具，一个页面、一份积分就能用 GPT Image、Nano Banana、Veo、Kling、Seedance、Suno 等主流模型，生成前先显示要扣的积分，失败自动退回，新账号验证邮箱送 50 积分",
+      "introMarkdown": "AI 生图、生视频和音乐工具，一个页面、一份积分就能用 GPT Image、Nano Banana、Veo、Kling、Seedance、Suno 等主流模型，生成前先显示要扣的积分，失败自动退回，新账号验证邮箱送 50 积分",
+      "status": "live",
+      "date": "2026-11-23",
+      "url": "https://makemidas.com",
+      "author": "hypercube67",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hypercube67-formal"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "6a81bb097c32",
+      "board": "main",
+      "name": "AirTether",
+      "intro": "通过低功耗蓝牙连接在任意 Windows 电脑上远程开关 Android 手机热点、实时同步手机蜂窝网络状态，并支持 Windows 原生来电提醒（拒接 / 静音），后续将加入更多互联功能",
+      "introMarkdown": "通过低功耗蓝牙连接在任意 Windows 电脑上远程开关 Android 手机热点、实时同步手机蜂窝网络状态，并支持 Windows 原生来电提醒（拒接 / 静音），后续将加入更多互联功能",
+      "status": "live",
+      "date": "2026-11-23",
+      "url": "https://github.com/onear233/AirTether",
+      "author": "onear233",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/onear233"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "a8ba7a90519b",
       "board": "main",
@@ -29848,6 +29886,25 @@
   ],
   "game": [
     {
+      "slug": "b49ab2b5a266",
+      "board": "game",
+      "name": "Simon Puzzle Games",
+      "intro": "在浏览器里玩 101 种逻辑谜题，读完中文规则就能动手连桥、画环或划分星系，进度自动保存在本机",
+      "introMarkdown": "在浏览器里玩 101 种逻辑谜题，读完中文规则就能动手连桥、画环或划分星系，进度自动保存在本机",
+      "status": "live",
+      "date": "2026-11-23",
+      "url": "https://puzzles-game.com/zh/games/",
+      "author": "selfboot",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/selfboot"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "2139996bb0ed",
       "board": "game",
       "name": "团团巡梦",
@@ -33214,6 +33271,44 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "276e0aaaca8c",
+      "board": "programmer",
+      "name": "Krss",
+      "intro": "自托管 RSS 阅读器，单二进制 + SQLite，能装插件、按规则自动过滤、把 MCP 当订阅源，支持 AI 摘要翻译和多形态阅读",
+      "introMarkdown": "自托管 RSS 阅读器，单二进制 + SQLite，能装插件、按规则自动过滤、把 MCP 当订阅源，支持 AI 摘要翻译和多形态阅读 - [更多介绍](https://github.com/kue02/Krss#readme)",
+      "status": "live",
+      "date": "2026-11-23",
+      "url": "https://github.com/kue02/Krss",
+      "author": "kue",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/kue02"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "5bf7a457ead9",
+      "board": "programmer",
+      "name": "PS TwinRun",
+      "intro": "Windows 脚本迁移工具，同一脚本分别在 PowerShell 5.1 和 7 实跑，一条命令对照退出码、终端输出及文件字节",
+      "introMarkdown": "Windows 脚本迁移工具，同一脚本分别在 PowerShell 5.1 和 7 实跑，一条命令对照退出码、终端输出及文件字节 - [中文说明和报告截图](https://github.com/bobbychina32747/ps-twinrun/blob/main/README.zh-CN.md)",
+      "status": "live",
+      "date": "2026-11-23",
+      "url": "https://github.com/bobbychina32747/ps-twinrun/releases/tag/v0.1.0",
+      "author": "bobbychina32747",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/bobbychina32747"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "d64313a56a9a",
       "board": "programmer",
