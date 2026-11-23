@@ -1,16 +1,163 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-23T01:19:55.986Z",
-    "statsSyncedAt": "2026-11-23T01:19:55.986Z",
-    "upstreamSha": "618f76c95fccc6bf312a2a8e8bc94aea35128b50",
+    "contentSyncedAt": "2026-11-23T02:11:26.975Z",
+    "statsSyncedAt": "2026-11-23T02:11:26.975Z",
+    "upstreamSha": "9f78f43d3588c15e0b13dda8d21e89206bd3f764",
     "counts": {
-      "main": 1603,
-      "game": 179,
-      "programmer": 457,
-      "total": 2239
+      "main": 1592,
+      "game": 181,
+      "programmer": 458,
+      "total": 2231
     }
   },
   "main": [
+    {
+      "slug": "d2931944f0bd",
+      "board": "main",
+      "name": "微言工具箱",
+      "intro": "在浏览器里改证件照尺寸和底色、处理 PDF、整理表格，多数工具在本地运行，打开网页就能用",
+      "introMarkdown": "在浏览器里改证件照尺寸和底色、处理 PDF、整理表格，多数工具在本地运行，打开网页就能用 - [直接做证件照](https://tools.wyanhub.com/tools/image/id-photo-layout)",
+      "status": "live",
+      "date": "2026-11-23",
+      "url": "https://tools.wyanhub.com/tools",
+      "author": "微言",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "c05148132cfc",
+      "board": "main",
+      "name": "闪电右键 QuickRight",
+      "intro": "给 Mac 访达的右键菜单补上一整套常用操作——系统只给了「新建文件夹」，它能直接新建文本、Markdown、Word、Excel 等格式的文件（可自定义模板）、剪切移动、复制完整路径、在当前文件夹开终端、图片转换压缩、算 SHA-256；完全免费，不用注册、没有订阅，只有可选的小费",
+      "introMarkdown": "给 Mac 访达的右键菜单补上一整套常用操作——系统只给了「新建文件夹」，它能直接新建文本、Markdown、Word、Excel 等格式的文件（可自定义模板）、剪切移动、复制完整路径、在当前文件夹开终端、图片转换压缩、算 SHA-256；完全免费，不用注册、没有订阅，只有可选的小费",
+      "status": "live",
+      "date": "2026-11-23",
+      "url": "https://apps.apple.com/us/app/quickright/id6763963598?mt=12",
+      "author": "Jason",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/sillyaboy"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "f72ca701d4f3",
+      "board": "main",
+      "name": "MFXGJ 免费小工具",
+      "intro": "免费在线工具集合，35 个工具：个税（五险一金）、贷款、复利计算，字数统计、JSON 格式化、图片压缩、二维码生成等，免注册、手机可用，所有处理都在浏览器本地完成不上传",
+      "introMarkdown": "免费在线工具集合，35 个工具：个税（五险一金）、贷款、复利计算，字数统计、JSON 格式化、图片压缩、二维码生成等，免注册、手机可用，所有处理都在浏览器本地完成不上传",
+      "status": "live",
+      "date": "2026-11-23",
+      "url": "https://ducheng980-coder.github.io/",
+      "author": "ducheng980-coder",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ducheng980-coder"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "a6052a1767a4",
+      "board": "main",
+      "name": "SN0VV CITY",
+      "intro": "可以在浏览器里漫游的 3D 滨海城市，点击建筑探索里面的项目，还能坐 08 号楼「技术手稿馆」的电梯，翻看架构笔记和 LoRA 指南",
+      "introMarkdown": "可以在浏览器里漫游的 3D 滨海城市，点击建筑探索里面的项目，还能坐 08 号楼「技术手稿馆」的电梯，翻看架构笔记和 LoRA 指南",
+      "status": "live",
+      "date": "2026-11-23",
+      "url": "https://www.sn0vv.top/",
+      "author": "SN0VV",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/SN0VV0511"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4cdbaf63d4ba",
+      "board": "main",
+      "name": "Thesisee 持见",
+      "intro": "用新财报对照原有投资假设、标注原文依据并留存判断的研究工具",
+      "introMarkdown": "用新财报对照原有投资假设、标注原文依据并留存判断的研究工具 - [产品介绍](https://thesisee.com/product/)",
+      "status": "live",
+      "date": "2026-11-23",
+      "url": "https://thesisee.com/",
+      "author": "shil630",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/shil630"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "ac9f2e1abe5f",
+      "board": "main",
+      "name": "Reletter",
+      "intro": "在浏览器里识别并逐块修改截图、菜单和商品图片中的中英文文字，标准编辑和带水印预览免费免登录，无水印 PNG 下载和 AI 局部重绘按积分计费",
+      "introMarkdown": "在浏览器里识别并逐块修改截图、菜单和商品图片中的中英文文字，标准编辑和带水印预览免费免登录，无水印 PNG 下载和 AI 局部重绘按积分计费",
+      "status": "live",
+      "date": "2026-11-23",
+      "url": "https://aiedittextinimage.com/",
+      "author": "Berry-hcy",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "890c08010de3",
+      "board": "main",
+      "name": "JustSVG",
+      "intro": "开源的网页图表编辑器，从空白画布、示例或已有 SVG 起步，修改架构图、流程图和信息图的文字、图形与位置，再导出可继续编辑的 SVG；无需注册",
+      "introMarkdown": "开源的网页图表编辑器，从空白画布、示例或已有 SVG 起步，修改架构图、流程图和信息图的文字、图形与位置，再导出可继续编辑的 SVG；无需注册 - [源码](https://github.com/lwxyfer/justsvg)",
+      "status": "live",
+      "date": "2026-11-23",
+      "url": "https://justsvg.vercel.app/",
+      "author": "LW",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lwxyfer"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "a1c6d0f936f6",
+      "board": "main",
+      "name": "DemoReady",
+      "intro": "在浏览器里录产品演示视频，直接输入 localhost 或线上网页链接就能开录，先选视频比例、手机平板电脑的 Mockup 和背景（含莫奈、葛饰北斋画作），实时预览后录制下载，不用装软件、不用再剪辑",
+      "introMarkdown": "在浏览器里录产品演示视频，直接输入 localhost 或线上网页链接就能开录，先选视频比例、手机平板电脑的 Mockup 和背景（含莫奈、葛饰北斋画作），实时预览后录制下载，不用装软件、不用再剪辑",
+      "status": "live",
+      "date": "2026-11-23",
+      "url": "https://demoready.bitwonder.app/",
+      "author": "Q.Jin",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/qijin-3"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "0b77b2224d67",
       "board": "main",
@@ -29678,337 +29825,42 @@
       "authorLinks": [],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "f7b854450060",
-      "board": "main",
-      "name": "FilingInsight",
-      "intro": "快速解读美股财报的 AI 工具，1 万多份财报解读，多语言支持，免费阅读",
-      "introMarkdown": "快速解读美股财报的 AI 工具，1 万多份财报解读，多语言支持，免费阅读",
-      "status": "live",
-      "date": "2025-10-30",
-      "url": "https://filing-insight.com/",
-      "author": "zxcHolmes",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9a41730a8c4c",
-      "board": "main",
-      "name": "image-to-sketch",
-      "intro": "图片转素描 AI 小工具",
-      "introMarkdown": "图片转素描 AI 小工具",
-      "status": "live",
-      "date": "2025-10-30",
-      "url": "https://www.imagetosketch.app/",
-      "author": "KryoWang",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/wangxiaosu"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "92cffa5b3711",
-      "board": "main",
-      "name": "媒发",
-      "intro": "内容分发工具，将内容发布/同步到各个媒体平台，只需 1 分钟",
-      "introMarkdown": "内容分发工具，将内容发布/同步到各个媒体平台，只需 1 分钟",
-      "status": "live",
-      "date": "2025-10-30",
-      "url": "https://mediaput.cn/?utm_source=1c7",
-      "author": "SparkHo",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b0a74bb385f5",
-      "board": "main",
-      "name": "音频转文字工具",
-      "intro": "AI 音频转文字，快速、精准、安全的转写服务",
-      "introMarkdown": "AI 音频转文字，快速、精准、安全的转写服务",
-      "status": "live",
-      "date": "2025-10-30",
-      "url": "https://audio2textai.com",
-      "author": "pillow",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f1b8975a6e80",
-      "board": "main",
-      "name": "Leawo free-screen-recorder",
-      "intro": "免费录像软件，支持 4K，无时长限制，无水印",
-      "introMarkdown": "免费录像软件，支持 4K，无时长限制，无水印",
-      "status": "live",
-      "date": "2025-10-30",
-      "url": "https://ja.leawo.com/free-screen-recorder/",
-      "author": "oroKAKA",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/oroKAKA"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "77cb1d571af4",
-      "board": "main",
-      "name": "AimtrainerX",
-      "intro": "专为 FPS 爱好者打造的瞄准训练网站，免费、上班可玩，丰富的训练模式，支持自定义训练样式",
-      "introMarkdown": "专为 FPS 爱好者打造的瞄准训练网站，免费、上班可玩，丰富的训练模式，支持自定义训练样式",
-      "status": "live",
-      "date": "2025-10-28",
-      "url": "https://aimtrainerx.com/",
-      "author": "LinightX",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "ca49b228c586",
-      "board": "main",
-      "name": "melhorar imagem",
-      "intro": "针对葡萄牙地区的图片网站",
-      "introMarkdown": "针对葡萄牙地区的图片网站",
-      "status": "live",
-      "date": "2025-10-27",
-      "url": "https://melhorarimagem.me/",
-      "author": "Ryan",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "7ecc21e3713b",
-      "board": "main",
-      "name": "Full Page Screenshot",
-      "intro": "5 秒一键生成精美推广截图插件。完整网页长截图：自动滚动拼接，无需手动操作。精准元素截取：点击即可截取按钮、图片、文字段落。自由区域选择：拖拽框选，只要你想要的部分。可视区域快照：当前所见即所得。重点标注：箭头、方框、文字说明，一目了然。背景设置：多个精美模板，一键设置精致截图。一键复制：截图完成复制立即发给同事朋友",
-      "introMarkdown": "5 秒一键生成精美推广截图插件。完整网页长截图：自动滚动拼接，无需手动操作。精准元素截取：点击即可截取按钮、图片、文字段落。自由区域选择：拖拽框选，只要你想要的部分。可视区域快照：当前所见即所得。重点标注：箭头、方框、文字说明，一目了然。背景设置：多个精美模板，一键设置精致截图。一键复制：截图完成复制立即发给同事朋友",
-      "status": "live",
-      "date": "2025-10-26",
-      "url": "https://www.fullpagescreenshot.top/zh",
-      "author": "Horace",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "github.com/lianhr12/"
-        },
-        {
-          "label": "博客",
-          "url": "https://www.hrope.cn/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0c81770dfb6b",
-      "board": "main",
-      "name": "ResizeImage.dev",
-      "intro": "在浏览器中直接调整图片尺寸。无需上传即可下载",
-      "introMarkdown": "在浏览器中直接调整图片尺寸。无需上传即可下载 - [更多介绍](https://resizeimage.dev/zh/about)",
-      "status": "live",
-      "date": "2025-10-26",
-      "url": "https://resizeimage.dev/",
-      "author": "ShawnHacks",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ShawnHacks"
-        },
-        {
-          "label": "博客",
-          "url": "https://indition.com"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "bcc9ee689c48",
-      "board": "main",
-      "name": "ImageConverter.dev",
-      "intro": "免费在线图像转换工具。在您的浏览器中立即在 PNG、JPG、WebP 之间转换图像格式。无需上传",
-      "introMarkdown": "免费在线图像转换工具。在您的浏览器中立即在 PNG、JPG、WebP 之间转换图像格式。无需上传 - [更多介绍](https://imageconverter.dev/zh/about)",
-      "status": "live",
-      "date": "2025-10-26",
-      "url": "https://imageconverter.dev/",
-      "author": "ShawnHacks",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ShawnHacks"
-        },
-        {
-          "label": "博客",
-          "url": "https://indition.com"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "753af545b45e",
-      "board": "main",
-      "name": "OpenFolder",
-      "intro": "在 macOS 菜单栏快速打开常用文件夹",
-      "introMarkdown": "在 macOS 菜单栏快速打开常用文件夹",
-      "status": "live",
-      "date": "2025-10-26",
-      "url": "https://apps.apple.com/cn/app/openfolder/id6753940577?l=en-GB&mt=12",
-      "author": "fzero17",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f6cc1c9853e1",
-      "board": "main",
-      "name": "AI 图像编辑器",
-      "intro": "图像编辑工具套件，集多种功能于一体。从照片质量、放大低分辨率图像、进行创意设计等等",
-      "introMarkdown": "图像编辑工具套件，集多种功能于一体。从照片质量、放大低分辨率图像、进行创意设计等等",
-      "status": "live",
-      "date": "2025-10-26",
-      "url": "https://pixfy.io/",
-      "author": "suio03",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "85fb9cf91210",
-      "board": "main",
-      "name": "AI Photo Prompt",
-      "intro": "任何图像转换为详细的 AI 提示词，为 Gemini、Midjourney 和 Stable Diffusion 即时生成照片和图像提示词",
-      "introMarkdown": "任何图像转换为详细的 AI 提示词，为 Gemini、Midjourney 和 Stable Diffusion 即时生成照片和图像提示词 - [更多介绍](https://aiphotoprompt.me/about)",
-      "status": "live",
-      "date": "2025-10-26",
-      "url": "https://aiphotoprompt.me",
-      "author": "grhuang87-hue",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0a1e145edf08",
-      "board": "main",
-      "name": "CSS2TW",
-      "intro": "将常规 CSS 转成 Tailwind CSS 的网站",
-      "introMarkdown": "将常规 CSS 转成 Tailwind CSS 的网站",
-      "status": "live",
-      "date": "2025-10-23",
-      "url": "https://www.css2tw.online/",
-      "author": "viga",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "8d27cfab5554",
-      "board": "main",
-      "name": "Sora2 Video Studio",
-      "intro": "免费 Sora2 视频生成服务，联系我可以赠送积分试用，欢迎反馈建议",
-      "introMarkdown": "免费 Sora2 视频生成服务，联系我可以赠送积分试用，欢迎反馈建议",
-      "status": "live",
-      "date": "2025-10-22",
-      "url": "https://www.sora2video.blog",
-      "author": "melooooooo",
-      "authorLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/melooooooo"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "a2296a304f85",
-      "board": "main",
-      "name": "AI 播客生成器",
-      "intro": "生成播客音频，支持单人和多人对话。支持原文智能配音",
-      "introMarkdown": "生成播客音频，支持单人和多人对话。支持原文智能配音 - [GitHub 仓库](https://github.com/justlovemaki/Podcast-Generator)",
-      "status": "live",
-      "date": "2025-10-21",
-      "url": "https://podcast.hubtoday.app/",
-      "author": "何夕2077",
-      "authorLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/justlovemaki"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "48f48929db3e",
-      "board": "main",
-      "name": "PromptHub提示词管理优化使用工具",
-      "intro": "AI 提示词管理平台，支持浏览器插件，多平台客户端",
-      "introMarkdown": "AI 提示词管理平台，支持浏览器插件，多平台客户端",
-      "status": "live",
-      "date": "2025-10-21",
-      "url": "https://prompt.hubtoday.app",
-      "author": "何夕2077",
-      "authorLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/justlovemaki"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f1a3f642b328",
-      "board": "main",
-      "name": "GenColoring AI",
-      "intro": "AI 生成涂色页平台",
-      "introMarkdown": "AI 生成涂色页平台 - [博客介绍](https://blog.csdn.net/weixin_52314137/article/details/152511285)",
-      "status": "live",
-      "date": "2025-10-21",
-      "url": "https://gencoloring.ai",
-      "author": "haocheng",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/cabbagehao"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "fdbb42fc14e9",
-      "board": "main",
-      "name": "Morse Coder",
-      "intro": "摩斯密码在线转换工具",
-      "introMarkdown": "摩斯密码在线转换工具",
-      "status": "live",
-      "date": "2025-10-21",
-      "url": "https://morse-coder.com",
-      "author": "haocheng",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/cabbagehao"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
+    {
+      "slug": "2139996bb0ed",
+      "board": "game",
+      "name": "团团巡梦",
+      "intro": "在浏览器里玩的单人 3D 梦境冒险，走过六个梦境、60 个短关卡，收集光点、找回遗失物，点亮沉睡的花园，支持简体中文，进度保存在当前浏览器，也支持微信小程序",
+      "introMarkdown": "在浏览器里玩的单人 3D 梦境冒险，走过六个梦境、60 个短关卡，收集光点、找回遗失物，点亮沉睡的花园，支持简体中文，进度保存在当前浏览器，也支持微信小程序",
+      "status": "live",
+      "date": "2026-11-23",
+      "url": "https://wyanhub.itch.io/tuantuan-dreams",
+      "author": "微言",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "e0a47ed1e1ec",
+      "board": "game",
+      "name": "Football Krillion",
+      "intro": "每天七道男子世界杯问答，根据 1930 至 2022 年的赛事线索填入球员或代表队。同一题有多个正确答案，答对越少见的选手或球队，得分越高。每日挑战免费，手机和电脑浏览器均可直接游玩，支持简体中文，无需注册",
+      "introMarkdown": "每天七道男子世界杯问答，根据 1930 至 2022 年的赛事线索填入球员或代表队。同一题有多个正确答案，答对越少见的选手或球队，得分越高。每日挑战免费，手机和电脑浏览器均可直接游玩，支持简体中文，无需注册",
+      "status": "live",
+      "date": "2026-11-23",
+      "url": "https://footballkrillion.net/",
+      "author": "anoxia",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "f7af029f0c82",
       "board": "game",
@@ -33343,6 +33195,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "d64313a56a9a",
+      "board": "programmer",
+      "name": "MyAgents",
+      "intro": "开源桌面 Agent 工作台与任务中心，在 macOS 和 Windows 上为 Claude、Codex、DeepSeek Harness 配置各自的工作区，创建定时任务，也可把活派给自己的另一台在线电脑",
+      "introMarkdown": "开源桌面 Agent 工作台与任务中心，在 macOS 和 Windows 上为 Claude、Codex、DeepSeek Harness 配置各自的工作区，创建定时任务，也可把活派给自己的另一台在线电脑 - [安装包](https://github.com/hAcKlyc/MyAgents/releases/tag/v0.5.14)",
+      "status": "live",
+      "date": "2026-11-23",
+      "url": "https://github.com/hAcKlyc/MyAgents",
+      "author": "Ethan",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/hAcKlyc"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "2a2dfee876dc",
       "board": "programmer",
