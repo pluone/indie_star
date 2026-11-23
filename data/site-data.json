@@ -1,16 +1,39 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-23T07:31:21.581Z",
-    "statsSyncedAt": "2026-11-23T07:31:21.581Z",
-    "upstreamSha": "dc7cdaf8d9adfa491ace604673ff68c297918747",
+    "contentSyncedAt": "2026-11-23T10:16:22.834Z",
+    "statsSyncedAt": "2026-11-23T10:16:22.834Z",
+    "upstreamSha": "a552f3ca929d65f0a9a5ac4795ffad7e7e34b1fb",
     "counts": {
-      "main": 1595,
+      "main": 1596,
       "game": 182,
       "programmer": 460,
-      "total": 2237
+      "total": 2238
     }
   },
   "main": [
+    {
+      "slug": "992a9a64a518",
+      "board": "main",
+      "name": "赛博小生灵",
+      "intro": "「电子放生」微信小程序，在地图上划定的开放区域里放归一只小生灵，它会在那里自在游动漂移，心情值随之积累",
+      "introMarkdown": "「电子放生」微信小程序，在地图上划定的开放区域里放归一只小生灵，它会在那里自在游动漂移，心情值随之积累",
+      "status": "live",
+      "date": "2026-11-23",
+      "url": "https://37lg9exexq3fzopftr0.traesite.cn/",
+      "author": "叶世民",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yeshimin"
+        },
+        {
+          "label": "博客",
+          "url": "https://blog.yeshimin.com/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "47fcf0938bd3",
       "board": "main",
