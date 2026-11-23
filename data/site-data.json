@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-23T02:16:24.483Z",
-    "statsSyncedAt": "2026-11-23T02:16:24.483Z",
-    "upstreamSha": "0ad83737d2215109fcbac88888e19dbc24857912",
+    "contentSyncedAt": "2026-11-23T06:06:25.553Z",
+    "statsSyncedAt": "2026-11-23T06:06:25.553Z",
+    "upstreamSha": "932e7d382b1be403d910227efaab5769c4881319",
     "counts": {
-      "main": 1592,
+      "main": 1593,
       "game": 181,
       "programmer": 458,
-      "total": 2231
+      "total": 2232
     }
   },
   "main": [
+    {
+      "slug": "a8ba7a90519b",
+      "board": "main",
+      "name": "H3ImageGen",
+      "intro": "在浏览器中使用 MiniMax H3 的图片生成与编辑工具，可根据文字提示词和最多 16 张参考图创作并下载图片",
+      "introMarkdown": "在浏览器中使用 MiniMax H3 的图片生成与编辑工具，可根据文字提示词和最多 16 张参考图创作并下载图片",
+      "status": "live",
+      "date": "2026-11-23",
+      "url": "https://h3imagegen.com/",
+      "author": "Miracle",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhoulianbo"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "c684086e38d8",
+      "board": "main",
+      "name": "LogoAnimation",
+      "intro": "AI 标识动画制作工具，可将已有品牌标识制作成视频片头或片尾。创业者、内容创作者、营销人员和设计师无需操作时间轴或安装动画软件，即可为品牌制作动效",
+      "introMarkdown": "AI 标识动画制作工具，可将已有品牌标识制作成视频片头或片尾。创业者、内容创作者、营销人员和设计师无需操作时间轴或安装动画软件，即可为品牌制作动效",
+      "status": "live",
+      "date": "2026-11-23",
+      "url": "https://logoanimation.net/",
+      "author": "Miracle",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhoulianbo"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "d2931944f0bd",
       "board": "main",
@@ -23353,25 +23391,6 @@
         {
           "label": "Github",
           "url": "https://github.com/eileendai0505-boop"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1efa0623e9a3",
-      "board": "main",
-      "name": "Seedance 2.0",
-      "intro": "AI 视频生成，支持原生音频和 2K 分辨率，通过先进的多模态输入将创意转化为电影级现实。",
-      "introMarkdown": "AI 视频生成，支持原生音频和 2K 分辨率，通过先进的多模态输入将创意转化为电影级现实。",
-      "status": "live",
-      "date": "2026-04-16",
-      "url": "https://seedances.app/",
-      "author": "hebrewbear",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/hebrewbear"
         }
       ],
       "likes": 0,
