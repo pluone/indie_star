@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-23T18:21:27.115Z",
-    "statsSyncedAt": "2026-11-23T18:21:27.115Z",
-    "upstreamSha": "71dca294f0dc2af27af02af6c8d6f1fa9d3f3436",
+    "contentSyncedAt": "2026-11-24T02:36:28.002Z",
+    "statsSyncedAt": "2026-11-24T02:36:28.002Z",
+    "upstreamSha": "c896ab26092371b92b1dedb941507a40196ff618",
     "counts": {
-      "main": 1598,
+      "main": 1590,
       "game": 182,
       "programmer": 462,
-      "total": 2242
+      "total": 2234
     }
   },
   "main": [
+    {
+      "slug": "38873a5652d4",
+      "board": "main",
+      "name": "熊炼训练记录",
+      "intro": "力量训练记录微信小程序，逐组记下实际重量和次数，下次练同一动作时可带入上次的数字",
+      "introMarkdown": "力量训练记录微信小程序，逐组记下实际重量和次数，下次练同一动作时可带入上次的数字",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://xionglian-training-notes.chunhui1222.chatgpt.site/",
+      "author": "lchunhui999-dev",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lchunhui999-dev"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "2e8f6b05f26f",
+      "board": "main",
+      "name": "微言表单",
+      "intro": "用于活动报名、信息登记和反馈收集的在线表单工具，可以从模板创建表单，通过链接或二维码分享，为不同群或渠道生成专属链接，查看每份提交来自哪里，并将结果导出为 Excel；网页和微信小程序都能创建和管理表单",
+      "introMarkdown": "用于活动报名、信息登记和反馈收集的在线表单工具，可以从模板创建表单，通过链接或二维码分享，为不同群或渠道生成专属链接，查看每份提交来自哪里，并将结果导出为 Excel；网页和微信小程序都能创建和管理表单",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://forms.wyanhub.com/",
+      "author": "微言",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "904fb63a3b95",
       "board": "main",
@@ -29770,176 +29808,6 @@
       "date": "2025-11-05",
       "url": "https://graffiti-generator.org",
       "author": "翟应康",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "ae01827ad072",
-      "board": "main",
-      "name": "Rednote Video Download",
-      "intro": "Rednote (小红书) 视频、图片去水印下载（免费、不限次数）",
-      "introMarkdown": "Rednote (小红书) 视频、图片去水印下载（免费、不限次数）",
-      "status": "live",
-      "date": "2025-11-04",
-      "url": "https://www.rednote-video-download.com",
-      "author": "ljxyaly",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1f4fd56fd818",
-      "board": "main",
-      "name": "厕所淘金",
-      "intro": "带薪拉屎计薪器，记录你每一次拉屎摸鱼所得报酬，可视化每一次拉屎的价值",
-      "introMarkdown": "带薪拉屎计薪器，记录你每一次拉屎摸鱼所得报酬，可视化每一次拉屎的价值 - [更多介绍](https://apps.apple.com/cn/app/toilet-pay/id6752701889)",
-      "status": "live",
-      "date": "2025-11-04",
-      "url": "https://github.com/user-attachments/assets/c9dc2625-202b-4bb6-96af-7ed4e5d4c23c",
-      "author": "出逃向量",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0e8a0db48672",
-      "board": "main",
-      "name": "KidsBedroomIdeas",
-      "intro": "AI 驱动的儿童房设计工具，根据孩子的年龄、兴趣和喜好颜色，即时生成个性化创意儿童房设计",
-      "introMarkdown": "AI 驱动的儿童房设计工具，根据孩子的年龄、兴趣和喜好颜色，即时生成个性化创意儿童房设计",
-      "status": "live",
-      "date": "2025-11-03",
-      "url": "https://kidsbedroomideas.org/",
-      "author": "Ricky Lee",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "8566594524e6",
-      "board": "main",
-      "name": "Seedream Image Generator",
-      "intro": "Seedream 图片生成",
-      "introMarkdown": "Seedream 图片生成",
-      "status": "live",
-      "date": "2025-11-02",
-      "url": "https://seedreamimage.com/",
-      "author": "Lee",
-      "authorLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/lkunxyz"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "2afd8e202512",
-      "board": "main",
-      "name": "SwiftyMenu",
-      "intro": "Finder 扩展自定义菜单，脚本执行、快速打开各种命令行工具。",
-      "introMarkdown": "Finder 扩展自定义菜单，脚本执行、快速打开各种命令行工具。",
-      "status": "live",
-      "date": "2025-11-02",
-      "url": "https://apps.apple.com/app/swiftymenu/id1567748223",
-      "author": "LexTang",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/lexrus"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "864c2a7fcdc9",
-      "board": "main",
-      "name": "Sharptooth",
-      "intro": "快捷键开关 Mac 蓝牙设备，脚本触发，低电量提醒。",
-      "introMarkdown": "快捷键开关 Mac 蓝牙设备，脚本触发，低电量提醒。",
-      "status": "live",
-      "date": "2025-11-02",
-      "url": "https://apps.apple.com/app/sharptooth-bluetooth-hotkeys/id6748440814",
-      "author": "LexTang",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/lexrus"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0307c0dc436a",
-      "board": "main",
-      "name": "cmd+x",
-      "intro": "为 Mac 提供 command+x, command+v 剪切文件的功能。",
-      "introMarkdown": "为 Mac 提供 command+x, command+v 剪切文件的功能。",
-      "status": "live",
-      "date": "2025-11-02",
-      "url": "https://apps.apple.com/app/cmd-x/id6754665762",
-      "author": "LexTang",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/lexrus"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "a85676f025fe",
-      "board": "main",
-      "name": "LiveExtractor",
-      "intro": "导出实况照片里的照片和视频的小工具。",
-      "introMarkdown": "导出实况照片里的照片和视频的小工具。",
-      "status": "live",
-      "date": "2025-11-02",
-      "url": "https://apps.apple.com/app/liveextractor/id6746672642",
-      "author": "LexTang",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/lexrus"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "e17777a09cc7",
-      "board": "main",
-      "name": "RegEx+",
-      "intro": "调试正则表达试的 app。",
-      "introMarkdown": "调试正则表达试的 app。",
-      "status": "live",
-      "date": "2025-11-02",
-      "url": "https://apps.apple.com/app/regex/id1511763524",
-      "author": "LexTang",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/lexrus"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0c6798244974",
-      "board": "main",
-      "name": "Magic Animal Generator",
-      "intro": "尽情发挥你的想象力 用 AI 混合两种动物，创造前所未见的新物种",
-      "introMarkdown": "尽情发挥你的想象力 用 AI 混合两种动物，创造前所未见的新物种",
-      "status": "live",
-      "date": "2025-11-01",
-      "url": "https://animalgenerator.net/",
-      "author": "Yif",
       "authorLinks": [],
       "likes": 0,
       "comments": 0
