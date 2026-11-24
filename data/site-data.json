@@ -1,16 +1,54 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-24T05:06:27.713Z",
-    "statsSyncedAt": "2026-11-24T05:06:27.713Z",
-    "upstreamSha": "c896ab26092371b92b1dedb941507a40196ff618",
+    "contentSyncedAt": "2026-11-24T07:27:03.529Z",
+    "statsSyncedAt": "2026-11-24T07:27:03.529Z",
+    "upstreamSha": "2a467c978715292e0dde424f48ad3eb5ad32d494",
     "counts": {
-      "main": 1590,
-      "game": 182,
+      "main": 1592,
+      "game": 185,
       "programmer": 462,
-      "total": 2234
+      "total": 2239
     }
   },
   "main": [
+    {
+      "slug": "f736cfd1bbbd",
+      "board": "main",
+      "name": "FlowVoice 流声",
+      "intro": "电脑端 Chrome、Edge 文字朗读扩展，可把多个网页的选段接成朗读队列，也支持 TXT、Markdown、HTML、DOCX 文稿导入，以及预先准备的原文与译文对照听读；基础功能免费含音频广告，可选 Neural 音色需要付费授权和使用积分",
+      "introMarkdown": "电脑端 Chrome、Edge 文字朗读扩展，可把多个网页的选段接成朗读队列，也支持 TXT、Markdown、HTML、DOCX 文稿导入，以及预先准备的原文与译文对照听读；基础功能免费含音频广告，可选 Neural 音色需要付费授权和使用积分",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://flowvoice.net/",
+      "author": "Henz Hu",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/henz-Hu"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "7c2b5dcd4c84",
+      "board": "main",
+      "name": "Image2AI",
+      "intro": "AI 生图与改图网站，海报和封面上的中文标题按你写的字出来，也能给商品照换背景、做漫剧分镜；6 个模型一份积分（GPT Image 2、Nano Banana、Seedream 等），生成前按钮上写着扣多少，失败自动退",
+      "introMarkdown": "AI 生图与改图网站，海报和封面上的中文标题按你写的字出来，也能给商品照换背景、做漫剧分镜；6 个模型一份积分（GPT Image 2、Nano Banana、Seedream 等），生成前按钮上写着扣多少，失败自动退",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://image2ai.cloud/zh/",
+      "author": "Ethan Chen",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/davidww0719-dev"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "38873a5652d4",
       "board": "main",
@@ -29814,6 +29852,63 @@
     }
   ],
   "game": [
+    {
+      "slug": "a4dea43f3edb",
+      "board": "game",
+      "name": "Stage Tour Guide",
+      "intro": "Stage Tour 乐队节奏游戏资料站，查询已确认歌单并观看官方视频预览，对照套装价格和各平台乐器控制器兼容信息；资料附来源与最近核对日期，免费浏览，无需注册",
+      "introMarkdown": "Stage Tour 乐队节奏游戏资料站，查询已确认歌单并观看官方视频预览，对照套装价格和各平台乐器控制器兼容信息；资料附来源与最近核对日期，免费浏览，无需注册",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://stagetourguide.com/",
+      "author": "Alex Reed",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/alexreed6868"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d7cf8c6621f3",
+      "board": "game",
+      "name": "Football Krillion",
+      "intro": "英文足球知识竞猜游戏（免费），每局 7 道限时题，回答符合条件的球员名字，正确答案越冷门得分越高；提供足球、NFL 每日局和 Unlimited 无限练习，无需注册或下载",
+      "introMarkdown": "英文足球知识竞猜游戏（免费），每局 7 道限时题，回答符合条件的球员名字，正确答案越冷门得分越高；提供足球、NFL 每日局和 Unlimited 无限练习，无需注册或下载",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://footballkrillion.org/",
+      "author": "Alex Reed",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/alexreed6868"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "24d3b1b3c33c",
+      "board": "game",
+      "name": "GTA 6 Map",
+      "intro": "GTA 6 免费交互地图，可搜索和筛选 Leonida 地点、添加个人标记与备注，探索进度保存在浏览器本地，支持多存档和导入导出，无需注册",
+      "introMarkdown": "GTA 6 免费交互地图，可搜索和筛选 Leonida 地点、添加个人标记与备注，探索进度保存在浏览器本地，支持多存档和导入导出，无需注册",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://gta-6-map.org/",
+      "author": "Alex Reed",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/alexreed6868"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "b49ab2b5a266",
       "board": "game",
