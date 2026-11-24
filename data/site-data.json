@@ -1,16 +1,130 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-24T07:27:03.529Z",
-    "statsSyncedAt": "2026-11-24T07:27:03.529Z",
-    "upstreamSha": "2a467c978715292e0dde424f48ad3eb5ad32d494",
+    "contentSyncedAt": "2026-11-24T10:42:05.116Z",
+    "statsSyncedAt": "2026-11-24T10:42:05.116Z",
+    "upstreamSha": "21c61d0ebefb0c4d5c722e90414f8b5496eb8963",
     "counts": {
-      "main": 1592,
-      "game": 185,
-      "programmer": 462,
+      "main": 1589,
+      "game": 186,
+      "programmer": 464,
       "total": 2239
     }
   },
   "main": [
+    {
+      "slug": "4f9599ac3e37",
+      "board": "main",
+      "name": "removebackground.me",
+      "intro": "AI 图片去背景工具，上传后可下载透明 PNG，并继续细修边缘或更换背景，适合商品图和人像",
+      "introMarkdown": "AI 图片去背景工具，上传后可下载透明 PNG，并继续细修边缘或更换背景，适合商品图和人像",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://removebackground.me/",
+      "author": "zty5678",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zty5678"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "3d74241ac89d",
+      "board": "main",
+      "name": "BulkImgGenerator",
+      "intro": "批量 AI 图片生成工具，可从一个或多个提示词生成候选图，也可比较多个图像模型，支持参考图和 CSV 提示词列表",
+      "introMarkdown": "批量 AI 图片生成工具，可从一个或多个提示词生成候选图，也可比较多个图像模型，支持参考图和 CSV 提示词列表",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://bulkimggenerator.net/",
+      "author": "zty5678",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zty5678"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "0e75439e0a12",
+      "board": "main",
+      "name": "To Any AI（万物生AI）",
+      "intro": "多模型 AI 设计平台，用提示词和参考素材生成图片、视频与音频，提供无限画布和图像编辑工具",
+      "introMarkdown": "多模型 AI 设计平台，用提示词和参考素材生成图片、视频与音频，提供无限画布和图像编辑工具",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://toany.ai/",
+      "author": "amierhan",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/amierhan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "3790054c7211",
+      "board": "main",
+      "name": "听幕 Tingmu",
+      "intro": "给听障人士的实时字幕 App，对方一说话屏幕立刻出现大字，识别全程离线跑在手机本地，零网络请求、无账号、音频不出设备 — Android",
+      "introMarkdown": "给听障人士的实时字幕 App，对方一说话屏幕立刻出现大字，识别全程离线跑在手机本地，零网络请求、无账号、音频不出设备 — Android",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://github.com/huiguyy/tingmu",
+      "author": "开发者创业老杨",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/huiguyy"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "1b14862b0134",
+      "board": "main",
+      "name": "Morsecove",
+      "intro": "免费浏览器摩斯电码翻译工具，可在文本和点划之间互转、播放并调节速度与音调、下载 WAV，转换和音频都在本地完成，无需注册",
+      "introMarkdown": "免费浏览器摩斯电码翻译工具，可在文本和点划之间互转、播放并调节速度与音调、下载 WAV，转换和音频都在本地完成，无需注册",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://morsecove.com",
+      "author": "Yoking Chan",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ykykchan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "dab4558c1d8d",
+      "board": "main",
+      "name": "Troop Benefits",
+      "intro": "免费美军住房津贴（BAH）查询工具，按驻地、军衔和有无家属查看 2026 年月度与年度金额，无需注册",
+      "introMarkdown": "免费美军住房津贴（BAH）查询工具，按驻地、军衔和有无家属查看 2026 年月度与年度金额，无需注册",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://troopbenefits.com/",
+      "author": "Yoking Chan",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ykykchan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "f736cfd1bbbd",
       "board": "main",
@@ -77,6 +191,25 @@
       "status": "live",
       "date": "2026-11-24",
       "url": "https://forms.wyanhub.com/",
+      "author": "微言",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "e92919bee38f",
+      "board": "main",
+      "name": "转山共行",
+      "intro": "浏览器里的多人 3D 徒步，可以独自走过经幡山口、溪谷和冰湖，也能发链接让朋友到你所在的路段会合一起走，路上可停下来等人或把眼前的山景拍成照片，无需注册",
+      "introMarkdown": "浏览器里的多人 3D 徒步，可以独自走过经幡山口、溪谷和冰湖，也能发链接让朋友到你所在的路段会合一起走，路上可停下来等人或把眼前的山景拍成照片，无需注册",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://wyanhub.com/kora/",
       "author": "微言",
       "authorLinks": [
         {
@@ -3873,8 +4006,8 @@
       "slug": "3d45d8e9645f",
       "board": "main",
       "name": "Linger",
-      "intro": "macOS 本地优先私人灵感库，保存图片、网页出处与自己的笔记，用关键词和筛选找回参考；支持 Apple Silicon，提供 14 天试用，之后一次性购买",
-      "introMarkdown": "macOS 本地优先私人灵感库，保存图片、网页出处与自己的笔记，用关键词和筛选找回参考；支持 Apple Silicon，提供 14 天试用，之后一次性购买 - [在线体验](https://withlinger.com/demo/)",
+      "intro": "macOS 本地优先私人灵感库，保存图片、网页出处与自己的笔记，用关键词和筛选找回参考；支持搭载 Apple Silicon 的 macOS 14+，提供 7 天完整试用，之后可一次性买断",
+      "introMarkdown": "macOS 本地优先私人灵感库，保存图片、网页出处与自己的笔记，用关键词和筛选找回参考；支持搭载 Apple Silicon 的 macOS 14+，提供 7 天完整试用，之后可一次性买断 - [在线体验](https://withlinger.com/demo/)",
       "status": "live",
       "date": "2026-11-03",
       "url": "https://withlinger.com/zh/",
@@ -29660,198 +29793,28 @@
       "authorLinks": [],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "1ae624791c86",
-      "board": "main",
-      "name": "Sora 2",
-      "intro": "For Video AI 一站式视频生成平台，使用Sora 2、Sora 2 Pro、Sora 2 Storyboard、Veo 3.1、Veo 3、Wan 2.5、Wan 2.2、Kling AI、Hailuo AI、Midjourney Video创建带音频的视频。",
-      "introMarkdown": "For Video AI 一站式视频生成平台，使用Sora 2、Sora 2 Pro、Sora 2 Storyboard、Veo 3.1、Veo 3、Wan 2.5、Wan 2.2、Kling AI、Hailuo AI、Midjourney Video创建带音频的视频。",
-      "status": "live",
-      "date": "2025-11-10",
-      "url": "https://forvideo.ai/sora2",
-      "author": "randompaga",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/randompaga"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b2c01ca1fb37",
-      "board": "main",
-      "name": "nanobana.net",
-      "intro": "AI 图像、视频生成平台网站，集合了目前世界最先进的模型，如：Nano banana、sora2 等",
-      "introMarkdown": "AI 图像、视频生成平台网站，集合了目前世界最先进的模型，如：Nano banana、sora2 等",
-      "status": "live",
-      "date": "2025-11-10",
-      "url": "https://github.com/1c7/chinese-independent-developer/issues/url",
-      "author": "amierhan",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/amierhan"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f91e81d573c0",
-      "board": "main",
-      "name": "ai world generator",
-      "intro": "用文本和照片生成自然风光视频的 AI 工具网站",
-      "introMarkdown": "用文本和照片生成自然风光视频的 AI 工具网站",
-      "status": "live",
-      "date": "2025-11-08",
-      "url": "https://aiworldgenerator.com/",
-      "author": "Ri-vai",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Ri-vai"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9cb4a0523d28",
-      "board": "main",
-      "name": "novavideo.ai",
-      "intro": "使用领先的图片转视频 AI 模型和热门视频特效模板，将照片转化为视频",
-      "introMarkdown": "使用领先的图片转视频 AI 模型和热门视频特效模板，将照片转化为视频",
-      "status": "live",
-      "date": "2025-11-08",
-      "url": "https://novavideo.ai/",
-      "author": "nanobanana-co",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/nanobanana-co"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "2e13dce8683d",
-      "board": "main",
-      "name": "gempix-2",
-      "intro": "收录最新的 gempix-2 模型新闻，并第一时间提供 gempix-2（nano banana2) 模型体验",
-      "introMarkdown": "收录最新的 gempix-2 模型新闻，并第一时间提供 gempix-2（nano banana2) 模型体验",
-      "status": "live",
-      "date": "2025-11-08",
-      "url": "https://gempix-2.org/",
-      "author": "ncgg-cyber",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ncgg-cyber"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "38b146b3988b",
-      "board": "main",
-      "name": "photo to prompt",
-      "intro": "将图片转化为提示词，以及图像生成",
-      "introMarkdown": "将图片转化为提示词，以及图像生成",
-      "status": "live",
-      "date": "2025-11-08",
-      "url": "https://phototoprompt.org/",
-      "author": "zhang xinke",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/zxk1323"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "8104c3bfbf59",
-      "board": "main",
-      "name": "TAO tracker",
-      "intro": "TAO 子网交易监控与快捷导航工具",
-      "introMarkdown": "TAO 子网交易监控与快捷导航工具",
-      "status": "live",
-      "date": "2025-11-08",
-      "url": "https://taotracker.org",
-      "author": "菩提尘埃",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/waterlines"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "3706eae8499f",
-      "board": "main",
-      "name": "Telegram AI助手",
-      "intro": "Telegram ChatGPT 机器人(完全免费、没有广告)，GPT-4o-mini 模型，支持图片识别，在 Telegram 中给 @iMessageAI_bot 发消息即可使用。",
-      "introMarkdown": "Telegram ChatGPT 机器人(完全免费、没有广告)，GPT-4o-mini 模型，支持图片识别，在 Telegram 中给 @iMessageAI_bot 发消息即可使用。",
-      "status": "live",
-      "date": "2025-11-05",
-      "url": "https://t.me/iMessageAI_bot",
-      "author": "yvonuk",
-      "authorLinks": [
-        {
-          "label": "推特",
-          "url": "https://x.com/mcwangcn"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "a65f9d4fd454",
-      "board": "main",
-      "name": "Syncvoice",
-      "intro": "声音克隆(超逼真)，文本转语音，支持 8 种语言，不同语言转语音保留克隆声音的独特音色",
-      "introMarkdown": "声音克隆(超逼真)，文本转语音，支持 8 种语言，不同语言转语音保留克隆声音的独特音色",
-      "status": "live",
-      "date": "2025-11-05",
-      "url": "https://www.syncvoice.ai/",
-      "author": "Shawn",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ShawnHacks"
-        },
-        {
-          "label": "博客",
-          "url": "https://indietion.com/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "732e70015b0d",
-      "board": "main",
-      "name": "Create Custom Graffiti Art Online",
-      "intro": "自定义涂鸦艺术(免费，不限次数)",
-      "introMarkdown": "自定义涂鸦艺术(免费，不限次数)",
-      "status": "live",
-      "date": "2025-11-05",
-      "url": "https://graffiti-generator.org",
-      "author": "翟应康",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
+    {
+      "slug": "60750253c142",
+      "board": "game",
+      "name": "Number Guessing Game",
+      "intro": "免费每日 1 到 100 猜数字游戏，七次机会，根据偏高或偏低提示缩小范围，每天 00:00 UTC 换新题目，浏览器即可玩，无需注册",
+      "introMarkdown": "免费每日 1 到 100 猜数字游戏，七次机会，根据偏高或偏低提示缩小范围，每天 00:00 UTC 换新题目，浏览器即可玩，无需注册",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://smart-game.fun/number-guessing-game",
+      "author": "Yoking Chan",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ykykchan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "a4dea43f3edb",
       "board": "game",
@@ -33295,6 +33258,44 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "b2e9a7c32c3a",
+      "board": "programmer",
+      "name": "douyin-fill",
+      "intro": "抖音“只填不发”Agent 技能，把视频帖在独立 Chrome 里准备到发布前一步，发布永远由人工点击，杜绝误发",
+      "introMarkdown": "抖音“只填不发”Agent 技能，把视频帖在独立 Chrome 里准备到发布前一步，发布永远由人工点击，杜绝误发",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://github.com/huiguyy/douyin-fill",
+      "author": "开发者创业老杨",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/huiguyy"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "8d3a3fa7cc0c",
+      "board": "programmer",
+      "name": "kuaishou-fill",
+      "intro": "快手“只填不发”Agent 技能，在独立 Chrome 内备好视频帖、停在发布前一步，发布动作永远由人完成",
+      "introMarkdown": "快手“只填不发”Agent 技能，在独立 Chrome 内备好视频帖、停在发布前一步，发布动作永远由人完成",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://github.com/huiguyy/kuaishou-fill",
+      "author": "开发者创业老杨",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/huiguyy"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "6cbdb3890eda",
       "board": "programmer",
