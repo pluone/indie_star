@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-24T10:42:05.116Z",
-    "statsSyncedAt": "2026-11-24T10:42:05.116Z",
-    "upstreamSha": "21c61d0ebefb0c4d5c722e90414f8b5496eb8963",
+    "contentSyncedAt": "2026-11-24T13:17:02.535Z",
+    "statsSyncedAt": "2026-11-24T13:17:02.535Z",
+    "upstreamSha": "53f7e2d96acb38565efbdd701277ac79ef8fca1a",
     "counts": {
-      "main": 1589,
+      "main": 1590,
       "game": 186,
       "programmer": 464,
-      "total": 2239
+      "total": 2240
     }
   },
   "main": [
+    {
+      "slug": "f1f493a2bb04",
+      "board": "main",
+      "name": "Rake",
+      "intro": "Mac 磁盘清理工具，把整块盘画成一张地图，先看清空间去哪了再勾选清理；缓存直接删，其余移进废纸篓可放回，也能找出 AI Agent 留在本机的大文件；免费开源，离线运行，支持 macOS 13+",
+      "introMarkdown": "Mac 磁盘清理工具，把整块盘画成一张地图，先看清空间去哪了再勾选清理；缓存直接删，其余移进废纸篓可放回，也能找出 AI Agent 留在本机的大文件；免费开源，离线运行，支持 macOS 13+ - [开源代码](https://github.com/JonasJoe233/rake-mac)",
+      "status": "live",
+      "date": "2026-11-24",
+      "url": "https://jonasjoe233.github.io/rake-mac/",
+      "author": "JonasJoe233",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JonasJoe233"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "4f9599ac3e37",
       "board": "main",
@@ -2350,8 +2369,8 @@
       "slug": "cc7a5dcf8e30",
       "board": "main",
       "name": "国内AI活动追踪",
-      "intro": "每天汇总国内 AI 大会、分享会和黑客松，合并重复活动，按日历、城市和线上线下查看，可订阅每日邮件简报",
-      "introMarkdown": "每天汇总国内 AI 大会、分享会和黑客松，合并重复活动，按日历、城市和线上线下查看，可订阅每日邮件简报",
+      "intro": "国内 AI 活动聚合工具，每日汇总并去重大会、分享会、黑客松等活动，每场提供独立详情页，支持按日历、9 个城市页（含线上）和 7 个类型页查看，提供 iCalendar 日历订阅、RSS、JSON 数据及每日邮件简报，免费无需登录",
+      "introMarkdown": "国内 AI 活动聚合工具，每日汇总并去重大会、分享会、黑客松等活动，每场提供独立详情页，支持按日历、9 个城市页（含线上）和 7 个类型页查看，提供 iCalendar 日历订阅、RSS、JSON 数据及每日邮件简报，免费无需登录",
       "status": "live",
       "date": "2026-11-13",
       "url": "https://antonailog.com/more/ai-events/",
