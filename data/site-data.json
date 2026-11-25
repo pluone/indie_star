@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-25T07:21:54.364Z",
-    "statsSyncedAt": "2026-11-25T07:21:54.364Z",
-    "upstreamSha": "2c4369f5fee81ff2110de07d89a50ad40118e66a",
+    "contentSyncedAt": "2026-11-25T11:26:59.479Z",
+    "statsSyncedAt": "2026-11-25T11:26:59.479Z",
+    "upstreamSha": "187a027688fcc2d888e2fb096b4177bc86f24f96",
     "counts": {
-      "main": 1585,
+      "main": 1586,
       "game": 186,
-      "programmer": 465,
-      "total": 2236
+      "programmer": 466,
+      "total": 2238
     }
   },
   "main": [
+    {
+      "slug": "3a869cbf6ee0",
+      "board": "main",
+      "name": "AI Img2Img",
+      "intro": "AI 图片生成与编辑工具，集成多种主流 AI 图像模型，无需登录、无需设计技能，通过自然语言描述即可生成、编辑图片和转换图片风格",
+      "introMarkdown": "AI 图片生成与编辑工具，集成多种主流 AI 图像模型，无需登录、无需设计技能，通过自然语言描述即可生成、编辑图片和转换图片风格",
+      "status": "live",
+      "date": "2026-11-25",
+      "url": "https://aiimg2img.net",
+      "author": "DDC",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tangde2025"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "04e6da5ee612",
       "board": "main",
@@ -33207,6 +33226,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "b5ff35877f41",
+      "board": "programmer",
+      "name": "TheoremOS",
+      "intro": "开源 Lean 4 数学研究工作台与 Linux CLI，可对照原题和 Lean 陈述、查看证明候选的报错，配有无需模型密钥的本地复跑示例",
+      "introMarkdown": "开源 Lean 4 数学研究工作台与 Linux CLI，可对照原题和 Lean 陈述、查看证明候选的报错，配有无需模型密钥的本地复跑示例 - [更多介绍](https://github.com/HuggingMath/theorem-os/blob/caca289fd74c611d3b13f066d9380693d43485da/docs/web-workbench.md)",
+      "status": "live",
+      "date": "2026-11-25",
+      "url": "https://github.com/HuggingMath/theorem-os",
+      "author": "WestlakeNLP",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/LikC1606"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "072a4577d9c2",
       "board": "programmer",
