@@ -1,16 +1,168 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-25T03:55:11.408Z",
-    "statsSyncedAt": "2026-11-25T03:55:11.408Z",
-    "upstreamSha": "53f7e2d96acb38565efbdd701277ac79ef8fca1a",
+    "contentSyncedAt": "2026-11-25T07:21:54.364Z",
+    "statsSyncedAt": "2026-11-25T07:21:54.364Z",
+    "upstreamSha": "2c4369f5fee81ff2110de07d89a50ad40118e66a",
     "counts": {
-      "main": 1590,
+      "main": 1585,
       "game": 186,
-      "programmer": 464,
-      "total": 2240
+      "programmer": 465,
+      "total": 2236
     }
   },
   "main": [
+    {
+      "slug": "04e6da5ee612",
+      "board": "main",
+      "name": "刺猬关系",
+      "intro": "用动物代表家人，在 3D 沙盘里调整距离和朝向，可结合背景和截图与 AI 讨论自己的观察，支持中英文",
+      "introMarkdown": "用动物代表家人，在 3D 沙盘里调整距离和朝向，可结合背景和截图与 AI 讨论自己的观察，支持中英文 - [使用示例](https://hilingge.redboook.cn/guide.html)",
+      "status": "live",
+      "date": "2026-11-25",
+      "url": "https://hilingge.redboook.cn/",
+      "author": "欧八同学",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ouxxyy"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "be4563ef4c0b",
+      "board": "main",
+      "name": "小猫陪你",
+      "intro": "在两个独立对话中向 AI 小猫倾诉，或把一句气话改成可以复制给伴侣的消息，支持中英文",
+      "introMarkdown": "在两个独立对话中向 AI 小猫倾诉，或把一句气话改成可以复制给伴侣的消息，支持中英文 - [使用示例](https://redboook.cn/guide.html)",
+      "status": "live",
+      "date": "2026-11-25",
+      "url": "https://redboook.cn/",
+      "author": "欧八同学",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ouxxyy"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "a238c611e922",
+      "board": "main",
+      "name": "JustMarkdown",
+      "intro": "在线文档转换网站，把 PDF、Word、PPT、Excel、EPUB 和网页转成可编辑的 Markdown；文字层 PDF 和本机扫描页在浏览器里直接转，转完可以保存、看版本、生成分享链接",
+      "introMarkdown": "在线文档转换网站，把 PDF、Word、PPT、Excel、EPUB 和网页转成可编辑的 Markdown；文字层 PDF 和本机扫描页在浏览器里直接转，转完可以保存、看版本、生成分享链接",
+      "status": "live",
+      "date": "2026-11-25",
+      "url": "https://justmarkdown.com/zh",
+      "author": "justin",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/newer027"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "f430e9aa8a5b",
+      "board": "main",
+      "name": "Web2MD",
+      "intro": "Chrome/Firefox 网页转 Markdown 插件，一键去掉广告、菜单和侧边栏，可直接发送到 ChatGPT、Claude 或保存到 Obsidian，对 Reddit、GitHub、arXiv、微信公众号文章做了专门提取，免费版每天 3 次",
+      "introMarkdown": "Chrome/Firefox 网页转 Markdown 插件，一键去掉广告、菜单和侧边栏，可直接发送到 ChatGPT、Claude 或保存到 Obsidian，对 Reddit、GitHub、arXiv、微信公众号文章做了专门提取，免费版每天 3 次",
+      "status": "live",
+      "date": "2026-11-25",
+      "url": "https://web2md.org",
+      "author": "Xichen Wu",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/io-oi-ai"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "774d45704e54",
+      "board": "main",
+      "name": "Inplain",
+      "intro": "AI 文档与演示工具，把 ChatGPT、Claude、Cursor 的输出变成可编辑的幻灯片、报告和仪表盘，以在线链接分享、修改即时生效，可导出 PPTX/DOCX/PDF，免费版每月 50 积分",
+      "introMarkdown": "AI 文档与演示工具，把 ChatGPT、Claude、Cursor 的输出变成可编辑的幻灯片、报告和仪表盘，以在线链接分享、修改即时生效，可导出 PPTX/DOCX/PDF，免费版每月 50 积分 - [开源代码](https://github.com/io-oi-ai/inplain)",
+      "status": "live",
+      "date": "2026-11-25",
+      "url": "https://inplain.app",
+      "author": "Xichen Wu",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/io-oi-ai"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "8f2f52e551e0",
+      "board": "main",
+      "name": "Hearl",
+      "intro": "产品舆情收件箱，汇总 X、Reddit、Hacker News 及小红书、微博、知乎等平台上提到你产品的帖子，AI 判断是否需要回复，每条指定负责人和截止日期，有免费版",
+      "introMarkdown": "产品舆情收件箱，汇总 X、Reddit、Hacker News 及小红书、微博、知乎等平台上提到你产品的帖子，AI 判断是否需要回复，每条指定负责人和截止日期，有免费版 - [开源代码](https://github.com/io-oi-ai/hearl)",
+      "status": "live",
+      "date": "2026-11-25",
+      "url": "https://hearl.org",
+      "author": "Xichen Wu",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/io-oi-ai"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "371a376b96d0",
+      "board": "main",
+      "name": "AlphaSift 公开选股与胜率看板",
+      "intro": "打开即看的 7 市场量化选股与公开 T+N 胜率验证站；每天盘后自动筛选 A股/美/港/日/韩/台/印多策略共识候选、展示 250 日经典 K 线实证打假并按次日开盘价公开记账，支持暗/亮主题与可打印盘后研报，免费开源",
+      "introMarkdown": "打开即看的 7 市场量化选股与公开 T+N 胜率验证站；每天盘后自动筛选 A股/美/港/日/韩/台/印多策略共识候选、展示 250 日经典 K 线实证打假并按次日开盘价公开记账，支持暗/亮主题与可打印盘后研报，免费开源 - [开源代码](https://github.com/ZhuLinsen/alphasift)",
+      "status": "live",
+      "date": "2026-11-25",
+      "url": "https://alphasift.zhulinsen.tech/?lang=zh",
+      "author": "ZhuLinsen",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ZhuLinsen"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "8db2b296e2f2",
+      "board": "main",
+      "name": "Pik",
+      "intro": "Mac 菜单栏取色器，取屏幕上任意一点的颜色存进调色板，一键复制成 CSS、SwiftUI 等 28 种代码格式（Tailwind、OKLCH 等可另外开启），还能从屏幕区域生成调色板、检查对比度；支持 Apple 芯片和 Intel，15 天免费试用，之后一次买断",
+      "introMarkdown": "Mac 菜单栏取色器，取屏幕上任意一点的颜色存进调色板，一键复制成 CSS、SwiftUI 等 28 种代码格式（Tailwind、OKLCH 等可另外开启），还能从屏幕区域生成调色板、检查对比度；支持 Apple 芯片和 Intel，15 天免费试用，之后一次买断",
+      "status": "live",
+      "date": "2026-11-25",
+      "url": "https://actnow.dev/zh/pik",
+      "author": "hehehai",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hehehai"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "f1f493a2bb04",
       "board": "main",
@@ -622,8 +774,8 @@
       "slug": "4173efb64f0d",
       "board": "main",
       "name": "Dicta",
-      "intro": "Mac 会议记录，不拉机器人进会，Zoom、腾讯会议、飞书开会时自动录音，本机分说话人转写并写总结",
-      "introMarkdown": "Mac 会议记录，不拉机器人进会，Zoom、腾讯会议、飞书开会时自动录音，本机分说话人转写并写总结",
+      "intro": "Mac 会议记录，不拉机器人进会，Zoom、腾讯会议、飞书开会时自动录音，本机分说话人转写并写总结；15 天免费试用，之后一次买断",
+      "introMarkdown": "Mac 会议记录，不拉机器人进会，Zoom、腾讯会议、飞书开会时自动录音，本机分说话人转写并写总结；15 天免费试用，之后一次买断",
       "status": "live",
       "date": "2026-11-21",
       "url": "https://actnow.dev/zh/dicta",
@@ -641,8 +793,8 @@
       "slug": "6dd3cc33476f",
       "board": "main",
       "name": "Inboxly",
-      "intro": "Mac 邮件 App，Gmail、iCloud、QQ 邮箱、163 收进一个收件箱，等你回的信排最前，摘要和回信由本机模型写",
-      "introMarkdown": "Mac 邮件 App，Gmail、iCloud、QQ 邮箱、163 收进一个收件箱，等你回的信排最前，摘要和回信由本机模型写",
+      "intro": "Mac 邮件 App，Gmail、iCloud、QQ 邮箱、163 收进一个收件箱，等你回的信排最前，摘要和回信由本机模型写；15 天免费试用，之后一次买断",
+      "introMarkdown": "Mac 邮件 App，Gmail、iCloud、QQ 邮箱、163 收进一个收件箱，等你回的信排最前，摘要和回信由本机模型写；15 天免费试用，之后一次买断",
       "status": "live",
       "date": "2026-11-21",
       "url": "https://actnow.dev/zh/inboxly",
@@ -29590,228 +29742,6 @@
       ],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "1b80eda4962a",
-      "board": "main",
-      "name": "小故事铺",
-      "intro": "故事平台，专为儿童及家庭设计，致力于为孩子们提供多样化、富有教育意义的睡前故事，帮助他们在轻松愉快的环境中提升阅读能力，激发想象力，并且培养良好的品德",
-      "introMarkdown": "故事平台，专为儿童及家庭设计，致力于为孩子们提供多样化、富有教育意义的睡前故事，帮助他们在轻松愉快的环境中提升阅读能力，激发想象力，并且培养良好的品德 - [Github 仓库](https://github.com/masterliangpeng/story)",
-      "status": "live",
-      "date": "2025-11-14",
-      "url": "https://storynook.cn/",
-      "author": "xiaoxiao",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "dd8733c587e6",
-      "board": "main",
-      "name": "MakeManga",
-      "intro": "AI 生成漫画，支持 Nano Banana 和 Seedream 4.0 模型，只需提供故事，剩下的分镜和角色生成等都交给 AI",
-      "introMarkdown": "AI 生成漫画，支持 Nano Banana 和 Seedream 4.0 模型，只需提供故事，剩下的分镜和角色生成等都交给 AI",
-      "status": "live",
-      "date": "2025-11-14",
-      "url": "https://www.makemanga.ai/",
-      "author": "zpng",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/zpng"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1847ded60d61",
-      "board": "main",
-      "name": "在线图片处理工具",
-      "intro": "图片像素化工具(免费)，提供智能图片切割等功能",
-      "introMarkdown": "图片像素化工具(免费)，提供智能图片切割等功能",
-      "status": "live",
-      "date": "2025-11-13",
-      "url": "https://imageonline.online/zh",
-      "author": "biboom",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d095027800c1",
-      "board": "main",
-      "name": "fanfic generator",
-      "intro": "AI 同人小说创作工具",
-      "introMarkdown": "AI 同人小说创作工具",
-      "status": "live",
-      "date": "2025-11-13",
-      "url": "https://fanficgenerator.com/",
-      "author": "zhang xinke",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/zxk1323"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1f1314b68167",
-      "board": "main",
-      "name": "sora2",
-      "intro": "sora2 视频生成工具，支持 story board",
-      "introMarkdown": "sora2 视频生成工具，支持 story board",
-      "status": "live",
-      "date": "2025-11-13",
-      "url": "https://sora2videogenerator.com/",
-      "author": "xbaicai0",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/xbaicai0"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "598d0cceac44",
-      "board": "main",
-      "name": "简小派",
-      "intro": "求职助手平台（AI 驱动），通过智能简历生成、岗位匹配、面试模拟、薪资分析和自动投递，帮助求职者系统性提升、全流程加速拿 offer",
-      "introMarkdown": "求职助手平台（AI 驱动），通过智能简历生成、岗位匹配、面试模拟、薪资分析和自动投递，帮助求职者系统性提升、全流程加速拿 offer - [更多介绍](https://docs.jianlipai.com/)",
-      "status": "live",
-      "date": "2025-11-13",
-      "url": "https://jianlipai.com/",
-      "author": "老木棍",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/buhuijiaojiao/jianxiaopai"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "3f5bc0495f71",
-      "board": "main",
-      "name": "YTB Download",
-      "intro": "YouTube 下载工具（Windows平台，免费无广告），支持下载 4K 视频、音频提取和字幕保存",
-      "introMarkdown": "YouTube 下载工具（Windows平台，免费无广告），支持下载 4K 视频、音频提取和字幕保存",
-      "status": "live",
-      "date": "2025-11-13",
-      "url": "https://ytbdd.cc/",
-      "author": "刀刀",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/sfss5362"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "46191da6e717",
-      "board": "main",
-      "name": "ShotAI",
-      "intro": "一键生成多个 AI 模型的图片，方便对比效果",
-      "introMarkdown": "一键生成多个 AI 模型的图片，方便对比效果",
-      "status": "live",
-      "date": "2025-11-13",
-      "url": "https://shotai.org",
-      "author": "House",
-      "authorLinks": [
-        {
-          "label": "github",
-          "url": "https://github.com/wosuxiongmao"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0e786c6d3a80",
-      "board": "main",
-      "name": "AI 图片转视频站",
-      "intro": "用图片生成视频的网站, 包括各种模板, 最新的视频模型, 后面还会加入多图片生成长视频功能",
-      "introMarkdown": "用图片生成视频的网站, 包括各种模板, 最新的视频模型, 后面还会加入多图片生成长视频功能",
-      "status": "live",
-      "date": "2025-11-13",
-      "url": "https://photoanimate.net/",
-      "author": "JohnnyXu",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/qwe00921"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "54ab5f0a242c",
-      "board": "main",
-      "name": "Nano Banana AI",
-      "intro": "AI 图像生成和编辑工具（免费在线），2-5 秒生成高质量图像，支持文生图和图像编辑",
-      "introMarkdown": "AI 图像生成和编辑工具（免费在线），2-5 秒生成高质量图像，支持文生图和图像编辑",
-      "status": "live",
-      "date": "2025-11-13",
-      "url": "https://nano2image.com/",
-      "author": "Yuan",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "750b3008157b",
-      "board": "main",
-      "name": "Reze-Engine",
-      "intro": "原生 WebGPU 实现的动画 MMD 人物渲染引擎，除物理引擎外没有第三方库",
-      "introMarkdown": "原生 WebGPU 实现的动画 MMD 人物渲染引擎，除物理引擎外没有第三方库 - [Github](https://github.com/AmyangXYZ/reze-engine)",
-      "status": "live",
-      "date": "2025-11-12",
-      "url": "https://reze.one",
-      "author": "Amyang",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/AmyangXYZ"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "5c6f5532ac2f",
-      "board": "main",
-      "name": "AI 图像站",
-      "intro": "用 nanobanana 模型的生成&编辑网站",
-      "introMarkdown": "用 nanobanana 模型的生成&编辑网站",
-      "status": "live",
-      "date": "2025-11-12",
-      "url": "https://www.gempix2.org",
-      "author": "h3",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1165353c0fe5",
-      "board": "main",
-      "name": "Nano Banana 2",
-      "intro": "收录最新的 Nano Banana 2 模型推特，油管资讯，并第一时间提供 nano banana 2 模型体验",
-      "introMarkdown": "收录最新的 Nano Banana 2 模型推特，油管资讯，并第一时间提供 nano banana 2 模型体验",
-      "status": "live",
-      "date": "2025-11-11",
-      "url": "https://nanobanana-2.net",
-      "author": "monsoonw",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
@@ -33277,6 +33207,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "072a4577d9c2",
+      "board": "programmer",
+      "name": "CSV 明细对账",
+      "intro": "在本机按 SKU 或订单号核对两份 CSV，需要 Python 3.9 或更新版本，9.90 元买断",
+      "introMarkdown": "在本机按 SKU 或订单号核对两份 CSV，需要 Python 3.9 或更新版本，9.90 元买断",
+      "status": "live",
+      "date": "2026-11-25",
+      "url": "https://skillpay.alipay.com/shelf/product?productId=P0806000214839841&merchantCode=csv-data-tools",
+      "author": "fubuki363",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fubuki363"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "b2e9a7c32c3a",
       "board": "programmer",
