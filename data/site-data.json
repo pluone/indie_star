@@ -1,16 +1,149 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-25T11:26:59.479Z",
-    "statsSyncedAt": "2026-11-25T11:26:59.479Z",
-    "upstreamSha": "187a027688fcc2d888e2fb096b4177bc86f24f96",
+    "contentSyncedAt": "2026-11-25T19:26:47.290Z",
+    "statsSyncedAt": "2026-11-25T19:26:47.290Z",
+    "upstreamSha": "8384d65c2642b218813388a18b6cc8bbd5c5e341",
     "counts": {
-      "main": 1586,
-      "game": 186,
-      "programmer": 466,
+      "main": 1581,
+      "game": 187,
+      "programmer": 470,
       "total": 2238
     }
   },
   "main": [
+    {
+      "slug": "e23b2863148f",
+      "board": "main",
+      "name": "ImageToPrompts",
+      "intro": "AI 图片转提示词工具，上传图片或输入公开图片 URL，即可生成可编辑的绘图提示词；支持 Midjourney、FLUX、JSON 等格式，每天无需登录可免费生成 3 条",
+      "introMarkdown": "AI 图片转提示词工具，上传图片或输入公开图片 URL，即可生成可编辑的绘图提示词；支持 Midjourney、FLUX、JSON 等格式，每天无需登录可免费生成 3 条",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://imagetoprompts.io/",
+      "author": "zty5678",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zty5678"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "5a833fec5e77",
+      "board": "main",
+      "name": "PayChacha",
+      "intro": "网站收款进件自查工具，输入网址即可看到 Stripe、PayPal 等支付机构可能把网站归为哪类商户（MCC）、有哪些风险标记、经营主体和退款政策等进件资料还缺什么，并按访客所在市场推荐当地常用的支付方式，免费使用，中英双语",
+      "introMarkdown": "网站收款进件自查工具，输入网址即可看到 Stripe、PayPal 等支付机构可能把网站归为哪类商户（MCC）、有哪些风险标记、经营主体和退款政策等进件资料还缺什么，并按访客所在市场推荐当地常用的支付方式，免费使用，中英双语",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://paychacha.com/zh/",
+      "author": "Phillip",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/imphillip"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "a84bd4d219c2",
+      "board": "main",
+      "name": "LogoXD",
+      "intro": "AI Logo 设计工具，先看风格示例，再填写品牌名称、行业、图形构想和配色。生成前可查看所需积分，完成后可下载 PNG。目前已开放内测",
+      "introMarkdown": "AI Logo 设计工具，先看风格示例，再填写品牌名称、行业、图形构想和配色。生成前可查看所需积分，完成后可下载 PNG。目前已开放内测",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://logoxd.com",
+      "author": "Sunzenki",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Sunzenki"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "1db9f18b80a5",
+      "board": "main",
+      "name": "StagePeek",
+      "intro": "演唱会 2D 座位图与 3D 舞台视野模拟器，覆盖全球 201 座体育场与巨蛋，购票前输入区排座即可预览 1.18 米坐姿视线与 1x–10x 手机变焦视角，免登录免费浏览",
+      "introMarkdown": "演唱会 2D 座位图与 3D 舞台视野模拟器，覆盖全球 201 座体育场与巨蛋，购票前输入区排座即可预览 1.18 米坐姿视线与 1x–10x 手机变焦视角，免登录免费浏览 - [GitHub](https://github.com/Hinstein/StagePeek)",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://stagepeek.live/zh-CN/",
+      "author": "Hinstein",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Hinstein"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "985ebed41b1e",
+      "board": "main",
+      "name": "English in Telugu Typing",
+      "intro": "免费泰卢固语 Unicode 输入工具，用英文字母拼写 Telugu 单词、选择候选后复制，或下载 TXT / 可编辑 DOCX；英文界面，无需注册",
+      "introMarkdown": "免费泰卢固语 Unicode 输入工具，用英文字母拼写 Telugu 单词、选择候选后复制，或下载 TXT / 可编辑 DOCX；英文界面，无需注册",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://englishintelugutyping.com/",
+      "author": "zhangxingmao",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/zhangxingmao"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "e3d2f46508cf",
+      "board": "main",
+      "name": "一篇 V2Note",
+      "intro": "音视频转图文工具。上传口播录音或视频，也可粘贴抖音、小红书、B 站等第三方平台的公开视频链接，生成可编辑的文章初稿。每篇可自选风格，免费生成首张精美封面",
+      "introMarkdown": "音视频转图文工具。上传口播录音或视频，也可粘贴抖音、小红书、B 站等第三方平台的公开视频链接，生成可编辑的文章初稿。每篇可自选风格，免费生成首张精美封面",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://v2note.cn/",
+      "author": "wyx2333333",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wyx2333333"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "be6b5ebfa797",
+      "board": "main",
+      "name": "圆明园数字复原计划",
+      "intro": "把 1860 年前的圆明园一块一块拼回来的开放复原图册，77 景清单已复原 15 景，每景附史料出处与生成提示词",
+      "introMarkdown": "把 1860 年前的圆明园一块一块拼回来的开放复原图册，77 景清单已复原 15 景，每景附史料出处与生成提示词",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://ivan666jjj.github.io/yuanmingyuan-restoration/",
+      "author": "严毓焕",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Ivan666jjj"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "3a869cbf6ee0",
       "board": "main",
@@ -66,7 +199,7 @@
         }
       ],
       "likes": 0,
-      "comments": 0
+      "comments": 1
     },
     {
       "slug": "a238c611e922",
@@ -85,7 +218,7 @@
         }
       ],
       "likes": 0,
-      "comments": 0
+      "comments": 1
     },
     {
       "slug": "f430e9aa8a5b",
@@ -104,7 +237,7 @@
         }
       ],
       "likes": 0,
-      "comments": 0
+      "comments": 1
     },
     {
       "slug": "774d45704e54",
@@ -161,7 +294,7 @@
         }
       ],
       "likes": 0,
-      "comments": 0
+      "comments": 1
     },
     {
       "slug": "8db2b296e2f2",
@@ -370,7 +503,7 @@
         }
       ],
       "likes": 0,
-      "comments": 0
+      "comments": 1
     },
     {
       "slug": "2e8f6b05f26f",
@@ -2573,8 +2706,8 @@
       "slug": "33fea5c2feb4",
       "board": "main",
       "name": "inspace",
-      "intro": "地点攻略与故事网站，按地点查阅内容，并用一个空间链接分享攻略和记录",
-      "introMarkdown": "地点攻略与故事网站，按地点查阅内容，并用一个空间链接分享攻略和记录 - [更多介绍](https://gist.github.com/lhq1363511234/fa7deee0b07eb516ddd03f4fd6b8cce1)",
+      "intro": "地点攻略与互动庭院网站，在山寺漫游、进入殿堂、听钟点灯，也能浏览中英文攻略和分享空间链接；漫游与浏览无需注册",
+      "introMarkdown": "地点攻略与互动庭院网站，在山寺漫游、进入殿堂、听钟点灯，也能浏览中英文攻略和分享空间链接；漫游与浏览无需注册 - [体验山寺](https://opctoai.com/inspace/lives?tab=temple) - [更多介绍](https://gist.github.com/lhq1363511234/fa7deee0b07eb516ddd03f4fd6b8cce1)",
       "status": "live",
       "date": "2026-11-13",
       "url": "https://opctoai.com/inspace",
@@ -14902,7 +15035,7 @@
         }
       ],
       "likes": 0,
-      "comments": 0
+      "comments": 2
     },
     {
       "slug": "fb7e73ed254a",
@@ -29559,211 +29692,28 @@
       ],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "49cb757dd168",
-      "board": "main",
-      "name": "免费在线硬件测试平台",
-      "intro": "GPU 测试，屏幕测试，FPS 测试，网络测试，摄像头检测，声音测试，鼠标测试，键盘测试",
-      "introMarkdown": "GPU 测试，屏幕测试，FPS 测试，网络测试，摄像头检测，声音测试，鼠标测试，键盘测试",
-      "status": "live",
-      "date": "2025-11-25",
-      "url": "https://volumeshader.org/zh",
-      "author": "huashengjieguo",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d396bbea8d08",
-      "board": "main",
-      "name": "今天记了么",
-      "intro": "日常记录打卡目标的微信小程序。用科学打卡，让自律变成简单的日常",
-      "introMarkdown": "日常记录打卡目标的微信小程序。用科学打卡，让自律变成简单的日常",
-      "status": "live",
-      "date": "2025-11-25",
-      "url": "https://flingyp.online/posts/%E4%BB%8A%E5%A4%A9%E8%AE%B0%E4%BA%86%E4%B9%88.html",
-      "author": "flingyp",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/flingyp"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0c97801fa6e3",
-      "board": "main",
-      "name": "online-timer",
-      "intro": "会议计时器，让您的站会、研讨会和演讲保持高效，按时进行。",
-      "introMarkdown": "会议计时器，让您的站会、研讨会和演讲保持高效，按时进行。",
-      "status": "live",
-      "date": "2025-11-25",
-      "url": "https://icebreaker-games.org/online-timer",
-      "author": "lucen",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f3ed1f301b43",
-      "board": "main",
-      "name": "可愛い絵文字と顔文字",
-      "intro": "可愛い絵文字と顔文字网站，精选的可爱表情符号和表情文字合集，用于SNS社交媒体和聊天消息。",
-      "introMarkdown": "可愛い絵文字と顔文字网站，精选的可爱表情符号和表情文字合集，用于SNS社交媒体和聊天消息。",
-      "status": "live",
-      "date": "2025-11-25",
-      "url": "https://kawaiiemoji.com/",
-      "author": "SoftRoyals",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b3088880d8fe",
-      "board": "main",
-      "name": "Nano Banana Pro",
-      "intro": "AI 图像生成和编辑工具，支持4k画质生成,集成多种图像风格模版.",
-      "introMarkdown": "AI 图像生成和编辑工具，支持4k画质生成,集成多种图像风格模版.",
-      "status": "live",
-      "date": "2025-11-23",
-      "url": "https://nanobananapro.art/",
-      "author": "rosicky",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "00e090c5d076",
-      "board": "main",
-      "name": "公共网络记事本",
-      "intro": "网络记事本，支持创建，以及链接和二维码分享",
-      "introMarkdown": "网络记事本，支持创建，以及链接和二维码分享",
-      "status": "live",
-      "date": "2025-11-20",
-      "url": "https://share-text.org/",
-      "author": "zhugezifang",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "5188266737c8",
-      "board": "main",
-      "name": "Word to Time Calculator",
-      "intro": "根据稿子字数快速计算阅读，演讲，汇报时间的小工具",
-      "introMarkdown": "根据稿子字数快速计算阅读，演讲，汇报时间的小工具",
-      "status": "live",
-      "date": "2025-11-20",
-      "url": "https://wordtotime.org",
-      "author": "pandaupup",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/pandaupup"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "51dc7a770b6f",
-      "board": "main",
-      "name": "屿乐春城邮",
-      "intro": "真实信箱代理，轻松管理您的信件",
-      "introMarkdown": "真实信箱代理，轻松管理您的信件 - [更多介绍](https://www.springcitypost.cn/zh-CN/qna)",
-      "status": "live",
-      "date": "2025-11-20",
-      "url": "https://www.springcitypost.cn",
-      "author": "Eminlin",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/eminlin"
-        },
-        {
-          "label": "博客",
-          "url": "https://www.eminlin.com"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "25d5345597c8",
-      "board": "main",
-      "name": "Compare Two Word",
-      "intro": "Word 文档在线对比工具，支持 Word, Excel, PDF, PPT, TXT，让文档比对变得简单、安全",
-      "introMarkdown": "Word 文档在线对比工具，支持 Word, Excel, PDF, PPT, TXT，让文档比对变得简单、安全",
-      "status": "live",
-      "date": "2025-11-20",
-      "url": "https://compare2word.com/",
-      "author": "JL",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6779be21193d",
-      "board": "main",
-      "name": "Gif To Frames",
-      "intro": "将 GIF 图转换为每一帧，支持生成雪碧图，支持反向合成多张图片为 GIF 图，可控制时间间隔及尺寸",
-      "introMarkdown": "将 GIF 图转换为每一帧，支持生成雪碧图，支持反向合成多张图片为 GIF 图，可控制时间间隔及尺寸",
-      "status": "live",
-      "date": "2025-11-18",
-      "url": "https://giftoframes.com/",
-      "author": "basulee",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/BasuLee"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "0daa06eafacd",
-      "board": "main",
-      "name": "iaiapp.org",
-      "intro": "AI App 导航站 + 工具站（开发中，Free）",
-      "introMarkdown": "AI App 导航站 + 工具站（开发中，Free）",
-      "status": "developing",
-      "date": "2025-11-18",
-      "url": "https://iaiapp.org",
-      "author": "levan",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/L-Evan"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "5396e8331a56",
-      "board": "main",
-      "name": "nanobanana2ai.art",
-      "intro": "nanobanana2 模型壁纸工具站（开发中，Free）",
-      "introMarkdown": "nanobanana2 模型壁纸工具站（开发中，Free）",
-      "status": "developing",
-      "date": "2025-11-18",
-      "url": "https://nanobanana2ai.art",
-      "author": "levan",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/L-Evan"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
+    {
+      "slug": "43d3d7b79a84",
+      "board": "game",
+      "name": "团子吃画",
+      "intro": "像素画解谜小游戏，派团子从下往上吃掉一整幅画，每个团子只吃同色、只吃每列最下面的格子；30 关加每日一画，每关都用程序验证过能通关。中英日界面，手机电脑打开就能玩，免费、无需注册、没有广告，也有微信小游戏版",
+      "introMarkdown": "像素画解谜小游戏，派团子从下往上吃掉一整幅画，每个团子只吃同色、只吃每列最下面的格子；30 关加每日一画，每关都用程序验证过能通关。中英日界面，手机电脑打开就能玩，免费、无需注册、没有广告，也有微信小游戏版",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://gokajqqgame.com/games/tuanzi-chihua/",
+      "author": "Goka",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/dyljqq"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "60750253c142",
       "board": "game",
@@ -33226,6 +33176,82 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "4e2ac22d042a",
+      "board": "programmer",
+      "name": "APIVALE",
+      "intro": "面向开发者的 OpenAI/Anthropic 兼容 AI API 网关，一个端点按量调用 DeepSeek-V4.1 Flash、Qwen 3.8 Max、GLM-5.3 与 Kimi K3，支持 PayPal 与国际信用卡",
+      "introMarkdown": "面向开发者的 OpenAI/Anthropic 兼容 AI API 网关，一个端点按量调用 DeepSeek-V4.1 Flash、Qwen 3.8 Max、GLM-5.3 与 Kimi K3，支持 PayPal 与国际信用卡 - [使用指南与示例](https://github.com/apivale/apivale-guides)",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://apivale.com",
+      "author": "Jack Yang",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/apivale"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "d0fdee20d53d",
+      "board": "programmer",
+      "name": "esp32-deepseek-client",
+      "intro": "ESP32 / ESP32-S3 轻量级大模型客户端（PlatformIO C++ 与 MicroPython 双版本），内置内存防溢出控制，MIT 开源",
+      "introMarkdown": "ESP32 / ESP32-S3 轻量级大模型客户端（PlatformIO C++ 与 MicroPython 双版本），内置内存防溢出控制，MIT 开源",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://github.com/bshx2024/esp32-deepseek-client",
+      "author": "Jack Yang",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/apivale"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "c4e71979c15b",
+      "board": "programmer",
+      "name": "@hmkit/validator",
+      "intro": "面向 HarmonyOS NEXT 和 OpenHarmony 的开源校验库，用一套 Schema 校验表单、嵌套对象和接口数据，支持异步规则，也能在 ArkUI 表单里按字段展示错误；核心库无第三方运行时依赖，可通过 ohpm install @hmkit/validator 安装",
+      "introMarkdown": "面向 HarmonyOS NEXT 和 OpenHarmony 的开源校验库，用一套 Schema 校验表单、嵌套对象和接口数据，支持异步规则，也能在 ArkUI 表单里按字段展示错误；核心库无第三方运行时依赖，可通过 ohpm install @hmkit/validator 安装 - [GitHub 源码](https://github.com/lxshwyan/harmony-validator)",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://ohpm.openharmony.cn/#/cn/detail/@hmkit%2Fvalidator",
+      "author": "微言",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "9ed17763d42e",
+      "board": "programmer",
+      "name": "微言物联网平台",
+      "intro": "面向中小项目的开源物联网平台。可以定义设备要上报哪些数据，接入设备后查看实时值和历史曲线、配置告警，也能下发控制命令并查看设备回读。支持自行部署，目前为 0.1.x 预发布版",
+      "introMarkdown": "面向中小项目的开源物联网平台。可以定义设备要上报哪些数据，接入设备后查看实时值和历史曲线、配置告警，也能下发控制命令并查看设备回读。支持自行部署，目前为 0.1.x 预发布版",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://gitee.com/lxsh_wyan/wyan-iot",
+      "author": "微言",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "b5ff35877f41",
       "board": "programmer",
