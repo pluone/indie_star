@@ -1,16 +1,77 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-26T10:21:43.292Z",
-    "statsSyncedAt": "2026-11-26T10:21:43.292Z",
-    "upstreamSha": "c7417f60f9e5987c7e294464a0f109df98fbae6b",
+    "contentSyncedAt": "2026-11-26T13:51:35.964Z",
+    "statsSyncedAt": "2026-11-26T13:51:35.964Z",
+    "upstreamSha": "cab34c7e8126e6a88301efd1549f03ebeeaceeae",
     "counts": {
-      "main": 1586,
+      "main": 1583,
       "game": 187,
       "programmer": 473,
-      "total": 2246
+      "total": 2243
     }
   },
   "main": [
+    {
+      "slug": "168471264727",
+      "board": "main",
+      "name": "SpriteSkin",
+      "intro": "把照片或文字描述转成能在 Minecraft 中穿戴的角色皮肤，可旋转预览、逐像素修改并导出 PNG。手绘编辑器免费免登录，AI 生成按积分使用",
+      "introMarkdown": "把照片或文字描述转成能在 Minecraft 中穿戴的角色皮肤，可旋转预览、逐像素修改并导出 PNG。手绘编辑器免费免登录，AI 生成按积分使用",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://spriteskin.com/",
+      "author": "JimmyYanDev",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/JimmyYanDev"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "ac650df39465",
+      "board": "main",
+      "name": "ASCII Camera",
+      "intro": "免费开源的实时字符画相机，支持多种视觉效果、自定义字符集与调色板，以及 PNG、MP4、WebM 和 GIF 导出。适配电脑与手机，无需安装",
+      "introMarkdown": "免费开源的实时字符画相机，支持多种视觉效果、自定义字符集与调色板，以及 PNG、MP4、WebM 和 GIF 导出。适配电脑与手机，无需安装 - [开源仓库](https://github.com/nine19een/ascii-camera)",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://ascii.nine19een.com/",
+      "author": "nine19een",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/nine19een"
+        },
+        {
+          "label": "个人网站",
+          "url": "https://nine19een.com/"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "57d30a4ecf64",
+      "board": "main",
+      "name": "XicoClean",
+      "intro": "Mac 磁盘管理工具，按目录查看空间占用，定位大文件和重复文件，逐项确认要清理的内容；支持简体中文，15 天完整试用，之后可选择一次买断",
+      "introMarkdown": "Mac 磁盘管理工具，按目录查看空间占用，定位大文件和重复文件，逐项确认要清理的内容；支持简体中文，15 天完整试用，之后可选择一次买断",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://xicoclean.com/",
+      "author": "XicoClean 团队",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/yaokai4"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "a66ba73c6145",
       "board": "main",
@@ -1957,8 +2018,8 @@
           "url": "https://github.com/zerosoul"
         }
       ],
-      "likes": 0,
-      "comments": 0
+      "likes": 1,
+      "comments": 1
     },
     {
       "slug": "9e0dbd012123",
@@ -29669,119 +29730,6 @@
         {
           "label": "Github",
           "url": "https://github.com/chenhg5"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6320e54238b6",
-      "board": "main",
-      "name": "Voyagard",
-      "intro": "AI 学术论文编辑器，有 AI 编辑，一键查重降重，AI推荐文献索引等功能， 帮助你完成从选题调研，文献索引并管理， AI协助撰写等功能，帮助你轻松完成论文撰写",
-      "introMarkdown": "AI 学术论文编辑器，有 AI 编辑，一键查重降重，AI推荐文献索引等功能， 帮助你完成从选题调研，文献索引并管理， AI协助撰写等功能，帮助你轻松完成论文撰写",
-      "status": "live",
-      "date": "2025-11-28",
-      "url": "https://voyagard.com",
-      "author": "Rico",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/rico-c"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "88020bc8fccb",
-      "board": "main",
-      "name": "优秀同传",
-      "intro": "同声传译 APP，支持 21 国语言的实时语音翻译，同时也支持语音实时朗读， 支持AI面向音频总结思维导图并AI对话， 随时回看历史记录， 支持 iOS 安卓 Web 端， 是行业领先精准度的同声传译 APP",
-      "introMarkdown": "同声传译 APP，支持 21 国语言的实时语音翻译，同时也支持语音实时朗读， 支持AI面向音频总结思维导图并AI对话， 随时回看历史记录， 支持 iOS 安卓 Web 端， 是行业领先精准度的同声传译 APP",
-      "status": "live",
-      "date": "2025-11-28",
-      "url": "https://interpreter.youshowedu.com",
-      "author": "Rico",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/rico-c"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "e99b5f7fa241",
-      "board": "main",
-      "name": "ZeroLaunch-rs",
-      "intro": "Windows 智能启动器。极速、隐私优先，精通拼音与模糊匹配；可选本地 AI 语义检索，让错字与意图搜索也能秒速直达",
-      "introMarkdown": "Windows 智能启动器。极速、隐私优先，精通拼音与模糊匹配；可选本地 AI 语义检索，让错字与意图搜索也能秒速直达 - [更多介绍](https://zerolaunch.ghost-him.com)",
-      "status": "live",
-      "date": "2025-11-28",
-      "url": "https://github.com/ghost-him/ZeroLaunch-rs",
-      "author": "ghost-him",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ghost-him"
-        },
-        {
-          "label": "博客",
-          "url": "https://www.ghost-him.com"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9130d6aaa14f",
-      "board": "main",
-      "name": "Vintage Paper Texture Generator",
-      "intro": "Vintage Paper Generator | HD Kraft & Aged Textures",
-      "introMarkdown": "Vintage Paper Generator | HD Kraft & Aged Textures",
-      "status": "live",
-      "date": "2025-11-26",
-      "url": "https://papertexture.io/",
-      "author": "Light",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "61e36d40661d",
-      "board": "main",
-      "name": "Banana Editor",
-      "intro": "基于 Gemini 3.0 Pro 的免费 AI 图片编辑器，支持精确修图、背景替换、服装更换等功能，提供 3 个免费积分 + 每日签到可获 100+ 积分",
-      "introMarkdown": "基于 Gemini 3.0 Pro 的免费 AI 图片编辑器，支持精确修图、背景替换、服装更换等功能，提供 3 个免费积分 + 每日签到可获 100+ 积分",
-      "status": "live",
-      "date": "2025-11-26",
-      "url": "https://bananaeditor.art",
-      "author": "Carys",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Caron77ai"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "ea2df6a91939",
-      "board": "main",
-      "name": "Binglish- AI桌面英语",
-      "intro": "自动更换必应 Bing 每日壁纸，顺便学个单词（AI 生成相关解释、相关好句、语音说明等）。 点亮屏幕，欣赏美景，邂逅知识，聚沙成塔。",
-      "introMarkdown": "自动更换必应 Bing 每日壁纸，顺便学个单词（AI 生成相关解释、相关好句、语音说明等）。 点亮屏幕，欣赏美景，邂逅知识，聚沙成塔。",
-      "status": "live",
-      "date": "2025-11-26",
-      "url": "https://github.com/klemperer/binglish",
-      "author": "klemperer",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/klemperer/binglish"
         }
       ],
       "likes": 0,
