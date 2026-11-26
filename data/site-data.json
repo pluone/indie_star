@@ -1,16 +1,49 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-26T03:20:19.705Z",
-    "statsSyncedAt": "2026-11-26T03:20:19.705Z",
-    "upstreamSha": "3fd5e2e184037fa7d280164592e124bde7b10a06",
+    "contentSyncedAt": "2026-11-26T05:31:41.825Z",
+    "statsSyncedAt": "2026-11-26T05:31:41.825Z",
+    "upstreamSha": "80ba2504349439a1e5cee340275ce3d0c4fbeed6",
     "counts": {
-      "main": 1582,
+      "main": 1584,
       "game": 187,
       "programmer": 471,
-      "total": 2240
+      "total": 2242
     }
   },
   "main": [
+    {
+      "slug": "ee8fd05fc17f",
+      "board": "main",
+      "name": "MRR Bench",
+      "intro": "把四千多个 SaaS 的定价页每天读一遍，记录每一档价格和改价日期。可以查一个工具改过几次价、是涨还是降、中位入门价多少，也能按价格区间找同类工具。免费查看，不用注册",
+      "introMarkdown": "把四千多个 SaaS 的定价页每天读一遍，记录每一档价格和改价日期。可以查一个工具改过几次价、是涨还是降、中位入门价多少，也能按价格区间找同类工具。免费查看，不用注册",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://mrrbench.com",
+      "author": "liuqianyu885",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/liuqianyu885"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "11193dd55f75",
+      "board": "main",
+      "name": "AutoMD",
+      "intro": "本地 Markdown 阅读器与轻量编辑器，免费、无广告，把文件夹收成工作区做知识库，支持静读、Git 提交与推送，可导出 PDF、Word、HTML、长图和 TXT — Windows",
+      "introMarkdown": "本地 Markdown 阅读器与轻量编辑器，免费、无广告，把文件夹收成工作区做知识库，支持静读、Git 提交与推送，可导出 PDF、Word、HTML、长图和 TXT — Windows",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://automd.macnie.com",
+      "author": "东林先生",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "c9ff19a2631f",
       "board": "main",
