@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-26T05:31:41.825Z",
-    "statsSyncedAt": "2026-11-26T05:31:41.825Z",
-    "upstreamSha": "80ba2504349439a1e5cee340275ce3d0c4fbeed6",
+    "contentSyncedAt": "2026-11-26T05:36:44.739Z",
+    "statsSyncedAt": "2026-11-26T05:36:44.739Z",
+    "upstreamSha": "60ce10d7e5347d4185392208596aa50f8fe0f67b",
     "counts": {
       "main": 1584,
       "game": 187,
-      "programmer": 471,
-      "total": 2242
+      "programmer": 472,
+      "total": 2243
     }
   },
   "main": [
@@ -33228,6 +33228,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "aaae242ade6a",
+      "board": "programmer",
+      "name": "K3.1 Studio",
+      "intro": "面向前端开发者的独立 AI 工作台，可将界面截图转成 React 代码，也支持上传项目源码进行跨文件审查",
+      "introMarkdown": "面向前端开发者的独立 AI 工作台，可将界面截图转成 React 代码，也支持上传项目源码进行跨文件审查",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://kimik3pro.com",
+      "author": "Hejk",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Hejk"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "6214936c3075",
       "board": "programmer",
