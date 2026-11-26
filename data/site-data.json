@@ -1,16 +1,58 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-26T05:36:44.739Z",
-    "statsSyncedAt": "2026-11-26T05:36:44.739Z",
-    "upstreamSha": "60ce10d7e5347d4185392208596aa50f8fe0f67b",
+    "contentSyncedAt": "2026-11-26T10:21:43.292Z",
+    "statsSyncedAt": "2026-11-26T10:21:43.292Z",
+    "upstreamSha": "c7417f60f9e5987c7e294464a0f109df98fbae6b",
     "counts": {
-      "main": 1584,
+      "main": 1586,
       "game": 187,
-      "programmer": 472,
-      "total": 2243
+      "programmer": 473,
+      "total": 2246
     }
   },
   "main": [
+    {
+      "slug": "a66ba73c6145",
+      "board": "main",
+      "name": "OhMyShot",
+      "intro": "原生 macOS 截图、录屏、标注、贴图与端侧 OCR 工具，内置 Studio 自动缩放剪辑、四向滚动截屏、公式转 LaTeX 与 CleanShot X 兼容 URL 自动化，免费且 GPL-3.0 开源（Apple 芯片，macOS 26+）",
+      "introMarkdown": "原生 macOS 截图、录屏、标注、贴图与端侧 OCR 工具，内置 Studio 自动缩放剪辑、四向滚动截屏、公式转 LaTeX 与 CleanShot X 兼容 URL 自动化，免费且 GPL-3.0 开源（Apple 芯片，macOS 26+） - [GitHub](https://github.com/MMFoundation/OhMyShot)",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://www.ohmyshot.org/",
+      "author": "Morax",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/fzlzjerry"
+        },
+        {
+          "label": "博客",
+          "url": "https://moraxcheng.me"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "8cd056f6b2e3",
+      "board": "main",
+      "name": "泊记 ParkMemo",
+      "intro": "iPhone 与 Apple Watch 停车记录 App，保存照片、楼层、区域和备注，照片文字在 iPhone 本机识别；手表可独立记录文字与可用坐标，恢复连接后同步；无账号、广告和订阅，简体中文界面，美区 US$1.99 一次买断（仅提供美区下载入口）",
+      "introMarkdown": "iPhone 与 Apple Watch 停车记录 App，保存照片、楼层、区域和备注，照片文字在 iPhone 本机识别；手表可独立记录文字与可用坐标，恢复连接后同步；无账号、广告和订阅，简体中文界面，美区 US$1.99 一次买断（仅提供美区下载入口） - [更多介绍](https://parkmemo-support.netlify.app/)",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://apps.apple.com/us/app/id6839172847",
+      "author": "Javon",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/hellocodesha"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "ee8fd05fc17f",
       "board": "main",
@@ -33228,6 +33270,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "29b42c080e24",
+      "board": "programmer",
+      "name": "CowAgent",
+      "intro": "开源的个人 AI 助理与 Agent Harness，能规划任务、调用工具和技能，靠长期记忆与知识自进化；支持多智能体协作，可接入微信、飞书、钉钉等聊天工具和 DeepSeek、Claude、Qwen 等模型，桌面客户端、手机 App 或源码自部署皆可 — 免费开源",
+      "introMarkdown": "开源的个人 AI 助理与 Agent Harness，能规划任务、调用工具和技能，靠长期记忆与知识自进化；支持多智能体协作，可接入微信、飞书、钉钉等聊天工具和 DeepSeek、Claude、Qwen 等模型，桌面客户端、手机 App 或源码自部署皆可 — 免费开源",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://cowagent.cn/",
+      "author": "zhayujie",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/zhayujie"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "aaae242ade6a",
       "board": "programmer",
