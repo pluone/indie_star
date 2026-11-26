@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-25T19:26:47.290Z",
-    "statsSyncedAt": "2026-11-25T19:26:47.290Z",
-    "upstreamSha": "8384d65c2642b218813388a18b6cc8bbd5c5e341",
+    "contentSyncedAt": "2026-11-26T02:16:21.271Z",
+    "statsSyncedAt": "2026-11-26T02:16:21.271Z",
+    "upstreamSha": "3fd5e2e184037fa7d280164592e124bde7b10a06",
     "counts": {
-      "main": 1581,
+      "main": 1582,
       "game": 187,
-      "programmer": 470,
-      "total": 2238
+      "programmer": 471,
+      "total": 2240
     }
   },
   "main": [
+    {
+      "slug": "c9ff19a2631f",
+      "board": "main",
+      "name": "锦囊匣（Jnbox）",
+      "intro": "给运营、销售和客服用的网页自动化工作台。收到表单后可按条件分派，交负责人确认，再写入台账并查看运行结果",
+      "introMarkdown": "给运营、销售和客服用的网页自动化工作台。收到表单后可按条件分派，交负责人确认，再写入台账并查看运行结果",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://liangyouyiji.com/product/workbench?utm_source=github_indiecn",
+      "author": "锦囊匣团队",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/liangyouyiji-dev"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "e23b2863148f",
       "board": "main",
@@ -33176,6 +33195,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "6214936c3075",
+      "board": "programmer",
+      "name": "SocialToAI",
+      "intro": "给 AI 用的社媒数据 MCP 服务，在 Claude、ChatGPT、Cursor 里登录授权就能读小红书、抖音、微博、B 站、Reddit、X 等 18 个平台的公开内容，不用复制 Key",
+      "introMarkdown": "给 AI 用的社媒数据 MCP 服务，在 Claude、ChatGPT、Cursor 里登录授权就能读小红书、抖音、微博、B 站、Reddit、X 等 18 个平台的公开内容，不用复制 Key - [更多介绍](https://socialtoai.com/mcp/)",
+      "status": "live",
+      "date": "2026-11-26",
+      "url": "https://socialtoai.com",
+      "author": "SocialToAI 团队",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/social-to-ai"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "4e2ac22d042a",
       "board": "programmer",
