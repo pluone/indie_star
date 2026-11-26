@@ -1,13 +1,13 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-26T13:51:35.964Z",
-    "statsSyncedAt": "2026-11-26T13:51:35.964Z",
-    "upstreamSha": "cab34c7e8126e6a88301efd1549f03ebeeaceeae",
+    "contentSyncedAt": "2026-11-26T18:26:43.433Z",
+    "statsSyncedAt": "2026-11-26T18:26:43.433Z",
+    "upstreamSha": "80fa1d7e26bb7ba0408edfe1b52befa88cafeab9",
     "counts": {
       "main": 1583,
-      "game": 187,
+      "game": 188,
       "programmer": 473,
-      "total": 2243
+      "total": 2244
     }
   },
   "main": [
@@ -29737,6 +29737,25 @@
     }
   ],
   "game": [
+    {
+      "slug": "c002fe0e2895",
+      "board": "game",
+      "name": "jnmbys's shot",
+      "intro": "海盗港口里打的免费网页 FPS，两个人开房就能在灯塔庭院里拿同一把武器单挑，也能组队玩 2v2 搭档或 5v5 火药桶爆破；一个人可以直接打 AI，支持键鼠和 iPad 横屏触控，有简体中文和英文，打开网页就能玩",
+      "introMarkdown": "海盗港口里打的免费网页 FPS，两个人开房就能在灯塔庭院里拿同一把武器单挑，也能组队玩 2v2 搭档或 5v5 火药桶爆破；一个人可以直接打 AI，支持键鼠和 iPad 横屏触控，有简体中文和英文，打开网页就能玩",
+      "status": "live",
+      "date": "2026-11-27",
+      "url": "https://jnmbyscoin.com/shot/",
+      "author": "jnmbys",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jnmbys"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "43d3d7b79a84",
       "board": "game",
