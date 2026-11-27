@@ -1,16 +1,35 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-27T05:21:24.881Z",
-    "statsSyncedAt": "2026-11-27T05:21:24.881Z",
-    "upstreamSha": "a5eed94745408656ee3f910bbbcdef22f3c38b74",
+    "contentSyncedAt": "2026-11-27T10:46:39.300Z",
+    "statsSyncedAt": "2026-11-27T10:46:39.300Z",
+    "upstreamSha": "5eafc601aafa9e4a8559dc6ab487f7caf92d49d3",
     "counts": {
-      "main": 1585,
-      "game": 189,
-      "programmer": 473,
-      "total": 2247
+      "main": 1579,
+      "game": 190,
+      "programmer": 474,
+      "total": 2243
     }
   },
   "main": [
+    {
+      "slug": "26d0e766f784",
+      "board": "main",
+      "name": "Sol Next",
+      "intro": "开源的 AI 手机行动助手，装好即用，免费内置加密 DeepSeek（也可换自有 API Key），能按自然语音或文字在后台 1:1 虚拟屏自动替你操作手机、跨 App 处理任务与 AI 接打电话，关 Wi-Fi 无线调试不断连，20 国语言随手机系统语言自动切换，支持 4 线程 OTA 更新，Apache-2.0 开源且提供国内直连下载 — Android / 鸿蒙",
+      "introMarkdown": "开源的 AI 手机行动助手，装好即用，免费内置加密 DeepSeek（也可换自有 API Key），能按自然语音或文字在后台 1:1 虚拟屏自动替你操作手机、跨 App 处理任务与 AI 接打电话，关 Wi-Fi 无线调试不断连，20 国语言随手机系统语言自动切换，支持 4 线程 OTA 更新，Apache-2.0 开源且提供国内直连下载 — Android / 鸿蒙 - [GitHub 仓库](https://github.com/chongyangzhang92-hub/Sol-Next)",
+      "status": "live",
+      "date": "2026-11-27",
+      "url": "https://chongyangzhang92-hub.github.io/Sol-Next/",
+      "author": "许昌北海医院张重阳",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/chongyangzhang92-hub"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "68550f76a253",
       "board": "main",
@@ -29659,126 +29678,28 @@
       ],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "dade3c1f3dfc",
-      "board": "main",
-      "name": "launchsaas.org",
-      "intro": "最佳的 Next.js SaaS 模板，几个小时就能上线你的 SaaS 开始盈利",
-      "introMarkdown": "最佳的 Next.js SaaS 模板，几个小时就能上线你的 SaaS 开始盈利",
-      "status": "live",
-      "date": "2025-12-06",
-      "url": "https://launchsaas.org",
-      "author": "Victory",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/victorymakes"
-        },
-        {
-          "label": "Twitter",
-          "url": "https://x.com/victorymakes"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "3238ff4cf8ea",
-      "board": "main",
-      "name": "AI Excel Translator",
-      "intro": "批量翻译 Excel 或 CSV 文档，支持 100+ 语言。",
-      "introMarkdown": "批量翻译 Excel 或 CSV 文档，支持 100+ 语言。",
-      "status": "live",
-      "date": "2025-12-04",
-      "url": "https://aiexceltranslator.com/",
-      "author": "Williams",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "383daa5636b4",
-      "board": "main",
-      "name": "SongGuru.AI",
-      "intro": "使用 AI 生成音乐、写歌词还可以分离音乐中的乐器和人声",
-      "introMarkdown": "使用 AI 生成音乐、写歌词还可以分离音乐中的乐器和人声",
-      "status": "live",
-      "date": "2025-12-04",
-      "url": "https://songguru.ai/",
-      "author": "PlayerYK",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "46d13867fba8",
-      "board": "main",
-      "name": "PromptGather",
-      "intro": "手工挑选的上千条视频、图片提示词，全部免费查看。可以直接复制使用，也可以用 AI 微调，生成图片、视频。",
-      "introMarkdown": "手工挑选的上千条视频、图片提示词，全部免费查看。可以直接复制使用，也可以用 AI 微调，生成图片、视频。",
-      "status": "live",
-      "date": "2025-12-04",
-      "url": "https://promptgather.io/",
-      "author": "ExtsBox",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "996c527b5995",
-      "board": "main",
-      "name": "CSVtoAny",
-      "intro": "CSV 格式万能转换，CSV 格式转化一站式解决方案",
-      "introMarkdown": "CSV 格式万能转换，CSV 格式转化一站式解决方案",
-      "status": "live",
-      "date": "2025-12-04",
-      "url": "https://csvtoany.com/",
-      "author": "JL",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b1a69d6293a1",
-      "board": "main",
-      "name": "随身小记",
-      "intro": "随身记事AI助理，可记账、记事、记物，并以时间线形式展示；支持语音快速创建记录。",
-      "introMarkdown": "随身记事AI助理，可记账、记事、记物，并以时间线形式展示；支持语音快速创建记录。",
-      "status": "live",
-      "date": "2025-12-04",
-      "url": "https://smartnote.chat/",
-      "author": "超能刚哥",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/margox"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "4353197a9be3",
-      "board": "main",
-      "name": "Story Generator",
-      "intro": "故事创作工具平台（免费），支持故事、标题、诗歌、情节生成和导出，支持用户创作概览、用户故事广场功能",
-      "introMarkdown": "故事创作工具平台（免费），支持故事、标题、诗歌、情节生成和导出，支持用户创作概览、用户故事广场功能",
-      "status": "live",
-      "date": "2025-12-03",
-      "url": "https://storiesgenerator.org/",
-      "author": "wang1309",
-      "authorLinks": [
-        {
-          "label": "GIthub",
-          "url": "https://github.com/wang1309"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
+    {
+      "slug": "ab477eb8582b",
+      "board": "game",
+      "name": "糟了！我只是来恋综修网线的",
+      "intro": "在浏览器里玩的第一人称恋综喜剧互动影游：周五 17:59 被裁的程序员去海边别墅修网线，被导演拉去当了男嘉宾。全程用写实照片演出（AI 生成），有限时选择、好感度、弹幕和嘉宾群聊。序章和第 1 集免费、无需注册，手机电脑打开就能玩，免费部分就有 7 个翻车结局；完整版一次买断，支持简体 / 繁體",
+      "introMarkdown": "在浏览器里玩的第一人称恋综喜剧互动影游：周五 17:59 被裁的程序员去海边别墅修网线，被导演拉去当了男嘉宾。全程用写实照片演出（AI 生成），有限时选择、好感度、弹幕和嘉宾群聊。序章和第 1 集免费、无需注册，手机电脑打开就能玩，免费部分就有 7 个翻车结局；完整版一次买断，支持简体 / 繁體",
+      "status": "live",
+      "date": "2026-11-27",
+      "url": "https://oopswifi.github.io/?ref=1c7",
+      "author": "oopswifi",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/oopswifi"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "d89f08c23f63",
       "board": "game",
@@ -33298,6 +33219,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "54d7a7354ea6",
+      "board": "programmer",
+      "name": "SerialBot",
+      "intro": "内置 MCP 的跨平台串口调试助手，Claude Code、Codex 等 AI 编程工具可直接打开串口收发、等待设备输出，写入前可逐条确认；支持 TCP/UDP、波形、XMODEM/YMODEM 发固件和命令行版 — 免费开源",
+      "introMarkdown": "内置 MCP 的跨平台串口调试助手，Claude Code、Codex 等 AI 编程工具可直接打开串口收发、等待设备输出，写入前可逐条确认；支持 TCP/UDP、波形、XMODEM/YMODEM 发固件和命令行版 — 免费开源 - [更多介绍](https://serialbot.aiany.cc)",
+      "status": "live",
+      "date": "2026-11-27",
+      "url": "https://github.com/jerry-token/serialbot",
+      "author": "Jerry",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jerry-token"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "29b42c080e24",
       "board": "programmer",
