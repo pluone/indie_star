@@ -1,16 +1,77 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-26T18:26:43.433Z",
-    "statsSyncedAt": "2026-11-26T18:26:43.433Z",
-    "upstreamSha": "80fa1d7e26bb7ba0408edfe1b52befa88cafeab9",
+    "contentSyncedAt": "2026-11-27T02:46:44.967Z",
+    "statsSyncedAt": "2026-11-27T02:46:44.967Z",
+    "upstreamSha": "453ad4cd4eca82b581da7bcebfab941e33badca7",
     "counts": {
-      "main": 1583,
-      "game": 188,
+      "main": 1582,
+      "game": 189,
       "programmer": 473,
       "total": 2244
     }
   },
   "main": [
+    {
+      "slug": "02b77fa83e03",
+      "board": "main",
+      "name": "StyleFuse",
+      "intro": "上传自己的 Word/纯文本草稿和目标期刊范文，5 阶段 AI 协作按句流式改写并实时显示 Canvas 红绿 Diff，支持划词微调与直接导出排版好的 Word 文档。打开网页即可使用，注册每周免费体验 3 次",
+      "introMarkdown": "上传自己的 Word/纯文本草稿和目标期刊范文，5 阶段 AI 协作按句流式改写并实时显示 Canvas 红绿 Diff，支持划词微调与直接导出排版好的 Word 文档。打开网页即可使用，注册每周免费体验 3 次",
+      "status": "live",
+      "date": "2026-11-27",
+      "url": "https://stylefuse.top",
+      "author": "Tomsabay",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Tomsabay"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "7facfdb6f5dc",
+      "board": "main",
+      "name": "CreoArt Poster Studio",
+      "intro": "免费免登录、纯浏览器本地 0 上传的 300 DPI 打印排版工具箱。内置 2027 丁未羊年 A4 农历日历生成器（紫金山/香港天文台 CST 核验每日农历与 24 节气、国务院国办发明电〔2026〕10 号 7 大放假与 5 个补班日、照片月历、365 天习惯打卡表与 12 页无水印打包 PDF），以及身份证正反面 1:1 实寸 A4 合拼（ISO 7810 + 防盗用水印）、永久静态 Wi-Fi/收款二维码桌牌、大图多页拼接、手写体笔记与寻字练习纸等 8 款打印刚需工具",
+      "introMarkdown": "免费免登录、纯浏览器本地 0 上传的 300 DPI 打印排版工具箱。内置 2027 丁未羊年 A4 农历日历生成器（紫金山/香港天文台 CST 核验每日农历与 24 节气、国务院国办发明电〔2026〕10 号 7 大放假与 5 个补班日、照片月历、365 天习惯打卡表与 12 页无水印打包 PDF），以及身份证正反面 1:1 实寸 A4 合拼（ISO 7810 + 防盗用水印）、永久静态 Wi-Fi/收款二维码桌牌、大图多页拼接、手写体笔记与寻字练习纸等 8 款打印刚需工具",
+      "status": "live",
+      "date": "2026-11-27",
+      "url": "https://poster.creoart.app/zh",
+      "author": "WaterJason",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/WaterJason"
+        },
+        {
+          "label": "个人网站",
+          "url": "https://chaowei.site"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "a82ef8d5a4b2",
+      "board": "main",
+      "name": "观画壁纸 Paintpane",
+      "intro": "Windows 托盘壁纸软件，把大都会艺术博物馆、芝加哥艺术博物馆、台北故宫博物院等十家博物馆开放馆藏里的名画设成桌面和锁屏壁纸，定时换一幅，有完整显示、博物馆画框、智能裁切三种显示方式；免费、不收集数据，Microsoft Store 或单文件 exe",
+      "introMarkdown": "Windows 托盘壁纸软件，把大都会艺术博物馆、芝加哥艺术博物馆、台北故宫博物院等十家博物馆开放馆藏里的名画设成桌面和锁屏壁纸，定时换一幅，有完整显示、博物馆画框、智能裁切三种显示方式；免费、不收集数据，Microsoft Store 或单文件 exe - [GitHub](https://github.com/begineri/Paintpane)",
+      "status": "live",
+      "date": "2026-11-27",
+      "url": "https://begineri.github.io/Paintpane/zh/",
+      "author": "begineri",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/begineri"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "168471264727",
       "board": "main",
@@ -21679,6 +21740,25 @@
       "comments": 0
     },
     {
+      "slug": "88059a3387c6",
+      "board": "main",
+      "name": "cv.cm 免费测试",
+      "intro": "125 个免费测试，有 MBTI、大五人格、骨架诊断、肤质测试、DND 阵营、哈利波特魔杖和动漫角色测试，9 种语言，答案只在浏览器里计分，不上传、不用注册",
+      "introMarkdown": "125 个免费测试，有 MBTI、大五人格、骨架诊断、肤质测试、DND 阵营、哈利波特魔杖和动漫角色测试，9 种语言，答案只在浏览器里计分，不上传、不用注册",
+      "status": "live",
+      "date": "2026-06-05",
+      "url": "https://cv.cm/zh-cn/tests/",
+      "author": "馒头饭",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/mantoufan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "91c769eed9aa",
       "board": "main",
       "name": "AIGPTImage",
@@ -29639,104 +29719,28 @@
       ],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "fe496b80a313",
-      "board": "main",
-      "name": "E-ink",
-      "intro": "网页转电子书工具的平台（免费），支持将网页快速转换为多种电子书格式并在线阅读与编辑",
-      "introMarkdown": "网页转电子书工具的平台（免费），支持将网页快速转换为多种电子书格式并在线阅读与编辑",
-      "status": "live",
-      "date": "2025-12-02",
-      "url": "https://e-ink.me/zh",
-      "author": "Selenium39",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Selenium39"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b77998084d68",
-      "board": "main",
-      "name": "ShowMeBestAI",
-      "intro": "最全面的 AI 工具目录，包含 3632+ 个 AI 工具。为您的业务、创意和生产力需求找到完美的 AI 工具",
-      "introMarkdown": "最全面的 AI 工具目录，包含 3632+ 个 AI 工具。为您的业务、创意和生产力需求找到完美的 AI 工具",
-      "status": "live",
-      "date": "2025-12-02",
-      "url": "https://showmebest.ai/",
-      "author": "星舟",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/lzzzzl"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "6484bef7b030",
-      "board": "main",
-      "name": "DeepSong AI",
-      "intro": "AI 生成音乐和歌曲，原创且免版税",
-      "introMarkdown": "AI 生成音乐和歌曲，原创且免版税",
-      "status": "live",
-      "date": "2025-12-02",
-      "url": "https://deepsong.ai/",
-      "author": "星舟",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/lzzzzl"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "bd478502f88e",
-      "board": "main",
-      "name": "sora2 api",
-      "intro": "Sora2Api 通过统一 API 实现无水印的 Sora2视频生成, 低至 $0.1/ video",
-      "introMarkdown": "Sora2Api 通过统一 API 实现无水印的 Sora2视频生成, 低至 $0.1/ video",
-      "status": "live",
-      "date": "2025-11-29",
-      "url": "https://www.sora2api.org/",
-      "author": "pekingzcc",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/zhangchenchen"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "46c8d6bdcc8e",
-      "board": "main",
-      "name": "Modern Mermaid",
-      "intro": "mermaid 代码编辑生成器（现代好看，拥有多种主题模板），帮你做更好看的文档",
-      "introMarkdown": "mermaid 代码编辑生成器（现代好看，拥有多种主题模板），帮你做更好看的文档",
-      "status": "live",
-      "date": "2025-11-29",
-      "url": "https://modern-mermaid.live",
-      "author": "cg33",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/chenhg5"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
+    {
+      "slug": "d89f08c23f63",
+      "board": "game",
+      "name": "GTA6People",
+      "intro": "GTA 6 角色资料站，整理主角与配角介绍、配音演员及剧情背景，提供角色分类与来源链接，英文界面，无需注册即可浏览",
+      "introMarkdown": "GTA 6 角色资料站，整理主角与配角介绍、配音演员及剧情背景，提供角色分类与来源链接，英文界面，无需注册即可浏览",
+      "status": "live",
+      "date": "2026-11-27",
+      "url": "https://gta6people.com/",
+      "author": "dreamcrafterMaker",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/dreamcrafterMaker"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "c002fe0e2895",
       "board": "game",
