@@ -1,16 +1,339 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-28T03:02:17.018Z",
-    "statsSyncedAt": "2026-11-28T03:02:17.018Z",
-    "upstreamSha": "5eafc601aafa9e4a8559dc6ab487f7caf92d49d3",
+    "contentSyncedAt": "2026-11-28T03:36:38.349Z",
+    "statsSyncedAt": "2026-11-28T03:36:38.349Z",
+    "upstreamSha": "292aaeb19f70316e10f71fd2f751342cb566a209",
     "counts": {
-      "main": 1579,
-      "game": 190,
-      "programmer": 474,
-      "total": 2243
+      "main": 1574,
+      "game": 192,
+      "programmer": 475,
+      "total": 2241
     }
   },
   "main": [
+    {
+      "slug": "40c8be31ecf0",
+      "board": "main",
+      "name": "Filewise",
+      "intro": "Mac 文件管理器，在本机读文件内容，把「下载 (3).pdf」这类名字改成看得懂的；先出对照表、勾了才改、可撤销，没有删除动作；文件不上传，目前免费（Apple 芯片，macOS 14 或更新）",
+      "introMarkdown": "Mac 文件管理器，在本机读文件内容，把「下载 (3).pdf」这类名字改成看得懂的；先出对照表、勾了才改、可撤销，没有删除动作；文件不上传，目前免费（Apple 芯片，macOS 14 或更新）",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://filewise.gatheon.com",
+      "author": "Gatheon",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/depthsky2016/zapthen"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "06a259cc2ccd",
+      "board": "main",
+      "name": "Shotbox",
+      "intro": "Mac 菜单栏截图工具，截图后在本机识别图里的字并自动起标题，记得一个词就能搜回原图；验证码、订单号一键复制，⌥⌘K 截长图；没有账号，截图不上传，免费（macOS 13 或更新）",
+      "introMarkdown": "Mac 菜单栏截图工具，截图后在本机识别图里的字并自动起标题，记得一个词就能搜回原图；验证码、订单号一键复制，⌥⌘K 截长图；没有账号，截图不上传，免费（macOS 13 或更新）",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://box.gatheon.com",
+      "author": "Gatheon",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/depthsky2016/zapthen"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "79713aabc97c",
+      "board": "main",
+      "name": "Zapthen",
+      "intro": "Mac 菜单栏小工具，在任何地方按住右键 0.3 秒叫出面板，搜 App、算算式、跳系统设置、翻剪贴板；选中文字旁边出小条，一键翻译、问 AI、记成待办；剪贴板和笔记只存本机，没有账号，目前免费（macOS 26 或更新）",
+      "introMarkdown": "Mac 菜单栏小工具，在任何地方按住右键 0.3 秒叫出面板，搜 App、算算式、跳系统设置、翻剪贴板；选中文字旁边出小条，一键翻译、问 AI、记成待办；剪贴板和笔记只存本机，没有账号，目前免费（macOS 26 或更新）",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://zapthen.com",
+      "author": "Gatheon",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/depthsky2016/zapthen"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "7452e8af1d0b",
+      "board": "main",
+      "name": "活更久",
+      "intro": "iPhone 健康记录 App，拍下体检报告就能提取指标，按日期查看同一指标的历史变化；也可以拍照记一餐，核对识别出的菜品后保存",
+      "introMarkdown": "iPhone 健康记录 App，拍下体检报告就能提取指标，按日期查看同一指标的历史变化；也可以拍照记一餐，核对识别出的菜品后保存",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://apps.apple.com/cn/app/id6760715158",
+      "author": "nico112358",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/nico112358"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "506486bbe355",
+      "board": "main",
+      "name": "口袋遥控器（iPocketRemote）",
+      "intro": "把 iPhone 或 iPad 变成 Mac 的无线触控板，在同一局域网与 Mac 端 iPocketDock 扫码配对，就能移动指针、滚动页面和控制媒体播放",
+      "introMarkdown": "把 iPhone 或 iPad 变成 Mac 的无线触控板，在同一局域网与 Mac 端 iPocketDock 扫码配对，就能移动指针、滚动页面和控制媒体播放",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://ipocket.xyz/zh-CN/apps/pocketremote/",
+      "author": "iPocket",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/iPocket-APP"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "f0e64ae9aba0",
+      "board": "main",
+      "name": "FileTrail",
+      "intro": "记录 Mac 上指定文件夹里新出现的文件，可从菜单栏或访达直接定位刚下载的文件，也能按文件名搜索本机历史记录",
+      "introMarkdown": "记录 Mac 上指定文件夹里新出现的文件，可从菜单栏或访达直接定位刚下载的文件，也能按文件名搜索本机历史记录",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://ipocket.xyz/zh-CN/apps/filetrail/",
+      "author": "iPocket",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/iPocket-APP"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "09a4d312c9bd",
+      "board": "main",
+      "name": "TinyMast",
+      "intro": "在线 PDF 与图片工具，支持 PDF 合并、拆分、压缩与 OCR，以及图片压缩、缩放和格式转换，上传的文件与结果 24 小时内删除",
+      "introMarkdown": "在线 PDF 与图片工具，支持 PDF 合并、拆分、压缩与 OCR，以及图片压缩、缩放和格式转换，上传的文件与结果 24 小时内删除",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://tinymast.com",
+      "author": "周磊",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/duoduoio"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "655b9718aa32",
+      "board": "main",
+      "name": "百用工具箱",
+      "intro": "13 大分类、100 项免费在线实用工具，覆盖生活经营、财务记账、工程装修、农业养殖、办公辅助、单位换算等领域；支持中英文一键切换，适配手机、平板和电脑，无需注册、无需下载安装，打开即用",
+      "introMarkdown": "13 大分类、100 项免费在线实用工具，覆盖生活经营、财务记账、工程装修、农业养殖、办公辅助、单位换算等领域；支持中英文一键切换，适配手机、平板和电脑，无需注册、无需下载安装，打开即用",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://baiyong-tools.pages.dev/",
+      "author": "FQfqcom",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/FQfqcom"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "2eb8f8fa9e37",
+      "board": "main",
+      "name": "Photo Timestamp",
+      "intro": "选一张照片，读取 EXIF 拍摄日期，调整日期格式和位置，导出一份带日期的照片，原图留在浏览器本地；对没有拍摄信息的扫描老照片，可以手动填写日期，免费版每批处理 5 张",
+      "introMarkdown": "选一张照片，读取 EXIF 拍摄日期，调整日期格式和位置，导出一份带日期的照片，原图留在浏览器本地；对没有拍摄信息的扫描老照片，可以手动填写日期，免费版每批处理 5 张",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://timestamp.fit/",
+      "author": "MakermingOne",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/MakermingOne"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "4e9fc294d4bd",
+      "board": "main",
+      "name": "MAGI 2 AI",
+      "intro": "独立的 MAGI-2 网页创作界面，可用文字或参考图片、视频和音频生成最长 30 秒的 1080p 有声视频，并控制首尾帧、运镜和多镜头节奏；登录后按积分使用",
+      "introMarkdown": "独立的 MAGI-2 网页创作界面，可用文字或参考图片、视频和音频生成最长 30 秒的 1080p 有声视频，并控制首尾帧、运镜和多镜头节奏；登录后按积分使用",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://magi2-ai.org",
+      "author": "Junwu Xu",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/amierhan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "b9d207d0af4b",
+      "board": "main",
+      "name": "Emote Resizer",
+      "intro": "直播表情缩放工具，把一张表情原图导出为聊天或直播平台需要的多种尺寸",
+      "introMarkdown": "直播表情缩放工具，把一张表情原图导出为聊天或直播平台需要的多种尺寸",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://emoteresize.com/",
+      "author": "Winson",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ystyleb"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "22f6c2354153",
+      "board": "main",
+      "name": "Free Image Merger",
+      "intro": "浏览器本地拼图工具，把多张图片横排、竖排或拼成网格，无需上传原图",
+      "introMarkdown": "浏览器本地拼图工具，把多张图片横排、竖排或拼成网格，无需上传原图",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://freeimagemerger.com/",
+      "author": "Winson",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ystyleb"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "943f4e9f4a00",
+      "board": "main",
+      "name": "Songifted",
+      "intro": "定制礼物歌曲工具，把送礼对象和共同回忆写成歌词，生成演唱前可先逐句修改",
+      "introMarkdown": "定制礼物歌曲工具，把送礼对象和共同回忆写成歌词，生成演唱前可先逐句修改",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://songifted.com/",
+      "author": "Winson",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ystyleb"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "38cc2c933d4c",
+      "board": "main",
+      "name": "TryOnSwap",
+      "intro": "服装试穿预览工具，上传人物照和衣服图就能比较造型，生成图用于看搭配",
+      "introMarkdown": "服装试穿预览工具，上传人物照和衣服图就能比较造型，生成图用于看搭配",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://tryonswap.com/",
+      "author": "Winson",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ystyleb"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "238f3a49301d",
+      "board": "main",
+      "name": "PawMotif",
+      "intro": "把宠物照片做成插画肖像，可以先看风格预览，再决定是否购买适合打印的高清图",
+      "introMarkdown": "把宠物照片做成插画肖像，可以先看风格预览，再决定是否购买适合打印的高清图",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://pawmotif.com/",
+      "author": "Winson",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ystyleb"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "36d8652d36e0",
+      "board": "main",
+      "name": "MakeItRap",
+      "intro": "可以免费写和改说唱歌词，也可以用照片和名字生成带声音的 15 秒说唱视频，视频生成使用点数",
+      "introMarkdown": "可以免费写和改说唱歌词，也可以用照片和名字生成带声音的 15 秒说唱视频，视频生成使用点数",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://makeitrap.com/",
+      "author": "Winson",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ystyleb"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "44fb25321189",
+      "board": "main",
+      "name": "航迹 Flyprint",
+      "intro": "飞行记录地图，把登机牌、行程截图、电子客票 PDF 或 Flighty 导出文件拖进去，坐过的每一班飞机都画在一个实拍地球上，按你住在哪里自动分出每一次旅行；一年的航班可以导出成 14 秒的视频和分享卡片，在你自己的设备上生成；不用注册先试，MIT 开源，可以用 Docker 自部署",
+      "introMarkdown": "飞行记录地图，把登机牌、行程截图、电子客票 PDF 或 Flighty 导出文件拖进去，坐过的每一班飞机都画在一个实拍地球上，按你住在哪里自动分出每一次旅行；一年的航班可以导出成 14 秒的视频和分享卡片，在你自己的设备上生成；不用注册先试，MIT 开源，可以用 Docker 自部署 - [GitHub 仓库](https://github.com/billpwchan/flyprint)",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://flyprint.billpwchan.art/?ref=1c7",
+      "author": "Bill Chan",
+      "authorLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/billpwchan"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "26d0e766f784",
       "board": "main",
@@ -29293,394 +29616,42 @@
       ],
       "likes": 0,
       "comments": 0
-    },
-    {
-      "slug": "e4f952fd6d79",
-      "board": "main",
-      "name": "Hailuo AI",
-      "intro": "AI 内容生成工具，无需剪辑软件，将创意快速转化为动画视频，简化视频制作流程",
-      "introMarkdown": "AI 内容生成工具，无需剪辑软件，将创意快速转化为动画视频，简化视频制作流程",
-      "status": "live",
-      "date": "2025-12-14",
-      "url": "https://www.hailuoai.work/",
-      "author": "yuhanw496-sketch",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/yuhanw496-sketch"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "1631a73f9385",
-      "board": "main",
-      "name": "Nano Banana 2 AI",
-      "intro": "AI 图像生成工具（支持角色一致性保持与多步工作流，兼顾速度与质量），适合快速产出专业视觉内容",
-      "introMarkdown": "AI 图像生成工具（支持角色一致性保持与多步工作流，兼顾速度与质量），适合快速产出专业视觉内容",
-      "status": "live",
-      "date": "2025-12-14",
-      "url": "https://banananano2.ai/",
-      "author": "yuhanw496-sketch",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/yuhanw496-sketch"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "9f548343b30e",
-      "board": "main",
-      "name": "Flux 2 AI",
-      "intro": "AI 绘画工具（无需注册即可生成 2K-4K 高清图像），支持多模型切换，适合快速创意验证与设计",
-      "introMarkdown": "AI 绘画工具（无需注册即可生成 2K-4K 高清图像），支持多模型切换，适合快速创意验证与设计",
-      "status": "live",
-      "date": "2025-12-14",
-      "url": "https://flux-2-ai.com/",
-      "author": "yuhanw496-sketch",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/yuhanw496-sketch"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "dc017c7f0080",
-      "board": "main",
-      "name": "视力测试",
-      "intro": "视力测试（免费）包括视力（visual acuity）、色觉（color）、对比度（contrast）和视野（field screening）筛查",
-      "introMarkdown": "视力测试（免费）包括视力（visual acuity）、色觉（color）、对比度（contrast）和视野（field screening）筛查",
-      "status": "live",
-      "date": "2025-12-14",
-      "url": "https://eyetestonline.org/",
-      "author": "seven",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "13e36349bb7a",
-      "board": "main",
-      "name": "Aluo AI",
-      "intro": "AI 产品图生成与电商图片编辑工具",
-      "introMarkdown": "AI 产品图生成与电商图片编辑工具",
-      "status": "live",
-      "date": "2025-12-13",
-      "url": "https://aluo.ai",
-      "author": "Ivanvolt",
-      "authorLinks": [
-        {
-          "label": "博客",
-          "url": "https://ivanvolt.com"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "5e8bb99e8bcd",
-      "board": "main",
-      "name": "AiDirs",
-      "intro": "探索并分享最佳人工智能工具",
-      "introMarkdown": "探索并分享最佳人工智能工具",
-      "status": "live",
-      "date": "2025-12-13",
-      "url": "https://aidirs.best",
-      "author": "Ivanvolt",
-      "authorLinks": [
-        {
-          "label": "博客",
-          "url": "https://ivanvolt.com"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "3cae0456ab40",
-      "board": "main",
-      "name": "YoChanger",
-      "intro": "AI 换装，在线试衣间",
-      "introMarkdown": "AI 换装，在线试衣间",
-      "status": "live",
-      "date": "2025-12-13",
-      "url": "https://yochanger.com/",
-      "author": "Toby",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "e2dec09cc452",
-      "board": "main",
-      "name": "Nano Banana Pro",
-      "intro": "AI 图片生成、图片编辑网站",
-      "introMarkdown": "AI 图片生成、图片编辑网站",
-      "status": "live",
-      "date": "2025-12-12",
-      "url": "https://applebanana.pro/",
-      "author": "Ri_vai",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "25fedc11a251",
-      "board": "main",
-      "name": "PassScan",
-      "intro": "简历分析工具（AI驱动），支持人岗匹配、多维度人才画像分析",
-      "introMarkdown": "简历分析工具（AI驱动），支持人岗匹配、多维度人才画像分析",
-      "status": "live",
-      "date": "2025-12-12",
-      "url": "https://xujingyichang.top/",
-      "author": "WtecHtec",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/WtecHtec"
-        },
-        {
-          "label": "博客",
-          "url": "https://wtechtec.com/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "7094a141cbfd",
-      "board": "main",
-      "name": "ImagineGo",
-      "intro": "视频和图像模型聚合站，目前上线 10+ 模型",
-      "introMarkdown": "视频和图像模型聚合站，目前上线 10+ 模型",
-      "status": "live",
-      "date": "2025-12-12",
-      "url": "https://imaginego.ai",
-      "author": "xxk1323",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "ab7e63d2084d",
-      "board": "main",
-      "name": "OneClip",
-      "intro": "剪贴板管理工具（专为 macOS 设计），支持多种格式内容管理，智能搜索和分类，让您的复制粘贴操作更加便捷高效",
-      "introMarkdown": "剪贴板管理工具（专为 macOS 设计），支持多种格式内容管理，智能搜索和分类，让您的复制粘贴操作更加便捷高效 - [更多介绍](https://wcowin.work/blog/OneClip/)",
-      "status": "live",
-      "date": "2025-12-12",
-      "url": "https://oneclip.cloud/",
-      "author": "Wcowin",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Wcowin"
-        },
-        {
-          "label": "博客",
-          "url": "https://wcowin.work/"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "fda053d9f5ec",
-      "board": "main",
-      "name": "Screentell",
-      "intro": "录屏工具(低门槛)，可以满足 90 %以上的录屏 DEMO 需求，特色支持手绘风格贴纸",
-      "introMarkdown": "录屏工具(低门槛)，可以满足 90 %以上的录屏 DEMO 需求，特色支持手绘风格贴纸 - [更多介绍](https://x.com/ShawnHacks/status/1996480396637446197)",
-      "status": "live",
-      "date": "2025-12-12",
-      "url": "https://screentell.com",
-      "author": "Shawn",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ShawnHacks"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "f42095d678ab",
-      "board": "main",
-      "name": "YouTube 字幕生成器",
-      "intro": "将 Youtube 视频转为文字",
-      "introMarkdown": "将 Youtube 视频转为文字",
-      "status": "live",
-      "date": "2025-12-12",
-      "url": "https://transcriptinprogress.online",
-      "author": "biboom",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "85ae79696046",
-      "board": "main",
-      "name": "Future Me AI",
-      "intro": "专为儿童设计的 AI 职业肖像生成器。上传孩子照片，从 50+ 职业中选择，生成激发梦想的专业未来职业照片",
-      "introMarkdown": "专为儿童设计的 AI 职业肖像生成器。上传孩子照片，从 50+ 职业中选择，生成激发梦想的专业未来职业照片",
-      "status": "live",
-      "date": "2025-12-11",
-      "url": "https://futuremeai.app/",
-      "author": "handsometong",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "d8d2cbb98d63",
-      "board": "main",
-      "name": "LearnFlux",
-      "intro": "AI 驱动的智能学习助手，为你生成个性化学习材料，让你以更少时间掌握更多知识。",
-      "introMarkdown": "AI 驱动的智能学习助手，为你生成个性化学习材料，让你以更少时间掌握更多知识。",
-      "status": "live",
-      "date": "2025-12-11",
-      "url": "https://www.learnflux.net",
-      "author": "Leon",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/fangweihao123"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "8f5556ddf535",
-      "board": "main",
-      "name": "AI Voice Cloning",
-      "intro": "AI 声音克隆",
-      "introMarkdown": "AI 声音克隆",
-      "status": "live",
-      "date": "2025-12-09",
-      "url": "https://aivoicecloning.net",
-      "author": "pillow",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "dac65f5a58c9",
-      "board": "main",
-      "name": "Humanizadordeia.app",
-      "intro": "将AI文本转化为自然人类写作。1）人性化处理，让 AI 文本更自然、更贴近人工写作与品牌口吻；2）检测服务，帮助识别潜在 AI 生成内容，提升合规与质量。支持多语种、极速处理、保留语义与风格。免注册体验 300 字，适合博主、营销团队、跨境站点、教育与企业内容运营。以先进模型（GPT、Claude、Gemini 等）驱动。",
-      "introMarkdown": "将AI文本转化为自然人类写作。1）人性化处理，让 AI 文本更自然、更贴近人工写作与品牌口吻；2）检测服务，帮助识别潜在 AI 生成内容，提升合规与质量。支持多语种、极速处理、保留语义与风格。免注册体验 300 字，适合博主、营销团队、跨境站点、教育与企业内容运营。以先进模型（GPT、Claude、Gemini 等）驱动。",
-      "status": "live",
-      "date": "2025-12-09",
-      "url": "https://humanizadordeia.app/",
-      "author": "BOS1980",
-      "authorLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/BOS1980"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "66888231558a",
-      "board": "main",
-      "name": "musci",
-      "intro": "AI 音乐生成，支持多语言",
-      "introMarkdown": "AI 音乐生成，支持多语言",
-      "status": "live",
-      "date": "2025-12-09",
-      "url": "https://musci.io/",
-      "author": "xbaicai0",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/xbaicai0"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "3abb336cacc0",
-      "board": "main",
-      "name": "videobackgroundremover",
-      "intro": "视频去背景",
-      "introMarkdown": "视频去背景",
-      "status": "live",
-      "date": "2025-12-09",
-      "url": "https://videobackgroundremover.io/",
-      "author": "lkunxyz",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/lkunxyz"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "c49b6a0e262f",
-      "board": "main",
-      "name": "Address Generator",
-      "intro": "随机地址生成工具（支持 40+ 国家/地区） — 随机生成结构化地址，适合测试／模拟注册／本地化展示",
-      "introMarkdown": "随机地址生成工具（支持 40+ 国家/地区） — 随机生成结构化地址，适合测试／模拟注册／本地化展示",
-      "status": "live",
-      "date": "2025-12-07",
-      "url": "https://addressgen.top",
-      "author": "ALioooon",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "b35af8bcc26e",
-      "board": "main",
-      "name": "云文档查找工具",
-      "intro": "分享云文档的平台。定位是纯粹的分享平台。除了直接使用网站，还可以打开微信小程序“云文档查找工具”，输入关键词，就能找到心仪的文档。内容平台丰富，涵盖飞书云文档、Notion、语雀、FlowUS、金山云文档、腾讯云文档等众多平台的公开云文档",
-      "introMarkdown": "分享云文档的平台。定位是纯粹的分享平台。除了直接使用网站，还可以打开微信小程序“云文档查找工具”，输入关键词，就能找到心仪的文档。内容平台丰富，涵盖飞书云文档、Notion、语雀、FlowUS、金山云文档、腾讯云文档等众多平台的公开云文档",
-      "status": "live",
-      "date": "2025-12-07",
-      "url": "https://www.cloudocs.top/",
-      "author": "mztkn",
-      "authorLinks": [],
-      "likes": 0,
-      "comments": 0
-    },
-    {
-      "slug": "2fd4f255b66f",
-      "board": "main",
-      "name": "小红书笔记AI生成",
-      "intro": "基于人设，使用多个AI生成小红书笔记，助力自媒体博主快速生成图文内容，提升个人IP搭建效率",
-      "introMarkdown": "基于人设，使用多个AI生成小红书笔记，助力自媒体博主快速生成图文内容，提升个人IP搭建效率",
-      "status": "live",
-      "date": "2025-12-07",
-      "url": "https://www.red-note.top/zh/create",
-      "author": "Xibobo",
-      "authorLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/my19940202"
-        },
-        {
-          "label": "Twitter",
-          "url": "https://x.com/xishengbo"
-        }
-      ],
-      "likes": 0,
-      "comments": 0
     }
   ],
   "game": [
+    {
+      "slug": "a353d9eb8e60",
+      "board": "game",
+      "name": "Minecraft Krillion",
+      "intro": "免费英文 Minecraft 知识问答网页游戏，每日七题，每题 25 秒，答对后越少人想到的答案挖得越接近基岩；无需注册，可用不限次模式练习",
+      "introMarkdown": "免费英文 Minecraft 知识问答网页游戏，每日七题，每题 25 秒，答对后越少人想到的答案挖得越接近基岩；无需注册，可用不限次模式练习 - [玩法与规则](https://minecraftkrillion.net/about)",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://minecraftkrillion.net/",
+      "author": "Minecraft Krillion 项目组",
+      "authorLinks": [],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "cfbca7d99d3c",
+      "board": "game",
+      "name": "Streakdle",
+      "intro": "限时英文文字游戏，每轮七道题，输入符合提示的词；相同题目里较少玩家使用的答案得分更高，免注册并能连续重玩",
+      "introMarkdown": "限时英文文字游戏，每轮七道题，输入符合提示的词；相同题目里较少玩家使用的答案得分更高，免注册并能连续重玩",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://streakdle.com/",
+      "author": "Winson",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ystyleb"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "ab477eb8582b",
       "board": "game",
@@ -33219,6 +33190,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "4ba1f610b18b",
+      "board": "programmer",
+      "name": "Pararepo",
+      "intro": "在同一仓库并行使用多个编程 Agent 时，每项任务在独立 Git 工作树中完成；在 Mac 看板上核对哪些改动已经接收，在原对话查看结果；支持 Apple 芯片 Mac，提供简体中文和英文版本",
+      "introMarkdown": "在同一仓库并行使用多个编程 Agent 时，每项任务在独立 Git 工作树中完成；在 Mac 看板上核对哪些改动已经接收，在原对话查看结果；支持 Apple 芯片 Mac，提供简体中文和英文版本 - [当前版本与安装说明](https://github.com/porcelaintech/pararepo-releases/releases/tag/v0.2.0)",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://github.com/porcelaintech/pararepo-releases",
+      "author": "Qiaohan",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/porcelaintech"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "54d7a7354ea6",
       "board": "programmer",
