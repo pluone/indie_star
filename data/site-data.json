@@ -1,22 +1,60 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-28T06:01:45.877Z",
-    "statsSyncedAt": "2026-11-28T06:01:45.877Z",
-    "upstreamSha": "a20808676a5cfe72b07b8523ab5fd08f2d3f77a7",
+    "contentSyncedAt": "2026-11-28T06:06:47.952Z",
+    "statsSyncedAt": "2026-11-28T06:06:47.952Z",
+    "upstreamSha": "84da8e5756400adbb2d8868acc99ab4f64bf1233",
     "counts": {
-      "main": 1579,
+      "main": 1581,
       "game": 192,
-      "programmer": 475,
-      "total": 2246
+      "programmer": 476,
+      "total": 2249
     }
   },
   "main": [
     {
+      "slug": "7174aef330fe",
+      "board": "main",
+      "name": "慢慢 Mellow",
+      "intro": "iPhone、iPad 和 Mac 上的原生待办清单。刚关掉清单又想确认时，可以先停几秒；在超市边走边勾选时，可以持续打开同一份清单。已在美国、台湾、香港等 App Store 上架，中国大陆区暂未提供",
+      "introMarkdown": "iPhone、iPad 和 Mac 上的原生待办清单。刚关掉清单又想确认时，可以先停几秒；在超市边走边勾选时，可以持续打开同一份清单。已在美国、台湾、香港等 App Store 上架，中国大陆区暂未提供",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://mellow-site.mellow-app.workers.dev/zh-hant/",
+      "author": "wrli20",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/wrli20"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "86702cfcde57",
+      "board": "main",
+      "name": "AnyStitch 爱拼长图",
+      "intro": "把多张重叠截图或一段滚动录屏拼成一张长图，可调接缝、删掉中间一段、批量遮住重复头像。图像在设备上处理，无需注册。截图拼接和标准 PNG 导出免费，录屏成图可免费预览和编辑，导出需 Pro。支持 iPhone 和 iPad",
+      "introMarkdown": "把多张重叠截图或一段滚动录屏拼成一张长图，可调接缝、删掉中间一段、批量遮住重复头像。图像在设备上处理，无需注册。截图拼接和标准 PNG 导出免费，录屏成图可免费预览和编辑，导出需 Pro。支持 iPhone 和 iPad - [更多介绍](https://www.jmovxia.cn/zh-hans/)",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://apps.apple.com/cn/app/id6820810927",
+      "author": "JmoVxia",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/JmoVxia"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
       "slug": "5e68e8414b5b",
       "board": "main",
       "name": "Voiceshard",
-      "intro": "在浏览器里把文字念成旁白或角色对白，无需注册即可试听；免费登录后可下载 MP3。",
-      "introMarkdown": "在浏览器里把文字念成旁白或角色对白，无需注册即可试听；免费登录后可下载 MP3。",
+      "intro": "在浏览器里把文字念成旁白或角色对白，无需注册即可试听；免费登录后可下载 MP3",
+      "introMarkdown": "在浏览器里把文字念成旁白或角色对白，无需注册即可试听；免费登录后可下载 MP3",
       "status": "live",
       "date": "2026-11-28",
       "url": "https://voiceshard.com/",
@@ -34,8 +72,8 @@
       "slug": "60f58e1a68e5",
       "board": "main",
       "name": "Sonicert",
-      "intro": "上传歌曲或粘贴音频直链，可免费筛查 AI 生成迹象；证据不足时会标明无法判断。",
-      "introMarkdown": "上传歌曲或粘贴音频直链，可免费筛查 AI 生成迹象；证据不足时会标明无法判断。",
+      "intro": "上传歌曲或粘贴音频直链，可免费筛查 AI 生成迹象；证据不足时会标明无法判断",
+      "introMarkdown": "上传歌曲或粘贴音频直链，可免费筛查 AI 生成迹象；证据不足时会标明无法判断",
       "status": "live",
       "date": "2026-11-28",
       "url": "https://sonicert.com/",
@@ -53,8 +91,8 @@
       "slug": "30dcbeb3c26e",
       "board": "main",
       "name": "The Tattoo Generator",
-      "intro": "把纹身想法变成可与纹身师讨论的设计参考，支持字体和位置预览，首张预览免费。",
-      "introMarkdown": "把纹身想法变成可与纹身师讨论的设计参考，支持字体和位置预览，首张预览免费。",
+      "intro": "把纹身想法变成可与纹身师讨论的设计参考，支持字体和位置预览，首张预览免费",
+      "introMarkdown": "把纹身想法变成可与纹身师讨论的设计参考，支持字体和位置预览，首张预览免费",
       "status": "live",
       "date": "2026-11-28",
       "url": "https://thetattoogenerator.com/",
@@ -72,8 +110,8 @@
       "slug": "5ab46fa19a1e",
       "board": "main",
       "name": "Generate AI Rap Video",
-      "intro": "选择说唱或舞蹈场景，上传模板指定的一到两张照片，即可制作适合竖屏分享的短视频。",
-      "introMarkdown": "选择说唱或舞蹈场景，上传模板指定的一到两张照片，即可制作适合竖屏分享的短视频。",
+      "intro": "选择说唱或舞蹈场景，上传模板指定的一到两张照片，即可制作适合竖屏分享的短视频",
+      "introMarkdown": "选择说唱或舞蹈场景，上传模板指定的一到两张照片，即可制作适合竖屏分享的短视频",
       "status": "live",
       "date": "2026-11-28",
       "url": "https://generateairapvideo.com/",
@@ -91,8 +129,8 @@
       "slug": "27e1d1fc840f",
       "board": "main",
       "name": "Handwriting to OCR",
-      "intro": "OCR 文字识别，支持将手写笔记转化为 markdown 或 docx，能识别数学公式（转化为 LaTeX 格式），支持全球 170+ 语言文字。",
-      "introMarkdown": "OCR 文字识别，支持将手写笔记转化为 markdown 或 docx，能识别数学公式（转化为 LaTeX 格式），支持全球 170+ 语言文字。",
+      "intro": "OCR 文字识别，支持将手写笔记转化为 markdown 或 docx，能识别数学公式（转化为 LaTeX 格式），支持全球 170+ 语言文字",
+      "introMarkdown": "OCR 文字识别，支持将手写笔记转化为 markdown 或 docx，能识别数学公式（转化为 LaTeX 格式），支持全球 170+ 语言文字",
       "status": "live",
       "date": "2026-11-28",
       "url": "https://handwritingtoocr.com",
@@ -33285,6 +33323,25 @@
     }
   ],
   "programmer": [
+    {
+      "slug": "d65b24ddbd8b",
+      "board": "programmer",
+      "name": "期末极速备考教练",
+      "intro": "装进 Claude Code、Codex、Cursor 等编程智能体的复习技能，用你自己的课件、作业和往年卷一道一道讲题，每道解答从公式表写起，讲完出一道只改一个条件的变形题，再逐行对照得分步骤检查你的答案；句句标出处，离线运行，免费开源",
+      "introMarkdown": "装进 Claude Code、Codex、Cursor 等编程智能体的复习技能，用你自己的课件、作业和往年卷一道一道讲题，每道解答从公式表写起，讲完出一道只改一个条件的变形题，再逐行对照得分步骤检查你的答案；句句标出处，离线运行，免费开源",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://github.com/ZeKaiNie/universal-examprep-skill",
+      "author": "Exam Cram Coach 团队",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ZeKaiNie/universal-examprep-skill"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "4ba1f610b18b",
       "board": "programmer",
