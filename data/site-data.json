@@ -1,16 +1,111 @@
 {
   "meta": {
-    "contentSyncedAt": "2026-11-28T03:36:38.349Z",
-    "statsSyncedAt": "2026-11-28T03:36:38.349Z",
-    "upstreamSha": "292aaeb19f70316e10f71fd2f751342cb566a209",
+    "contentSyncedAt": "2026-11-28T06:01:45.877Z",
+    "statsSyncedAt": "2026-11-28T06:01:45.877Z",
+    "upstreamSha": "a20808676a5cfe72b07b8523ab5fd08f2d3f77a7",
     "counts": {
-      "main": 1574,
+      "main": 1579,
       "game": 192,
       "programmer": 475,
-      "total": 2241
+      "total": 2246
     }
   },
   "main": [
+    {
+      "slug": "5e68e8414b5b",
+      "board": "main",
+      "name": "Voiceshard",
+      "intro": "在浏览器里把文字念成旁白或角色对白，无需注册即可试听；免费登录后可下载 MP3。",
+      "introMarkdown": "在浏览器里把文字念成旁白或角色对白，无需注册即可试听；免费登录后可下载 MP3。",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://voiceshard.com/",
+      "author": "Yana Li",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/woshiliyana"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "60f58e1a68e5",
+      "board": "main",
+      "name": "Sonicert",
+      "intro": "上传歌曲或粘贴音频直链，可免费筛查 AI 生成迹象；证据不足时会标明无法判断。",
+      "introMarkdown": "上传歌曲或粘贴音频直链，可免费筛查 AI 生成迹象；证据不足时会标明无法判断。",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://sonicert.com/",
+      "author": "Yana Li",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/woshiliyana"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "30dcbeb3c26e",
+      "board": "main",
+      "name": "The Tattoo Generator",
+      "intro": "把纹身想法变成可与纹身师讨论的设计参考，支持字体和位置预览，首张预览免费。",
+      "introMarkdown": "把纹身想法变成可与纹身师讨论的设计参考，支持字体和位置预览，首张预览免费。",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://thetattoogenerator.com/",
+      "author": "Yana Li",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/woshiliyana"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "5ab46fa19a1e",
+      "board": "main",
+      "name": "Generate AI Rap Video",
+      "intro": "选择说唱或舞蹈场景，上传模板指定的一到两张照片，即可制作适合竖屏分享的短视频。",
+      "introMarkdown": "选择说唱或舞蹈场景，上传模板指定的一到两张照片，即可制作适合竖屏分享的短视频。",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://generateairapvideo.com/",
+      "author": "Yana Li",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/woshiliyana"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "slug": "27e1d1fc840f",
+      "board": "main",
+      "name": "Handwriting to OCR",
+      "intro": "OCR 文字识别，支持将手写笔记转化为 markdown 或 docx，能识别数学公式（转化为 LaTeX 格式），支持全球 170+ 语言文字。",
+      "introMarkdown": "OCR 文字识别，支持将手写笔记转化为 markdown 或 docx，能识别数学公式（转化为 LaTeX 格式），支持全球 170+ 语言文字。",
+      "status": "live",
+      "date": "2026-11-28",
+      "url": "https://handwritingtoocr.com",
+      "author": "Dkphhh",
+      "authorLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/dkphhh"
+        }
+      ],
+      "likes": 0,
+      "comments": 0
+    },
     {
       "slug": "40c8be31ecf0",
       "board": "main",
